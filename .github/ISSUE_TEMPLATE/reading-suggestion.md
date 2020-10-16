@@ -1,5 +1,5 @@
 ---
-name: Reading suggestion
+name: Reading suggestion(s)
 about: Suggest some content for us to read/watch/experience
 title: "[SUGGESTION(S)] You suggestion(s) here"
 labels: reading suggestion
