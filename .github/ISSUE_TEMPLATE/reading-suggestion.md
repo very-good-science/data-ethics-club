@@ -15,3 +15,4 @@ For each suggestion, please let us know:
     * Is it a preprint? 
     * Is it very long? If so, do you have a recommended section?
 * A link where it can be accessed
+* Any particular questions or points for discussion
