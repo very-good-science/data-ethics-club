@@ -20,7 +20,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [A toolkit for centering racial equity throughout data integration](https://www.aecf.org/resources/a-toolkit-for-centering-racial-equity-within-data-integration/)<sup>1</sup>
 * [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - #3
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - #2
-* [The Missing Datasets Project](Missing Datasets) - #1
+* [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - #1
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
 * [Collectors, Allies, and Nightlights, Oh My](https://www.wpcjournal.com/article/view/20275)
 * [Machine decisions and human consequences](https://arxiv.org/abs/1811.06747)
