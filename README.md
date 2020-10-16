@@ -1,4 +1,5 @@
-# Ethical Data Science Journal Club :computer: :brain: :bar_chart: :sparkles:
+# Ethical Data Science Journal Club 
+:computer: :brain: :bar_chart: :sparkles:
 A reading list designed to provoke discussion about ethical applications of, and processes for, data science.
 
 ## Organisation
