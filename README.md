@@ -4,7 +4,7 @@
 A reading list designed to provoke discussion about ethical applications of, and processes for, data science.
 
 ## Organisation
-At the moment, we would love suggestions for reading/viewing materials, and to let us know if you're interested.
+At the moment, we would love suggestions for reading/viewing materials. If you'd like to help organise, please [email natalie](mailto:natalie.thurlby@bristol.ac.uk)
 
 When the club emerges from it's chrysalis :bug: :butterfly:, we'll advertise it through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/), we'll advertise the dates right here, and I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
 
