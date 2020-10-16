@@ -1,7 +1,10 @@
 # Ethical Data Science Journal Club
 A reading list designed to provoke discussion about ethical applications of, and processes for, data science.
 
-If you'd like to make a suggestion for what to read, please [make an issue](https://github.com/very-good-science/ethical-data-science-journal-club/issues/new?assignees=NatalieThurlby&labels=reading+suggestion&template=reading-suggestion.md&title=%5BSUGGESTION%5D+You+suggestion+here) or [email natalie](mailto:natalie.thurlby@bristol.ac.uk).
+If you'd like to make a suggestion for what to read, please do whatever you'd prefer:
+* [make an issue](https://github.com/very-good-science/ethical-data-science-journal-club/issues/new?assignees=NatalieThurlby&labels=reading+suggestion&template=reading-suggestion.md&title=%5BSUGGESTION%5D+You+suggestion+here)
+* [email natalie](mailto:natalie.thurlby@bristol.ac.uk)
+* edit this readme and make a pull request
 
 ## Suggestions for reading
 * [Ethical principles in machine learning and artificial intelligence: cases from the field and possible ways forward](https://www.nature.com/articles/s41599-020-0501-9) 
