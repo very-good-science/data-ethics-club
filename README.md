@@ -9,10 +9,11 @@ At the moment, we would love suggestions for reading/viewing materials. If you'd
 When the club emerges from it's chrysalis :bug: :butterfly:, we'll advertise it through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/), we'll advertise the dates right here, and I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
 
 ### Organisers and contacting us.
+If you're interested in joining us in organising, please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) or ping us a message on [our favourite data science Discord](bit.ly/data-discord)- you don't need to be in Bristol.
+
+You can also contact us separately:
 - Nina Di Cara - [twitter](twitter.com/ninadicara), [email](mailto:nina.dicara@bristol.ac.uk)
 - Natalie Thurlby - [twitter](twitter.com/stataliet), [email](mailto:natalie.thurlby@bristol.ac.uk)
-
-If you're interested in joining us in organising, please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) or ping us a message on [our favourite data science Discord](bit.ly/data-discord)- you don't need to be in Bristol.
 
 ## How to make suggestions
 If you'd like to make a suggestion for what to read, please do whatever you'd prefer:
