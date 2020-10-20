@@ -1,7 +1,7 @@
 # Ethical Data Science "Journal" Club 
 :computer: :brain: :bar_chart: :sparkles:
 
-A reading list designed to provoke discussion about ethical applications of, and processes for, data science. "Journal" because we will also read blog posts or (parts of) books. Based in Bristol, but open to all.
+A reading list designed to provoke discussion about ethical applications of, and processes for, data science. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all.
 
 ## Organisation
 At the moment, we would love suggestions for reading/viewing materials. If you'd like to help organise, please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk). 
