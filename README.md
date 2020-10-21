@@ -41,6 +41,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1)
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
 * [Collectors, Allies, and Nightlights, Oh My](https://www.wpcjournal.com/article/view/20275)
+* [Why Open Source misses the point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)
 * [Which programming languages use the least electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
 * [Machine decisions and human consequences](https://arxiv.org/abs/1811.06747)
 * [Bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science)
