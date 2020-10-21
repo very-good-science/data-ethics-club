@@ -48,6 +48,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
 * [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee)
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
+* [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
 
 ### Suggestions for viewing
