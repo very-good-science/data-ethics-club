@@ -50,6 +50,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
+* [Ethical data science](https://arxiv.org/pdf/1411.1373.pdf)<sup>1</sup>
 
 ### Suggestions for viewing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
