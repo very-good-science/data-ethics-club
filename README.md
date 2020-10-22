@@ -53,7 +53,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
 * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
 * [Algorithms Of Opression](https://safiyaunoble.com/research-writing/)<sup>1</sup>
- - Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/)
+    * Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/)
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
 * [Ethical data science](https://arxiv.org/pdf/1411.1373.pdf)<sup>1</sup>
