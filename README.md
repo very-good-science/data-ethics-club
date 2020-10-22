@@ -35,6 +35,8 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Design Justice: Towards an Intersectional Feminist Framework for Design Theory and Practice](https://designjustice.org/s/SSRN-id3189696.pdf)
 * [A toolkit for centering racial equity throughout data integration](https://www.aecf.org/resources/a-toolkit-for-centering-racial-equity-within-data-integration/)<sup>1</sup>
 * [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - [#3](../../issues/3)
+* [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
+* [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)
 * [What is Data Ethics?](https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360)
 * [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376)
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2)
@@ -44,18 +46,27 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Why Open Source misses the point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)
 * [Which programming languages use the least electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
 * [Machine decisions and human consequences](https://arxiv.org/abs/1811.06747)
+* [Privacy is power](https://www.politico.eu/article/privacy-is-power-opinion-data-gdpr/)
 * [Bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science)
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
 * [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee)
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
+* [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
+* [Algorithms Of Opression](https://safiyaunoble.com/research-writing/)<sup>1</sup>
+ - Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/)
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
 * [Ethical data science](https://arxiv.org/pdf/1411.1373.pdf)<sup>1</sup>
 
-### Suggestions for viewing
+### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
 * [Data Feminism Book Club](https://datafeminism.io/blog/book/data-feminism-reading-group/)<sup>1</sup>
     * Chapter 7: "Show your work"
     * The description of "co-liberatory" projects in chapter 5: "Unicorns, janitors, ninjas, wizards and rock stars" 
+* [AI, Ain’t I a Woman?](https://www.youtube.com/watch?v=HZxV9w2o0FM) - poem<sup>2</sup>
+* [How normal am I?](https://www.hownormalami.eu/) - interactive
+
+
 ---
 - [1]: A longer piece of work, we'd need to choose a chapter or section.
+- [2]: A shorter piece of work, perhaps to combine with something else
