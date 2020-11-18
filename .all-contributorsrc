@@ -14,6 +14,16 @@
         "eventOrganizing",
         "ideas"
       ]
+    },
+    {
+      "login": "ninadicara",
+      "name": "Nina",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/44364127?v=4",
+      "profile": "https://github.com/ninadicara",
+      "contributions": [
+        "eventOrganizing",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
