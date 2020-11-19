@@ -16,3 +16,4 @@ For each suggestion, please let us know:
     * Is it very long? If so, do you have a recommended section?
 * A link where it can be accessed
 * Any particular questions or points for discussion
+* Are you happy to be credited for providing this recommendation in our contributors section?
