@@ -17,7 +17,7 @@ The main way to keep informed about upcoming meetings is to join our [mailing li
 
 > :information_source: Mailing list
 > ----
-> Our first meeting will be on **Wednesday 20th January 2021, 1pm-2pm**. 
+> Our first meeting will be on **Wednesday 20th January 2021, 1pm-2pm GMT**. 
 >
 > Please sign up to our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: to keep up to date!
 
