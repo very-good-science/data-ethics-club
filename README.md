@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 :computer: :brain: :bar_chart: :sparkles:
 
@@ -96,6 +96,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/NatalieThurlby"><img src="https://avatars1.githubusercontent.com/u/17617308?v=4" width="100px;" alt=""/><br /><sub><b>NatalieThurlby</b></sub></a><br /><a href="#eventOrganizing-NatalieThurlby" title="Event Organizing">📋</a> <a href="#ideas-NatalieThurlby" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-NatalieThurlby" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ninadicara"><img src="https://avatars1.githubusercontent.com/u/44364127?v=4" width="100px;" alt=""/><br /><sub><b>Nina</b></sub></a><br /><a href="#eventOrganizing-ninadicara" title="Event Organizing">📋</a> <a href="#ideas-ninadicara" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-ninadicara" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/mtwest2718"><img src="https://avatars2.githubusercontent.com/u/8397376?v=4" width="100px;" alt=""/><br /><sub><b>WestByNoreaster</b></sub></a><br /><a href="#content-mtwest2718" title="Content">🖋</a></td>
   </tr>
 </table>
 
