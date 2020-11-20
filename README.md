@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 :computer: :brain: :bar_chart: :sparkles:
 
@@ -52,7 +52,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
 * [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)
 * [What is Data Ethics?](https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360)
-* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376)
+* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by @mtwest2718
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2)
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1)
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
@@ -66,7 +66,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee)
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
 * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
-* [Algorithms Of Opression](https://safiyaunoble.com/research-writing/)<sup>1</sup>
+* [Algorithms Of Opression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by @mtwest2718
     * Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/)
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
@@ -96,6 +96,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/NatalieThurlby"><img src="https://avatars1.githubusercontent.com/u/17617308?v=4" width="100px;" alt=""/><br /><sub><b>NatalieThurlby</b></sub></a><br /><a href="#eventOrganizing-NatalieThurlby" title="Event Organizing">📋</a> <a href="#ideas-NatalieThurlby" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-NatalieThurlby" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/ninadicara"><img src="https://avatars1.githubusercontent.com/u/44364127?v=4" width="100px;" alt=""/><br /><sub><b>Nina</b></sub></a><br /><a href="#eventOrganizing-ninadicara" title="Event Organizing">📋</a> <a href="#ideas-ninadicara" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-ninadicara" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/mtwest2718"><img src="https://avatars2.githubusercontent.com/u/8397376?v=4" width="100px;" alt=""/><br /><sub><b>WestByNoreaster</b></sub></a><br /><a href="#content-mtwest2718" title="Content">🖋</a></td>
   </tr>
 </table>
 
