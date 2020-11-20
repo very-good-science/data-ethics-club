@@ -52,7 +52,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
 * [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)
 * [What is Data Ethics?](https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360)
-* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by @mtwest2718
+* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by [@mtwest2718](https://github.com/mtwest2718)
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2)
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1)
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
@@ -66,7 +66,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee)
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
 * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
-* [Algorithms Of Opression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by @mtwest2718
+* [Algorithms Of Opression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by [@mtwest2718](https://github.com/mtwest2718)
     * Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/)
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
