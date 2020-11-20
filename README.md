@@ -6,7 +6,11 @@
 
 Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all.
 
-> :information_source: Our first meeting will be on **Wednesday 20th January 2021, 1pm-2pm**. Please sign up to our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: to keep up to date!
+> :information_source: **INFO!**
+> ----
+> Our first meeting will be on **Wednesday 20th January 2021, 1pm-2pm**. 
+>
+> Please sign up to our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: to keep up to date!
 
 While you're here, you may also want to:
 * enjoy our [reading list](#reading-list).
