@@ -4,13 +4,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 :computer: :brain: :bar_chart: :sparkles:
 
-Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all.
-
-> :information_source: **Stay in the loop: join our [mailing list](http://eepurl.com/hjkmnX)**
-> ----
-> Our first meeting will be on **Wednesday 20th January 2021, 1pm-2pm**. 
->
-> Please sign up to our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: to keep up to date!
+Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all. To [stay in the loop](#stay-in-the-loop), please join our [mailing list](http://eepurl.com/hjkmnX).
 
 While you're here, you may also want to:
 * enjoy our [reading list](#reading-list).
@@ -18,8 +12,16 @@ While you're here, you may also want to:
 * [get involved in organising](#get-involved).
 
 ## Stay in the loop
-We advertise meetings:
-- Through the **[Data Ethics Club Mailing List](http://eepurl.com/hjkmnX)**
+
+The main way to keep informed about upcoming meetings is to join our [mailing list](http://eepurl.com/hjkmnX):
+
+> :information_source: Mailing list
+> ----
+> Our first meeting will be on **Wednesday 20th January 2021, 1pm-2pm**. 
+>
+> Please sign up to our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: to keep up to date!
+
+We also advertise meetings:
 - Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
 - By putting the dates right here in this repository.
 - I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
