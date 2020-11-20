@@ -6,14 +6,19 @@
 
 Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all.
 
-We're in the planning stage right now :bug:, so for now:
+> :information_source: Our first meeting will be on **Wednesday 20th January 2021, 1pm-2pm**. Please sign up to our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: to keep up to date!
+
+While you're here, you may also want to:
 * enjoy our [reading list](#reading-list).
 * [suggest reading materials](#how-to-make-suggestions).
 * [get involved in organising](#get-involved).
-* [stay in the loop](#stay-in-the-loop) to hear about our first events.
 
 ## Stay in the loop
-When the club emerges from it's chrysalis :bug: -> :butterfly:, we'll advertise events through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/), we'll advertise the dates right here, and I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
+We advertise meetings:
+- Through the **[Data Ethics Club Mailing List](http://eepurl.com/hjkmnX)**
+- Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
+- By putting the dates right here in this repository.
+- I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
 
 ## Get Involved
 If you're interested in joining us in organising, please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) or ping us a message on [our favourite data science Discord](bit.ly/data-discord)- you don't need to be in Bristol.
