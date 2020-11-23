@@ -23,10 +23,10 @@ The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to joi
 
 We also advertise meetings:
 - Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
-- By putting the dates right here in this repository.
+- By putting the dates [right here in this repository](./MEETINGS.md).
 - I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
 
-## Get Involved
+## Get Involved :thought_balloon: :speech_balloon:
 If you're interested in joining us in organising, please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) or ping us a message on [our favourite data science Discord](bit.ly/data-discord)- you don't need to be in Bristol.
 
 ### Organisers
@@ -40,7 +40,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
 * edit this readme and make a pull request
 
-## Reading list
+## Reading list :book: :movie_camera:
 
 ### Suggetions for reading:
 * [Google's AI principles](https://blog.google/technology/ai/ai-principles/)
@@ -87,7 +87,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people ([emoji key]):
+Thanks goes to these wonderful people ([emoji key](#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
@@ -106,8 +106,9 @@ Thanks goes to these wonderful people ([emoji key]):
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
-[emoji key]: This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification, with some small tweaks to fit our purposes!  We use...  
-+ 🖋  for suggestions to the discussion content list  
+#### Emoji Key
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification, with some small tweaks to fit our purposes!  We use...  
++ 🖋  for submitting suggestions to the "reading" list (suggestions can be any medium!)
 + 💬  for leading the discussion in a meeting  
 + 📋  for organising  
 + 🤔  for ideas and planning of the group
