@@ -26,7 +26,7 @@ We also advertise meetings:
 - By putting the dates [right here in this repository](./MEETINGS.md).
 - I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
 
-## Get Involved :thought_balloon: :speech_balloon:
+## Get Involved
 If you're interested in joining us in organising, please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) or ping us a message on [our favourite data science Discord](bit.ly/data-discord)- you don't need to be in Bristol.
 
 ### Organisers
@@ -40,7 +40,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
 * edit this readme and make a pull request
 
-## Reading list :book: :movie_camera:
+## Reading list
 
 ### Suggetions for reading:
 * [Google's AI principles](https://blog.google/technology/ai/ai-principles/)
