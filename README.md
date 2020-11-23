@@ -4,7 +4,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 :computer: :brain: :bar_chart: :sparkles:
 
-Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all. To [stay in the loop](#stay-in-the-loop), please join our [mailing list](http://eepurl.com/hjkmnX).
+Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all. To [stay in the loop](#stay-in-the-loop), please join our [mailing list](http://eepurl.com/hjkmnX). You can see the dates of our upcoming meetings [here](./MEETINGS.md).
 
 While you're here, you may also want to:
 * enjoy our [reading list](#reading-list).
@@ -13,7 +13,7 @@ While you're here, you may also want to:
 
 ## Stay in the loop
 
-The main way to keep informed about upcoming meetings is to join our [mailing list](http://eepurl.com/hjkmnX):
+The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our [mailing list](http://eepurl.com/hjkmnX):
 
 > :information_source: Mailing list
 > ----
