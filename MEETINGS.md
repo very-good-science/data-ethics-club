@@ -6,7 +6,7 @@ We will meet on Zoom - to recieve the link then [please sign up to the mailing l
 
 | Upcoming Meetings |
 |-------------------|
-| 20.01.2020, 1pm   |
+| [20.01.2020, 1pm](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/20-01-21_meeting.md)   |
 | 03.02.2020, 1pm   |
 | 17.02.2020, 1pm   |
 | 03.03.2020, 1pm   |
