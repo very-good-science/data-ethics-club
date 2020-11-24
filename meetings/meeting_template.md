@@ -1,4 +1,4 @@
-## Data Ethics Club meeting DD-MM-YY, [MEETING-TIME GMT](LINK-TO-TIMEDATE)
+# Data Ethics Club meeting DD-MM-YY, [MEETING-TIME GMT](LINK-TO-TIMEDATE)
 <!-- 
 TODO:
 - [ ] Change to a new branch (DD-MM-YY_meeting)
@@ -13,9 +13,12 @@ TODO:
 Repeat meeting link is currently: https://zoom.us/j/3487598280
 Usual time 13:00-14:00
 -->
+## Meeting info
 
 ### Quick links
+
 Zoom link: ZOOM-LINK
+
 Link to content: CONTENT-LINK
 
 ### Description
@@ -31,4 +34,16 @@ There will be time to talk about whatever we like, relating to the paper, but he
 - DISCUSSION-POINT-THREE
 
 ---
-Hope to see you there!
+
+<!--
+
+## Meeting notes
+
+### Who came
+Number of people:
+
+### What did we think?
+Notes here!
+Shall we email the author? If so, who'll send the email?
+
+-->

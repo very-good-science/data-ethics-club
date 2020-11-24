@@ -11,7 +11,9 @@ Repeat meeting link is currently: https://zoom.us/j/3487598280
 -->
 
 ### Quick links
+
 Zoom link: https://zoom.us/j/3487598280 
+
 Link to content: CONTENT-LINK
 
 ### Description
@@ -27,4 +29,15 @@ There will be time to talk about whatever we like, relating to the paper, but he
 - DISCUSSION-POINT-THREE
 
 ---
-Hope to see you there!
+<!--
+
+## Meeting notes
+
+### Who came
+Number of people:
+
+### What did we think?
+Notes here!
+Shall we email the author? If so, who'll send the email?
+
+-->
