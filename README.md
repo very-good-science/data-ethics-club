@@ -42,7 +42,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 
 ## Reading list
 
-### Suggetions for reading:
+### Suggestions for reading:
 * [Google's AI principles](https://blog.google/technology/ai/ai-principles/)
 * [Ethical principles in machine learning and artificial intelligence: cases from the field and possible ways forward](https://www.nature.com/articles/s41599-020-0501-9) 
 * [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)
