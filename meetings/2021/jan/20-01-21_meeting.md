@@ -4,7 +4,7 @@ TODO:
 - [x] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html 
 - [x] Change all ALL-CAPS placeholders in this form 
 - [x] Add link in MEETINGS.md
-- [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
+- [x] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
 - [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
 
 Repeat meeting link is currently: https://zoom.us/j/3487598280
