@@ -19,7 +19,7 @@ Executive Summary: [(UoB Sharepoint)](https://uob.sharepoint.com/:b:/t/grp-ethic
 [For the brave: the full (very long!) report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/939109/CDEI_review_into_bias_in_algorithmic_decision-making.pdf)
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 20th January at [13:00-14:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20210120T13&p1=%3A&ah=1). You don't need to register, just drop in. This time we're going to watch/read the [Executive Summary of the Review into bias in algorithmic decision making](20-01-20_cdei_algorithmic_bias_summary.pd) by the Centre for Data Ethics and Innovation (CDEI), which is a recently published (end of November 2020) government report. 
+You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 20th January at [13:00-14:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20210120T13&p1=%3A&ah=1). You don't need to register, just drop in. This time we're going to watch/read the [Executive Summary of the Review into bias in algorithmic decision making](20-01-20_cdei_algorithmic_bias_summary.pdf) by the Centre for Data Ethics and Innovation (CDEI), which is a recently published (end of November 2020) government report. 
 
 Natalie suggested this week's content, and will be leading this week's meeting.
 
