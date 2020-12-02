@@ -36,6 +36,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "robertarbon",
+      "name": "robertarbon",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/7603520?v=4",
+      "profile": "https://github.com/RobertArbon",
+      "contributions": [
+        "design",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
