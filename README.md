@@ -115,3 +115,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 + 💬  for leading the discussion in a meeting  
 + 📋  for organising  
 + 🤔  for ideas and planning of the group
++ 🎨  for visual design (e.g. logo)
