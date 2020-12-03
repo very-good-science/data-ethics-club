@@ -65,7 +65,16 @@
       "contributions": [
         "content"
       ]
-    }
+    },
+    {
+      "login": "",
+      "name": "Miranda Mowbray",
+      "avatar_url": "",
+      "profile": "http://www.bristol.ac.uk/engineering/people/miranda-j-mowbray/overview.html",
+      "contributions": [
+        "content"
+      ]
+    }    
   ],
   "contributorsPerLine": 7,
   "projectName": "data-ethics-club",
