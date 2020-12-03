@@ -54,7 +54,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - [#3](../../issues/3) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
 * [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)
-* [What is Data Ethics?](https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360)
+* [What is Data Ethics?](https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360)<sup>1</sup>
 * [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by [@mtwest2718](https://github.com/mtwest2718)
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
@@ -64,7 +64,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Which programming languages use the least electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
 * [Machine decisions and human consequences](https://arxiv.org/abs/1811.06747)
 * [Privacy is power](https://www.politico.eu/article/privacy-is-power-opinion-data-gdpr/)
-* [Bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science)
+* [Bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
 * [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee)
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
@@ -74,6 +74,9 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
 * [Ethical data science](https://arxiv.org/pdf/1411.1373.pdf)<sup>1</sup>
+* [Automating Inequality](https://virginia-eubanks.com/)<sup>1</sup> - suggested by Valentina Ragni
+  * [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/)
+  * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
 
 ### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
