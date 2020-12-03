@@ -121,3 +121,4 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 + 📋  for organising  
 + 🤔  for ideas and planning of the group
 + 🎨  for visual design (e.g. logo)
++ 🚇  for infrastructure (e.g. bots, CI)
