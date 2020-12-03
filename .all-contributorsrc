@@ -46,6 +46,15 @@
         "design",
         "content"
       ]
+    },
+    {
+      "login": "milliams",
+      "name": "Matt Williams",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/61316?v=4",
+      "profile": "http://milliams.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
