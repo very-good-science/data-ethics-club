@@ -14,7 +14,8 @@
         "eventOrganizing",
         "ideas",
         "content",
-        "design"
+        "design",
+        "test"
       ]
     },
     {
@@ -74,7 +75,7 @@
       "contributions": [
         "content"
       ]
-    }    
+    }
   ],
   "contributorsPerLine": 7,
   "projectName": "data-ethics-club",
