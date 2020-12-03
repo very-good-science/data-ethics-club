@@ -45,8 +45,8 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 ## Reading list
 
 ### Suggestions for reading:
-* [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by Natalie
-* [Google's AI principles](https://blog.google/technology/ai/ai-principles/)
+* [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
+* [Google's AI principles](https://blog.google/technology/ai/ai-principles/) - suggested by [@milliams](http://milliams.com)
 * [Ethical principles in machine learning and artificial intelligence: cases from the field and possible ways forward](https://www.nature.com/articles/s41599-020-0501-9) 
 * [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)
 * [Design Justice: Towards an Intersectional Feminist Framework for Design Theory and Practice](https://designjustice.org/s/SSRN-id3189696.pdf)
