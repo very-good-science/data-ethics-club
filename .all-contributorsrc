@@ -74,6 +74,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "edwinrobots",
+      "name": "Edwin Simpson",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6043987?v=4",
+      "profile": "https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
