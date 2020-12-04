@@ -73,6 +73,8 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
 * [Ethical data science](https://arxiv.org/pdf/1411.1373.pdf)<sup>1</sup>
+* [Fairness and utilization in allocating resources with uncertain demand](https://dl.acm.org/doi/abs/10.1145/3351095.3372847) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
+* [What does it mean to 'solve' the problem of discrimination in hiring?](https://dl.acm.org/doi/abs/10.1145/3351095.3372849) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
 * [Automating Inequality](https://virginia-eubanks.com/)<sup>1</sup> - suggested by Valentina Ragni
   * [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/)
   * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
