@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="logo.png">
@@ -116,6 +116,7 @@ Thanks goes to these wonderful people ([emoji key](#emoji-key)):
   </tr>
   <tr>
     <td align="center"><a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp"><img src="https://avatars1.githubusercontent.com/u/6043987?v=4" width="100px;" alt=""/><br /><sub><b>Edwin Simpson</b></sub></a><br /><a href="#content-edwinrobots" title="Content">🖋</a></td>
+    <td align="center"><a href="http://dynamicgenetics.org"><img src="https://avatars0.githubusercontent.com/u/1908453?v=4" width="100px;" alt=""/><br /><sub><b>Valerio Maggio</b></sub></a><br /><a href="#content-leriomaggio" title="Content">🖋</a></td>
   </tr>
 </table>
 
