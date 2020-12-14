@@ -40,7 +40,7 @@ You can also contact us separately:
 If you'd like to make a suggestion for what to read, please do whatever you'd prefer:
 * [make an issue](https://github.com/very-good-science/ethical-data-science-journal-club/issues/new/choose) - use the reading suggestion(s) template.
 * [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
-* edit this readme and make a pull request
+* edit this README and make a Pull Request (PR)
 
 ## Reading list
 
@@ -48,6 +48,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [Google's AI principles](https://blog.google/technology/ai/ai-principles/) - suggested by [@milliams](http://milliams.com)
 * [Ethical principles in machine learning and artificial intelligence: cases from the field and possible ways forward](https://www.nature.com/articles/s41599-020-0501-9) 
+* [Introduction to Research Ethics](https://the-turing-way.netlify.app/ethical-research/ethics-intro.html) - suggested by [@leriomaggio](https://github.com/leriomaggio)
 * [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)
 * [Design Justice: Towards an Intersectional Feminist Framework for Design Theory and Practice](https://designjustice.org/s/SSRN-id3189696.pdf)
 * [A toolkit for centering racial equity throughout data integration](https://www.aecf.org/resources/a-toolkit-for-centering-racial-equity-within-data-integration/)<sup>1</sup>
@@ -59,6 +60,8 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
+* [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/pdf/1607.06520.pdf) - suggested by [@leriomaggio](https://github.com/leriomaggio)
+* [Gender Bias and Sexism in Language](https://oxfordre.com/communication/view/10.1093/acrefore/9780190228613.001.0001/acrefore-9780190228613-e-470#acrefore-9780190228613-e-470-bibItem-0028) - suggested by [@leriomaggio](https://github.com/leriomaggio)
 * [Collectors, Allies, and Nightlights, Oh My](https://www.wpcjournal.com/article/view/20275)
 * [Why Open Source misses the point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)
 * [Which programming languages use the least electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
@@ -79,6 +82,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
   * [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/)
   * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
   * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
+
 
 ### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
