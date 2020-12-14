@@ -40,7 +40,7 @@ You can also contact us separately:
 If you'd like to make a suggestion for what to read, please do whatever you'd prefer:
 * [make an issue](https://github.com/very-good-science/ethical-data-science-journal-club/issues/new/choose) - use the reading suggestion(s) template.
 * [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
-* edit this readme and make a pull request
+* edit this README and make a Pull Request (PR)
 
 ## Reading list
 
