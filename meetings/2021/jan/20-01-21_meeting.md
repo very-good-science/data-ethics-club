@@ -28,6 +28,7 @@ Natalie suggested this week's content, and will be leading this week's meeting.
 There will be time to talk about whatever we like (relating to the content), but here are some specific questions to think about while you're reading.
 - Were you surprised by any of the examples of algorithmic decision making currently in use?
 - Which of the CDEI's recommendations do you agree/disagree with?
+- Are there any recommendations that you think are missing?
 
 ---
 <!--
