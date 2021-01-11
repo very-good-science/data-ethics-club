@@ -45,6 +45,11 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 ## Reading list
 
 ### Suggestions for reading:
+* [Review into bias in algorithmic decision making](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/939109/CDEI_review_into_bias_in_algorithmic_decision-making.pdf) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)<sup>1</sup>
+  * Suggested excerpt: [executive summary](meetings/2021/jan/20-01-21_meeting.md)
+  * Related articles: 
+    * [Accountability for algorithms: a response to the CDEI review into bias in algorithmic decision-making](https://www.adalovelaceinstitute.org/blog/response-to-cdei-review-bias-algorithmic-decision-making/) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
+    * [Artificial intelligence and transparency in the public sector](https://blog.burges-salmon.com/post/102gnvk/artificial-intelligence-and-transparency-in-the-public-sector) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
 * [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [Google's AI principles](https://blog.google/technology/ai/ai-principles/) - suggested by [@milliams](http://milliams.com)
 * [Ethical principles in machine learning and artificial intelligence: cases from the field and possible ways forward](https://www.nature.com/articles/s41599-020-0501-9) 
@@ -82,7 +87,8 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
   * [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/)
   * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
   * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
-
+* [Explainable machine learning: how can you determine what a party knew or intended when a decision was made by machine-learning?
+](https://www.scl.org/articles/12130-explainable-machine-learning-how-can-you-determine-what-a-party-knew-or-intended-when-a-decision-was-made-by-machine-learning) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
 
 ### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
