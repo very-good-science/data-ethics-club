@@ -92,6 +92,15 @@
       "contributions": [
         "content"
       ]
+    },
+        {
+      "login": "",
+      "name": "Tom Whittaker",
+      "avatar_url": "https://www.burges-salmon.com/-/media/images/profile-images/tom-whittaker.jpg",
+      "profile": "https://blog.burges-salmon.com/u/102g2vz/tom-whittaker",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
