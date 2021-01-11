@@ -46,7 +46,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 
 ### Suggestions for reading:
 * [Review into bias in algorithmic decision making](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/939109/CDEI_review_into_bias_in_algorithmic_decision-making.pdf) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)<sup>1</sup>
-  * Suggested excerpt: [executive summary](meetings/2021/jan/20-01-21_meeting.md)
+  * Suggested excerpt: [executive summary](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/jan/20-01-20_cdei_algorithmic_bias_summary.pdf) - reading material for [the 20th January 2021 meeting](meetings/2021/jan/20-01-21_meeting.md)
   * Related articles: 
     * [Accountability for algorithms: a response to the CDEI review into bias in algorithmic decision-making](https://www.adalovelaceinstitute.org/blog/response-to-cdei-review-bias-algorithmic-decision-making/) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
     * [Artificial intelligence and transparency in the public sector](https://blog.burges-salmon.com/post/102gnvk/artificial-intelligence-and-transparency-in-the-public-sector) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
