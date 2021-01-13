@@ -10,7 +10,8 @@ TODO:
 - [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
 - [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
 
-Repeat meeting link is currently: https://zoom.us/j/3487598280
+Repeat meeting link is currently: https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExMnJON3pDUT09
+
 Usual time 13:00-14:00
 -->
 ## Meeting info
