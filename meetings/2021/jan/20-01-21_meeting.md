@@ -7,12 +7,13 @@ TODO:
 - [x] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
 - [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
 
-Repeat meeting link is currently: https://zoom.us/j/3487598280
+Repeat meeting link is currently: https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExMnJON3pDUT09
+
 -->
 
 ### Quick links
 
-**Zoom link:** https://zoom.us/j/3487598280 
+**Zoom link:** https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExMnJON3pDUT09
 
 **Links to content:**
 - The executive summary (that we're reading): [UoB Sharepoint link](https://uob.sharepoint.com/:b:/t/grp-ethicaldatascience/EagL2FPRAatGu7gwbkgJE3gBFbhNsH5uaSeNM0_xqG4Bmw?e=8oftZD), [GitHub link](20-01-20_cdei_algorithmic_bias_summary.pdf)
