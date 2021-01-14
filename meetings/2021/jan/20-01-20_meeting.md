@@ -1,4 +1,4 @@
-## Data Ethics Club meeting 20-01-21, [13:00-14:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20210120T13&p1=%3A&ah=1)
+## Data Ethics Club meeting 20-01-20, [13:00-14:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20210120T13&p1=%3A&ah=1)
 <!-- 
 TODO:
 - [x] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html 
