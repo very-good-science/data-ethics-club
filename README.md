@@ -61,7 +61,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
 * [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)
 * [What is Data Ethics?](https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360)<sup>1</sup>
-* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by [@mtwest2718](https://github.com/mtwest2718)
+* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by [@RobertArbon](https://github.com/RobertArbon)
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
@@ -76,14 +76,14 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
 * [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee)
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
-* [Algorithms Of Opression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by [@mtwest2718](https://github.com/mtwest2718)
+* [Algorithms Of Oppression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by [@mtwest2718](https://github.com/mtwest2718)
     * Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/)
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
 * [Ethical data science](https://arxiv.org/pdf/1411.1373.pdf)<sup>1</sup>
 * [Fairness and utilization in allocating resources with uncertain demand](https://dl.acm.org/doi/abs/10.1145/3351095.3372847) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
 * [What does it mean to 'solve' the problem of discrimination in hiring?](https://dl.acm.org/doi/abs/10.1145/3351095.3372849) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
-* [Automating Inequality](https://virginia-eubanks.com/)<sup>1</sup> - suggested by Valentina Ragni
+* [Automating Inequality](https://virginia-eubanks.com/)<sup>1</sup> - suggested by Valentina Ragni and [@mtwest2718](https://github.com/mtwest2718)
   * [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/)
   * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
   * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
