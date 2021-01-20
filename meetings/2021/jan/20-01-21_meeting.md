@@ -5,7 +5,7 @@ TODO:
 - [x] Change all ALL-CAPS placeholders in this form 
 - [x] Add link in MEETINGS.md
 - [x] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
-- [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
+- [x] Maybe tweet it? #DataEthicsClub @jgiBristol
 
 Repeat meeting link is currently: https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExMnJON3pDUT09
 
@@ -32,15 +32,14 @@ There will be time to talk about whatever we like (relating to the content), but
 - Are there any recommendations that you think are missing?
 
 ---
-<!--
 
 ## Meeting notes
 
-### Who came
-Number of people:
-
 ### What did we think?
-Notes here!
-Shall we email the author? If so, who'll send the email?
-
--->
+A summary of the discussion was that: 
+- The report didn't shy away from the potential harms which was good. 
+- There is a sense of the tracks being laid in front of the train in terms of regulation. One group felt there is a need for more guidance for private companies, but who is responsible for implementing that? 
+- Also, how do you regulate algorithms? One rule will not fit all, and it will be a difficult field to manage in this sense. 
+- It's likely that there aren't enough people who understand enough about algorithms to assess whether they are a good idea for their use case. There are also times where algorithms are sold for a use case that should not be using algorithms at all. Pressures on funding, particuarly in local gov and police, make these seem more tempting though. 
+- How can we centre the data subject? Do they know what their data are being used for, and the impacts of it? 
+- Recommendations to collect more info about protected characteristics were open to question - who will volunteer this data, and will this serve the people who it needs to (who may be especially unlikely to provide this data in the first place). 
