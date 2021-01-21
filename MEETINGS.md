@@ -6,8 +6,7 @@ We will meet on Zoom - the link will be sent out on the [mailing list](http://ee
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [20.01.2021, 1pm](meetings/2021/jan/20-01-21_meeting.md)   | [Executive Summary of the Review into bias in algorithmic decision making](meetings/2021/jan/20-01-20_cdei_algorithmic_bias_summary.pdf)|
-| [03.02.2021, 1pm](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/02-feb/03-02-21_meeting.md)                                        | [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee) |
+| [03.02.2021, 1pm](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/02-feb/03-02-21_meeting.md)| [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee) |
 | 17.02.2021, 1pm                                        |                     |
 | 03.03.2021, 1pm                                        |                     |
 | 17.03.2021, 1pm                                        |                     |
@@ -18,6 +17,6 @@ We will meet on Zoom - the link will be sent out on the [mailing list](http://ee
 
 You can also see a record of what we have discussed previously here:
 
-| Previous Meetings |
-|-------------------|
-|                   |
+| Previous Meetings | Discussion Material |
+|-------------------|---------------------|
+| [20.01.2021, 1pm](meetings/2021/jan/20-01-21_meeting.md)   | [Executive Summary of the Review into bias in algorithmic decision making](meetings/2021/jan/20-01-20_cdei_algorithmic_bias_summary.pdf)|
