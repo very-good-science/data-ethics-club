@@ -89,6 +89,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
   * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
 * [Explainable machine learning: how can you determine what a party knew or intended when a decision was made by machine-learning?
 ](https://www.scl.org/articles/12130-explainable-machine-learning-how-can-you-determine-what-a-party-knew-or-intended-when-a-decision-was-made-by-machine-learning) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
+* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) - suggested by [@ninadicara](https://github.com/ninadicara)
 
 ### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
