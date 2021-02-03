@@ -15,13 +15,7 @@ While you're here, you may also want to:
 
 ## Stay in the loop
 
-The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our [mailing list](http://eepurl.com/hjkmnX):
-
-> :information_source: Mailing list
-> ----
-> Our first meeting will be on **Wednesday 20th January 2021, 1pm-2pm GMT**. 
->
-> Please sign up to our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: to keep up to date!
+The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: !
 
 We also advertise meetings:
 - Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
