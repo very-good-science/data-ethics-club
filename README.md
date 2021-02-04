@@ -92,6 +92,8 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
     * The description of "co-liberatory" projects in chapter 5: "Unicorns, janitors, ninjas, wizards and rock stars" 
 * [AI, Ain’t I a Woman?](https://www.youtube.com/watch?v=HZxV9w2o0FM) - poem<sup>2</sup>
 * [How normal am I?](https://www.hownormalami.eu/) - interactive
+* [Fast AI Practical Data Ethics lecture series](https://ethics.fast.ai/)<sup>1</sup>
+    * [Lesson 6 - Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9)
 
 
 ---
