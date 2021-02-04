@@ -17,13 +17,13 @@ While you're here, you may also want to:
 
 The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: !
 
-We also advertise meetings:
+In addition to the [mailing list](http://eepurl.com/hjkmnX) (which is the main way to stay in the loop), we will also advertise meetings:
 - Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
 - By putting the dates [right here in this repository](./MEETINGS.md).
 - I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
 
 ## Get Involved
-If you're interested in joining us in organising, please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) or ping us a message on [our favourite data science Discord](bit.ly/data-discord)- you don't need to be in Bristol.
+If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
 
 ### Organisers
 You can also contact us separately:
@@ -38,9 +38,11 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 
 ## Reading list
 
+:white_check_mark: = we've read it
+
 ### Suggestions for reading:
 * [Review into bias in algorithmic decision making](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/939109/CDEI_review_into_bias_in_algorithmic_decision-making.pdf) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)<sup>1</sup>
-  * Suggested excerpt: [executive summary](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/jan/20-01-20_cdei_algorithmic_bias_summary.pdf) - reading material for [the 20th January 2021 meeting](meetings/2021/jan/20-01-21_meeting.md)
+  * Suggested excerpt: [executive summary](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/jan/20-01-20_cdei_algorithmic_bias_summary.pdf) - [:white_check_mark: 20th January 2021](meetings/2021/01-jan/20-01-21_meeting.md)
   * Related articles: 
     * [Accountability for algorithms: a response to the CDEI review into bias in algorithmic decision-making](https://www.adalovelaceinstitute.org/blog/response-to-cdei-review-bias-algorithmic-decision-making/) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
     * [Artificial intelligence and transparency in the public sector](https://blog.burges-salmon.com/post/102gnvk/artificial-intelligence-and-transparency-in-the-public-sector) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
@@ -68,7 +70,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Privacy is power](https://www.politico.eu/article/privacy-is-power-opinion-data-gdpr/)
 * [Bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
-* [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee)
+* [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee) - :white_check_mark: [3rd Feb 2021](./meetings/2021/02-feb/03-02-21_meeting.md)
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
 * [Algorithms Of Oppression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by [@mtwest2718](https://github.com/mtwest2718)
     * Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/)
@@ -83,7 +85,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
   * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
 * [Explainable machine learning: how can you determine what a party knew or intended when a decision was made by machine-learning?
 ](https://www.scl.org/articles/12130-explainable-machine-learning-how-can-you-determine-what-a-party-knew-or-intended-when-a-decision-was-made-by-machine-learning) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
-* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) - suggested by [@ninadicara](https://github.com/ninadicara)
+* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) - suggested by [@ninadicara](https://github.com/ninadicara) - reading [17th February 2021](./meetings/2021/02-feb/17-02-21_meeting.md)
 
 ### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
@@ -92,8 +94,6 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
     * The description of "co-liberatory" projects in chapter 5: "Unicorns, janitors, ninjas, wizards and rock stars" 
 * [AI, Ain’t I a Woman?](https://www.youtube.com/watch?v=HZxV9w2o0FM) - poem<sup>2</sup>
 * [How normal am I?](https://www.hownormalami.eu/) - interactive
-* [Fast AI Practical Data Ethics lecture series](https://ethics.fast.ai/)<sup>1</sup>
-    * [Lesson 6 - Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9)
 
 
 ---
