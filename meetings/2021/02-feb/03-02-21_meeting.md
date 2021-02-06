@@ -38,15 +38,11 @@ There will be time to talk about whatever we like, relating to the paper, but he
 
 ---
 
-<!--
-
 ## Meeting notes
 
-### Who came
-Number of people:
+### What did we talk about?
+[See Nina's twitter summary](https://twitter.com/ninadicara/status/1356976821498175491)
 
 ### What did we think?
-Notes here!
-Shall we email the author? If so, who'll send the email?
-
--->
+100% (16 people) said it sparked an interesting discussion.
+88% (14 people) said they'd recommend the content to a friend/colleague.
