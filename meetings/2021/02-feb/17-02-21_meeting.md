@@ -37,7 +37,7 @@ There will be time to talk about whatever we like, relating to the paper, but he
 - What are the implications of the fact that Google did not want this paper published?
 
 Other things to think about:
-- At the beginning of the meeting, we'll start by inviting an attendee to volunteer to summarise the paper: we would welcome a ~3 minute summary of the problem.
+- At the beginning of the meeting, we'll start by inviting an attendee to volunteer to summarise the paper: we would welcome a ~3 minute summary of the paper.
 - This paper is more technical than our previous ones. In any good journal club, the discussion is an opportunity to ask questions about any bits that you didn't understand, so keeping a note of any questions might be helpful in sparking discussion, too.
 
 ---
