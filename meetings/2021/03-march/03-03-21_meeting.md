@@ -37,7 +37,7 @@ Thank you to [@robertarbon](https://github.com/RobertArbon) for suggesting this 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
 - What did you think about Birhane's description of relationality and how data science fits with it?
 - Birhane says that "“fixing” bias [makes] the assumption that there exists a single correct description of reality where a deviation from it has resulted in bias". What are your thoughts on this?
-- In one if its final points the paper invites us to move away from only using machine learning to find patterns and instead examine the patterns we find and ask why we are finding them. Do you think this applies equally across applications of ML?
+- In one of the final points in the paper invites us to move away from only using machine learning to find patterns and instead examine the patterns we find and ask why we are finding them. Do you think this applies equally across applications of ML?
 
 ---
 
