@@ -40,6 +40,14 @@ Other things to think about:
 - At the beginning of the meeting, we'll start by inviting an attendee to volunteer to summarise the paper: we would welcome a ~3 minute summary of the paper.
 - This paper is more technical than our previous ones. In any good journal club, the discussion is an opportunity to ask questions about any bits that you didn't understand, so keeping a note of any questions might be helpful in sparking discussion, too.
 
+## Meeting notes
+
+### Who came
+Number of people: 16
+
+### What did we think?
+Nat did a great summary of our discussion on Twitter. [You can find it here!](https://twitter.com/StatalieT/status/1362045192543600641?s=20)
+
 ---
 
 <!--
