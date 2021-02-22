@@ -25,10 +25,12 @@ Link to content: https://www.sciencedirect.com/science/article/pii/S266638992100
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on 3rd March at [1-2pm GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Towards+a+relational+ethics&iso=20210303T13&p1=%3A&ah=1). 
-You don't need to register, just pop in. This time we're going to read [Algorithmic injustice: a relational ethics approach
-](https://www.sciencedirect.com/science/article/pii/S2666389921000155) by Abeba Birhane, which calls for a system-wide acceptance of critical work as an essential component of AI ethics, fairness, and justice.
+You don't need to register, just pop in.  
 
-Thank you to @robertarbon for suggesting this week's content, and to Nina, who'll be leading this week's meeting.
+This time we're going to read [Algorithmic injustice: a relational ethics approach
+](https://www.sciencedirect.com/science/article/pii/S2666389921000155) by Abeba Birhane, which calls for a system-wide acceptance of critical thought about context and implications as an essential component of AI ethics, fairness, and justice.
+
+Thank you to [@robertarbon](https://github.com/RobertArbon) for suggesting this week's content, and to [@ninadicara](https://github.com/ninadicara), who'll be leading this week's meeting.
 
 ### Discussion points
 
