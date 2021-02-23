@@ -46,6 +46,9 @@ Other things to think about:
 Number of people: 16
 
 ### What did we think?
+14/14 voters agreed that the content sparked interesting discussion.
+14/14 voters would recommend the content to others.
+
 Nat did a great summary of our discussion on Twitter. [You can find it here!](https://twitter.com/StatalieT/status/1362045192543600641?s=20)
 
 ---
