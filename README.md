@@ -87,6 +87,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 ](https://www.scl.org/articles/12130-explainable-machine-learning-how-can-you-determine-what-a-party-knew-or-intended-when-a-decision-was-made-by-machine-learning) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
 * [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) - suggested by [@ninadicara](https://github.com/ninadicara) - :white_check_mark: [17th February 2021](./meetings/2021/02-feb/17-02-21_meeting.md)
 * [Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics](https://muse.jhu.edu/article/732185) 
+* [Whiteness In Statistics](https://joelemartinez.com/2016/12/28/whiteness-in-statistics/) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 
 ### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
