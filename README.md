@@ -13,6 +13,11 @@ While you're here, you may also want to:
 * [suggest reading materials](#how-to-make-suggestions).
 * [get involved in organising](#get-involved).
 
+## How to join our next meeting
+Our meetings run every 2 weeks, Wednesdays 1-2pm GMT.
+
+We update [this file](./MEETINGS.md) with details of our upcoming meetings (click on the date you want to join - all the details are there), and we also send out a "1 week reminder" and an "it's today!" reminder to the mailing list which has all the information you'll need to join. So, [joining the mailing list](http://eepurl.com/hjkmnX) is the easiest way to join.
+
 ## Stay in the loop
 
 The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: !
@@ -20,7 +25,7 @@ The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to joi
 In addition to the [mailing list](http://eepurl.com/hjkmnX) (which is the main way to stay in the loop), we will also advertise meetings:
 - Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
 - By putting the dates [right here in this repository](./MEETINGS.md).
-- I'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
+- We'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
 
 ## Get Involved
 If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
@@ -57,7 +62,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
 * [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)
 * [What is Data Ethics?](https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360)<sup>1</sup>
-* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by [@RobertArbon](https://github.com/RobertArbon)
+* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by [@RobertArbon](https://github.com/RobertArbon), [:white_check_mark: 3rd March 2021](meetings/2021/03-march/03-03-21_meeting.md)
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
@@ -88,6 +93,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) - suggested by [@ninadicara](https://github.com/ninadicara) - :white_check_mark: [17th February 2021](./meetings/2021/02-feb/17-02-21_meeting.md)
 * [Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics](https://muse.jhu.edu/article/732185) 
 * [Whiteness In Statistics](https://joelemartinez.com/2016/12/28/whiteness-in-statistics/) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
+* [Semantics derived automatically from language corpora contain human-like biases](https://science.sciencemag.org/content/sci/356/6334/183.full.pdf) - suggested by[@alicesaunders](https://github.com/alicesaunders)
 
 ### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
