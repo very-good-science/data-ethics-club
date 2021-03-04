@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-9-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="logo.png">
@@ -113,22 +113,25 @@ Thanks goes to these wonderful people ([emoji key](#emoji-key)):
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/NatalieThurlby"><img src="https://avatars1.githubusercontent.com/u/17617308?v=4" width="100px;" alt=""/><br /><sub><b>NatalieThurlby</b></sub></a><br /><a href="#eventOrganizing-NatalieThurlby" title="Event Organizing">📋</a> <a href="#ideas-NatalieThurlby" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-NatalieThurlby" title="Design">🎨</a> <a href="#content-NatalieThurlby" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/ninadicara"><img src="https://avatars1.githubusercontent.com/u/44364127?v=4" width="100px;" alt=""/><br /><sub><b>Nina</b></sub></a><br /><a href="#eventOrganizing-ninadicara" title="Event Organizing">📋</a> <a href="#ideas-ninadicara" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-ninadicara" title="Content">🖋</a> <a href="#infra-ninadicara" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="https://github.com/mtwest2718"><img src="https://avatars2.githubusercontent.com/u/8397376?v=4" width="100px;" alt=""/><br /><sub><b>WestByNoreaster</b></sub></a><br /><a href="#content-mtwest2718" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/RobertArbon"><img src="https://avatars0.githubusercontent.com/u/7603520?v=4" width="100px;" alt=""/><br /><sub><b>robertarbon</b></sub></a><br /><a href="#design-robertarbon" title="Design">🎨</a> <a href="#content-robertarbon" title="Content">🖋</a></td>
-    <td align="center"><img src="" width="100px;" alt=""/><br /><sub><b>Valentina Ragni</b></sub><br /><a href="#content" title="Content">🖋</a></td>
-    <td align="center"><a href="http://milliams.com"><img src="https://avatars2.githubusercontent.com/u/61316?v=4" width="100px;" alt=""/><br /><sub><b>Matt Williams</b></sub></a><br /><a href="#content-milliams" title="Content">🖋</a></td>
-    <td align="center"><a href="http://www.bristol.ac.uk/engineering/people/miranda-j-mowbray/overview.html"><img src="" width="100px;" alt=""/><br /><sub><b>Miranda Mowbray</b></sub></a><br /><a href="#content" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/NatalieThurlby"><img src="https://avatars1.githubusercontent.com/u/17617308?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NatalieThurlby</b></sub></a><br /><a href="#eventOrganizing-NatalieThurlby" title="Event Organizing">📋</a> <a href="#ideas-NatalieThurlby" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-NatalieThurlby" title="Design">🎨</a> <a href="#content-NatalieThurlby" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/ninadicara"><img src="https://avatars1.githubusercontent.com/u/44364127?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nina</b></sub></a><br /><a href="#eventOrganizing-ninadicara" title="Event Organizing">📋</a> <a href="#ideas-ninadicara" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-ninadicara" title="Content">🖋</a> <a href="#infra-ninadicara" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/mtwest2718"><img src="https://avatars2.githubusercontent.com/u/8397376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>WestByNoreaster</b></sub></a><br /><a href="#content-mtwest2718" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/RobertArbon"><img src="https://avatars0.githubusercontent.com/u/7603520?v=4?s=100" width="100px;" alt=""/><br /><sub><b>robertarbon</b></sub></a><br /><a href="#design-robertarbon" title="Design">🎨</a> <a href="#content-robertarbon" title="Content">🖋</a></td>
+    <td align="center"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Valentina Ragni</b></sub><br /><a href="#content" title="Content">🖋</a></td>
+    <td align="center"><a href="http://milliams.com"><img src="https://avatars2.githubusercontent.com/u/61316?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Matt Williams</b></sub></a><br /><a href="#content-milliams" title="Content">🖋</a></td>
+    <td align="center"><a href="http://www.bristol.ac.uk/engineering/people/miranda-j-mowbray/overview.html"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Miranda Mowbray</b></sub></a><br /><a href="#content" title="Content">🖋</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp"><img src="https://avatars1.githubusercontent.com/u/6043987?v=4" width="100px;" alt=""/><br /><sub><b>Edwin Simpson</b></sub></a><br /><a href="#content-edwinrobots" title="Content">🖋</a></td>
-    <td align="center"><a href="http://dynamicgenetics.org"><img src="https://avatars0.githubusercontent.com/u/1908453?v=4" width="100px;" alt=""/><br /><sub><b>Valerio Maggio</b></sub></a><br /><a href="#content-leriomaggio" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp"><img src="https://avatars1.githubusercontent.com/u/6043987?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Edwin Simpson</b></sub></a><br /><a href="#content-edwinrobots" title="Content">🖋</a></td>
+    <td align="center"><a href="http://dynamicgenetics.org"><img src="https://avatars0.githubusercontent.com/u/1908453?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Valerio Maggio</b></sub></a><br /><a href="#content-leriomaggio" title="Content">🖋</a></td>
+    <td align="center"><a href="https://blog.burges-salmon.com/u/102g2vz/tom-whittaker"><img src="https://www.burges-salmon.com/-/media/images/profile-images/tom-whittaker.jpg?s=100" width="100px;" alt=""/><br /><sub><b>Tom Whittaker</b></sub></a><br /><a href="#content" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/alicesaunders"><img src="https://avatars.githubusercontent.com/u/75491236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alicesaunders</b></sub></a><br /><a href="#content-alicesaunders" title="Content">🖋</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
+<!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
