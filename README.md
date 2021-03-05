@@ -67,6 +67,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
 * [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/pdf/1607.06520.pdf) - suggested by [@leriomaggio](https://github.com/leriomaggio)
+   * Follow-up paper: [Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them](https://arxiv.org/abs/1903.03862) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Gender Bias and Sexism in Language](https://oxfordre.com/communication/view/10.1093/acrefore/9780190228613.001.0001/acrefore-9780190228613-e-470#acrefore-9780190228613-e-470-bibItem-0028) - suggested by [@leriomaggio](https://github.com/leriomaggio)
 * [Collectors, Allies, and Nightlights, Oh My](https://www.wpcjournal.com/article/view/20275)
 * [Why Open Source misses the point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html)
@@ -94,6 +95,9 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics](https://muse.jhu.edu/article/732185) 
 * [Whiteness In Statistics](https://joelemartinez.com/2016/12/28/whiteness-in-statistics/) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Semantics derived automatically from language corpora contain human-like biases](https://science.sciencemag.org/content/sci/356/6334/183.full.pdf) - suggested by[@alicesaunders](https://github.com/alicesaunders)
+* [Dataism is our new God](https://onlinelibrary.wiley.com/doi/pdf/10.1111/npqu.12080?casa_token=cj8N7zTKYeIAAAAA:fiV6jUDL9dVhZ5oADoLszgzL5Ubn5NWCmLuO6mVxa_mf_sO-JEB6nU-9FP5fYL5pm8JisxYlWEe) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
+* [Mitigating Gender Bias in Natural Language Processing: Literature Review](https://arxiv.org/abs/1906.08976) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
+
 
 ### Suggestions for viewing/listening/experiencing
 * [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
@@ -104,7 +108,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [How normal am I?](https://www.hownormalami.eu/) - interactive
 * [Fast AI Practical Data Ethics lecture series](https://ethics.fast.ai/)<sup>1</sup>
     * [Lesson 6 - Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9)
-
+* [21 Fairness Definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 
 ---
 - [1]: A longer piece of work, we'd need to choose a chapter or section.
