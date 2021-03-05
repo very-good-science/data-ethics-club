@@ -93,7 +93,7 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 * [Fairness and utilization in allocating resources with uncertain demand](https://dl.acm.org/doi/abs/10.1145/3351095.3372847) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
 * [What does it mean to 'solve' the problem of discrimination in hiring?](https://dl.acm.org/doi/abs/10.1145/3351095.3372849) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
 * [Automating Inequality](https://virginia-eubanks.com/)<sup>1</sup> - suggested by Valentina Ragni and [@mtwest2718](https://github.com/mtwest2718)
-  * [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/)
+  * [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/) - suggested by [@ninadicara](https://github.com/ninadicara)
   * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
   * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
 * [Explainable machine learning: how can you determine what a party knew or intended when a decision was made by machine-learning?
