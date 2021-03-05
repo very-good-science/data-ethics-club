@@ -41,15 +41,14 @@ There will be time to talk about whatever we like, relating to the paper, but he
 
 ---
 
-<!--
-
 ## Meeting notes
 
 ### Who came
-Number of people:
+Number of people: 21
 
 ### What did we think?
-Notes here!
-Shall we email the author? If so, who'll send the email?
+100% (20 people) said this content sparked interesting discussion
+100% (20 people) said they'd recommend this content to others
 
--->
+[Nina's Twitter thread](https://twitter.com/ninadicara/status/1367117597397893122)
+
