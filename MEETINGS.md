@@ -2,6 +2,8 @@
 
 Meetings are every two weeks on a **Wednesday** at 1pm.
 
+The dates for upcoming meetings are here, but the discussion material will be voted for in the meeting before. 
+
 We will meet on Zoom - the link will be sent out on the [mailing list](http://eepurl.com/hjkmnX), and on the individual meeting pages that you can click to below. 
 
 | Upcoming Meetings                                      | Discussion Material |
