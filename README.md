@@ -13,11 +13,6 @@ While you're here, you may also want to:
 * [suggest reading materials](#how-to-make-suggestions).
 * [get involved in organising](#get-involved).
 
-## How to join our next meeting
-Our meetings run every 2 weeks, Wednesdays 1-2pm GMT.
-
-We update [this file](./MEETINGS.md) with details of our upcoming meetings (click on the date you want to join - all the details are there), and we also send out a "1 week reminder" and an "it's today!" reminder to the mailing list which has all the information you'll need to join. So, [joining the mailing list](http://eepurl.com/hjkmnX) is the easiest way to join.
-
 ## Stay in the loop
 
 The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: !
@@ -26,6 +21,11 @@ In addition to the [mailing list](http://eepurl.com/hjkmnX) (which is the main w
 - Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
 - By putting the dates [right here in this repository](./MEETINGS.md).
 - We'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
+
+## How to join our next meeting
+Either:
+- Go to [this file](./MEETINGS.md) and click on the date you want to join - all the details are there
+- OR [join the mailing list](http://eepurl.com/hjkmnX) to receive a "1 week reminder" and an "it's today!" reminder.
 
 ## Get Involved
 If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
