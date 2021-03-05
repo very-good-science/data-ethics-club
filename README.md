@@ -100,12 +100,12 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 
 
 ### Suggestions for viewing/listening/experiencing
-* [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
+* [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Data Feminism Book Club](https://datafeminism.io/blog/book/data-feminism-reading-group/)<sup>1</sup>
     * Chapter 7: "Show your work"
     * The description of "co-liberatory" projects in chapter 5: "Unicorns, janitors, ninjas, wizards and rock stars" 
-* [AI, Ain’t I a Woman?](https://www.youtube.com/watch?v=HZxV9w2o0FM) - poem<sup>2</sup>
-* [How normal am I?](https://www.hownormalami.eu/) - interactive
+* [AI, Ain’t I a Woman?](https://www.youtube.com/watch?v=HZxV9w2o0FM) - poem<sup>2</sup> - suggested by Valentina Ragni
+* [How normal am I?](https://www.hownormalami.eu/) - interactive - suggested by Valentina Ragni
 * [Fast AI Practical Data Ethics lecture series](https://ethics.fast.ai/)<sup>1</sup>
     * [Lesson 6 - Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9)
 * [21 Fairness Definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
