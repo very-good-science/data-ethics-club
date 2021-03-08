@@ -24,7 +24,7 @@ Zoom link: https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExM
 Link to content: https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science 
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 17th March at [1-2pm GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Bropen+science+is+broken+science&iso=20210317T13&p1=299&ah=1). You don't need to register, just pop in. This time we're going to watch/read [#bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) by Kirstie Whitaker and Olivia Guest, which is a short paper arguing for a more inclusive definition of Open Science, and a more inclusive culture within Open Science communities. 
+You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 17th March at [1-2pm GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Bropen+science+is+broken+science&iso=20210317T13&p1=299&ah=1). You don't need to register, just pop in. This time we're going to read [#bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) by Kirstie Whitaker and Olivia Guest, which is a short paper arguing for a more inclusive definition of Open Science, and a more inclusive culture within Open Science communities. 
 
 Natalie suggested this week's content, and will lead this week's meeting.
 
