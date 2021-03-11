@@ -43,9 +43,10 @@ If you'd like to make a suggestion for what to read, please do whatever you'd pr
 
 ## Reading list
 
-:white_check_mark: = we've read it
-
-📺 = Watching/Listening material
+- :white_check_mark: = we've read it
+- 📺 = Watching/Listening material
+- [1] = A longer piece of work, we'd need to choose a chapter or section.
+- [2] = A shorter piece of work, perhaps to combine with something else
 
 These are rough categories, reading materials appear once in the category we felt they fit best. 
 We welcome suggestions for new categories, or moving materials between categories (please [open an issue](https://github.com/very-good-science/data-ethics-club/issues/new), or [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)).
@@ -153,12 +154,6 @@ We welcome suggestions for new categories, or moving materials between categorie
 
 * [Explainable machine learning: how can you determine what a party knew or intended when a decision was made by machine-learning?](https://www.scl.org/articles/12130-explainable-machine-learning-how-can-you-determine-what-a-party-knew-or-intended-when-a-decision-was-made-by-machine-learning) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
 * [Explainable Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and challenges toward responsible AI](https://www.sciencedirect.com/science/article/pii/S1566253519308103?casa_token=1cYbsG99NNAAAAAA:4FsE_4ZQI72ZSA-SbawjNiEkhY5zIDjChANdTKxJ8Qy8RiCCQ0ztFye-rdQ98MeO9RY3_8Nw) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
-
-
-
-### Key
-- [1]: A longer piece of work, we'd need to choose a chapter or section.
-- [2]: A shorter piece of work, perhaps to combine with something else
 
 ## Contributors ✨
 
