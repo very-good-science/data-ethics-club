@@ -32,8 +32,8 @@ If you're interested in joining us in organising, please ping us an [email](mail
 
 ### Organisers
 You can also contact us separately:
-- Nina Di Cara - [twitter](twitter.com/ninadicara), [email](mailto:nina.dicara@bristol.ac.uk)
-- Natalie Thurlby - [twitter](twitter.com/stataliet), [email](mailto:natalie.thurlby@bristol.ac.uk)
+- Nina Di Cara - [twitter](https://twitter.com/ninadicara), [email](mailto:nina.dicara@bristol.ac.uk)
+- Natalie Thurlby - [twitter](https://twitter.com/StatalieT), [email](mailto:natalie.thurlby@bristol.ac.uk)
 
 ## How to make suggestions
 If you'd like to make a suggestion for what to read, please do whatever you'd prefer:
