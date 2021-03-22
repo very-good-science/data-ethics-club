@@ -34,20 +34,14 @@ There will be time to talk about whatever we like, relating to the paper, but he
 - What do you think about the idea that "bros find it hard to understand – or accept – that others will have a different lived experience"? 
 - What did you think about the suggested actions in the paper? Would you take these? Why or why not?
 
----
-
-<!--
 
 ## Meeting notes
 
 ### Who came
-Number of people:
+Number of people: 22
 
 ### What did we think?
-Notes here!
-Shall we email the author? If so, who'll send the email?
-
--->
-
+100% of people enjoyed the paper, and all but one would recommend it to another group. 
+We're writing up a HackMD summary of this week's discussion - stay tuned!
 
 
