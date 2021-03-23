@@ -41,7 +41,7 @@ There will be time to talk about whatever we like, relating to the paper, but he
 - Harari says that algorithms will no longer discriminate against us for belonging to a particular group, but because of patterns it sees in us that deviate from the norm. He goes on to say that this will make it difficult to create political movements to fight oppression because your oppression will be indivdiualised. What are your thoughts on this perspective?
 
 Note: The author has their own views around what religion is - when in discussion groups please remember to be respectful on all sides of this topic.
----
+
 
 <!--
 
