@@ -23,7 +23,7 @@ Zoom link: https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExM
 Link to content: https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080 (Email Nina or Natalie if you cannot access the paper with a university login)
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on DAY the DATE at [1-2pm GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Dataism+is+Our+New+God&iso=20210331T13&p1=299&ah=1).
+You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 31st March at [1-2pm GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Dataism+is+Our+New+God&iso=20210331T13&p1=299&ah=1).
 You don't need to register, just pop in. This time we're going to read [Dataism is Our New God](https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080) by Israeli historian Yuval Noah Harari. 
 It is in the format of an interview with the author, where he discusses "dataism" as a new organising principle of humanity. "When big data is married to biology... it will reduce the biological organism to a set of 
 information that can be organized by programmed algorithms to seek a desired outcome." 
