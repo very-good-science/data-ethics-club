@@ -20,7 +20,10 @@ Usual time 13:00-14:00
 
 Zoom link: https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExMnJON3pDUT09
 
-Link to content: https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080 (Email Nina or Natalie if you cannot access the paper with a university login)
+Link to content: https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080 
+
+If you can't access the paper, please email Nina or Natalie. 
+Definitely don't go to [sci-hub.tf](https://sci-hub.tf/) and search for the DOI (https://doi.org/10.1111/npqu.12080), as that get you convenient and free access to the paper, which would be illegal.
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 31st March at [1-2pm GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Dataism+is+Our+New+God&iso=20210331T13&p1=299&ah=1).
