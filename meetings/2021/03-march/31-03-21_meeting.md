@@ -1,4 +1,4 @@
-# Data Ethics Club meeting 31-03-21, [1-2pm GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Dataism+is+Our+New+God&iso=20210331T13&p1=299&ah=1)
+# Data Ethics Club meeting 31-03-21, [1-2pm GMT+1](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Dataism+is+Our+New+God&iso=20210331T13&p1=299&ah=1)
 <!-- 
 TODO:
 - [ ] Change to a new branch (DD-MM-YY_meeting)
