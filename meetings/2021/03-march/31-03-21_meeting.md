@@ -43,15 +43,11 @@ There will be time to talk about whatever we like, relating to the paper, but he
 Note: The author has their own views around what religion is - when in discussion groups please remember to be respectful on all sides of this topic.
 
 
-<!--
-
 ## Meeting notes
 
 ### Who came
-Number of people:
+Number of people: 15
 
 ### What did we think?
-Notes here!
-Shall we email the author? If so, who'll send the email?
-
--->
+91% (10/11) thought it sparked interesting discussion
+55% (6/11) would recommend this content to others
