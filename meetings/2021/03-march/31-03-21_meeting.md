@@ -26,7 +26,7 @@ If you can't access the paper, please email Nina or Natalie.
 Definitely don't go to [sci-hub.tf](https://sci-hub.tf/) and search for the DOI (https://doi.org/10.1111/npqu.12080), as that get you convenient and free access to the paper, which would be illegal.
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 31st March at [1-2pm GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Dataism+is+Our+New+God&iso=20210331T13&p1=299&ah=1).
+You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 31st March at [1-2pm GMT+1](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Dataism+is+Our+New+God&iso=20210331T13&p1=299&ah=1).
 You don't need to register, just pop in. This time we're going to read [Dataism is Our New God](https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080) by Israeli historian Yuval Noah Harari. 
 It is in the format of an interview with the author, where he discusses "dataism" as a new organising principle of humanity. "When big data is married to biology... it will reduce the biological organism to a set of 
 information that can be organized by programmed algorithms to seek a desired outcome." 
