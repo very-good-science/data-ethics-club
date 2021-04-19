@@ -45,6 +45,9 @@ Note: The author has their own views around what religion is - when in discussio
 
 ## Meeting notes
 
+### Meeting write up
+[Available here](https://hackmd.io/@nataliethurlby/DEC-dataism)
+
 ### Who came
 Number of people: 15
 
