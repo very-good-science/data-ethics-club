@@ -130,6 +130,15 @@
         "content",
         "maintenance"
       ]
+    },
+    {
+      "login": "vairylein",
+      "name": "vairylein",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1439220?v=4",
+      "profile": "https://github.com/vairylein",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
