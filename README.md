@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-13-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-14-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="logo.png">
@@ -179,6 +179,7 @@ Thanks goes to these wonderful people ([emoji key](#emoji-key)):
     <td align="center"><a href="https://github.com/alicesaunders"><img src="https://avatars.githubusercontent.com/u/75491236?v=4?s=100" width="100px;" alt=""/><br /><sub><b>alicesaunders</b></sub></a><br /><a href="#content-alicesaunders" title="Content">🖋</a></td>
     <td align="center"><a href="https://philosopher-analyst.netlify.app/"><img src="https://avatars.githubusercontent.com/u/39963221?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zoë Turner</b></sub></a><br /><a href="#content-Lextuga007" title="Content">🖋</a> <a href="#maintenance-Lextuga007" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://github.com/orchid00"><img src="https://avatars.githubusercontent.com/u/9795785?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Paula Andrea Martinez</b></sub></a><br /><a href="#content-orchid00" title="Content">🖋</a> <a href="#maintenance-orchid00" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://github.com/vairylein"><img src="https://avatars.githubusercontent.com/u/1439220?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vairylein</b></sub></a><br /><a href="#content-vairylein" title="Content">🖋</a></td>
   </tr>
 </table>
 
