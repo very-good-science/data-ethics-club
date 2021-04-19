@@ -70,8 +70,9 @@ We welcome suggestions for new categories, or moving materials between categorie
 
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
-* [Dataism is our new God](https://onlinelibrary.wiley.com/doi/pdf/10.1111/npqu.12080?casa_token=cj8N7zTKYeIAAAAA:fiV6jUDL9dVhZ5oADoLszgzL5Ubn5NWCmLuO6mVxa_mf_sO-JEB6nU-9FP5fYL5pm8JisxYlWEe) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
+* [Dataism is our new God](https://onlinelibrary.wiley.com/doi/pdf/10.1111/npqu.12080?casa_token=cj8N7zTKYeIAAAAA:fiV6jUDL9dVhZ5oADoLszgzL5Ubn5NWCmLuO6mVxa_mf_sO-JEB6nU-9FP5fYL5pm8JisxYlWEe) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) - ✅ [31st March 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/03-march/31-03-21_meeting.md)
 * [Challenging racism in the use of health data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00019-4/fulltext) - suggested by [@Lextuga007](https://github.com/Lextuga007)
+* [Living in the Hidden Realm of AI](https://news.techworkerscoalition.org/2021/03/09/issue-5/) - suggested by [@vairylein](https://github.com/vairylein), see [#54](https://github.com/very-good-science/data-ethics-club/issues/54)
 
 ### Algorithmic decision making
 
@@ -108,6 +109,7 @@ We welcome suggestions for new categories, or moving materials between categorie
 * [Artificial intelligence and transparency in the public sector](https://blog.burges-salmon.com/post/102gnvk/artificial-intelligence-and-transparency-in-the-public-sector) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
 * [Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics](https://muse.jhu.edu/article/732185) 
 * [GCHQ - Pioneering a New National Security: The Ethics of Artificial Intelligence](https://www.gchq.gov.uk/files/GCHQAIPaper.pdf) - suggested by [@ninadicara]((https://github.com/ninadicara))
+* [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
 
 ### Research culture
 
