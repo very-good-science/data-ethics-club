@@ -36,15 +36,11 @@ There will be time to talk about whatever we like, relating to the material, but
 - What kinds of positive changes do you think it’s possible for the UK Statistics Authority to influence? Are these kinds of resources useful to you in your work, or merely a box-ticking exercise? What do you think would be most useful to you in making your area of work more ethical?
 - Did you notice any gaps in the applied data ethics landscape (Annex A)?
 
-<!--
-
 ## Meeting notes
 
 ### Who came
-Number of people:
+Number of people: 12
 
 ### What did we think?
-Notes here!
-Shall we email the author? If so, who'll send the email?
+We'll be writing up the HackMD summary before next week!
 
--->
