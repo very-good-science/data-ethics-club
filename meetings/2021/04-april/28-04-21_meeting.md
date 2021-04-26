@@ -27,7 +27,7 @@ You're welcome to join us for our next Data Ethics Club meeting on Wednesday 28t
 You don't need to register, just pop in. This time we're going to read [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
 by Virginia Eubanks (author of [Automating Inequality](https://virginia-eubanks.com/)), which is a short opinion piece in The Guardian about the role of AI in 'fixing' poverty and inequality.
 
-Thank you to Matthew North for suggesting this week's content, and providing the questions and summary.
+Thank you to Matthew West for suggesting this week's content, and providing the questions and summary.
 
 ### Discussion points
 
