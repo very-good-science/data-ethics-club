@@ -28,7 +28,7 @@ Either:
 - OR [join the mailing list](http://eepurl.com/hjkmnX) to receive a "1 week reminder" and an "it's today!" reminder.
 
 ## Get Involved
-If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk). We would really welcome new organisers including those new to organising and early career researchers. 
+If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk). We would really welcome new organisers especially those new to organising and early career researchers. 
 
 ### Organisers
 You can also contact us separately:
