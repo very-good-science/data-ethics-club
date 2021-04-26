@@ -1,28 +1,20 @@
 
 # How we organise Data Ethics Group
 
+We've described how a typical meeting would run in the ['Facilitating'](./facilitating.md) document, and so this document is more about how people can contribute to the repository, and how we operate more generally. 
+
 ## Deciding on material to read
 The [reading list](./../READING-LIST.md) is organised into lots of different sections - some are philosophical, some are technical. Our [previously discussed pieces are available in our Meetings Overview](./../MEETINGS.md). We like to check off things we have discussed [in the reading list](./../READING-LIST.md), and include a link to the meeting info page which summaries the content.  
 
 To decide on material to read the organisers pick three pieces from the list based on recent suggestions, and then the whole group votes on these for the following meeting. 
 
-## Communicating
-We primarily use [MailChimp](https://mailchimp.com/) for our mailing list and to communicate with the group. MailChimp is free, and manages people subscribing/unsubscribing which saves time and effort. It's also easy to make nice looking templates ! We typically send out two emails about each session, one the week before and one on the day.   
+## Contributing
 
-We have templates set up in MailChimp to make it quicker for us to write these emails, and for consistency. 
-
-### Tips for others
-- Using a reusable online meeting link simplifies things for us and attendees. 
-- Provide multiple avenues for communication (e.g. GitHub issues, email, even Twitter!)
-- Using [Time And Date](https://www.timeanddate.com/worldclock/fixedform.html) to make it easy to show which timezone the meeting will be in. There's a link to this in our [meeting info template](./templates/meeting_info_template.md) to remind us to do make it time! 
-
-## Managing contributions
-
-### How do people contribute to the reading list?
+### How can I contribute to the reading list?
 Since we organise around a GitHub repository people can submit issues using our [issue template](./templates/reading-suggestion-issue-template.md) ([see here](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) for how to set up issue templates in GitHub). People can also submit pull requests, or simply email us and we upload their suggestions on to the repository - we know not everyone is comfortable using GitHub!
 
-### How do people contribute in meetings?
-We use HackMD as a collaborative writing space, and have [included our meeting template here](./templates/HackMD_meeting_template.md). We've described how we use this template in the [facilitation guide](./facilitating.md). It usually means people writing up the thoughts from their group as they discuss each piece. 
+### How can I contribute in meetings?
+We use HackMD as a collaborative writing space ([see our meeting template here](./templates/HackMD_meeting_template.md)). If you come to a meeting and leave your name and GitHub username in the document then we will credit you on the repository! 
 
 ### How do we acknowledge contributions?
 Contributions can be lots of different things, and so we use [All Contributors](https://allcontributors.org/) to capture a variety of contribution types. These include suggesting material, fixing broken links, organising and producing artwork. To suit our purposes we've made slight changes to the [emoji key](#all-contributors-emoji-key).  
@@ -33,7 +25,7 @@ To use it, comment in an issue or pull-request something like:
 ```
 @all-contributors please add @NatalieThurlby for organising  
 ```
-The bot will then set up a pull-request (PR) to add the named person to the contributors list, and the PR will update the list of contributors at the bottom.  
+The bot will then set up a pull-request (PR) to add the named person to the contributors list, and the PR will update the list of contributors at the bottom. We have [an open issue](https://github.com/very-good-science/data-ethics-club/issues/38) that we use to call the all-contributors bot.   
 
 Some people aren't on GitHub of course, so to add them to the contributions list you can manually edit the file `.all-contributorsrc` by adding the following object to the list:  
 ```
@@ -60,3 +52,13 @@ The slightly edited emoji key that we use is:
 🚇 (infrastructure) for infrastructure (e.g. bots, CI)
 🚧 (maintenance) for repository maintenance (e.g. fixing links)
 
+
+## Communicating
+We primarily use [MailChimp](https://mailchimp.com/) for our mailing list and to communicate with the group. MailChimp is free, and manages people subscribing/unsubscribing which saves time and effort. It's also easy to make nice looking templates ! We typically send out two emails about each session, one the week before and one on the day.   
+
+We have templates set up in MailChimp to make it quicker for us to write these emails, and for consistency. 
+
+### Tips for communication
+- Using a reusable zoom link simplifies things for us and attendees. 
+- Providing multiple avenues for communication helps us get lots of different types of feedback (e.g. GitHub issues, email, even Twitter!)
+- Using [Time And Date](https://www.timeanddate.com/worldclock/fixedform.html) makes it easy to show which timezone the meeting will be in. There's a link to this in our [meeting info template](./templates/meeting_info_template.md) to remind us to do make it time! 

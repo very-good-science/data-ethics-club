@@ -1,18 +1,21 @@
 # How to (re)use the Data Ethics Club repository
 
-One of our hopes in making this repository is that other people can reuse it to run their own Data Ethics Clubs. In this folder you will find information about how to organise and facilitate Data Ethics Club, including using the templates we've provided for organising and communication. This information is based on what we have learned since starting and time we've spent developing the repository as a resource; we hope its useful! The repository is licensed with a [CC-BY 3.0 license](https://creativecommons.org/licenses/by/3.0/legalcode), which means we welcome other re-using and re-mixing what they find here, but please attribute this repo. 
+In this folder you will find information about how we organise and facilitate Data Ethics Club, including a folder of the templates we've made for organising and communication. We hope it's useful for anyone thinking of joing the group as an organiser, or for those thinking of re-using this repository to run their own group!
+
+The repository is licensed with a [CC-BY 3.0 license](https://creativecommons.org/licenses/by/3.0/legalcode), which means we welcome other re-using and re-mixing what they find here, but please attribute this repo. 
 
 ## Contents
 
 ### [Guide to the Data Ethics Club Repository](./repo-guide.md)
-What is included in this repository and how to reuse it.  
+What is included in this repository and how to use it.  
+* [Repository overview](./repo-guide.md#overview)
+* [Using GitHub issues](./using-github-issues)
 
 ### [Organising Data Ethics Club](./organising.md)
 A guide to how the group is organised, how contributions are credited and the services we use to help us organise.  
-* [How to start]()  
-* [Deciding on material to read]()  
-* [Communicating]()  
-* [Managing contributions]()  
+* [Deciding on material to read](./organising.md#deciding-on-material-to-read)  
+* [Contributing](./organising.md#contributing)  
+* [Communicating](./organising.md#communicating)  
 
 ### [Facilitating a meeting](./facilitating.md)
 A guide to a typical Data Ethics Group meeting, and how you could facilitate it.  
