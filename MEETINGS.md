@@ -9,7 +9,7 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| 28.04.2021, 1pm                                        | [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)                    |
+| [28.04.2021, 1pm](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/28-04-21_meeting.md)                                        | [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)                    |
 | 12.05.2021, 1pm                                        |                     |
 
 You can also see a record of what we have discussed previously here:
