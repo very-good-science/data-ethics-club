@@ -1,4 +1,4 @@
-# Organising Data Ethics Club
+# How to run a Data Ethics Club meeting
 
 Typically we have a brief introduction to the material, split everyone into breakout rooms of 5-6 people for 25-30 minutes to talk about the discussion questions, and then come back together for the final 15-20 minutes to share thoughts before voting on the material for the next meeting. 
 
