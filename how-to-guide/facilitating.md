@@ -9,8 +9,6 @@ We tend to have separate responsibilities split into facilitating and organising
 The **facilitator** is responsible for leading on the content,  managing the discussion in the meeting and writing up the summary of the meeting.  
 The **organiser** is responsible for sending out emails, setting up the templates and managing participants and breakout rooms in the meeting.  
   
-As well as what is described below, as regular organiser/facilitators we manage this repository day-to-day, choose shortlists for upcoming discussion pieces and organise one-off events.
-  
 ### I'd like to be an organiser of Data Ethics Club
 We'd would love to hear from people interested in organising! Please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) and let us know. We'd especially like to hear from PhD students/early career researchers and people who are usually under represented in data science. 
 

@@ -18,8 +18,8 @@ A guide to how the group is organised, how contributions are credited and the se
 * [Communicating](./organising.md#communicating)  
 
 ### [Facilitating a meeting](./facilitating.md)
-A guide to a typical Data Ethics Group meeting, and how you could facilitate it.  
-* [Facilitators](./facilitating.md#a-note-on-facilitators)  
+A guide to a typical Data Ethics Group meeting.
+* [Facilitator roles](./facilitating.md#a-note-on-facilitators)  
 * [Before the meeting](./facilitating.md#before-the-meeting)  
 * [Meeting structure](./facilitating.md#meeting-structure)  
 * [After the meeting](./facilitating.md#after-the-meeting)  
