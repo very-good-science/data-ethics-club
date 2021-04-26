@@ -36,10 +36,11 @@ Meetings are typically 1 hour.
   💬💬💬 Bring everyone back to the main room and invite summaries from each group. Hopefully this will provoke some discussion (we usually find we run out of time because of it!). 
 
 **55-60 mins**  
-  📊 Run a feedback poll (we use Zoom but you could use Mentimeter or another tool) and find out...  
-        a) Did the material provoke interesting discussion?  
-        b) Would you recommend this piece to another group?  
-  - Run a poll on material for next time. It's usually best to choose a shortlist of three or so items and let everyone vote on them.   
+  📊 Run a feedback poll (we use Zoom but you could use Mentimeter or another tool). 
+  We usually ask:  
+  - Did the material provoke interesting discussion?  
+  - Would you recommend this piece to another group?  
+  - Vote on what to discuss next time (from a shortlist).   
 
 ## After the meeting  
 - [ ] Update the meeting template with the outcome of the poll and a link to the summary document.  
