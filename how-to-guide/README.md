@@ -9,23 +9,23 @@ What is included in this repository and how to reuse it.
 
 ### [Organising Data Ethics Club](./organising.md)
 A guide to how the group is organised, how contributions are credited and the services we use to help us organise.  
-    [How to start]()  
-    [Deciding on material to read]()  
-    [Communicating]()  
-    [Managing contributions]()  
+* [How to start]()  
+* [Deciding on material to read]()  
+* [Communicating]()  
+* [Managing contributions]()  
 
 ### [Facilitating a meeting](./facilitating.md)
 A guide to facilitating a Data Ethics Group meeting.   
-    [Facilitators](./facilitating.md#a-note-on-facilitators)  
-    [Before the meeting](./facilitating#before-the-meeting)  
-    [Meeting structure](./facilitating.md#meeting-structure)  
-    [After the meeting](./facilitating.md#after-the-meeting)  
+* [Facilitators](./facilitating.md#a-note-on-facilitators)  
+* [Before the meeting](./facilitating.md#before-the-meeting)  
+* [Meeting structure](./facilitating.md#meeting-structure)  
+* [After the meeting](./facilitating.md#after-the-meeting)  
 
 ### [Re-usable Templates](./resources/)
 A folder containing templates mentioned in this guide, ready to be reused.  
-    [Code of Conduct](./templates/code_of_conduct_template.MD)   
-    [Organisers Meeting Template](templates/organisers_meeting_template.md)  
-    [Meeting Information Template](./templates/meeting_info_template.md)  
-    [Meetings Overview Template](./templates/meetings_overview_template.md)  
-    [HackMD Collaborative Meeting Writing Template](./templates/HackMD_meeting_template.md)  
-    [Reading Suggestions Issue Template](./templates/reading-suggestion-issue-template.md)  
+* [Code of Conduct](./templates/code_of_conduct_template.MD)   
+* [Organisers Meeting Template](./templates/organisers_meeting_template.md)  
+* [Meeting Information Template](./templates/meeting_info_template.md)  
+* [Meetings Overview Template](./templates/meetings_overview_template.md)   
+* [HackMD Collaborative Meeting Writing Template](./templates/HackMD_meeting_template.md)  
+* [Reading Suggestions Issue Template](./templates/reading-suggestion-issue-template.md)  
