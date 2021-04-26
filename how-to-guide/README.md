@@ -15,7 +15,7 @@ A guide to how the group is organised, how contributions are credited and the se
 * [Managing contributions]()  
 
 ### [Facilitating a meeting](./facilitating.md)
-A guide to facilitating a Data Ethics Group meeting.   
+A guide to a typical Data Ethics Group meeting, and how you could facilitate it.  
 * [Facilitators](./facilitating.md#a-note-on-facilitators)  
 * [Before the meeting](./facilitating.md#before-the-meeting)  
 * [Meeting structure](./facilitating.md#meeting-structure)  
