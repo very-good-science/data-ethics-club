@@ -33,12 +33,7 @@ Brilliant! Please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
   - [ ] **Make sure that the HackMD document has the right permissions** we turn on reading, writing and commenting for everyone, so that people don't need to sign in.
 - [ ] Send a one-week reminder to the group with quick links to the online meeting, the reading material and the discussion questions. We usually also include a link to last week's discussion.   
 - [ ] Send an on-the-day reminder to the group with quick links to the online meeting, the reading material and the discussion questions.  
-- [ ] Make sure you have three choices from the reading list for attendees to vote on for the next meeting. 
-  - You can make this decision together with the facilitator or other organisers. Consider:
-    - If someone recently said they'd like it to make the list
-    - If there is a reason to prioritise looking a particular piece soon, for example if there is a deadline for feedback, or if something is a preprint or recent paper that would benefit from being looked at soon.
-    - If there are certain topics that missed out on being discussed due to the group make-up, (whether these relate to particular protected characteristics, e.g. disability, race, gender) or types of scholarship (e.g. data science keeps winning in votes over social science), then consider having a themed meeting, where all three choices are all within that category, to ensure we get a chance to discuss it.
-  - It's useful to prepare a very short (1-2 sentence) summary about each piece of content to introduce it to the group, so that they know what they're voting for. 
+- [ ] Make sure you have three choices from the reading list for attendees to vote on for the next meeting. You can make this decision  in advance, together with the facilitator or other organisers (see [organising](../organising.md) for some ideas on making these decisions). 
 
 ## Meeting Structure
 Meetings are typically 1 hour.  
