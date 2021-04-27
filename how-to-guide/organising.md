@@ -4,14 +4,14 @@
 We've described how a typical meeting would run in the ['Facilitating'](./facilitating.md) document, and so this document is more about how people can contribute to the repository, and how we operate more generally. 
 
 ## Deciding on material to read
-The [reading list](./../READING-LIST.md) is organised into lots of different sections - some are philosophical, some are technical. Our [previously discussed pieces are available in our Meetings Overview](./../MEETINGS.md). We like to check off things we have discussed [in the reading list](./../READING-LIST.md), and include a link to the meeting info page which summaries the content.  
+The [reading list](./../READING-LIST.md) is organised into lots of different sections - some are philosophical, some are technical. Our [previously discussed pieces are available in our Meetings Overview](./../MEETINGS.md). We like to check off things we have discussed [in the reading list](./../READING-LIST.md), and include a link to the meeting info page which summarises the content.  
 
 To decide on material to read the organisers pick three pieces from the list based on recent suggestions, and then the whole group votes on these for the following meeting. 
 
 ## Contributing
 
 ### How can I contribute to the reading list?
-Since we organise around a GitHub repository people can submit issues using our [issue template](./templates/reading-suggestion-issue-template.md) ([see here](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) for how to set up issue templates in GitHub). People can also submit pull requests, or simply email us and we upload their suggestions on to the repository - we know not everyone is comfortable using GitHub!
+Since we organise around a GitHub repository people can submit issues using our [issue template](./templates/reading-suggestion-issue-template.md). People can also submit pull requests, or simply email us and we upload their suggestions on to the repository - we know not everyone is comfortable using GitHub!
 
 ### How can I contribute in meetings?
 We use HackMD as a collaborative writing space ([see our meeting template here](./templates/HackMD_meeting_template.md)). If you come to a meeting and leave your name and GitHub username in the document then we will credit you on the repository! 
@@ -42,15 +42,15 @@ Some people aren't on GitHub of course, so to add them to the contributions list
 This person's contribution will then show up the next time you use the bot to add someone to the repo.  
 
 #### All Contributers emoji key
-The slightly edited emoji key that we use is: 
-🖋 (content) for submitting suggestions to the "reading" list (suggestions can be any medium!)
-💬 (question) for leading the discussion in a meeting
-📝 (blog) for writing in the HackMD in a meeting
-📋 (eventOrganising) for organising
-🤔 (ideas) for ideas and planning of the group
-🎨 (design) for visual design (e.g. logo)
-🚇 (infrastructure) for infrastructure (e.g. bots, CI)
-🚧 (maintenance) for repository maintenance (e.g. fixing links)
+The slightly edited emoji key that we use is:   
+🖋 (content) for submitting suggestions to the "reading" list (suggestions can be any medium!)  
+💬 (question) for leading the discussion in a meeting  
+📝 (blog) for writing in the HackMD in a meeting  
+📋 (eventOrganising) for organising  
+🤔 (ideas) for ideas and planning of the group  
+🎨 (design) for visual design (e.g. logo)  
+🚇 (infrastructure) for infrastructure (e.g. bots, CI)  
+🚧 (maintenance) for repository maintenance (e.g. fixing links)  
 
 
 ## Communicating
