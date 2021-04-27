@@ -1,4 +1,4 @@
-# Data Ethics Club meeting DD-MM-YY, [MEETING-TIME GMT](LINK-TO-TIMEDATE)
+# Data Ethics Club meeting DD-MM-YY, [MEETING-TIME TIMEZONE](LINK-TO-TIMEDATE)
 <!-- 
 TODO:
 - [ ] Change to a new branch (DD-MM-YY_meeting)
