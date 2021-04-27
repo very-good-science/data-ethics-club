@@ -12,7 +12,7 @@ Thanks for making a suggestion!
 For each suggestion, please let us know:
 * The name of the content
 * The type of content (paper/blog/video, etc)
-    * Is it a preprint? 
+    * Is it a preprint, very recently published, or is there a deadline for feedback?
     * Is it very long? If so, do you have a recommended section?
 * A link where it can be accessed
 * Any particular questions or points for discussion
