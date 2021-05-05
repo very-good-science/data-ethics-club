@@ -12,7 +12,7 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 | [12.05.2021, 1pm](./meetings/2021/05-may/12-05-21_meeting.md)  | [Critical Perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision) |
 | 26.05.2021, 1pm                                        |         TBC            |
 
-Data Ethics will take a short break and resume in late June on our usual 2-weekly shedule!  
+Data Ethics Club will take a short break and resume in late June on our usual 2-weekly shedule!  
 
 In June 2021 we have three special events running as part of the [Jean Golding Institute's Data Week.](https://www.bristol.ac.uk/golding/get-involved/data-week-online-2021/)
 
