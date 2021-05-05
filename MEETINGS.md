@@ -9,14 +9,25 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [28.04.2021, 1pm](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/28-04-21_meeting.md)                                        | [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)                    |
-| 12.05.2021, 1pm                                        |                     |
+| [12.05.2021, 1pm](./meetings/2021/05-may/12-05-2021_meeting.md)  | [Critical Perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision) |
+| 26.05.2021, 1pm                                        |         TBC            |
 
-You can also see a record of what we have discussed previously here:
+Data Ethics Club will take a short break and resume in late June on our usual 2-weekly shedule!  
+
+In June 2021 we have three special events running as part of the [Jean Golding Institute's Data Week.](https://www.bristol.ac.uk/golding/get-involved/data-week-online-2021/)
+
+* **Tuesday 15th June 3-4.30pm BST**: Data Hazards Workshop - Using live data science projects to explore 'worst case scenarios' of data science. Details to be confirmed.
+* **Wednesday 16th June 2-4pm BST**: Screening of [Coded Bias](https://en.wikipedia.org/wiki/Coded_Bias), and a Q&A afterwards with one of the film makers. 
+* **Thursday 17th June 3-5pm BST**: A joint seminar with the [Inclusive Research Collective](https://www.bristol.ac.uk/life-sciences/edi/irc/) with perspectives on data ethics from three experts, with a panel session for audience questions. 
+
+--------------
+
+You can see a record of what we have discussed previously here:
 
 | Previous Meetings | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [14.04.2021, 1pm](./meetings/2021/03-march/14-04-21_meeting.md) |  [Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/)  | Coming soon |
+| [28.04.2021, 1pm](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/28-04-21_meeting.md)                                        | [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)                    | Coming soon |
+| [14.04.2021, 1pm](./meetings/2021/03-march/14-04-21_meeting.md) |  [Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/)  | [Meeting Summary](https://hackmd.io/@nataliethurlby/DEC-ethics-landscape) |
 | [31.03.2021, 1pm](./meetings/2021/03-march/31-03-21_meeting.md)| [Dataism is Our New God](https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080)        | [Meeting Summary](https://hackmd.io/@nataliethurlby/DEC-dataism) |
 | [17.03.2021, 1pm](./meetings/2021/03-march/17-03-21_meeting.md)|[#bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science)| [Meeting summary](https://hackmd.io/@nataliethurlby/DEC-bropenscience) |
 | [03.03.2021, 1pm](./meetings/2021/03-march/03-03-21_meeting.md) | [Algorithmic injustice: a relational ethics approach (Birhane, 2021)](https://www.sciencedirect.com/science/article/pii/S2666389921000155) | [Nina's Twitter Summary](https://twitter.com/ninadicara/status/1367117597397893122?s=20)|
