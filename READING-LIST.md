@@ -52,6 +52,10 @@ We welcome suggestions for new categories, or moving materials between categorie
 ### Environmental costs and considerations
 
 * [Which programming languages use the least electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
+* [AI and Climate Change: How they’re connected, and what we can do about it](https://medium.com/@AINowInstitute/ai-and-climate-change-how-theyre-connected-and-what-we-can-do-about-it-6aa8d0f5b32c) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
+* [Green AI](https://arxiv.org/abs/1907.10597) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
+* [Principles of Green Software Engineering](https://principles.green/) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
+* [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700) and the [ML CO2 Impact calculator](https://mlco2.github.io/impact/) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
 
 ### Privacy and surveillance
 
