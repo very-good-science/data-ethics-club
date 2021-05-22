@@ -139,6 +139,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "JennyBrennan",
+      "name": "Jenny Brennan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7014476?v=4",
+      "profile": "http://jennybrennan.com",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
