@@ -72,7 +72,7 @@ We welcome suggestions for new categories, or moving materials between categorie
 * [GCHQ - Pioneering a New National Security: The Ethics of Artificial Intelligence](https://www.gchq.gov.uk/files/GCHQAIPaper.pdf) - suggested by [@ninadicara]((https://github.com/ninadicara))
 * [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
 
-### Research culture
+### Data science culture
 
 * [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * 📺[Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9) suggested by [@ninadicara](https://github.com/ninadicara)
