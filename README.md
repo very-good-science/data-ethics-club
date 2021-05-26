@@ -82,6 +82,7 @@ Thanks goes to these wonderful people in developing this repository and our [ope
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification, with some small tweaks to fit our purposes!  We use...  
 + 🖋  for submitting suggestions to the "reading" list (suggestions can be any medium!)
 + 💬  for leading the discussion in a meeting  
++ 📝  for attending a Data Ethics Club meeting (and contributing to our outputs)
 + 📋  for organising  
 + 🤔  for ideas and planning of the group
 + 🎨  for visual design (e.g. logo)
