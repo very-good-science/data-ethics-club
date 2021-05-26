@@ -9,8 +9,7 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [12.05.2021, 1pm](./meetings/2021/05-may/12-05-2021_meeting.md)  | [Critical Perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision) |
-| 26.05.2021, 1pm                                        |         TBC            |
+| [26.05.2021, 1pm](./meetings/2021/05-may/26-05-2021_meeting.md)   |         ['Living in the Hidden Realms of AI: The Workers Perspective'](https://news.techworkerscoalition.org/2021/03/09/issue-5/)            |
 
 Data Ethics Club will take a short break and resume in late June on our usual 2-weekly shedule!  
 
@@ -26,6 +25,7 @@ You can see a record of what we have discussed previously here:
 
 | Previous Meetings | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [12.05.2021, 1pm](./meetings/2021/05-may/12-05-2021_meeting.md)  | [Critical Perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision) | Coming soon |
 | [28.04.2021, 1pm](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/28-04-21_meeting.md)                                        | [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)                    | Coming soon |
 | [14.04.2021, 1pm](./meetings/2021/03-march/14-04-21_meeting.md) |  [Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/)  | [Meeting Summary](https://hackmd.io/@nataliethurlby/DEC-ethics-landscape) |
 | [31.03.2021, 1pm](./meetings/2021/03-march/31-03-21_meeting.md)| [Dataism is Our New God](https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080)        | [Meeting Summary](https://hackmd.io/@nataliethurlby/DEC-dataism) |
