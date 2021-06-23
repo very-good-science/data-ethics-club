@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="logo.png">
@@ -88,6 +88,7 @@ Thanks goes to these wonderful people in developing this repository and our [ope
   <tr>
     <td align="center"><a href="https://twitter.com/TessaDarbyshire"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Tessa Darbyshire</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Roman Shkunov</b></sub><br /><a href="#blog" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#blog-hdiscoday" title="Blogposts">📝</a></td>
   </tr>
 </table>
 
