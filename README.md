@@ -15,7 +15,7 @@ While you're here, you may also want to:
 
 ## Stay in the loop
 
-The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: !
+The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our :sparkles: :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: :sparkles:!
 
 In addition to the [mailing list](http://eepurl.com/hjkmnX) (which is the main way to stay in the loop), we will also advertise meetings:
 - Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
