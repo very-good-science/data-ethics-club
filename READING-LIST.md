@@ -74,8 +74,9 @@ We welcome suggestions for new categories, or moving materials between categorie
   * Related: [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Artificial intelligence and transparency in the public sector](https://blog.burges-salmon.com/post/102gnvk/artificial-intelligence-and-transparency-in-the-public-sector) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
 * [Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics](https://muse.jhu.edu/article/732185) 
-* [GCHQ - Pioneering a New National Security: The Ethics of Artificial Intelligence](https://www.gchq.gov.uk/files/GCHQAIPaper.pdf) - suggested by [@ninadicara]((https://github.com/ninadicara))
+* [GCHQ - Pioneering a New National Security: The Ethics of Artificial Intelligence](https://www.gchq.gov.uk/files/GCHQAIPaper.pdf) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
+* 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday)
 
 ### Data science culture
 
