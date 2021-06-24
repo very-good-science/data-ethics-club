@@ -30,7 +30,7 @@ Contributions can be lots of different things, and so we use [All Contributors](
 All Contributors provides a GitHub bot that makes it easy to add new contributors. 
 To use it, comment in an issue or pull-request something like:  
 ```
-@all-contributors please add @NatalieThurlby for eventOrganising  
+@all-contributors please add @NatalieThurlby for eventOrganizing  
 ```
 The bot will then set up a pull-request (PR) to add the named person to the contributors list, and the PR will update the list of contributors at the bottom. We have [an open issue](https://github.com/very-good-science/data-ethics-club/issues/38) that we use to call the all-contributors bot.   
 
