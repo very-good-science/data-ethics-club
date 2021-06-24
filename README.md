@@ -6,42 +6,70 @@
   <img height=250 src="logo.png">
 </p>
 
-Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all. To [stay in the loop](#stay-in-the-loop), please join our [mailing list](http://eepurl.com/hjkmnX). You can see the dates of our upcoming meetings [here](./MEETINGS.md).
+Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. The organisers are based in Bristol, but the club is open to all. To [stay in the loop](#join-us-at-data-ethics-club), please join our [mailing list](http://eepurl.com/hjkmnX). You can see the dates of our upcoming meetings [here](./MEETINGS.md).
 
-While you're here, you may also want to:
-* enjoy our [reading list](./READING-LIST.md).
-* [suggest reading materials](#how-to-make-suggestions).
-* [get involved in organising](#get-involved).
+While you're here, you may want to:
+* Enjoy our [reading list](./READING-LIST.md).
+* Read our [Code of Conduct](./CODE-OF-CONDUCT.md).
+* Find out [how to join a meeting](#join-us-at-data-ethics-club).
+* See how you can [re-use our materials](#re-use-our-materials).
+* [Contact the organisers](#organisers).
 
-## Stay in the loop
+## Check out the reading list
 
-The main way to keep informed about [upcoming meetings](./MEETINGS.md) is to join our :sparkles: :sparkles: :arrow_right: [**Data Ethics Club Mailing List**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: :sparkles:!
+:book: 📚 :arrow_right: [**Go to the reading list**](./READING-LIST.md) :arrow_left: 📚 📖
 
+Thanks to our many wonderful [contributors](#contributors-) we have a reading list of data ethics materials and talking points that is always growing.  
+
+We are always welcoming suggestions for new materials! To make a suggestion please do whatever you'd prefer:
+* [make an issue](https://github.com/very-good-science/ethical-data-science-journal-club/issues/new/choose) - use the reading suggestion(s) template.
+* [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk).
+* edit the [READING-LIST.md](./READING-LIST.md) file and make a Pull Request (PR).
+
+## Join us at Data Ethics Club 
+
+:sparkles: :sparkles: :arrow_right: [**Join the Data Ethics Club mailing list**](http://eepurl.com/hjkmnX) :arrow_left: :sparkles: :sparkles:
+
+We meet to talk about something from the reading list every other week (Wednesdays, 1pm BST).  
+You can see our [upcoming meetings here](./MEETINGS.md).  
+We usually hear a short summary of the piece, split into breakout rooms to discuss some prompts, and then come back together to share our thoughts as a group. 
+You don't need to be a data ethicist (we're not), or even a data scientist! It's a friendly and welcoming group and we often have new people drop by, so why not try it 🤗  
+
+If you'd like a flavour of what we usually discuss then [go to our MEETINGS.md file](./MEETINGS.md) and click on any of the summaries from past meetings to read about our discussions. 
+
+
+### How to join our next meeting
+Meetings last one hour and are held on Zoom. To join you can either:
+- Go to [this file](./MEETINGS.md) and click on the date you want to join - all the details are there.
+- OR [join the mailing list](http://eepurl.com/hjkmnX) to receive a "1 week reminder" and an "it's today!" reminder.  
+
+You don't need to let us know, just turn up and you'll be welcome! 
+
+### How to stay in the loop
+
+If you're on the mailing list you'll receive a "1 week reminder" and an "it's today!" reminder with details about the meeting link, materials and discussion points. Occasionally we will also share relevant events that are organised by people in the community.  
 In addition to the [mailing list](http://eepurl.com/hjkmnX) (which is the main way to stay in the loop), we will also advertise meetings:
 - Through the [Jean Golding Institute mailing list](https://www.bristol.ac.uk/golding/join-our-mailing-list/) - where you can also hear about other Data Science Events.
 - By putting the dates [right here in this repository](./MEETINGS.md).
 - We'll [tweet about it at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub?src=hashtag_click).
 
-## How to join our next meeting
-Either:
-- Go to [this file](./MEETINGS.md) and click on the date you want to join - all the details are there
-- OR [join the mailing list](http://eepurl.com/hjkmnX) to receive a "1 week reminder" and an "it's today!" reminder.
+## Re-use our materials
+We really welcome people re-using the materials we have made. This repository is [licensed](LICENSE.md) under a CC-BY 3.0 license. This means, yes, please **do** use, remix, and share anything you find in this repo, but you must credit us with attribution (a link to this repo is okay!).  
 
-## Get Involved
-If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk). We would really welcome new organisers especially those new to organising and early career researchers. 
+To make it easier to re-use what you find here we have a made a [How To Guide](./how-to-guide/) which includes an explanation of what is here and also blank templates for all the things we use reguarly. This includes our Code of Conduct, Meeting agendas and issue templates. 
 
-### Organisers
-You can also contact us separately:
+
+## Organisers
+You can contact us on our [organisers group email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk).
+Or you can also contact us separately:
 - Nina Di Cara - [twitter](https://twitter.com/ninadicara), [email](mailto:nina.dicara@bristol.ac.uk)
 - Natalie Thurlby - [twitter](https://twitter.com/StatalieT), [email](mailto:natalie.thurlby@bristol.ac.uk)
+- Huw Day - [twitter](https://twitter.come/hdiscoday), [email](mailto:)
 
-## How to make suggestions
-If you'd like to make a suggestion for what to read, please do whatever you'd prefer:
-* [make an issue](https://github.com/very-good-science/ethical-data-science-journal-club/issues/new/choose) - use the reading suggestion(s) template.
-* [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)
-* edit this README and make a Pull Request (PR)
+If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk).  
+We would really welcome new organisers especially those new to organising and early career researchers. You can read more about how we organise the group and see our materials in the [How To Guide](./how-to-guide/) folder. 
 
-## Contributors ✨
+### Contributors ✨
 
 Thanks goes to these wonderful people in developing this repository and our [open reading list!](./READING-LIST.md) ([emoji key](#emoji-key)):
 
