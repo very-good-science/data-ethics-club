@@ -29,7 +29,7 @@ We welcome suggestions for new categories, or moving materials between categorie
 * [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Dataism is our new God](https://onlinelibrary.wiley.com/doi/pdf/10.1111/npqu.12080?casa_token=cj8N7zTKYeIAAAAA:fiV6jUDL9dVhZ5oADoLszgzL5Ubn5NWCmLuO6mVxa_mf_sO-JEB6nU-9FP5fYL5pm8JisxYlWEe) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) - ✅ [31st March 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/03-march/31-03-21_meeting.md)
 * [Challenging racism in the use of health data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00019-4/fulltext) - suggested by [@Lextuga007](https://github.com/Lextuga007)
-* [Living in the Hidden Realm of AI](https://news.techworkerscoalition.org/2021/03/09/issue-5/) - suggested by [@vairylein](https://github.com/vairylein), see [#54](https://github.com/very-good-science/data-ethics-club/issues/54)
+* [Living in the Hidden Realm of AI](https://news.techworkerscoalition.org/2021/03/09/issue-5/) - suggested by [@vairylein](https://github.com/vairylein), see [#54](https://github.com/very-good-science/data-ethics-club/issues/54) ✅
 * [Data Science, Meaning and Diversity](https://towardsdatascience.com/data-science-meaning-and-diversity-bb842602e55d) - suggested (and written!) by [Ismael Kherroubi Garcia](https://ismaelkg.medium.com/)
 
 ### Algorithmic decision making
@@ -40,14 +40,14 @@ We welcome suggestions for new categories, or moving materials between categorie
 * [Algorithms Of Oppression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by [@mtwest2718](https://github.com/mtwest2718)
   * Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/) 
 * [Automating Inequality](https://virginia-eubanks.com/)<sup>1</sup> - suggested by Valentina Ragni and [@mtwest2718](https://github.com/mtwest2718)
-  * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
+  * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away) ✅
   * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
 * [What does it mean to 'solve' the problem of discrimination in hiring?](https://dl.acm.org/doi/abs/10.1145/3351095.3372849) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
 * [Machine decisions and human consequences](https://arxiv.org/abs/1811.06747)
 * [Fairness and utilization in allocating resources with uncertain demand](https://dl.acm.org/doi/abs/10.1145/3351095.3372847) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
 * [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
 * [Coded Bias film](https://www.codedbias.com/) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) and [Paula Andrea Martinez
-](https://github.com/orchid00) - 🕰️  We're having a screening for Data Week in June 2021 with a Director Q&A! 
+](https://github.com/orchid00)  ✅
 * [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - [#3](../../issues/3) - suggested by [@ninadicara](https://github.com/ninadicara)
 
 ### History of data science
@@ -115,7 +115,7 @@ We welcome suggestions for new categories, or moving materials between categorie
 #### Computer vision
 
 * 📺 [How normal am I?](https://www.hownormalami.eu/) - interactive - suggested by Valentina Ragni
-* 📺 [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
+* 📺 [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) ✅
 
 #### Explainable AI/ML
 
