@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="logo.png">
@@ -97,26 +97,25 @@ Thanks goes to these wonderful people in developing this repository and our [ope
   </tr>
   <tr>
     <td align="center"><a href="http://jennybrennan.com"><img src="https://avatars.githubusercontent.com/u/7014476?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jenny Brennan</b></sub></a><br /><a href="#content-JennyBrennan" title="Content">🖋</a></td>
-    <td align="center"><a href="https://twitter.com/disco_huw"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Huw Day</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://senseoffairness.blog/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Paul Lee</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/henryaddison"><img src="https://avatars.githubusercontent.com/u/49613?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Henry Addison</b></sub></a><br /><a href="#blog-henryaddison" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/daslerr"><img src="https://avatars.githubusercontent.com/u/3181623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robin Dasler</b></sub></a><br /><a href="#blog-daslerr" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/fuyu00"><img src="https://avatars.githubusercontent.com/u/45471612?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adriano Winterton</b></sub></a><br /><a href="#blog-fuyu00" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/altanner"><img src="https://avatars.githubusercontent.com/u/8190834?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Al Tanner</b></sub></a><br /><a href="#ideas-altanner" title="Ideas, Planning, & Feedback">🤔</a> <a href="#blog-altanner" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://www.mcts.tum.de/en/people/christina-hitrova/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Christina Hitrova</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://www.mcts.tum.de/en/people/christina-hitrova/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Christina Hitrova</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/eanes-pereira-987580111/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Eanes T. Pereira</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/iamleeg"><img src="https://avatars.githubusercontent.com/u/237254?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Graham Lee</b></sub></a><br /><a href="#blog-iamleeg" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/kamilla-wells/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Kamilla Wells</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://jcussens.github.io/"><img src="https://avatars.githubusercontent.com/u/72010003?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Cussens</b></sub></a><br /><a href="#blog-jcussens" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://twitter.com/Ola_Michalec"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Ola Michalec</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://research-information.bris.ac.uk/en/persons/sergio-araujo-estrada"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Sergio A. Araujo-Estrada</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://twitter.com/TessaDarbyshire"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Tessa Darbyshire</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://twitter.com/TessaDarbyshire"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Tessa Darbyshire</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Roman Shkunov</b></sub><br /><a href="#blog" title="Blogposts">📝</a></td>
-    <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#blog-hdiscoday" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#eventOrganizing-hdiscoday" title="Event Organizing">📋</a></td>
   </tr>
 </table>
 
