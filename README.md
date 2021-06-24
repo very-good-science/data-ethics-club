@@ -69,7 +69,7 @@ Or you can also contact us separately:
 If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk).  
 We would really welcome new organisers especially those new to organising and early career researchers. You can read more about how we organise the group and see our materials in the [How To Guide](./how-to-guide/) folder. 
 
-### Contributors ✨
+## Contributors ✨
 
 Thanks goes to these wonderful people in developing this repository and our [open reading list!](./READING-LIST.md) ([emoji key](#emoji-key)):
 
