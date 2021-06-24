@@ -111,7 +111,7 @@ We welcome suggestions for new categories, or moving materials between categorie
   * Follow-up paper: [Lipstick on a Pig: Debiasing Methods Cover up Systematic Gender Biases in Word Embeddings But do not Remove Them](https://arxiv.org/abs/1903.03862) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Semantics derived automatically from language corpora contain human-like biases](https://science.sciencemag.org/content/sci/356/6334/183.full.pdf) - suggested by[@alicesaunders](https://github.com/alicesaunders)
 * [Gender Bias and Sexism in Language](https://oxfordre.com/communication/view/10.1093/acrefore/9780190228613.001.0001/acrefore-9780190228613-e-470#acrefore-9780190228613-e-470-bibItem-0028) - suggested by [@leriomaggio](https://github.com/leriomaggio)
-* 🕰️ [Can #BERT or #GPT-2 harm someone by proliferating and amplifying harmful stereotypes?](https://twitter.com/debora_nozza/status/1370067051721723907) - suggested by [@leriomaggio](https://github.com/leriomaggio)
+* [HONEST: Measuring Hurtful Sentence Completion in Language Models](https://milanlproc.github.io/publication/2021-honest-hurtful-language-model/) - suggested by [@leriomaggio](https://github.com/leriomaggio)
 
 #### Computer vision
 
