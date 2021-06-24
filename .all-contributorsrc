@@ -164,15 +164,6 @@
     },
     {
       "login": "",
-      "name": "Huw Day",
-      "avatar_url": "",
-      "profile": "https://twitter.com/disco_huw",
-      "contributions": [
-        "blog"
-      ]
-    },
-    {
-      "login": "",
       "name": "Paul Lee",
       "avatar_url": "",
       "profile": "https://senseoffairness.blog/",
@@ -304,7 +295,9 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/85741581?v=4",
       "profile": "https://github.com/HDiscoDay",
       "contributions": [
-        "blog"
+        "blog",
+        "eventOrganizing",
+        "content"
       ]
     }
   ],
