@@ -30,6 +30,7 @@ We welcome suggestions for new categories, or moving materials between categorie
 * [Dataism is our new God](https://onlinelibrary.wiley.com/doi/pdf/10.1111/npqu.12080?casa_token=cj8N7zTKYeIAAAAA:fiV6jUDL9dVhZ5oADoLszgzL5Ubn5NWCmLuO6mVxa_mf_sO-JEB6nU-9FP5fYL5pm8JisxYlWEe) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) - ✅ [31st March 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/03-march/31-03-21_meeting.md)
 * [Challenging racism in the use of health data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00019-4/fulltext) - suggested by [@Lextuga007](https://github.com/Lextuga007)
 * [Living in the Hidden Realm of AI](https://news.techworkerscoalition.org/2021/03/09/issue-5/) - suggested by [@vairylein](https://github.com/vairylein), see [#54](https://github.com/very-good-science/data-ethics-club/issues/54)
+* [Data Science, Meaning and Diversity](https://towardsdatascience.com/data-science-meaning-and-diversity-bb842602e55d) - suggested (and written!) by [Ismael Kherroubi Garcia](https://ismaelkg.medium.com/)
 
 ### Algorithmic decision making
 
@@ -49,6 +50,9 @@ We welcome suggestions for new categories, or moving materials between categorie
 ](https://github.com/orchid00) - 🕰️  We're having a screening for Data Week in June 2021 with a Director Q&A! 
 * [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - [#3](../../issues/3) - suggested by [@ninadicara](https://github.com/ninadicara)
 
+### History of data science
+* [Statistics, Eugenics and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) by Raphael Sonabend - suggested by [@ninadicara](https://github.com/ninadicara), see [#70](https://github.com/very-good-science/data-ethics-club/issues/70)
+
 ### Environmental costs and considerations
 
 * [Which programming languages use the least electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/)
@@ -56,6 +60,7 @@ We welcome suggestions for new categories, or moving materials between categorie
 * [Green AI](https://arxiv.org/abs/1907.10597) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
 * [Principles of Green Software Engineering](https://principles.green/) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
 * [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700) and the [ML CO2 Impact calculator](https://mlco2.github.io/impact/) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
+* [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech?) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 
 ### Privacy and surveillance
 
@@ -92,6 +97,7 @@ We welcome suggestions for new categories, or moving materials between categorie
   * Chapter 7: "Show your work"
   * The description of "co-liberatory" projects in chapter 5: "Unicorns, janitors, ninjas, wizards and rock stars" 
 * [People With Disabilities Say This AI Tool Is Making the Web Worse for Them](https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
+* [Sharing learnings about our image cropping algorithm (Twitter)](https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm.html) - suggested by [@ninadicara](https://github.com/ninadicara), see [#64](https://github.com/very-good-science/data-ethics-club/issues/64)
 
 ### Field Specific
 
