@@ -64,7 +64,7 @@ You can contact us on our [organisers group email](mailto:grp-ethicaldatascience
 Or you can also contact us separately:
 - Nina Di Cara - [twitter](https://twitter.com/ninadicara), [email](mailto:nina.dicara@bristol.ac.uk)
 - Natalie Thurlby - [twitter](https://twitter.com/StatalieT), [email](mailto:natalie.thurlby@bristol.ac.uk)
-- Huw Day - [twitter](https://twitter.come/hdiscoday), [email](mailto:)
+- Huw Day - [twitter](https://twitter.com/disco_huw), [email](mailto:huw.day@bristol.ac.uk)
 
 If you're interested in joining us in organising, please ping us an [email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk).  
 We would really welcome new organisers especially those new to organising and early career researchers. You can read more about how we organise the group and see our materials in the [How To Guide](./how-to-guide/) folder. 
