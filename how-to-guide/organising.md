@@ -53,7 +53,7 @@ The slightly edited emoji key that we use is:
 🖋 (content) for submitting suggestions to the "reading" list (suggestions can be any medium!)  
 💬 (question) for leading the discussion in a meeting  
 📝 (blog) for writing in the HackMD in a meeting  
-📋 (eventOrganising) for organising  
+📋 (eventOrganizing) for organising  
 🤔 (ideas) for ideas and planning of the group  
 🎨 (design) for visual design (e.g. logo)  
 🚇 (infrastructure) for infrastructure (e.g. bots, CI)  
