@@ -1,0 +1,50 @@
+# Data Ethics Club meeting 12th May 21, [13:00-14:00 BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Computer+Vision&iso=20210512T13&p1=%3A&ah=1)
+<!-- 
+TODO:
+- [ ] Change to a new branch (DD-MM-YY_meeting)
+- [ ] Copy this template to meetings/YEAR/DD-MM-YY_meeting.md (put in actual year + date)
+- [ ] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html and copy result to LINK-TO-TIMEDATE
+- [ ] Change all ALL-CAPS placeholders in this form
+- [ ] Add link to the new file in MEETINGS.md
+- [ ] Pull request!
+- [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
+- [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
+
+Repeat meeting link is currently: 
+
+Usual time 13:00-14:00
+-->
+## Meeting info
+
+### Quick links
+
+Zoom link: https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExMnJON3pDUT09
+
+Link to content: https://slideslive.com/38923500/critical-perspectives-on-computer-vision
+
+### Description
+You're welcome to join us for our next Data Ethics Club meeting on Wednesday 12th May at [1pm BST](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+Computer+Vision&iso=20210512T13&p1=%3A&ah=1). You don't need to register, just pop in. This time we're going to watch/read [Critical Perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision) by Emily Denton, which is a 20 minute presentation from NeurIPS 2019. 
+
+Natalie suggested this week's content, and Nina will be leading this week's meeting.
+
+### Discussion points
+
+There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
+- Denton talks about the 'view from nowhere' as a "neutral" perspective of research, and specifically data annotation. If you were building a new dataset right now, what could you do, or what have you done previously, to address this?
+- Denton discusses the implications of [biological essentialism](https://www.oxfordreference.com/view/10.1093/oi/authority.20110803095507973#:~:text=The%20belief%20that%20'human%20nature,%2C%20upbringing%2C%20and%20culture). Many areas of research have 'controlled for' gender and race/ethnicity for a long time - is this the most useful way to understand differences between people?
+- What current applications of computer vision can we think of that are currently in use? What implications might these have for people's lives?
+
+---
+
+<!--
+
+## Meeting notes
+
+### Who came
+Number of people:
+
+### What did we think?
+Notes here!
+Shall we email the author? If so, who'll send the email?
+
+-->

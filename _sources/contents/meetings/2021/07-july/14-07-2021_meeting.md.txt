@@ -1,0 +1,52 @@
+# Data Ethics Club meeting [14-07-21 Wednesday 13:00-14:00 UK time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+14%2F07%2F21%3A+Numberphile+mathematics+of+crime+&iso=20210717T13&p1=299&ah=1)
+<!-- 
+TODO:
+- [x] Change to a new branch (DD-MM-YY_meeting)
+- [x] Copy this template to meetings/YEAR/DD-MM-YY_meeting.md (put in actual year + date)
+- [x] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html and copy result to LINK-TO-TIMEDATE
+- [x] Change all ALL-CAPS placeholders in this form
+- [ ] Add link to the new file in MEETINGS.md
+- [ ] Pull request!
+- [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
+- [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
+
+Repeat meeting link is currently: https://bristol-ac-uk.zoom.us/j/94475153265
+
+
+Usual time 13:00-14:00
+-->
+## Meeting info
+
+### Quick links
+
+- Zoom link: [https://bristol-ac-uk.zoom.us/j/94475153265](https://bristol-ac-uk.zoom.us/j/94475153265)
+- Link to content: [https://www.youtube.com/watch?v=lCjspXB5F4A](https://www.youtube.com/watch?v=lCjspXB5F4A)
+
+### Description
+You're welcome to join us for our next Data Ethics Club meeting on [14-07-21 Wednesday 13:00-14:00 UK time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+14%2F07%2F21%3A+Numberphile+mathematics+of+crime+&iso=20210717T13&p1=299&ah=1). 
+You don't need to register, just pop in. 
+This time we're going to watch an episode of Numberphile [The Mathematics of Crime and Terrorism - Numberphile](https://www.youtube.com/watch?v=lCjspXB5F4A) by with Hannah Fry, which is a ten minute video describing how statistical modelling equations are used in predictive policing. 
+
+Thank you to our new addition to the organising team Huw Day for suggesting this week's content, and to Natalie Thurlby, who'll be leading this week's meeting.
+
+### Discussion points
+
+There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
+- What ethical concerns would you have about this kind of predictive policing being implemented?
+- What do you think about Hannah's statement that the process of modelling is "free from emotion and hand-wavey-ness"?
+- How do you think the the fact that predictive policing is being used impact on crime rates?
+
+---
+
+<!--
+
+## Meeting notes
+
+### Who came
+Number of people:
+
+### What did we think?
+Notes here!
+Shall we email the author? If so, who'll send the email?
+
+-->
