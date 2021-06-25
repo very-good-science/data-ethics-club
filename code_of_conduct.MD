@@ -1,5 +1,5 @@
 # Code of conduct
 
-[//]: # (TODO: Add link)
+[//]: # (TODO: Check link)
 
-Please see [our website]() for the most up to date version of our code of conduct.
+Please see [our website](https://very-good-science.github.io/data-ethics-club/code-of-conduct) for the most up to date version of our code of conduct.
