@@ -12,7 +12,7 @@ To [stay in the loop](#join-us-at-data-ethics-club), please join our [mailing li
 
 While you're here, you may want to:
 * Enjoy our [reading list](./site/contents/reading-list.md).
-* Read our [Code of Conduct](./site/contents/CODE-OF-CONDUCT.md).
+* Read our [Code of Conduct](site/contents/code-of-conduct.md).
 * Find out [how to join a meeting](#join-us-at-data-ethics-club).
 * See how you can [re-use our materials](#re-use-our-materials).
 * [Contact the organisers](#organisers).
