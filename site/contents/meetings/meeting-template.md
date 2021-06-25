@@ -18,9 +18,9 @@ Usual time 13:00-14:00
 
 ### Quick links
 
-Zoom link: ZOOM-LINK
+Zoom link: [ZOOM-LINK](ZOOM-LINK)
 
-Link to content: CONTENT-LINK
+Link to content: [CONTENT-LINK](CONTENT-LINK)
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [DAY the DATE at TIME UK time](LINK-TO-TIMEDATE). You don't need to register, just pop in. This time we're going to watch/read [NAME OF CONTENT](LINK-TO-CONTENT) by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
