@@ -1,5 +1,4 @@
-# Data Ethics Club meeting [DD-MM-YY, MEETING-TIME UK time](LINK-TO-TIMEDATE)
-
+# Data Ethics Club meeting DD-MM-YY, [MEETING-TIME TIMEZONE](LINK-TO-TIMEDATE)
 <!-- 
 TODO:
 - [ ] Change to a new branch (DD-MM-YY_meeting)
@@ -9,23 +8,21 @@ TODO:
 - [ ] Add link to the new file in MEETINGS.md
 - [ ] Pull request!
 - [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
-- [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
 
-Repeat meeting link is currently: https://bristol-ac-uk.zoom.us/j/94475153265
+Repeat meeting link is currently: LINK HERE
 
-
-Usual time 13:00-14:00
+Usual time: XX:XX - XX:XX
 -->
 ## Meeting info
 
 ### Quick links
 
-Zoom link: [ZOOM-LINK](ZOOM-LINK)
+Zoom link: ZOOM-LINK
 
-Link to content: [CONTENT-LINK](CONTENT-LINK)
+Link to content: CONTENT-LINK
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DAY the DATE at TIME UK time](LINK-TO-TIMEDATE). You don't need to register, just pop in. This time we're going to watch/read [NAME OF CONTENT](LINK-TO-CONTENT) by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+You're welcome to join us for our next Data Ethics Club meeting on DAY the DATE at [TIME GMT](LINK-TO-TIMEDATE). You don't need to register, just pop in. This time we're going to watch/read [NAME OF CONTENT](LINK-TO-CONTENT) by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
 
 Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
 

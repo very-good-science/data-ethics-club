@@ -14,19 +14,23 @@
         "eventOrganizing",
         "ideas",
         "design",
-        "content"
+        "content",
+        "question",
+        "blog"
       ]
     },
     {
       "login": "ninadicara",
-      "name": "Nina",
+      "name": "Nina Di Cara",
       "avatar_url": "https://avatars1.githubusercontent.com/u/44364127?v=4",
       "profile": "https://github.com/ninadicara",
       "contributions": [
         "eventOrganizing",
         "ideas",
         "content",
-        "infra"
+        "question",
+        "infra",
+        "blog"
       ]
     },
     {
@@ -35,7 +39,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/8397376?v=4",
       "profile": "https://github.com/mtwest2718",
       "contributions": [
-        "content"
+        "content",
+        "question",
+        "blog"
       ]
     },
     {
@@ -45,7 +51,8 @@
       "profile": "https://github.com/RobertArbon",
       "contributions": [
         "design",
-        "content"
+        "content",
+        "blog"
       ]
     },
     {
@@ -72,7 +79,8 @@
       "avatar_url": "",
       "profile": "http://www.bristol.ac.uk/engineering/people/miranda-j-mowbray/overview.html",
       "contributions": [
-        "content"
+        "content",
+        "blog"
       ]
     },
     {
@@ -90,7 +98,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/1908453?v=4",
       "profile": "http://dynamicgenetics.org",
       "contributions": [
-        "content"
+        "content",
+        "blog"
       ]
     },
     {
@@ -118,7 +127,8 @@
       "profile": "https://philosopher-analyst.netlify.app/",
       "contributions": [
         "content",
-        "maintenance"
+        "maintenance",
+        "blog"
       ]
     },
     {
@@ -127,7 +137,165 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/9795785?v=4",
       "profile": "https://github.com/orchid00",
       "contributions": [
+        "content",
+        "maintenance",
+        "blog"
+      ]
+    },
+    {
+      "login": "vairylein",
+      "name": "Vanessa Hanschke",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1439220?v=4",
+      "profile": "https://github.com/vairylein",
+      "contributions": [
+        "content",
+        "blog",
+        "question"
+      ]
+    },
+    {
+      "login": "JennyBrennan",
+      "name": "Jenny Brennan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7014476?v=4",
+      "profile": "http://jennybrennan.com",
+      "contributions": [
         "content"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Paul Lee",
+      "avatar_url": "",
+      "profile": "https://senseoffairness.blog/",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "henryaddison",
+      "name": "Henry Addison",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49613?v=4",
+      "profile": "https://github.com/henryaddison",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "daslerr",
+      "name": "Robin Dasler",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3181623?v=4",
+      "profile": "https://github.com/daslerr",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "fuyu00",
+      "name": "Adriano Winterton",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45471612?v=4",
+      "profile": "https://github.com/fuyu00",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "altanner",
+      "name": "Al Tanner",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8190834?v=4",
+      "profile": "https://github.com/altanner",
+      "contributions": [
+        "ideas",
+        "blog"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Christina Hitrova",
+      "avatar_url": "",
+      "profile": "https://www.mcts.tum.de/en/people/christina-hitrova/",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Eanes T. Pereira",
+      "avatar_url": "",
+      "profile": "https://www.linkedin.com/in/eanes-pereira-987580111/",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "iamleeg",
+      "name": "Graham Lee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/237254?v=4",
+      "profile": "https://github.com/iamleeg",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Kamilla Wells",
+      "avatar_url": "",
+      "profile": "https://www.linkedin.com/in/kamilla-wells/",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "jcussens",
+      "name": "James Cussens",
+      "avatar_url": "https://avatars.githubusercontent.com/u/72010003?v=4",
+      "profile": "https://jcussens.github.io/",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Ola Michalec",
+      "avatar_url": "",
+      "profile": "https://twitter.com/Ola_Michalec",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Sergio A. Araujo-Estrada",
+      "avatar_url": "",
+      "profile": "https://research-information.bris.ac.uk/en/persons/sergio-araujo-estrada",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Tessa Darbyshire",
+      "avatar_url": "",
+      "profile": "https://twitter.com/TessaDarbyshire",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Roman Shkunov",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "blog"
+      ]
+    },
+    {
+      "login": "hdiscoday",
+      "name": "hdiscoday",
+      "avatar_url": "https://avatars.githubusercontent.com/u/85741581?v=4",
+      "profile": "https://github.com/HDiscoDay",
+      "contributions": [
+        "eventOrganizing"
       ]
     }
   ],
