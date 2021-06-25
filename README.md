@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
-  <img height=250 src="logo.png">
+  <img height=250 src="site/images/logo.png">
 </p>
 
 Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. 
