@@ -17,6 +17,7 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 TODO: 
 - Add date for Data Hazards Workshop
 - Add links to videos + slides for IRC seminar
+- Update summary links to be on website
 
 -->
 
@@ -31,10 +32,10 @@ You can see a record of what we have discussed previously here.
 | [26.05.2021, 1pm](2021/05-may/26-05-2021_meeting)   |         ['Living in the Hidden Realms of AI: The Workers Perspective'](https://news.techworkerscoalition.org/2021/03/09/issue-5/)            |
 | [12.05.2021, 1pm](2021/05-may/12-05-2021_meeting)  | [Critical Perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision) | Coming soon |
 | [28.04.2021, 1pm](2021/04-april/28-04-21_meeting)                                        | [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)                    | Coming soon |
-| [14.04.2021, 1pm](2021/03-march/14-04-21_meeting) |  [Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/)  | [Meeting Summary](https://hackmd.io/@nataliethurlby/DEC-ethics-landscape) |
+| [14.04.2021, 1pm](2021/04-april/14-04-21_meeting) |  [Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/)  | [Meeting Summary](https://hackmd.io/@nataliethurlby/DEC-ethics-landscape) |
 | [31.03.2021, 1pm](2021/03-march/31-03-21_meeting)| [Dataism is Our New God](https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080)        | [Meeting Summary](https://hackmd.io/@nataliethurlby/DEC-dataism) |
 | [17.03.2021, 1pm](2021/03-march/17-03-21_meeting)|[#bropenscience is broken science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science)| [Meeting summary](https://hackmd.io/@nataliethurlby/DEC-bropenscience) |
 | [03.03.2021, 1pm](2021/03-march/03-03-21_meeting) | [Algorithmic injustice: a relational ethics approach (Birhane, 2021)](https://www.sciencedirect.com/science/article/pii/S2666389921000155) | [Nina's Twitter Summary](https://twitter.com/ninadicara/status/1367117597397893122?s=20)|
 | [17.02.2021, 1pm](2021/02-feb/17-02-21_meeting) | [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) | [Natalie's Twitter Summary](https://twitter.com/StatalieT/status/1362045192543600641?s=20)|
 | [03.02.2021, 1pm](2021/02-feb/03-02-21_meeting)| [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee) | [Nina's Twitter Summary](https://twitter.com/ninadicara/status/1356976821498175491?s=20) |
-| [20.01.2021, 1pm](2021/01-jan/20-01-21_meeting)   | [Executive Summary of the Review into bias in algorithmic decision making](meetings/2021/jan/20-01-20_cdei_algorithmic_bias_summary.pdf)| [Brief summary on the meeting document](2021/01-jan/20-01-21_meeting) |
+| [20.01.2021, 1pm](2021/01-jan/20-01-21_meeting)   | [Executive Summary of the Review into bias in algorithmic decision making](2021/01-jan/20-01-20_cdei_algorithmic_bias_summary.pdf)| [Brief summary on the meeting document](2021/01-jan/20-01-21_meeting) |

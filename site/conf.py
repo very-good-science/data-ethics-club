@@ -63,6 +63,11 @@ html_theme_options = {
 
 html_sidebars = {
     'index': [],
+    'contents/reading-list': [],
+    'contents/contact':[],
+    'contents/get-involved':[],
+    'contents/administration': [],
+
 }
 
 html_favicon = '_static/favicon.png'
