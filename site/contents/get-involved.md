@@ -1,4 +1,4 @@
-# Get Involved
+# Join us
 
 Everyone is welcome to get involved in Data Ethics Club, as much or as little as you'd like to! 
 We would love to [hear your point of view at our discussion groups](#attend-our-discussion-groups), to have your support in [organising or running a meeting](#help-us-to-organise), or to add your [suggestions](#suggest-something-for-our-reading-list) to our reading list.
@@ -21,6 +21,10 @@ If you'd like a flavour of what we usually discuss then go to [our meetings page
 If you'd like to join us, we email the Zoom link and discussion material 1 week ahead of, and on the day of, our meetings to [our mailing list](http://eepurl.com/hjkmnX). 
 You can also look at [our meetings page](meetings/meetings) to see upcoming dates. 
 The Zoom link can be found by clicking through to a specific upcoming meeting.
+
+### Code of conduct
+We follow a [code of conduct](code-of-conduct) during Data Ethics Group which is designed to make sure everyone feels welcome and confortable sharing their experiences and take on the material. 
+Please read it before attending.
 
 ### Special events
 We occasionally have special events with slightly different formats, for example our [Coded Bias Screening]() or our [Inclusive Data Science event](). 
