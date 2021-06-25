@@ -19,7 +19,7 @@ While you're here, you may want to:
 
 ## Check out the reading list
 
-:book: 📚 :arrow_right: [**Go to the reading list**](./READING-LIST.md) :arrow_left: 📚 📖
+:book: 📚 :arrow_right: [**Go to the reading list**](./site/contents/reading-list.md) :arrow_left: 📚 📖
 
 Thanks to our many wonderful [contributors](#contributors-) we have a reading list of data ethics materials and talking points that is always growing.  
 
