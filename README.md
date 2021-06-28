@@ -37,7 +37,7 @@ You can see our [upcoming meetings here](./site/contents/meetings/meetings.md).
 We usually hear a short summary of the piece, split into breakout rooms to discuss some prompts, and then come back together to share our thoughts as a group. 
 You don't need to be a data ethicist (we're not), or even a data scientist! It's a friendly and welcoming group and we often have new people drop by, so why not try it 🤗  
 
-If you'd like a flavour of what we usually discuss then [go to our MEETINGS.md file](./site/contents/meetings/meetings.md) and click on any of the summaries from past meetings to read about our discussions. 
+If you'd like a flavour of what we usually discuss then [go to our `meetings.md` file](./site/contents/meetings/meetings.md) and click on any of the summaries from past meetings to read about our discussions. 
 
 
 ### How to join our next meeting
