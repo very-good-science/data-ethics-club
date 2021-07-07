@@ -117,7 +117,7 @@ Thanks goes to these wonderful people in developing this repository and our [ope
   </tr>
   <tr>
     <td align="center"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Roman Shkunov</b></sub><br /><a href="#blog" title="Blogposts">📝</a></td>
-    <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#eventOrganizing-hdiscoday" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#eventOrganizing-hdiscoday" title="Event Organizing">📋</a> <a href="#blog-hdiscoday" title="Blogposts">📝</a> <a href="#ideas-hdiscoday" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
