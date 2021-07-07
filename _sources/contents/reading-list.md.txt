@@ -78,6 +78,7 @@ Note: reading materials appear once in the category we felt they fit best.
 
 * [Privacy is power](https://www.politico.eu/article/privacy-is-power-opinion-data-gdpr/)
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
+* [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) (suggested by @HuwDiscoDay)
 
 ## Data ethics in the private and public sectors
 
