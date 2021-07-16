@@ -92,7 +92,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday)
 
 ## Data science culture
-
+* [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) - suggested by [@nataliethurlby](github.com/NatalieThurlby)
 * [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * 📺[Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9) suggested by [@ninadicara](https://github.com/ninadicara)
 * [#bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby),  ✅  [17th March 2021](./meetings/2021/03-mar/17-03-21_meeting.md)
