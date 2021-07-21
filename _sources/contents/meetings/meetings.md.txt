@@ -10,12 +10,11 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [14.07.2021, 1pm](2021/07-july/14-07-2021_meeting) | [Numberphile: The Mathematics of Crime and Terrorism - Numberphile](https://www.youtube.com/watch?v=lCjspXB5F4A) |
-| 28.07.2021, 1pm | TBC - we'll vote on it in the meeting before |
+| [28.07.2021, 1pm](2021/07-july/28-07-2021_meetin) | [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) |
 | 11.08.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 25.08.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 08.09.2021, 1pm | TBC - we'll vote on it in the meeting before |
-| **NO MEETING 22.08** | **NO MEETING 22.08** |
+| NO MEETING 22.08 | NO MEETING 22.08|
 | 06.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 20.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 03.11.2021, 1pm | TBC - we'll vote on it in the meeting before |
@@ -37,6 +36,7 @@ You can see a record of what we have discussed previously here.
 
 | Previous Meetings | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [14.07.2021, 1pm](2021/07-july/14-07-2021_meeting) | [Numberphile: The Mathematics of Crime and Terrorism - Numberphile](https://www.youtube.com/watch?v=lCjspXB5F4A) |
 | [17.06.2021: Inclusive and Ethical Data Science Seminar](https://www.eventbrite.co.uk/e/inclusive-and-ethical-data-science-tickets-154266849299#) | Responsible Data and AI by [Anjali Mazumder](https://www.turing.ac.uk/people/researchers/anjali-mazumder),  [Intro to The Turing Way](https://zenodo.org/record/4969380) by [Malvika Sharan](https://malvikasharan.github.io/), and [FAT Forensics ToolBox](https://fat-forensics.org/index.html) by [Alex Hepburn](https://research-information.bris.ac.uk/en/persons/alex-hepburn) | Coming Soon |
 | [16.06.2021: Screening of Coded Bias](https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-club-coded-bias-screening-tickets-155911949839#) | [Coded Bias](https://en.wikipedia.org/wiki/Coded_Bias) | N/A
 | [26.05.2021, 1pm](2021/05-may/26-05-2021_meeting)   |         ['Living in the Hidden Realms of AI: The Workers Perspective'](https://news.techworkerscoalition.org/2021/03/09/issue-5/)            |
