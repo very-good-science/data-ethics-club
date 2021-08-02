@@ -1,4 +1,3 @@
-
 # Data Ethics Club discusses ['Living in the Hidden Realms of AI: The Workers Perspective'](https://news.techworkerscoalition.org/2021/03/09/issue-5/)
 
 ```{admonition} What's this? 
