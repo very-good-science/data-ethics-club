@@ -11,7 +11,7 @@ Nina Di Cara helped with a final edit and an extra paragraph.
 Those of us who are within or adjacent to the Open Science and tech communities recognised the bro (and sadly the bro within), in all genders. For example centring socialisation around beer or "joking" about why some piece of software is terrible. 
 Over all, there seemed to be some hope for redemption for this flavour of bro, with a few tales of improvement. 
 Despite the name, we felt that being a bro isn't necessarily about masculine versus feminine, but about naming your viewpoint as The One Way To Do Things; about superiority for an elite group, as [this article](https://ieeexplore.ieee.org/document/6502624) suggests with respect to bros in computer science. 
-This is borne out by [other]() [examples](https://joelemartinez.com/2016/12/28/whiteness-in-statistics/) of dismissive and combative attitudes and in Open Science.
+This is borne out by [other examples](https://joelemartinez.com/2016/12/28/whiteness-in-statistics/) of dismissive and combative attitudes and in Open Science.
 
 ## It's bros all the way down
 Whether attendees were inside of, familar with, or unfamiliar with, the Open Science community, many said #bropenscience reminded them of the wider problems of academia. 

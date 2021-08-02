@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Ethics Club discusses Critical perspectives on Computer Vision &#8212; Data Ethics Club v0.1.0 documentation</title>
+    
+  <link href="../../../_static/css/theme.css" rel="stylesheet" />
+  <link href="../../../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../../../index.html">
+<p class="title">Data Ethics Club</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../write-ups.html">
+  Write-ups
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../reading-list.html">
+  Reading list
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../administration.html">
+  Organising
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../get-involved.html">
+  Join us
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../meetings/meetings.html">
+  Meeting Dates
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../contact.html">
+  Contact us
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/very-good-science/data-ethics-club" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/hashtag/DataEthicsClub" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-view-from-nowhere">
+   The View from Nowhere
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#better-accounting-for-our-views">
+   Better accounting for our views
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sharing-is-caring">
+   Sharing is caring?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#let-s-think-carefully">
+   Let’s think carefully
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#so-computer-vision-good-or-evil">
+   So, computer vision: good or evil?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#related-links">
+   Related Links
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#attendees">
+     Attendees
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="section" id="data-ethics-club-discusses-critical-perspectives-on-computer-vision">
+<h1>Data Ethics Club discusses <a class="reference external" href="https://slideslive.com/38923500/critical-perspectives-on-computer-vision">Critical perspectives on Computer Vision</a><a class="headerlink" href="#data-ethics-club-discusses-critical-perspectives-on-computer-vision" title="Permalink to this headline">¶</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 12th May’s Data Ethics Club discussion, where we spoke and wrote about the conference talk <a class="reference external" href="https://slideslive.com/38923500/critical-perspectives-on-computer-vision">Critical perspectives on Computer Vision</a> by Emily Denton.</p>
+<p>The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+</div>
+<div class="section" id="the-view-from-nowhere">
+<h2>The View from Nowhere<a class="headerlink" href="#the-view-from-nowhere" title="Permalink to this headline">¶</a></h2>
+<p>The idea of the <a class="reference external" href="https://www.jstor.org/stable/3178066">view from nowhere</a> is to be completely impartial when reporting/drawing conclusions. By
+some it’s considered a holy grail in unbiased reporting (be it journalistic or scientific). By others
+it’s considered a place that doesn’t even exist, a naively idealistic goal that leads to sloppy writing
+filled with a narrator trapped in an argument with themselves, often at the expense of the reader’s
+understanding.</p>
+<p>Anyone with a technical but largely theoretical background (for example, abstract maths, computer
+science or theoretical physics), might understand the view from nowhere as not only a place that exists,
+but the only logical place from which to argue theoretical results. In the axiomatic approach to proofs
+in abstract maths for example, statements don’t come with bias, only true, false or as yet unproven. If
+you’ve ever scribbled a mathematical proof that 0.9 recurring is the same 1 on the back of a napkin,
+only to have your mathematically complete logic refuted by a bartender, you know what I’m talking about
+here. And if you don’t…probably for the best.</p>
+<p>The real world however, is a little less black and white. Whilst you can still reach objective truth
+among certain parameters, there’s a whole lot of maybes out there. As soon as you deal with anything
+concrete but potentially uncertain, the view from nowhere starts looking like a lost cause. A set of
+points can fit a statistical distribution with a certain level of confidence, but it takes a leap to say
+that this correlation implies causation.</p>
+<p>Meanwhile anthropologists and ethnographers have understood for a long time that you can’t have a
+viewpoint-less view and that the very nature of our observations is affected by the lens through which we
+view the world. To reach scientific conclusions, hypotheses must still be made and tested and those
+hypotheses are nothing more but guesses, fueled by our bias. Even in abstract problems with no real
+world consequences, many results are guessed before they are proven.</p>
+</div>
+<div class="section" id="better-accounting-for-our-views">
+<h2>Better accounting for our views<a class="headerlink" href="#better-accounting-for-our-views" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><p>In the days when Sussman was a novice, Minsky  once came to him as he sat hacking at the PDP 6.</p>
+<p>“What are you doing?”, asked Minsky.</p>
+<p>“I am training a randomly wired neural net to play Tic-tac-toe”, Sussman replied.</p>
+<p>“Why is the net wired randomly?”, asked Minsky.</p>
+<p>“I do not want it to have any preconceptions of how to play”, Sussman said. Minsky then shut his eyes.</p>
+<p>“Why do you close your eyes?” Sussman asked his teacher.</p>
+<p>“So that the room will be empty.”
+At that moment, Sussman was enlightened.</p>
+</div></blockquote>
+<p>Machine learning requires a mapped dataset for training, usually with a binary result. There is little
+to no accounting for the grey of the world if the model is built on true/false prediction accuracy.
+Worse, this can encourage us to think of the world in a binary way, and flatten complex concepts down
+into a binary. It could be relevant to think about how to change machine learning inputs/outputs to move
+away from boiling down the world in this way.</p>
+<p>This will require much more detail and thought in our methods: if we’re not viewing from nowhere, where is the view from?
+Rather than
+seek out neutrality from where we are now, we should use detailed annotations and descriptions in our
+data sets to understand where our bias comes from.
+For example, perhaps in an Italian data
+set, a higher % of men would be described as “bello” (beautiful), as that’s more common than describing
+men as beautiful in English.</p>
+<p>Documenting our view means publishing who your annotator(s) are, their demographics, what instructions you gave them. Perhaps as the field evolves, further information might be the norm as we ask what is annotating data useful for? What should it be useful for?</p>
+<p>However, a distict problem that is common in data science is that it’s rare to use your own data; typically you use what
+other people have collected. Reusing pre-made datasets can smuggle
+in a lot of preconceptions that we aren’t explicitly aware of (this especially applies to collecting
+personal data). <a class="reference external" href="https://arxiv.org/abs/1803.09010">Datasheets for Datasets</a>, an approach introduced to computer science by Timnit Gebru, is probably a great place for us to start handing over our data sets with care. But there are many existing datasets that are widely used that we know next to nothing about.</p>
+</div>
+<div class="section" id="sharing-is-caring">
+<h2>Sharing is caring?<a class="headerlink" href="#sharing-is-caring" title="Permalink to this headline">¶</a></h2>
+<p>While we all agreed that sharing data, and the details that go with it is a good solution, there are also some practical challenges. For instance sometimes data has been managed by a colleague who has left. Sometimes academia incentivises people to keep valuable datasets to themselves. Even so, the focus on reproducibility in the last few years has meant that “trust me, the data says so” is not going to cut it in today’s academic culture.</p>
+<p>This does need to
+be balanced delicately though with confidentiality of personal data and ensuring that those who shared their
+data consent to its use. Potentially there is a need for sharing applications of the data back to the
+primary sources. This can be slower and more restrictive in some applications and is limited by the scale of some
+data sets.</p>
+<p>Lastly, it’s also a good idea to think about the potential consequences of sharing datasets. Data on court verdicts of crimes along with the nature of crimes could allow
+you to explore varying crime/conviction rates - but they could also allow you to attempt to
+“predict” guilty or not guilty verdicts based on a variety of parameters.
+We should always be asking each other “what are the potential ramifications of your work?”.</p>
+<p>When you’re so far removed from the problem as a data/computer scientist, it’s important to be reminded:
+the data is people. Is the solution to force interdisciplinarity? To make a compelling argument, you
+should certainly have a better understanding of the context and not just the data that compells your
+ideas. Perhaps there needs to be better liability for software and a way of enforcing industry standards (such as
+for doctors and lawyers) on anyone who writes code?</p>
+<p>That being said, with strict regulation comes reduced accessibility. Some of the best coders in the world start learning
+in their bedrooms without taking any certified course. We should find a way to keep the tech sector
+accessible to all but to avoid gatekeeping. In some ways an approach similar to medical treatment might
+be sensible: I don’t need a certificate or a qualification to help someone with a nose bleed or a paper
+cut, provided I have the right knowledge, but I certainly shouldn’t attempt brain surgery without the
+right training (of which a degree certificate happens to be a byproduct).</p>
+</div>
+<div class="section" id="let-s-think-carefully">
+<h2>Let’s think carefully<a class="headerlink" href="#let-s-think-carefully" title="Permalink to this headline">¶</a></h2>
+<p>In the video Denton discusses <a class="reference external" href="https://www.oxfordreference.com/view/10.1093/oi/authority.20110803095507973">biological essentialism</a>, and the harm that it can do. Its a flaw that many fields fall into, so how could we do better?</p>
+<p>One suggestion was that data scientists should think critically about the variable we want data for, and separate that from variables that we assume are related/correlated. For example, asking someone’s gender (to ask for potential pregnancy in medical setting), instead of asking are you potentially pregnant. If we use these “pseudo variables” instead, we may end up encoding our own biases and assumptions in the model without realising. Since data scientists are quite likely to be white cis men, it’s more than likely that they will display (unwillful or otherwise) ignorance on certain categories.</p>
+<p>For all of us as data scientists do this effectively though we’ll need to keep challenging our own understanding of socially constructed concepts. For instance, how on earth can we account for race, when racial identity is socially constructed? It also requires us to think carefully about the research problems we are trying to solve: there’s a big difference between saying “we should collect this data and then control for it” and “we can predict this person’s sexuality/gender etc.”</p>
+</div>
+<div class="section" id="so-computer-vision-good-or-evil">
+<h2>So, computer vision: good or evil?<a class="headerlink" href="#so-computer-vision-good-or-evil" title="Permalink to this headline">¶</a></h2>
+<p>Overall, we recognised that there are lots of benefits to computer vision - we use it all the time in our day to day lives! But as with most ethical problems, the question is more about when should we use it, and what for.</p>
+<p>This discussion will keep coming back to fundamental problems of epistemology and perception - these
+problems are not necessarily exclusive to data science and machine learning, they crop up everywhere in
+science! We need to be aware that machine learning is the systematisation of (flawed) human perception
+and understanding. This might
+wind up a few logiciains and topologists, but getting scientists to consider the potential downsides of
+their work could be an important step towards more ethical research practices.</p>
+</div>
+<hr class="docutils" />
+<div class="section" id="related-links">
+<h2>Related Links<a class="headerlink" href="#related-links" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>A really interesting paper on controlling for gender: <a class="reference external" href="https://arxiv.org/abs/2101.08325">“This whole thing smacks of gender: algorithmic exclusion in bioimpedance-based body composition analysis”</a>, by Kendra Albert &amp; Maggie Delano at FAccT 2021.</p></li>
+<li><p>Book recommendation: “Sorting Things Out”, Geoffrey Bowker</p></li>
+<li><p>Recommended talk by Peter Flach: “Computer Says I don’t know”</p></li>
+<li><p>Recommended project with co-design: - https://www.nesta.org.uk/feature/eight-ways-councils-are-using-data-create-better-services/damp-sensing-frogs/</p></li>
+</ul>
+<hr class="docutils" />
+<div class="section" id="attendees">
+<h3>Attendees<a class="headerlink" href="#attendees" title="Permalink to this headline">¶</a></h3>
+<p>Note: this is not a full list of attendees, only those who felt comfortable sharing their names.</p>
+<p><strong>Name, Affiliation, Links to find you</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
+<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
+<li><p>Huw Day, Maths PhDoer, Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Paul Lee, investor &#64;pclee27</p></li>
+<li><p>Robin Dasler, research software product manager on hiatus, <a class="reference external" href="https://github.com/daslerr">daslerr</a></p></li>
+<li><p>Kamilla Wells, Citizen Developer, <a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a></p></li>
+<li><p>Miranda Mowbray, honorary lecturer, <a class="reference external" href="https://www.linkedin.com/in/mirandamowbray">mirandamowbray</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+              </div>
+              
+              
+              <div class='prev-next-bottom'>
+                
+
+              </div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, Natalie Thurlby and Nina Di Cara.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.5.4.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
