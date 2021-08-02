@@ -1,0 +1,53 @@
+# Data Ethics Club meeting [11-08-21, 1pm UK time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+What+an+ancient+lake+in+Nevada+reveals+about+the+future+of+tech&iso=20210811T13&p1=299&ah=1)
+
+<!-- 
+TODO:
+- [ ] Change to a new branch (DD-MM-YY_meeting)
+- [ ] Copy this template to meetings/YEAR/DD-MM-YY_meeting.md (put in actual year + date)
+- [ ] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html and copy result to LINK-TO-TIMEDATE
+- [ ] Change all ALL-CAPS placeholders in this form
+- [ ] Add link to the new file in meetings.md
+- [ ] Update the next-meeting.md file
+- [ ] Pull request!
+- [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
+- [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
+
+Repeat meeting link is currently: 
+
+
+Usual time 13:00-14:00
+-->
+## Meeting info
+
+### Quick links
+
+Zoom link: https://bristol-ac-uk.zoom.us/j/94475153265
+
+Link to content: [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech)
+
+### Description
+You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 11th August at 1pm](LINK-TO-TIMEDATE). You don't need to register, just pop in. This time we're going to watch/read [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech) by Kate Crawford, which is a short piece about the environmental impact of technology. It is an extract from her recent book [Atlas of AI](https://yalebooks.yale.edu/book/9780300209570/atlas-ai).
+
+Natalie suggested this week's content, and Nina will be leading this week's meeting.
+
+### Discussion points
+
+There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
+- What information or knowledge are we missing in terms of environmental impact of technology that might help us to act on it? 
+- Who does this problem 'belong to'? 
+- What can we do about it? 
+
+---
+
+<!--
+
+## Meeting notes
+
+### Who came
+Number of people:
+
+### What did we think?
+Notes here!
+Shall we email the author? If so, who'll send the email?
+
+-->
