@@ -128,7 +128,7 @@ their work could be an important step towards more ethical research practices.
 
 ---
 
-## Interesting Links
+## Related Links
 - A really interesting paper on controlling for gender: ["This whole thing smacks of gender: algorithmic exclusion in bioimpedance-based body composition analysis"](https://arxiv.org/abs/2101.08325), by Kendra Albert & Maggie Delano at FAccT 2021.  
 - Book recommendation: "Sorting Things Out", Geoffrey Bowker 
 - Recommended talk by Peter Flach: "Computer Says I don't know"
