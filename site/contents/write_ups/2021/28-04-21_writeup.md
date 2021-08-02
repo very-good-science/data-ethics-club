@@ -1,4 +1,4 @@
-# Data Ethics Club discussion: [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
+# Data Ethics Club discusses [We created poverty. Algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away)
 
 ```{admonition} What is this? 
 
