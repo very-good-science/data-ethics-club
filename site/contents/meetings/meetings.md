@@ -10,7 +10,7 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [11.08.2021, 1pm](2021/08-august/11-08-2021_meeting.md) | TBC - we'll vote on it in the meeting before |
+| [11.08.2021, 1pm](2021/08-august/11-08-2021_meeting.md) | [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech) |
 | 25.08.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 08.09.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | NO MEETING 22.08 | NO MEETING 22.08|
