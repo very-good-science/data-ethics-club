@@ -18,4 +18,5 @@ We also discuss the meetings [on Twitter at #DataEthicsClub](https://twitter.com
 2021/12-05-21_writeup.md
 2021/26-05-21_writeup.md
 2021/14-07-21_writeup.md
+2021/28-07-21_writeup.md
 ```
