@@ -24,8 +24,6 @@ Now with the rise of social media, where events are being recorded and published
 
 The investigative exploits of organisations like Bellingcat make for fascinating reads and potentially stories of hope for the little guy - the brave little mice putting the bells on the cats seeking to do harm to warn the rest of us. The fact that there's nothing special about an organisation like Bellingcat is both something that inspires hope and fear. Ordinary people can use open source data to conduct their own investigations. This has huge potential both for good and for bad and is currently largely unregulated. It's one thing when such techniques are being used to track Russian hitsquads who are suspected of poisoning political opposition, but what if those same techniques were used to track you when you're applying for a loan, by a stalker  to track a victim or applied on mass by a government to keep track of its citizens?
 
-This is a writeup of our Data Ethics Group discussion on the 28th of July 2021. The writeup was written by Huw Day, attempting to collate the notes, ideas and opinions of all those in attendance of the discussion. "We"=someone at data ethics group. As per usual, this discussion led us to ask many questions in our quest to answer some.
-
 ## When is it ethical to use publicly available data?
 
 It seems somewhat surreal that amount of information we willingly share on social media. Our hobbies, our date of birth, perhaps even where we live. This leaves a tricky question, if we post this all in the public domain, should we have any control over who is allowed to use it? 
