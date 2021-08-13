@@ -1,0 +1,53 @@
+# Data Ethics Club meeting [25-08-21, 13.00-14.00 UK time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+%E2%80%9CParticipant%E2%80%9D+Perceptions+of+Twitter+Research+Ethics&iso=20210825T13&p1=299&ah=1)
+
+<!-- 
+TODO:
+- [ ] Change to a new branch (DD-MM-YY_meeting)
+- [ ] Copy this template to meetings/YEAR/DD-MM-YY_meeting.md (put in actual year + date)
+- [ ] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html and copy result to LINK-TO-TIMEDATE
+- [ ] Change all ALL-CAPS placeholders in this form
+- [ ] Add link to the new file in meetings.md
+- [ ] Update the next-meeting.md file
+- [ ] Pull request!
+- [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
+- [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
+
+Repeat meeting link is currently: https://bristol-ac-uk.zoom.us/j/94475153265
+
+
+Usual time 13:00-14:00
+-->
+## Meeting info
+
+### Quick links
+
+Zoom link: [ZOOM-LINK](https://bristol-ac-uk.zoom.us/j/94475153265)
+
+Link to content: [CONTENT-LINK](https://journals.sagepub.com/doi/10.1177/2056305118763366)
+
+### Description
+You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 25-08-21, 13.00-14.00 UK time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+%E2%80%9CParticipant%E2%80%9D+Perceptions+of+Twitter+Research+Ethics&iso=20210825T13&p1=299&ah=1). You don't need to register, just pop in. This time we're going to watch/read [NAME OF CONTENT](LINK-TO-CONTENT) by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+
+Thank you to Natalie for suggesting this week's content, and to Nina, who'll be leading this week's meeting.
+
+### Discussion points
+
+There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
+- When should informed consent be relevant to the collection of public data? Does it depend on the type of data (e.g. images of our faces, our tweets) or the purpose (profit, research)? Is it possible for people to have bad reasons for preferring privacy? Are there circumstances in which peoples wishes for privacy or anonymity in public data be purposefully diregarded?
+- To what extent do you (dis)agree with the conclusions in "Implications for Practice and Design"?
+- Are there any results in the paper that surprise you?
+
+---
+
+<!--
+
+## Meeting notes
+
+### Who came
+Number of people:
+
+### What did we think?
+Notes here!
+Shall we email the author? If so, who'll send the email?
+
+-->
