@@ -10,6 +10,7 @@ We would love suggestions for new reading materials, or better ways to categoris
 
 ```{admonition} Key
 :class: attention
+- 🎤 = audio only
 - 🕰️ = waiting for paper to drop
 -  ✅ = we've discussed it
 - 📺 = Watching/Listening material
@@ -106,6 +107,7 @@ Note: reading materials appear once in the category we felt they fit best.
 ## Ethics in action (the good and the not so good)
 
 * [A toolkit for centering racial equity throughout data integration](https://www.aecf.org/resources/a-toolkit-for-centering-racial-equity-within-data-integration/)<sup>1</sup>
+* [Structural injustice and individual responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) 🎤 - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/)
 * [Design Justice: Towards an Intersectional Feminist Framework for Design Theory and Practice](https://designjustice.org/s/SSRN-id3189696.pdf)
 * [Data Feminism Book Club](https://datafeminism.io/blog/book/data-feminism-reading-group/)<sup>1</sup>
   * Chapter 7: "Show your work"
