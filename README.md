@@ -14,7 +14,7 @@ You can find all the information about Data Ethics Club on [our website](https:/
 * [Find out about our next meeting](https://very-good-science.github.io/data-ethics-club/contents/meetings/next-meeting.html)
 * [Contact the organisers](https://very-good-science.github.io/data-ethics-club/contents/administration.html)
 * [Read our writeups of previous meetings](https://very-good-science.github.io/data-ethics-club/contents/write_ups/write-ups.html)
-* [See our Code of Conduct](./code_of_conduct.MD)
+* [See our Code of Conduct](https://very-good-science.github.io/data-ethics-club/contents/code-of-conduct.html)
 
 Please join our [mailing list](http://eepurl.com/hjkmnX) if you'd like to be emailed about future meetings. You can see the dates of our upcoming meetings [here](https://very-good-science.github.io/data-ethics-club/contents/meetings/meetings.html).
 
