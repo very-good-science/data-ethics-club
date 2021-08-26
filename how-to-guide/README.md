@@ -6,25 +6,16 @@ The repository is licensed with a [CC-BY 3.0 license](https://creativecommons.or
 
 ## Contents
 
-### [Guide to the Data Ethics Club Repository](./repo-guide.md)
-What is included in this repository and how to use it.  
-* [Repository overview](./repo-guide.md#overview)
-* [Using GitHub issues](./using-github-issues)
+Overview of how we organise > [organising.md](./organising.md)  
+Typical meeting structure > [meeting-structure.md](./meeting-structure.md)
+To Do list for each meeting > [meeting-todo-list.md](./meeting-todo-list.md)
 
-### [Organising Data Ethics Club](./organising.md)
-A guide to how the group is organised, how contributions are credited and the services we use to help us organise.  
-* [Deciding on material to read](./organising.md#deciding-on-material-to-read)  
-* [Contributing](./organising.md#contributing)  
-* [Communicating](./organising.md#communicating)  
+### How To...
+* Use the all contributors bot > [howto-allcontributorsbot.md](./howto-allcontributorsbot.md)
+* Set up and sync the HackMD files > [howto-sync-hackmd.md](./howto-sync-hackmd.md)
+* Add the HackMD writeups to the website > [howto-add-writeups.md](./howto-add-writeups.md)
 
-### [Facilitating a meeting](./facilitating.md)
-A guide to a typical Data Ethics Group meeting.
-* [Facilitator roles](./facilitating.md#a-note-on-facilitators)  
-* [Before the meeting](./facilitating.md#before-the-meeting)  
-* [Meeting structure](./facilitating.md#meeting-structure)  
-* [After the meeting](./facilitating.md#after-the-meeting)  
-
-### [Re-usable Templates](./resources/)
+### [Re-usable Templates](./templates/)
 A folder containing templates mentioned in this guide, ready to be reused.  
 * [Code of Conduct](./templates/code_of_conduct_template.MD)   
 * [Organisers Meeting Template](./templates/organisers_meeting_template.md)  
