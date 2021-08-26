@@ -10,10 +10,10 @@ Welcome! Data Ethics Club is a discussion group/"journal" club about doing data 
 The organisers are based in Bristol, but the club is open to all. 
 
 You can find all the information about Data Ethics Club on [our website](https://very-good-science.github.io/data-ethics-club/index.html), but here are some quick links to get you started:  
-* [Checkout our reading list of data ethics materials](https://very-good-science.github.io/data-ethics-club/contents/reading-list.html)
+* [Check out our reading list of data ethics materials](https://very-good-science.github.io/data-ethics-club/contents/reading-list.html)
 * [Find out about our next meeting](https://very-good-science.github.io/data-ethics-club/contents/meetings/next-meeting.html)
 * [Contact the organisers](https://very-good-science.github.io/data-ethics-club/contents/administration.html)
-* [Read our writeups of previous meetings](https://very-good-science.github.io/data-ethics-club/contents/write_ups/write-ups.html)
+* [Read our write ups of previous meetings](https://very-good-science.github.io/data-ethics-club/contents/write_ups/write-ups.html)
 * [See our Code of Conduct](https://very-good-science.github.io/data-ethics-club/contents/code-of-conduct.html)
 
 Please join our [mailing list](http://eepurl.com/hjkmnX) if you'd like to be emailed about future meetings. You can see the dates of our upcoming meetings [here](https://very-good-science.github.io/data-ethics-club/contents/meetings/meetings.html).
