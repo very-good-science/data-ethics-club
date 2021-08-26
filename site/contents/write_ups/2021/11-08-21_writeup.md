@@ -11,7 +11,7 @@ In this Data Ethic's club meeting we read a piece by Kate Crawford: [What an anc
 
 The author recalls her drive through a desert valley in Nevada, observing the mining boon in the area. The area is a hotbed for Lithium mining, a material that is a key in the manufacture of rechargeable batteries. Whilst such batteries were never designed for being used to power machines as large as a car (with Tesla being the world's leading consumer of lithium-ion batteries), the batteries remain the best option. 
 
-Whilst electric cars are cited as an excellent solution to our ever increasing carbon emissions. However, as the article notes: "the mining, smelting, export, assemblage, and transport of the battery supply chain has a significant negative impact on the environment and, in turn, on the communities affected by its degradation."
+Whilst electric cars are cited as an excellent solution to our ever increasing carbon emissions the article notes that "the mining, smelting, export, assemblage, and transport of the battery supply chain has a significant negative impact on the environment and, in turn, on the communities affected by its degradation."
 
 This aside, most electricity used to charge these lithium car batteries is taken from the national grid. In the US, less than a fifth of this electricity comes from renewable energy sources.
 
@@ -23,15 +23,15 @@ For every second of virtual time, we extract from Earth's geological history, bu
 
 ## What information or knowledge are we missing in terms of environmental impact of technology that might help us to act on it?
 
-Where is your "vitual" machine? It is a computer, that's over there. Look at it. Until you realise the internet is a physical thing with physical components, you don't think about the resources. The cloud is actually a collection of servers and components somewhere.
+Where is your "virtual" machine? It is a computer, that's over there. Look at it. Until you realise the internet is a physical thing with physical components, you don't think about the resources. The cloud is actually a collection of servers and components somewhere. We wondered whether a general lack of awareness of the physical nature of the internet and technology prohibits us from seeing it as an issue of physical resources. 
 
-Can we blame our misunderstanding on the wording? The "cloud", "virtual" machines etc. Or do we just not care because we can't/don't do the digging? The internet is a series of tubes, not a truck you load everything onto.
+Can we blame our misunderstanding on the wording? The "cloud", "virtual" machines etc. Or do we just not care because we can't/don't do the digging?
 
 This article makes us aware of what we don't know the impact of. Other materials are almost surely getting mined but it's difficult to find out more about it, but not impossible. The following [article](https://anatomyof.ai/index.html) (of which Kate Crawford is one of the authors), describes the Amazon Echo as an anatomical map of human labor, data and planetary resources.
 
-As one of our Austrlian contributors noted, mining is a big industry (especially in Australia for example). Growing up telephone wires were very visible. It seemed almost space age when new stuff pops up. Comparatively, we don't do a lot of extraction in the UK, oil and gas but not really coal mining.
+Our lack of awareness of the physicality of technology could be related to our lack of understanding of extraction of natural resources in general. As one of our Australian contributors noted, mining is a big industry in Australia where growing up telephone wires were very visible and it seems almost space age when new stuff pops up. Comparatively, we don't do a lot of extraction in the UK, oil and gas but not really coal mining, and it certainly isn't visible. 
 
-Japanese people donated electronic devices to be recycled for Olympic medals. How long until we have recylable mobile phones? How much manpower and resources went into manually deconstructing these devices for the required resources? Was the tradeoff worth it? Even if you account for the awareness raised.
+Several of us noted that it was common for people not to realise that precious metals are used to make mobile phones. Japanese people donated electronic devices to be recycled for Olympic medals this year, which raised some awareness of this, but how long until we have truly recyclable mobile phones? Right now the amount of manpower and resources go into manually deconstructing devices for their resources raises the question of whether the trade off is worth it?
 
 Whilst certainly not the only offender, Apple appear to be a repeat offender in this issue, consistently prioritising profits over sustainability. As this [article](https://www.theverge.com/2017/8/3/16087628/apple-e-waste-environmental-standards-ieee-right-to-repair) notes, Apple and other tech companies are going out of their way to make products difficult to repair, insuring they can monopolise the market on repairing their products. 
 
@@ -45,9 +45,9 @@ How slippery is the slope of asking where products are coming from? It seems imp
 
 A similar issue applies to technology. Ironically, hardware and software people are quite separate and as the majority of the data ethics club are more software focussed, a lot of us were surprised to learn how little we knew about where the hardware came from. Do hardware experts know any better?
 
-Do we need to regulate this somehow? If we are better at tracking this with data science tools, would we be better able to regulate it? If we had that kind of information, would that lead consumers to change anything? If we leave the market to fix things, will it fix it? Likely not!
+Do we need to regulate this somehow? Perhaps if data science tools can help us to record the pipeline of each individual part of a phone or laptop, we would be better informed about the impact our devices have, and could better regulate it. If we had that kind of information, would that lead consumers to change anything? If we leave the market to fix things, will it fix it? Likely not!
 
-It should be the responsibility of companies to share data on the environmental impacts of their work is. There is currently very little in terms of insentives for companies to share this information. Getting companies to do this, whether through policy (stick) or other insentives (carrot) is the first step. The carrot to stick ratio is another debate to be had, but from what we've seen in the past, if the only thing stopping companies acting in bad faith for profit is good will, companies will tend to prioritise profits over the environment.
+It should be the responsibility of companies to share data on the environmental impacts of their work is. There is currently very little in terms of incentives for companies to share this information. Getting companies to do this, whether through policy (stick) or other incentives (carrot) is the first step. The carrot to stick ratio is another debate to be had, but from what we've seen in the past, if the only thing stopping companies acting in bad faith for profit is good will, companies will tend to prioritise profits over the environment.
 
 From there it should be our responsibility as consumers to decide which companies to buy from - in theory. 
 
@@ -56,22 +56,22 @@ This is not just an issue for big cooperations however. We all live on this plan
 That being said, the actions of some will make more of a difference than others. The classic: "Everyone stop rinsing dishes before putting dishes in the dishwasher because that'll stop climate change" is a nice idea but fails to acknowledge the comparative cost of [launching billionaires into space](https://www.independent.co.uk/climate-change/news/bezos-rocket-carbon-emissions-blue-origin-b1888059.html). Grassroots change and influence will matter, but that is likely to focus on small singular issues. Focus on the small may not get us where we need to be, nor nearly quick enough.
 
 Fixing climate change is a bit like a terrible group project. Seeing larger contributers slack off can make it tempting to throw our hands up in defeat and resign ourselves to our fate. This same cynicism is seen for example among people who choose not to vote, asking "what difference can one person make?" Of course every vote counts (even though in some systems, some votes count more than others), but it leads to a question of what can any single person do about it?
-
+Lastly, we also need to remember that not all of us have the same choices to act differently. The choice of which iPhone to buy next is a marker of a privilege that not everyone has.
 ## What can we do about it?
 
 The group was split by this question. 
 
 On the one hand, some had the belief that individual action won't make any difference. Although collectively we might be able to do something. Actions like being vegetarian that many people take up could be easily offset by the single action of one individual or organisation (e.g. shooting billionaires into space). 
 
-Making individual efforts also helps to offset the doom. Democracy i a solution that we can all contribute to (even though it feels like it doesn't make a difference). Voting for politicians with green policies is something we can contribute to, but we might never be able to offset the lobbying by larger cooperations. 
+Making individual efforts also helps to offset the doom. Democracy is a solution that we can all contribute to (even though it may feel like it doesn't make a difference). Voting for politicians with green policies is something we can contribute to, but we might never be able to offset the lobbying by larger cooperations. 
 
-The media also platform anti-climate change "scientists" and spokespeople. For example [Boris Johnson's father being interviewed as an environmentalist by the BBC](https://www.thenational.scot/news/19504423.bbc-newsnight-greens-appalled-stanley-johnsons-appearance/) - there is inherent bias in the media. 
+While we discussed how galvanising public opinion can have more power, and move faster, than regulators (think plastic straws), public opinion very much relies on the media. Many of us had concerns about the media platforming anti-climate change "scientists" and spokespeople in the name of "equal debate" (for example [Boris Johnson's father being interviewed as an environmentalist by the BBC](https://www.thenational.scot/news/19504423.bbc-newsnight-greens-appalled-stanley-johnsons-appearance/)), even when this actually becomes a matter of evidence against opinion.
 
-This idea of "equal debate" is flawed. If 10% of people believe in one thing and 90% don't, giving representives from both viewpoints equal airtime is not "equal". This has been bought to light during the pandemic, where we see qualified epidemeologists debating youtubers.
+This has been bought to light during the pandemic, where we have seen qualified epidemiologists debating YouTubers. As long as climate change is seen as being 'up for debate' it's likely to be a challenge to galvanise the population to fight against it, and that is the scale we need for individual action to make waves.
 
 What constitutes an expert? It's usually seen as negative when people change their minds, but acually that's a reflection of changing evidence (i.e. science). An interesting exploration on this tangent can be found in this [video](https://www.youtube.com/watch?v=LRNkDZy30xU).
 
-On the other hand, we can be more positive about our ability to affect change. 
+On the other hand, a movement will take the actions of all of us, so its still important to make individual actions where we can, rather than feeling defeatist about our ability to affect change. 
 
 As Gerry McGovern notes in his book [World Wide Waste](https://gerrymcgovern.com/world-wide-waste/), all of our digital actions have physical consequences:
 
@@ -100,7 +100,7 @@ We can attempt to inscentivise companies to improve their [Environmental, Social
 
 As engineers and data scientists we can make different decisions - where we train our models, what types of models we make. We've heard before that more data isn't necersarily better for accuracy. We now know it's worse for the environment too. 
 
-All the little things we do add up. Studies have indicated that there is noticeably more energy consumption from having your webcam switched on during Zoom calls. If you camera is on, virtual backgrounds use more energy. Zoom is more energy efficient Microsoft Team. You can even look into [how your website is affecting the planet](https://www.websitecarbon.com/).
+All the little things we do add up. Studies have indicated that there is noticeably more energy consumption from having your webcam switched on during Zoom calls. If you camera is on, virtual backgrounds use more energy. Zoom is more energy efficient Microsoft Teams. You can even look into [how your website is affecting the planet](https://www.websitecarbon.com/).
 
 To conclude, it is perhaps not hopeless. In order for big change to happen, we need to get companies to change the way they use our planet's resources, likely through enforced requirements from policy makers. This will take time and effort and a collaberative effort from a lot of people. During that time, we could just sit on our hands and say that it's probably hopeless. Or we could each make our own individual efforts to slow the effects of climate change. Or...both?
 
