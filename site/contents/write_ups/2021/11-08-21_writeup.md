@@ -15,10 +15,6 @@ Whilst electric cars are cited as an excellent solution to our ever increasing c
 
 This aside, most electricity used to charge these lithium car batteries is taken from the national grid. In the US, less than a fifth of this electricity comes from renewable energy sources.
 
-This brings us to a broader issue with new technology, where subtle linguistics makes us believe that developments are far less physical than they sound. 
-
-The idea of storing data in the "cloud" immediately brings images of an almost ethereal, mushy collection of data in the sky. Indeed, we *up*load data to the cloud, implying something about the trajectory of the data in question. This conventionally sidesteps the much less sheep-shaped reality that the cloud is just a collection of servers somewhere. Indeed the internet itself, despite being touted as "wireless" is anything but (see this cool little [diagram](https://www.submarinecablemap.com/) and this breakdown of [how the internet works](https://tutorial.djangogirls.org/en/how_the_internet_works/)). All of these physical systems involving servers, smartphones and laptops have lithium batteries at their core.
-
 For every second of virtual time, we extract from Earth's geological history, building smartphones and other devices that have lifetimes of a few years, often [artificially reduced](https://www.theguardian.com/technology/2017/dec/29/apple-apologises-for-slowing-older-iphones-battery-performance). Is this practice really sustainable?
 
 In our discussion of Crawford's article during this Data Ethics Club we touched on what it might take for the impact of tech on the environment to change, who would need to act for those changes to be effective, and considered what actions we could take as individuals.
@@ -26,6 +22,8 @@ In our discussion of Crawford's article during this Data Ethics Club we touched 
 ## What information or knowledge are we missing in terms of environmental impact of technology that might help us to act on it?
 
 Where is your "virtual" machine? It is a computer, that's over there. Look at it. Until you realise the internet is a physical thing with physical components, you don't think about the resources. The cloud is actually a collection of servers and components somewhere. We wondered whether a general lack of awareness of the physical nature of the internet and technology prohibits us from seeing it as an issue of physical resources. 
+
+The idea of storing data in the "cloud" immediately brings images of an almost ethereal, mushy collection of data in the sky. Indeed, we *up*load data to the cloud, implying something about the trajectory of the data in question. This conventionally sidesteps the much less sheep-shaped reality that the cloud is just a collection of servers somewhere. Indeed the internet itself, despite being touted as "wireless" is anything but (see this cool little [diagram](https://www.submarinecablemap.com/) and this breakdown of [how the internet works](https://tutorial.djangogirls.org/en/how_the_internet_works/)). All of these physical systems involving servers, smartphones and laptops have lithium batteries at their core.
 
 Can we blame our misunderstanding on the wording? The "cloud", "virtual" machines etc. Or do we just not care because we can't/don't do the digging?
 
