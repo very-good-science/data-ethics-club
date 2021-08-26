@@ -21,6 +21,8 @@ The idea of storing data in the "cloud" immediately brings images of an almost e
 
 For every second of virtual time, we extract from Earth's geological history, building smartphones and other devices that have lifetimes of a few years, often [artificially reduced](https://www.theguardian.com/technology/2017/dec/29/apple-apologises-for-slowing-older-iphones-battery-performance). Is this practice really sustainable?
 
+In our discussion of Crawford's article during this Data Ethics Club we touched on what it might take for the impact of tech on the environment to change, who would need to act for those changes to be effective, and considered what actions we could take as individuals.
+
 ## What information or knowledge are we missing in terms of environmental impact of technology that might help us to act on it?
 
 Where is your "virtual" machine? It is a computer, that's over there. Look at it. Until you realise the internet is a physical thing with physical components, you don't think about the resources. The cloud is actually a collection of servers and components somewhere. We wondered whether a general lack of awareness of the physical nature of the internet and technology prohibits us from seeing it as an issue of physical resources. 
@@ -69,7 +71,9 @@ While we discussed how galvanising public opinion can have more power, and move 
 
 This has been bought to light during the pandemic, where we have seen qualified epidemiologists debating YouTubers. As long as climate change is seen as being 'up for debate' it's likely to be a challenge to galvanise the population to fight against it, and that is the scale we need for individual action to make waves.
 
-What constitutes an expert? It's usually seen as negative when people change their minds, but acually that's a reflection of changing evidence (i.e. science). An interesting exploration on this tangent can be found in this [video](https://www.youtube.com/watch?v=LRNkDZy30xU).
+What constitutes an expert? It's usually seen as negative when people change their minds, but acually that's a reflection of changing evidence (i.e. science). An interesting exploration on this tangent can be found in this [video](https://www.youtube.com/watch?v=LRNkDZy30xU). 
+
+How do we shift the psychology around this? People feel that they lack agency and believe that they will struggle to make a change on their own. Leadership is needed. This doesn't have to be a policy maker. It just needs to be someone to get the message out about the impacts that our consumer decisions have.
 
 On the other hand, a movement will take the actions of all of us, so its still important to make individual actions where we can, rather than feeling defeatist about our ability to affect change. 
 
@@ -86,8 +90,6 @@ If these seem a bit extreme, consider how, with little to no policy changes plas
 
 We need to change the personal norms and our degree of excitement with new tech. We need to delay our renewal of our personal IT equipment (even delaying by 6 months the acquisition of our next phone might have an impact), we could shrink the size and number of files that we store in the cloud. 
 
-How do we shift the psychology around this? People feel that they lack agency and believe that they will struggle to make a change on their own. Leadership is needed. This doesn't have to be a policy maker. It just needs to be someone to get the message out about the impacts that our consumer decisions have.
-
 At the end of the day, we would like to say that we tried to save the Earth, even if it's a bit of a lost cause. 
 
 ## Summary
@@ -100,9 +102,17 @@ We can attempt to inscentivise companies to improve their [Environmental, Social
 
 As engineers and data scientists we can make different decisions - where we train our models, what types of models we make. We've heard before that more data isn't necersarily better for accuracy. We now know it's worse for the environment too. 
 
-All the little things we do add up. Studies have indicated that there is noticeably more energy consumption from having your webcam switched on during Zoom calls. If you camera is on, virtual backgrounds use more energy. Zoom is more energy efficient Microsoft Teams. You can even look into [how your website is affecting the planet](https://www.websitecarbon.com/).
+All the little things we do add up. Studies have indicated that there is noticeably more energy consumption from having your webcam switched on during Zoom calls. If you camera is on, virtual backgrounds use more energy. Zoom is more energy efficient Microsoft Teams.
 
 To conclude, it is perhaps not hopeless. In order for big change to happen, we need to get companies to change the way they use our planet's resources, likely through enforced requirements from policy makers. This will take time and effort and a collaberative effort from a lot of people. During that time, we could just sit on our hands and say that it's probably hopeless. Or we could each make our own individual efforts to slow the effects of climate change. Or...both?
+
+Some things we can do:
+- Delay replacing your devices for as long as possible.
+- Think about where our virtual resources are located.
+- Consider the efficiency of our models and code better.
+- Turn off your camera when you can during [online meetings](https://www.sciencedaily.com/releases/2021/01/210114134033.htm).
+- Try not to use a virtual background.
+- Use energy calculators to see how [your website](https://www.websitecarbon.com/) or [your machine learning model](https://mlco2.github.io/impact/) could be made more efficient.
 
 ---
 
