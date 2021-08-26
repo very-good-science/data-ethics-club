@@ -1,5 +1,5 @@
 
-# How we organise Data Ethics Group
+# How we organise Data Ethics Club
 
 ## Deciding on material to read
 The [reading list](./../READING-LIST.md) is organised into lots of different sections - some are philosophical, some are technical. Our [previously discussed pieces are available in our Meetings Overview](./../MEETINGS.md). We like to check off things we have discussed [in the reading list](./../READING-LIST.md), and include a link to the meeting info page which summarises the content.  

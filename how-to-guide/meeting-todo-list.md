@@ -1,4 +1,4 @@
-# Organisers To Do List
+# Organisers to do list for each meeting
 
 Tasks to complete before and after each meeting.
 
