@@ -10,8 +10,7 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [08.09.2021, 1pm](2021/09-september/08-09-2021_meeting.html) | [ESR: Ethics and Society Review of Artificial Intelligence
-Research](https://arxiv.org/pdf/2106.11521.pdf) |
+| [08.09.2021, 1pm](2021/09-september/08-09-2021_meeting.html) | [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/pdf/2106.11521.pdf) |
 | NO MEETING 22.08 | NO MEETING 22.08|
 | 06.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 20.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
