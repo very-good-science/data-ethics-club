@@ -10,8 +10,7 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [25.08.2021, 1pm](2021/08-august/25-08-2021_meeting.md) | [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366)
-| 08.09.2021, 1pm | TBC - we'll vote on it in the meeting before |
+| [08.09.2021, 1pm](2021/09-september/08-09-2021_meeting.html) | [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/pdf/2106.11521.pdf) |
 | NO MEETING 22.08 | NO MEETING 22.08|
 | 06.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 20.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
@@ -34,7 +33,8 @@ You can see a record of what we have discussed previously here.
 
 | Previous Meetings | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [11.08.2021, 1pm](2021/08-august/11-08-2021_meeting.md) | [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech) | Coming Soon |
+| [25.08.2021, 1pm](2021/08-august/25-08-2021_meeting.md) | [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366)| Coming soon |
+| [11.08.2021, 1pm](2021/08-august/11-08-2021_meeting.md) | [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech) | [Read the write up](../write_ups/2021/11-08-21_writeup) |
 | [28.07.2021, 1pm](2021/07-july/28-07-2021_meeting.md) | [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) |  [Read the write up](../write_ups/2021/28-07-21_writeup) |
 | [14.07.2021, 1pm](2021/07-july/14-07-2021_meeting) | [Numberphile: The Mathematics of Crime and Terrorism - Numberphile](https://www.youtube.com/watch?v=lCjspXB5F4A) |  [Read the write up](../write_ups/2021/14-07-21_writeup) |
 | [17.06.2021: Inclusive and Ethical Data Science Seminar](https://www.eventbrite.co.uk/e/inclusive-and-ethical-data-science-tickets-154266849299#) | Responsible Data and AI by [Anjali Mazumder](https://www.turing.ac.uk/people/researchers/anjali-mazumder),  [Intro to The Turing Way](https://zenodo.org/record/4969380) by [Malvika Sharan](https://malvikasharan.github.io/), and [FAT Forensics ToolBox](https://fat-forensics.org/index.html) by [Alex Hepburn](https://research-information.bris.ac.uk/en/persons/alex-hepburn) | N/A |
