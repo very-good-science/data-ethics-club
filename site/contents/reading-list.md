@@ -13,6 +13,7 @@ We would love suggestions for new reading materials, or better ways to categoris
 - 🎤 = audio only
 - 🕰️ = waiting for paper to drop
 -  ✅ = we've discussed it
+- 🔒 = Not Open access
 - 📺 = Watching/Listening material
 - [1] = A longer piece of work, we'd need to choose a chapter or section.
 - [2] = A shorter piece of work, perhaps to combine with something else
@@ -94,7 +95,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
 * 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday)
 
-## Data science culture
+## Data science and research culture
 * [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) - suggested by [@nataliethurlby](github.com/NatalieThurlby)
 * [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * 📺[Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9) suggested by [@ninadicara](https://github.com/ninadicara)
@@ -105,6 +106,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [A manifesto for team science](https://psyarxiv.com/2mdxh/)
 * [Whiteness In Statistics](https://joelemartinez.com/2016/12/28/whiteness-in-statistics/) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Why Open Source misses the point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html) 
+* [Ethics Creep](https://link.springer.com/article/10.1023/B:Quas.0000049239.15922.a3)🔒 - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 
 ## Ethics in action (the good and the not so good)
 
