@@ -83,6 +83,8 @@ Note: reading materials appear once in the category we felt they fit best.
 
 ## Data ethics in the private and public sectors
 
+* [Algorithmic Accountability for the Public Sector](https://www.opengovpartnership.org/wp-content/uploads/2021/08/algorithmic-accountability-public-sector.pdf)<sup>1</sup> - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
+  - Suggested excerpt: [Executive Summary](https://www.opengovpartnership.org/wp-content/uploads/2021/08/executive-summary-algorithmic-accountability.pdf)  
 * [Google's AI principles](https://blog.google/technology/ai/ai-principles/) - suggested by [@milliams](http://milliams.com)
 * [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2) - suggested by [@ninadicara](https://github.com/ninadicara)
   * Related: [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/) - suggested by [@ninadicara](https://github.com/ninadicara)
