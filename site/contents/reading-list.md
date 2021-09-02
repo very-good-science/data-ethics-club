@@ -118,6 +118,7 @@ Note: reading materials appear once in the category we felt they fit best.
   * The description of "co-liberatory" projects in chapter 5: "Unicorns, janitors, ninjas, wizards and rock stars" 
 * [People With Disabilities Say This AI Tool Is Making the Web Worse for Them](https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Sharing learnings about our image cropping algorithm (Twitter)](https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm.html) - suggested by [@ninadicara](https://github.com/ninadicara), see [#64](https://github.com/very-good-science/data-ethics-club/issues/64)
+* [I can text you a pile of poo, but I can't write my name](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 
 ## Field Specific
 
