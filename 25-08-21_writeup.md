@@ -23,7 +23,7 @@ Some of us argued quite firmly that if your data is being used, even if you're n
 
 This debate complicates when you consider the point of view of a public service provider - for example the NHS. Anecdotally, people try to avoid formal restrictive research ethics in the NHS.  When is it ethical to avoid consent in this context?
 
-When people enter the NHS, they have the natural expectaction that their data is used for optimisation. Individuals don't necersarily understand exactly how their data *should* be used to benefit them the most. 
+When people enter the NHS, they have the natural expectaction that their data is used for optimisation. Individuals don't necessarily understand exactly how their data *should* be used to benefit them the most. 
 
 This ethical issue is somehow easier than the Twitter quagmire, where research is not immediately beneficial for individuals.
 
@@ -43,7 +43,7 @@ Should we have to curate our online presence? Is it too idealistic to want to be
 
 The study notes that people are worried about researchers using their whole history, perhaps because it feels more personally targeted. They also feel it a greater intrusion if there is use of deleted tweets. Excluding tweets that are deleted post the scraping of data is a challenge and researchers may not attempt to do so.
 
-There are lots of situations where privacy is good - people may speak up against government or political opinion, professional risk to your employment if you tweet about them. Then again people can use privacy to hide behind a psyudonym for hate speech. You do not necersarily want to be in the position to enable people who speak with hate speech but if you get false positives (falsely attributing hate speech to someone), that could have negative consequences. Troll accounts specifically use the anonymity of twitter to abuse others, but just because we do not like what they have to say, that does not mean we should waive their right to anonymity. 
+There are lots of situations where privacy is good - people may speak up against government or political opinion, professional risk to your employment if you tweet about them. Then again people can use privacy to hide behind a psyudonym for hate speech. You do not necessarily want to be in the position to enable people who speak with hate speech but if you get false positives (falsely attributing hate speech to someone), that could have negative consequences. Troll accounts specifically use the anonymity of twitter to abuse others, but just because we do not like what they have to say, that does not mean we should waive their right to anonymity. 
 
 ## Journalism vs. Open Source Research
 
@@ -53,7 +53,7 @@ Over lockdown, a member of the discussion group had their children following alo
 
 There is a delicate balancing act between attributing quotes to people versus keeping people anonymous. How is this different from writing in the newspapers? Tweets from a public Twitter account are accessible for anyone to see. If someone writes something down, they are now accountable for that, for better or for worse. Where does the balance lie on accountability? The article notes that Twitter TOS dictate that quoted tweets *must* be attributed to the original author. In practice, this is not at all enforced. Is this something the author always wants? 
 
-The attribution versus anonyminity debate applies in the research world as well. There is a difference between different STEM disciplines (social sciences/physical sciences) and how they treat data. A medical journal might seek repeatability, publishing the data any conclusions were made from so that their results can be replicated, whilst a social sciencist is more likely to prioritise individual confidentiality. 
+The attribution versus anonyminity debate applies in the research world as well. There is a difference between different STEM disciplines (social sciences/physical sciences) and how they treat data. A medical journal might seek repeatability, publishing the data any conclusions were made from so that their results can be replicated, whilst a social scientist is more likely to prioritise individual confidentiality. 
 
 ## Old Patterns, Lazy Research and the Importance of Education
 
