@@ -11,7 +11,7 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
 | NO MEETING 22.08 | NO MEETING 22.08|
-| [06.10.2021, 1pm](./2021/09-september/06-10-2021_meeting) | [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) |
+| [06.10.2021, 1pm](./2021/10-october/06-10-2021_meeting) | [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) |
 | 20.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 03.11.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 17.11.2021, 1pm | TBC - we'll vote on it in the meeting before |
