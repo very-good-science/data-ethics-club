@@ -10,9 +10,8 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 
 | Upcoming Meetings                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [08.09.2021, 1pm](2021/09-september/08-09-2021_meeting.html) | [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/pdf/2106.11521.pdf) |
 | NO MEETING 22.08 | NO MEETING 22.08|
-| 06.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
+| [06.10.2021, 1pm](./2021/09-september/06-10-2021_meeting) | [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) |
 | 20.10.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 03.11.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 17.11.2021, 1pm | TBC - we'll vote on it in the meeting before |
@@ -33,7 +32,8 @@ You can see a record of what we have discussed previously here.
 
 | Previous Meetings | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [25.08.2021, 1pm](2021/08-august/25-08-2021_meeting.md) | [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366)| Coming soon |
+| [08.09.2021, 1pm](2021/09-september/08-09-2021_meeting) | [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/pdf/2106.11521.pdf) | Coming soon |
+| [25.08.2021, 1pm](2021/08-august/25-08-2021_meeting.md) | [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366)| [Read the write up](../write_ups/2021/25-08-21_writeup) |
 | [11.08.2021, 1pm](2021/08-august/11-08-2021_meeting.md) | [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech) | [Read the write up](../write_ups/2021/11-08-21_writeup) |
 | [28.07.2021, 1pm](2021/07-july/28-07-2021_meeting.md) | [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) |  [Read the write up](../write_ups/2021/28-07-21_writeup) |
 | [14.07.2021, 1pm](2021/07-july/14-07-2021_meeting) | [Numberphile: The Mathematics of Crime and Terrorism - Numberphile](https://www.youtube.com/watch?v=lCjspXB5F4A) |  [Read the write up](../write_ups/2021/14-07-21_writeup) |
