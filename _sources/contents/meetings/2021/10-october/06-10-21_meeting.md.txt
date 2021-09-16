@@ -21,8 +21,8 @@ Usual time 13:00-14:00
 
 ### Quick links
 
-Zoom link: [https://bristol-ac-uk.zoom.us/j/94475153265](https://bristol-ac-uk.zoom.us/j/94475153265)
-Link to content: [https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680)
+- Zoom link: [https://bristol-ac-uk.zoom.us/j/94475153265](https://bristol-ac-uk.zoom.us/j/94475153265)
+- Link to content: [https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680)
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [Wednesday the 6th October at 1pm-2pm UK time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Structural+injustice+and+individual+responsibility&iso=20211006T13&p1=299&ah=1). You don't need to register, just pop in. 
