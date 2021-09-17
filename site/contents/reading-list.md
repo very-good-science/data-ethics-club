@@ -74,13 +74,15 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Green AI](https://arxiv.org/abs/1907.10597) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
 * [Principles of Green Software Engineering](https://principles.green/) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
 * [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700) and the [ML CO2 Impact calculator](https://mlco2.github.io/impact/) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
-* [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech?) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
+* [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech?) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) - ✅[11th August 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/11-08-21_writeup.html)
 
 ## Privacy and surveillance
 
 * [Privacy is power](https://www.politico.eu/article/privacy-is-power-opinion-data-gdpr/)
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
-* [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) (suggested by @HDiscoDay)
+* [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) - suggested by [@HDiscoDay](github.com/hdiscoday) - ✅[28th July 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/28-07-21_writeup.html)
+* 📺 [A Question of Trust - Reith Lectures - Onora O'Neill](https://www.bbc.co.uk/programmes/p00ghvd8)
+  * [Transparency is Surveillance](https://philarchive.org/archive/NGUTISv2)<sup>1</sup> - suggested by [Charles Radclyffe](https://www.ethicsgrade.io/)
 
 ## Data ethics in the private and public sectors
 
@@ -93,13 +95,13 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics](https://muse.jhu.edu/article/732185) 
 * [GCHQ - Pioneering a New National Security: The Ethics of Artificial Intelligence](https://www.gchq.gov.uk/files/GCHQAIPaper.pdf) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
-* 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday)
+* 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday) -  ✅  [14th July 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/14-07-21_writeup.html)
 
 ## Data science and research culture
-* [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) - suggested by [@nataliethurlby](github.com/NatalieThurlby)
+* [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) - suggested by [@nataliethurlby](github.com/NatalieThurlby) - ✅  8th September 2021
 * [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * 📺[Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9) suggested by [@ninadicara](https://github.com/ninadicara)
-* [#bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby),  ✅  [17th March 2021](./meetings/2021/03-mar/17-03-21_meeting.md)
+* [#bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) -  ✅  [17th March 2021](./meetings/2021/03-mar/17-03-21_meeting.md)
 * [Collectors, Allies, and Nightlights, Oh My](https://www.wpcjournal.com/article/view/20275) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)
