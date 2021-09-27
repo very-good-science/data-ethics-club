@@ -38,9 +38,9 @@ Agreeing on these sort of things unanimously is impossible, but people trying to
 
 ## On the Consequences and Moral Character of Science
 
-Consequences of science are very complex and difficult to predict. There is a problem then, with the idea that we can judge science against societal goals. We have very little consesus on this.
+Consequences of science are very complex and difficult to predict. There is a problem then, with the idea that we can judge science against societal goals. We have very little consensus on this.
 
-One piece of work that touches on this is ["The Moral Character of Crytopgrahic Work"](https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf) by Philip Rogaway. In it, Rogaway that "cryotopgrahy rearranges power" and so as a result is not only "an inherently political tool", but it confers "an intrisically moral dimension" to the field of crytopgrahy. He later goes onto argues that the "inability to effectively address mass surveillance constitutes a failiure of our field". He finishes the abstract with the following sentence: "I plead for a reinvention of our disciplinary culture to attend not only to puzzles and math, but, also, to the societal implications of our work.""
+One piece of work that touches on this is ["The Moral Character of Cryptographic Work"](https://web.cs.ucdavis.edu/~rogaway/papers/moral-fn.pdf) by Philip Rogaway. In it, Rogaway states that "cryptography rearranges power" and so as a result is not only "an inherently political tool", but it confers "an intrinsically moral dimension" to the field of cryptography. He later goes onto argues that the "inability to effectively address mass surveillance constitutes a failure of our field". He finishes the abstract with the following sentence: "I plead for a reinvention of our disciplinary culture to attend not only to puzzles and math, but, also, to the societal implications of our work.""
 
 On the contrary, maybe we need to concentrate on the actual crime. [David Hilbert](https://en.wikipedia.org/wiki/David_Hilbert) is not at fault for the nuclear bomb even if his mathematical work on Hilbert Spaces helped to make it happen - so far how does the accountability go back?
 
@@ -50,9 +50,8 @@ We can't ask of every scientific advance, "what are the implications?" That's to
 
 Maybe it's hard to separate the end use with the intention. There exists dual use technology, such as a stress recognition system that may not have solely good intentions. Perhaps you should design it with consideration.
 
-Not to calculate the moral worth of one decision over another, but at least considering intuitive moral decision making around some principles. But what principles? Can we ever agree on them? Academics need to be more humble and a bit more measured in what they say they can do.
+Not to calculate the moral worth of one decision over another, but at least considering intuitive moral decision making around some principles. But what principles? Can we ever agree on them? Academics need to be more humble and a bit more measured in what they say they can do (Ismael Kherroubi Garcia has done [some excellent writing on this idea](https://towardsdatascience.com/data-science-meaning-and-diversity-bb842602e55d) in data science, framed as 'epistemic humility')
 
-What counts as positive impact? Add ESR into the IRB rather than as a separate thing? Then there are other separate reforms that
 
 ## The ESR is based around universities and research funding; would something like this work in other types of organisations - why/why not?
 
