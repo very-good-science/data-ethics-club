@@ -16,27 +16,25 @@ With many members of the group having a hand in AI research, it was natural that
 
 ## General views about the ESR, and how much it adds to a typical ethical review processes for AI research
 
-We thought it was a nice idea in theory and that it fills an obvious void in computer science research, (research that doesn't include humans) in general. There were however several notable flaws in the paper. People who could be affected weren't involved in the decision-making. 
+We thought it was a nice idea in theory and that it fills an obvious void in computer science research, (research that doesn't include humans) in general. Institutional ethical review boards have quite a narrow remit, seeing themselves as protecting research participants. This means they rarely ask questions around the long term ethical implications of research. There is an intersection now for ethical questions about AI and protecting participants and their data, which the methods suggested in this paper would help with.
 
-Weakness of review boards in general/strength of this paper: lack of transparency. Small number of reviewers. It's quite hard to envisage the unanticipated stakeholders. Mapping out the conflicts between stakeholders can be useful. 
+However we also discussed some critiques of the ESR process:  
+- People who could be affected weren't involved in the decision-making.  
+- Weakness of review boards in general: lack of transparency. Small number of reviewers. It's quite hard to envisage the unanticipated stakeholders. Mapping out the conflicts between stakeholders might be useful.  
+- The paper doesn't evaluate the process in terms of intended outcome, just on how the participants felt. So perhaps that means we need another review system.  
+- Would it be necessary to have two separate ethical reviews to go through simultaneously until you satisfy both sets of requirements?  
+- If ethical review is not enforced across funding groups then researchers might pick and choose funding boards so they have the easiest time hopping through hoops.  
 
-The paper frames research as a risk, asking researchers to imagine possible negative consequences and seek to mitigate them. Whilst we felt slight dissapointment that it didn't cover how we do research in the first place.
+We felt that the paper frames research as a risk, asking researchers to imagine possible negative consequences and seek to mitigate them, but we felt slightly disappointed that it didn't cover how we do research in the first place.
 
 Asking us, "Under what conditions should we really be doing AI research?", the paper then leads to a bigger theme: questioning the idea that science is inevtiable and technological progress is inevitable. There is this idea that if we don't do it, someone else will do. Following this line of thought, perhaps restricting research on ethical grounds will only negatively affect those adhering these ethical standards.
 
+> "Perhaps restricting research on ethical grounds will only negatively affect those adhering these ethical standards."
+
 There seems to be this framing by governments who want to use a technological narrative - the idea of technology for the state in order to push for more funding. This paper does challenge this invetiably by saying the review board can say no, but in practice, this was not used much. One case study on AI stress monitoring of employees, the researchers didn't really respond to any listed concerns.
-
-Institutional ethical review boards have quite a narrow remit, seeing themselves as protecting against the suspect. This means they rarely ask questions around the long term ethical implications of research.
-
-There is an intersection now for AI questions for ethical questions and protecting participants and their data. 
 
 Agreeing on these sort of things unanimously is impossible, but people trying to remove personal bias is important, i.e. not doing ethical reviews on projects with military funding if you're unable to be unbiased there. Perhaps we need to start sooner with considering ethical frameworks as early as undergrad research, or at least in PhDs.
 
-How many hoops do you need to jump through, two separate ethical reviews to go through simultaneously until you satisfy both sets of requirements.
-
-The paper doesn't evaluate the process in terms of intended outcome, just on how the participants felt. So perhaps that means we need another review system.
-
-Perhaps the ethical reviews need to be enforced across funding groups, otherwise researchers might pick and choose funding boards so they have the easiest time hopping through hoops.
 
 ## On the Consequences and Moral Character of Science
 
@@ -59,13 +57,12 @@ What counts as positive impact? Add ESR into the IRB rather than as a separate t
 ## The ESR is based around universities and research funding; would something like this work in other types of organisations - why/why not?
 
 Stakeholder engagement is always critical and this is not really emphasised in the paper. Second or third-order stakeholders are likely to exist in large-scale businesses, for example:
-- Facebook's impact on global politics has affected non-users too.
-- Deliveroo's environmental impact is greater if they don't increase prices for further deliveries.
+- Facebook's impact on global politics has affected non-users too.  
+- Deliveroo's environmental impact is greater if they don't increase prices for further deliveries.  
 
-Ironically those who hold stakes are not always the stakeholders.
-
-Who are the stakeholders in this ethical review?
-What are the challenges associated with identifying these stakeholders, who they should be and what their different priorities are
+Ironically those who hold stakes are not always the stakeholders. Some questions we were left with were: 
+- Who are the stakeholders in this ethical review?
+- What are the challenges associated with identifying these stakeholders, who they should be and what their different priorities are
 
 There will be the difficulties of second or third order stakeholders who have nothing to do with the app or whatever but are still impacted by the app itself. For example, Facebook might have affected global politics regardless of whether not you have an account. There will inevitably be a bit of hand wringing about how we could practically apply this, but that does not mean we should ignore the problem entirely.
 
