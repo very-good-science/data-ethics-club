@@ -5,92 +5,60 @@
 This is summary of Wednesday 6th October's Data Ethics Club discussion, where we spoke about the podcast episode [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680), an episode of the podcast The Philosopher's Zone
 with David Rutledge, with guest Robin Zheng, Assistant Professor in Philosophy, Yale-NUS College Singapore..
 
-The summary was written by Huw Day, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+The summary was written by Huw Day and Natalie Thurlby, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Nina Di Cara and Natalie Thurlby helped with a final edit.
 ```
 ## Introduction
 
-This week's discussion was on [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680), an episode of the podcast The Philosopher's Zone
-with David Rutledge, with guest Robin Zheng, Assistant Professor in Philosophy, Yale-NUS College Singapore.
+This week's discussion was on [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680), an episode of the podcast The Philosopher's Zone with David Rutledge, with guest Robin Zheng, Assistant Professor in Philosophy, Yale-NUS College Singapore.
 
-The episode asks who is responsible for structural injustice? Whilst some might say the answer is “practically everybody”, others might suggest that is just another way of saying “effectively nobody”. In a few of our previous talks, we've discussed what responsibility individuals bear for structural injustice and how can this responsibility be acted upon. 
+The episode asks who is responsible for structural injustice?
+Whilst some might say the answer is “practically everybody”, others might suggest that is just another way of saying “effectively nobody”. 
+In a few of our previous talks, we've discussed what responsibility individuals bear for structural injustice and how can this responsibility be acted upon.
 
-## What do you see as the structural injustices in data science, compared to the injustices that are largely out of data scientists control? 
+<!-- I think here it might be cool to mention Robin's main points that we discussed, like the "ideal roles"-->
 
-Structural injustics seem like the things that data scientists often struggle to control. Historically we may always have modelled things in a certain way and we can't quickly change the ways that things are measured. A great example of this is the English language bias in programming. Languages like Python functions are designed with English as a default. 
+## What are the structural injustices in data science? 
+Robin Zheng mentioned that as a university professor, she reinforces structural injustices by providing teaching for only the privaleged few that can access the elite instutuion where she teaches.
+Similarly, for data scientists, structural injustics are the things that individual data scientists may be unable to control. 
+We spoke about too many to list, but a great example of this is the English language bias in programming: in Python, R, and other data-science programming languages, we define code using English words ("for", "in", "while") despite the fact that the computer has no conception of their English meaning.
+Meanwhile [the tools we use may have ecological consequences](https://arxiv.org/abs/2009.11295v1) that will disproportionately affect developing countries, the contents of standard datasets used to benchmark ML/AI algorithms reflect society's bias rather than address it, and (as we've previously discussed) as a society we've bought into using [products](./11-08-21_writeup)/[software](./26-05-21_writeup) that were built by exploiting underpaid workers.
 
-Structural injustices seen in data science are often seen in the data itself. The big thing we often call for is greater mutlidisciplinairy approaches to design and evaluation of systems.
 
-Tools we use depend on higher level scripting languages which are less energy efficient, especially in the age of *big data* (e.g.[ “The ecological impact of high-performance computing in astrophysics” (Zwart, 2020)](https://arxiv.org/abs/2009.11295v1)). The effects of global warming disproportionately affects developing countries.
-
-
-Inherent bias in NLP & sentiment analysis. 
-
-Ableims in graphs - blind-ness and graphs. The way that we communicate data is inherently biased. 
-
-‘‘‘Fair’ is the stupidest word humans ever invented, except for ‘staycation’.’’
-https://www.cell.com/patterns/fulltext/S2666-3899(20)30089-1#%20
-
-We love to know what we're doing and get excited about how to do it. But lots of people are happy to forget about the "why". Academics and scientists are trained to big up our results - a focus on the success of this (tech) approach.
-
-How comfortable are we data scientists using the work/products of underpaid workers (this links abck to when we talked about the [Nevada Lake](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/11-08-21_writeup.html) in a previous discussion).
-
-Both are due to incentives for funding and career progression.
-- Example: gender recognition from names (text)
-- Example: GitHub - I cannot work without it, but it's a bit evil for sure (ICE contracts).
-- Buying/selling data - commercial interests (e.g crypto companies getting custom by **not** selling data)
-- Ecological footprint of services like GH
-- "If you don't think you can make a difference, spend a night in a room with a mosquito"
-- E.g. we could make figures that have alternative text . 
-
-From summary - the scale of data science tools is part of what makes them so concerning. 
+<!-- I'm not sure where this bit should go, but here, I formatted it nicely:-->
+```{epigraph}
+‘Fair’ is the stupidest word humans ever invented, except for ‘staycation’.
+-- Shawn (The Good Place), [Human Data Science](https://www.cell.com/patterns/fulltext/S2666-3899(20)30089-1#%20)
+```
 
 ## Who is attributable for harmful deployments of data science? (E.g. The original researchers? The company who sold it? The government who bought and deployed it?) And who is accountable?
+Zheng makes a distinction between being attributable when others recognise our involvement in a process, and accountable when they can enforce consequences.
+In our discussions, there was disagreement on whether Data Scientists were even attributable for the outcomes of their work due to the complex chain of input and responsibility. 
+While we all felt that data scientists should take responsibility for the choices they make, many outcomes seemed unrelated to data scientists individual choices, due to the presence of structural injustices.
+And in many cases the blame was shared between many different types of roles, e.g. sales and marketing.
 
-Broadly speaking, those with a STEM background think in a reductionist way to problems: here's a problem, here are the tools we have to fix them, how are we going to make this happen. Liberal arts backgrounds might have a different viewpoint where they see some problems not having solutions and that we should sometimes avoid trying to solve some, as we might make those problems worse.
+We discussed whether blame was the most conducive way to enable data scientists to make positive changes.
+An analogy was made to insurance, where blame is not necessary to share the responsibility of fixing problems.
 
-Introducing greater multidisciplinary design is a great way to bring together the pragmatic utility typically associated with a STEM background and the more considerate thoughtfullness of those with alternative backgrounds.
-
-We tend to select projects based on this reductionist problem/solution approach
-big data, build what they think as needed, but data is biased - who defines what is biasaed or unbiased?
-
-When arguing about attribution for harmful uses of data science, one could make a strong analogy on insurance; there are plenty of other things we don't blame people for, but we have to decide as a group how we share the responsibility to sort stuff out.
-
-But the insurance analogy still puts culpability in the hands of those who can manage the risk. Car manufacturers are responsible for adhering to certain safety standards, even if at times it might limit the capabilities of your technological developments. The difficulty is agreeing on what those standards are in, particuarly in a context of a quickly evolving technological capabilities that we are all struggling to keep up with.
-
-If we're part of the system, are we automatically complicit? As a data scientist is it your duty to correct things? There should be a responsibility to think critically about methods used and findings - ignorance is not an excuse. 
-
-Figuring out where blame or attribution lies is very difficult because there is a big chain of input and responsibility. 
-
-Data scientists is frequently not as life and death as the automotive industry, but they tackle a lot of questions that are related to structural injustice. Data scientists still have a responsibility to consider how they use the tools at their disposal. 
-
-There is a burden of responsibility which could prove to be heavy and overwhelming. Indeed, some  It's difficult to feel the whole weight of the heaviness and responsibility. 
+Moving beyond individuals, big tech companies could also be required to take corporate responsibility for their data science outcomes.
+Car manufacturers are responsible for adhering to certain safety standards, even if at times it might limit the capabilities of your technological developments. The difficulty is agreeing on what those standards are in, particuarly in a context of a quickly evolving technological capabilities that we are all struggling to keep up with.
 
 ## How could individuals in the role of data scientist, publisher, funder, company, or government use their role to push boundaries?
+Facebook going down a few days before this discussion was had was a noteworthy example of the monopoly they had affected a lot of people. 
+It provides an interesting case study when considering what individuals embedded in a similar company (outside of senior management) could do to make a difference.
+Leaving a company costs it in recruitment, but could potentially make it easier for them to get away with harmful practices. 
+Whistle-blowing can have serious financial ramifications for the company, due to legal action and share-prices, but even this costly action for the individual, can't prevent a company's monopoly. 
 
-Facebook going down a few days before this discussion was had was a noteworthy example of the monopoly they had affected a lot of people - the fact that they have been able to get this monopoly is problematic. It provides an interesting case study when considering what individuals can do to make a difference.
+Throughout the discussion, we identified culture and career incentives that prevent individual data scientists from grappling with individual responsibility.
+Much of a science is framed as "problem-solving", so we love to know what we're doing and get excited about how to do it, but lots of people are happy to forget about the "why". 
+We are also trained to big-up our results, and to focus on the success of our individual approach as well as the general science/tech approach more widely.
+Both are due to incentives for funding and career progression, meaning that those with the power to write promotion/funding criteria and training mandates have a lot of power to change this culture.
+The same actors could encourage multidisciplinary design as another solution to this problem, to encourage people with a liberal arts background to work with data scientists to tackle these issues in their work.
+Companies could similarly invest in ethics practices, as well as making more accessible choices in their work practices (such as not offering unpaid internships).
 
-What's realistic about what we could change?  Will Facebook cease to exist overnight? Probably not. Will it help if everyone who is ethical leaves Facebook? Or if more ethical people join Facebook, does that just let Facebook get away with the bad things that they do? 
-
-What if everyone left, and created a competitor? It would require a lot of coordination, will, and resources and would be a large uphill battle. Even if it was successful, what would stop this competitor becoming just like Facebook.
-
-Do we perpetuate the system in the short-term in order to make things better in the long-term? Who decides what is "better"?
-
-It's important to pull together and convene different disciplines. Recognising bias in data is super important. It's not the data scientists job to fix the data. How should we define biased or unbiased? Whose job is that?
-
-We should push to involve more people in the conversation, even this likely will slow down the process of development.
-
-Taking the time to sit and think about things as a developer is important but not universally done. There's not inscentives for developers to behave ethically, just to get the job done. Not only are developers not comfortable admitting potential culpability, there's in fact strong pushback from developers over ethics "getting in the way". This is particularly true with large developments into AI/machine learning.
-
-Data scientists are not the only people accountable for developing tools used for bad things - marketing folks are culpable too!
-
-"Why don't you focus on hitting your target and worry about the fluffy stuff later?"
-
-Sharing the burden of responsibility with others is helpful! It maybe makes it easier to remind ourselves of our purpose and 
-
-One practical example of how a company could use their role to push boundaries would be to stop offering unpaid internships.
-
-It's not untypical to see ethical considerations ignored until release manager blocks deployment, showing there is a slow evolution into introducing regulation. Ironically, some developers literally see ethical considerations as something restricting to them.
+At the same time we did identify some individual actions that we could take in our roles, whether that be prioritising ethics as part of our role as data scientists through reading and discussing data science and ethics, using Code of Conducts, inviting in colleagues from other disciplines, including affected communities in planning our tools and software, taking a critical look at input data sets, or choosing colour-blind friendly pallettes and adding alt-text to images. 
+These things can make individual differences, and also help to change the culture in organisations and fields.
+We'll sign of this week with a reminder to recognise the power we do have: "If you don't think you can make a difference, spend a night in a room with a mosquito".
 
 ---
 
