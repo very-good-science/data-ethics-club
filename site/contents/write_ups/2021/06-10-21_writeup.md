@@ -8,28 +8,19 @@ with David Rutledge, with guest Robin Zheng, Assistant Professor in Philosophy, 
 The summary was written by Huw Day and Natalie Thurlby, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Nina Di Cara and Natalie Thurlby helped with a final edit.
 ```
+
 ## Introduction
 
 This week's discussion was on [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680), an episode of the podcast The Philosopher's Zone with David Rutledge, with guest Robin Zheng, Assistant Professor in Philosophy, Yale-NUS College Singapore.
 
 The episode asks who is responsible for structural injustice?
-Whilst some might say the answer is “practically everybody”, others might suggest that is just another way of saying “effectively nobody”. 
-In a few of our previous talks, we've discussed what responsibility individuals bear for structural injustice and how can this responsibility be acted upon.
-
-<!-- I think here it might be cool to mention Robin's main points that we discussed, like the "ideal roles"-->
+Whilst some might say the answer is “practically everybody”, in some cases that might be just another way of saying “effectively nobody”. 
 
 ## What are the structural injustices in data science? 
 Robin Zheng mentioned that as a university professor, she reinforces structural injustices by providing teaching for only the privaleged few that can access the elite instutuion where she teaches.
 Similarly, for data scientists, structural injustics are the things that individual data scientists may be unable to control. 
 We spoke about too many to list, but a great example of this is the English language bias in programming: in Python, R, and other data-science programming languages, we define code using English words ("for", "in", "while") despite the fact that the computer has no conception of their English meaning.
 Meanwhile [the tools we use may have ecological consequences](https://arxiv.org/abs/2009.11295v1) that will disproportionately affect developing countries, the contents of standard datasets used to benchmark ML/AI algorithms reflect society's bias rather than address it, and (as we've previously discussed) as a society we've bought into using [products](./11-08-21_writeup)/[software](./26-05-21_writeup) that were built by exploiting underpaid workers.
-
-
-<!-- I'm not sure where this bit should go, but here, I formatted it nicely:-->
-```{epigraph}
-‘Fair’ is the stupidest word humans ever invented, except for ‘staycation’.
--- Shawn (The Good Place), [Human Data Science](https://www.cell.com/patterns/fulltext/S2666-3899(20)30089-1#%20)
-```
 
 ## Who is attributable for harmful deployments of data science? (E.g. The original researchers? The company who sold it? The government who bought and deployed it?) And who is accountable?
 Zheng makes a distinction between being attributable when others recognise our involvement in a process, and accountable when they can enforce consequences.
@@ -42,6 +33,12 @@ An analogy was made to insurance, where blame is not necessary to share the resp
 
 Moving beyond individuals, big tech companies could also be required to take corporate responsibility for their data science outcomes.
 Car manufacturers are responsible for adhering to certain safety standards, even if at times it might limit the capabilities of your technological developments. The difficulty is agreeing on what those standards are in, particuarly in a context of a quickly evolving technological capabilities that we are all struggling to keep up with.
+
+```{epigraph}
+‘Fair’ is the stupidest word humans ever invented, except for ‘staycation’.
+-- Shawn (The Good Place), [Human Data Science](https://www.cell.com/patterns/fulltext/S2666-3899(20)30089-1#%20)
+```
+Finally, another issue to be considered is who defines fairness and bias, and who continues to translate these concepts to new technologies.
 
 ## How could individuals in the role of data scientist, publisher, funder, company, or government use their role to push boundaries?
 Facebook going down a few days before this discussion was had was a noteworthy example of the monopoly they had affected a lot of people. 
@@ -58,6 +55,8 @@ Companies could similarly invest in ethics practices, as well as making more acc
 
 At the same time we did identify some individual actions that we could take in our roles, whether that be prioritising ethics as part of our role as data scientists through reading and discussing data science and ethics, using Code of Conducts, inviting in colleagues from other disciplines, including affected communities in planning our tools and software, taking a critical look at input data sets, or choosing colour-blind friendly pallettes and adding alt-text to images. 
 These things can make individual differences, and also help to change the culture in organisations and fields.
+This lines up in some ways with Zheng's framing of "ideal roles" in the Role Ideal Model in which structural inequality can be considered to come from the ways in which individuals do not fulfil the ideal role of that position in society.
+Under this model, one way of improving injustices might look like expanding the role of data scientists to include considering whether certain pieces of data science work should be done and/or ensuring it is done fairly (either individually or in collaboration with others).
 We'll sign of this week with a reminder to recognise the power we do have: "If you don't think you can make a difference, spend a night in a room with a mosquito".
 
 ---
