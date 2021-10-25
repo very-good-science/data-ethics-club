@@ -1,4 +1,4 @@
-# Organising
+# How we organise
 
 [//]: # (TODO: Add link to DEC paper when written)
 
@@ -10,8 +10,6 @@ We try to do all our organising and administration out in the open, so that:
 
 You can see what we're up to by looking at the [Issues](https://github.com/very-good-science/data-ethics-club/issues) (which functions as a to-do list) and our [organiser's meetings agendas](https://github.com/very-good-science/data-ethics-club/tree/main/agendas) on our GitHub repository.
  
-
-```
 
 ### Organising team tasks
 We share the following tasks:
