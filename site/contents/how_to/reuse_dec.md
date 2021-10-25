@@ -1,20 +1,8 @@
-# How to (re)use the Data Ethics Club repository
+# Reuse our materials
 
 In this folder you will find information about how we organise and facilitate Data Ethics Club, including a folder of the templates we've made for organising and communication. We hope it's useful for anyone thinking of joing the group as an organiser, or for those thinking of re-using this repository to run their own Data Ethics Club or other discussion group!
 
 The repository is licensed with a [CC-BY 3.0 license](https://creativecommons.org/licenses/by/3.0/legalcode), which means we welcome other re-using and re-mixing what they find here, but please attribute this repository - a link will do!  
-
-## Contents
-
-```{toctree}
-:maxdepth: 1
-organising.md
-meeting-structure.md
-meeting-todo-list.md
-howto-allcontributorsbot.md
-howto-sync-hackmd.md
-howto-add-writeups.md
-
 
 ### Re-usable Templates
 
@@ -26,3 +14,16 @@ We also have a series of blank templates mentioned in this guide, ready to be re
 * [Meetings Overview Template](./templates/meetings_overview_template.md)   
 * [HackMD Collaborative Meeting Writing Template](./templates/HackMD_meeting_template.md)  
 * [Reading Suggestions Issue Template](./templates/reading-suggestion-issue-template.md)  
+
+### Contents
+
+```{toctree}
+:maxdepth: 1
+organising.md
+meeting-structure.md
+meeting-todo-list.md
+howto-allcontributorsbot.md
+howto-sync-hackmd.md
+howto-add-writeups.md
+
+
