@@ -1,14 +1,30 @@
-# Meeting Dates 
+# Join in
 
-Meetings are **every two weeks on a Wednesday 1pm-2pm, UK time**.
+Everyone is welcome to get involved in Data Ethics Club, as much or as little as you'd like to! We would love to [hear your point of view at our discussion groups](#about), to have your support in [organising or running a meeting](organising), or to add your [contributions](contributing) to our reading list.  
 
-The dates for upcoming meetings are here, but the discussion material will be voted for in the meeting before. 
+You don't need to be a data ethicist (we're not!), or a data scientist - having a variety of different people is how we learn from each other. It's a friendly and welcoming group and we often have new people drop by, so why not try it?  
 
-We will meet on Zoom - the link will be sent out on the [mailing list](http://eepurl.com/hjkmnX), and on the individual meeting pages that you can click to below.
+If you're looking for information on how to set up your own Data Ethics Club then you should head to [our section about re-using our materials](). 
 
-Each week we will try to provide a summary on Twitter or HackMD of what we discussed.
+## How Data Ethics Club meetings work
 
-| Upcoming Meetings                                      | Discussion Material |
+We meet every other week (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
+Out upcoming meeting dates are available below. They last one hour and are held on Zoom. 
+We usually hear a short summary of the piece, split into breakout rooms to discuss some prompts, and then come back together to share our thoughts as a group. 
+
+If you'd like a flavour of what we usually discuss then go to [our `Write Ups` page](../write_ups/write_ups) and click on any of the summaries from past meetings to read about our discussions.
+
+We follow a [code of conduct](code-of-conduct) during Data Ethics Group which is designed to make sure everyone feels welcome and confortable sharing their experiences and take on the material. 
+Please read it before attending.
+
+## Mailing list
+
+If you would like an email each meeting with the next reading material and a link to the Zoom meeting then join our [mailing list](http://eepurl.com/hjkmnX).
+Sometimes we also send out information about other data ethics related events being organised by our community. 
+
+## Upcoming meetings
+
+| Date                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
 | [25.08.2021, 1pm](2021/08-august/25-08-2021_meeting.md) | [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366)
 | 08.09.2021, 1pm | TBC - we'll vote on it in the meeting before |
@@ -20,19 +36,11 @@ Each week we will try to provide a summary on Twitter or HackMD of what we discu
 | 01.12.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 15.12.2021, 1pm | TBC - we'll vote on it in the meeting before |
 
-<!--
-TODO: 
-- Add date for Data Hazards Workshop
-- Add links to videos + slides for IRC seminar
-- Update summary links to be on website
-
--->
-
---------------
+## Past Meetings
 
 You can see a record of what we have discussed previously here.
 
-| Previous Meetings | Discussion Material | Summary |
+| Date | Discussion Material | Link to Summary |
 |-------------------|---------------------|---------------------|
 | [11.08.2021, 1pm](2021/08-august/11-08-2021_meeting.md) | [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech) | Coming Soon |
 | [28.07.2021, 1pm](2021/07-july/28-07-2021_meeting.md) | [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) |  [Read the write up](../write_ups/2021/28-07-21_writeup) |
@@ -49,3 +57,11 @@ You can see a record of what we have discussed previously here.
 | [17.02.2021, 1pm](2021/02-feb/17-02-21_meeting) | [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) | [Natalie's Twitter Summary](https://twitter.com/StatalieT/status/1362045192543600641?s=20)|
 | [03.02.2021, 1pm](2021/02-feb/03-02-21_meeting)| [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee) | [Nina's Twitter Summary](https://twitter.com/ninadicara/status/1356976821498175491?s=20) |
 | [20.01.2021, 1pm](2021/01-jan/20-01-21_meeting)   | [Executive Summary of the Review into bias in algorithmic decision making](2021/01-jan/20-01-20_cdei_algorithmic_bias_summary.pdf)| [Brief summary on the meeting document](2021/01-jan/20-01-21_meeting) |
+
+
+```{toctree}
+:maxdepth: 1
+:hidden:
+code-of-conduct.md
+contributing.md
+organising.md
