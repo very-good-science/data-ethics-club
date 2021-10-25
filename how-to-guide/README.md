@@ -6,9 +6,9 @@ The repository is licensed with a [CC-BY 3.0 license](https://creativecommons.or
 
 ## Contents
 
-Overview of how we organise > [organising.md](./organising.md)  
-Typical meeting structure > [meeting-structure.md](./meeting-structure.md)
-To Do list for each meeting > [meeting-todo-list.md](./meeting-todo-list.md)
+* Overview of how we organise > [organising.md](./organising.md)  
+* Typical meeting structure > [meeting-structure.md](./meeting-structure.md)  
+* To Do list for each meeting > [meeting-todo-list.md](./meeting-todo-list.md)  
 
 ### How To...
 * Use the all contributors bot > [howto-allcontributorsbot.md](./howto-allcontributorsbot.md)
