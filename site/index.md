@@ -21,7 +21,7 @@ For details of our next meeting, [click here](contents/join_in/meetings/next-mee
 
 ### Our Community
 
-Data Ethics Club is organised by a [small team](contents/contact), but has been built by a big community of data ethics enthusiasts! Check out our community contributors below. ✨
+Data Ethics Club is organised by a [small team](contents/contact), but all our materials have been built by a community of data ethics enthusiasts! Check out our community contributors below. ✨
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
