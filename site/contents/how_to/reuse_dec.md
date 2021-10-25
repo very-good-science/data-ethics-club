@@ -15,7 +15,7 @@ We also have a series of blank templates mentioned in this guide, ready to be re
 * [HackMD Collaborative Meeting Writing Template](./templates/HackMD_meeting_template.md)  
 * [Reading Suggestions Issue Template](./templates/reading-suggestion-issue-template.md)  
 
-### Contents
+### How To Guides
 
 ```{toctree}
 :maxdepth: 1
