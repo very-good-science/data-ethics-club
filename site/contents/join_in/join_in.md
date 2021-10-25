@@ -1,12 +1,21 @@
 # Join in
 
-Everyone is welcome to get involved in Data Ethics Club, as much or as little as you'd like to! We would love to [hear your point of view at our discussion groups](#about), to have your support in [organising or running a meeting](organising), or to add your [contributions](contributing) to our reading list.  
+Everyone is welcome to get involved in Data Ethics Club, as much or as little as you'd like to! We would love to [hear your point of view at our discussion groups](#upcoming-meetings), to have your support in [organising or running a meeting](organising), or to add your [contributions](contributing) to our reading list.  
 
 You don't need to be a data ethicist (we're not!), or a data scientist - having a variety of different people is how we learn from each other. It's a friendly and welcoming group and we often have new people drop by, so why not try it?  
 
 If you're looking for information on how to set up your own Data Ethics Club then you should head to [our section about re-using our materials](). 
 
-## How Data Ethics Club meetings work
+```{admonition} Join our mailing list
+:class: tip
+✨[Mailing List Sign Up](http://eepurl.com/hjkmnX)✨  
+
+If you would like an email before each meeting with the reading material and a link to the Zoom call then join the mailing list.
+Sometimes we also send out information about other data ethics related events being organised by our community. 
+
+```
+
+## How our meetings work
 
 We meet every other week (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
 Out upcoming meeting dates are available below. They last one hour and are held on Zoom. 
@@ -17,10 +26,6 @@ If you'd like a flavour of what we usually discuss then go to [our `Write Ups` p
 We follow a [code of conduct](code-of-conduct) during Data Ethics Group which is designed to make sure everyone feels welcome and confortable sharing their experiences and take on the material. 
 Please read it before attending.
 
-## Mailing list
-
-If you would like an email each meeting with the next reading material and a link to the Zoom meeting then join our [mailing list](http://eepurl.com/hjkmnX).
-Sometimes we also send out information about other data ethics related events being organised by our community. 
 
 ## Upcoming meetings
 
