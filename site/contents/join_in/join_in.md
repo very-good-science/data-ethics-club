@@ -6,7 +6,7 @@ You don't need to be a data ethicist (we're not!), or a data scientist - having 
 
 If you're looking for information on how to set up your own Data Ethics Club then you should head to [our section about re-using our materials](). 
 
-```{admonition} 
+```{admonition} Stay up to date
 :class: tip
 ✨[Sign up to the mailing list](http://eepurl.com/hjkmnX)✨  
 
