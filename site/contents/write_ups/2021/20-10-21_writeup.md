@@ -1,5 +1,4 @@
-# Data Ethics Club: [Towards decolonising computational sciences
-](https://arxiv.org/pdf/2009.14258.pdf)
+# Data Ethics Club: [Towards decolonising computational sciences (20th Oct 2021)](https://arxiv.org/pdf/2009.14258.pdf)
 <!--Please don't edit the info panel below-->
 
 ```{admonition} What's this? 
@@ -79,9 +78,9 @@ It was mentioned that it would have been nice, however, to see an acknowledgemen
 The article certainly didn't pull any punches with its view of academia. 
 Whether or not this is extreme cynicism or just unapologetically candid realism could be argued, but we certain found that aspect persuasive!
 We discovered a good opportunity for self-reflection in noticing that the arguments that we found ourselves agreeing with the most were the ones that we had personally experienced, e.g. the power of learning about the historical context of scientific discovery and how that changed our viewpoints.
-We wondered if others would have the same experience, in some cases perhaps discounting the existence of the problems that the article described (although no one in our group held this view).
+We wondered if others would have the same experience of confirmation bias, which could result in some people discounting the existence of scientific racism (although no one in our group held this view) and if there was anything the article could have done to anticipate that.
 
-There was a lot of agreement on the point of the value of historical context, and how decolonising scientific curriculums is a practical step that can be taken to help educate everyone. 
+There was a lot of agreement on the point of the value of historical context, and how decolonising scientific curricula is a practical step that can be taken to help educate everyone. 
 [This course](https://www.futurelearn.com/courses/decolonising-education-from-theory-to-practice) was recommended by the group as a starting point for learning more about what that might look like in your discipline.
 
 One part of the article that some of us were uncomfortable with was:
@@ -129,5 +128,3 @@ __Name, Role, Affiliation, Where to find you, Emoji to describe your day__
 - Laura Sheppard, PhD Student, CASA, UCL @laurahsheppard
 - [Mia Mace](https://github.com/mace-space), University of Bristol/SETI
 - Kamilla ['Milli'](https://www.linkedin.com/in/kamilla-wells/) Wells, Citizen Developer
-
-
