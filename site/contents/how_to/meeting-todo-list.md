@@ -6,7 +6,7 @@ Tasks to complete before and after each meeting.
 
 - [ ] Choose the material to discuss from the [reading list](./../reading-list). We suggest voting on this in the previous meeting!  
 - [ ] Decide on three questions around the piece to discuss.  
-- [ ] Create a [meeting information file](./../site/contents/meetings/meeting_template) in the `site/content/join_in/meetings/` folder from the `meeting_template.md` file under the correct month with links and the three discussion questions.
+- [ ] Create a meeting information file in the `site/content/join_in/meetings/` folder from the `meeting_template.md` file under the correct month with links and the three discussion questions.
 - [ ] Update the meeting overview list (in `site/contents/join_in/join_in.md` under "Upcoming Meetings") with a link to the new meeting information page.
 - [ ] Update the next meeting reference file in `site/contents/join_in/meetings/next-meeting` which makes sure people get to the next meeting from the homepage of the website.
 

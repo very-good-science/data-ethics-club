@@ -4,7 +4,7 @@ In this folder you will find information about how we organise and facilitate Da
 
 The repository is licensed with a [CC-BY 3.0 license](https://creativecommons.org/licenses/by/3.0/legalcode), which means we welcome other re-using and re-mixing what they find here, but please attribute this repository - a link will do!  
 
-### Re-usable Templates
+## Reusable Templates
 
 We also have a series of blank templates mentioned in this guide, ready to be reused.  
 
@@ -15,7 +15,7 @@ We also have a series of blank templates mentioned in this guide, ready to be re
 * [HackMD Collaborative Meeting Writing Template](./templates/HackMD_meeting_template.md)  
 * [Reading Suggestions Issue Template](./templates/reading-suggestion-issue-template.md)  
 
-### How To Guides
+## How To Guides
 
 ```{toctree}
 :maxdepth: 1

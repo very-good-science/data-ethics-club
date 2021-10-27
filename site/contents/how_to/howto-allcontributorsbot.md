@@ -23,7 +23,7 @@ Some people aren't on GitHub of course, so to add them to the contributions list
 ```
 This person's contribution will then show up the next time you use the bot to add someone to the repo.  
 
-#### All Contributers emoji key
+## All Contributers emoji key
 The slightly edited emoji key that we use is:   
 🖋 (content) for submitting suggestions to the "reading" list (suggestions can be any medium!)  
 💬 (question) for leading the discussion in a meeting  
