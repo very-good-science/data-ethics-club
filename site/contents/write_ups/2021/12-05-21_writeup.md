@@ -1,4 +1,4 @@
-# Data Ethics Club discusses [Critical perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)
+# Data Ethics Club discusses [Critical perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision) (12th May 21)
 
 ```{admonition} What's this? 
 This is summary of Wednesday 12th May's Data Ethics Club discussion, where we spoke and wrote about the conference talk [Critical perspectives on Computer Vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision) by Emily Denton.

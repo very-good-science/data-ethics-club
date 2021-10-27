@@ -1,4 +1,4 @@
-# Data Ethics Club: [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366)
+# Data Ethics Club: [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366) (25th Aug 21)
 
 ```{admonition} What's this? 
 This is summary of Wednesday 25th August's Data Ethics Club discussion, where we spoke and wrote about the paper [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366) written by Casey Fiesler and Nicholas Proferes.

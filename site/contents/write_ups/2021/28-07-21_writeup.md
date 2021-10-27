@@ -1,4 +1,4 @@
-# Data Ethics Club: [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators)
+# Data Ethics Club: [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) (28th July 21)
 
 ```{admonition} What's this? 
 This is summary of Wednesday 28th July's Data Ethics Club discussion, where we spoke and wrote about the New Republic article [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) by Charlie Savage.

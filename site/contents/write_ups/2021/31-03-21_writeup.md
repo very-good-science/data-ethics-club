@@ -3,7 +3,7 @@ title: "Data Ethics Club: Dataism Is Our New God"
 tags: Data Ethics Club
 ---
 
-# Data Ethics Club discusses [Dataism Is Our New God](https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080)
+# Data Ethics Club discusses [Dataism Is Our New God](https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080) (31st March 21)
 
 ```{admonition} What's this? 
 

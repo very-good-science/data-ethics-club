@@ -1,4 +1,4 @@
-# Data Ethics Club: [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) (6th October 2021)
+# Data Ethics Club: [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) (6th Oct 2021)
 <!--Please don't edit the info panel below-->
 
 ```{admonition} What's this? 
