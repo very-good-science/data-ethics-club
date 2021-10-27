@@ -1,4 +1,4 @@
-# Data Ethics Club discusses [The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A)
+# Data Ethics Club discusses [The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) (14th July 21)
 
 ```{admonition} What's this? 
 This is summary of Wednesday 14th July's Data Ethics Club discussion, where we spoke and wrote about the YouTube video [The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) by Hannah Fry.

@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>How to add and sync a new HackMD document &#8212; Data Ethics Club v0.1.0 documentation</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="How to add a write up to the website" href="howto-add-writeups.html" />
+    <link rel="prev" title="Using the all-contributors bot" href="howto-allcontributorsbot.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../../index.html">
+<p class="title">Data Ethics Club</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../join_in/join_in.html">
+  Join in
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../reading-list.html">
+  Reading list
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../write_ups/write-ups.html">
+  Write-ups
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="reuse_dec.html">
+  Reuse our materials
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../contact.html">
+  Contact us
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/very-good-science/data-ethics-club" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/hashtag/DataEthicsClub" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="organising.html">
+   How we organise Data Ethics Club
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="meeting-structure.html">
+   Data Ethics Club Meeting Structure
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="meeting-todo-list.html">
+   Organisers to do list for each meeting
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="howto-allcontributorsbot.html">
+   Using the all-contributors bot
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   How to add and sync a new HackMD document
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="howto-add-writeups.html">
+   How to add a write up to the website
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-to-make-a-hackmd-template">
+   How to make a HackMD template
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="how-to-add-and-sync-a-new-hackmd-document">
+<h1>How to add and sync a new HackMD document<a class="headerlink" href="#how-to-add-and-sync-a-new-hackmd-document" title="Permalink to this headline">¶</a></h1>
+<p>We use HackMD documents in meetings for people to record some of the main points coming out of the small group discussions. This is because we don’t always have a facilitator in every room so its a way to make sure we still include all the groups discussions in our write up.</p>
+<ul class="simple">
+<li><p>[ ] Create a new <a class="reference external" href="https://hackmd.io/">HackMD</a>, copy in, or if already saved then select, the <a class="reference internal" href="templates/HackMD_meeting_template.html"><span class="doc std std-doc">template</span></a>, and edit the links to this week’s content.</p></li>
+<li><p>[ ] Give the HackMD document a shortened name for easy sharing (open the share tab, edit the box to something like <code class="docutils literal notranslate"><span class="pre">DEC-bropenscience</span></code>, and click “save”).</p></li>
+<li><p>[ ] After editing, to sync the HackMD document to GitHub:</p></li>
+<li><p>[ ] First save a version: go to <code class="docutils literal notranslate"><span class="pre">Options</span></code> (three dots) -&gt; <code class="docutils literal notranslate"><span class="pre">Versions</span> <span class="pre">and</span> <span class="pre">GitHub</span> <span class="pre">sync</span></code> -&gt; <code class="docutils literal notranslate"><span class="pre">Save</span> <span class="pre">as</span> <span class="pre">Version</span></code> -&gt; name the version something descriptive (such as “setup” or “before meeting”)</p></li>
+<li><p>[ ] Second push to GitHub: click <code class="docutils literal notranslate"><span class="pre">Push</span> <span class="pre">to</span> <span class="pre">GitHub</span></code>. If you see a message about linebreaks, choose <code class="docutils literal notranslate"><span class="pre">Switch</span> <span class="pre">Now</span></code> (read more about that <a class="reference external" href="https://hackmd.io/c/tutorials/%2Fs%2Flink-with-github">here</a>). Choose the repository and branch, and under <code class="docutils literal notranslate"><span class="pre">Select</span> <span class="pre">File</span></code>, choose to create a new file on GitHub with a name of the form <code class="docutils literal notranslate"><span class="pre">DD-MM-YY_writeup.md</span></code>.</p></li>
+<li><p>[ ] <strong>Make sure that the HackMD document has the right permissions</strong> we turn on reading, writing and commenting for everyone, so that people don’t need to sign in.</p></li>
+</ul>
+<section id="how-to-make-a-hackmd-template">
+<h2>How to make a HackMD template<a class="headerlink" href="#how-to-make-a-hackmd-template" title="Permalink to this headline">¶</a></h2>
+<p>If you make a HackMD account you can add a template to your account so that you can reuse it every time instead of copy and pasting it across.<br />
+First, make a new document as usual using the <a class="reference internal" href="templates/HackMD_meeting_template.html"><span class="doc std std-doc">template</span></a>.<br />
+Now click on the three dots in the top right hand corner of the HackMD window and select the option <code class="docutils literal notranslate"><span class="pre">Save</span> <span class="pre">as</span> <span class="pre">Template</span></code>.<br />
+Once you have followed these instructions you will be able to re-use this template easily each time.</p>
+</section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="howto-allcontributorsbot.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Using the all-contributors bot</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="howto-add-writeups.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">How to add a write up to the website</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, Natalie Thurlby and Nina Di Cara.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.2.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

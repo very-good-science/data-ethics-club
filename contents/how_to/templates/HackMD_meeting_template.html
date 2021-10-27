@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Data Ethics Club: TITLE OF MATERIAL &#8212; Data Ethics Club v0.1.0 documentation</title>
+    
+  <link href="../../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../../../index.html">
+<p class="title">Data Ethics Club</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../join_in/join_in.html">
+  Join in
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../reading-list.html">
+  Reading list
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../write_ups/write-ups.html">
+  Write-ups
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../reuse_dec.html">
+  Reuse our materials
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../contact.html">
+  Contact us
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/very-good-science/data-ethics-club" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/hashtag/DataEthicsClub" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#welcome">
+   Welcome
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introductions">
+   Introductions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Discussion
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#suggested-questions">
+       Suggested Questions
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#room-1">
+       Room 1
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#q1">
+         Q1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#q2">
+         Q2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#q3">
+         Q3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#bonus-question">
+         Bonus question
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#misc">
+         Misc
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#room-2">
+       Room 2
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id2">
+         Q1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id3">
+         Q2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id4">
+         Q3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id5">
+         Bonus question
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id6">
+         Misc
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#room-3">
+       Room 3
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id7">
+         Q1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id8">
+         Q2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id9">
+         Q3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id10">
+         Bonus question
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id11">
+         Misc
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#room-4">
+       Room 4
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id12">
+         Q1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id13">
+         Q2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id14">
+         Q3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id15">
+         Bonus question
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id16">
+         Misc
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#after-this-session">
+   After this session
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#feedback-on-the-format">
+   Feedback on the format
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="data-ethics-club-title-of-material">
+<h1>Data Ethics Club: <span class="xref myst">TITLE OF MATERIAL</span><a class="headerlink" href="#data-ethics-club-title-of-material" title="Permalink to this headline">¶</a></h1>
+<!--Please don't edit the info panel below-->
+<div class="highlight-warning notranslate"><div class="highlight"><pre><span></span>### :arrow_forward: What&#39;s this document?
+
+#### :writing_hand: Let&#39;s write together!
+We&#39;re trying to write up these discussions and include input from everyone.
+We hope you&#39;ll join us and help us to make any write-ups of the discussion a little more representative of everyone&#39;s point of view.
+
+We also hope that through doing this, we&#39;ll open up the possibility for more collaborative writing together in the future, e.g. through a perspective article.
+That&#39;s if there&#39;s any appetite from you to do that.
+
+#### :computer: Writing in Markdown
+We&#39;re using HackMD to write a collaborative Markdown document. 
+Markdown is a format for writing text that displays nicely on websites.
+On the left you can edit, and on the right you can see view.
+
+#### :grey_question: Getting Markdown help
+There is a question mark symbol at the top of the screen that will bring up a cheat sheet, e.g. *write between single asterixes to write in italics* **or double asterixes for bold**.
+You can also use the buttons at the top of the edit panel.
+</pre></div>
+</div>
+<section id="welcome">
+<h2>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">¶</a></h2>
+<p>Hi :wave:, welcome to Data Ethics Club!
+Thank you for being here!</p>
+<p>Here are some quick useful links:</p>
+<ul class="simple">
+<li><p><span class="xref myst">This Document</span></p></li>
+<li><p><span class="xref myst">Code of Conduct</span></p></li>
+<li><p><span class="xref myst">Our GitHub page</span></p></li>
+<li><p><span class="xref myst">This week’s discussion material</span></p></li>
+</ul>
+</section>
+<section id="introductions">
+<h2>Introductions<a class="headerlink" href="#introductions" title="Permalink to this headline">¶</a></h2>
+<p>Please introduce yourself here.
+Feel free to use a pseudoname (this is a public document).
+If you provide a GitHub username, I’ll use those to credit you for discussions :speech_balloon: and/or writing :writing_hand:  on our GitHub</p>
+<p><strong>Name, Job title, Affiliation, GitHub, Twitter, Emoji to describe your day</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a>, :sun_with_face:</p></li>
+<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a>, :writing_hand:</p></li>
+</ul>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">¶</a></h2>
+<p>Each week, we split into breakout rooms of 4-6 people to discuss the material.
+Please make space for one another to talk - keep your eyes open :eyes: for people with their hands up :hand: and invite them to talk.</p>
+<p>As always we have provided some discussion points to get the conversation moving, but feel free to discuss anything relating to the materials!</p>
+<div class="highlight-info notranslate"><div class="highlight"><pre><span></span>### :information_source:  Notes on writing
+#### Writing things down is optional
+
+The following are all good options:
+- :heavy_check_mark: Writing some notes in here as you discuss.
+- :heavy_check_mark: Writing some notes in here up to a week after the discussion at any time.
+- :heavy_check_mark: Not writing any notes in here at any time.
+
+#### What to write
+Suggestions for what to write down (if you want to):
+- Any interesting quotes from the discussion
+- Links to other material that came up in the discussion
+- Parts of the reading material that you felt particularly strongly about
+</pre></div>
+</div>
+<section id="id1">
+<h3>Discussion<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<section id="suggested-questions">
+<h4>Suggested Questions<a class="headerlink" href="#suggested-questions" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p><strong>Q1</strong>: A question here</p></li>
+<li><p><strong>Q2</strong>: A question here</p></li>
+<li><p><strong>Q3</strong>: A question here</p></li>
+<li><p><strong>Bonus Question:</strong> What change would you like to see on the basis of this piece? Who has the power to make that change?</p></li>
+</ul>
+</section>
+<section id="room-1">
+<h4>Room 1<a class="headerlink" href="#room-1" title="Permalink to this headline">¶</a></h4>
+<section id="q1">
+<h5>Q1<a class="headerlink" href="#q1" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="q2">
+<h5>Q2<a class="headerlink" href="#q2" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="q3">
+<h5>Q3<a class="headerlink" href="#q3" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="bonus-question">
+<h5>Bonus question<a class="headerlink" href="#bonus-question" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="misc">
+<h5>Misc<a class="headerlink" href="#misc" title="Permalink to this headline">¶</a></h5>
+</section>
+</section>
+<section id="room-2">
+<h4>Room 2<a class="headerlink" href="#room-2" title="Permalink to this headline">¶</a></h4>
+<section id="id2">
+<h5>Q1<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id3">
+<h5>Q2<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id4">
+<h5>Q3<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id5">
+<h5>Bonus question<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id6">
+<h5>Misc<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h5>
+</section>
+</section>
+<section id="room-3">
+<h4>Room 3<a class="headerlink" href="#room-3" title="Permalink to this headline">¶</a></h4>
+<section id="id7">
+<h5>Q1<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id8">
+<h5>Q2<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id9">
+<h5>Q3<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id10">
+<h5>Bonus question<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id11">
+<h5>Misc<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h5>
+</section>
+</section>
+<section id="room-4">
+<h4>Room 4<a class="headerlink" href="#room-4" title="Permalink to this headline">¶</a></h4>
+<section id="id12">
+<h5>Q1<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id13">
+<h5>Q2<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id14">
+<h5>Q3<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id15">
+<h5>Bonus question<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="id16">
+<h5>Misc<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h5>
+</section>
+</section>
+</section>
+</section>
+<section id="after-this-session">
+<h2>After this session<a class="headerlink" href="#after-this-session" title="Permalink to this headline">¶</a></h2>
+<p>You have a week to add anything else that you’d like to to this document.
+After that, we’ll try to make this document a little more cohesive, then we’ll send a link around to the write up of the discussion in the next mailing list email.</p>
+</section>
+<section id="feedback-on-the-format">
+<h2>Feedback on the format<a class="headerlink" href="#feedback-on-the-format" title="Permalink to this headline">¶</a></h2>
+<p>Please feel free to leave us some notes below on how the discussion group went for you this time, positive or negative, and any suggestions to improve (you can always <span class="xref myst">email us</span> instead).
+We do read these and make changes :sparkles:</p>
+<ul class="simple">
+<li><p>Suggestion here</p></li>
+<li><p>Another suggestion here</p></li>
+</ul>
+</section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, Natalie Thurlby and Nina Di Cara.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.2.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

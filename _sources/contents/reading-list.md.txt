@@ -27,29 +27,32 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Introduction to Research Ethics](https://the-turing-way.netlify.app/ethical-research/ethics-intro.html) - suggested by [@leriomaggio](https://github.com/leriomaggio)
 * [What is Data Ethics?](https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360)<sup>1</sup>
 * [Ethical data science](https://arxiv.org/pdf/1411.1373.pdf)<sup>1</sup>
-* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by [@RobertArbon](https://github.com/RobertArbon), [✅ 3rd March 2021](meetings/2021/03-march/03-03-21_meeting.md)
-
+* [Algorithmic Injustices: Towards a relational ethics](https://arxiv.org/abs/1912.07376) - suggested by [@RobertArbon](https://github.com/RobertArbon), [✅ 3rd March 2021](join_in/meetings/2021/03-march/03-03-21_meeting.md)
 * [Ethical principles in machine learning and artificial intelligence: cases from the field and possible ways forward](https://www.nature.com/articles/s41599-020-0501-9) 
-* [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee) - : ✅ [3rd Feb 2021](./meetings/2021/02-feb/03-02-21_meeting.md)
+* [Ethics can't be a side hustle](https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee) - : ✅ [3rd Feb 2021](join_in/meetings/2021/02-feb/03-02-21_meeting.md)
 * [Reflections on trusting trust](http://users.ece.cmu.edu/~ganger/712.fall02/papers/p761-thompson.pdf)
-
 * 📺 [21 Fairness Definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
-
 * 📺 [AI, Ain’t I a Woman?](https://www.youtube.com/watch?v=HZxV9w2o0FM) - poem<sup>2</sup> - suggested by Valentina Ragni
+* [Ethics and Policy Class Materials by Casey Fiesler](https://bit.ly/caseysclass)<sup>1</sup>  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) [#100](https://github.com/very-good-science/data-ethics-club/issues/100)
+
+## Moral philosophy for data science
+
+* [Engineers’ Moral Responsibility: A Confucian Perspective](https://link.springer.com/article/10.1007%2Fs11948-019-00093-4)<sup>1</sup>  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) [#101](https://github.com/very-good-science/data-ethics-club/issues/101)
+* [Data Science, Meaning and Diversity](https://towardsdatascience.com/data-science-meaning-and-diversity-bb842602e55d) - suggested (and written!) by [Ismael Kherroubi Garcia](https://ismaelkg.medium.com/)
 
 ## The nature of data
 
 * [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw)
-* [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](../../issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
+* [The Missing Datasets Project](https://github.com/MimiOnuoha/missing-datasets) - [#1](https://github.com/very-good-science/data-ethics-club/issues/1) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Dataism is our new God](https://onlinelibrary.wiley.com/doi/pdf/10.1111/npqu.12080?casa_token=cj8N7zTKYeIAAAAA:fiV6jUDL9dVhZ5oADoLszgzL5Ubn5NWCmLuO6mVxa_mf_sO-JEB6nU-9FP5fYL5pm8JisxYlWEe) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) - ✅ [31st March 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/03-march/31-03-21_meeting.md)
 * [Challenging racism in the use of health data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00019-4/fulltext) - suggested by [@Lextuga007](https://github.com/Lextuga007)
 * [Living in the Hidden Realm of AI](https://news.techworkerscoalition.org/2021/03/09/issue-5/) - suggested by [@vairylein](https://github.com/vairylein), see [#54](https://github.com/very-good-science/data-ethics-club/issues/54) ✅
-* [Data Science, Meaning and Diversity](https://towardsdatascience.com/data-science-meaning-and-diversity-bb842602e55d) - suggested (and written!) by [Ismael Kherroubi Garcia](https://ismaelkg.medium.com/)
+
 
 ## Algorithmic decision making
 
 * [Review into bias in algorithmic decision making](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/939109/CDEI_review_into_bias_in_algorithmic_decision-making.pdf)<sup>1</sup> - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
-  * Suggested excerpt: [executive summary](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/jan/20-01-20_cdei_algorithmic_bias_summary.pdf) - [ ✅ 20th January 2021](meetings/2021/01-jan/20-01-21_meeting.md)
+  * Suggested excerpt: [executive summary](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/jan/20-01-20_cdei_algorithmic_bias_summary.pdf) - [ ✅ 20th January 2021](join_in/meetings/2021/01-jan/20-01-21_meeting.md)
   * Related: [Accountability for algorithms: a response to the CDEI review into bias in algorithmic decision-making](https://www.adalovelaceinstitute.org/blog/response-to-cdei-review-bias-algorithmic-decision-making/) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
 * [Algorithms Of Oppression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by [@mtwest2718](https://github.com/mtwest2718)
   * Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/) 
@@ -62,10 +65,11 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
 * [Coded Bias film](https://www.codedbias.com/) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) and [Paula Andrea Martinez
 ](https://github.com/orchid00)  ✅
-* [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - [#3](../../issues/3) - suggested by [@ninadicara](https://github.com/ninadicara)
+* [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - suggested by [@ninadicara](https://github.com/ninadicara) [#3](https://github.com/very-good-science/data-ethics-club/issues/3)
+* 🔒 [Nudging Privacy: The Behavioural Economics of Personal Information](https://ieeexplore.ieee.org/abstract/document/5370707) - suggested by [@ninadicara](https://github.com/ninadicara) [#102](https://github.com/very-good-science/data-ethics-club/issues/102)
 
 ## History of data science
-* [Statistics, Eugenics and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) by Raphael Sonabend - suggested by [@ninadicara](https://github.com/ninadicara), see [#70](https://github.com/very-good-science/data-ethics-club/issues/70)
+* [Statistics, Eugenics and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) by Raphael Sonabend - suggested by [@ninadicara](https://github.com/ninadicara) [#70](https://github.com/very-good-science/data-ethics-club/issues/70)
 
 ## Environmental costs and considerations
 
@@ -78,9 +82,10 @@ Note: reading materials appear once in the category we felt they fit best.
 
 ## Privacy and surveillance
 
+* [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) - ✅[25th Aug 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/25-08-21_writeup.html)
 * [Privacy is power](https://www.politico.eu/article/privacy-is-power-opinion-data-gdpr/)
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
-* [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) - suggested by [@HDiscoDay](github.com/hdiscoday) - ✅[28th July 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/28-07-21_writeup.html)
+* [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) - suggested by [@HDiscoDay](https://github.com/hdiscoday) - ✅[28th July 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/28-07-21_writeup.html)
 * 📺 [A Question of Trust - Reith Lectures - Onora O'Neill](https://www.bbc.co.uk/programmes/p00ghvd8)
   * [Transparency is Surveillance](https://philarchive.org/archive/NGUTISv2)<sup>1</sup> - suggested by [Charles Radclyffe](https://www.ethicsgrade.io/)
 
@@ -89,19 +94,20 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Algorithmic Accountability for the Public Sector](https://www.opengovpartnership.org/wp-content/uploads/2021/08/algorithmic-accountability-public-sector.pdf)<sup>1</sup> - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
   - Suggested excerpt: [Executive Summary](https://www.opengovpartnership.org/wp-content/uploads/2021/08/executive-summary-algorithmic-accountability.pdf)  
 * [Google's AI principles](https://blog.google/technology/ai/ai-principles/) - suggested by [@milliams](http://milliams.com)
-* [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](../../issues/2) - suggested by [@ninadicara](https://github.com/ninadicara)
+* [The Financial Modelers Manifesto](https://www.uio.no/studier/emner/sv/oekonomi/ECON4135/h09/undervisningsmateriale/FinancialModelersManifesto.pdf) - [#2](https://github.com/very-good-science/data-ethics-club/issues/2) - suggested by [@ninadicara](https://github.com/ninadicara)
   * Related: [A hippocratic oath for data science](https://virginia-eubanks.com/2018/02/21/a-hippocratic-oath-for-data-science/) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [Artificial intelligence and transparency in the public sector](https://blog.burges-salmon.com/post/102gnvk/artificial-intelligence-and-transparency-in-the-public-sector) - suggested by [Tom Whittaker](https://blog.burges-salmon.com/u/102g2vz/tom-whittaker)
 * [Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics](https://muse.jhu.edu/article/732185) 
 * [GCHQ - Pioneering a New National Security: The Ethics of Artificial Intelligence](https://www.gchq.gov.uk/files/GCHQAIPaper.pdf) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
 * 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday) -  ✅  [14th July 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/14-07-21_writeup.html)
+* [UK AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) - suggested by [Paul Lee](https://senseoffairness.blog/)
 
 ## Data science and research culture
-* [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) - suggested by [@nataliethurlby](github.com/NatalieThurlby) - ✅  8th September 2021
+
 * [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * 📺[Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9) suggested by [@ninadicara](https://github.com/ninadicara)
-* [#bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) -  ✅  [17th March 2021](./meetings/2021/03-mar/17-03-21_meeting.md)
+* [#bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) -  ✅  [17th March 2021](./join_in/meetings/2021/03-march/17-03-21_meeting)
 * [Collectors, Allies, and Nightlights, Oh My](https://www.wpcjournal.com/article/view/20275) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)
@@ -112,8 +118,9 @@ Note: reading materials appear once in the category we felt they fit best.
 
 ## Ethics in action (the good and the not so good)
 
+* [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) - ✅  [8th Sept 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/08-09-21_writeup.html)
 * [A toolkit for centering racial equity throughout data integration](https://www.aecf.org/resources/a-toolkit-for-centering-racial-equity-within-data-integration/)<sup>1</sup>
-* [Structural injustice and individual responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) 🎤 - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/)
+* [Structural injustice and individual responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) 🎤 - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/) -  ✅  [6th Oct 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/06-10-21_writeup.html)
 * [Design Justice: Towards an Intersectional Feminist Framework for Design Theory and Practice](https://designjustice.org/s/SSRN-id3189696.pdf)
 * [Data Feminism Book Club](https://datafeminism.io/blog/book/data-feminism-reading-group/)<sup>1</sup>
   * Chapter 7: "Show your work"
@@ -126,7 +133,7 @@ Note: reading materials appear once in the category we felt they fit best.
 
 ### Natural Language Processing (NLP)
 
-* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) - suggested by [@ninadicara](https://github.com/ninadicara) -  ✅[17th February 2021](./meetings/2021/02-feb/17-02-21_meeting.md)
+* [On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?](http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf) - suggested by [@ninadicara](https://github.com/ninadicara) -  ✅[17th February 2021](join_in/meetings/2021/02-feb/17-02-21_meeting.md)
 * [Mitigating Gender Bias in Natural Language Processing: Literature Review](https://arxiv.org/abs/1906.08976) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf)
 * [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/pdf/1607.06520.pdf) - suggested by [@leriomaggio](https://github.com/leriomaggio)
@@ -138,7 +145,7 @@ Note: reading materials appear once in the category we felt they fit best.
 ### Computer vision
 
 * 📺 [How normal am I?](https://www.hownormalami.eu/) - interactive - suggested by Valentina Ragni
-* 📺 [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) ✅
+* 📺 [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) ✅  
 
 ### Explainable AI/ML
 
