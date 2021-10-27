@@ -4,7 +4,7 @@ Everyone is welcome to get involved in Data Ethics Club, as much or as little as
 
 You don't need to be a data ethicist (we're not!), or a data scientist - having a variety of different people is how we learn from each other. It's a friendly and welcoming group and we often have new people drop by, so why not try it?  
 
-If you're looking for information on how to set up your own Data Ethics Club then you should head to [our section about re-using our materials](). 
+If you're looking for information on how to set up your own Data Ethics Club then you should head to [our section about re-using our materials](../how_to/reuse_dec). 
 
 ```{admonition} Stay up to date
 :class: tip
