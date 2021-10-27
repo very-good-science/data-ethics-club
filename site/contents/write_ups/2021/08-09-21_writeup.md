@@ -1,4 +1,4 @@
-# Data Ethics Club: [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521)
+# Data Ethics Club: [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) (8th Sept 21)
 
 ```{admonition} What's this? 
 This is summary of Wednesday 8th September's Data Ethics Club discussion, where we spoke and wrote about the article [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521), written by Michael S. Bernstein, Margaret Levi, David Magnus, Betsy Rajala, Debra Satz and Charla Waeiss.

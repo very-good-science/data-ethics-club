@@ -1,4 +1,4 @@
-# Data Ethics Club discusses ['Living in the Hidden Realms of AI: The Workers Perspective'](https://news.techworkerscoalition.org/2021/03/09/issue-5/)
+# Data Ethics Club discusses ['Living in the Hidden Realms of AI: The Workers Perspective'](https://news.techworkerscoalition.org/2021/03/09/issue-5/) (26th May 21)
 
 ```{admonition} What's this? 
 This is summary of Wednesday 26th May's Data Ethics Club discussion, where we spoke and wrote about the article ['Living in the Hidden Realms of AI: The Workers Perspective'](https://news.techworkerscoalition.org/2021/03/09/issue-5/) by Sherry Stanley.

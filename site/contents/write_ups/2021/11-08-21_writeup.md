@@ -1,4 +1,4 @@
-# Data Ethics Club: [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech)
+# Data Ethics Club: [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech) (11th Aug 21)
 
 ```{admonition} What's this? 
 This is summary of Wednesday 11th August's Data Ethics Club discussion, where we spoke and wrote about the Fast Company article [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech) by Kate Crawford.

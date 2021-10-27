@@ -1,4 +1,4 @@
-# Data Ethics Club discusses: [UK Statistics Authority: Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/#initial-recommendations)
+# Data Ethics Club discusses: [UK Statistics Authority: Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/#initial-recommendations) (14th Apr 21)
 
 ```{admonition} What's this? 
 This is a summary of Wednesday 31st March's Data Ethics Club discussion, where we spoke and wrote about the piece [UK Statistics Authority's white paper: Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/#initial-recommendations).
