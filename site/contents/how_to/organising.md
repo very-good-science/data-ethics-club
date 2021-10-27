@@ -2,7 +2,7 @@
 # How we organise Data Ethics Club
 
 ## Deciding on material to read
-The [reading list](../reading-list.md) is organised into lots of different sections - some are philosophical, some are technical. Our [previously discussed pieces are available in our Previous Meetings overview](../join-in/join-in). We like to check off things we have discussed [in the reading list](../reading-list.md), and include a link to the meeting info page which summarises the content.  
+The [reading list](../reading-list) is organised into lots of different sections - some are philosophical, some are technical. Our [previously discussed pieces are available in our Previous Meetings overview](../join_in/join_in). We like to check off things we have discussed [in the reading list](../reading-list.md), and include a link to the meeting info page which summarises the content.  
 
 To decide on material to read the organisers pick three pieces from the list based on recent suggestions, and then the whole group votes on these for the following meeting. 
 

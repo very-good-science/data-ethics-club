@@ -6,7 +6,7 @@ We try to do all our organising and administration out in the open, so that:
 1. We're forced to be organised, which means everything is easy for us to find, and it's easy to show people our plans.
 2. Anyone with an interest can understand how we make decisions, so that people can feedback on our processes to help us improve and refine them.
 3. If anyone wants to [get involved with organising](#get-involved), they can more easily.
-4. If anyone else finds these materials useful, they can use them. If you're thinking of setting up a discussion group, we have a [How-To Guide](https://github.com/very-good-science/data-ethics-club/tree/main/how-to-guide#how-to-reuse-the-data-ethics-club-repository) on GitHub to help you make use of everything in the GitHub repository.
+4. If anyone else finds these materials useful, they can use them. If you're thinking of setting up a discussion group, we have a [How-To Guide](../how_to/reuse_dec) to help you make use of everything in the GitHub repository.
 
 You can see what we're up to by looking at the [Issues](https://github.com/very-good-science/data-ethics-club/issues) (which functions as a to-do list) and our [organiser's meetings agendas](https://github.com/very-good-science/data-ethics-club/tree/main/agendas) on our GitHub repository.
  

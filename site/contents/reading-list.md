@@ -107,7 +107,7 @@ Note: reading materials appear once in the category we felt they fit best.
 
 * [Towards Decolonising Computional Science](https://arxiv.org/abs/2009.14258) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * 📺[Algorithmic Colonialisation](https://ethics.fast.ai/videos/?lesson=9) suggested by [@ninadicara](https://github.com/ninadicara)
-* [#bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) -  ✅  [17th March 2021](join_in/meetings/2021/03-mar/17-03-21_meeting.md)
+* [#bropenscience is Broken Science](https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) -  ✅  [17th March 2021](./join_in/meetings/2021/03-march/17-03-21_meeting)
 * [Collectors, Allies, and Nightlights, Oh My](https://www.wpcjournal.com/article/view/20275) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
 * [A feature not a bug](http://www.technologystories.org/a-feature-not-a-bug/)

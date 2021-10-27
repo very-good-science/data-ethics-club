@@ -16,11 +16,11 @@ Repeat meeting link is currently: https://bristol-ac-uk.zoom.us/j/99654848727?pw
 **Zoom link:** https://bristol-ac-uk.zoom.us/j/99654848727?pwd=dzUvQUErTGREYUNzb3ExMnJON3pDUT09
 
 **Links to content:**
-- The executive summary (that we're reading): [UoB Sharepoint link](https://uob.sharepoint.com/:b:/t/grp-ethicaldatascience/EagL2FPRAatGu7gwbkgJE3gBFbhNsH5uaSeNM0_xqG4Bmw?e=8oftZD), [GitHub link](20-01-20_cdei_algorithmic_bias_summary.pdf)
+- [The executive summary (that we're reading)](https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making/main-report-cdei-review-into-bias-in-algorithmic-decision-making)
 - And (for the brave) [the full (very long!) report](https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/939109/CDEI_review_into_bias_in_algorithmic_decision-making.pdf)
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 20th January at [13:00-14:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20210120T13&p1=%3A&ah=1). You don't need to register, just drop in. This time we're going to watch/read the [Executive Summary of the Review into bias in algorithmic decision making](20-01-20_cdei_algorithmic_bias_summary.pdf) by the Centre for Data Ethics and Innovation (CDEI), which is a recently published (end of November 2020) government report. 
+You're welcome to join us for our next Data Ethics Club meeting on Wednesday the 20th January at [13:00-14:00 GMT](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20210120T13&p1=%3A&ah=1). You don't need to register, just drop in. This time we're going to watch/read the [Executive Summary of the Review into bias in algorithmic decision making](https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making/main-report-cdei-review-into-bias-in-algorithmic-decision-making#executive-summary) by the Centre for Data Ethics and Innovation (CDEI), which is a recently published (end of November 2020) government report. 
 
 Natalie suggested this week's content, and will be leading this week's meeting.
 
