@@ -31,7 +31,6 @@ Please read it before attending.
 
 | Date                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-
 | [17.11.2021, 1pm](meetings/2021/11-november/17-11-21_meeting) | [Statistics, Eugenics, and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) |
 | 01.12.2021, 1pm | TBC - we'll vote on it in the meeting before |
 | 15.12.2021, 1pm | TBC - we'll vote on it in the meeting before |
