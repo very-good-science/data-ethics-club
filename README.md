@@ -9,19 +9,20 @@
 Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. 
 The organisers are based in Bristol, but the club is open to all. 
 
+
 You can find all the information about Data Ethics Club on [our website](https://very-good-science.github.io/data-ethics-club/index.html), but here are some quick links to get you started:  
 * [Check out our reading list of data ethics materials](https://very-good-science.github.io/data-ethics-club/contents/reading-list.html)
-* [Find out about our next meeting](https://very-good-science.github.io/data-ethics-club/contents/meetings/next-meeting.html)
-* [Contact the organisers](https://very-good-science.github.io/data-ethics-club/contents/administration.html)
+* [Find out about our next meeting](https://very-good-science.github.io/data-ethics-club/contents/join_in/meetings/next-meeting.html)
+* [Contact the organisers](https://very-good-science.github.io/data-ethics-club/contents/contact.html)
 * [Read our write ups of previous meetings](https://very-good-science.github.io/data-ethics-club/contents/write_ups/write-ups.html)
-* [See our Code of Conduct](https://very-good-science.github.io/data-ethics-club/contents/code-of-conduct.html)
+* [See our Code of Conduct](https://very-good-science.github.io/data-ethics-club/contents/join_in/code-of-conduct.html)
 
-Please join our [mailing list](http://eepurl.com/hjkmnX) if you'd like to be emailed about future meetings. You can see the dates of our upcoming meetings [here](https://very-good-science.github.io/data-ethics-club/contents/meetings/meetings.html).
+Please join our [mailing list](http://eepurl.com/hjkmnX) if you'd like to be emailed about future meetings. You can see the dates of our upcoming meetings [here](https://very-good-science.github.io/data-ethics-club/contents/join_in/join_in.html#upcoming-meetings).
 
 ## Re-using our materials
 We really welcome people re-using the materials we have made. This repository is [licensed](LICENSE.md) under a CC-BY 3.0 license. This means, yes, please **do** use, remix, and share anything you find in this repo, but you must credit us with attribution (a link to this repo is okay!).  
 
-To make it easier to re-use what you find here we have a made a [How To Guide](./how-to-guide/) which includes an explanation of what is here and also blank templates for all the things we use reguarly. This includes our Code of Conduct, Meeting agendas and issue templates. 
+To make it easier to re-use what you find here we have a made a [How To Guide](https://very-good-science.github.io/data-ethics-club/contents/how_to/reuse_dec.html) which includes an explanation of what is here and also blank templates for all the things we use reguarly. This includes our Code of Conduct, Meeting agendas and issue templates. 
 
 
 ## Contributors ✨
