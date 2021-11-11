@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-30-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="site/images/logo.png">
@@ -63,7 +63,7 @@ Thanks goes to these wonderful people in developing this repository, joining Dat
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/eanes-pereira-987580111/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Eanes T. Pereira</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/iamleeg"><img src="https://avatars.githubusercontent.com/u/237254?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Graham Lee</b></sub></a><br /><a href="#blog-iamleeg" title="Blogposts">📝</a></td>
-    <td align="center"><a href="https://www.linkedin.com/in/kamilla-wells/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Kamilla Wells</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/kamilla-wells/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Kamilla Wells</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a> <a href="#content" title="Content">🖋</a></td>
     <td align="center"><a href="https://jcussens.github.io/"><img src="https://avatars.githubusercontent.com/u/72010003?v=4?s=100" width="100px;" alt=""/><br /><sub><b>James Cussens</b></sub></a><br /><a href="#blog-jcussens" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://twitter.com/Ola_Michalec"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Ola Michalec</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://research-information.bris.ac.uk/en/persons/sergio-araujo-estrada"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Sergio A. Araujo-Estrada</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
@@ -72,6 +72,7 @@ Thanks goes to these wonderful people in developing this repository, joining Dat
   <tr>
     <td align="center"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Roman Shkunov</b></sub><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#eventOrganizing-hdiscoday" title="Event Organizing">📋</a> <a href="#blog-hdiscoday" title="Blogposts">📝</a> <a href="#ideas-hdiscoday" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/annaledwoch"><img src="https://avatars.githubusercontent.com/u/33446801?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anna Ledwoch</b></sub></a><br /><a href="#maintenance-annaledwoch" title="Maintenance">🚧</a> <a href="#blog-annaledwoch" title="Blogposts">📝</a></td>
   </tr>
 </table>
 

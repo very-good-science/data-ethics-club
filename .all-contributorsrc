@@ -300,6 +300,16 @@
         "blog",
         "ideas"
       ]
+    },
+    {
+      "login": "annaledwoch",
+      "name": "Anna Ledwoch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/33446801?v=4",
+      "profile": "https://github.com/annaledwoch",
+      "contributions": [
+        "maintenance",
+        "blog"
+      ]
     }
   ],
   "contributorsPerLine": 7,
