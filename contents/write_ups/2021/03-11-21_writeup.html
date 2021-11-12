@@ -1,0 +1,427 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Data Ethics Club: UK National AI Strategy: Pillar 3 - Governing AI Effectively &#8212; Data Ethics Club v0.1.0 documentation</title>
+    
+  <link href="../../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Data Ethics Club: Towards decolonising computational sciences (20th Oct 2021)" href="20-10-21_writeup.html" />
+    <link rel="prev" title="Write-ups" href="../write-ups.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../../../index.html">
+<p class="title">Data Ethics Club</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../join_in/join_in.html">
+  Join in
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../reading-list.html">
+  Reading list
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../write-ups.html">
+  Write-ups
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../how_to/reuse_dec.html">
+  Reuse our materials
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../contact.html">
+  Contact us
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/very-good-science/data-ethics-club" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/hashtag/DataEthicsClub" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Data Ethics Club: UK National AI Strategy: Pillar 3 - Governing AI Effectively
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="20-10-21_writeup.html">
+   Data Ethics Club: Towards decolonising computational sciences (20th Oct 2021)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-10-21_writeup.html">
+   Data Ethics Club: Structural Injustice and Individual Responsibility (6th Oct 2021)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="08-09-21_writeup.html">
+   Data Ethics Club: ESR: Ethics and Society Review of Artificial Intelligence Research (8th Sept 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="25-08-21_writeup.html">
+   Data Ethics Club: “Participant” Perceptions of Twitter Research Ethics (25th Aug 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="11-08-21_writeup.html">
+   Data Ethics Club: What an ancient lake in Nevada reveals about the future of tech (11th Aug 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="28-07-21_writeup.html">
+   Data Ethics Club: The Rise of Private Spies (28th July 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="14-07-21_writeup.html">
+   Data Ethics Club discusses The mathematics of crime and terrorism (14th July 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="26-05-21_writeup.html">
+   Data Ethics Club discusses ‘Living in the Hidden Realms of AI: The Workers Perspective’ (26th May 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-05-21_writeup.html">
+   Data Ethics Club discusses Critical perspectives on Computer Vision (12th May 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="28-04-21_writeup.html">
+   Data Ethics Club discusses We created poverty. Algorithms won’t make that go away (28th Apr 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="14-04-21_writeup.html">
+   Data Ethics Club discusses: UK Statistics Authority: Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape (14th Apr 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="31-03-21_writeup.html">
+   Data Ethics Club discusses Dataism Is Our New God (31st March 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="17-03-21_writeup.html">
+   Data Ethics Club discusses “#bropenscience is broken science” (17th March 21)
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#which-proposals-were-you-most-pleased-to-see-from-the-report-are-there-any-that-you-do-not-think-will-be-welcomed">
+   Which proposals were you most pleased to see from the report? Are there any that you do not think will be welcomed?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#how-do-you-see-regulation-as-potentially-impacting-your-work-if-you-are-not-uk-based-are-there-similarities-differences-with-any-of-your-national-regulations">
+   How do you see regulation as potentially impacting your work? If you are not UK based, are there similarities/differences with any of your national regulations?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-report-states-that-they-want-to-build-the-most-trusted-and-pro-innovation-system-for-ai-governance-in-the-world-can-both-these-things-be-true">
+   The report states that they want to build the “most trusted and pro-innovation system for AI governance in the world” - can both these things be true?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#attendees">
+   Attendees
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="data-ethics-club-uk-national-ai-strategy-pillar-3-governing-ai-effectively">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version#pillar-3-governing-ai-effectively">UK National AI Strategy: Pillar 3 - Governing AI Effectively</a><a class="headerlink" href="#data-ethics-club-uk-national-ai-strategy-pillar-3-governing-ai-effectively" title="Permalink to this headline">¶</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this? </p>
+<p>This is summary of Wednesday 3rd November’s Data Ethics Club discussion, where we spoke about the document <a class="reference external" href="https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version#pillar-3-governing-ai-effectively">UK National AI Strategy: Pillar 3 - Governing AI Effectively</a>.</p>
+<p>The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara and Natalie Thurlby helped with a final edit.</p>
+</div>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>This discussion centred around the <a class="reference external" href="https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version#pillar-3-governing-ai-effectively">UK National AI Strategy: Pillar 3 - Governing AI Effectively</a>. As the piece notes, the main goals outlined in this pillar are:</p>
+<p>“Ensuring that national governance of AI technologies encourages innovation, investment, protects the public and safeguards our fundamental values, while working with global partners to promote the responsible development of AI internationally.”</p>
+<p>We discussed the merits and shortfalls of the various goals as well as the potential conflicts between them, in particular considering how to balance encouraging innovation whilst maintaining a strong ethical framework (which some would argue, we currently do not have in the AI sector).</p>
+</section>
+<section id="which-proposals-were-you-most-pleased-to-see-from-the-report-are-there-any-that-you-do-not-think-will-be-welcomed">
+<h2>Which proposals were you most pleased to see from the report? Are there any that you do not think will be welcomed?<a class="headerlink" href="#which-proposals-were-you-most-pleased-to-see-from-the-report-are-there-any-that-you-do-not-think-will-be-welcomed" title="Permalink to this headline">¶</a></h2>
+<p>Our discussion bought us to current ethical standards for AI and how they might have to change. They may no longer be valid. A lot of effort needs to be put into innovating our ethics, as we innovate our technology. Perhaps the biggest issue of ethics in science today is that the scientific innovation is innevitably done before the ethical guidelines are introduced (and often before those guidelines are even considered). We have to constantly innovate and question our ethical frameworks to ensure we have best practices which adhere to our values. That said, we thought the report did a good job of raising issues of fairness, accountability, and bias in AI systems.</p>
+<p>We thought it was good that the authors acknowledged that they cannot regulate AI in the same way as past regulatory frameworks. It is not viable to just put blanket legislation in the same way. We face a nuanced problem which requires nuanced solutions. A sector-specific approach seems very reasonable.</p>
+<p>Discussing what a suitable regulatory body would look like led to us considering the dichotomy between accountability and efficiency. In terms of ethics, it would be ideal to have committees with a wide variety of viewpoints; although we discussed how having too many viewpoints can sometimes lead to stalemate situations and so may impede efficiency. There is also the issue that too much bureaucracy inevitably slows down the government massively and this can get in the way of innovation.</p>
+<p>Perhaps a workaround is open source committees managed by trusted communities who can respond faster, but the UK government (and indeed, most governments) would likely be reluctant to give up their governing responsibilities to such an extent.</p>
+<p>Another solution we discussed was the ombudsman approach to regulation - a figure is given wide authority in regulatory decision-making, essentially asked to exercise judgement within a broad set of parameters. Typically they are drawn from industry, or at least have some deep understanding of the industry, so that their judgements can be well-founded. The concept originated in Sweden in 1809, with ombudsman coming from the Swedish for “legal representative”.</p>
+<p>It has been adopted it in some UK markets (“ombudsman” often used synonymously with “Parliamentary Commissioner for Administration”) but not always successfully. When you have an industry that is moving so quickly it is difficult (if not impossible) to have a regulatory system that can cope if you try to write down lots of rules. An ombudsman approach allows for greater speed of reaction and flexibility.</p>
+<p>(As a quick note, ombudsman is used as a gender neutral term, as the suffix “-man” is a gender neutral suffix in the Swedish language. Regardless, the term has fallen out of usage in recent years.)</p>
+<p>How will the UK approach this problem across different sectors? Would there be a national/ethical committee for every industry? It sounds to us like a lot of hoops to jump through before we reach a solution.</p>
+<p>We saw issue with a seeming dispraity between public and private sector regulation. Whilst the report outlined the public sector restrictions, it didn’t seem like there would be any regulations in the private sector which is troubling but frankly not surprising.</p>
+<p>Lastly, we wondered what the authors meant by <em>innovation</em>? Some of us feared a barrage of “new technologies” which will simply be a collection of linear regression soups garnished with a few “for” and “if” loops. This feeds into an overall question of how we might distinguish between regulation of statistics and regulation of AI, when often the line between the two feels fairly meaningless.</p>
+</section>
+<section id="how-do-you-see-regulation-as-potentially-impacting-your-work-if-you-are-not-uk-based-are-there-similarities-differences-with-any-of-your-national-regulations">
+<h2>How do you see regulation as potentially impacting your work? If you are not UK based, are there similarities/differences with any of your national regulations?<a class="headerlink" href="#how-do-you-see-regulation-as-potentially-impacting-your-work-if-you-are-not-uk-based-are-there-similarities-differences-with-any-of-your-national-regulations" title="Permalink to this headline">¶</a></h2>
+<p>As we mentioned before with bureaucracy, the ethical processes can be really messy when lots of people get involved. What makes things trustworthy to who? Who should be involved as decision makers? Is it better that the public are more soothed by the decision (populist, religious figures for example) or if there is a stronger technical and ethical base for the decision making? How do we decide what makes a strong “ethical base”?</p>
+<p>One of our groups had a lively conversation around an anecdote of the inclusion of a priest in an ethical decision making board. We felt it was a brilliant example of how cultural norms and understandings of right and wrong get assimilated into our decision making processes for new technologies.  Perhaps it would reassure a lot of people to know that a priest had signed off on a new technology, but do they have the expertise to do that? Of course, this is unlikely to be a realistic example, but it was an interesting thought experiment about the importance of who is seen to be making decisions.</p>
+<p>So, should we seek to reassure the public with the decision making? We discussed the importance of diversity in decision making; different research backgrounds, different races, genders, sexuality etc. The more different experiences people have, the more likely we are to find an issue. We decided that being more likely to find ethical issues is a good thing, at the very least for ethical guidelines, if not necersarily for innovation. Of course if we wanted everyone to be happy we would get never get anything done (as noted last time in our discussion on Decolonising Academia). Even the best decision makers might not be trusted by the public. But are the general public the best people to decide what being trustworthy means? We learned first-hand during the COVID-19 pandemic that public trust in decision makers almost appeared more crucial than the quality of the decisions themselves.</p>
+<p>Having different use-cases for different sectors allows flexibility in decision making. Rigidity in guidelines is important for drawing lines we should refuse to cross but needs to be adaptive as our technological capabilities and societal standards shift.</p>
+<p>It was good that this report acknowledged fairness, bias, accountability and the commission on race and ethnic disparity. However, it wasn’t clear the report was sure on the practicalities of what they wanted and there was some frustration amongst us that often all reports call for is more reports, rather than making solid recommendations. That said, it is also important to be sure that every issue is being give the time and space it needs to be considered fully.</p>
+<p>We discussed some concerns that we had about the proposal to remove the need for government departments to tell people how algorithms make decisions about them, in the name of making innovation easier. For example, if access to universal credit was decided by an algorithm then there would be deep concerns about not having the right to know why you do/do not get that access. If you cannot understand how something works, you cannot question it effectively. This is a common theme explored in data ethics books such as <a class="reference external" href="https://en.wikipedia.org/wiki/Weapons_of_Math_Destruction">Weapons of Math Destruction by Cathy O’Neil</a> and <a class="reference external" href="https://blogs.lse.ac.uk/lsereviewofbooks/2018/07/02/book-review-automating-inequality-how-high-tech-tools-profile-police-and-punish-the-poor-by-virginia-eubanks/">Automating Inequality by Virginia Eubanks</a>.</p>
+<p>The next steps the report outlines seem somewhat vague; write more reports, remove, change and add some things but without clear direction etc. Perhaps in a rapidly developing field, it would feel premature to outline in detail things that are likely to change, but perhaps this vagueness should be accompanied with an admission of uncertainty. Nobody knows what the future of AI will look like so any legislation looking to direct it will necessarily need to be adaptive.</p>
+<p>Whilst it was good that the strategy involved upskilling people, there was a clear emphasis of getting rid of all the EU Laws we had been following and reforming the <a class="reference external" href="https://gdpr-info.eu/">GDPR</a>.</p>
+<p>Below are some interesting links for the European Union guidelines for AI and some specific information about Italian AI Strategy:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai">Ethics guidelines for trustworthy AI</a> {revised 2021}.</p></li>
+<li><p><a class="reference external" href="https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1623335154975&amp;uri=CELEX%3A52021PC0206">Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL LAYING DOWN HARMONISED RULES ON ARTIFICIAL INTELLIGENCE (ARTIFICIAL INTELLIGENCE ACT) AND AMENDING CERTAIN UNION LEGISLATIVE ACTS</a>.</p></li>
+</ul>
+<p>The first document tries to explain AI and current state-of-the-art AI systems. The EU proposals document defines a set of rules to regulate AI systems and their possible misuses:
+“Title  II  establishes  a  list  of  prohibited  AI” “Title III contains specific rules for AI systems that create a high risk to the health and safety or  fundamental  rights  of  natural  persons.” “Title IV concerns certain AI systems to take account of the specific risks of manipulation they pose.”</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://knowledge4policy.ec.europa.eu/ai-watch/italy-ai-strategy-report_en">Italy AI Strategy Report</a> (2021).</p></li>
+<li><p><a class="reference external" href="https://oecd.ai/en/dashboards/policy-initiatives?conceptUris=http:%2F%2Fkim.oecd.org%2FTaxonomy%2FGeographicalAreas%23Italy">Policy initiatives for Italy</a>.</p></li>
+<li><p><a class="reference external" href="https://ia.italia.it/assets/whitepaper.pdf">Italian AI white paper 2018</a>.</p></li>
+</ul>
+<p>In 2018 Italy adopted a national strategy on AI, following EU guidelines and the example of other European countries. The Italian government will release a new plan in 2022.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.mise.gov.it/index.php/it/strategia-intelligenza-artificiale/contesto">Strategia nazionale per l’intelligenza artificiale - Contesto</a> (in Italian).</p></li>
+<li><p><a class="reference external" href="https://decode39.com/2162/italy-ai-strategy-draghi/">Draghi’s strategy for Italy’s AI - decode39</a>.</p></li>
+</ul>
+<p>“Operating within the framework of the coordinated plan on European AI published in December 2018, Mr Draghi’s government strategy aims to increase public funds for AI research”.</p>
+</section>
+<section id="the-report-states-that-they-want-to-build-the-most-trusted-and-pro-innovation-system-for-ai-governance-in-the-world-can-both-these-things-be-true">
+<h2>The report states that they want to build the “most trusted and pro-innovation system for AI governance in the world” - can both these things be true?<a class="headerlink" href="#the-report-states-that-they-want-to-build-the-most-trusted-and-pro-innovation-system-for-ai-governance-in-the-world-can-both-these-things-be-true" title="Permalink to this headline">¶</a></h2>
+<p>Ideally you want to find as many bugs as you can. You cannot find all of them, as you have limited time. So at what point do you start just calling them features - that is to say, how sure in something do we need to be before we can say that we trust it? What sort of precedent do these decisions set? Could you balance reducing the bureaucracy and innovative drive? Probably not consistently. But if you consider the pharmaceutical industry’s approach to developing various COVID-19 vaccines, private companies were able to maintain the strict standards of their respective ethical bodies but with a streamlined process (in their case, producing batches for the next stage of the trial before they had moved along to that trial, risking wasting that entire batch should it fail the stage of the trial).</p>
+<p>We recalled studies where different people were given a software task. They found that diverse teams reduce errors because people with different backgrounds made different errors. (<a class="reference external" href="https://arxiv.org/pdf/2012.02394.pdf">Biased Programs? Or Biased Data? A Field Experiment In Operationalizing AI Ethics</a> by Cowgill et al. 2020)</p>
+<p>Whilst we tend to be fairly cynical about the benefits of capitalism, the free market does meant that the public can essentially ‘vote with their feet’ (or money) if they decide they no longer trust what is being done with their data. A company will not be able to innovate in the long term if people do not trust their product - they will just pull the plug. A lot of AI being commercial ties into what public thinks about it. If people don’t like a product, they won’t use it. Public opinion almost forms an accidental ethics board in a more consumerist, capitalist society.</p>
+<p>That being said, consumerism should not be the only line of defense to unethical practice, especially sicne the public can only react to what they have been informed about. Undoubtedly much of our data is used in ways we do not understand, and therefore cannot protest against. Because of that, we all felt that we needed formal ethical boards to block unethical developments as well as to guide innovators. Someone suggested this as the idea that scientists should innovate in tramlines rather than in an open space.</p>
+<p>A recent example is Facebook/Meta. Facebook appear to have reached a point of innovating too hard and not building in enough data protections, which has led to a loss of public trust. However, many of these revelations have only become public knowledge because of whistleblowers. We reflected that in order for people to trust that you can innovate responsibly, you need to show you’re going to say no to new innovations sometimes and that there is a line in the sand. Similarly, Google has also lost public trust after <a class="reference external" href="https://www.bbc.co.uk/news/technology-56135817">they fired key management figures in their Ethical AI team</a> who were trying to share research about the downsides of AI innovation. Journals are another area that seem to not have as many moral standards as we would hope and are more focussed on “quality” of science and innovation. They also need to do better at turning down papers in ML and AI without adequate ethical oversight.</p>
+<p>There aren’t typically headlines about ethics reviews being rejected. Often there aren’t reviews to pass through, but we’re not saying a journal should tweet every time they reject a paper. Perhaps highlighting “hey this kind of paper is not entirely ethical” would be worthwhile. These usually take the form of twitter feeds expressing outrage at certain developments, but not formal objections. That said, conversations around publishing and responsibility for poor ethics can be challenging, especially when the people most hurt by these ‘call outs’ tend to be the first authors who are often Early Career scientists under the supervision of more senior academics.</p>
+<p>There is an interesting analogy with pharmaceuticals and drug testing. There are stringent requirements in the pharmaceutical industries enforced by government agencies such as the <a class="reference external" href="https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency">MHRA</a> in the UK and the <a class="reference external" href="https://www.fda.gov/">FDA</a> in the US. Can we get something like this for AI?</p>
+<p>What would the phases of AI trials look like? It would probably depend on what sort of system you were testing, just as there are different <a class="reference external" href="https://en.wikipedia.org/wiki/Clinical_trial#Trials_of_drugs">clinical trials</a> for drugs, procedures and devices. the system (unlike drugs) throughout that process. Would it involve some sort of <a class="reference external" href="https://en.wikipedia.org/wiki/Randomized_controlled_trial">Randomised Controlled Trial</a>?</p>
+<p>Whilst this is a nice idea in theory, private companies run the game with AI and it’s unlikely a government institution will be able to dislodge half of Apple or Google, especially against the uphill battle of lobbying. This is the tradeoff of the consumerism focus of society. Consumers have a small sway in the directions these companies go by favouring certain products, but the more we support and consume AI developments, the more purview we give these tech giants. We also worried that Big Tech has too much political influence at this stage for any country to be successful in implementing regulations that would severely damage their income; the only way this could really happen would be to go back in time and implement regulations before the concerning AI practices had started to be used by huge companies like Meta and Google! Alas, unlikely.</p>
+</section>
+<hr class="docutils" />
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Permalink to this headline">¶</a></h2>
+<p><strong>Name, Role, Affiliation, Where to find you, Emoji to describe your day</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
+<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
+<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Euan Bennet, Senior Research Associate, University of Bristol, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
+<li><p>Angelo Varlotta, <span class="xref myst">&#64;varl42</span></p></li>
+<li><p>Laura Sheppard, PhD student, CASA - UCL, <a class="reference external" href="https://twitter.com/laurahsheppard">&#64;laurahsheppard</a></p></li>
+<li><p>Roman Shkunov, maths/CS student, University of Bristol, <a class="reference external" href="https://twitter.com/RShkunov">&#64;RShkunov</a></p></li>
+</ul>
+</section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../write-ups.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Write-ups</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="20-10-21_writeup.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Data Ethics Club: Towards decolonising computational sciences (20th Oct 2021)</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, Natalie Thurlby and Nina Di Cara.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
