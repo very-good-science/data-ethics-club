@@ -39,6 +39,7 @@ Note: reading materials appear once in the category we felt they fit best.
 
 * [Engineers’ Moral Responsibility: A Confucian Perspective](https://link.springer.com/article/10.1007%2Fs11948-019-00093-4)<sup>1</sup>  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) [#101](https://github.com/very-good-science/data-ethics-club/issues/101)
 * [Data Science, Meaning and Diversity](https://towardsdatascience.com/data-science-meaning-and-diversity-bb842602e55d) - suggested (and written!) by [Ismael Kherroubi Garcia](https://ismaelkg.medium.com/)
+* [Forbidding Nasty Knowledge - On the Use of Ill-gotten Information](https://www.jstor.org/stable/24354147) - suggested by Mia Mace
 
 ## The nature of data
 
