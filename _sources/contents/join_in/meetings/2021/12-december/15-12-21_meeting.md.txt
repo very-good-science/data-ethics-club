@@ -23,7 +23,7 @@ Usual time 13:00-14:00
 
 Zoom link: [https://bristol-ac-uk.zoom.us/j/94475153265](https://bristol-ac-uk.zoom.us/j/94475153265)
 
-Link to content: [https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7](https://www.bbc.co.uk/programmes/p00ghvd8)
+Link to content: [Onora O'Neil: A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [Wednesday the 15th December at 1pm UK time](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+A+Question+of+Truth&iso=20211215T13&p1=299&ah=1). 
