@@ -32,7 +32,7 @@ Please read it before attending.
 | Date                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
 | 01.12.2021, 1pm: CANCELLED  [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | NA: CANCELLED [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) |
-| 15.12.2021, 1pm | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)|
+| [15.12.2021, 1pm](meetings/2021/12-december/15-12-21_meeting) | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)|
 
 ## Past Meetings
 
