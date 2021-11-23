@@ -31,15 +31,15 @@ Please read it before attending.
 
 | Date                                      | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [17.11.2021, 1pm](meetings/2021/11-november/17-11-21_meeting) | [Statistics, Eugenics, and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) |
-| 01.12.2021, 1pm | TBC - we'll vote on it in the meeting before |
-| 15.12.2021, 1pm | TBC - we'll vote on it in the meeting before |
+| 01.12.2021, 1pm: CANCELLED  [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | NA: CANCELLED [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) |
+| 15.12.2021, 1pm | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)|
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [17.11.2021, 1pm](meetings/2021/11-november/17-11-21_meeting) | [Statistics, Eugenics, and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) | Coming Soon |
 | [03.11.2021, 1pm](meetings/2021/11-november/03-11-2021_meeting) | [UK's National AI Strategy - Pillar 3: Governing AI Effectively](https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version#pillar-3-governing-ai-effectively) | Coming Soon |
 | [20.10.2021, 1pm](meetings/2021/10-october/20-10-21_meeting) | [Towards decolonising computational sciences](https://arxiv.org/pdf/2009.14258.pdf) | [Read the write up](../write_ups/2021/20-10-21_writeup) |
 | [06.10.2021, 1pm](meetings/2021/10-october/06-10-21_meeting) | [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) | [Read the write up](../write_ups/2021/06-10-21_writeup) |
