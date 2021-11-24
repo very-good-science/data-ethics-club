@@ -37,9 +37,9 @@ If you're looking for further reading on this topic, you might want to look at [
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about:
-- Q1 TBC
-- Q2 TBC
-- Q3 TBC
+- Do you think that the public trust data science as a profession? What makes a data scientist trustworthy?
+- What are your thoughts on the use of statistics in the media, and how this contributes to trust/mistrust in scientific evidence by the public?
+- How can we improve the 'assessability' of data and statistics that are reported in the media?
 
 ---
 
