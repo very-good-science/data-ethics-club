@@ -8,7 +8,7 @@ If you're looking for information on how to set up your own Data Ethics Club the
 
 ```{admonition} Stay up to date
 :class: tip
-✨[Sign up to the mailing list](http://eepurl.com/hjkmnX)✨  
+✨[Sign up to the mailing list](../mailing-list)✨  
 
 If you would like an email before each meeting with the reading material and a link to the Zoom call then join the mailing list.
 Sometimes we also send out information about other data ethics related events being organised by our community. 
