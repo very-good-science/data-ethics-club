@@ -59,6 +59,7 @@ html_theme_options = {
     'twitter_url': 'https://twitter.com/hashtag/DataEthicsClub',
     'search_bar_text': 'Search this site...',
     'show_prev_next': True,
+    'footer_items': ['license-footer', 'sphinx-version'],
 }
 
 html_sidebars = {
