@@ -21,7 +21,7 @@ We meet every other week (Wednesdays, 1pm, UK time) to talk about something from
 Out upcoming meeting dates are available below. They last one hour and are held on Zoom. 
 We usually hear a short summary of the piece, split into breakout rooms to discuss some prompts, and then come back together to share our thoughts as a group. 
 
-If you'd like a flavour of what we usually discuss then go to [our `Write Ups` page](../write_ups/write-ups) and click on any of the summaries from past meetings to read about our discussions.
+If you'd like a flavour of what we usually discuss then go to [our `Write Ups` page](../write_ups/write-ups) and click on any of the summaries from past meetings to read about our discussions (these are also listed below).
 
 We follow a [code of conduct](code-of-conduct) during Data Ethics Group which is designed to make sure everyone feels welcome and confortable sharing their experiences and take on the material. 
 Please read it before attending.
@@ -29,18 +29,30 @@ Please read it before attending.
 
 ## Upcoming meetings
 
-| Date                                      | Discussion Material |
+| Date (dd.mm.yyyy)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| 01.12.2021, 1pm: CANCELLED  [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | NA: CANCELLED [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) |
 | [15.12.2021, 1pm](meetings/2021/12-december/15-12-21_meeting) | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)|
+| [12.01.2021]() | TBC |
+| [26.01.2021]() | TBC |
+| [09.02.2021]() | TBC |
+| [23.02.2021]() | TBC |
+| [09.03.2021]() | TBC |
+| [23.03.2021]() | TBC |
+| [06.04.2021]() | TBC |
+| [05.05.2021]() | TBC |
+| [18.05.2021]() | TBC |
+| [01.06.2021]() | TBC |
+| [15.06.2021]() | TBC |
+
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 01.12.2021, 1pm: CANCELLED  [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | NA: CANCELLED [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | No meeting, but feel free to have a [read about the strikes here](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) |
 | [17.11.2021, 1pm](meetings/2021/11-november/17-11-21_meeting) | [Statistics, Eugenics, and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) | Coming Soon |
-| [03.11.2021, 1pm](meetings/2021/11-november/03-11-2021_meeting) | [UK's National AI Strategy - Pillar 3: Governing AI Effectively](https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version#pillar-3-governing-ai-effectively) | Coming Soon |
+| [03.11.2021, 1pm](meetings/2021/11-november/03-11-2021_meeting) | [UK's National AI Strategy - Pillar 3: Governing AI Effectively](https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version#pillar-3-governing-ai-effectively) | [Read the write up](../write_ups/2021/03-11-21_writeup) |
 | [20.10.2021, 1pm](meetings/2021/10-october/20-10-21_meeting) | [Towards decolonising computational sciences](https://arxiv.org/pdf/2009.14258.pdf) | [Read the write up](../write_ups/2021/20-10-21_writeup) |
 | [06.10.2021, 1pm](meetings/2021/10-october/06-10-21_meeting) | [Structural Injustice and Individual Responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) | [Read the write up](../write_ups/2021/06-10-21_writeup) |
 | NO MEETING 22.08 | NO MEETING 22.08 | N/A |
