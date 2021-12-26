@@ -32,17 +32,17 @@ Please read it before attending.
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
 | [15.12.2021, 1pm](meetings/2021/12-december/15-12-21_meeting) | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)|
-| [12.01.2021, 1pm]() | TBC |
-| [26.01.2021, 1pm]() | TBC |
-| [09.02.2021, 1pm]() | TBC |
-| [23.02.2021, 1pm]() | TBC |
-| [09.03.2021, 1pm]() | TBC |
-| [23.03.2021, 1pm]() | TBC |
-| [06.04.2021, 1pm]() | TBC |
-| [05.05.2021, 1pm]() | TBC |
-| [18.05.2021, 1pm]() | TBC |
-| [01.06.2021, 1pm]() | TBC |
-| [15.06.2021, 1pm]() | TBC |
+| [12.01.2022, 1pm]() | TBC |
+| [26.01.2022, 1pm]() | TBC |
+| [09.02.2022, 1pm]() | TBC |
+| [23.02.2022, 1pm]() | TBC |
+| [09.03.2022, 1pm]() | TBC |
+| [23.03.2022, 1pm]() | TBC |
+| [06.04.2022, 1pm]() | TBC |
+| [05.05.2022, 1pm]() | TBC |
+| [18.05.2022, 1pm]() | TBC |
+| [01.06.2022, 1pm]() | TBC |
+| [15.06.2022, 1pm]() | TBC |
 
 
 ## Past Meetings
