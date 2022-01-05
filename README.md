@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-31-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="site/images/logo.png">
@@ -73,6 +73,7 @@ Thanks goes to these wonderful people in developing this repository, joining Dat
     <td align="center"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Roman Shkunov</b></sub><br /><a href="#blog" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#eventOrganizing-hdiscoday" title="Event Organizing">📋</a> <a href="#blog-hdiscoday" title="Blogposts">📝</a> <a href="#ideas-hdiscoday" title="Ideas, Planning, & Feedback">🤔</a></td>
     <td align="center"><a href="https://github.com/annaledwoch"><img src="https://avatars.githubusercontent.com/u/33446801?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anna Ledwoch</b></sub></a><br /><a href="#maintenance-annaledwoch" title="Maintenance">🚧</a> <a href="#blog-annaledwoch" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://github.com/christopheredsall"><img src="https://avatars.githubusercontent.com/u/1021204?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Edsall</b></sub></a><br /><a href="#maintenance-christopheredsall" title="Maintenance">🚧</a></td>
   </tr>
 </table>
 
