@@ -31,8 +31,7 @@ Please read it before attending.
 
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [15.12.2021, 1pm](meetings/2021/12-december/15-12-21_meeting) | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)|
-| [12.01.2022, 1pm]() | TBC |
+| [12.01.2022, 1pm](meetings/2022/01-jan/12-01-22_meeting) | [Data Ethics Club's New Years Resolutions](meetings/2022/01-jan/12-01-22_meeting) - read the meeting summary for an overview |
 | [26.01.2022, 1pm]() | TBC |
 | [09.02.2022, 1pm]() | TBC |
 | [23.02.2022, 1pm]() | TBC |
@@ -50,6 +49,7 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [15.12.2021, 1pm](meetings/2021/12-december/15-12-21_meeting) | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)| Coming soon |
 | 01.12.2021, 1pm: CANCELLED  [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | NA: CANCELLED [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | No meeting, but feel free to have a [read about the strikes here](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) |
 | [17.11.2021, 1pm](meetings/2021/11-november/17-11-21_meeting) | [Statistics, Eugenics, and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) | Coming Soon |
 | [03.11.2021, 1pm](meetings/2021/11-november/03-11-2021_meeting) | [UK's National AI Strategy - Pillar 3: Governing AI Effectively](https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version#pillar-3-governing-ai-effectively) | [Read the write up](../write_ups/2021/03-11-21_writeup) |
