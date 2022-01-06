@@ -10,17 +10,18 @@ The Data Ethics Club organising team is currently made up of:
 :header-rows: 1
 
 * - __Nina DiCara__
-  - __Natalie Thurlby__
+  - __Natalie Zelenka__<br> (Natalie Thurlby)
   - __Huw Day__
-* - PhD Student, Dynamic Genetics Lab, MRC Integrative Epidemiology Unit, University of Bristol
-  - Data Scientist, Jean Golding Institute, University of Bristol
-  - PhD Student, School of Mathematics, University of Bristol
-* - GitHub: [@ninadicara](https://github.com/ninadicara)
-  - GitHub: [@nataliethurlby](https://github.com/nataliethurlby)
-  - GitHub: [@hdiscoday](https://github.com/hdiscoday)
-* - Twitter: [@ninadicara](https://twitter.com/ninadicara)
-  - Twitter: [@statalieT](https://twitter.com/StatalieT)
-  - Twitter: [@disco_huw](https://twitter.com/disco_huw)
-* - Email: [ninadicara@bristol.ac.uk](mailto:ninadicara@bristol.ac.uk)
-  - Email: [natalie.thurlby@bristol.ac.uk](mailto:natalie.thurlby@bristol.ac.uk)
-  - Email: [huw.day@bristol.ac.uk](mailto:huw.day@bristol.ac.uk)
+* - PhD Student,<br>Dynamic Genetics Lab,<br>MRC Integrative Epidemiology Unit,<br>University of Bristol
+  - Data Scientist,<br>Jean Golding Institute,<br>University of Bristol
+  - PhD Student,<br>School of Mathematics,<br>University of Bristol
+* - {fa}`github,style=fab`: [@ninadicara](https://github.com/ninadicara)
+  - {fa}`github,style=fab`: [@NatalieZelenka](https://github.com/nataliezelenka)
+  - {fa}`github,style=fab`: [@hdiscoday](https://github.com/hdiscoday)
+* - {fa}`twitter,style=fab`: [@ninadicara](https://twitter.com/ninadicara)
+  - {fa}`twitter,style=fab`: [@NatZelenka](https://twitter.com/natzelenka)
+  - {fa}`twitter,style=fab`: [@disco_huw](https://twitter.com/disco_huw)
+* - {fa}`envelope,style=far`: [ninadicara@bristol.ac.uk](mailto:ninadicara@bristol.ac.uk)
+  - {fa}`envelope,style=far`: [natalie.thurlby  @bristol.ac.uk](mailto:natalie.thurlby@bristol.ac.uk)
+  - {fa}`envelope,style=far`: [huw.day@bristol.ac.uk](mailto:huw.day@bristol.ac.uk)
+  
