@@ -104,6 +104,6 @@ __Name, Role, Affiliation, Where to find you, Emoji to describe your day__
 - Nina Di Cara, PhD Student, University of Bristol, [ninadicara](https://github.com/ninadicara/), [@ninadicara](https://twitter.com/ninadicara)
 - Huw Day, PhDoer, University of Bristol, [@disco_huw](https://twitter.com/disco_huw)
 - Euan Bennet, Senior Research Associate, University of Bristol, [@DrEuanBennet](https://twitter.com/DrEuanBennet)
-- Angelo Varlotta, [@varl42](twitter.com/varl42)
+- Angelo Varlotta, [@varl42](https://twitter.com/varl42)
 - Laura Sheppard, PhD student, CASA - UCL, [@laurahsheppard](https://twitter.com/laurahsheppard)
 - Roman Shkunov, maths/CS student, University of Bristol, [@RShkunov](https://twitter.com/RShkunov)
