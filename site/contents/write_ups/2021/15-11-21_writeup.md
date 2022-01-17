@@ -6,16 +6,19 @@ This is summary of Wednesday 15th December's Data Ethics Club discussion, where 
 The summary was written by Huw Day, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Nina Di Cara and Natalie Thurlby helped with a final edit.
 ```
-
+_A Question of Trust_ was the final of Professor O'Neill's Reith Lectures in 2002, aired on BBC Radio 4. 
+The lecture asked (and attempted to answer) questions about what trust means, and how we develop and sustain it. 
+Professor O'Neill has a particular focus on the role of the press and media, and how much we can trust them to give us information but at Data Ethics Club, we focussed on similar questions about public trust in data science as a profession. 
 ## Do you think that the public trust data science as a profession? What makes a data scientist trustworthy?
 
-It is important to note immediately that this lecture was aired in 2002, a time where social media was much less prominent and public trust in science was typically much higher. Whilst we may not have done enough to keep this trust, misinformation has also had a big impact. At times throughout history, science has developed from something not very trustworthy and has perhaps had already peaked.
+It is important to note immediately that this lecture was aired in 2002, a time where social media was much less prominent and public trust in science was typically much higher. Whilst we may not have done enough to keep this trust, misinformation has also had a big impact. At times throughout history, science has developed from something not very trustworthy and has perhaps had already peaked. 
+For instance, the [Tuskegee Syphilis Study](https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study), and the subsequent [Belmont Report](https://en.wikipedia.org/wiki/Belmont_Report). 
 
 Some people have the viewpoint that anyone who does not trust scientists/doctors/etc. is a conspiracy theorist or simply not worth talking to. This can be extremely polarising. It is also problematic to assume that everyone from a particular group or progression has the same views.
 
-We were unable to come to a consesus as to whether this phenomenom is getting better or worse. Intellectual superiority in universities reinforces this mindset, creating a bubble of knowledge where you become ignorance of other people's (or indeed your own) ignorance. It is important that we can admit that we are wrong but the culture in academia is not very conducive when it comes to encouraging this. There is very public evidence of people being humiliated by colleagues for making relatively minor mistakes. Issues of irreproducibility in scientific results can also undermind trust.
+We were unable to come to a consensus as to whether this phenomenom is getting better or worse. Intellectual superiority in universities reinforces this mindset, creating a bubble of knowledge where you become ignorant of other people's (or indeed your own) ignorance. It is important that we can admit that we are wrong but the culture in academia is not very conducive when it comes to encouraging this. There is very public evidence of people being humiliated by colleagues for making relatively minor mistakes. Issues of irreproducibility in scientific results can also undermine trust.
 
-As the current Covid-19 pandemic has bought scientific advice to the forefront of how we live our lives. Perhaps as a result of this, the public trust statisticians less, same as the weatherman. There is a difference between what people describe as a data scientist versus a data analyst. 
+The current Covid-19 pandemic has bought scientific advice to the forefront of how we live our lives. Perhaps as a result of this, the public trust statisticians less, same as the weatherman who makes predictions that frequently turn out to be inaccurate. There is a difference between what people describe as a data scientist versus a data analyst. 
 
 Profession is a big word and maybe it is not yet fair to claim that there is a "data science" profession. "Any claim I make I need to back it up" is a key for scientific disciplines, but not always possible. Assessability is not always available as some data is hidden.
 
@@ -25,11 +28,11 @@ We need to improve public statistical literacy and understanding how quantitativ
 
 People are not always trained to interpret graphs or statistics. Even when we are trained it can be difficult. Language can be very opaque - researchers don't always put in the effort to communicate complex things to the public, which perhaps links with academics assuming the public are stupid?
 
-Social media can be used for good. People are using it to ask the public questions and build trust by being available to discuss feedback. On the other hand social media is an echo chamber of people engaging with the content that they are interested in, and agree with. 
+Social media can be used for good. Scientists are using it to ask the public questions and build trust by being available to discuss feedback. On the other hand social media is an echo chamber of people engaging with the content that they are interested in, and agree with, and so perhaps these messages aren't always reaching as far as we would like.
 
-We need to remember that science is not designed to be ingested paper by paper. It's supposed to be a field where messages are shared based on collective evidence. Preprints getting into the news before being peer reviewed set people's expectations before 
+We need to remember that science is not designed to be ingested paper by paper. It's supposed to be a field where messages are shared based on collective evidence. Preprints getting into the news before being peer reviewed set people's expectations high, and do not represent fields as a cumulative picture, of which a single paper is just a very small rock on a hill. 
 
-It's easier when we already trust someone's opinion to believe what they say subsequently.
+Building trust with the public is especially important because it's easier when we already trust someone's opinion to believe what they say subsequently.
 
 Typically we have observed that the media are not good at dealing with different perspectives. It nowadays seems to favour a single certainty rather than the uncertainty.
 
@@ -51,7 +54,7 @@ This most recent pandemic is being treated as an optimisation problem with a sin
 
 ## What change would you like to see on the basis of this piece? Who has the power to make that change?
 
-Not all of us enjoyed this piece. Many of us found ourselves asking: What was the point of this lecture? In this setting the speaker, the speaker just repeated a bunch of ideas, which was not very illuminating. The lecture felt quite rambly, but at least used clear language. Points were very anecdotal and made in a random sort of way.
+Not all of us enjoyed this piece. Many of us found ourselves asking: What was the point of this lecture? In this setting some felt that the speaker just repeated a bunch of ideas, which was not very illuminating. The lecture felt quite rambly, but at least used clear language. Points were very anecdotal and made in a random sort of way.
 
 It was very interesting to distinguish between freedom of individual versus coorperations with a bit of an old school appeal to ideas of individual liberties. This often happens with public outreach where experts are dissapointed with the content compared to the a specific talk.
 
