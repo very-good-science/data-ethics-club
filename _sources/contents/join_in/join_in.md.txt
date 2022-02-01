@@ -31,8 +31,7 @@ Please read it before attending.
 
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [26.01.2022, 1pm](meetings/2022/01-jan/26-01-22_meeting) | [Which Programming Languages Use The Least Electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/) |
-| [09.02.2022, 1pm]() | TBC |
+| [09.02.2022, 1pm](meetings/2022/02-feb/09-02-22_meeting) | [“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies](https://journals.sagepub.com/doi/full/10.1177/2053951719833404) |
 | [23.02.2022, 1pm]() | TBC |
 | [09.03.2022, 1pm]() | TBC |
 | [23.03.2022, 1pm]() | TBC |
@@ -48,6 +47,7 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [26.01.2022, 1pm](meetings/2022/01-jan/26-01-22_meeting) | [Which Programming Languages Use The Least Electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/) | Coming soon! |
 | [12.01.2022, 1pm](meetings/2022/01-jan/12-01-22_meeting) | [Data Ethics Club's New Years Resolutions](meetings/2022/01-jan/12-01-22_meeting) - read the meeting summary for an overview | Coming soon! |
 | [15.12.2021, 1pm](meetings/2021/12-december/15-12-21_meeting) | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)| [Read the write up](../write_ups/2021/15-12-21_writeup) |
 | 01.12.2021, 1pm: CANCELLED  [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | NA: CANCELLED [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | No meeting, but feel free to have a [read about the strikes here](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) |
