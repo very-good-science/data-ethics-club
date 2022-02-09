@@ -34,15 +34,12 @@ Thank you to Ola Michalec for suggesting this piece!
 
 ### Discussion points
 
-To be confirmed!
+There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
+- __Q1:__ What do you think about the authors’ approach (framing of the experiment, the first vs the second attempt, tools suggested, their reflections, Nick’s email)?
+- __Q2:__ Going beyond data sci-social sci divide: What other divides, binaries and camps should we pay attention to?
+- __Q3:__ What intervention could we stage in this group?
 
 <!--
-
-There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
-
 ---
 
 
