@@ -11,6 +11,7 @@ We also discuss the meetings [on Twitter at #DataEthicsClub](https://twitter.com
 ```{toctree}
 :maxdepth: 1
 
+2022/12-01-21_writeup.md
 2021/15-12-21_writeup.md
 2021/17-11-21_writeup.md
 2021/03-11-21_writeup.md
