@@ -298,7 +298,8 @@
       "contributions": [
         "eventOrganizing",
         "blog",
-        "ideas"
+        "ideas",
+        "content"
       ]
     },
     {
@@ -330,7 +331,6 @@
         "ideas"
       ]
     }
-    
   ],
   "contributorsPerLine": 7,
   "projectName": "data-ethics-club",
