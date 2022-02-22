@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-32-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-33-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="site/images/logo.png">
@@ -34,7 +34,7 @@ Thanks goes to these wonderful people in developing this repository, joining Dat
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/NatalieThurlby"><img src="https://avatars1.githubusercontent.com/u/17617308?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NatalieThurlby</b></sub></a><br /><a href="#eventOrganizing-NatalieThurlby" title="Event Organizing">📋</a> <a href="#ideas-NatalieThurlby" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-NatalieThurlby" title="Design">🎨</a> <a href="#content-NatalieThurlby" title="Content">🖋</a> <a href="#question-NatalieThurlby" title="Answering Questions">💬</a> <a href="#blog-NatalieThurlby" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://github.com/NatalieZelenka"><img src="https://avatars1.githubusercontent.com/u/17617308?v=4?s=100" width="100px;" alt=""/><br /><sub><b>NatalieZelenka</b></sub></a><br /><a href="#eventOrganizing-NatalieZelenka" title="Event Organizing">📋</a> <a href="#ideas-NatalieZelenka" title="Ideas, Planning, & Feedback">🤔</a> <a href="#design-NatalieZelenka" title="Design">🎨</a> <a href="#content-NatalieZelenka" title="Content">🖋</a> <a href="#question-NatalieZelenka" title="Answering Questions">💬</a> <a href="#blog-NatalieZelenka" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/ninadicara"><img src="https://avatars1.githubusercontent.com/u/44364127?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nina Di Cara</b></sub></a><br /><a href="#eventOrganizing-ninadicara" title="Event Organizing">📋</a> <a href="#ideas-ninadicara" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-ninadicara" title="Content">🖋</a> <a href="#question-ninadicara" title="Answering Questions">💬</a> <a href="#infra-ninadicara" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#blog-ninadicara" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/mtwest2718"><img src="https://avatars2.githubusercontent.com/u/8397376?v=4?s=100" width="100px;" alt=""/><br /><sub><b>WestByNoreaster</b></sub></a><br /><a href="#content-mtwest2718" title="Content">🖋</a> <a href="#question-mtwest2718" title="Answering Questions">💬</a> <a href="#blog-mtwest2718" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/RobertArbon"><img src="https://avatars0.githubusercontent.com/u/7603520?v=4?s=100" width="100px;" alt=""/><br /><sub><b>robertarbon</b></sub></a><br /><a href="#design-robertarbon" title="Design">🎨</a> <a href="#content-robertarbon" title="Content">🖋</a> <a href="#blog-robertarbon" title="Blogposts">📝</a></td>
@@ -71,9 +71,10 @@ Thanks goes to these wonderful people in developing this repository, joining Dat
   </tr>
   <tr>
     <td align="center"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Roman Shkunov</b></sub><br /><a href="#blog" title="Blogposts">📝</a></td>
-    <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#eventOrganizing-hdiscoday" title="Event Organizing">📋</a> <a href="#blog-hdiscoday" title="Blogposts">📝</a> <a href="#ideas-hdiscoday" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/HDiscoDay"><img src="https://avatars.githubusercontent.com/u/85741581?v=4?s=100" width="100px;" alt=""/><br /><sub><b>hdiscoday</b></sub></a><br /><a href="#eventOrganizing-hdiscoday" title="Event Organizing">📋</a> <a href="#blog-hdiscoday" title="Blogposts">📝</a> <a href="#ideas-hdiscoday" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-hdiscoday" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/annaledwoch"><img src="https://avatars.githubusercontent.com/u/33446801?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anna Ledwoch</b></sub></a><br /><a href="#maintenance-annaledwoch" title="Maintenance">🚧</a> <a href="#blog-annaledwoch" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/christopheredsall"><img src="https://avatars.githubusercontent.com/u/1021204?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Edsall</b></sub></a><br /><a href="#maintenance-christopheredsall" title="Maintenance">🚧</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/radclyffe/"><img src="https://images.ctfassets.net/szn9nm41s0l0/48gcxCqGc8MT3IzUGUsnwT/90d3e1a06e0b8b1ecfa7b54792a1c55e/Ellipse_1.png?w=150&h=151&q=50&fm=webp?s=100" width="100px;" alt=""/><br /><sub><b>Charles Radclyffe</b></sub></a><br /><a href="#content" title="Content">🖋</a> <a href="#ideas" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
