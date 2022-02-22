@@ -6,7 +6,7 @@
   <img height=250 src="site/images/logo.png">
 </p>
 
-Welcome! Data Ethics Club is a discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. 
+Welcome! Data Ethics Club is a fortnightly discussion group/"journal" club about doing data science ethically. "Journal" because we will also read blog posts, (parts of) books, or watch videos. 
 The organisers are based in Bristol, but the club is open to all. 
 
 
