@@ -16,7 +16,7 @@ You can find all the information about Data Ethics Club on [our website](https:/
 * [Read our write ups of previous meetings](https://dataethicsclub.com/contents/write_ups/write-ups.html)
 * [See our Code of Conduct](https://dataethicsclub.com/contents/join_in/code-of-conduct.html)
 
-Please join our [mailing list](http://eepurl.com/hjkmnX) if you'd like to be emailed about future meetings. You can see the dates of our upcoming meetings [here](https://dataethicsclub.com/contents/join_in/join_in.html#upcoming-meetings).
+Please join our [mailing list](https://dataethicsclub.com/contents/mailing-list.html) if you'd like to be emailed about future meetings. You can see the dates of our upcoming meetings [here](https://dataethicsclub.com/contents/join_in/join_in.html#upcoming-meetings).
 
 ## Re-using our materials
 We really welcome people re-using the materials we have made. This repository is [licensed](LICENSE.md) under a CC-BY 3.0 license. This means, yes, please **do** use, remix, and share anything you find in this repo, but you must credit us with attribution (a link to this repo is okay!).  
