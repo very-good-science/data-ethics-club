@@ -49,9 +49,9 @@ Either choice feels depressingly bound to take a lot of time.
 As an example, Australian education slowly shifted from cherry picking colonial pride moments to including full history and perspectives (arrival vs invasion).
 
 ### Reducing pseudoscientific racism 
-People who are vocally racist or misogynist can often be caught using a psuedo scientific mode of reasoning. 
+People who are vocally racist or misogynist can often be caught using a pseudo scientific mode of reasoning. 
 Examples include: [The Google memo](https://en.wikipedia.org/wiki/Google%27s_Ideological_Echo_Chamber), eugenics, etc. 
-Psuedo science is inherently linked to discrimination, but this link is not clear to the uninformed, which could be countered by teaching the context of scientific discovery alongside it.
+Pseudo science is inherently linked to discrimination, but this link is not clear to the uninformed, which could be countered by teaching the context of scientific discovery alongside it.
 
 While doing outreach and decolonising in earlier education can be very valuable, however, some of us are a little bit skeptical when people suggest that since it is a frequent talking point of people who reduce structural issues to a "pipeline problem" (e.g. “how can we get black people/women to choose to do this subject?”).
 But this viewpoint can also come from frustration with the enormity of the task of decolonisation.
@@ -91,7 +91,7 @@ We considered this sentence to be making the point that Black women who endorse 
 However, we felt that the point was a little clumsily made, as it could be read as there only being one "correct" experience for Black women, or only some Black women who should be listened to, which we didn't feel comfortable with (although we weren't sure if this was the author's viewpoint).
 This part of the authors' argument is also unprovable (although, to be clear, not necessarily wrong), as any attempt by a Black Woman to oppose it can be deflected by stating that that person has been “assimilated” or by stating that they "haven’t educated themselves".
 
-The link between psuedo science and discrimination wasn't super clear to some initially ("Are flat earthers inherently racist?"), but through discussion and the context of eugenics, it became clearer. 
+The link between pseudo science and discrimination wasn't super clear to some initially ("Are flat earthers inherently racist?"), but through discussion and the context of eugenics, it became clearer. 
 Others found this point particularly persuasive, and to be a clear avenue for activism and convincing editors to do better.
 As the paper says:
 > "The system itself needs to be rethought — scholars should not, as a norm, need to form grassroots initiatives to instigate retractions and cleanup the literature. Rather, the onus should fall on those producing, editing, reviewing, and funding (pseudo) scientific work."
