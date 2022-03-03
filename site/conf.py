@@ -32,7 +32,8 @@ release = "v0.1.0"
 # ones.
 extensions = [
     "myst_nb",
-    'sphinx_panels'
+    "sphinx_panels",
+    "sphinx.ext.githubpages",
 ]
 
 myst_enable_extensions = [
