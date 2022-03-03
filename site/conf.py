@@ -54,6 +54,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # a list of builtin themes.
 #
 html_theme = "pydata_sphinx_theme"
+html_baseurl = "dataethicsclub.com"
 
 html_theme_options = {
     "github_url": "https://github.com/very-good-science/data-ethics-club",
