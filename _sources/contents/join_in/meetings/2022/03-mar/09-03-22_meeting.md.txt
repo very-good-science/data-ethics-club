@@ -24,7 +24,7 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies][content]
+Link to content: [“AI in Warfare"][content]
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 9th March at 1pm UK time][timedate]. 
