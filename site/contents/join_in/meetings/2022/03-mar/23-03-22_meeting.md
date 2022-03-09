@@ -38,7 +38,7 @@ Natalie suggested this week's content - thank you!
 
 ### Discussion points
 
-The discussion questions for this week are based around some specific quotes from the article 
+The discussion questions for this week are:
 - What did you think of this article? Did you recognise any of the structurelessness that Freeman described in settings that you are part of?
 - Who do we need to influence to make changes to the ethics of data science? Do we know how to make those changes?
 - In the paragraph that begins "Since movement groups have made no decisions about who shall exercise power within them...", Freeman describes the 'criteria for participation' in the women's liberation movement.
