@@ -1,6 +1,7 @@
 {
   "files": [
-    "README.md"
+    "README.md",
+    "site/index.md"
   ],
   "imageSize": 100,
   "commit": false,
