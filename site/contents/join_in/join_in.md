@@ -31,8 +31,7 @@ Please read it before attending.
 
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [23.03.2022, 1pm](meetings/2022/03-mar/23-03-22_meeting) | [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) |
-| [06.04.2022, 1pm]() | TBC |
+| [06.04.2022, 1pm](meetings/2022/04-apr/06-04-22_meeting) | [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/) |
 | [05.05.2022, 1pm]() | TBC |
 | [18.05.2022, 1pm]() | TBC |
 | [01.06.2022, 1pm]() | TBC |
@@ -44,6 +43,7 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [23.03.2022, 1pm](meetings/2022/03-mar/23-03-22_meeting) | [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) | Coming soon! |
 | [09.03.2022, 1pm](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20220309T13&p1=299&ah=1) | [AI in Warfare](https://www.bbc.co.uk/sounds/play/m00127t9) | Coming soon! |
 | [23.02.2022, 1pm] | N/A | Cancelled due to UCU Strikes. |
 | [09.02.2022, 1pm](meetings/2022/02-feb/09-02-22_meeting) | [“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies](https://journals.sagepub.com/doi/full/10.1177/2053951719833404) | Coming soon! |
