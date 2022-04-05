@@ -70,6 +70,8 @@ Data Ethics Club is organised by a [small team](contents/contact), but all our m
     <td align="center"><a href="https://github.com/annaledwoch"><img src="https://avatars.githubusercontent.com/u/33446801?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anna Ledwoch</b></sub></a><br /><a href="#maintenance-annaledwoch" title="Maintenance">🚧</a> <a href="#blog-annaledwoch" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/christopheredsall"><img src="https://avatars.githubusercontent.com/u/1021204?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher Edsall</b></sub></a><br /><a href="#maintenance-christopheredsall" title="Maintenance">🚧</a></td>
     <td align="center"><a href="https://www.linkedin.com/in/radclyffe/"><img src="https://images.ctfassets.net/szn9nm41s0l0/48gcxCqGc8MT3IzUGUsnwT/90d3e1a06e0b8b1ecfa7b54792a1c55e/Ellipse_1.png?w=150&h=151&q=50&fm=webp?s=100" width="100px;" alt=""/><br /><sub><b>Charles Radclyffe</b></sub></a><br /><a href="#content" title="Content">🖋</a> <a href="#ideas" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://bandism.net/"><img src="https://avatars.githubusercontent.com/u/22633385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ikko Ashimine</b></sub></a><br /><a href="#content-eltociear" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/bengcooper"><img src="https://avatars.githubusercontent.com/u/3008392?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Cooper</b></sub></a><br /><a href="#content-bengcooper" title="Content">🖋</a></td>
   </tr>
 </table>
 
