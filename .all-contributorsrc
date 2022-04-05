@@ -340,6 +340,15 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "bengcooper",
+      "name": "Ben Cooper",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3008392?v=4",
+      "profile": "https://github.com/bengcooper",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
