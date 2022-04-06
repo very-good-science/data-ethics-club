@@ -55,7 +55,7 @@ Should we be thinking more carefully about which programming problems we even at
 
 There is great value to fundamental research even if it is not immediately apparent and so we should be cautious about cutting corners in research.
 
-Not everyone has access to run expensive time consuming models. At a management level, people are deciding which cloud services to use have a lot of power to change the environmental cost. 
+Not everyone has access to run expensive time consuming models, and realistically it is management level decisions about things like which cloud services to use that could have a lot of power to change the environmental cost of our outputs. 
 
 This paper feels quite out of context from these wider contextual considerations. 
 What papers like this seem to encourage is 15-20 of us is to ditch Python and go to C and doesn't really address bigger organisational actions that could really effect our power usage.
