@@ -3,7 +3,8 @@
 ```{admonition} What's this? 
 This is summary of Wednesday 6th April's Data Ethics Club discussion, where we spoke and wrote about the Real Life Mag article [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/) by Abeba Birhane.
 The summary was written by Huw Day, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
-Nina Di Cara and Natalie Thurlby helped with the final edit.
+Nina Di Cara and Natalie Thurlby helped with the final edit.![White saviour vibes](https://user-images.githubusercontent.com/85741581/163978137-43ba9592-1f61-4b1e-87d3-25415f6170f7.png)
+
 ```
 
 ```{image} images/White saviour vibes.png
