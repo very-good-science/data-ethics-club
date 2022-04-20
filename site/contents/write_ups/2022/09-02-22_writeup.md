@@ -20,7 +20,8 @@ We discussed the authors' approach, the divides between social and data science 
 
 ## What do you think about the authors’ approach (framing of the experiment, the first vs the second attempt, tools suggested, their reflections, Nick’s email)?
 
-We thought the experiment was interesting, getting data scientists to be reflective in a way that is not typical of their skillset. Some of us felt the experiment lacked specificity about what data scientists actually do (using quantitative methods to answer specific questions). Perhaps it could have been more successful by asking them to read the papers and discuss them, as opposed to getting them to use these tools to analyse them with quantative methods. It didn't seem like there was a way for the participants to succeed with their analysis. 
+We thought the experiment was interesting, getting data scientists to be reflective in a way that is not typical of their skillset, though some of us felt the experiment lacked specificity about what data scientists actually do (using quantitative methods to answer specific questions). 
+Perhaps it could have been more successful by asking the data scientists to read the papers and discuss them, as opposed to getting them to analyse them with quantitative methods. It didn't seem like there was a way for the participants to succeed with their analysis. 
 
 On the other hand, maybe the utility of the paper was in the self reflective nature of the study? If the objective was to start a conversation rather than to get any particular analysis out of it, then there is still value in that. The training of the authors is ethonography and anthropology. This mode of reasoning is different to that of data scientists and the hallmarks of what the participants were meant to achieve is different. This means lower sample sizes a greater focus on individual feedback/insight, with the discussion of the experiment comeing from the point of view of statistical/scientific method.
 
