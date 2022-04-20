@@ -66,7 +66,7 @@ If we are to have people in positions to bring such destruction and devastation 
 
 Maybe we would have fewer and fewer software developers? We don't want to encourage people to come into the defence technology profession (like some soldiers). This is already happening "Project Maven" DOD Project. The remit of this project was to develop certain advanced technology for defensive capabilities (e.g. developing computer vision software for identifying targets for drones). The company that initially won the contract was Google. Widespread protests which lead to Google ethical projects. Most developers didn't want to do this. DOD gave the contract to Palantir (tech company that mostly do government contracts; tracking systems, military applications etc).
 
-One of the problems with the free market means that someone will always do this job (same with like garbage collectors etc.) How do you uninvent these things? Evidence that CBRN weapons have been reduced in usage so maybe there is hope? Even if someone people will still produce them, other regulations will reduce the demand. (we're a good 5-20 years from the demand dropping for AI warfare, it's just such a cool gizmo to show off)
+One of the problems with the free market means that someone will always do this job, and there is money in it. How do you uninvent these things? Evidence that CBRN weapons have been reduced in usage so maybe there is hope? Even if someone people will still produce them, other regulations will reduce the demand. (we're a good 5-20 years from the demand dropping for AI warfare, and hopefully for now it's just such a cool gizmo to show off).
 
 ## What change would you like to see on the basis of this piece? Who has the power to make that change?
 
