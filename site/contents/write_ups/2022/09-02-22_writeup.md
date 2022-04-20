@@ -12,7 +12,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## Introduction
 
-This week at Data Ethics Club we discussed the paper “You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies by David Moats and Nick Seaver. The paper examines the divide between and intersection between data scientists and social scientists using methodology more familiar to anthropologists than those with a STEM background:
+This week at Data Ethics Club we discussed the paper “You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies by David Moats and Nick Seaver. The paper examines the divide between and intersection between data scientists and social scientists using a methodology more familiar to anthropologists than those with a STEM background:
 
 "we attempted to stage an encounter in which practicing data scientists were asked to analyze a corpus of critical social science literature about their work, using tools of textual analysis such as co-word and topic modelling. The idea was to provoke discussion both about the content of these texts and the possible limits of such analyses."
 
