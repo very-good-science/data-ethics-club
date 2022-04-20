@@ -20,7 +20,7 @@ We voted for this lecture before Russia invaded the Ukraine, and in light of thi
 
 ## To what extent were you aware that lethal autonomous weapons were already purchasable?
 
-Unfortunately, some of us who have worked in the government sector are quite aware. Some of us were not just how easy is it to purchase, but how easy is it to build something at home? This promptly bought us to the discussion of 3D printing. It's hard to know what the jigsaw looks like until you put it together. Some schools even have access to 3D printers now. We were not really aware of the full extent of their availibility. It was surprising to hear that a lot of the weapons that already exist are autonomous (i.e. can identify and attack targets on their own).
+Unfortunately, some of us who have worked in the government sector are quite aware, as well as how easy is it to purchase, or to build something at home. This promptly bought us to the discussion of 3D printing - some schools even have access to 3D printers now. We were not really aware of the full extent of their availability. For some of us it was surprising to hear that a lot of the weapons that already exist are autonomous (i.e. can identify and attack targets on their own).
 
 We agreed that the possibility of small, cheap, killer robots that could target individuals was a frightening prospect. Some of us felt that it was presented as a current reality, when the killer robots that are for sale are currently much larger and more expensive than the speaker's narrative suggested. Others felt that this wasn't an unreasonable projection, given other military technology.
 
