@@ -45,7 +45,7 @@ One of our members did a dissertation which involved reading Google's AI ethics 
 
 One of the problems is that there is a desire to shoehorn AI (or more generally, tech) into solutions. There are lots of problems where we need more money, people to help etc. and instead people in the tech sector are like "AI will fix it" (e.g. predictive policing, hiring and firing algorithms or [worker chat apps designed to suppress discussions of worker's rights](https://theintercept.com/2022/04/04/amazon-union-living-wage-restrooms-chat-app/)).
 
-This made some of us think of events like Red Nose Day where often people (usually in the West) don't want to solve problems, they just see it as a PR opportunity. It is the only time the poorest people in the world are represented. 
+This made some of us think of events like Red Nose Day where often people (usually in the West) don't want to solve problems, they just see it as a PR opportunity. It is the only time the poorest people in the world are represented, and how they are represented is not chosen by themselves but by the charities who want donations. 
 
 One academic specific problem is when money is ring fenced for international help/charity in general. Don't really fully understand how companies would go about doing the same thing or why would they want to unless to distract data? Is it basically just a tax write off for them? If they were trying to be good people then would it not be hard to optimise by not focussing on using technology.
 
