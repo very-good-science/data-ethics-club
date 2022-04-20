@@ -19,7 +19,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.![White saviour vibe
 
 This week at Data Ethics Club we read [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/), an article written by Abeba Birhane. The article, set in the backdrop of the second annual Conference on Technology, Innovation, and Society (CyFyAfrica2019) which aimed "to bring forth the continent’s voices in the global discourse."
 
-The author discusses the uphill nature of this endeavour and how sometimes western influences coming in with their own tech solutions does more harm than good. We discussed ideas of utilitarianism, white saviourism and what we should be doing to learn more effectively from other parts of the world.
+The author discusses the uphill nature of this endeavour and how western influences coming in with their own tech solutions do more harm than good. We discussed ideas of utilitarianism, white saviourism and what we (as westerners ourselves) should be doing to learn more effectively from other parts of the world.
 
 ### The author states that tech solutions are made on the basis of utilitarianism - “the greatest happiness for the greatest number of people,” - which means that solutions that center minorities are never sought. Do you agree, and what are the alternatives?
 
