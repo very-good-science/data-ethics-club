@@ -57,7 +57,7 @@ Under what circumstances should we do businesses in Africa/abroad in general? Pr
 
 ### What we would have liked to see more of in this piece? 
 
-Who gets to decide where is too corrupt? There were not enough case studies in this article. We would like to have known more about what kind of models work and what models don't? This article felt like it was taken every common strand of data ethics issues and then was like "oh now it's in Africa". Whilst it was a good introduction if you don't know about data ethics, it was also quite broad and not very focussed. We were missing the information we needed to form a full opinion on all this.
+Who gets to decide where is too corrupt? There were not enough case studies in this article. We would like to have known more about what kind of models work and what models don't? This article felt like it was taken every common strand of data ethics issues applied in the African context. Whilst it was a good introduction if you don't know about data ethics, it was also quite broad and not very focussed. We were missing the information we needed to form a full opinion on all this.
 
 We would have liked more detail about the nuanced dynamics within Africa about who wants want, and what the points are contention are between people about values and outcomes. Why are people willing to exploit fellow people? Is it seen as being beneficial for the local economy perhaps? Birhane alluded that more African values could be brought in - but we would like to know more about what those values are and learn about these. 
 
