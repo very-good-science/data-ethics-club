@@ -24,7 +24,7 @@ Unfortunately, some of us who have worked in the government sector are quite awa
 
 We agreed that the possibility of small, cheap, killer robots that could target individuals was a frightening prospect. Some of us felt that it was presented as a current reality, when the killer robots that are for sale are currently much larger and more expensive than the speaker's narrative suggested. Others felt that this wasn't an unreasonable projection, given other military technology.
 
-Science reporting on this issue (and other ethical problems like this) is typically very poor.This in turn feeds poorly into the mental models that the public has. This can lead to either hysteria or apathy.
+Science reporting on this issue (and other ethical problems like this) is typically very poor. This in turn feeds poorly into the mental models that the public has and can lead to either hysteria or apathy.
 
 The speaker mentions a short Sci-Fi Film ["Slaughterbots"](https://www.youtube.com/watch?v=O-2tpwW0kmU). 
 
