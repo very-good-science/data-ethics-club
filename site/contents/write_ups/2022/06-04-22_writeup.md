@@ -10,7 +10,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ### Introduction
 
-```{image} images/White-saviour-vibes.png
+```{image} ../../../images/White-saviour-vibes.png
 :width: 200px
 :align: center
 :alt: A meme with a stressed man (representing tech companies) trying to choose between pressing one of two buttons: "Extracted data and exploit profits" and "Big white saviour vibes". Meme made by Euan Bennet.
