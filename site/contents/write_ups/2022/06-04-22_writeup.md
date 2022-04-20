@@ -3,19 +3,18 @@
 ```{admonition} What's this? 
 This is summary of Wednesday 6th April's Data Ethics Club discussion, where we spoke and wrote about the Real Life Mag article [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/) by Abeba Birhane.
 The summary was written by Huw Day, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
-Nina Di Cara and Natalie Thurlby helped with the final edit.![White saviour vibes](https://user-images.githubusercontent.com/85741581/163978137-43ba9592-1f61-4b1e-87d3-25415f6170f7.png)
-
-```
-
-```{image} images/White saviour vibes.png
-:width: 200px
-:align: center
-:alt: A meme with a stressed man (representing tech companies) trying to choose between pressing one of two buttons: "Extracted data and exploit profits" and "Big white saviour vibes". Meme made by Euan Bennet.
+Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
 
 ## Discussion
 
 ### Introduction
+
+```{image} images/White-saviour-vibes.png
+:width: 200px
+:align: center
+:alt: A meme with a stressed man (representing tech companies) trying to choose between pressing one of two buttons: "Extracted data and exploit profits" and "Big white saviour vibes". Meme made by Euan Bennet.
+```
 
 This week at Data Ethics Club we read [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/), an article written by Abeba Birhane. The article, set in the backdrop of the second annual Conference on Technology, Innovation, and Society (CyFyAfrica2019) which aimed "to bring forth the continent’s voices in the global discourse."
 
