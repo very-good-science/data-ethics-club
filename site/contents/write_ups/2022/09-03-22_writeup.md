@@ -60,7 +60,7 @@ There has been [research about drone operators in recent wars](https://jmvh.org/
 
 People tell themselves moral stories to justify working in these industries. We wondered about how living in a different country (e.g. one that experiences war or is closer to it) might end up with people having [different opinions](https://en.wikipedia.org/wiki/Strategic_Defense_Initiative). Often times weapon mongers to the world (such as the British) provide weapons to other countries but don't experience the destruction that these weapons cause. People who work in weapons research companies very rarely talk about the casualities that come from that area. You can work in these areas without ever thinking about the outcomes. 
 
-If we are to have people in positions to bring such destruction and devastation into the world, we need those people to have a clear understanding of the moral implications of their decisions. Someone like [Stanislav Petrov](https://en.wikipedia.org/wiki/Stanislav_Petrov) is often credited as having "saved the world".
+If we are to have people in positions to bring such destruction and devastation into the world, we need those people to have a clear understanding of the moral implications of their decisions. Someone like [Stanislav Petrov](https://en.wikipedia.org/wiki/Stanislav_Petrov) is often credited as having "saved the world" after correctly interpreting an accidental fire by the enemy force, and possibly preventing a nuclear war.
 
 ## Who do you think would be held responsible for the implementation of a lethal autonomous weapon? 
 
