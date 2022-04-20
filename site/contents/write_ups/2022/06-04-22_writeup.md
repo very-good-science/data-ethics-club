@@ -23,7 +23,7 @@ The author discusses the uphill nature of this endeavour and how western influen
 
 ### The author states that tech solutions are made on the basis of utilitarianism - “the greatest happiness for the greatest number of people,” - which means that solutions that center minorities are never sought. Do you agree, and what are the alternatives?
 
-That does happen, we do agree. You could imagine optimising proportionally by subgroups but you would then need lots of demographic data which is less likely and minority groups are less likely to trust why you would collect such information. [The immortal life of Henrietta Lacks by Rebecca Skloot](https://www.amazon.co.uk/Immortal-Life-Henrietta-Lacks/dp/0330533444) provides an interesting insight into why this lack of trust is quite reasonable and comes highly recommended by a few of our members. 
+That does happen, we do agree. You could imagine optimising proportionally by subgroups but you would then need lots of demographic data which is less likely and minority groups are less likely to trust why you would collect such information. [The immortal life of Henrietta Lacks by Rebecca Skloot](https://www.amazon.co.uk/Immortal-Life-Henrietta-Lacks/dp/0330533444) provides an interesting insight into why this lack of trust is reasonable and comes highly recommended by a few of our members. 
 
 Is this really utilitarianism or this is an abstraction? Do people really think about wanting to help people? Or do they just want to solve a particular problem? The exception is large firms with focus groups and decision making based on that. 
 
