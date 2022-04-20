@@ -1,0 +1,459 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Data Ethics Club: The Algorithmic Colonization of Africa &#8212; Data Ethics Club v0.1.0 documentation</title>
+    
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/custom.css" />
+    
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <link rel="canonical" href="dataethicsclub.com/contents/write_ups/2022/06-04-22_writeup.html" />
+    <link rel="shortcut icon" href="../../../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Data Ethics Club: AI in Warfare" href="09-03-22_writeup.html" />
+    <link rel="prev" title="Write-ups" href="../write-ups.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+<a class="navbar-brand" href="../../../index.html">
+<p class="title">Data Ethics Club</p>
+</a>
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../join_in/join_in.html">
+  Join in
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../reading-list.html">
+  Reading list
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../write-ups.html">
+  Write-ups
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../how_to/reuse_dec.html">
+  Reuse our materials
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../contact.html">
+  Contact us
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../mailing-list.html">
+  Mailing list
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/very-good-science/data-ethics-club" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/hashtag/DataEthicsClub" rel="noopener" target="_blank" title="Twitter"><span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Data Ethics Club: The Algorithmic Colonization of Africa
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-03-22_writeup.html">
+   Data Ethics Club: AI in Warfare
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-02-22_writeup.html">
+   Data Ethics Club: “You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="26-01-22_writeup.html">
+   Data Ethics Club: Which Programming Languages Use the Least Electricity?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-01-22_writeup.html">
+   Data Ethics Club: Resolutions 2022
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/15-12-21_writeup.html">
+   Data Ethics Club: A Question of Trust
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/17-11-21_writeup.html">
+   Data Ethics Club: Statistics, Eugenics and Me
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/03-11-21_writeup.html">
+   Data Ethics Club: UK National AI Strategy: Pillar 3 - Governing AI Effectively
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/20-10-21_writeup.html">
+   Data Ethics Club: Towards decolonising computational sciences (20th Oct 2021)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/06-10-21_writeup.html">
+   Data Ethics Club: Structural Injustice and Individual Responsibility (6th Oct 2021)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/08-09-21_writeup.html">
+   Data Ethics Club: ESR: Ethics and Society Review of Artificial Intelligence Research (8th Sept 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/25-08-21_writeup.html">
+   Data Ethics Club: “Participant” Perceptions of Twitter Research Ethics (25th Aug 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/11-08-21_writeup.html">
+   Data Ethics Club: What an ancient lake in Nevada reveals about the future of tech (11th Aug 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/28-07-21_writeup.html">
+   Data Ethics Club: The Rise of Private Spies (28th July 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/14-07-21_writeup.html">
+   Data Ethics Club discusses The mathematics of crime and terrorism (14th July 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/26-05-21_writeup.html">
+   Data Ethics Club discusses ‘Living in the Hidden Realms of AI: The Workers Perspective’ (26th May 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/12-05-21_writeup.html">
+   Data Ethics Club discusses Critical perspectives on Computer Vision (12th May 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/28-04-21_writeup.html">
+   Data Ethics Club discusses We created poverty. Algorithms won’t make that go away (28th Apr 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/14-04-21_writeup.html">
+   Data Ethics Club discusses: UK Statistics Authority: Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape (14th Apr 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/31-03-21_writeup.html">
+   Data Ethics Club discusses Dataism Is Our New God (31st March 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/17-03-21_writeup.html">
+   Data Ethics Club discusses “#bropenscience is broken science” (17th March 21)
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#introduction">
+     Introduction
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#the-author-states-that-tech-solutions-are-made-on-the-basis-of-utilitarianism-the-greatest-happiness-for-the-greatest-number-of-people-which-means-that-solutions-that-center-minorities-are-never-sought-do-you-agree-and-what-are-the-alternatives">
+     The author states that tech solutions are made on the basis of utilitarianism - “the greatest happiness for the greatest number of people,” - which means that solutions that center minorities are never sought. Do you agree, and what are the alternatives?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#how-does-white-saviourism-show-up-in-the-pursuit-of-tech-solutions-for-social-good">
+     How does White Saviourism show up in the pursuit of tech solutions for social good?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-western-ideals-influence-the-way-we-build-technology-in-the-global-north-what-should-we-be-doing-to-learn-more-effectively-from-other-parts-of-the-world">
+     What Western ideals influence the way we build technology in the Global North? What should we be doing to learn more effectively from other parts of the world?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-we-would-have-liked-to-see-more-of-in-this-piece">
+     What we would have liked to see more of in this piece?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#attendees">
+   Attendees
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section class="tex2jax_ignore mathjax_ignore" id="data-ethics-club-the-algorithmic-colonization-of-africa">
+<h1>Data Ethics Club: <a class="reference external" href="https://reallifemag.com/the-algorithmic-colonization-of-africa/">The Algorithmic Colonization of Africa</a><a class="headerlink" href="#data-ethics-club-the-algorithmic-colonization-of-africa" title="Permalink to this headline">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this? </p>
+<p>This is summary of Wednesday 6th April’s Data Ethics Club discussion, where we spoke and wrote about the Real Life Mag article <a class="reference external" href="https://reallifemag.com/the-algorithmic-colonization-of-africa/">The Algorithmic Colonization of Africa</a> by Abeba Birhane.
+The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara and Natalie Thurlby helped with the final edit.<img alt="White saviour vibes" src="https://user-images.githubusercontent.com/85741581/163978137-43ba9592-1f61-4b1e-87d3-25415f6170f7.png" /></p>
+</div>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">#</a></h2>
+<section id="introduction">
+<h3>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h3>
+<p>This week at Data Ethics Club we read <a class="reference external" href="https://reallifemag.com/the-algorithmic-colonization-of-africa/">The Algorithmic Colonization of Africa</a>, an article written by Abeba Birhane. The article, set in the backdrop of the second annual Conference on Technology, Innovation, and Society (CyFyAfrica2019) which aimed “to bring forth the continent’s voices in the global discourse.”</p>
+<p>The author discusses the uphill nature of this endeavour and how western influences coming in with their own tech solutions do more harm than good. We discussed ideas of utilitarianism, white saviourism and what we (as westerners ourselves) should be doing to learn more effectively from other parts of the world.</p>
+</section>
+<section id="the-author-states-that-tech-solutions-are-made-on-the-basis-of-utilitarianism-the-greatest-happiness-for-the-greatest-number-of-people-which-means-that-solutions-that-center-minorities-are-never-sought-do-you-agree-and-what-are-the-alternatives">
+<h3>The author states that tech solutions are made on the basis of utilitarianism - “the greatest happiness for the greatest number of people,” - which means that solutions that center minorities are never sought. Do you agree, and what are the alternatives?<a class="headerlink" href="#the-author-states-that-tech-solutions-are-made-on-the-basis-of-utilitarianism-the-greatest-happiness-for-the-greatest-number-of-people-which-means-that-solutions-that-center-minorities-are-never-sought-do-you-agree-and-what-are-the-alternatives" title="Permalink to this headline">#</a></h3>
+<p>That does happen, we do agree. You could imagine optimising proportionally by subgroups but you would then need lots of demographic data which is less likely and minority groups are less likely to trust why you would collect such information. <a class="reference external" href="https://www.amazon.co.uk/Immortal-Life-Henrietta-Lacks/dp/0330533444">The immortal life of Henrietta Lacks by Rebecca Skloot</a> provides an interesting insight into why this lack of trust is reasonable and comes highly recommended by a few of our members.</p>
+<p>However, some of us who were better trained in philosophy asked if this really was utilitarianism. For example, women have been oppressed even though they make up half of the population.</p>
+<p>Most of the time either your boss tells you to do something or the motivator is often a gap in the market. Often people are not solving a moral problem, but are more capital focussed. Even if we were trying to optimise for happiness, that’s so hard to measure. It’s not practical even if it is a nice idea.</p>
+<p>You could strive to have a minimum standard in terms of outcome for everyone (people can all see over the fence). But for some things it can be quite hard to imagine how that could work: e.g. automatic hand dryer has to work for literally everybody?</p>
+<p>There are alternative needs between different groups, for example a flashing fire alarm light which accomodates deaf people might be sensory overload for autistic people. These accommodations aren’t always complementary.</p>
+<p>It can be difficult to design things just for minority groups and have enough interest for organisations to sustain themselves. But it’s not just about majority/minority - it’s also about power and intersectionality. So utilitarianism is not necessarily what we are doing. Often a powerful minority are being benefitted, not the overall global majority.</p>
+<p>By not consulting with people in the minority, everyone loses out. The priviledged majority miss out on the solutions that come from increased accessibility too.</p>
+<p>One counterexample to a lot this skepticism might be Fintechs in Africa (e.g. M-Pesa) which provide innovative payment solutions. How can people exchange money without literally handing cash to each other if they don’t have a bank account or smart phone? Money gets attached to sim cards. There was lots of pessimism (some of which was warranted) but there were lots of positives too! People started getting salaries. “Why would you need that?” was asked from lots of who don’t understand the real problems on the ground.</p>
+</section>
+<section id="how-does-white-saviourism-show-up-in-the-pursuit-of-tech-solutions-for-social-good">
+<h3>How does White Saviourism show up in the pursuit of tech solutions for social good?<a class="headerlink" href="#how-does-white-saviourism-show-up-in-the-pursuit-of-tech-solutions-for-social-good" title="Permalink to this headline">#</a></h3>
+<p>One of our members did a dissertation which involved reading Google’s AI ethics blog posts. One thing that came up (even before ideas of responsible AI) was a trend of “AI for Good” which in some ways is White Saviourism inate. The general approach was “if the country isn’t in the west, let’s go there and solve the problem with the AI.”</p>
+<p>One of the problems is that there is a desire to shoehorn AI (or more generally, tech) into solutions. There are lots of problems where we need more money, people to help etc. and instead people in the tech sector are like “AI will fix it” (e.g. predictive policing, hiring and firing algorithms or <a class="reference external" href="https://theintercept.com/2022/04/04/amazon-union-living-wage-restrooms-chat-app/">worker chat apps designed to suppress discussions of worker’s rights</a>).</p>
+<p>This made some of us think of events like Red Nose Day where often people (usually in the West) don’t want to solve problems, they just see it as a PR opportunity. It is the only time the poorest people in the world are represented, and how they are represented is not chosen by themselves but by the charities who want donations.</p>
+<p>One academic specific problem is when money is ring fenced for international help/charity in general. Don’t really fully understand how companies would go about doing the same thing or why would they want to unless to distract data? Is it basically just a tax write off for them? If they were trying to be good people then would it not be hard to optimise by not focussing on using technology.</p>
+</section>
+<section id="what-western-ideals-influence-the-way-we-build-technology-in-the-global-north-what-should-we-be-doing-to-learn-more-effectively-from-other-parts-of-the-world">
+<h3>What Western ideals influence the way we build technology in the Global North? What should we be doing to learn more effectively from other parts of the world?<a class="headerlink" href="#what-western-ideals-influence-the-way-we-build-technology-in-the-global-north-what-should-we-be-doing-to-learn-more-effectively-from-other-parts-of-the-world" title="Permalink to this headline">#</a></h3>
+<p>We are all so busy trying to solve problems but we are not asking if they are the right problems to solve. We want money and we want to look philantropic. We also want to look cool solving problems (shoutout to <a class="reference external" href="https://www.bbc.co.uk/news/world-us-canada-50667553">Elon Musk and his submarine</a> comes to mind).</p>
+<p>Under what circumstances should we do businesses in Africa/abroad in general? Providing goods and services? There’s models of partnerships with governments/community groups that are the purely extractive neo-colonial models which are too prevelant. There has to be a fine line there because if there’s a corrupt government/group you’re working with, how do we know the money we’re putting in is going to the right place? An example a little closer to home is UK PPE contracts where there was <a class="reference external" href="https://www.theguardian.com/world/2021/apr/22/fifth-of-uk-covid-contracts-raised-red-flags-for-possible-corruption">‘apparent systemic bias’ in award of lucrative PPE deals favouring firms connected to Tories</a>, so this issue is one that is prevalent everywhere.</p>
+</section>
+<section id="what-we-would-have-liked-to-see-more-of-in-this-piece">
+<h3>What we would have liked to see more of in this piece?<a class="headerlink" href="#what-we-would-have-liked-to-see-more-of-in-this-piece" title="Permalink to this headline">#</a></h3>
+<p>Who gets to decide where is too corrupt? There were not enough case studies in this article. We would like to have known more about what kind of models work and what models don’t? This article felt like it was taken every common strand of data ethics issues applied in the African context. Whilst it was a good introduction if you don’t know about data ethics, it was also quite broad and not very focussed. We were missing the information we needed to form a full opinion on all this.</p>
+<p>We would have liked more detail about the nuanced dynamics within Africa about who wants want, and what the points are contention are between people about values and outcomes. Why are people willing to exploit fellow people? Is it seen as being beneficial for the local economy perhaps? Birhane alluded that more African values could be brought in - but we would like to know more about what those values are and learn about these.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Permalink to this headline">#</a></h2>
+<p><strong>Name, Role, Affiliation, Where to find you</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
+<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
+<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Euan Bennet, Senior Research Associate, University of Bristol, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
+<li><p>Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust</p></li>
+</ul>
+</section>
+</section>
+
+
+              </div>
+              
+              
+              <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+    <a class='left-prev' id="prev-link" href="../write-ups.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Write-ups</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="09-03-22_writeup.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Data Ethics Club: AI in Warfare</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
+
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
