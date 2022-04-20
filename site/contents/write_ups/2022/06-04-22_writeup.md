@@ -25,7 +25,7 @@ The author discusses the uphill nature of this endeavour and how western influen
 
 That does happen, we do agree. You could imagine optimising proportionally by subgroups but you would then need lots of demographic data which is less likely and minority groups are less likely to trust why you would collect such information. [The immortal life of Henrietta Lacks by Rebecca Skloot](https://www.amazon.co.uk/Immortal-Life-Henrietta-Lacks/dp/0330533444) provides an interesting insight into why this lack of trust is reasonable and comes highly recommended by a few of our members. 
 
-Is this really utilitarianism or this is an abstraction? Do people really think about wanting to help people? Or do they just want to solve a particular problem? The exception is large firms with focus groups and decision making based on that. 
+However, some of us who were better trained in philosophy asked if this really was utilitarianism. For example, women have been oppressed even though they make up half of the population.
 
 Most of the time either your boss tells you to do something or the motivator is often a gap in the market. Often people are not solving a moral problem, but are more capital focussed. Even if we were trying to optimise for happiness, that's so hard to measure. It's not practical even if it is a nice idea. 
 
