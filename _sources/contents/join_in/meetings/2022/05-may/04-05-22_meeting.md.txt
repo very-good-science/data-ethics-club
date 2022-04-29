@@ -24,21 +24,20 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DAY the DATE at TIME UK time][timedate]. 
+You're welcome to join us for our next Data Ethics Club meeting on [4th May at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+This time we're going to watch/read [Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech][content] by Phan et al., which is about how big tech has reframed ethics as a commodity. 
 
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+Thank you to Roman for suggesting this week's content!
 
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
+
+We'll announce these soon!
 
 ---
 
@@ -55,6 +54,6 @@ Shall we email the author? If so, who'll send the email?
 
 -->
 
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Economies+of+Virtue&iso=20220504T13&p1=299&ah=1  
+[content]: https://www.tandfonline.com/doi/full/10.1080/09505431.2021.1990875  
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  

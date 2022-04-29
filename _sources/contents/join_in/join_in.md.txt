@@ -31,11 +31,10 @@ Please read it before attending.
 
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [06.04.2022, 1pm](meetings/2022/04-apr/06-04-22_meeting) | [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/) |
-| [05.05.2022, 1pm]() | TBC |
+| [04.05.2022, 1pm](meetings/2022/04-apr/04-05-22_meeting) | [Economies of Virtue: The Circulation of "Ethics" in Big Tech](https://www.tandfonline.com/doi/full/10.1080/09505431.2021.1990875) |
 | [18.05.2022, 1pm]() | TBC |
 | [01.06.2022, 1pm]() | TBC |
-| [15.06.2022, 1pm]() | TBC |
+| [16.06.2022, 1pm](https://www.eventbrite.co.uk/e/online-special-edition-of-data-ethics-club-tickets-321172354157) | Note, this will be Thursday instead of Wednesday as part of JGI Data Week! [Sign up to attend here](https://www.eventbrite.co.uk/e/online-special-edition-of-data-ethics-club-tickets-321172354157) |
 
 
 ## Past Meetings
@@ -43,11 +42,12 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [23.03.2022, 1pm](meetings/2022/03-mar/23-03-22_meeting) | [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) | Coming soon! |
-| [09.03.2022, 1pm](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20220309T13&p1=299&ah=1) | [AI in Warfare](https://www.bbc.co.uk/sounds/play/m00127t9) | Coming soon! |
+| [06.04.2022, 1pm](meetings/2022/04-apr/06-04-22_meeting) | [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/) | [Read the write up](../write_ups/2022/06-04-22_writeup) |
+| [23.03.2022, 1pm](meetings/2022/03-mar/23-03-22_meeting) | [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) |[Read the write up](../write_ups/2022/23-03-22_writeup)|
+| [09.03.2022, 1pm](meetings/2022/03-mar/09-03-22_meeting) | [AI in Warfare](https://www.bbc.co.uk/sounds/play/m00127t9) | [Read the write up](../write_ups/2022/09-03-22_writeup)  |
 | [23.02.2022, 1pm] | N/A | Cancelled due to UCU Strikes. |
-| [09.02.2022, 1pm](meetings/2022/02-feb/09-02-22_meeting) | [“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies](https://journals.sagepub.com/doi/full/10.1177/2053951719833404) | Coming soon! |
-| [26.01.2022, 1pm](meetings/2022/01-jan/26-01-22_meeting) | [Which Programming Languages Use The Least Electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/) | Coming soon! |
+| [09.02.2022, 1pm](meetings/2022/02-feb/09-02-22_meeting) | [“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies](https://journals.sagepub.com/doi/full/10.1177/2053951719833404) | [Read the write up](../write_ups/2022/09-02-22_writeup) |
+| [26.01.2022, 1pm](meetings/2022/01-jan/26-01-22_meeting) | [Which Programming Languages Use The Least Electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/) | [Read the write up](../write_ups/2022/26-01-22_writeup) |
 | [12.01.2022, 1pm](meetings/2022/01-jan/12-01-22_meeting) | [Data Ethics Club's New Years Resolutions](meetings/2022/01-jan/12-01-22_meeting) - read the meeting summary for an overview | [Read the write up](../write_ups/2022/12-01-22_writeup) |
 | [15.12.2021, 1pm](meetings/2021/12-december/15-12-21_meeting) | [The Reith Lectures: Onora O'Neill - A Question of Trust](https://www.bbc.co.uk/programmes/p00ghvd8)| [Read the write up](../write_ups/2021/15-12-21_writeup) |
 | 01.12.2021, 1pm: CANCELLED  [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | NA: CANCELLED [UCU STRIKE](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) | No meeting, but feel free to have a [read about the strikes here](https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December) |
