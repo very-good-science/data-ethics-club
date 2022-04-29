@@ -31,7 +31,7 @@ Please read it before attending.
 
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [04.05.2022, 1pm](meetings/2022/04-apr/04-05-22_meeting) | [Economies of Virtue: The Circulation of "Ethics" in Big Tech](https://www.tandfonline.com/doi/full/10.1080/09505431.2021.1990875) |
+| [04.05.2022, 1pm](meetings/2022/05-may/04-05-22_meeting) | [Economies of Virtue: The Circulation of "Ethics" in Big Tech](https://www.tandfonline.com/doi/full/10.1080/09505431.2021.1990875) |
 | [18.05.2022, 1pm]() | TBC |
 | [01.06.2022, 1pm]() | TBC |
 | [16.06.2022, 1pm](https://www.eventbrite.co.uk/e/online-special-edition-of-data-ethics-club-tickets-321172354157) | Note, this will be Thursday instead of Wednesday as part of JGI Data Week! [Sign up to attend here](https://www.eventbrite.co.uk/e/online-special-edition-of-data-ethics-club-tickets-321172354157) |
