@@ -27,7 +27,9 @@ Usual time 13:00-14:00
 Link to content: [CONTENT-NAME][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DAY the DATE at TIME UK time][timedate]. You don't need to register, just pop in. This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+You're welcome to join us for our next Data Ethics Club meeting on [DAY the DATE at TIME UK time][timedate]. 
+You don't need to register, just pop in. 
+This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
 
 Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
 
