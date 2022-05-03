@@ -1,4 +1,4 @@
-# Data Ethics Club Meeting Structure
+# Data Ethics Club meeting structure
 
 This an outline of how we usually structure meetings.
 Meetings are typically 1 hour.  
