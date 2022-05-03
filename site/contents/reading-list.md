@@ -34,6 +34,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * 📺 [21 Fairness Definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * 📺 [AI, Ain’t I a Woman?](https://www.youtube.com/watch?v=HZxV9w2o0FM) - poem<sup>2</sup> - suggested by Valentina Ragni
 * [Ethics and Policy Class Materials by Casey Fiesler](https://bit.ly/caseysclass)<sup>1</sup>  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) [#100](https://github.com/very-good-science/data-ethics-club/issues/100)
+* [Data	and	Society:	A	Critical	Introduction](https://ore.exeter.ac.uk/repository/handle/10871/127993) - suggested by reviewer for DEC paper [1]
 
 ## Moral philosophy for data science
 
@@ -68,6 +69,9 @@ Note: reading materials appear once in the category we felt they fit best.
 ](https://github.com/orchid00)  ✅
 * [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - suggested by [@ninadicara](https://github.com/ninadicara) [#3](https://github.com/very-good-science/data-ethics-club/issues/3)
 * 🔒 [Nudging Privacy: The Behavioural Economics of Personal Information](https://ieeexplore.ieee.org/abstract/document/5370707) - suggested by [@ninadicara](https://github.com/ninadicara) [#102](https://github.com/very-good-science/data-ethics-club/issues/102)
+* [Accountable Algorithms](https://scholarship.law.upenn.edu/penn_law_review/vol165/iss3/3/) [1] - suggested by DEC paper reviewer
+* [Algorithmic Transparency for the Smart City](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3012499) [1] - suggested by DEC paper reviewer
+* [Benjamin, Ruha. (Oct 2019). Assessing risk, automating racism. Science, 366 (6464), pp. 421-22.] - suggested by DEC paper reviewer 
 
 ## History of data science
 * [Statistics, Eugenics and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) by Raphael Sonabend - suggested by [@ninadicara](https://github.com/ninadicara) [#70](https://github.com/very-good-science/data-ethics-club/issues/70)
