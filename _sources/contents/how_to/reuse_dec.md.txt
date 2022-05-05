@@ -20,10 +20,10 @@ We also have a series of blank templates mentioned in this guide, ready to be re
 ```{toctree}
 :maxdepth: 1
 organising.md
+accessibility-plan.md
 meeting-structure.md
 meeting-todo-list.md
 howto-allcontributorsbot.md
 howto-sync-hackmd.md
 howto-add-writeups.md
-
 
