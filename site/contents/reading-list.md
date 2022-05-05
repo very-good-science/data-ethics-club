@@ -134,6 +134,11 @@ Note: reading materials appear once in the category we felt they fit best.
 * [People With Disabilities Say This AI Tool Is Making the Web Worse for Them](https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Sharing learnings about our image cropping algorithm (Twitter)](https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm.html) - suggested by [@ninadicara](https://github.com/ninadicara), see [#64](https://github.com/very-good-science/data-ethics-club/issues/64)
 * [I can text you a pile of poo, but I can't write my name](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
+* [Building Compassion into Your Modelling Variables](https://weallcount.com/2022/03/25/building-compassion-into-your-modelling-variables/) - [WeAllCount](https://weallcount.com/) articles suggested by a reviewer for DEC paper
+* [The Priviledge Embedded in You Unit of Analysis](https://weallcount.com/2022/02/18/the-privilege-embedded-in-your-unit-of-analysis/) - [WeAllCount](https://weallcount.com/) articles suggested by a reviewer for DEC paper
+* [Participatory Data Stewardship](https://www.adalovelaceinstitute.org/report/participatory-data-stewardship/) - [Ada Lovelace Institute](https://www.adalovelaceinstitute.org/) work suggested by a reviewer for DEC paper
+* [Data sheets for data sets](https://arxiv.org/abs/1803.09010) - suggested by [@ninadicara](https://github.com/ninadicara)
+
 
 ## Field Specific
 
@@ -152,6 +157,8 @@ Note: reading materials appear once in the category we felt they fit best.
 
 * 📺 [How normal am I?](https://www.hownormalami.eu/) - interactive - suggested by Valentina Ragni
 * 📺 [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) ✅  
+* [Documenting Computer Vision Datasets: An Invitation to
+Reflexive Data Practices](https://milamiceli.com/wp-content/uploads/2021/01/CR_FAccT__21___Documenting_Datasets_for_Computer_Vision.pdf) - found through the [CIVIC Data Library of Context](https://www.civicdatalibrary.org/) suggested by a reviewer for DEC paper
 
 ### Explainable AI/ML
 
