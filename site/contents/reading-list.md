@@ -71,7 +71,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * 🔒 [Nudging Privacy: The Behavioural Economics of Personal Information](https://ieeexplore.ieee.org/abstract/document/5370707) - suggested by [@ninadicara](https://github.com/ninadicara) [#102](https://github.com/very-good-science/data-ethics-club/issues/102)
 * [Accountable Algorithms](https://scholarship.law.upenn.edu/penn_law_review/vol165/iss3/3/) [1] - suggested by DEC paper reviewer
 * [Algorithmic Transparency for the Smart City](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3012499) [1] - suggested by DEC paper reviewer
-* [Benjamin, Ruha. (Oct 2019). Assessing risk, automating racism. Science, 366 (6464), pp. 421-22.] - suggested by DEC paper reviewer 
+* [Assessing risk, automating racism.](https://www.grossmont.edu/faculty-staff/participatory-governance/student-success-and-equity/_resources/assets/pdf/assessing-risk-automating-racism.pdf) - suggested by DEC paper reviewer 
 
 ## History of data science
 * [Statistics, Eugenics and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) by Raphael Sonabend - suggested by [@ninadicara](https://github.com/ninadicara) [#70](https://github.com/very-good-science/data-ethics-club/issues/70)
