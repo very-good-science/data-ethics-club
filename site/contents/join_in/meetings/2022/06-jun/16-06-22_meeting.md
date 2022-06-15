@@ -23,6 +23,7 @@ Usual time 13:00-14:00
 ### Quick links
 
 [Zoom link][zoom]
+
 Content: no homework this week, we'll watch this [Virginia Eubanks video](content) during the session.
 
 ### Description
