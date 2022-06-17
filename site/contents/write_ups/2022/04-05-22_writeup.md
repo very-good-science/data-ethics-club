@@ -10,7 +10,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ```
 
-```{image} images/EthicsAsCurrency.png
+```{image} ../../../../images/EthicsAsCurrency.png
 :width: 200px
 :align: center
 :alt: UNO Meme, "Actually be Ethical Instead of just Pretending or Draw 25" with Tech Bros holding a handful of UNO cards.
