@@ -23,37 +23,40 @@ This week at Data Ethics Club we discussed [Economies of Virtue: The Circulation
 In this paper, the authors discusses some of the ethics problems in Big Tech and "how Big Tech has transformed ethics into a form of capital — a transactional
 object external to the organisation, one of the many ‘things’ contemporary capitalists must tame and procure".
 
-We talked about the difficulities in conducting ethical research that is funded by the body you are investigating, how this research is best able to bring about change and whether interventions that serve a captialistic interest always potentially harmful.
+We talked about the difficulities in conducting ethical research that is funded by the body you are investigating, how this research is best able to bring about change and whether interventions that serve a captialistic interest are always harmful.
 
-## What difficulties appear when being an ethics AI researcher? 
+## What difficulties appear as an ethics AI researcher? 
 
-One of our members, works on training PhD students in responsible innovation for AI. We discussed the tensions between trying to train responsible AI - it's a mindset and not a checklist. There are inherent risks in framing it otherwise - what is ethical is influenced by political events, cultural beliefs, so many things and is not just a clipboard to run through at the end of a project.
+One of the attendees works on training PhD students in responsible innovation for AI. 
+We discussed the tensions of trying to train responsible AI - it's a mindset and not a checklist. There are inherent risks in framing it otherwise - what is ethical is influenced by political events, cultural beliefs, so many things and is not just a clipboard to run through at the end of a project.
 
 So when people say that they *have* developed a checklist - how good can that be? And how can you create training that gives any guarantee of an ethical standard.
 
-This discussion reminded some of us of carbon credits. "Buy" good ethics with money instead of being good at ethics. In both cases, it brings about the question of: if you can afford to put money into this effort (be it environmental/ethical impact) when you weren't doing something to negatively contribute (taking a flight somewhere/working on a project with military applications), why not avoid doing the negative action and still contribute? It almost feels like a guilt tax to payoff to appeal to public opinion.
+This discussion reminded some of us of [carbon credits](https://en.wikipedia.org/wiki/Carbon_credit) in the sense that you can "buy" good ethics with money instead of being good at ethics. 
+In both cases, it brings about the question of: if you can afford to put money into this effort (be it environmental/ethical impact) when you weren't doing something to negatively contribute (taking a flight somewhere/working on a project with military applications), why not avoid doing the negative action and still contribute? 
+It almost feels like a guilt-tax to payoff to appeal to public opinion.
 
-Often times a data science's job is not to evaluate, but to make something look the best based. Data science is a lot about representing information. Whilst part of that is using that representation to best understand it from your point of view, an equally important part is to represent the data in a way that says the message you (or the client) want. When you're trying to get a product out, if you have a vested interest, it makes it very hard to stay objective.
+Often times a data scientist's job is a lot about representing information, rather than evaluating it. Whilst part of that is using that representation to best understand it from your point of view, an equally important part is to represent the data in a way that supports the message you (or the client) want. When you're trying to get a product out, if you have a vested interest, it makes it very hard to stay objective. (This is another great reason to bring reflexivity practices into data science!).
 
-People see models as not harmful by default. Many people throw their data into a black box which they don't understand. Data scientists need to realise that there are consequences to the work that they do. Unless people are economically punished for unethical practises, where is the inscentive for them to stop?
+Its common for data scientists and mathematical people to see models as not harmful and neutral by default, because they are simply a representation of objectively measured data. It also seems common for people to throw their data into a black box which they don't (and can't) understand. Data scientists need to realise that there are consequences to the work that they do. Unless people are economically punished for unethical practices, where is the incentive for them to stop?
 
 ## Are interventions/research that serve capitalist interests always bad/harmful?
 
-What are our assumptions about what is good/bad? Is working not-for-profit automatically bad? What are we aiming for: in terms of interventions (e.g. regulation) or in terms of values (e.g. transparency).
+What are our assumptions about what is good/bad? Is working in a not-for-profit automatically good? What are we aiming for: in terms of interventions (e.g. regulation) or in terms of values (e.g. transparency).
 
 Ethical harms are less tangible sometimes than other regulated things. Is it possible to circumvent huge scandals? Or is it necessary? Even in more critical tangible systems (planes/cars), things keep on until scandal because it's deniable that there's a problem. What is the structure that will catch these problems earlier on? Negative feedback loops come to mind. Why do organisations bring in standards? Because employees asked for it.
 
 The aviation industry provides an interesting case study: plane crashes cause mistrust and low sales, is there a feedback loop in the same way? FAA (aviation industry) has very heavy-handed regulation, but still has scandals and failures. But maybe there's another world where we just accept planes fall out of the sky sometimes? Big tech self regulation...is that really a good idea?
 
-There appears to be a presumption 100% transparency is good. Even if you're working in not for profit, you're still not going to be 100% transparent at all times. Why are we asking for transparency? Transparency is in some sense the opposite to trust but a direct call for transparency is not the same as truth.
+There appears to be a presumption 100% transparency is good. Even if you're working in not for profit, you're still not going to be 100% transparent at all times. Why are we asking for transparency? Transparency is in some sense the opposite to trust but a direct call for transparency is not the same as truth. There is [an excellent paper about this tension between transparency and trust](https://philarchive.org/archive/NGUTISv2) on our Reading List, but be warned - it's a long one!
 
-Why are we not transparent? Coorporate interests are the motivation in private companies but what about public sector? Competitive interests might be apparent, but also privacy and potentially national security measures. On a personal level, one might not be confident in own ability as developer or not willing to share. What would we want to be transparent about? Transparency to the end user: which variables are impacting you? Transparency to the regulator: which variables are causing this group of people, or this selection of (e.g.) failed loan applications to fail?
+Might we have good reasons for not being transparent? Coorporate interests are the motivation in private companies but what about public sector? Competitive interests might be apparent, but there are likely to be "good" reasons relating to privacy and national security. On a personal level, sometimes people are not confident in their own ability and so not willing to share. What would we want to be transparent about? This might look different to different audiences (Transparency to the end user: which variables are impacting you? Transparency to the regulator: which variables are causing this selection of loan applications to fail?).
 
-What's the best outcome for users being able to really know what is going on? External regulation is arguably better than internal (unscrupulous people could potentially cover things up). But if the internal team is multiple people and there is more of a culture of ethical regulation, internal regulation has a place as well.
+What's the best outcome for users being able to really know what is going on? External regulation is arguably better than internal (unscrupulous people could potentially cover things up). But if the internal team has multiple people and there is more of a culture of ethical regulation, then that has an important place as well.
 
 ## When is critical research practice likely to bring about substantial change?
 
-Critical research practise is most likely to bring about change if the research is challenging the main purpose of the company (e.g. Google and language models) and their main products then this would be problematic. 
+Critical research practice is difficult to do from "inside the house". If research is challenging the main purpose of the company (e.g. Google and language models) and their main products then this is problematic for them from a financial perspective, and it's doubtful whether truly meaningful change is possible from this position. That said, it would be great if companies were made up of all ethically minded people! 
 
 One of our members, an academic in a University philosophy department had some interesting (and very self-aware) insights into public perception of their work. Philosophers are not all knowing and can't outthink every ethical problem.
 
