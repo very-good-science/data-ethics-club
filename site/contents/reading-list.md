@@ -72,6 +72,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Accountable Algorithms](https://scholarship.law.upenn.edu/penn_law_review/vol165/iss3/3/) [1] - suggested by DEC paper reviewer
 * [Algorithmic Transparency for the Smart City](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3012499) [1] - suggested by DEC paper reviewer
 * [Assessing risk, automating racism.](https://www.grossmont.edu/faculty-staff/participatory-governance/student-success-and-equity/_resources/assets/pdf/assessing-risk-automating-racism.pdf) - suggested by DEC paper reviewer 
+* [The failures of algorithmic fairness](https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/) - suggested by [Paul Lee](https://senseoffairness.blog/)
 
 ## History of data science
 * [Statistics, Eugenics and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) by Raphael Sonabend - suggested by [@ninadicara](https://github.com/ninadicara) [#70](https://github.com/very-good-science/data-ethics-club/issues/70)
@@ -107,6 +108,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
 * 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday) -  ✅  [14th July 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/14-07-21_writeup.html)
 * [UK AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) - suggested by [Paul Lee](https://senseoffairness.blog/)
+* [Learning from the stochastic parrots: finding fairness in AI](https://senseoffairness.blog/2021/02/28/learning-from-the-stochastic-parrots-finding-fairness-in-ai/) - suggested by [Paul Lee](https://senseoffairness.blog/)
 
 ## Data science and research culture
 
