@@ -18,7 +18,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## Discussion
 
-As part of the Jean Goulding Institute's Data Week conference, we put on a special edition of Data Ethics Club, inviting our usual members as well as anyone attending Data Week to attend. Rather than give reading for the session beforehand, we watched a short video in the session. This video featured Virginia Eubanks talking about some of the ideas in her book (one our favourites here at DEC), Automating Inequality.
+As part of the [Jean Golding Institute's Data Week](http://www.bristol.ac.uk/golding/get-involved/data-week/) conference, we put on a special edition of Data Ethics Club, inviting our usual members as well as anyone attending Data Week to attend. Rather than give reading for the session beforehand, [we watched a short video in the session](https://www.youtube.com/watch?v=ADYxJU0WyJA). This video featured Virginia Eubanks talking about some of the ideas in her book (one our favourites here at DEC), Automating Inequality.
 
 In this brief piece, Eubanks brings up some of the more familiar ideas that regular DEC members will be familiar with about automating decision making. Additionally, she touched on ideas about flattening people into data and "maths-washing". We had less time than usual but endeavoured to discuss as many of these ideas as we could.
 
@@ -30,13 +30,13 @@ In theory, automating decisions could reduce administrative load. Government pro
 Cons:
 Where do you set the boundaries for data inputs? Humans can widen inputs as they see fit.
 
-People object to disparity between the speed at which decisions are made about them, and the time it takes to object to a decision and appeal. Because "computer says no", but a human needs to take into account additional information that the computer cannot look for (without being told). If automated decisions are made, then there needs to be a streamlined process to object to decisions. This might make people feel a bit better about what's being done to them by automated systems. We felt that automatic the appeal process was *not* the appropriate measure here.
+People object to disparity between the speed at which decisions are made about them, and the time it takes to object to a decision and appeal. Because "computer says no", but a human needs to take into account additional information that the computer cannot look for (without being told). If automated decisions are made, then there needs to be a streamlined process to object to decisions. This might make people feel a bit better about what's being done to them by automated systems. We felt that automatic appeal processes were *not* the appropriate measure here.
 
-The automated systems often ignore the point of what we're trying to achieve - a system might be designed to reduce government welfare spending rather than actually help people get the support they need. What you optimise for is an important variable to consider?
+The discussion about automated systems often ignores the point of what it is put in place to achieve - a system might be designed to reduce government welfare spending rather than actually help people get the support they need. What you optimise for is an important variable to consider.
 
 Choosing what to measure and what not to measure - and also who you can actually get into the data (availability bias) is a big issue. In some of our experience, people often don't consider if the data set is complete or not.
 
-One example of automating decision making is the [UK civil service personel being cut](https://www.civilserviceworld.com/professions/article/reesmogg-sets-out-plans-to-shrink-civil-service-and-get-it-under-control) in favour of [automated decision making](https://www.publictechnology.net/articles/news/rees-mogg-cites-potential-%E2%80%98automation-and-tech%E2%80%99-plans-are-unveiled-axe-91000-officials). If we cut roles in Civil service to save on head counts will this result in codifying bias and inequality? 
+One example of automating decision making is the [UK civil service personel being cut](https://www.civilserviceworld.com/professions/article/reesmogg-sets-out-plans-to-shrink-civil-service-and-get-it-under-control) in favour of [automated decision making](https://www.publictechnology.net/articles/news/rees-mogg-cites-potential-%E2%80%98automation-and-tech%E2%80%99-plans-are-unveiled-axe-91000-officials). If we cut roles in the Civil Service to save on head counts will this result in codifying bias and inequality? 
 
 When we think about codifying inequality is it that we've removed the humans in the loop? Or is it that the human in the loop will still have prejudice?
 
@@ -45,9 +45,9 @@ To the people who are having decisions made about them, algorithmic decision mak
 
 It is quicker and cheaper to just give a developer a computer and a piece of paper with the job, rather than co-designing and testing and engaging stakeholders. We don't have an ethics committee in every area trying to automate. People aren't recognizing that the algorithm only reproduces bias though, a lot of people are convinced it improves decision making; specialist in organizational behaviour.
 
-## How can we better listen to the voices of those currently targetted by automated decision algorithms, i.e. primarily people in low rights environments?
+## How can we better listen to the voices of those currently targeted by automated decision algorithms, i.e. primarily people in low rights environments?
 
-The people designing these systems are too focussed on turning the world into a giant game of factorio for themselves. Industry often prioritise profit. Government often prioritise spend less money on disadvantaged individuals. The intersection of these motives inevitably leads to problems for people!
+The people designing these systems are too focussed on turning the world into a giant game of factorio for themselves. Industry often prioritise profit. Government often prioritise spending less money on disadvantaged individuals. The intersection of these motives inevitably leads to problems for people!
 
 We can't go around asking people "what variables do you want us to use to build an automated system that decides if you're going to lose your job?" It's not just about how difficult people are to reach (e.g. people without an address), it's also their justified mistrust of engaging with people collecting data.
 
@@ -85,4 +85,5 @@ __Name, Role, Affiliation, Where to find you, Emoji to describe your day__
 - Huw Day, PhDoer, University of Bristol, [@disco_huw](https://twitter.com/disco_huw)
 - Euan Bennet, Senior Research Associate, University of Bristol, [@DrEuanBennet](https://twitter.com/DrEuanBennet)
 - Vanessa Hanschke, PhD Student, University of Bristol
-- [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/), Citizen Developer, Australian Public Service, Brisbane
+- [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/), Citizen Developer, Australian Public Service, Brisbane. 
+- Many other attendees who were guests for this Data Week session!
