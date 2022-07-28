@@ -17,7 +17,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 :alt: A meme with a man slowly applying clown makeup. "The process of observation is not unbiased." "Any time datapoints are gathered together some decisions are made." "Biases and assumptions are injected at every step." "That doesn't apply to my data though." Meme made by Euan Bennet.
 ```
 
-This week at Data Ethics Club we discussed the paper the article [“Why Data is Never Raw”](https://www.thenewatlantis.com/publications/why-data-is-never-raw) by Nick Barrowman. 
+This week at Data Ethics Club we discussed the article [“Why Data is Never Raw”](https://www.thenewatlantis.com/publications/why-data-is-never-raw) by Nick Barrowman. 
 
 There is no theory-free observation. Data is engineered, the article challenges the raw/cooked dichotomy. In order to measure resistance, counting requires assumptions about what magnitude means, or what a number means. This article explores the nature of data, as well as the claim that some data is "raw", often used to reinforce a data-driven approach.
 
