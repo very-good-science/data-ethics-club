@@ -24,13 +24,13 @@ Involve: We will work with you to ensure your concerns and aspirations are direc
 Collaborate: We will look to you for advice and innovation in design of data-governance models, and incorporate your advice and recommendations where possible.
 Empower: We will advise and assist in line with your decisions about your own data-governance models.
 
-The frameworks are presented in a sort of implicit hierarchy, the nature of which we discussed. We also talked about how to decide on what level of participation to impliment, the optimal amount of participation (in theory and in practise) and the barriers to the implimentation of participation framework.
+The frameworks are presented in a sort of implicit hierarchy, the nature of which we discussed. We also talked about how to decide on what level of participation to implement, the optimal amount of participation (in theory and in practice) and the barriers to the implementation of participatory frameworks.
 
 ## What factors should guide decisions about what level of participation best suits a project? Does this happen in practice?
 
-The five frameworks seem high-level and the practical application might be difficult. We liked that there was a critique included. Factors that should influence level of participation will vary widely from project to project.
+The five frameworks seem high-level and there wasn't much advice on practical application, which might be difficult. We liked that there was a critique included though. Factors that should influence level of participation will vary widely from project to project.
 
-Why might we feel inclined to think "empower" is the "best" framework? There's a question about feasibility: how feasible is it to "empower" the relevant communities?
+We wondered why might we feel inclined to think "empower" is the "best" framework? In theory we would like to think that the most participation is always the best, but there's a question about feasibility: how feasible is it to "empower" the relevant communities?
 
 What about *limiting* participation? There might be circumstances where you don't want too much public access/input (e.g. clinical trial participants).
 
@@ -38,7 +38,7 @@ The people who have capacity to involve themselves more may not be too represent
 
 There is a need for teams to be diverse and, therefore, open to empowering different voices from the outset.
 
-Some think you shouldn't collect data without consulting those affected by it. This can bog things down. Does it happen in practise? 
+Some think you shouldn't collect data without consulting those affected by it. But given that this usually requires time and financial investment, how often does it actually happen in practice?
 
 From our own experiences, in the subfield of social media, data collection is not very ethical at all. The NHS, on the other hand does a really good job of protecting people's data (PPI etc).
 
@@ -48,7 +48,7 @@ We were of the opinion that most partcipation is *not* always the best.
 
 You need to commit to a certain level of maintenance for data to be worked with. If this needs to be run by the participants, this can really bog things down. (This will be evident to anyone who has ever tried to organise a group holiday).
 
-There's a difficulty of presenting it as a hierarchy, implying one is better and one is worse. 
+There's a difficulty of presenting it as a hierarchy, implying one is better and one is worse. Often data is collected about specific sub-populations who are being 'studied', and they are often being 'studied' because they may have particular health conditions or life circumstances we are trying to research. However, these life circumstances or health conditions may mean that these population groups may not necessarily appreciate having to put a lot of time in managing their participation and data. On the other hand, it would be a particularly effective measure against the exploitation of under-served communities, many of whom have histories of being exploited for the purpose of research.
 
 We did appreciate that this report seemed to have a section on how to make each action meaningful. That's not often addressed, usually it's just awareness.
 
@@ -72,11 +72,11 @@ Is it always good to have participation? Maybe it's good to mandate some level o
 
 ## What do you see as being barriers to participatory data stewardship, and how could these realistically be overcome?
 
-This effort can be demanding on researchers. Perhaps there should be "centralised" institutional support, creating "pools" of relevant participants to reduce duplication of effort. There is a lack of funding to practically implement this framework.
+This effort can be demanding on researchers, and if the level of participation is high it can be demanding on participants too. Perhaps there should be "centralised" institutional support, creating "pools" of relevant participants to reduce duplication of effort. There is a lack of funding to practically implement this framework.
 
 In general, there is a need for a mindset change. Instead of building technology as quickly as possible, we might want to build it slowly and mindfully. 
 
-Teams handling data could be compared to flowers. They can bloom if they are diverse, should cross-polenate to ensure they aren't duplicating efforts, and they cannot grow on barren lands or within nerd caves. Budding flowers will naturally include these kinds of participation question, while in a baren desert data scientists won't have space to ask these kinds of questions.
+Teams handling data could be compared to flowers. They can bloom if they are diverse, should cross-pollinate to ensure they aren't duplicating efforts, and they cannot grow on barren lands or within nerd caves. Budding flowers will naturally include these kinds of participation questions, while in a barren desert data scientists won't have space, or colleague input, to ask these kinds of questions.
 
 ---
 
