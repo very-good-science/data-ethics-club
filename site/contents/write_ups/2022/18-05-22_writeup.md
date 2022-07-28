@@ -11,7 +11,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## Introduction
 
-```{image} images/RawData.png
+```{image} ../../../images/RawData.png
 :width: 200px
 :align: center
 :alt: A meme with a man slowly applying clown makeup. "The process of observation is not unbiased." "Any time datapoints are gathered together some decisions are made." "Biases and assumptions are injected at every step." "That doesn't apply to my data though." Meme made by Euan Bennet.
