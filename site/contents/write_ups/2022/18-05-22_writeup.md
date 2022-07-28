@@ -19,17 +19,17 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 This week at Data Ethics Club we discussed the article [“Why Data is Never Raw”](https://www.thenewatlantis.com/publications/why-data-is-never-raw) by Nick Barrowman. 
 
-There is no theory-free observation. Data is engineered, the article challenges the raw/cooked dichotomy. In order to measure resistance, counting requires assumptions about what magnitude means, or what a number means. This article explores the nature of data, as well as the claim that some data is "raw", often used to reinforce a data-driven approach.
+In order to measure resistance, counting requires assumptions about what magnitude means, or what a number means. This article explores the nature of data, as well as the claim that some data is "raw", often used to reinforce a data-driven approach. There is no theory-free observation. Data is engineered, and the article challenges the raw/cooked data dichotomy. 
 
-In this talk we discussion we considered the nature of data, if data is truly "raw", what analogies can we use for the "raw-ness" or "cooked-ness" of data and how these ideas apply to our own work.
+In this discussion we considered the nature of data, if data is truly "raw", what analogies can we use for the "raw-ness" or "cooked-ness" of data and how these ideas apply to our own work.
 
 ## Can you think of any examples of data that you would consider truly “raw”?
  
 It's hard to find an example of raw, non-subjective data. The amount of money in your bank account is in some sense objective but the value of that money itself is subjective. The list of the balance in customer bank accounts at a certain bank - is that subjective? Grades for a degree are "raw" because no one can change them but they are still subjective. 
 
-Lots of variables are often proxies for something else. But the assumptions, decisions and process that go into making any data set into the form that it exists in are not neutral. Any results from any data cannot be "unbiased" or "neutral". All data *can* be raw but not when it is used for an actual purpose. 
+Lots of variables are often proxies for something else. But the assumptions, decisions and process that go into making any data set into the form that it exists in are not neutral. Any results from any data cannot be "unbiased" or "neutral". All data *can* be raw but not when it is applied for an actual purpose. 
 
-What do we mean by "data"? Is the amount of money in a single bank account "data"? Or does it only become data when it is grouped in amongst a number of other people's bank accounts? We never usually use just one point of data - we use groups, so there is always some processing going on. Applying a purpose to the data makes it no longer raw. We have discussed in the past the idea of labelling datasets for their purposes, outlining the potential (and potential limitations) of the data set. 
+What do we mean by "data"? Is the amount of money in a single bank account "data"? Or does it only become data when it is grouped in amongst a number of other people's bank accounts? We never usually use just one point of data - we use groups, so there is always some processing going on. We have discussed in the past the idea of labelling datasets for their purposes, outlining the potential (and potential limitations) of the data set. 
 
 There is an evolution analogy here. Some data just exists "naturally", but also some we engineer. Data is kind of "out there", but it's up to us what we collect.
 
@@ -48,9 +48,9 @@ We are certainly not the first to notice tortured metaphors relating to [data](h
 
 What are the different types of raw-ness? Is it a heirarchy? Is it about how many people are involved in collecting data, and the level of coordination required.
 
-Depending on what the question is, and what you are collecting. Perhaps raw-ness is determined by the number of aggregations you make, or deletions. For example when you go on Twitter, you aren't seeing raw data. Start off raw then as you pre-process it becomes less and less raw. Before even collecting data, declaring our positionality isn't common in quantitative research, but it is in qualitative research.
+Depending on what the question is, and what you are collecting. Perhaps raw-ness is determined by the number of aggregations you make, or deletions. For example when you go on Twitter, you aren't seeing raw data. Start off raw then as you pre-process it becomes less and less raw. 
 
-Researchers like to think we're independent, but in reality you have to write a certain way for a certain journal, or if you're from a certain research group you are expected to fit with a certain research culture. How much are we "cooking" our work?
+Before even collecting data, declaring our positionality isn't common in quantitative research, but it is in qualitative research. Researchers like to think we're independent, but in reality you have to write a certain way for a certain journal, or if you're from a certain research group you are expected to fit with a certain research culture. How much are we "cooking" our work? 
 
 We don't necersarily need to know everything about how a network was created. But how does that change with different processes? For example, a biologist's processed data about protein-protein interactions would become a mathematicians raw data when investigating properties of that network. Raw-ness/cooked-ness is contextual, even linked with intention. 
 
@@ -76,7 +76,7 @@ The least we can do is make it clear what assumptions are made when working with
 
 In science we often approach problems by assuming that the data is raw, but it's probably safer to come from the assumption that data is never raw, and then maybe it can be argued that certain cases are raw (in those rare occasions that it is appropriate).
 
-The first people who looked through microscopes at sperm thought a little [fully formed person](https://en.wikipedia.org/wiki/Homunculus#/media/File:Preformation.GIF) would be sitting inside the sperm cell. They believed this from their theoretical background and that's how they interpreted. 
+The first people who looked through microscopes at sperm thought a little [fully formed person](https://en.wikipedia.org/wiki/Homunculus#/media/File:Preformation.GIF) would be sitting inside the sperm cell. They believed this based on their theoretical background. 
 
 Another example; in the first discovery of pulsars using radio telescopes, people thought these regular radio signals couldn't possibly exist in nature and had to be aliens.
 
