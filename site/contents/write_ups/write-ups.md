@@ -11,6 +11,7 @@ We also discuss the meetings [on Twitter at #DataEthicsClub](https://twitter.com
 ```{toctree}
 :maxdepth: 1
 
+2022/GLMBlogpost.md
 2022/16-06-22_writeup.md
 2022/01-06-22_writeup.md
 2022/18-05-22_writeup.md
