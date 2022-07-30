@@ -123,6 +123,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Why Open Source misses the point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html) 
 * [Ethics Creep](https://link.springer.com/article/10.1023/B:Quas.0000049239.15922.a3)🔒 - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech](https://doi.org/10.1080/09505431.2021.1990875) - suggested by [@RShkunov](https://twitter.com/RShkunov)
+* [Math Washing](https://www.mathwashing.com/) [2] - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/?originalSubdomain=au)
 
 ## Ethics in action (the good and the not so good)
 
