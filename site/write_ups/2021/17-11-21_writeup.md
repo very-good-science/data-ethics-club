@@ -89,7 +89,7 @@ This does not rule out them having other, good ideas.
 Should a Professor who has discriminatory views be allowed to hold their post? 
 In the past, yes. Nowadays, less so. 
 We discussed previously about wanting to decolonise academia and the push for more diversity in academia. 
-Linking in to our previous discussion on [decolonising computer science](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/20-10-21_writeup.html), how can we hope for more diverse individuals to progress through academia if the very people they look up don't want them there? 
+Linking in to our previous discussion on [decolonising computer science](https://very-good-science.github.io/data-ethics-club/write_ups/2021/20-10-21_writeup.html), how can we hope for more diverse individuals to progress through academia if the very people they look up don't want them there? 
 
 How accountable should people be for their opinions?
 Free speech is important particularly to an intellectual community, and most of us felt uncomfortable with it being policed, but that doesn't mean people shouldn't expect consequences to the things they say and how they act. 
