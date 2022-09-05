@@ -349,7 +349,16 @@
       "contributions": [
         "content"
       ]
-    }
+    },
+    {
+      "login": "",
+      "name": "Vivienne Kuh",
+      "avatar_url": "",
+      "profile": "https://www.bristol.ac.uk/people/person/Vivienne-Kuh-3265cd07-2fb1-45ab-81fb-16dd4c1953d4/",
+      "contributions": [
+        "content"
+      ]
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "data-ethics-club",
