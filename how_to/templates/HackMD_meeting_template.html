@@ -1,0 +1,797 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Data Ethics Club: TITLE OF MATERIAL &#8212; Data Ethics Club v0.1.0 documentation</title>
+  <script>
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
+
+  
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'how_to/templates/HackMD_meeting_template';</script>
+    <link rel="canonical" href="dataethicsclub.com/how_to/templates/HackMD_meeting_template.html" />
+    <link rel="shortcut icon" href="../../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="docsearch:language" content="None">
+  </head>
+  
+  
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
+  <label class="overlay overlay-primary" for="__primary"></label>
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__secondary" id="__secondary">
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+      
+<form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+    </div>
+  </div>
+
+  
+  <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+      <span class="fas fa-bars"></span>
+  </label>
+  <div id="navbar-start">
+    
+    
+  
+
+
+<a class="navbar-brand logo" href="../../index.html">
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+    <p class="title logo__title">Data Ethics Club v0.1.0 documentation</p>
+  
+</a>
+    
+  </div>
+
+  
+  <div class="col-lg-9 navbar-header-items">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="../../join_in/join_in.html">
+                        Join in
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../reading-list.html">
+                        Reading list
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../write_ups/write-ups.html">
+                        Write-ups
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../reuse_dec.html">
+                        Reuse our materials
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../contact.html">
+                        Contact us
+                    </a>
+                </li>
+                
+            <div class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu">
+                    
+                <li class="nav-item">
+                    <a class="nav-link" href="../../mailing-list.html">
+                        Mailing list
+                    </a>
+                </li>
+                
+                </div>
+            </div>
+            
+    </ul>
+</nav>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      <div class="navbar-end-item navbar-end__search-button-container">
+        
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search">
+  <i class="fas fa-search"></i>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+</span>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+  
+  <div class="search-button-container--mobile">
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search">
+  <i class="fas fa-search"></i>
+</button>
+  </div>
+
+  
+  <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fas fa-outdent"></span>
+  </label>
+  
+
+</div>
+  </nav>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="../../join_in/join_in.html">
+                        Join in
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../reading-list.html">
+                        Reading list
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../write_ups/write-ups.html">
+                        Write-ups
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../reuse_dec.html">
+                        Reuse our materials
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../contact.html">
+                        Contact us
+                    </a>
+                </li>
+                
+            <div class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu">
+                    
+                <li class="nav-item">
+                    <a class="nav-link" href="../../mailing-list.html">
+                        Mailing list
+                    </a>
+                </li>
+                
+                </div>
+            </div>
+            
+    </ul>
+</nav>
+      </div>
+      
+      </div>
+    
+
+    
+    
+    <div class="sidebar-header-items__end">
+      
+      <div class="navbar-end-item">
+        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+</span>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+
+  
+  <div class="sidebar-end-items sidebar-primary__section">
+    <div class="sidebar-end-items__item">
+    </div>
+  </div>
+
+      </div>
+      <main class="bd-main">
+        
+        
+        <div class="bd-content">
+          <div class="bd-article-container">
+            
+            <div class="bd-header-article">
+                
+            </div>
+            
+            
+            <article class="bd-article" role="main">
+              
+  <section id="data-ethics-club-title-of-material">
+<h1>Data Ethics Club: <span class="xref myst">TITLE OF MATERIAL</span><a class="headerlink" href="#data-ethics-club-title-of-material" title="Permalink to this headline">#</a></h1>
+<!--Please don't edit the info panel below-->
+<div class="highlight-warning notranslate"><div class="highlight"><pre><span></span>### :arrow_forward: What&#39;s this document?
+
+#### :writing_hand: Let&#39;s write together!
+We&#39;re trying to write up these discussions and include input from everyone.
+We hope you&#39;ll join us and help us to make any write-ups of the discussion a little more representative of everyone&#39;s point of view.
+
+We also hope that through doing this, we&#39;ll open up the possibility for more collaborative writing together in the future, e.g. through a perspective article.
+That&#39;s if there&#39;s any appetite from you to do that.
+
+#### :computer: Writing in Markdown
+We&#39;re using HackMD to write a collaborative Markdown document. 
+Markdown is a format for writing text that displays nicely on websites.
+On the left you can edit, and on the right you can see view.
+
+#### :grey_question: Getting Markdown help
+There is a question mark symbol at the top of the screen that will bring up a cheat sheet, e.g. *write between single asterixes to write in italics* **or double asterixes for bold**.
+You can also use the buttons at the top of the edit panel.
+</pre></div>
+</div>
+<section id="welcome">
+<h2>Welcome<a class="headerlink" href="#welcome" title="Permalink to this headline">#</a></h2>
+<p>Hi :wave:, welcome to Data Ethics Club!
+Thank you for being here!</p>
+<p>Here are some quick useful links:</p>
+<ul class="simple">
+<li><p><span class="xref myst">This Document</span></p></li>
+<li><p><span class="xref myst">Code of Conduct</span></p></li>
+<li><p><span class="xref myst">Our GitHub page</span></p></li>
+<li><p><span class="xref myst">This week’s discussion material</span></p></li>
+</ul>
+</section>
+<section id="introductions">
+<h2>Introductions<a class="headerlink" href="#introductions" title="Permalink to this headline">#</a></h2>
+<p>Please introduce yourself here.
+Feel free to use a pseudoname (this is a public document).
+If you provide a GitHub username, I’ll use those to credit you for discussions :speech_balloon: and/or writing :writing_hand:  on our GitHub</p>
+<p><strong>Name, Job title, Affiliation, GitHub, Twitter, Emoji to describe your day</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a>, :sun_with_face:</p></li>
+<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a>, :writing_hand:</p></li>
+</ul>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">#</a></h2>
+<p>Each week, we split into breakout rooms of 4-6 people to discuss the material.
+Please make space for one another to talk - keep your eyes open :eyes: for people with their hands up :hand: and invite them to talk.</p>
+<p>As always we have provided some discussion points to get the conversation moving, but feel free to discuss anything relating to the materials!</p>
+<div class="highlight-info notranslate"><div class="highlight"><pre><span></span>### :information_source:  Notes on writing
+#### Writing things down is optional
+
+The following are all good options:
+- :heavy_check_mark: Writing some notes in here as you discuss.
+- :heavy_check_mark: Writing some notes in here up to a week after the discussion at any time.
+- :heavy_check_mark: Not writing any notes in here at any time.
+
+#### What to write
+Suggestions for what to write down (if you want to):
+- Any interesting quotes from the discussion
+- Links to other material that came up in the discussion
+- Parts of the reading material that you felt particularly strongly about
+</pre></div>
+</div>
+<section id="id1">
+<h3>Discussion<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<section id="suggested-questions">
+<h4>Suggested Questions<a class="headerlink" href="#suggested-questions" title="Permalink to this headline">#</a></h4>
+<ul class="simple">
+<li><p><strong>Q1</strong>: A question here</p></li>
+<li><p><strong>Q2</strong>: A question here</p></li>
+<li><p><strong>Q3</strong>: A question here</p></li>
+<li><p><strong>Bonus Question:</strong> What change would you like to see on the basis of this piece? Who has the power to make that change?</p></li>
+</ul>
+</section>
+<section id="room-1">
+<h4>Room 1<a class="headerlink" href="#room-1" title="Permalink to this headline">#</a></h4>
+<section id="q1">
+<h5>Q1<a class="headerlink" href="#q1" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="q2">
+<h5>Q2<a class="headerlink" href="#q2" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="q3">
+<h5>Q3<a class="headerlink" href="#q3" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="bonus-question">
+<h5>Bonus question<a class="headerlink" href="#bonus-question" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="misc">
+<h5>Misc<a class="headerlink" href="#misc" title="Permalink to this headline">#</a></h5>
+</section>
+</section>
+<section id="room-2">
+<h4>Room 2<a class="headerlink" href="#room-2" title="Permalink to this headline">#</a></h4>
+<section id="id2">
+<h5>Q1<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id3">
+<h5>Q2<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id4">
+<h5>Q3<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id5">
+<h5>Bonus question<a class="headerlink" href="#id5" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id6">
+<h5>Misc<a class="headerlink" href="#id6" title="Permalink to this headline">#</a></h5>
+</section>
+</section>
+<section id="room-3">
+<h4>Room 3<a class="headerlink" href="#room-3" title="Permalink to this headline">#</a></h4>
+<section id="id7">
+<h5>Q1<a class="headerlink" href="#id7" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id8">
+<h5>Q2<a class="headerlink" href="#id8" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id9">
+<h5>Q3<a class="headerlink" href="#id9" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id10">
+<h5>Bonus question<a class="headerlink" href="#id10" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id11">
+<h5>Misc<a class="headerlink" href="#id11" title="Permalink to this headline">#</a></h5>
+</section>
+</section>
+<section id="room-4">
+<h4>Room 4<a class="headerlink" href="#room-4" title="Permalink to this headline">#</a></h4>
+<section id="id12">
+<h5>Q1<a class="headerlink" href="#id12" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id13">
+<h5>Q2<a class="headerlink" href="#id13" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id14">
+<h5>Q3<a class="headerlink" href="#id14" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id15">
+<h5>Bonus question<a class="headerlink" href="#id15" title="Permalink to this headline">#</a></h5>
+</section>
+<section id="id16">
+<h5>Misc<a class="headerlink" href="#id16" title="Permalink to this headline">#</a></h5>
+</section>
+</section>
+</section>
+</section>
+<section id="after-this-session">
+<h2>After this session<a class="headerlink" href="#after-this-session" title="Permalink to this headline">#</a></h2>
+<p>You have a week to add anything else that you’d like to to this document.
+After that, we’ll try to make this document a little more cohesive, then we’ll send a link around to the write up of the discussion in the next mailing list email.</p>
+</section>
+<section id="feedback-on-the-format">
+<h2>Feedback on the format<a class="headerlink" href="#feedback-on-the-format" title="Permalink to this headline">#</a></h2>
+<p>Please feel free to leave us some notes below on how the discussion group went for you this time, positive or negative, and any suggestions to improve (you can always <span class="xref myst">email us</span> instead).
+We do read these and make changes :sparkles:</p>
+<ul class="simple">
+<li><p>Suggestion here</p></li>
+<li><p>Another suggestion here</p></li>
+</ul>
+</section>
+</section>
+
+
+            </article>
+            
+            
+            
+            <footer class="bd-footer-article">
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+</div>
+            </footer>
+            
+          </div>
+          
+          
+          
+            <div class="bd-sidebar-secondary bd-toc">
+              
+<div class="toc-item">
+  
+<div class="tocsection onthispage">
+    <i class="fas fa-list"></i> On this page
+</div>
+<nav id="bd-toc-nav" class="page-toc">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#welcome">
+   Welcome
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introductions">
+   Introductions
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#discussion">
+   Discussion
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Discussion
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#suggested-questions">
+       Suggested Questions
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#room-1">
+       Room 1
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#q1">
+         Q1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#q2">
+         Q2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#q3">
+         Q3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#bonus-question">
+         Bonus question
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#misc">
+         Misc
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#room-2">
+       Room 2
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id2">
+         Q1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id3">
+         Q2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id4">
+         Q3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id5">
+         Bonus question
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id6">
+         Misc
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#room-3">
+       Room 3
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id7">
+         Q1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id8">
+         Q2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id9">
+         Q3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id10">
+         Bonus question
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id11">
+         Misc
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#room-4">
+       Room 4
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id12">
+         Q1
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id13">
+         Q2
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id14">
+         Q3
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id15">
+         Bonus question
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#id16">
+         Misc
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#after-this-session">
+   After this session
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#feedback-on-the-format">
+   Feedback on the format
+  </a>
+ </li>
+</ul>
+
+</nav>
+</div>
+
+<div class="toc-item">
+  
+</div>
+
+<div class="toc-item">
+  
+<div class="tocsection sourcelink">
+    <a href="../../_sources/how_to/templates/HackMD_meeting_template.md.txt">
+        <i class="fas fa-file-alt"></i> Show Source
+    </a>
+</div>
+
+</div>
+
+            </div>
+          
+          
+        </div>
+        <footer class="bd-footer-content">
+          <div class="bd-footer-content__inner">
+            
+          </div>
+        </footer>
+        
+      </main>
+    </div>
+  </div>
+
+  
+    
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b"></script>
+
+
+  <footer class="bd-footer"><div class="bd-footer__inner container">
+  
+  <div class="footer-item">
+    License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+  </div>
+  
+  <div class="footer-item">
+    
+<p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
+</p>
+
+  </div>
+  
+</div>
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

@@ -1,0 +1,725 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Data Ethics Club: Participatory Data Stewardship &#8212; Data Ethics Club v0.1.0 documentation</title>
+  <script>
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=9b1a4fa89bdd0e95b23b" rel="stylesheet">
+
+  
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/6.1.2/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2">
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022/01-06-22_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2022/01-06-22_writeup.html" />
+    <link rel="shortcut icon" href="../../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Data Ethics Club: Why data is never raw" href="18-05-22_writeup.html" />
+    <link rel="prev" title="Data Ethics Club: Automating Inequality" href="16-06-22_writeup.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="docsearch:language" content="None">
+  </head>
+  
+  
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="180" data-default-mode="">
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__primary" id="__primary">
+  <label class="overlay overlay-primary" for="__primary"></label>
+
+  
+  <input type="checkbox" class="sidebar-toggle" name="__secondary" id="__secondary">
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+      
+<form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this site..." aria-label="Search this site..." autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+    </div>
+  </div>
+
+  
+  <nav class="bd-header navbar navbar-expand-lg bd-navbar" id="navbar-main"><div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+      <span class="fas fa-bars"></span>
+  </label>
+  <div id="navbar-start">
+    
+    
+  
+
+
+<a class="navbar-brand logo" href="../../index.html">
+
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+    <p class="title logo__title">Data Ethics Club v0.1.0 documentation</p>
+  
+</a>
+    
+  </div>
+
+  
+  <div class="col-lg-9 navbar-header-items">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="../../join_in/join_in.html">
+                        Join in
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../reading-list.html">
+                        Reading list
+                    </a>
+                </li>
+                
+
+                <li class="nav-item current active">
+                    <a class="nav-link" href="../write-ups.html">
+                        Write-ups
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../how_to/reuse_dec.html">
+                        Reuse our materials
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../contact.html">
+                        Contact us
+                    </a>
+                </li>
+                
+            <div class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu">
+                    
+                <li class="nav-item">
+                    <a class="nav-link" href="../../mailing-list.html">
+                        Mailing list
+                    </a>
+                </li>
+                
+                </div>
+            </div>
+            
+    </ul>
+</nav>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      <div class="navbar-end-item navbar-end__search-button-container">
+        
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search">
+  <i class="fas fa-search"></i>
+</button>
+      </div>
+      
+      <div class="navbar-end-item">
+        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+</span>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+
+
+  
+  <div class="search-button-container--mobile">
+<button class="btn btn-sm navbar-btn search-button search-button__button" title="Search">
+  <i class="fas fa-search"></i>
+</button>
+  </div>
+
+  
+  <label class="sidebar-toggle secondary-toggle" for="__secondary">
+      <span class="fas fa-outdent"></span>
+  </label>
+  
+
+</div>
+  </nav>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+      
+      <div class="navbar-center-item">
+        <nav class="navbar-nav">
+    <p class="sidebar-header-items__title" role="heading" aria-level="1" aria-label="Site Navigation">
+        Site Navigation
+    </p>
+    <ul id="navbar-main-elements" class="navbar-nav">
+        
+                <li class="nav-item">
+                    <a class="nav-link" href="../../join_in/join_in.html">
+                        Join in
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../reading-list.html">
+                        Reading list
+                    </a>
+                </li>
+                
+
+                <li class="nav-item current active">
+                    <a class="nav-link" href="../write-ups.html">
+                        Write-ups
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../how_to/reuse_dec.html">
+                        Reuse our materials
+                    </a>
+                </li>
+                
+
+                <li class="nav-item">
+                    <a class="nav-link" href="../../contact.html">
+                        Contact us
+                    </a>
+                </li>
+                
+            <div class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu">
+                    
+                <li class="nav-item">
+                    <a class="nav-link" href="../../mailing-list.html">
+                        Mailing list
+                    </a>
+                </li>
+                
+                </div>
+            </div>
+            
+    </ul>
+</nav>
+      </div>
+      
+      </div>
+    
+
+    
+    
+    <div class="sidebar-header-items__end">
+      
+      <div class="navbar-end-item">
+        <span class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle">
+    <a class="theme-switch" data-mode="light"><i class="fas fa-sun"></i></a>
+    <a class="theme-switch" data-mode="dark"><i class="far fa-moon"></i></a>
+    <a class="theme-switch" data-mode="auto"><i class="fas fa-adjust"></i></a>
+</span>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank"><span><i class="fab fa-twitter-square"></i></span>
+            <label class="sr-only">Twitter</label></a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+    
+  </div>
+
+  
+  <div class="sidebar-start-items sidebar-primary__section">
+    <div class="sidebar-start-items__item"><nav class="bd-links" id="bd-docs-nav" aria-label="Section navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">
+    Section Navigation
+  </p>
+  <div class="bd-toc-item navbar-nav">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="GLMBlogpost.html">
+   The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="16-06-22_writeup.html">
+   Data Ethics Club: Automating Inequality
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Data Ethics Club: Participatory Data Stewardship
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="18-05-22_writeup.html">
+   Data Ethics Club: Why data is never raw
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-05-22_writeup.html">
+   Data Ethics Club: Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="06-04-22_writeup.html">
+   Data Ethics Club: The Algorithmic Colonization of Africa
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="23-03-22_writeup.html">
+   Data Ethics Club: The Tyranny of Structurelessness
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-03-22_writeup.html">
+   Data Ethics Club: AI in Warfare
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="09-02-22_writeup.html">
+   Data Ethics Club: “You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="26-01-22_writeup.html">
+   Data Ethics Club: Which Programming Languages Use the Least Electricity?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="12-01-22_writeup.html">
+   Data Ethics Club: Resolutions 2022
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/15-12-21_writeup.html">
+   Data Ethics Club: A Question of Trust
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/17-11-21_writeup.html">
+   Data Ethics Club: Statistics, Eugenics and Me
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/03-11-21_writeup.html">
+   Data Ethics Club: UK National AI Strategy: Pillar 3 - Governing AI Effectively
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/20-10-21_writeup.html">
+   Data Ethics Club: Towards decolonising computational sciences (20th Oct 2021)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/06-10-21_writeup.html">
+   Data Ethics Club: Structural Injustice and Individual Responsibility (6th Oct 2021)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/08-09-21_writeup.html">
+   Data Ethics Club: ESR: Ethics and Society Review of Artificial Intelligence Research (8th Sept 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/25-08-21_writeup.html">
+   Data Ethics Club: “Participant” Perceptions of Twitter Research Ethics (25th Aug 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/11-08-21_writeup.html">
+   Data Ethics Club: What an ancient lake in Nevada reveals about the future of tech (11th Aug 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/28-07-21_writeup.html">
+   Data Ethics Club: The Rise of Private Spies (28th July 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/14-07-21_writeup.html">
+   Data Ethics Club discusses The mathematics of crime and terrorism (14th July 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/26-05-21_writeup.html">
+   Data Ethics Club discusses ‘Living in the Hidden Realms of AI: The Workers Perspective’ (26th May 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/12-05-21_writeup.html">
+   Data Ethics Club discusses Critical perspectives on Computer Vision (12th May 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/28-04-21_writeup.html">
+   Data Ethics Club discusses We created poverty. Algorithms won’t make that go away (28th Apr 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/14-04-21_writeup.html">
+   Data Ethics Club discusses: UK Statistics Authority: Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape (14th Apr 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/31-03-21_writeup.html">
+   Data Ethics Club discusses Dataism Is Our New God (31st March 21)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../2021/17-03-21_writeup.html">
+   Data Ethics Club discusses “#bropenscience is broken science” (17th March 21)
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+    </div>
+  </div>
+  
+
+  
+  <div class="sidebar-end-items sidebar-primary__section">
+    <div class="sidebar-end-items__item">
+    </div>
+  </div>
+
+      </div>
+      <main class="bd-main">
+        
+        
+        <div class="bd-content">
+          <div class="bd-article-container">
+            
+            <div class="bd-header-article">
+                
+            </div>
+            
+            
+            <article class="bd-article" role="main">
+              
+  <section id="data-ethics-club-participatory-data-stewardship">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf">Participatory Data Stewardship</a><a class="headerlink" href="#data-ethics-club-participatory-data-stewardship" title="Permalink to this headline">#</a></h1>
+<!--Please don't edit the info panel below-->
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this? </p>
+<p>This is summary of Wednesday 1st June’s Data Ethics Club discussion, where we spoke <a class="reference external" href="https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf">Participatory Data Stewardship</a>, a report from the Ada Lovelace Institute.
+The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+</div>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
+<a class="reference internal image-reference" href="write_ups/2022/images/ButIfYouDid.png"><img alt="American Chopper Argument Meme. &quot;Consent to my super cool study using your data&quot; &quot;But I don't understand your study&quot; &quot;But if you did, you'd love it and think it was super ethical.&quot; &quot;But I don't understand it!&quot; &quot;But if you did...&quot; Meme made by Huw Day." class="align-center" src="write_ups/2022/images/ButIfYouDid.png" style="width: 200px;" /></a>
+<p>We read <a class="reference external" href="https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf">Participatory Data Stewardship</a>, a report from the Ada Lovelace Institute. The report is fairly long, and so we recommended if attendees were very short on time to just look at the helpful overview image on Page 14 and table on Pages 17-18. People who had a bit more time then had a look over the descriptions of each type and case studies on Pages 19-47.</p>
+<p>The framework for participation in data stewardship includes 5 key layers. The following descriptions are taken directly from Figure 3 of the paper (page 14).
+Inform: We will keep you informed about how your data is being governed
+Consult: We will listen to acknowledge and provide feedback on concerns and aspirations for the governanance of your data
+Involve: We will work with you to ensure your concerns and aspirations are directly reflected in data governance.
+Collaborate: We will look to you for advice and innovation in design of data-governance models, and incorporate your advice and recommendations where possible.
+Empower: We will advise and assist in line with your decisions about your own data-governance models.</p>
+<p>The frameworks are presented in a sort of implicit hierarchy, the nature of which we discussed. We also talked about how to decide on what level of participation to implement, the optimal amount of participation (in theory and in practice) and the barriers to the implementation of participatory frameworks.</p>
+</section>
+<section id="what-factors-should-guide-decisions-about-what-level-of-participation-best-suits-a-project-does-this-happen-in-practice">
+<h2>What factors should guide decisions about what level of participation best suits a project? Does this happen in practice?<a class="headerlink" href="#what-factors-should-guide-decisions-about-what-level-of-participation-best-suits-a-project-does-this-happen-in-practice" title="Permalink to this headline">#</a></h2>
+<p>The five frameworks seem high-level and there wasn’t much advice on practical application, which might be difficult. We liked that there was a critique included though. Factors that should influence level of participation will vary widely from project to project.</p>
+<p>We wondered why might we feel inclined to think “empower” is the “best” framework? In theory we would like to think that the most participation is always the best, but there’s a question about feasibility: how feasible is it to “empower” the relevant communities?</p>
+<p>What about <em>limiting</em> participation? There might be circumstances where you don’t want too much public access/input (e.g. clinical trial participants).</p>
+<p>The people who have capacity to involve themselves more may not be too representative (possibly missing out on less privileged voices). Is it possible that including participatory practice might be seen as just another layer of red tape? … has GDPR regulated ‘inform’ now?</p>
+<p>There is a need for teams to be diverse and, therefore, open to empowering different voices from the outset.</p>
+<p>Some think you shouldn’t collect data without consulting those affected by it. But given that this usually requires time and financial investment, how often does it actually happen in practice?</p>
+<p>From our own experiences, in the subfield of social media, data collection is not very ethical at all. The NHS, on the other hand does a really good job of protecting people’s data (PPI etc).</p>
+</section>
+<section id="is-the-most-participation-always-the-best">
+<h2>Is the most participation always the best?<a class="headerlink" href="#is-the-most-participation-always-the-best" title="Permalink to this headline">#</a></h2>
+<p>We were of the opinion that most partcipation is <em>not</em> always the best.</p>
+<p>You need to commit to a certain level of maintenance for data to be worked with. If this needs to be run by the participants, this can really bog things down. (This will be evident to anyone who has ever tried to organise a group holiday).</p>
+<p>There’s a difficulty of presenting it as a hierarchy, implying one is better and one is worse. Often data is collected about specific sub-populations who are being ‘studied’, and they are often being ‘studied’ because they may have particular health conditions or life circumstances we are trying to research. However, these life circumstances or health conditions may mean that these population groups may not necessarily appreciate having to put a lot of time in managing their participation and data. On the other hand, it would be a particularly effective measure against the exploitation of under-served communities, many of whom have histories of being exploited for the purpose of research.</p>
+<p>We did appreciate that this report seemed to have a section on how to make each action meaningful. That’s not often addressed, usually it’s just awareness.</p>
+<p>When thinking about large data sets for training ML models (e.g. image recognition), how do you handle participation levels/consent? If you have 100k pictures of people trying to guess your hair colour, do you need to sign off on every new study/model or give blanket consent?</p>
+<p>Can you give consent for something you didn’t know was going to happen? Often large data sets are not curated for a particular purpose so you just have to trust that the people who publish them collate the data in an ethical way. The scale of these datasets makes this pretty much impossible. Caution has already been warned on handling such <a class="reference external" href="https://arxiv.org/abs/2110.01963">large datasets</a>.</p>
+<p>Even when you do open source, public research, it’ll be difficult sometimes to explain every single project to everyone. Even when you can’t get informed consent (be it because people are bad at stats or because your subjects can’t consent, like plants), you can still have legal frameworks to ensure the data is ethically used and maintained.</p>
+<p>Because humans are sentient, it opens you up to negotiations. With data about plants for example, there is no negotiation with the objects. You make a lot of decisions on their “behalf”.</p>
+<p>“If you did understand, you’d love it and think it was super ethical I swear.”</p>
+<p>“But I don’t understand it.”</p>
+<p>“But if you did…”</p>
+<p>There has been some interesting research on how privacy statements are worded got you more access (even if they were legally equivalent, but with behaivoural nudges). Why would anyone ever do anything bad with this data? E.g. adobe releasing video editing software that enabled deep fakes.</p>
+<p>Is it always good to have participation? Maybe it’s good to mandate some level of participation, even if it’s not the most stringent level. Thinking about people who are underrepresented for example.</p>
+</section>
+<section id="what-do-you-see-as-being-barriers-to-participatory-data-stewardship-and-how-could-these-realistically-be-overcome">
+<h2>What do you see as being barriers to participatory data stewardship, and how could these realistically be overcome?<a class="headerlink" href="#what-do-you-see-as-being-barriers-to-participatory-data-stewardship-and-how-could-these-realistically-be-overcome" title="Permalink to this headline">#</a></h2>
+<p>This effort can be demanding on researchers, and if the level of participation is high it can be demanding on participants too. Perhaps there should be “centralised” institutional support, creating “pools” of relevant participants to reduce duplication of effort. There is a lack of funding to practically implement this framework.</p>
+<p>In general, there is a need for a mindset change. Instead of building technology as quickly as possible, we might want to build it slowly and mindfully.</p>
+<p>Teams handling data could be compared to flowers. They can bloom if they are diverse, should cross-pollinate to ensure they aren’t duplicating efforts, and they cannot grow on barren lands or within nerd caves. Budding flowers will naturally include these kinds of participation questions, while in a barren desert data scientists won’t have space, or colleague input, to ask these kinds of questions.</p>
+</section>
+<hr class="docutils" />
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Permalink to this headline">#</a></h2>
+<p><strong>Name, Role, Affiliation, Where to find you</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
+<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a>, :thinking_face:</p></li>
+<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Vanessa Hanschke, PhD Student Interactive AI, University of Bristol</p></li>
+<li><p>Ismael Kherroubi Garcia, MSc student, LSE, <a class="reference external" href="https://twitter.com/hermeneuticist">&#64;hermeneuticist</a></p></li>
+<li><p>Chantel Davies, part-time MSc Student, University of Aberdeen, <a class="reference external" href="https://twitter.com/CDavieSTEM">CDavieSTEM</a></p></li>
+<li><p>Zosia Beckles, Research Information Analyst, University of Bristol</p></li>
+<li><p>Robin Dasler, research software product manager, <a class="reference external" href="https://github.com/daslerr/">daslerr</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
+</ul>
+</section>
+</section>
+
+
+            </article>
+            
+            
+            
+            <footer class="bd-footer-article">
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'>
+  <a class='left-prev' id="prev-link" href="16-06-22_writeup.html" title="previous page">
+      <i class="fas fa-angle-left"></i>
+      <div class="prev-next-info">
+          <p class="prev-next-subtitle">previous</p>
+          <p class="prev-next-title">Data Ethics Club: Automating Inequality</p>
+      </div>
+  </a>
+  <a class='right-next' id="next-link" href="18-05-22_writeup.html" title="next page">
+  <div class="prev-next-info">
+      <p class="prev-next-subtitle">next</p>
+      <p class="prev-next-title">Data Ethics Club: Why data is never raw</p>
+  </div>
+  <i class="fas fa-angle-right"></i>
+  </a>
+</div>
+            </footer>
+            
+          </div>
+          
+          
+          
+            <div class="bd-sidebar-secondary bd-toc">
+              
+<div class="toc-item">
+  
+<div class="tocsection onthispage">
+    <i class="fas fa-list"></i> On this page
+</div>
+<nav id="bd-toc-nav" class="page-toc">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-factors-should-guide-decisions-about-what-level-of-participation-best-suits-a-project-does-this-happen-in-practice">
+   What factors should guide decisions about what level of participation best suits a project? Does this happen in practice?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#is-the-most-participation-always-the-best">
+   Is the most participation always the best?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#what-do-you-see-as-being-barriers-to-participatory-data-stewardship-and-how-could-these-realistically-be-overcome">
+   What do you see as being barriers to participatory data stewardship, and how could these realistically be overcome?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#attendees">
+   Attendees
+  </a>
+ </li>
+</ul>
+
+</nav>
+</div>
+
+<div class="toc-item">
+  
+</div>
+
+<div class="toc-item">
+  
+<div class="tocsection sourcelink">
+    <a href="../../_sources/write_ups/2022/01-06-22_writeup.md.txt">
+        <i class="fas fa-file-alt"></i> Show Source
+    </a>
+</div>
+
+</div>
+
+            </div>
+          
+          
+        </div>
+        <footer class="bd-footer-content">
+          <div class="bd-footer-content__inner">
+            
+          </div>
+        </footer>
+        
+      </main>
+    </div>
+  </div>
+
+  
+    
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/pydata-sphinx-theme.js?digest=9b1a4fa89bdd0e95b23b"></script>
+
+
+  <footer class="bd-footer"><div class="bd-footer__inner container">
+  
+  <div class="footer-item">
+    License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a>
+  </div>
+  
+  <div class="footer-item">
+    
+<p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.5.0.<br>
+</p>
+
+  </div>
+  
+</div>
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
