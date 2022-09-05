@@ -163,6 +163,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [The Tech We Won't Build](https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/) by Mozilla's Internet Health Report - suggested by [@NatalieZelenka](https://github.com/NatalieZelenka)
 * [Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence](https://arxiv.org/pdf/2007.04068.pdf) - suggested by [Vivienne Kuh](https://www.bristol.ac.uk/people/person/Vivienne-Kuh-3265cd07-2fb1-45ab-81fb-16dd4c1953d4/)
 * [Patient and public involvement to build trust in artificial intelligence: a framework, tools and case studies](https://www.cell.com/patterns/fulltext/S2666-3899(22)00098-8) - suggested and written by [@neelsoumya](https://github.com/neelsoumya) [#167](https://github.com/very-good-science/data-ethics-club/issues/167)
+* [Civic Participation in the Datafied Society: Towards Democratic Auditing?](https://datajusticelab.org/wp-content/uploads/2022/08/CivicParticipation_DataJusticeLab_Report2022.pdf) by the [Data Justice Lab](https://datajusticelab.org/)
 
 ## Field Specific
 
