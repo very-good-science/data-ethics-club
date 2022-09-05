@@ -50,6 +50,14 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Challenging racism in the use of health data](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(21)00019-4/fulltext) - suggested by [@Lextuga007](https://github.com/Lextuga007)
 * [Living in the Hidden Realm of AI](https://news.techworkerscoalition.org/2021/03/09/issue-5/) - suggested by [@vairylein](https://github.com/vairylein), see [#54](https://github.com/very-good-science/data-ethics-club/issues/54) ✅
 
+## Algorithms in our daily lives
+
+* [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away) ✅
+* [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
+* [DIY Videos on YouTube: Identity and possibility in the age of algorithms](https://firstmonday.org/ojs/index.php/fm/article/view/6787/5517) from [The Social Media Collective reading list](https://socialmediacollective.org/reading-lists/critical-algorithm-studies/)
+* [Software sorted geographies](http://www.dourish.com/classes/readings/Graham-SoftwareSortedGeographies-PHG.pdf)<sup>1</sup> from [The Social Media Collective reading list](https://socialmediacollective.org/reading-lists/critical-algorithm-studies/)
+* [When Algorithms Shape Collective Action: Social Media and the Dynamics of Cloud Protesting](https://journals.sagepub.com/doi/full/10.1177/2056305115622481) from [The Social Media Collective reading list](https://socialmediacollective.org/reading-lists/critical-algorithm-studies/)
+* [Putting Europe's Robots on the Map: Automated journalism in news agencies](https://reutersinstitute.politics.ox.ac.uk/sites/default/files/2017-09/Fanta%2C%20Putting%20Europe%E2%80%99s%20Robots%20on%20the%20Map.pdf)
 
 ## Algorithmic decision making
 
@@ -59,12 +67,10 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Algorithms Of Oppression](https://safiyaunoble.com/research-writing/)<sup>1</sup> - suggested by [@mtwest2718](https://github.com/mtwest2718)
   * Suggested excerpt: [Social Inequality Will Not Be Solved By An App](https://www.wired.com/story/social-inequality-will-not-be-solved-by-an-app/) 
 * [Automating Inequality](https://virginia-eubanks.com/)<sup>1</sup> - suggested by Valentina Ragni and [@mtwest2718](https://github.com/mtwest2718)
-  * [We created poverty, algorithms won't make that go away](https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away) ✅
   * [Algorithms designed to fight poverty can actually make it worse](https://www.scientificamerican.com/article/algorithms-designed-to-fight-poverty-can-actually-make-it-worse/)
 * [What does it mean to 'solve' the problem of discrimination in hiring?](https://dl.acm.org/doi/abs/10.1145/3351095.3372849) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
 * [Machine decisions and human consequences](https://arxiv.org/abs/1811.06747)
 * [Fairness and utilization in allocating resources with uncertain demand](https://dl.acm.org/doi/abs/10.1145/3351095.3372847) - suggested by [@edwinrobots](https://www.informatik.tu-darmstadt.de/ukp/ukp_home/staff_ukp/index.en.jsp)
-* [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814)
 * [Coded Bias film](https://www.codedbias.com/) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) and [Paula Andrea Martinez
 ](https://github.com/orchid00)  ✅
 * [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - suggested by [@ninadicara](https://github.com/ninadicara) [#3](https://github.com/very-good-science/data-ethics-club/issues/3)
@@ -75,6 +81,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [The failures of algorithmic fairness](https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/) - suggested by [Paul Lee](https://senseoffairness.blog/)
 
 ## History of data science
+
 * [Statistics, Eugenics and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) by Raphael Sonabend - suggested by [@ninadicara](https://github.com/ninadicara) [#70](https://github.com/very-good-science/data-ethics-club/issues/70)
 
 ## Environmental costs and considerations
@@ -124,6 +131,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Ethics Creep](https://link.springer.com/article/10.1023/B:Quas.0000049239.15922.a3)🔒 - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech](https://doi.org/10.1080/09505431.2021.1990875) - suggested by [@RShkunov](https://twitter.com/RShkunov)
 * [Math Washing](https://www.mathwashing.com/) [2] - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/?originalSubdomain=au)
+* 🎤 [Things Fell Apart: A Scottish Jewish Joke](https://www.bbc.co.uk/sounds/play/m00127xv) - suggested by [@Lextuga007](https://github.com/Lextuga007) [#121](https://github.com/very-good-science/data-ethics-club/issues/121)
 
 ## Ethics in action (the good and the not so good)
 
