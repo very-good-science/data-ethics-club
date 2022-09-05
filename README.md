@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-36-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-38-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="site/images/logo.png">
@@ -52,7 +52,7 @@ Thanks goes to these wonderful people in developing this repository, joining Dat
   </tr>
   <tr>
     <td align="center"><a href="http://jennybrennan.com"><img src="https://avatars.githubusercontent.com/u/7014476?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jenny Brennan</b></sub></a><br /><a href="#content-JennyBrennan" title="Content">🖋</a></td>
-    <td align="center"><a href="https://senseoffairness.blog/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Paul Lee</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a></td>
+    <td align="center"><a href="https://senseoffairness.blog/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Paul Lee</b></sub></a><br /><a href="#blog" title="Blogposts">📝</a> <a href="#content" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/henryaddison"><img src="https://avatars.githubusercontent.com/u/49613?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Henry Addison</b></sub></a><br /><a href="#blog-henryaddison" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/daslerr"><img src="https://avatars.githubusercontent.com/u/3181623?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Robin Dasler</b></sub></a><br /><a href="#blog-daslerr" title="Blogposts">📝</a></td>
     <td align="center"><a href="https://github.com/fuyu00"><img src="https://avatars.githubusercontent.com/u/45471612?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Adriano Winterton</b></sub></a><br /><a href="#blog-fuyu00" title="Blogposts">📝</a></td>
@@ -79,6 +79,8 @@ Thanks goes to these wonderful people in developing this repository, joining Dat
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Susana465"><img src="https://avatars.githubusercontent.com/u/73224467?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Susana465</b></sub></a><br /><a href="#content-Susana465" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.bristol.ac.uk/people/person/Vivienne-Kuh-3265cd07-2fb1-45ab-81fb-16dd4c1953d4/"><img src="?s=100" width="100px;" alt=""/><br /><sub><b>Vivienne Kuh</b></sub></a><br /><a href="#content" title="Content">🖋</a></td>
+    <td align="center"><a href="https://sites.google.com/site/neelsoumya/"><img src="https://avatars.githubusercontent.com/u/2981775?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Soumya Banerjee</b></sub></a><br /><a href="#content-neelsoumya" title="Content">🖋</a></td>
   </tr>
 </table>
 
