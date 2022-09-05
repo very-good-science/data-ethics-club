@@ -34,6 +34,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * 📺 [21 Fairness Definitions and their politics](https://www.youtube.com/watch?v=jIXIuYdnyyk) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * 📺 [AI, Ain’t I a Woman?](https://www.youtube.com/watch?v=HZxV9w2o0FM) - poem<sup>2</sup> - suggested by Valentina Ragni
 * [Ethics and Policy Class Materials by Casey Fiesler](https://bit.ly/caseysclass)<sup>1</sup>  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) [#100](https://github.com/very-good-science/data-ethics-club/issues/100)
+* [Data	and	Society:	A	Critical	Introduction](https://ore.exeter.ac.uk/repository/handle/10871/127993) - suggested by reviewer for DEC paper [1]
 
 ## Moral philosophy for data science
 
@@ -68,6 +69,10 @@ Note: reading materials appear once in the category we felt they fit best.
 ](https://github.com/orchid00)  ✅
 * [Measuring the predictability of life outcomes with a scientific mass collaboration](https://www.pnas.org/content/117/15/8398) - suggested by [@ninadicara](https://github.com/ninadicara) [#3](https://github.com/very-good-science/data-ethics-club/issues/3)
 * 🔒 [Nudging Privacy: The Behavioural Economics of Personal Information](https://ieeexplore.ieee.org/abstract/document/5370707) - suggested by [@ninadicara](https://github.com/ninadicara) [#102](https://github.com/very-good-science/data-ethics-club/issues/102)
+* [Accountable Algorithms](https://scholarship.law.upenn.edu/penn_law_review/vol165/iss3/3/) [1] - suggested by DEC paper reviewer
+* [Algorithmic Transparency for the Smart City](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3012499) [1] - suggested by DEC paper reviewer
+* [Assessing risk, automating racism.](https://www.grossmont.edu/faculty-staff/participatory-governance/student-success-and-equity/_resources/assets/pdf/assessing-risk-automating-racism.pdf) - suggested by DEC paper reviewer 
+* [The failures of algorithmic fairness](https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/) - suggested by [Paul Lee](https://senseoffairness.blog/)
 
 ## History of data science
 * [Statistics, Eugenics and Me](https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7) by Raphael Sonabend - suggested by [@ninadicara](https://github.com/ninadicara) [#70](https://github.com/very-good-science/data-ethics-club/issues/70)
@@ -103,6 +108,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
 * 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday) -  ✅  [14th July 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/14-07-21_writeup.html)
 * [UK AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) - suggested by [Paul Lee](https://senseoffairness.blog/)
+* [Learning from the stochastic parrots: finding fairness in AI](https://senseoffairness.blog/2021/02/28/learning-from-the-stochastic-parrots-finding-fairness-in-ai/) - suggested by [Paul Lee](https://senseoffairness.blog/)
 
 ## Data science and research culture
 
@@ -117,6 +123,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Why Open Source misses the point of Free Software](https://www.gnu.org/philosophy/open-source-misses-the-point.en.html) 
 * [Ethics Creep](https://link.springer.com/article/10.1023/B:Quas.0000049239.15922.a3)🔒 - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech](https://doi.org/10.1080/09505431.2021.1990875) - suggested by [@RShkunov](https://twitter.com/RShkunov)
+* [Math Washing](https://www.mathwashing.com/) [2] - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/?originalSubdomain=au)
 
 ## Ethics in action (the good and the not so good)
 
@@ -130,6 +137,11 @@ Note: reading materials appear once in the category we felt they fit best.
 * [People With Disabilities Say This AI Tool Is Making the Web Worse for Them](https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby)
 * [Sharing learnings about our image cropping algorithm (Twitter)](https://blog.twitter.com/engineering/en_us/topics/insights/2021/sharing-learnings-about-our-image-cropping-algorithm.html) - suggested by [@ninadicara](https://github.com/ninadicara), see [#64](https://github.com/very-good-science/data-ethics-club/issues/64)
 * [I can text you a pile of poo, but I can't write my name](https://modelviewculture.com/pieces/i-can-text-you-a-pile-of-poo-but-i-cant-write-my-name) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby)
+* [Building Compassion into Your Modelling Variables](https://weallcount.com/2022/03/25/building-compassion-into-your-modelling-variables/) - [WeAllCount](https://weallcount.com/) articles suggested by a reviewer for DEC paper
+* [The Priviledge Embedded in You Unit of Analysis](https://weallcount.com/2022/02/18/the-privilege-embedded-in-your-unit-of-analysis/) - [WeAllCount](https://weallcount.com/) articles suggested by a reviewer for DEC paper
+* [Participatory Data Stewardship](https://www.adalovelaceinstitute.org/report/participatory-data-stewardship/) - [Ada Lovelace Institute](https://www.adalovelaceinstitute.org/) work suggested by a reviewer for DEC paper
+* [Data sheets for data sets](https://arxiv.org/abs/1803.09010) - suggested by [@ninadicara](https://github.com/ninadicara)
+
 
 ## Field Specific
 
@@ -148,6 +160,8 @@ Note: reading materials appear once in the category we felt they fit best.
 
 * 📺 [How normal am I?](https://www.hownormalami.eu/) - interactive - suggested by Valentina Ragni
 * 📺 [Critical perspectives on computer vision](https://slideslive.com/38923500/critical-perspectives-on-computer-vision)  - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) ✅  
+* [Documenting Computer Vision Datasets: An Invitation to
+Reflexive Data Practices](https://milamiceli.com/wp-content/uploads/2021/01/CR_FAccT__21___Documenting_Datasets_for_Computer_Vision.pdf) - found through the [CIVIC Data Library of Context](https://www.civicdatalibrary.org/) suggested by a reviewer for DEC paper
 
 ### Explainable AI/ML
 

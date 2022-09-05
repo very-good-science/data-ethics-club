@@ -1,0 +1,101 @@
+# The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers
+
+```{admonition} What's this? 
+This is a standalone blogpost written by Huw Day in July 2022 on his experiences teaching data ethics outreach in schools. All opinions expressed are strictly his own. 
+Nina Di Cara, Natalie Thurlby and Euan Bennet helped with the final edit.
+```
+
+## Impact
+
+The following is a short excerpt from Cathy O’Neil’s book, Weapons of Math Destruction:
+
+“In 2007, Washington D.C’s new mayor, Adrian Fenty, was determined to turn around the city’s underperforming schools. He had his work cut out for him: at the time, barely one out of every two high school students was surviving to graduation after ninth grade, and only 8 percent of eighth graders were performing at grade level in math. Fenty hired an education reformer named Michelle Rhee to fill a powerful new post, chancellor of Washington’s schools. 
+
+The going theory was that the students weren’t learning enough because their teachers weren’t doing a good job. So in 2009, Rhee implemented a plan to weed out the low-performing teachers. This is the trend in troubled school districts around the country, and from a systems engineering perspective the thinking makes perfect sense: Evaluate the teachers. Get rid of the worst ones, and place the best ones where they can do the most good. In the language of data scientists, this ‘optimises’ the school system, presumably ensuring better results for the kids. Except for ‘bad’ teachers, who could argue with that? Rhee developed a teacher assessment tool called IMPACT, and at the end of the 2009-10 school year the district fired all the teachers whose scores put them in the bottom 2 percent. At the end of the following year, another 5 percent, or 206 teachers, were booted out.”
+
+As part of my Data Ethics Club new year’s resolution, I’ve been giving a series of talks that are aimed to inspire secondary school students (ages 15-18) to study maths. Inspired by Cathy O’Neil’s work I entitled the talk “Weapons of Maths Destruction.” I taught students the basics of correlation and linear regression and then got students to design their own version of IMPACT, a tool for ranking, hiring and firing teachers (using the dread on their teachers’ faces to fuel participation). 
+
+## Regressing
+
+The talk had two main parts. First, I (re-)introduced ideas of linear regression and correlation by showing a series of scatter plots. I introduced the product moment correlation coefficient (PMCC) as a value 'r' between -1 and +1. Rather than give them a formula, I told them that r was indicative of linear correlation (i.e. how well a straight line of best fit, fits the data) and that: 
+-	r>0 implied positive linear correlation
+-	r<0 implied negative linear correlation
+-	r=0 implied little linear correlation.
+
+I tested their understanding by looking at a few different datasets and guess the value of r (thumbs up for +1, thumbs down for -1 etc.), using these datasets to introduce some basic ideas along the way. 
+
+I used a constructed data set of “Time spent playing video games in a week” versus “Number of police visits per year” with only two points (10 hours, 0 police visits and 20 hours, 1 police visit) to illustrate the importance of the size of a dataset. In this case, r=+1 (exactly). I outlined to the students that if this ever happens then there's more than likely an error with data collection or the analysis (similarly with r=-1). I then asked the students “Does this data prove that there’s a link between violent behaviour and playing video games?”
+
+Of course, the students said no, not least because of their own personal bias. But they frequently identified why using number of police visits as a proxy variable for violent behaviour is problematic and even if there was correlation, it does not mean there is causation.
+
+The next example was inspired by some [spurious correlations](https://www.tylervigen.com/spurious-correlations): “% of people wearing seatbelts in cars in the US per decade” versus “Number of astronaut deaths on mission in the US per decade”. I was keen to stress that the x-axis only considered seatbelts in cars that were specifically not in space and that the y-axis considered astronauts deaths that were not in cars and who were attempting to go into space. There is reasonably significant negative linear correlation (r=-0.61) between the two variables. 
+
+Everyone knows the phrase “correlation does not imply causation” but that doesn’t mean it’s not a fun exercise to try and explain correlation anyway. I invited students to suggest ideas, prompting them by asking about how the two variables in question changed over time. The point is that both variables have a relationship with time. With time as the hidden proxy variable in-between the two, the stronger than casual correlation becomes more apparent. However, if I worked at NASA and wanted to improve astronaut safety standards, it would likely not be a good use of resources to get more members of the public to wear seat belts in this endeavour.
+
+For the final example, I had some data of age in years (ranging from 0 to 100) versus time to “traverse” 100 metres (apparently, it’s neither scientific nor ethical to get babies/grandparents to run). The linear correlation here is understandably very low (r=+0.24) but as the students pointed out, this doesn’t mean that there isn’t a strong relationship between the two variables. Some suggested that perhaps splitting ages 0-25 and 25-100 into two different analyses would be more insightful. Others also suggested that perhaps a straight line isn’t the best tool here, perhaps a quadratic or exponential curve would model the data better. As any student who makes mistakes on a calculator knows, a calculator (or a computer) will always do the calculation you ask it to do, even if it’s the wrong on.
+
+All of this illustrated that when we use data science tools like averages or PMCCs to zoom in on the data, we inevitably lose information as we zoom. A skilled data scientist has to know how and where to zoom in order to summarise data whilst keeping a clear idea of the bigger picture.
+
+## The Hidden Bullseye
+
+Building off the final example, we tried to improve this model by adding additional variables based on students’ suggestions (BMI, hours of exercise per week, injuries/health conditions etc.) We go from a linear model to a so-called Generalised Linear Model (GLM). The premise is the same as using a single predictor variable, but we just have a different correlation coefficient for each predictor and the outcome variables allowing us to weight how important different factors are. We had already mentioned the importance of having a sufficiently large and diverse dataset when using linear models involving only one predictor variable. All of a sudden, with multiple input variables, we desired a dataset of significant size and variability before we could start drawing meaningful conclusions from any models we deduced.
+
+We used this to introduce the idea of the importance of feedback loops. When we are attempting to predict an outcome, we can make a guess and then look at how close we are and adjust accordingly. We can’t always tell what’s making us miss, but if we are predicting something, we can usually see retrospectively how far off target we are (an archer can take a shot at a target and see how far off they are). As the authors of Noise (Daniel Kahneman, Oliver Sibony and Cass R. Sunstein) point out, the key to this adjustment is being confident that your shots are not noisy. A skilled archer with a misaligned sight can be confident that they are shooting where the sight points. When they miss the target, they can more confidently adjust their sights to compensate and move a tight grouping towards the bullseye. An unskilled archer with properly aligned sights might have shots with a wide scatter but generally around the bullseye. All they need to do now is tighten the grouping.
+
+But what happens when you can’t see the bullseye?
+
+## What could go wrong?
+
+The second part of the talk we (either as one group or in smaller groups depending on audience size) designed an algorithm for hiring and firing teachers. We break this down by answering three questions:
+
+1)	What makes a good teacher? 
+
+I asked students to stop thinking like data scientists and just tell me what makes a good teacher (or indeed, a bad one). Whilst discouraging naming names, it was particularly interesting to see students reflect on their own experiences of when they’ve enjoyed teachers’ lessons and to just list things that were good attributes. Common suggestions: subject knowledge, empathy, classroom management, subject enthusiasm, interpersonal schools, being able to take critical feedback and on one occasion, dress sense, when I showed up in a slightly colourful shirt.
+
+When I had groups that were stuck for ideas, I encouraged them to recall their favourite teachers and what made them good. When that didn't work, we thought about the worst teachers we had. I tried to avoid any naming and shaming and get students to get to the root of an issue. Yes this teacher was unfair to you but what characteristic made them like that? 
+
+2)	How would you measure the above variables? What proxy variables would you want to use? 
+
+Now we must put our data science caps on. I had students think about what sort of data was collected about them and their teachers. To make the problem as realistic as possible, we considered data that was already collected on them, excluding data that could be tested (e.g. handing out empathy quotient tests to every teacher as a metric for their empathy). This massively restricts the variables we can work with and starts hinting towards the students at how difficult this problem is. After we captured what makes a good teacher from the first question, in the second question we had to ask ourselves what proxy variables we can use to measure this? Common suggestions: grades, grade increase, attendance, number of detentions given out, teacher’s education level, number of complaints against teachers. 
+
+This is the point where students start to realise how difficult this problem is. Having spent the first half of the presentation showing them how problematic using proxy variables can be for mathematical modelling, I now tasked them with using proxy variables to best model a very subjective quantity.
+
+3)	How would you weight the dependence on different variables? Give an r number for each one.
+
+The premise here is simple. For each proxy variable we came up with from the second question, what is their correlation coefficient with good-teacher-ness? These judgement calls were based on discussions amongst students as to how important each variable was and whether its effect was positive (grades, grade improvement, % attendance) or negative (number of complains, number of detentions given out).
+
+One student suggested to me that age should be a variable that should be considered because “Old people are boring and boring people make bad teachers”. This led us to an interesting discussion on discrimination based on various attributes inherent to us as people (race, gender, etc.) and the utility of protected variables.
+
+Another student suggested that as our models tended to prioritise grade and grade improvement, we should consider how this would rank teachers at more prestigious schools more highly. If students must pass an entrance exam to attend a certain school, then it might be fair to assume the grades of students there would be higher than average. Perhaps if such a school had an option for boarders then the likelihood of students missing class would also decrease, irrelevant of the teachers. Should teachers working at such a school benefit from the school’s inherent prestige, should this be a protected variable or should our model actively penalise teachers from more prestigious schools to offset this inherent advantage? Some even proposed coupling variables so that the benefits of high attendance or grades at a prestigious would be balanced out in the teacher ranking, leading to potentially fairer evaluations of teachers.
+
+For every scenario where a certain variable was given a high weighting (large absolute value for its correlation coeffecient), I challenged students to think of a scenario where that could go wrong. A common dichotomy was between grades and grade improvement: should we value teachers more who are able to improve students' grades, or keep them at a high grade? Is it more valuable to keep a roomful of A* students at that level, or to be able to bring a roomful of C students up to an A? 
+
+## The winner is the one with the least rubbish algorithm
+
+We explored and discussed the pros and cons of these systems. Whilst some students were quick to claim there was no bias in these systems, most were quick to note that their bias was actually encoded into these systems by their choices of correlation coefficient. At least this bias was consistent - a person evaluating teachers might evaluate the same two teachers differently depending on their mood that day (or how soon their lunchbreak was), our algorithm would not have this issue.
+
+We had already touched on the importance of sample size in our running speed example, and this became more apparent when we looked at the variables we were using. Some variables were (e.g. % attendance) per class. If a teacher teaches 5 classes, they have 5 data points to work with (most models had at least 5 input variables, for reference). For variables which were per student (e.g. grades, grade improvement), if we say 30 students to a class, we still only have 150 data points to work with – not enough. Even if these models were perfect predictors of how good a teacher is, the data going into them was insufficient to make them work well.
+
+The frequent debates over what weighting should be had highlighted an issue of explainability. We saw with the astronauts and seatbelt example that sometimes correlations can be explained, but that doesn't indicate dependence between them. A teacher might be penalised by a model for giving out too many detentions, but if they have many students misbehaving and just stop giving out detentions and lose control of the class, does that make them a better teacher? According to a model that penalises giving out detentions, yes it does. 
+
+Perhaps the most important aspect was the lack of feedback loop. When you try and hit a target and you miss, you can adjust your aim to get closer next time. This is the case when your model is used to predict the outcome of an event (for example predicting the weather forecast, the price of a stock or the number of horse deaths in a race). When you have a system that is evaluative instead of predictive (be it for teacher good-ness, how long of a prison sentence someone should serve or indeed what grade students should get if they can’t sit their exams due to a global pandemic), you can no longer see the target and so there is no built-in feedback loop. When you can’t see a target, evaluations often become more like judgements, some how given more value. This is true often whether a computer makes the judgement or a so-called “expert” does. 
+
+We frequently identify someone as an expert is frequently qualifications and recognition from a peer group of other experts (a martial arts black belt usually gets given their black belt from another black belt holder, although they might have just got the belt off eBay). That way, even if you're not a black belt, you can see someone walking around with a black belt and think "ok they must know what they're talking about". We use qualifications like that a proxy for expertise, sometimes to our own detriment - a black belt covers about two inches of your back, you've got to cover the rest yourself. The black belt equivalent for a decision making algorithms is an entirely separate blogpost, still very much in the making as industry standards begin to emerge, but it seems to take more expertise and more than a quick glance at someone's belt line to be able to make that judgement.
+
+This wasn't to say that automated systems have no place in decision making. When I asked students at the start of the talk if they'd rather have an evaluation (such as university admission, prison sentence or whether they got a certain job) made about them by a person or a machine, most would rather a person, but many wanted an automated system although often with the caveat that they would want the final decision made by a person who was informed by a machine. 
+
+## Closing Reflections
+
+The original goal was to have the task be done in small groups of 4-5 people. Sometimes that was my entire audience, which meant that discussions happened right before me. In the case of online talks, where enthusiasm to participate was usually limited to the chat box, I would have an entire group discuss their ideas in the chat with me acting as a mediator. The few times I had larger, in person groups, was when this exercise really shined. When the students didn't have me hovering over their shoulders and could discuss the ethical merits of their algorithms without fear of judgement, they spoke much more freely. This reflected something that I think Data Ethics Club is all about - rather than giving a small group of people the job of thinking about data ethics, we need to give many people the *space* to think about it. 
+
+I gave talks for GCSE and A Level students with varying levels of sophistication across audiences. I think below GCSE level the technical hurdles of understanding the earlier part of the talk take away from the more nuanced discussion and I also think there's potential for higher level data scientists to find the exercise slightly patronising. This is the difficult balance data ethicists find themselves in between explainability and not just stating the obvious. Unfortunately "hiring and firing teachers using algorithmic decision making is not the best use of funds" is not obvious to all data scientists.
+
+At the end of a talk I gave at a school in south Bristol, one student asked me “what went wrong with predicting our GCSE grades during covid?” I fumbled with my answer, trying to appease and validate a roomful of understandably frustrated bright minds who felt like they had been unfairly penalised by an unseen algorithm in ways they didn’t understand – much in the way teachers in Washington DC had been penalised by IMPACT. 
+
+On the bus home I thought more about the answer and even made a meme about it. 
+
+There are two answers; one is a nuanced discussion about how predictive models have value but are not the unbiased, omniscient systems they are often lauded and expected to be. They frequently outperform humans in tests of noise, but are nevertheless suceptible to bias in their own way. In particular, their bias is consistent. If you can see the bullseye (as in the predictive case) you can frequently adjust your model to get closer and closer. If you can't, then our ability to have nuanced discussions of what makes an evaluative system better than another is not yet well developed (you can't get two such algorithms to fight it out as you can two black belts). Such an answer is explored deeply and robustly in books like Weapons of Math Destruction by Cathy O’Neil, Automating Inequality by Virginia Eubanks and Noise by Daniel Kahneman, Oliver Sibony and Cass R. Sunstein, all books which influenced this talk and that I highly recommended to anyone interested in this topic. 
+
+The other answer is a lot more simple: The G in GLMs sometimes stands for “Garbage”. 
+
+Thank you to Christopher Jones and Sidhivi Sharma for letting me bounce the early versions of this talk off you and my colleagues at Widening Participation (particuarly Sarah Almond and Gail Born) for giving me the opportunities to give these talks. Thanks to the rest of the Data Ethics crew (Nina Di Cara, Natalie Thurlby, Euan Bennet and Roman Shkunov, among many many others) for inspiring me to think more about these ideas.

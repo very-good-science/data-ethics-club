@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [DD-MM-YY, 1pm UK time][timedate]
+# Data Ethics Club meeting [18-05-22, 1pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -24,22 +24,20 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [Why Data Is Never Raw][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DAY the DATE at TIME UK time][timedate]. 
+You're welcome to join us for our next Data Ethics Club meeting on [18th May at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
-
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+This time we're going to watch/read [Why Data Is Never Raw][content] by Nick Barrowman, which is an essay about the objectivity of data and the reprocussions of that for data-driven decision-making.
 
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
 
+- Can You think of any examples of data that you would consider truly "raw"?
+- How "raw" or "cooked" is the data that you work with/that is used in your organisation?
+- What would an ideal process for decision making be in your opinion? How much would it rely on data or politics? How would this vary by the type of decision?
 ---
 
 <!--
@@ -55,6 +53,6 @@ Shall we email the author? If so, who'll send the email?
 
 -->
 
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Why+Data+Is+Never+Raw&iso=20220518T13&p1=299&ah=1
+[content]: https://www.thenewatlantis.com/publications/why-data-is-never-raw
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
