@@ -54,7 +54,7 @@ Maybe the best way of making change is to demonstrate the utility of structure b
 
 If we're trying to go shop to shop to influence different individuals in data science, changing the culture one practitioner at a time, this would be a lot harder (but still maybe worth doing) than affecting things on a macro level. In this area we can see the advantage of imposing regulation.
 
-This distinction between cultural and regulatory change is really important. Here at Data Ethics Club, we are more focussed on cultural shifts as opposed to regulatory. Very rarely have we actively sought to [influence policy](https://dataethicsclub.com/contents/write_ups/2021/03-11-21_writeup.html).
+This distinction between cultural and regulatory change is really important. Here at Data Ethics Club, we are more focussed on cultural shifts as opposed to regulatory. Very rarely have we actively sought to [influence policy](https://dataethicsclub.com/write_ups/2021/03-11-21_writeup.html).
 
 If we do have a good idea of our aims (which would often need structure) and those aims are more specific then perhaps we would want to be more focussed on the regulation. 
 

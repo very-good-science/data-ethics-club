@@ -83,7 +83,7 @@ This kind of research has a place within that and is a relevant consideration bu
 How much has this problem been thought of before?
 Coding and coding infrastructure is probably not top of the list when we think of climate change. 
 This paper does highlight that computational resources is worth thinking about. 
-But we should also be mindful about resources used to make computers, as we discussed in a [previous talk](https://dataethicsclub.com/contents/write_ups/2021/11-08-21_writeup.html).
+But we should also be mindful about resources used to make computers, as we discussed in a [previous talk](https://dataethicsclub.com/write_ups/2021/11-08-21_writeup.html).
 
 Speed is a good proxy for energy consumption. But if we make things faster then people might just run them more ofter. For example, creating more energy efficient fuel sources created more fuel consumption. This is an example of [Jevons' paradox](https://en.wikipedia.org/wiki/Jevons_paradox#:~:text=In%20economics%2C%20the%20Jevons%20paradox,rises%20due%20to%20increasing%20demand.).
 
