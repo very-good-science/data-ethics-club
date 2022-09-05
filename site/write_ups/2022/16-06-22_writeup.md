@@ -10,8 +10,8 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ```
 
-```{image} ../../../../images/AutomatingIneq.png
-:width: 200px
+```{image} ../../images/AutomatingIneq.png
+:width: 300px
 :align: center
 :alt: Gru's Plan Meme, "Let the Algorithm decide exam grades" "People won't complain until it affects them" "Even Middle class people are affected". Meme made by Euan Bennet.
 ```

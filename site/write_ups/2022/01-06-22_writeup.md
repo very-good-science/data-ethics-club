@@ -9,8 +9,8 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## Introduction
 
-```{image} images/ButIfYouDid.png
-:width: 200px
+```{image} ../../images/ButIfYouDid.png
+:width: 300px
 :align: center
 :alt: American Chopper Argument Meme. "Consent to my super cool study using your data" "But I don't understand your study" "But if you did, you'd love it and think it was super ethical." "But I don't understand it!" "But if you did..." Meme made by Huw Day.
 ```

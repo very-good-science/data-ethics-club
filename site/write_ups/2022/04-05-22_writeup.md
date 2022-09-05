@@ -1,5 +1,4 @@
 # Data Ethics Club: [Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech](https://www.tandfonline.com/doi/abs/10.1080/09505431.2021.1990875?journalCode=csac20)
-<!--Please don't edit the info panel below-->
 
 
 ```{admonition} What's this? 
@@ -10,8 +9,8 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ```
 
-```{image} ../../../../images/EthicsAsCurrency.png
-:width: 200px
+```{image} ../../images/EthicsAsCurrency.png
+:width: 300px
 :align: center
 :alt: UNO Meme, "Actually be Ethical Instead of just Pretending or Draw 25" with Tech Bros holding a handful of UNO cards.
 ```
