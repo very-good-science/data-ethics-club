@@ -352,6 +352,14 @@
       ]
     },
     {
+      "login": "Susana465",
+      "name": "Susana465",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73224467?v=4",
+      "profile": "https://github.com/Susana465",
+      "contributions": [
+        "content"
+      ]
+    },
       "login": "",
       "name": "Vivienne Kuh",
       "avatar_url": "",
@@ -359,7 +367,7 @@
       "contributions": [
         "content"
       ]
-    },
+    }
   ],
   "contributorsPerLine": 7,
   "projectName": "data-ethics-club",
