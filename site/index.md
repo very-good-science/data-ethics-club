@@ -73,6 +73,9 @@ Data Ethics Club is organised by a [small team](contact), but all our materials 
     <td align="center"><a href="https://bandism.net/"><img src="https://avatars.githubusercontent.com/u/22633385?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ikko Ashimine</b></sub></a><br /><a href="#content-eltociear" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/bengcooper"><img src="https://avatars.githubusercontent.com/u/3008392?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ben Cooper</b></sub></a><br /><a href="#content-bengcooper" title="Content">🖋</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Susana465"><img src="https://avatars.githubusercontent.com/u/73224467?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Susana465</b></sub></a><br /><a href="#content-Susana465" title="Content">🖋</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
