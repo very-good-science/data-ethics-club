@@ -11,7 +11,7 @@ This week's discussion centred around the paper [“Participant” Perceptions o
 
 The debate has two main sides. On the one hand, if you have a public twitter account, then as soon as you click tweet, whatever you've said is now fair game. The majority of users do have public accounts, some [studies](http://temp.beevolve.com/twitter-statistics/) estimate only around 12% of users opt for private/protected accounts. 
 
-On the other hand, just because someone can get their hands on your data, it does not mean you consent to them using that data. (This links rather nicely to our previous [discussion](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/28-07-21_writeup.html) on Bellingcat, the Rise of Privates Spies and open source investigation). 
+On the other hand, just because someone can get their hands on your data, it does not mean you consent to them using that data. (This links rather nicely to our previous [discussion](https://very-good-science.github.io/data-ethics-club/write_ups/2021/28-07-21_writeup.html) on Bellingcat, the Rise of Privates Spies and open source investigation). 
 
 ## Informed consent and terms of service
 

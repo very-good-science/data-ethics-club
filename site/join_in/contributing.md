@@ -94,4 +94,4 @@ Then you can install the packages using `pip install -r requirements.txt`
 [issues]: https://github.com/very-good-science/data-ethics-club/issues
 [new-issue]: https://github.com/very-good-science/data-ethics-club/issues/new?assignees=NatalieZelenka
 [dec-email]: grp-ethicaldatascience@groups.bristol.ac.uk
-[accessibility]: https://dataethicsclub.com/contents/how_to/accessibility-plan.html
+[accessibility]: https://dataethicsclub.com/how_to/accessibility-plan.html

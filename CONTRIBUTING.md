@@ -3,7 +3,7 @@
 Thank you for being interested in contributing to this project! 
 Data Ethics Club is a community of people who care about data ethics, and we wabt everyone to feel welcome here.
 
-Check out [the website's Contribution Guide](https://dataethicsclub.com/contents/join_in/contributing.html) for details on how to contribute.
+Check out [the website's Contribution Guide](https://dataethicsclub.com/join_in/contributing.html) for details on how to contribute.
 
 <!-- 
 From Data Hazards - we need to adapt these 

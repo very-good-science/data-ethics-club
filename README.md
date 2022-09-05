@@ -10,23 +10,23 @@ Welcome! Data Ethics Club is a fortnightly discussion group/"journal" club about
 The organisers are based in Bristol, but the club is open to all. 
 
 You can find all the information about Data Ethics Club on [our website](https://dataethicsclub.com/index.html), but here are some quick links to get you started:  
-* [Check out our reading list of data ethics materials](https://dataethicsclub.com/contents/reading-list.html)
-* [Find out about our next meeting](https://dataethicsclub.com/contents/join_in/meetings/next-meeting.html)
-* [Contact the organisers](https://dataethicsclub.com/contents/contact.html)
-* [Read our write ups of previous meetings](https://dataethicsclub.com/contents/write_ups/write-ups.html)
-* [See our Code of Conduct](https://dataethicsclub.com/contents/join_in/code-of-conduct.html)
+* [Check out our reading list of data ethics materials](https://dataethicsclub.com/reading-list.html)
+* [Find out about our next meeting](https://dataethicsclub.com/join_in/meetings/next-meeting.html)
+* [Contact the organisers](https://dataethicsclub.com/contact.html)
+* [Read our write ups of previous meetings](https://dataethicsclub.com/write_ups/write-ups.html)
+* [See our Code of Conduct](https://dataethicsclub.com/join_in/code-of-conduct.html)
 
-Please join our [mailing list](https://dataethicsclub.com/contents/mailing-list.html) if you'd like to be emailed about future meetings. You can see the dates of our upcoming meetings [here](https://dataethicsclub.com/contents/join_in/join_in.html#upcoming-meetings).
+Please join our [mailing list](https://dataethicsclub.com/mailing-list.html) if you'd like to be emailed about future meetings. You can see the dates of our upcoming meetings [here](https://dataethicsclub.com/join_in/join_in.html#upcoming-meetings).
 
 ## Re-using our materials
 We really welcome people re-using the materials we have made. This repository is [licensed](LICENSE.md) under a CC-BY 3.0 license. This means, yes, please **do** use, remix, and share anything you find in this repo, but you must credit us with attribution (a link to this repo is okay!).  
 
-To make it easier to re-use what you find here we have a made a [How To Guide](https://dataethicsclub.com/contents/how_to/reuse_dec.html) which includes an explanation of what is here and also blank templates for all the things we use reguarly. This includes our Code of Conduct, Meeting agendas and issue templates. 
+To make it easier to re-use what you find here we have a made a [How To Guide](https://dataethicsclub.com/how_to/reuse_dec.html) which includes an explanation of what is here and also blank templates for all the things we use reguarly. This includes our Code of Conduct, Meeting agendas and issue templates. 
 
 
 ## Contributors ✨
 
-Thanks goes to these wonderful people in developing this repository, joining Data Ethics Club for discussions and building and our [open reading list!](https://dataethicsclub.com/contents/reading-list.html) ([emoji key](#emoji-key)):
+Thanks goes to these wonderful people in developing this repository, joining Data Ethics Club for discussions and building and our [open reading list!](https://dataethicsclub.com/reading-list.html) ([emoji key](#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->

@@ -84,14 +84,14 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Green AI](https://arxiv.org/abs/1907.10597) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
 * [Principles of Green Software Engineering](https://principles.green/) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
 * [Quantifying the Carbon Emissions of Machine Learning](https://arxiv.org/abs/1910.09700) and the [ML CO2 Impact calculator](https://mlco2.github.io/impact/) - suggested by [@JennyBrennan](https://github.com/JennyBrennan)
-* [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech?) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) - ✅[11th August 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/11-08-21_writeup.html)
+* [What an ancient lake in Nevada reveals about the future of tech](https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech?) - suggested by [@NatalieThurlby](https://github.com/NatalieThurlby) - ✅[11th August 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/11-08-21_writeup.html)
 
 ## Privacy and surveillance
 
-* [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) - ✅[25th Aug 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/25-08-21_writeup.html)
+* [“Participant” Perceptions of Twitter Research Ethics](https://journals.sagepub.com/doi/10.1177/2056305118763366) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) - ✅[25th Aug 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/25-08-21_writeup.html)
 * [Privacy is power](https://www.politico.eu/article/privacy-is-power-opinion-data-gdpr/)
 * [Paths to Social License for Tracking-data Analytics](https://psyarxiv.com/9nye8/)
-* [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) - suggested by [@HDiscoDay](https://github.com/hdiscoday) - ✅[28th July 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/28-07-21_writeup.html)
+* [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) - suggested by [@HDiscoDay](https://github.com/hdiscoday) - ✅[28th July 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/28-07-21_writeup.html)
 * 📺 [A Question of Trust - Reith Lectures - Onora O'Neill](https://www.bbc.co.uk/programmes/p00ghvd8)
   * [Transparency is Surveillance](https://philarchive.org/archive/NGUTISv2)<sup>1</sup> - suggested by [Charles Radclyffe](https://www.ethicsgrade.io/)
 
@@ -106,7 +106,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Owning Ethics: Corporate Logics, Silicon Valley, and the Institutionalization of Ethics](https://muse.jhu.edu/article/732185) 
 * [GCHQ - Pioneering a New National Security: The Ethics of Artificial Intelligence](https://www.gchq.gov.uk/files/GCHQAIPaper.pdf) - suggested by [@ninadicara](https://github.com/ninadicara)
 * [UK Statistics Authority Landscape Review of Applied Data Ethics](https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/) - :white_check_mark: [14th Apr 2021](https://github.com/very-good-science/data-ethics-club/blob/main/meetings/2021/04-april/14-04-21_meeting.md)
-* 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday) -  ✅  [14th July 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/14-07-21_writeup.html)
+* 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday) -  ✅  [14th July 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/14-07-21_writeup.html)
 * [UK AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) - suggested by [Paul Lee](https://senseoffairness.blog/)
 * [Learning from the stochastic parrots: finding fairness in AI](https://senseoffairness.blog/2021/02/28/learning-from-the-stochastic-parrots-finding-fairness-in-ai/) - suggested by [Paul Lee](https://senseoffairness.blog/)
 
@@ -127,9 +127,9 @@ Note: reading materials appear once in the category we felt they fit best.
 
 ## Ethics in action (the good and the not so good)
 
-* [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) - ✅  [8th Sept 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/08-09-21_writeup.html)
+* [ESR: Ethics and Society Review of Artificial Intelligence Research](https://arxiv.org/abs/2106.11521) - suggested by [@nataliethurlby](https://github.com/NatalieThurlby) - ✅  [8th Sept 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/08-09-21_writeup.html)
 * [A toolkit for centering racial equity throughout data integration](https://www.aecf.org/resources/a-toolkit-for-centering-racial-equity-within-data-integration/)<sup>1</sup>
-* [Structural injustice and individual responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) 🎤 - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/) -  ✅  [6th Oct 2021](https://very-good-science.github.io/data-ethics-club/contents/write_ups/2021/06-10-21_writeup.html)
+* [Structural injustice and individual responsibility](https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680) 🎤 - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/) -  ✅  [6th Oct 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/06-10-21_writeup.html)
 * [Design Justice: Towards an Intersectional Feminist Framework for Design Theory and Practice](https://designjustice.org/s/SSRN-id3189696.pdf)
 * [Data Feminism Book Club](https://datafeminism.io/blog/book/data-feminism-reading-group/)<sup>1</sup>
   * Chapter 7: "Show your work"
