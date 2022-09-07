@@ -43,14 +43,14 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [16.06.2022, 1pm](meetings/2022/06-jun/16-06-22_meeting) |  [Read the write up](../write_ups/2022/16-06-22_writeup) |
+| [16.06.2022, 1pm](meetings/2022/06-jun/16-06-22_meeting) | Data Week Special - [We watched a video by Virginia Eubanks](https://www.youtube.com/watch?v=ADYxJU0WyJA) (author of Automating Inequality) | [Read the write up](../write_ups/2022/16-06-22_writeup) |
 | [01.06.2022, 1pm](meetings/2022/06-jun/01-06-22_meeting) | [Participatory data stewardship](https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf) | [Read the write up](../write_ups/2022/01-06-22_writeup) |
 | [18.05.2022, 1pm](meetings/2022/05-may/04-05-22_meeting) | [Why Data Is Never Raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw) | [Read the write up](../write_ups/2022/18-05-22_writeup) | 
 | [04.05.2022, 1pm](meetings/2022/05-may/04-05-22_meeting) | [Economies of Virtue: The Circulation of "Ethics" in Big Tech](https://www.tandfonline.com/doi/full/10.1080/09505431.2021.1990875) | [Read the write up](../write_ups/2022/04-05-22_writeup) |
 | [06.04.2022, 1pm](meetings/2022/04-apr/06-04-22_meeting) | [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/) | [Read the write up](../write_ups/2022/06-04-22_writeup) |
 | [23.03.2022, 1pm](meetings/2022/03-mar/23-03-22_meeting) | [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) |[Read the write up](../write_ups/2022/23-03-22_writeup)|
 | [09.03.2022, 1pm](meetings/2022/03-mar/09-03-22_meeting) | [AI in Warfare](https://www.bbc.co.uk/sounds/play/m00127t9) | [Read the write up](../write_ups/2022/09-03-22_writeup)  |
-| [23.02.2022, 1pm] | N/A | Cancelled due to UCU Strikes. |
+| 23.02.2022, 1pm | N/A | Cancelled due to UCU Strikes. |
 | [09.02.2022, 1pm](meetings/2022/02-feb/09-02-22_meeting) | [“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies](https://journals.sagepub.com/doi/full/10.1177/2053951719833404) | [Read the write up](../write_ups/2022/09-02-22_writeup) |
 | [26.01.2022, 1pm](meetings/2022/01-jan/26-01-22_meeting) | [Which Programming Languages Use The Least Electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/) | [Read the write up](../write_ups/2022/26-01-22_writeup) |
 | [12.01.2022, 1pm](meetings/2022/01-jan/12-01-22_meeting) | [Data Ethics Club's New Years Resolutions](meetings/2022/01-jan/12-01-22_meeting) - read the meeting summary for an overview | [Read the write up](../write_ups/2022/12-01-22_writeup) |
