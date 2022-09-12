@@ -35,10 +35,10 @@ This time we're going to watch/read [Hacking the cis-tem][content] by Mar Hicks 
 
 Check back soon for discussion points on this piece. 
 
-<!-- There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE -->
+There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.  
+1. How can the construction and manipulation of identity categories by computerised systems lead to discrimination? Can you think of a time you’ve been guilty of this practice?  
+2. What are the risks of AI systems artificial intelligence systems that are designed to “discern” or algorithmically “identify” aspects like gender or sexuality from facial data or other categories?  
+3. What responsibility do government and/or technological platforms have when constructing such computerised systems?  
 
 ---
 
