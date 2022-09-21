@@ -90,17 +90,29 @@ Adopting such an interpretation leads to increased attention to the process that
 ## References
 
 Barrowman, N., 2018. [Why data is never raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw). The New Atlantis, 56), pp.129-135.
+
 Benjamin, G., 2021. [What we do with data: A performative critique of data "collection"](https://policyreview.info/articles/analysis/what-we-do-data-performative-critique-data-collection). Internet Policy Review, 10(4), pp.1-27.
+
 Betterimagesofai.org. 2022. [Better Images of AI.](https://betterimagesofai.org/)
+
 Haupt, M., 2016. [“Data is the New Oil” — A Ludicrous Proposition.](https://medium.com/project-2030/data-is-the-new-oil-a-ludicrous-proposition-1d91bba4f294) Medium
+
 Hwang, T. and Levy, K., 2015. [“The cloud” and other dangerous metaphors](https://www.theatlantic.com/technology/archive/2015/01/the-cloud-and-other-dangerous-metaphors/384518/) The Atlantic, 20. 
+
 Irani, L.C. and Silberman, M.S., 2013, April. [Turkopticon: Interrupting worker invisibility in amazon mechanical turk.](https://dl.acm.org/doi/10.1145/2470654.2470742) In Proceedings of the SIGCHI conference on human factors in computing systems pp. 611-620.
 Lakoff, G. and Johnson, M., 2008. Metaphors We Live By. University of Chicago press.
+
 Lockton, D., Singh, D., Sabnis, S., Chou, M., Foley, S. and Pantoja, A., 2019. [New metaphors: A workshop method for generating ideas and reframing problems in design and beyond.](https://dl.acm.org/doi/10.1145/3325480.3326570) In Proceedings of the 2019 on Creativity and Cognition pp. 319-332.
+
 Marsan, C., 2012. [15 Worst Internet Privacy Scandals of All Time.](https://www.csoonline.com/article/2130748/15-worst-internet-privacy-scandals-of-all-time.html ) CSO Online. 
+
 Okasha, S., 2016. [Philosophy of Science: A Very Short Introduction.](https://academic.oup.com/book/517) Oxford: Oxford University Press, pp. 151-153.
+
 Puschmann, C. and Burgess, J., 2014. [Big data, big questions| Metaphors of big data.](https://ijoc.org/index.php/ijoc/article/view/2169) International Journal of Communication, 8, p.20.
+
 Shankland, S., 2008. [Google begins blurring faces in Street View.](https://www.cnet.com/culture/google-begins-blurring-faces-in-street-view/) CNET. 
+
 Taffel, S., 2021. [Data and oil: Metaphor, materiality and metabolic rifts.](https://journals.sagepub.com/doi/10.1177/14614448211017887) New Media & Society, p.14614448211017887.
+
 Watson, S.M., 2015. [Metaphors of Big Data. DIS Magazine.](https://dismagazine.com/discussion/73298/sara-m-watson-metaphors-of-big-data/)
 
