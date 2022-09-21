@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Data Ethics Club: Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech &#8212; Data Ethics Club v0.1.0 documentation</title>
+    <title>Cleaning the oil spill of data metaphors &#8212; Data Ethics Club v0.1.0 documentation</title>
   <script>
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
@@ -44,13 +44,13 @@
     <script>let toggleOpenOnPrint = 'true';</script>
     <script src="../../_static/togglebutton.js"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022/04-05-22_writeup';</script>
-    <link rel="canonical" href="dataethicsclub.com/write_ups/2022/04-05-22_writeup.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022/MetaphorsBlogPost';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2022/MetaphorsBlogPost.html" />
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Data Ethics Club: The Algorithmic Colonization of Africa" href="06-04-22_writeup.html" />
-    <link rel="prev" title="Data Ethics Club: Why data is never raw" href="18-05-22_writeup.html" />
+    <link rel="next" title="The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers" href="GLMBlogpost.html" />
+    <link rel="prev" title="Write-ups" href="../write-ups.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="None">
   </head>
@@ -359,8 +359,8 @@
   </p>
   <div class="bd-toc-item navbar-nav">
     <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="MetaphorsBlogPost.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Cleaning the oil spill of data metaphors
   </a>
  </li>
@@ -384,8 +384,8 @@
    Data Ethics Club: Why data is never raw
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-05-22_writeup.html">
    Data Ethics Club: Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech
   </a>
  </li>
@@ -527,76 +527,98 @@
             
             <article class="bd-article" role="main">
               
-  <section id="data-ethics-club-economies-of-virtue-the-circulation-of-ethics-in-big-tech">
-<h1>Data Ethics Club: <a class="reference external" href="https://www.tandfonline.com/doi/abs/10.1080/09505431.2021.1990875?journalCode=csac20">Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech</a><a class="headerlink" href="#data-ethics-club-economies-of-virtue-the-circulation-of-ethics-in-big-tech" title="Permalink to this headline">#</a></h1>
-<!--Please don't edit the info panel below-->
+  <section id="cleaning-the-oil-spill-of-data-metaphors">
+<h1>Cleaning the oil spill of data metaphors<a class="headerlink" href="#cleaning-the-oil-spill-of-data-metaphors" title="Permalink to this headline">#</a></h1>
 <div class="admonition-what-s-this admonition">
 <p class="admonition-title">What’s this? </p>
-<p>This is summary of Wednesday 5th May’s Data Ethics Club discussion, where we discussed the paper <a class="reference external" href="https://www.tandfonline.com/doi/abs/10.1080/09505431.2021.1990875?journalCode=csac20">Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech</a> by Jake Goldenfein, Monique Mann and Declan Kuch.</p>
-<p>The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
-Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+<p>This is a standalone blogpost written by Roman Shkunov in September 2022 about the use of metaphors when discussing data science and the implications of their usage. All opinions expressed are strictly his own.
+Huw Day, Nina Di Cara, Natalie Thurlby and Ola Michaels helped with the final edit.</p>
 </div>
-<a class="reference internal image-reference" href="../../images/EthicsAsCurrency.png"><img alt="UNO Meme, &quot;Actually be Ethical Instead of just Pretending or Draw 25&quot; with Tech Bros holding a handful of UNO cards." class="align-center" src="../../images/EthicsAsCurrency.png" style="width: 200px;" /></a>
 <section id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
-<p>This week at Data Ethics Club we discussed <a class="reference external" href="https://www.tandfonline.com/doi/abs/10.1080/09505431.2021.1990875?journalCode=csac20">Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech</a>, a paper by by Jake Goldenfein, Monique Mann and Declan Kuch. (This paper may be difficult to access open source without a university login).</p>
-<p>In this paper, the authors discusses some of the ethics problems in Big Tech and “how Big Tech has transformed ethics into a form of capital — a transactional
-object external to the organisation, one of the many ‘things’ contemporary capitalists must tame and procure”.</p>
-<p>We talked about the difficulities in conducting ethical research that is funded by the body you are investigating, how this research is best able to bring about change and whether interventions that serve a captialistic interest are always harmful.</p>
+<p>When we talk about data, we talk in metaphors.
+As any data professional will recognise, when we’re trying to get a handle on a complex process like addressing anomalous records, we say that we’re doing ‘data cleaning’; when trying to prove how useful data are, we may claim that ‘we’re sitting on a data gold mine!’
+But data metaphors are more than just window-dressing with words; they reflect how we think about data within our profession, and they encourage others to think about data in the same way.
+Unfortunately, the dominant metaphors of today present a skewed view of data; they obscure the subjective, human side of data while foregrounding its economic potential and claimed objectivity.</p>
+<p>The power of metaphors stems from their importance in how humans understand the world.
+As Lakoff and Johnson argue in their seminal work, Metaphors We Live By (2008), humans use metaphors in almost every sphere of life to reason about the world.
+Take the metaphor, time is a resource.
+We can see how in daily life we structure how we think of time in terms of a resource through its entailments, or consequences.
+A resource is a finite reserve of something that can be quantified (‘how much time do we have left?’), used up (‘we’re running out of time’) or converted into something useful through work (‘they used their time well’).</p>
+<p>Metaphors are by nature partial; they only explain part of the target concept.
+Consequently, we choose metaphors with the entailments we think best explain the target concept.
+When we say that time is a resource, we seek to emphasise how time is finite, but obscure how time never stops, or how different people perceive it.</p>
+<p>The choice of metaphor is dictated not only by context, but also by one’s ideology (or worldview); the metaphor is chosen to match the ideology one wishes to promote.
+Consequently, metaphors provide a window through which we can understand the dominant ideologies in the world of data science.
+After looking at tens of data science presentations, promotion material, and learning guides, I identified two key data ideologies, which I represent by their main metaphors.</p>
 </section>
-<section id="what-difficulties-appear-as-an-ethics-ai-researcher">
-<h2>What difficulties appear as an ethics AI researcher?<a class="headerlink" href="#what-difficulties-appear-as-an-ethics-ai-researcher" title="Permalink to this headline">#</a></h2>
-<p>One of the attendees works on training PhD students in responsible innovation for AI.
-We discussed the tensions of trying to train responsible AI - it’s a mindset and not a checklist. There are inherent risks in framing it otherwise - what is ethical is influenced by political events, cultural beliefs, so many things and is not just a clipboard to run through at the end of a project.</p>
-<p>So when people say that they <em>have</em> developed a checklist - how good can that be? And how can you create training that gives any guarantee of an ethical standard.</p>
-<p>This discussion reminded some of us of <a class="reference external" href="https://en.wikipedia.org/wiki/Carbon_credit">carbon credits</a> in the sense that you can “buy” good ethics with money instead of being good at ethics.
-In both cases, it brings about the question of: if you can afford to put money into this effort (be it environmental/ethical impact) when you weren’t doing something to negatively contribute (taking a flight somewhere/working on a project with military applications), why not avoid doing the negative action and still contribute?
-It almost feels like a guilt-tax to payoff to appeal to public opinion.</p>
-<p>Often times a data scientist’s job is a lot about representing information, rather than evaluating it. Whilst part of that is using that representation to best understand it from your point of view, an equally important part is to represent the data in a way that supports the message you (or the client) want. When you’re trying to get a product out, if you have a vested interest, it makes it very hard to stay objective. (This is another great reason to bring reflexivity practices into data science!).</p>
-<p>Its common for data scientists and mathematical people to see models as not harmful and neutral by default, because they are simply a representation of objectively measured data. It also seems common for people to throw their data into a black box which they don’t (and can’t) understand. Data scientists need to realise that there are consequences to the work that they do. Unless people are economically punished for unethical practices, where is the incentive for them to stop?</p>
+<section id="data-as-unprocessed-economic-potential-resource">
+<h2>Data as unprocessed economic potential/resource<a class="headerlink" href="#data-as-unprocessed-economic-potential-resource" title="Permalink to this headline">#</a></h2>
+<p><em>Example metaphors: “data is the new oil”, “data gold mine”, “data mining”, “knowledge extraction”, “data is the new electricity”</em></p>
+<p>This data ideology, borne of the business world, takes data as material – often as a natural resource like oil – which when first obtained is unsuitable for generating economic value.
+To turn the ‘raw’ economic potential into actual economic value, data must be processed (e.g., filtered, aggregated, visualised, and modelled), or as Peter Sondergaard, Senior Vice President of tech-hype-cycle consultancy Gartner put it in 2011,</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>“Information is the oil of the 21st century, and analytics is the combustion agent.” (Gartner, 2011, cited in Haupt, 2016)
+</pre></div>
+</div>
+<p>The key claims in this data ideology are that data can be processed to obtain information that can be exchanged for financial gain, and that profit generation is necessarily good.
+It follows from these assertions that we should be recording/creating more data and processing it in order to drive economic growth.
+This is a clearly capitalist view of data, and its metaphors are typically used by data scientists or managers in sales pitches where they appeal for investment in a data-driven project by emphasising the economic value of data.</p>
+<p>By treating data as economic potential/resource, this ideology and its metaphors background the human side of data: data are recorded about humans and are used to make decisions that affect humans.
+This can have serious negative consequences for the data subjects as witnessed by numerous case studies (Marsan, 2012), such as the introduction of Google’s Street View, which was initially launched without the blurring of faces and vehicle numberplates, leading to people’s privacy being compromised (Shankland, 2008).</p>
 </section>
-<section id="are-interventions-research-that-serve-capitalist-interests-always-bad-harmful">
-<h2>Are interventions/research that serve capitalist interests always bad/harmful?<a class="headerlink" href="#are-interventions-research-that-serve-capitalist-interests-always-bad-harmful" title="Permalink to this headline">#</a></h2>
-<p>What are our assumptions about what is good/bad? Is working in a not-for-profit automatically good? What are we aiming for: in terms of interventions (e.g. regulation) or in terms of values (e.g. transparency).</p>
-<p>Ethical harms are less tangible sometimes than other regulated things. Is it possible to circumvent huge scandals? Or is it necessary? Even in more critical tangible systems (planes/cars), things keep on until scandal because it’s deniable that there’s a problem. What is the structure that will catch these problems earlier on? Negative feedback loops come to mind. Why do organisations bring in standards? Because employees asked for it.</p>
-<p>The aviation industry provides an interesting case study: plane crashes cause mistrust and low sales, is there a feedback loop in the same way? FAA (aviation industry) has very heavy-handed regulation, but still has scandals and failures. But maybe there’s another world where we just accept planes fall out of the sky sometimes? Big tech self regulation…is that really a good idea?</p>
-<p>There appears to be a presumption 100% transparency is good. Even if you’re working in not for profit, you’re still not going to be 100% transparent at all times. Why are we asking for transparency? Transparency is in some sense the opposite to trust but a direct call for transparency is not the same as truth. There is <a class="reference external" href="https://philarchive.org/archive/NGUTISv2">an excellent paper about this tension between transparency and trust</a> on our Reading List, but be warned - it’s a long one!</p>
-<p>Might we have good reasons for not being transparent? Coorporate interests are the motivation in private companies but what about public sector? Competitive interests might be apparent, but there are likely to be “good” reasons relating to privacy and national security. On a personal level, sometimes people are not confident in their own ability and so not willing to share. What would we want to be transparent about? This might look different to different audiences (Transparency to the end user: which variables are impacting you? Transparency to the regulator: which variables are causing this selection of loan applications to fail?).</p>
-<p>What’s the best outcome for users being able to really know what is going on? External regulation is arguably better than internal (unscrupulous people could potentially cover things up). But if the internal team has multiple people and there is more of a culture of ethical regulation, then that has an important place as well.</p>
+<section id="data-as-inherent-and-objective-source-of-knowledge">
+<h2>Data as inherent and objective source of knowledge<a class="headerlink" href="#data-as-inherent-and-objective-source-of-knowledge" title="Permalink to this headline">#</a></h2>
+<p>*Example metaphors: “raw data”, “data collection”, “the data speaks for itself”, “the data doesn’t lie” *</p>
+<p>A large number of data metaphors evidence the view held in the wider data science community that data is, in some way, natural.
+Metaphors falling under the umbrella of data as a natural resource imagine data to be ‘out there’, a resource waiting to be tapped; the often-used phrase ‘data collection’ conjures the image that data are ‘lying on the ground’, ready to be picked up.
+Taking data as ‘natural’ so that they merely need to be ‘collected’ leads to the view that data are inherent to the world, and not that they need to be created.
+The resulting assertion of this data ideology is that data are an objective source of knowledge; the information they give about the world transcend individuals’ opinions and biases.
+This is accompanied by a similar moral claim as in the last data ideology: because data give us insight into how the world truly is, one should collect as much data as possible to best enable ‘data-driven’ decision making, regardless of the consequences of expanding the measurement of humans’ lives.</p>
+<p>We should altogether dispense with the loaded statements that ‘data is natural’ and ‘data is objective’ if we are to honestly reflect on data science.
+While no doubt it is natural there many things that can be measured to produce data, all data are created: an analyst must choose what to measure, how to measure it, and how to represent these measurements [Note 1].
+Omitting or obscuring these choices can give a false impression of certainty and objectivity, reducing the validity of inferences and decisions made on those data.
+What’s more, we must maintain awareness of the labour involved in creating data; especially for machine learning tasks, labelled data are created by workers on low-paid temporary contracts for platforms like Mechanical Turk (Irani and Silberman, 2013).</p>
 </section>
-<section id="when-is-critical-research-practice-likely-to-bring-about-substantial-change">
-<h2>When is critical research practice likely to bring about substantial change?<a class="headerlink" href="#when-is-critical-research-practice-likely-to-bring-about-substantial-change" title="Permalink to this headline">#</a></h2>
-<p>Critical research practice is difficult to do from “inside the house”. If research is challenging the main purpose of the company (e.g. Google and language models) and their main products then this is problematic for them from a financial perspective, and it’s doubtful whether truly meaningful change is possible from this position. That said, it would be great if companies were made up of all ethically minded people!</p>
-<p>One of our members, an academic in a University philosophy department had some interesting (and very self-aware) insights into public perception of their work. Philosophers are not all knowing and can’t outthink every ethical problem.</p>
-<p>The authors pointed out how there’s a potential issue with public funding cut for universities so there is more pressure to get industry funding. Some of the departments being closed have been the ones doing this more critical work.</p>
-<p>However, it doesn’t always cost anything to do ethics research so you don’t always need ethical funding from the firms you are researching (which might affect the research). In the case of many philosophy departments, you don’t even always need government funding. You can just get a contract from the university to get paid to do your teaching and research obligations, circumventing the “publish or perish” model so many of us experience in academia.</p>
-<p>How big of an issue is a lack of access to big data companies (even if you have funding)? The more access you have, the better. There is a difference between complaining about a problem and being able to fix it (despite what we would like to think here at DEC). If you perceive misrepresentation of data in something like the pharmaceutical industry for example, you can’t just write a putdown about a clinical trial, you basically have to go to court (via a regulatory body).</p>
-<p>It is quite common in academia to write a piece that isn’t actually useful and for implementation and instead you want to write something conceptual. For example, we do know that certain algorithms are racially biased. We can write what conceptions of racism are morally wrong for example. Then you hope someone picks this up and actually tries to apply it.</p>
-<p>As our anonymous philosophy academic put it: “Philosophers have so much academic freedom because people don’t care so much about what they say. That’s probably why philosophy has been allowed to survive in the traditional sense.”</p>
-<p>Everything else has been shoved towards publish or perish mode. Some are hesitant to grant that the publish and perish thing isn’t important to many philosophers.</p>
-<p>With universities and public bodies, a lot of ethical charters and intiatives are completely performative (e.g. Athena Swan Intiative even though there’s massive pay imbalances). People put too much energy into performing and not enough to fixing.</p>
+<section id="conclusion-how-can-we-all-clean-the-oil-spill">
+<h2>Conclusion: How Can We All Clean the Oil Spill?<a class="headerlink" href="#conclusion-how-can-we-all-clean-the-oil-spill" title="Permalink to this headline">#</a></h2>
+<p>Metaphors are ubiquitous in describing data, but are we just muddying the linguistic and data-ideological waters with our current data metaphors?
+The answer is, in general, yes.
+In accordance with the profit-incentivised culture of business, which dominates data science, data scientists, managers, journalists, and others seek to promote the economic value and objective nature of data while, as Hwang and Levy (2015) point out, “people are nowhere to be found” in these data metaphors; the role of humans and ethical concerns regarding data are missing.</p>
+<p>What can we do about the oil spill of data metaphors?
+In keeping with projects like Better Images of AI (2022) that aim to improve representations of data science, I urge data professionals who care about data ethics to create new data metaphors and actively re-interpret existing data metaphors [Note 2].</p>
+<p>Devising new metaphors allows for altogether different ways of conceptualising data that may not be allowed by dominant metaphors.
+In the context of the ‘data as inherent and objective source of knowledge’ data ideology, Benjamin Garfield (2021) offers three alternatives for replacing the term ‘data collection’ that help mitigate the backgrounding of labour and human subjectivity: data creation, data curation, and compiling data.
+For metaphors falling under ‘data as unprocessed economic potential/resource’, Sara Watson (2015) argues that embodied metaphors can help ‘bring big data back down to a human scale and ground data in lived experience’, helping counter the distancing of data from the humans who created it.
+To that end, she recommends metaphors from the quantified-self community, such as data is a body (e.g., ‘data is a foot/fingerprint’, ‘data double’).</p>
+<p>In contrast to metaphor creation, reinterpretation provides an avenue for subverting rather than replacing metaphors such as ‘data is the new oil’ that reinforce dominant data ideologies.
+Instead of solely focussing on the financial profits gained from data being treated as a resource, one can explore alternative entailments of the metaphor to highlight aspects of data usually backgrounded such as environmental externalities; just like extracting oil, processing data can result in significant environmental consequences (see [Note 3] for an example of how you could re-interpret ‘raw data’.)
+The benefit of reinterpretation as opposed to metaphor creation is that one can more easily build a bridge between existing data ideologies and new data ideologies by simultaneously activating familiar entailments (such as, data has economic value) and new entailments (data processing has environmental costs), helping establish dialogue between people with different perspectives.</p>
+<p>Thank you to the Data Ethics Club for suggesting Barrowman’s (2018) ‘Why data is never raw’ which inspired this blogpost (and for some of their wonderful analysis which fed, either consciously or subconsciously, into the making of this blogpost. Oh god, that’s another metaphor I just used)!</p>
 </section>
-<section id="conclusions">
-<h2>Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this headline">#</a></h2>
-<p>Is it impossible to do this critical research from within Big Tech? This was done in the case of <a class="reference external" href="https://dl.acm.org/doi/10.1145/3442188.3445922">Stochastic Parrots research within Google</a>. Maybe you’re allowed to make general criticisms of Big Tech, but not specifically about the cool new tech of the company you work for.</p>
-<p>We would have liked to have heard more about alternative funding sources. The authors were arguing for ‘untainted’ money - but we don’t really know that that exists. It’s unrealistic to expect anyone to be perfect moral agents. Maybe instead the answer is to be very clear about our positionality - how where we work and who funds us affects our work.</p>
-<p>The uncomfortable truth is that many innovations will cause harm. So what’s the solution - to do some tokenistic type of harm mitigation or perhaps throw it all out entirely?</p>
-<p>Even if we agree not to research something, someone else somewhere will likely pick it up and do it. Is it sufficient to make sure that each of us as individuals are ethical (or as ethical as we can be)? Or should we seek to regulate others?</p>
+<section id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">#</a></h2>
+<p>[1] This results in what philosophers of science call the theory-dependence (or theory-ladenness) of observations: all recorded observations require some prior framework (or paradigm) to create a way to measure and make sense of the world (Okasha, 2016). Even measurements for supposedly objective quantities like electrical charge rely on theories of electricity and, at a more fundamental level, numbers.
+This concept is important when considering one of the key activities of scientists: to choose a theory that best explains some phenomenon, as recorded in data. The problem, according to Thomas Kuhn, is that one cannot choose between two conflicting paradigms (frameworks of science) based on data alone, as what meaning you attach to the data will depend on your paradigm of choice, and hence one could ‘explain away’ the data within the terms of either paradigm. Consequently, for Kuhn, there is no objective way to choose between conflicting paradigms (Okasha, 2016).</p>
+<p>[2] Beyond data metaphors, entire workshops have been devised for generating new metaphors for reframing ideas. One such kind of workshop was recorded in (Lockton et al., 2019), and I’d highly recommend reading it for inspiration regarding workplace activities for raising how we talk about technology, and how this links to ethics.</p>
+<p>[3] One example of a data-ethical or data-feminist reinterpretation that can bring new perspectives to an existing metaphor is that of data as food. Although data are often called ‘raw’, I suggest that the metaphor is extended further. Firstly, raw data is grown: humans ‘feed’ the raw data as they grow (i.e. structure how they go about collecting data) which then determines what the fully-grown raw data look like. Moreover, by harvesting/collecting the data by ‘tearing’ them from the tree/bush/ground (the person/data source), one is capturing what used to be whole with the person but is now dead in some sense (although it remains important to them), they no longer grow from and hence do not truly reflect the living organism from which it arises; the data are a reification of the person’s characteristics. Finally, as before, the raw data must be cooked for something edible to appear (although what would a data sashimi or sushi look like? Discuss.)
+Adopting such an interpretation leads to increased attention to the process that generates data and not solely to the output (data to be analysed). Instead of just asking, ‘how can we analyse these data?’ and ‘how reliable are these data?’, this interpretation encourages us to ask, ‘how do the people who create this data shape it?’ and hence ‘how can we support the people involved in the data creation process?’. Finally, it emphasises the relationship of the data subject to their data in more personal terms than is usual; the data are conceptualised as not just being ‘about’ a person, but in some ways a part of them that needs to be treated with respect.</p>
 </section>
-<hr class="docutils" />
-<section id="attendees">
-<h2>Attendees<a class="headerlink" href="#attendees" title="Permalink to this headline">#</a></h2>
-<p><strong>Name, Role, Affiliation, Where to find you</strong></p>
-<ul class="simple">
-<li><p>Natalie Zelenka, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieZelenka/">NatalieZelenka</a>, <a class="reference external" href="https://twitter.com/NatZelenka">&#64;NatZelenka</a></p></li>
-<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
-<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
-<li><p>Euan Bennet, Senior Research Associate, University of Bristol, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
-<li><p>Robin Dasler, research data product manager, <a class="reference external" href="https://github.com/daslerr/">daslerr</a></p></li>
-<li><p>Ismael Kherroubi Garcia, <a class="reference external" href="https://twitter.com/hermeneuticist">&#64;hermeneuticist</a></p></li>
-<li><p>Sergio Araujo-Estrada, Senior Research Associate, Aerospace Engineering, University of Bristol</p></li>
-</ul>
-<p>14 people attended in total</p>
+<section id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">#</a></h2>
+<p>Barrowman, N., 2018. <a class="reference external" href="https://www.thenewatlantis.com/publications/why-data-is-never-raw">Why data is never raw</a>. The New Atlantis, 56), pp.129-135.
+Benjamin, G., 2021. <a class="reference external" href="https://policyreview.info/articles/analysis/what-we-do-data-performative-critique-data-collection">What we do with data: A performative critique of data “collection”</a>. Internet Policy Review, 10(4), pp.1-27.
+Betterimagesofai.org. 2022. <a class="reference external" href="https://betterimagesofai.org/">Better Images of AI.</a>
+Haupt, M., 2016. <a class="reference external" href="https://medium.com/project-2030/data-is-the-new-oil-a-ludicrous-proposition-1d91bba4f294">“Data is the New Oil” — A Ludicrous Proposition.</a> Medium
+Hwang, T. and Levy, K., 2015. <a class="reference external" href="https://www.theatlantic.com/technology/archive/2015/01/the-cloud-and-other-dangerous-metaphors/384518/">“The cloud” and other dangerous metaphors</a> The Atlantic, 20.
+Irani, L.C. and Silberman, M.S., 2013, April. <a class="reference external" href="https://dl.acm.org/doi/10.1145/2470654.2470742">Turkopticon: Interrupting worker invisibility in amazon mechanical turk.</a> In Proceedings of the SIGCHI conference on human factors in computing systems pp. 611-620.
+Lakoff, G. and Johnson, M., 2008. Metaphors We Live By. University of Chicago press.
+Lockton, D., Singh, D., Sabnis, S., Chou, M., Foley, S. and Pantoja, A., 2019. <a class="reference external" href="https://dl.acm.org/doi/10.1145/3325480.3326570">New metaphors: A workshop method for generating ideas and reframing problems in design and beyond.</a> In Proceedings of the 2019 on Creativity and Cognition pp. 319-332.
+Marsan, C., 2012. <a class="reference external" href="https://www.csoonline.com/article/2130748/15-worst-internet-privacy-scandals-of-all-time.html">15 Worst Internet Privacy Scandals of All Time.</a> CSO Online.
+Okasha, S., 2016. <a class="reference external" href="https://academic.oup.com/book/517">Philosophy of Science: A Very Short Introduction.</a> Oxford: Oxford University Press, pp. 151-153.
+Puschmann, C. and Burgess, J., 2014. <a class="reference external" href="https://ijoc.org/index.php/ijoc/article/view/2169">Big data, big questions| Metaphors of big data.</a> International Journal of Communication, 8, p.20.
+Shankland, S., 2008. <a class="reference external" href="https://www.cnet.com/culture/google-begins-blurring-faces-in-street-view/">Google begins blurring faces in Street View.</a> CNET.
+Taffel, S., 2021. <a class="reference external" href="https://journals.sagepub.com/doi/10.1177/14614448211017887">Data and oil: Metaphor, materiality and metabolic rifts.</a> New Media &amp; Society, p.14614448211017887.
+Watson, S.M., 2015. <a class="reference external" href="https://dismagazine.com/discussion/73298/sara-m-watson-metaphors-of-big-data/">Metaphors of Big Data. DIS Magazine.</a></p>
 </section>
 </section>
 
@@ -608,17 +630,17 @@ It almost feels like a guilt-tax to payoff to appeal to public opinion.</p>
             <footer class="bd-footer-article">
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-  <a class='left-prev' id="prev-link" href="18-05-22_writeup.html" title="previous page">
+  <a class='left-prev' id="prev-link" href="../write-ups.html" title="previous page">
       <i class="fas fa-angle-left"></i>
       <div class="prev-next-info">
           <p class="prev-next-subtitle">previous</p>
-          <p class="prev-next-title">Data Ethics Club: Why data is never raw</p>
+          <p class="prev-next-title">Write-ups</p>
       </div>
   </a>
-  <a class='right-next' id="next-link" href="06-04-22_writeup.html" title="next page">
+  <a class='right-next' id="next-link" href="GLMBlogpost.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Data Ethics Club: The Algorithmic Colonization of Africa</p>
+      <p class="prev-next-title">The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers</p>
   </div>
   <i class="fas fa-angle-right"></i>
   </a>
@@ -644,28 +666,28 @@ It almost feels like a guilt-tax to payoff to appeal to public opinion.</p>
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-difficulties-appear-as-an-ethics-ai-researcher">
-   What difficulties appear as an ethics AI researcher?
+  <a class="reference internal nav-link" href="#data-as-unprocessed-economic-potential-resource">
+   Data as unprocessed economic potential/resource
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#are-interventions-research-that-serve-capitalist-interests-always-bad-harmful">
-   Are interventions/research that serve capitalist interests always bad/harmful?
+  <a class="reference internal nav-link" href="#data-as-inherent-and-objective-source-of-knowledge">
+   Data as inherent and objective source of knowledge
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#when-is-critical-research-practice-likely-to-bring-about-substantial-change">
-   When is critical research practice likely to bring about substantial change?
+  <a class="reference internal nav-link" href="#conclusion-how-can-we-all-clean-the-oil-spill">
+   Conclusion: How Can We All Clean the Oil Spill?
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#conclusions">
-   Conclusions
+  <a class="reference internal nav-link" href="#notes">
+   Notes
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#attendees">
-   Attendees
+  <a class="reference internal nav-link" href="#references">
+   References
   </a>
  </li>
 </ul>
@@ -680,7 +702,7 @@ It almost feels like a guilt-tax to payoff to appeal to public opinion.</p>
 <div class="toc-item">
   
 <div class="tocsection sourcelink">
-    <a href="../../_sources/write_ups/2022/04-05-22_writeup.md.txt">
+    <a href="../../_sources/write_ups/2022/MetaphorsBlogPost.md.txt">
         <i class="fas fa-file-alt"></i> Show Source
     </a>
 </div>
