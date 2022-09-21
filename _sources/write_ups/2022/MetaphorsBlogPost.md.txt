@@ -2,7 +2,7 @@
 
 ```{admonition} What's this? 
 This is a standalone blogpost written by Roman Shkunov in September 2022 about the use of metaphors when discussing data science and the implications of their usage. All opinions expressed are strictly his own. 
-Huw Day, Nina Di Cara, Natalie Thurlby and Ola Michaels helped with the final edit.
+Huw Day, Nina Di Cara, Natalie Thurlby and Ola Michalec helped with the final edit.
 ```
 
 ## Introduction
