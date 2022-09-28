@@ -7,7 +7,7 @@ The summary was written by Huw Day, who tried to synthesise everyone's contribut
 Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
 
-```{image} images/Phrenology.jpg
+```{image} ../../images/Phrenology.jpg
 :width: 200px
 :align: center
 :alt: Drake me. Saying no to "Measurements of bumps on the skull to predict mental traits" but yes to "Training an ML model to do it for you" Meme made by Huw Day.
