@@ -30,8 +30,7 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [21.09.2022, 1pm](meetings/2022/09-sep/21-09-22_meeting) | [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814) |
-| [05.10.2022, 1pm]() | To be voted for in the previous meeting |
+| [05.10.2022, 1pm](meetings/2022/10-oct/05-10-22_meeting) | [The Failures of Algorithmic Fairness](https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/) |
 | [19.10.2022, 1pm]() | To be voted for in the previous meeting |
 | [02.11.2022, 1pm]() | To be voted for in the previous meeting |
 | [16.11.2022, 1pm]() | To be voted for in the previous meeting |
@@ -43,6 +42,7 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [21.09.2022, 1pm](meetings/2022/09-sep/21-09-22_meeting) | [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814) | Coming soon |
 | [16.06.2022, 1pm](meetings/2022/06-jun/16-06-22_meeting) | Data Week Special - [We watched a video by Virginia Eubanks](https://www.youtube.com/watch?v=ADYxJU0WyJA) (author of Automating Inequality) | [Read the write up](../write_ups/2022/16-06-22_writeup) |
 | [01.06.2022, 1pm](meetings/2022/06-jun/01-06-22_meeting) | [Participatory data stewardship](https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf) | [Read the write up](../write_ups/2022/01-06-22_writeup) |
 | [18.05.2022, 1pm](meetings/2022/05-may/04-05-22_meeting) | [Why Data Is Never Raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw) | [Read the write up](../write_ups/2022/18-05-22_writeup) | 
