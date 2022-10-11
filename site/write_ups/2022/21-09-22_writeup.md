@@ -28,7 +28,7 @@ We shared times we had ourselves been guilty of these practises, discussed how t
 
 ## Can you think of a time you’ve been guilty of this practice?
 
-Euan's background is astrophysics but he started working with data working with horses. One of his earliest encounters with identity categories of "horse sex". It transpires that there are more than 2 categories of horse sex.
+Euan's background is astrophysics but he started working with data working with horses. One of his earliest encounters with identity categories was of "horse sex". It transpires that there are more than 2 categories of horse sex.
 
 One of our members has seen that the NHS is guilty of reinforcing some of these issues. They claim to collect "gender" but it's actually sex. There is an "undisclosed" option. Depending on the service, this category can be interpreted as sex or gender. This feels like the data is being used against people rather than to help them and that it is probably causing harm somewhere.
 
