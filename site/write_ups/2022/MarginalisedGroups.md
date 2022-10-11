@@ -50,7 +50,7 @@ As discussed above, medical ‘diagnosis’ of autism still suffers from histori
 
 In focussing on genetic effects, the authors neglect all of the social and societal factors that further contribute to bias in the medical databases used in the study. Finally, the language used throughout the paper clearly demonstrates the authors’ commitment to the medical model of disability, which adds a further layer of bias to the study design given the historic under- and mis-identification of autism in anyone who isn’t a white boy. 
 
-It is perhaps beyond the scope of the paper to also consider the historic under- and mis-identification of people of colour, but this is not mentioned. The paper specifies that only people of “European ancestry”     were included. This methodology is not clearly explained in the paper but this seems to be their euphemistic explanation that they only considered white people in the study cohort. [This is a problem in wider genetics research as well] (https://www.theguardian.com/science/2018/oct/08/genetics-research-biased-towards-studying-white-europeans).
+It is perhaps beyond the scope of the paper to also consider the historic under- and mis-identification of people of colour, but this is not mentioned. The paper specifies that only people of “European ancestry" were included. This methodology is not clearly explained in the paper but this seems to be their euphemistic explanation that they only considered white people in the study cohort. [This is a problem in wider genetics research as well] (https://www.theguardian.com/science/2018/oct/08/genetics-research-biased-towards-studying-white-europeans).
 
 ## Summary
 
