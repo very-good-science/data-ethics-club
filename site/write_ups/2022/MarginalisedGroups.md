@@ -46,7 +46,7 @@ A [recent paper published in Cell Genomics] (https://www.cell.com/cell-genomics/
 
 In the final section of this blog post, we will use this paper as an example of how biased data can be used to draw conclusions that have the potential to harm marginalised groups, and set out the case for doubting the conclusion that there is a “female protective effect” against autism. 
 
-As discussed above, medical ‘diagnosis’ of autism still suffers from historical biases and stereotypes which have yet to be corrected. As such attempting to draw conclusions about a “Female Protective Effect” using a data set based   on past “diagnoses”   is akin to the ghost of Steve Jobs conducting a survey of people’s favourite Android phones in the Apple Store: you just wouldn’t be looking in the right place for the answers that you seek.   
+As discussed above, medical ‘diagnosis’ of autism still suffers from historical biases and stereotypes which have yet to be corrected. As such attempting to draw conclusions about a “Female Protective Effect” using a data set based on past “diagnoses” is akin to the ghost of Steve Jobs conducting a survey of people’s favourite Android phones in the Apple Store: you just wouldn’t be looking in the right place for the answers that you seek.   
 
 In focussing on genetic effects, the authors neglect all of the social and societal factors that further contribute to bias in the medical databases used in the study. Finally, the language used throughout the paper clearly demonstrates the authors’ commitment to the medical model of disability, which adds a further layer of bias to the study design given the historic under- and mis-identification of autism in anyone who isn’t a white boy. 
 
