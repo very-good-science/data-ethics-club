@@ -40,7 +40,7 @@ The patent office did something similar where they aiming to find out whether so
 Just because something does not harm many people, that doesn't necessarily mean it is less harmful overall - a lot of harm could be caused to a small number of people. This subtlety is complicated because we also don't always have reliable numbers for either of these things.
 
 A common one was making decisions about how to record gender in forms. Open text? Drop down?
-Difficult when you're having to satisfy someone else's requirements for reporting or accounting reasons if working within wider systems. There's often an inherent assumption of women being associated with non-binaryness. 
+Difficult when you're having to satisfy someone else's requirements for reporting or accounting reasons if working within wider systems. There's also often an inherent assumption of women being associated with non-binaryness, which is maybe better addressed as 'marginalised genders'.
 
 In Australia the [census this year was an online tool](https://www.sbs.com.au/news/article/faafafine-the-boys-raised-to-be-girls/5tmlnxjaj), so questions appeared based on what answer you selected.
 
