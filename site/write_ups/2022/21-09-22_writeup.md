@@ -42,7 +42,7 @@ Just because something does not harm many people, that doesn't necessarily mean 
 A common one was making decisions about how to record gender in forms. Open text? Drop down?
 Difficult when you're having to satisfy someone else's requirements for reporting or accounting reasons if working within wider systems. There's also often an inherent assumption of women being associated with non-binaryness, which is maybe better addressed as 'marginalised genders'.
 
-In Australia the [census this year was an online tool](https://www.sbs.com.au/news/article/faafafine-the-boys-raised-to-be-girls/5tmlnxjaj), so questions appeared based on what answer you selected.
+In Australia the [census this year was an online tool], so questions appeared based on what answer you selected. This led to an interesting discussion about how [in Samoan culture boys may sometimes be raised as girls, known as Fa'afafine](https://www.sbs.com.au/news/article/faafafine-the-boys-raised-to-be-girls/5tmlnxjaj), which the rest of us had not heard about before.  
 
 ## How can the construction and manipulation of identity categories by computerised systems lead to discrimination? 
 
