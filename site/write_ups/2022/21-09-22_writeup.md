@@ -34,7 +34,9 @@ One of our members has seen that the NHS is guilty of reinforcing some of these 
 
 Some of our members admitted they likely had been guilty of these practises, but unaware of it. Now they choose not to collect it because it's not relevant to what they're doing. These practises came up when doing "AI" categorisation of gender (looking at names for example), to see what averages of people are discussing/believe different things. It is difficult to include non binary people but an uphill battle to make this issue a priority for the company.
 
-The patent office did something similar where they aiming to find out whether some groups of people (e.g. women) were underrepresented in patents, but the methodology is quite flawed (which they admit). They could identify male and female names but there are a number of names that fall into both categories depending on region and when the person was born/named.  Just because something is at the bottom of the list because of the number of people it effects, doesn't mean it is at the bottom of the list by harm. This subtlety is complicated because also don't always have reliable numbers for either of those thing.
+The patent office did something similar where they aiming to find out whether some groups of people (e.g. women) were underrepresented in patents, but the methodology is quite flawed (which they admit). They could identify male and female names but there are a number of names that fall into both categories depending on region and when the person was born/named.  
+
+Just because something does not harm many people, that doesn't necessarily mean it is less harmful overall - a lot of harm could be caused to a small number of people. This subtlety is complicated because we also don't always have reliable numbers for either of these things.
 
 A common one was making decisions about how to record gender in forms. Open text? Drop down?
 Difficult when you're having to satisfy someone else's requirements for reporting or accounting reasons if working within wider systems. There's often an inherent assumption of women being associated with non-binaryness. 
