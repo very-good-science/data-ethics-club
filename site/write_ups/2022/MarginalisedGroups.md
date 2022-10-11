@@ -35,7 +35,10 @@ One reason for the under-diagnosis of autistic women is that societal pressures 
 
 A proper discussion of different models of disability is beyond the scope of this post. To summarise, the medical model of disability says that a disabled person has something “wrong” with them, to be “fixed”. The [social model] (https://inclusionscotland.org/get-informed/social-model) recognises that a disabled person might have different support needs in order to fully participate in society, but since society does not currently provide such support, the disabled person is in effect, disabled by society.
  
-Suffice it to say that for many autistic (and neurodivergent) people, applying the medical model of disability is outdated, [has no measurable effect on improving the lives of autistic people] (https://pubmed.ncbi.nlm.nih.gov/31763860/), and has even [contributed to significant harm] (https://hennykdotcom.files.wordpress.com/2018/02/aia_evidence-of-increased-ptsd-symptoms-in-autistics-exposed-to-applied-behavior-analysis.pdf,https://www.reddit.com/r/autism/comments/ub3skp/lets_talk_about_aba_therapy_aba_posts_outside/).     Autistic and neurodivergent people cannot be “fixed” or “cured” as the authors’ use of the medical model of disability implies. Instead the focus should be on ensuring equitable access to society for everyone. Understanding society using the social model of disability is essential in building a more equal society for everyone.  
+Suffice it to say that for many autistic (and neurodivergent) people, applying the medical model of disability is outdated, [has no measurable effect on improving the lives of autistic people] (https://pubmed.ncbi.nlm.nih.gov/31763860/), and has even [contributed to significant harm] (https://hennykdotcom.files.wordpress.com/2018/02/aia_evidence-of-increased-ptsd-symptoms-in-autistics-exposed-to-applied-behavior-analysis.pdf,https://www.reddit.com/r/autism/comments/ub3skp/lets_talk_about_aba_therapy_aba_posts_outside/).
+Autistic and neurodivergent people cannot be “fixed” or “cured” as the authors’ use of the medical model of disability implies. 
+Instead the focus should be on ensuring equitable access to society for everyone. 
+Understanding society using the social model of disability is essential in building a more equal society for everyone.  
 
 ## Specific Example
 
