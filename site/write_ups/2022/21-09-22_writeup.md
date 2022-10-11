@@ -32,7 +32,8 @@ Euan's background is astrophysics but he started working with data working with 
 
 One of our members has seen that the NHS is guilty of reinforcing some of these issues. They claim to collect "gender" but it's actually sex. There is an "undisclosed" option. Depending on the service, this category can be interpreted as sex or gender. This feels like the data is being used against people rather than to help them and that it is probably causing harm somewhere.
 
-Some of our members admitted they likely had been guilty of these practises, but unaware of it. Now they choose not to collect it because it's not relevant to what they're doing. These practises came up when doing "AI" categorisation of gender (looking at names for example), to see what averages of people are discussing/believe different things. It is difficult to include non binary people but an uphill battle to make this issue a priority for the company.
+Some of our members admitted they likely had been guilty of these practises, but unaware of it. Now they choose not to collect it because it's not relevant to what they're doing. These practises came up when doing "AI" categorisation of gender (looking at names for example), to see what averages of people are discussing/believe different things. It is difficult to include non binary people but an uphill battle to make this issue a priority for private companies.
+On the other hand, we've discussed previously how not collected data about marginalised groups prevents us from testing whether models are biased against them. 
 
 The patent office did something similar where they aiming to find out whether some groups of people (e.g. women) were underrepresented in patents, but the methodology is quite flawed (which they admit). They could identify male and female names but there are a number of names that fall into both categories depending on region and when the person was born/named.  
 
