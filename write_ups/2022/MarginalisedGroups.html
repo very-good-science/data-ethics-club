@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Data Ethics Club: Participatory Data Stewardship &#8212; Data Ethics Club v0.1.0 documentation</title>
+    <title>Garbage in, garbage out: How bad use of data harms marginalised groups &#8212; Data Ethics Club v0.1.0 documentation</title>
   <script>
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
@@ -40,13 +40,13 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022/01-06-22_writeup';</script>
-    <link rel="canonical" href="dataethicsclub.com/write_ups/2022/01-06-22_writeup.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022/MarginalisedGroups';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2022/MarginalisedGroups.html" />
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Data Ethics Club: Why data is never raw" href="18-05-22_writeup.html" />
-    <link rel="prev" title="Data Ethics Club: Automating Inequality" href="16-06-22_writeup.html" />
+    <link rel="next" title="Cleaning the oil spill of data metaphors" href="MetaphorsBlogPost.html" />
+    <link rel="prev" title="Write-ups" href="../write-ups.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="None">
   </head>
@@ -359,11 +359,11 @@
   </p>
   <div class="bd-toc-item navbar-nav">
     <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="MarginalisedGroups.html">Garbage in, garbage out: How bad use of data harms marginalised groups</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Garbage in, garbage out: How bad use of data harms marginalised groups</a></li>
 <li class="toctree-l1"><a class="reference internal" href="MetaphorsBlogPost.html">Cleaning the oil spill of data metaphors</a></li>
 <li class="toctree-l1"><a class="reference internal" href="GLMBlogpost.html">The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="16-06-22_writeup.html">Data Ethics Club: Automating Inequality</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Ethics Club: Participatory Data Stewardship</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01-06-22_writeup.html">Data Ethics Club: Participatory Data Stewardship</a></li>
 <li class="toctree-l1"><a class="reference internal" href="18-05-22_writeup.html">Data Ethics Club: Why data is never raw</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04-05-22_writeup.html">Data Ethics Club: Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech</a></li>
 <li class="toctree-l1"><a class="reference internal" href="06-04-22_writeup.html">Data Ethics Club: The Algorithmic Colonization of Africa</a></li>
@@ -416,74 +416,78 @@
             
             <article class="bd-article" role="main">
               
-  <section id="data-ethics-club-participatory-data-stewardship">
-<h1>Data Ethics Club: <a class="reference external" href="https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf">Participatory Data Stewardship</a><a class="headerlink" href="#data-ethics-club-participatory-data-stewardship" title="Permalink to this headline">#</a></h1>
-<!--Please don't edit the info panel below-->
+  <section id="garbage-in-garbage-out-how-bad-use-of-data-harms-marginalised-groups">
+<h1>Garbage in, garbage out: How bad use of data harms marginalised groups<a class="headerlink" href="#garbage-in-garbage-out-how-bad-use-of-data-harms-marginalised-groups" title="Permalink to this headline">#</a></h1>
 <div class="admonition-what-s-this admonition">
 <p class="admonition-title">What’s this? </p>
-<p>This is summary of Wednesday 1st June’s Data Ethics Club discussion, where we spoke <a class="reference external" href="https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf">Participatory Data Stewardship</a>, a report from the Ada Lovelace Institute.
-The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
-Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+<p>This is a standalone blogpost written by Euan Bennet and Hannah O’Donoghue in September 2022.
+Euan Bennet is a university lecturer and Hannah O’Donoghue is a trainee nursing associate and disability advocate.
+All opinions expressed are strictly their own.
+Nina Di Cara, Natalie Thurlby and Huw Day helped with the final edit.</p>
 </div>
 <section id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
-<a class="reference internal image-reference" href="write_ups/2022/images/ButIfYouDid.png"><img alt="American Chopper Argument Meme. &quot;Consent to my super cool study using your data&quot; &quot;But I don't understand your study&quot; &quot;But if you did, you'd love it and think it was super ethical.&quot; &quot;But I don't understand it!&quot; &quot;But if you did...&quot; Meme made by Huw Day." class="align-center" src="write_ups/2022/images/ButIfYouDid.png" style="width: 200px;" /></a>
-<p>We read <a class="reference external" href="https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf">Participatory Data Stewardship</a>, a report from the Ada Lovelace Institute. The report is fairly long, and so we recommended if attendees were very short on time to just look at the helpful overview image on Page 14 and table on Pages 17-18. People who had a bit more time then had a look over the descriptions of each type and case studies on Pages 19-47.</p>
-<p>The framework for participation in data stewardship includes 5 key layers. The following descriptions are taken directly from Figure 3 of the paper (page 14).
-Inform: We will keep you informed about how your data is being governed
-Consult: We will listen to acknowledge and provide feedback on concerns and aspirations for the governanance of your data
-Involve: We will work with you to ensure your concerns and aspirations are directly reflected in data governance.
-Collaborate: We will look to you for advice and innovation in design of data-governance models, and incorporate your advice and recommendations where possible.
-Empower: We will advise and assist in line with your decisions about your own data-governance models.</p>
-<p>The frameworks are presented in a sort of implicit hierarchy, the nature of which we discussed. We also talked about how to decide on what level of participation to implement, the optimal amount of participation (in theory and in practice) and the barriers to the implementation of participatory frameworks.</p>
+<p>A common theme in data ethics discussions is the harm that can be caused to marginalised groups in society through the bad use of data. There are many, many manifestations of this – usually unintentional – harm, and the responsible data ethics ethos is that data scientists should be aware of this potential and take steps to avoid it from happening.</p>
+<p>In this blog post we want to present a general example of an area where the bad use of data has historically caused, and continues to cause, harm to one particular marginalised group of people. As a specific example we will address a recent paper which is an excellent example of this. This post is by no means intended to be exhaustive and is intended to serve as just one example of a field where ‘data hazards’ are commonly found.</p>
+<p>The field which this blog post seeks to highlight is research into the genetics of autism. This is a contentious area because of the history of autism research and the related treatment of autistic and neurodivergent people. There is far too much to get into here, but suffice it to say that many autistic people are generally squeamish around any research relating to potential screening of autism in utero, or of a “cure”, due to the potential route to eugenics that such tools might very well enable. For the purposes of this blog post however, we want to highlight how studies involving genetics and autism cause harm by not only furthering these routes of investigation, but also just being based on bad data and thus producing inherently unreliable results.</p>
+<p>The three fundamental problems affecting the wider field of autism research are:</p>
+<ol class="arabic simple">
+<li><p>Every data set of people ‘medically diagnosed’ as autistic are heavily biased, because of systematic under- and mis-identification of autistic people who do not fit into harmful stereotypes.</p></li>
+<li><p>Any focus on genetics ignores a whole host of social and societal factors which cannot be neglected as part of a complex picture.</p></li>
+<li><p>Many researchers continue to frame autism entirely under the medical model of disability (hence the use of medical databases), and completely ignores the social model of disability which is a far more appropriate framework for properly understanding autism and other neurodiverse neurotypes.</p></li>
+</ol>
 </section>
-<section id="what-factors-should-guide-decisions-about-what-level-of-participation-best-suits-a-project-does-this-happen-in-practice">
-<h2>What factors should guide decisions about what level of participation best suits a project? Does this happen in practice?<a class="headerlink" href="#what-factors-should-guide-decisions-about-what-level-of-participation-best-suits-a-project-does-this-happen-in-practice" title="Permalink to this headline">#</a></h2>
-<p>The five frameworks seem high-level and there wasn’t much advice on practical application, which might be difficult. We liked that there was a critique included though. Factors that should influence level of participation will vary widely from project to project.</p>
-<p>We wondered why might we feel inclined to think “empower” is the “best” framework? In theory we would like to think that the most participation is always the best, but there’s a question about feasibility: how feasible is it to “empower” the relevant communities?</p>
-<p>What about <em>limiting</em> participation? There might be circumstances where you don’t want too much public access/input (e.g. clinical trial participants).</p>
-<p>The people who have capacity to involve themselves more may not be too representative (possibly missing out on less privileged voices). Is it possible that including participatory practice might be seen as just another layer of red tape? … has GDPR regulated ‘inform’ now?</p>
-<p>There is a need for teams to be diverse and, therefore, open to empowering different voices from the outset.</p>
-<p>Some think you shouldn’t collect data without consulting those affected by it. But given that this usually requires time and financial investment, how often does it actually happen in practice?</p>
-<p>From our own experiences, in the subfield of social media, data collection is not very ethical at all. The NHS, on the other hand does a really good job of protecting people’s data (PPI etc).</p>
+<section id="systematic-bias-in-the-data">
+<h2>Systematic bias in the data<a class="headerlink" href="#systematic-bias-in-the-data" title="Permalink to this headline">#</a></h2>
+<p>Autism is commonly under- and mis-identified in several groups in society. The reasons for this include historical biases dating back to the earliest identification of the neurotype - even today the myth that “autism is only found in boys” is pervasive. This is compounded by historical biases in identifying autism in anyone who isn’t a white boy conforming to a very <a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/30143373/">narrow range of behaviour stereotypes</a>.
+Assumptions based on outdated and wrong information have contributed to diagnostic bias against <a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/26544750/">women, non-binary people, and anyone of colour</a>.</p>
 </section>
-<section id="is-the-most-participation-always-the-best">
-<h2>Is the most participation always the best?<a class="headerlink" href="#is-the-most-participation-always-the-best" title="Permalink to this headline">#</a></h2>
-<p>We were of the opinion that most partcipation is <em>not</em> always the best.</p>
-<p>You need to commit to a certain level of maintenance for data to be worked with. If this needs to be run by the participants, this can really bog things down. (This will be evident to anyone who has ever tried to organise a group holiday).</p>
-<p>There’s a difficulty of presenting it as a hierarchy, implying one is better and one is worse. Often data is collected about specific sub-populations who are being ‘studied’, and they are often being ‘studied’ because they may have particular health conditions or life circumstances we are trying to research. However, these life circumstances or health conditions may mean that these population groups may not necessarily appreciate having to put a lot of time in managing their participation and data. On the other hand, it would be a particularly effective measure against the exploitation of under-served communities, many of whom have histories of being exploited for the purpose of research.</p>
-<p>We did appreciate that this report seemed to have a section on how to make each action meaningful. That’s not often addressed, usually it’s just awareness.</p>
-<p>When thinking about large data sets for training ML models (e.g. image recognition), how do you handle participation levels/consent? If you have 100k pictures of people trying to guess your hair colour, do you need to sign off on every new study/model or give blanket consent?</p>
-<p>Can you give consent for something you didn’t know was going to happen? Often large data sets are not curated for a particular purpose so you just have to trust that the people who publish them collate the data in an ethical way. The scale of these datasets makes this pretty much impossible. Caution has already been warned on handling such <a class="reference external" href="https://arxiv.org/abs/2110.01963">large datasets</a>.</p>
-<p>Even when you do open source, public research, it’ll be difficult sometimes to explain every single project to everyone. Even when you can’t get informed consent (be it because people are bad at stats or because your subjects can’t consent, like plants), you can still have legal frameworks to ensure the data is ethically used and maintained.</p>
-<p>Because humans are sentient, it opens you up to negotiations. With data about plants for example, there is no negotiation with the objects. You make a lot of decisions on their “behalf”.</p>
-<p>“If you did understand, you’d love it and think it was super ethical I swear.”</p>
-<p>“But I don’t understand it.”</p>
-<p>“But if you did…”</p>
-<p>There has been some interesting research on how privacy statements are worded got you more access (even if they were legally equivalent, but with behaivoural nudges). Why would anyone ever do anything bad with this data? E.g. adobe releasing video editing software that enabled deep fakes.</p>
-<p>Is it always good to have participation? Maybe it’s good to mandate some level of participation, even if it’s not the most stringent level. Thinking about people who are underrepresented for example.</p>
+<section id="social-and-societal-factors">
+<h2>Social and societal factors<a class="headerlink" href="#social-and-societal-factors" title="Permalink to this headline">#</a></h2>
+<p>These historical biases are amplified by other social and societal issues. Autistic people report that one of the biggest challenges to thriving in a society designed around neurotypical social norms is the constant pressure to “mask” their autism by conforming to the expected norms of society which <a class="reference external" href="https://www.liebertpub.com/doi/abs/10.1089/aut.2021.0021">neurotypical people take for granted</a>.</p>
+<p>One reason for the under-diagnosis of autistic women is that societal pressures are much stronger on people socialised as women to behave in certain ways. As a result, it has been estimated that as much as <a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/35204992/">80% of autistic women are unidentified as autistic at age 18</a>. Far from the 1:4 ratio of autistic women to autistic men that are currently recognised by existing diagnoses, attempts to estimate the true ratio have found it is at least 3:4. Again due to historical biases of diagnostic criteria, these estimates are by definition not exact, but equally there seems to be <a class="reference external" href="https://www.scientificamerican.com/article/we-need-better-diagnostic-tests-for-autism-in-women/">no evidence as to why the ratio shouldn’t be 1:1</a>.</p>
 </section>
-<section id="what-do-you-see-as-being-barriers-to-participatory-data-stewardship-and-how-could-these-realistically-be-overcome">
-<h2>What do you see as being barriers to participatory data stewardship, and how could these realistically be overcome?<a class="headerlink" href="#what-do-you-see-as-being-barriers-to-participatory-data-stewardship-and-how-could-these-realistically-be-overcome" title="Permalink to this headline">#</a></h2>
-<p>This effort can be demanding on researchers, and if the level of participation is high it can be demanding on participants too. Perhaps there should be “centralised” institutional support, creating “pools” of relevant participants to reduce duplication of effort. There is a lack of funding to practically implement this framework.</p>
-<p>In general, there is a need for a mindset change. Instead of building technology as quickly as possible, we might want to build it slowly and mindfully.</p>
-<p>Teams handling data could be compared to flowers. They can bloom if they are diverse, should cross-pollinate to ensure they aren’t duplicating efforts, and they cannot grow on barren lands or within nerd caves. Budding flowers will naturally include these kinds of participation questions, while in a barren desert data scientists won’t have space, or colleague input, to ask these kinds of questions.</p>
+<section id="medical-vs-social-models-of-disability">
+<h2>Medical vs Social models of disability<a class="headerlink" href="#medical-vs-social-models-of-disability" title="Permalink to this headline">#</a></h2>
+<p>A proper discussion of different models of disability is beyond the scope of this post. To summarise, the medical model of disability says that a disabled person has something “wrong” with them, to be “fixed”. The [social model] (https://inclusionscotland.org/get-informed/social-model) recognises that a disabled person might have different support needs in order to fully participate in society, but since society does not currently provide such support, the disabled person is in effect, disabled by society.</p>
+<p>Suffice it to say that for many autistic (and neurodivergent) people, applying the medical model of disability is outdated, [has no measurable effect on improving the lives of autistic people] (https://pubmed.ncbi.nlm.nih.gov/31763860/), and has even [contributed to significant harm] (https://hennykdotcom.files.wordpress.com/2018/02/aia_evidence-of-increased-ptsd-symptoms-in-autistics-exposed-to-applied-behavior-analysis.pdf,https://www.reddit.com/r/autism/comments/ub3skp/lets_talk_about_aba_therapy_aba_posts_outside/).
+Autistic and neurodivergent people cannot be “fixed” or “cured” as the authors’ use of the medical model of disability implies.
+Instead the focus should be on ensuring equitable access to society for everyone.
+Understanding society using the social model of disability is essential in building a more equal society for everyone.</p>
 </section>
-<hr class="docutils" />
-<section id="attendees">
-<h2>Attendees<a class="headerlink" href="#attendees" title="Permalink to this headline">#</a></h2>
-<p><strong>Name, Role, Affiliation, Where to find you</strong></p>
-<ul class="simple">
-<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
-<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a>, :thinking_face:</p></li>
-<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
-<li><p>Vanessa Hanschke, PhD Student Interactive AI, University of Bristol</p></li>
-<li><p>Ismael Kherroubi Garcia, MSc student, LSE, <a class="reference external" href="https://twitter.com/hermeneuticist">&#64;hermeneuticist</a></p></li>
-<li><p>Chantel Davies, part-time MSc Student, University of Aberdeen, <a class="reference external" href="https://twitter.com/CDavieSTEM">CDavieSTEM</a></p></li>
-<li><p>Zosia Beckles, Research Information Analyst, University of Bristol</p></li>
-<li><p>Robin Dasler, research software product manager, <a class="reference external" href="https://github.com/daslerr/">daslerr</a></p></li>
-<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
-</ul>
+<section id="specific-example">
+<h2>Specific Example<a class="headerlink" href="#specific-example" title="Permalink to this headline">#</a></h2>
+<p>A [recent paper published in Cell Genomics] (https://www.cell.com/cell-genomics/fulltext/S2666-979X(22)00063-5) claims to have found evidence of a “female protective effect” against autism. They combined two studies to reach this conclusion: an epidemiological study of a Danish medical database, and two genetic libraries. The authors claim that the findings “strongly support a [Female Protective Effect] against [Autism Spectrum Disorder’s] common inherited influences”.</p>
+<p>In the final section of this blog post, we will use this paper as an example of how biased data can be used to draw conclusions that have the potential to harm marginalised groups, and set out the case for doubting the conclusion that there is a “female protective effect” against autism.</p>
+<p>As discussed above, medical ‘diagnosis’ of autism still suffers from historical biases and stereotypes which have yet to be corrected. As such attempting to draw conclusions about a “Female Protective Effect” using a data set based on past “diagnoses” is akin to the ghost of Steve Jobs conducting a survey of people’s favourite Android phones in the Apple Store: you just wouldn’t be looking in the right place for the answers that you seek.</p>
+<p>In focussing on genetic effects, the authors neglect all of the social and societal factors that further contribute to bias in the medical databases used in the study. Finally, the language used throughout the paper clearly demonstrates the authors’ commitment to the medical model of disability, which adds a further layer of bias to the study design given the historic under- and mis-identification of autism in anyone who isn’t a white boy.</p>
+<p>It is perhaps beyond the scope of the paper to also consider the historic under- and mis-identification of people of colour, but this is not mentioned. The paper specifies that only people of “European ancestry” were included. This methodology is not clearly explained in the paper but this seems to be their euphemistic explanation that they only considered white people in the study cohort. [This is a problem in wider genetics research as well] (https://www.theguardian.com/science/2018/oct/08/genetics-research-biased-towards-studying-white-europeans).</p>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Permalink to this headline">#</a></h2>
+<p>Many researchers studying the genetics of autism use data sets (medical ‘diagnoses’ of autism) which:</p>
+<ol class="arabic simple">
+<li><p>Have an inherent systematic bias due to historical and current diagnostic criteria.</p></li>
+<li><p>Fail to account for additional social/societal bias due to different experiences of socialised gender expression.</p></li>
+<li><p>Fail to account for additional social/societal bias due to historic mis-identification of people of colour.</p></li>
+</ol>
+<p>In the Cell Genomics paper we saw how the authors use these data to attempt to ascribe a genetic basis for the observations and extrapolate this to the entire population, without accounting for the acquisition bias inherent in the data set. To use a less technical term, this is a perfect example of “Garbage In, Garbage Out” (GIGO).</p>
+</section>
+<section id="data-hazards">
+<h2>Data Hazards<a class="headerlink" href="#data-hazards" title="Permalink to this headline">#</a></h2>
+<p>The <a class="reference external" href="https://datahazards.com/">Data Hazards</a> project exists to encourage data scientists to consider the ethical implications of their work. The creators have designed a series of labels which are similar to the classification system used for hazardous chemicals. As with chemicals, the intent is not to discourage people from using them, but to ask people to proceed with care. For further explanation of the Data Hazards labels, see https://datahazards.com/contents/data-hazards.html.</p>
+<p>Let’s look at the Data Hazards that could apply to the research study we have been discussing:</p>
+<ol class="arabic simple">
+<li><p>Reinforces existing biases - it turns out that if you use data based on outdated and biased diagnostic tools then you get results that reflect the inherent bias of the data! This would include the underrepresentation of people of colour in the data, and the existing bias regarding the historic under-diagnosis of women that the data reflects.</p></li>
+<li><p>Classifies or ranks people - this is more present in the language used to present the results (https://annsautism.blogspot.com/2022/06/research-that-dishonours-and-harms.html). One could equally conclude that “maleness protects from neurotypicality”.</p></li>
+<li><p>Lacks community involvement – the [funders] (https://autismsciencefoundation.org/about-us/) of this research advocate for ‘treatment’ and, like the researchers, clearly subscribe to the medical model of disability. Best practice for this research would have been to gather perspectives from those in  the autistic community who prefer the social model of disability (https://www.liebertpub.com/doi/10.1089/aut.2022.0017) and taking care to avoid ableist language such as describing autism as a “disorder”, and describing autistic people as “disorder cases” (https://www.liebertpub.com/doi/10.1089/aut.2020.0014).</p></li>
+<li><p>Danger of misuse   - this is the most serious Data Hazard involved in the study, because some of the conclusions are edging in the direction of eugenics. It would not be a stretch to imagine certain groups who have a desire to “cure” autism latching on to this paper and using it as part of their campaign to actively harm autistic people. Research that wrongly attributes genetic causes to observations which are heavily influenced by social and societal effects could easily be misused and abused by those who wish to avoid addressing the societal effects.</p></li>
+</ol>
+</section>
+<section id="conclusions">
+<h2>Conclusions<a class="headerlink" href="#conclusions" title="Permalink to this headline">#</a></h2>
+<p>This paper is a fantastic example of how bad use of data can misrepresent marginalised groups in society and reinforce existing stereotypes. By framing these conclusions in ableist language and failing to even consider the social model of disability, many researchers in the genetics of autism are contributing to harming people who their work affects. Work such as this impedes progress to a more equal society, and could even be misused by those who have an interest in making society even less equal.</p>
+<p>Do better, researchers !</p>
 </section>
 </section>
 
@@ -495,17 +499,17 @@ Empower: We will advise and assist in line with your decisions about your own da
             <footer class="bd-footer-article">
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-  <a class='left-prev' id="prev-link" href="16-06-22_writeup.html" title="previous page">
+  <a class='left-prev' id="prev-link" href="../write-ups.html" title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
           <p class="prev-next-subtitle">previous</p>
-          <p class="prev-next-title">Data Ethics Club: Automating Inequality</p>
+          <p class="prev-next-title">Write-ups</p>
       </div>
   </a>
-  <a class='right-next' id="next-link" href="18-05-22_writeup.html" title="next page">
+  <a class='right-next' id="next-link" href="MetaphorsBlogPost.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Data Ethics Club: Why data is never raw</p>
+      <p class="prev-next-title">Cleaning the oil spill of data metaphors</p>
   </div>
   <i class="fa-solid fa-angle-right"></i>
   </a>
@@ -531,23 +535,38 @@ Empower: We will advise and assist in line with your decisions about your own da
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-factors-should-guide-decisions-about-what-level-of-participation-best-suits-a-project-does-this-happen-in-practice">
-   What factors should guide decisions about what level of participation best suits a project? Does this happen in practice?
+  <a class="reference internal nav-link" href="#systematic-bias-in-the-data">
+   Systematic bias in the data
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#is-the-most-participation-always-the-best">
-   Is the most participation always the best?
+  <a class="reference internal nav-link" href="#social-and-societal-factors">
+   Social and societal factors
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-do-you-see-as-being-barriers-to-participatory-data-stewardship-and-how-could-these-realistically-be-overcome">
-   What do you see as being barriers to participatory data stewardship, and how could these realistically be overcome?
+  <a class="reference internal nav-link" href="#medical-vs-social-models-of-disability">
+   Medical vs Social models of disability
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#attendees">
-   Attendees
+  <a class="reference internal nav-link" href="#specific-example">
+   Specific Example
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#summary">
+   Summary
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-hazards">
+   Data Hazards
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusions">
+   Conclusions
   </a>
  </li>
 </ul>
@@ -567,7 +586,7 @@ Empower: We will advise and assist in line with your decisions about your own da
 <div class="toc-item">
   
 <div class="tocsection sourcelink">
-    <a href="../../_sources/write_ups/2022/01-06-22_writeup.md.txt">
+    <a href="../../_sources/write_ups/2022/MarginalisedGroups.md.txt">
         <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
 </div>
