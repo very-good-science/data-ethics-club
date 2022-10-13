@@ -24,21 +24,23 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Content: [Patient and public involvement to build trust in artificial intelligence: A framework, tools, and case studies][content]
+Content: [Patient and public involvement to build trust in artificial intelligence: A framework, tools, and case studies][content] 
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [19th October, 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [Patient and public involvement to build trust in artificial intelligence: A framework, tools, and case studies][content] by Dr Soumya Banerjee and colleagues, about  
+This time we're going to watch/read [Patient and public involvement to build trust in artificial intelligence: A framework, tools, and case studies][content] by Dr Soumya Banerjee and colleagues, about how research advisory groups can be used to build trust in, and create more ethical, AI-health research.
 
-Thank you to Paul Lee who wrote this blog post!
+The piece this week is a little bit longer, so you could just stick to the following two sections if you're short on time:
+- Framework for building trust and typical patient concerns
+- Discussion
 
 ### Discussion points
 
-There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- What do you think we lose or gain from trying to make our lives more and more efficient?
-- What different ways could we measure 'fairness'?
-- Is there an acceptable level of fairness we could require before releasing new technologies? How would this work in practice?
+Questions to think about:
+- Do you agree that it is important to increase public and patient trust in AI?
+- What would you consider good evidence that research advisory groups are successful in their aims of more ethical and/or trustworthy research? 
+- Is there anything that you think research advisory groups should not have a say in? Or anything that they don’t have a say in that you think they should?
 
 ---
 
