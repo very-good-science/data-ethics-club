@@ -33,7 +33,9 @@ This time we're going to read [The Ethics of AI Generated Art][content], a blog 
 
 ### Discussion points
 
-Check back next week for our discussion points!
+- Q1: In most countries, artworks can't be copyright unless they have a human creator. Under UK law, however, an AI-generated artwork is the copyright of the person who made the arrangements necessary for its creation. If an AI-generated artwork is produced with only trivial creative input from the human user, should the artwork be public domain, copyright of the user, or copyright of the programmer of the AI system? 
+- Q2: The article says that the success of an artist should be based on the quality of their art rather than on its popularity with consumers. Who should decide whether art is high-quality?
+- Q3: Can we use AI art tools to disrupt current and futures narratives about the value of art works?
 
 <!--
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
