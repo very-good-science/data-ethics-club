@@ -25,7 +25,7 @@ People often don't trust AI (or automated systems in general) because they don't
 
 It's quite hard to make trust out of thin air. It can sometimes come across as manipulative. Perhaps instead of trust we want more education and understanding.
 
-There's a clear conflict of interest between the data scientist being the same people explaining stuff to the patients. Good general start but there's a conflict of interest there that would need to be addressed in a more systematic setting. It's more democratic than most research. But they didn't bring anyone in until they had their research questions. They should have asked the patients questions, but potentially quite hard for them to vocalise. But individuals don't have the birds eye view that the data scientists.
+There's a clear conflict of interest between the data scientist being the same people explaining stuff to the patients. Good general start but there's a conflict of interest there that would need to be addressed in a more systematic setting. It's more democratic than most research. But they didn't bring anyone in until they had their research questions. They should have asked the patients questions, but potentially quite hard for them to vocalise. But individuals don't have the birds eye view that the data scientists do.
 
 Just because something is trusted, doesn't mean it's trustworthy. Maybe we'd want to talk less about trust and more about understanding.
 
