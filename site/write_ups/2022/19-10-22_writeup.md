@@ -77,7 +77,7 @@ Is there increased trust? A better patient experience?
 
 Having patients living with conditions being able to feed experiences directly to researchers and healthcare providers is hugely useful - many patients find that they know more about doctors about their conditions (because living with it tells you far more than any other way to learn about something) - maybe the research groups of patients engaging with researchers should be the norm for everything.
 
-Nina gave an example about trying to study children in care after they've left the system. It's tricky to get everyone on board (and get funding without being able to get in touch with people first).
+Nina gave an example about trying to study children in care after they become adults - you want to be able to co-produce everything from the start, but you can't get funding to do that without being able to get in touch with people first. Chicken and egg funding problem!
 
 Pharmaceutical trials sometimes have reporting systems in place to report problems with models for example.
 
