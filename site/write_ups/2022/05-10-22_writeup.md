@@ -17,7 +17,8 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ### Are impacts of fairnesses always fair? 
 
-Some of our reactions to this piece were "we agree, and now what?" We keep reading these sorts of articles looking for an answer but still no one has solved algorithmic unfairness. Similar question to what we've looked at before: why are we doing all this work to gather more and more information, will it actually solve anything? Human-created problems need human-created solutions.
+Some of our reactions to this piece were "we agree, and now what?" We keep reading these sorts of articles looking for an answer but still no one has solved algorithmic unfairness. 
+It's a similar question to what we've looked at before: why are we doing all this work to gather more and more information, will it actually solve anything? Human-created problems need human-created solutions.
 
 The article seems to shy away from making any strong statements. Using proxies in a black box way, even with protected variables say for example with insurances. The unfairness of certain algorithms is the point. The article could've pushed a bit more towards this. The article is very accessible and not aimed at subject matter experts, but occassionally generalises a bit too much: e.g. failing to make a distinction between an AI model and a hand written algorithm, for example. It feels like there is a bit of a push for people to comment on AI and unfairness in this area. 
 
