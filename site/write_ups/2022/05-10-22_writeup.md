@@ -21,7 +21,6 @@ Some of our reactions to this piece were "we agree, and now what?" We keep readi
 
 The article seems to shy away from making any strong statements. Using proxies in a black box way, even with protected variables say for example with insurances. The unfairness of certain algorithms is the point. The article could've pushed a bit more towards this. The article is very accessible and not aimed at subject matter experts, but occassionally generalises a bit too much: e.g. failing to make a distinction between an AI model and a hand written algorithm, for example. It feels like there is a bit of a push for people to comment on AI and unfairness in this area. 
 
-We spotted an error where the picture shown for the cameras is about false negatives not false positives. The probability of getting away with the crime. 
 
 There were divided opinions on the subject of the A-level results algorithm. Many of us felt that if you get some kind of automated system to assign A-level grades without proper input from humans then on day one, would it just give everyone their grades at birth based on postcode? Adding algorithms into unfair systems just encodes the unfairness while pretending it's objective.
 
