@@ -1,4 +1,4 @@
-# Data Ethics Club: [The Failures of Algorithmic Fairness](https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/))
+# Data Ethics Club: [The Failures of Algorithmic Fairness](https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/)
 <!--Please don't edit the info panel below-->
 
 ```{admonition} What's this? 
@@ -9,7 +9,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## Discussion
 
-```{image} images/AlgoFair.png
+```{image} ../../images/AlgoFair.png
 :width: 200px
 :align: center
 :alt: Gru meme. First panel reads: "Recruiters make an algorithm to rank applicants for particular jobs". Second panel reads: "Applicants work out which proxies to optimise for". Third and fourth panel read: "Algorithm eventually ranks all candidates the same", this makes Gru sad. Meme made by Huw Day.
