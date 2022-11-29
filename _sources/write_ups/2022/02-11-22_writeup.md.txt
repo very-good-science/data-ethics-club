@@ -8,7 +8,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
 
 ```{image} ../../images/HealthIneq.png
-:width: 200px
+:width: 500px
 :align: center
 :alt: Who Killed Hannibal Meme, "400 years of colonial oppression" shoots "Health Equality across races" and then "Journalists covering disproportionate covid deaths" ask "Why would vitamin D do this?". Meme made by Euan Bennet.
 ```
