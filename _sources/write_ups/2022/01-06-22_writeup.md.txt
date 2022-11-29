@@ -9,11 +9,10 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## Introduction
 
-```{image} images/ButIfYouDid.png
+```{image} ../../images/ButIfYouDid.png
 :width: 200px
 :align: center
 :alt: American Chopper Argument Meme. "Consent to my super cool study using your data" "But I don't understand your study" "But if you did, you'd love it and think it was super ethical." "But I don't understand it!" "But if you did..." Meme made by Huw Day.
-```
 
 We read [Participatory Data Stewardship](https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf), a report from the Ada Lovelace Institute. The report is fairly long, and so we recommended if attendees were very short on time to just look at the helpful overview image on Page 14 and table on Pages 17-18. People who had a bit more time then had a look over the descriptions of each type and case studies on Pages 19-47.
 
