@@ -15,7 +15,9 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## Introduction
 
-We started by asking among ourselves if anyone had used some of these AI art generators before?
+We started this meeting off a little differently, by hearing from [Dr Keir Williams](https://www.keir.xyz/) about how he uses AI generated art in his research and teaching around indigenous and inclusive futures. If you are interested in this work [you can fellow Keir on Instagram here](https://keir.link/insta). 
+
+Then we went into a discussion about whether any of us were familiar with these sorts of AI generation tools. There was a combination of experiences, with some people having played with them or tested them out, but few of us having used them seriously for anything before. 
 
 Tools like Dall-e work because good images of each concept can be compiled. This is an [effect used in film](https://en.wikipedia.org/wiki/Kuleshov_effect) for creating cognitive links between different things.
 
@@ -29,14 +31,14 @@ In most countries, artworks can't be copyright unless they have a human creator.
 
 The whole thing around AI generated artwork is that the person who inputs the stuff is somehow the artist. Parrallels with Amy's job of talking to academics and comissioning people to do stuff. We are comissioning AI to generate artwork. Amy would never claim authorship of the stuff she comissioned, why should artists do so?
 
-Most art is fabicrated by someone. A lot of painters had people who had help. If you just type in text and generate something that's just a demo. But does photoshop just do stuff for you? Or are you deserving more credit?
+Most art is fabicrated by someone. A lot of painters had people who had help. If you just type in text and generate something that's just a demo. But does photoshop just do stuff for you? Or are you deserving of more credit?
 
 There's also a difference between legal ownership and ideas. People have ideas all the time but if they don't execute it in time they don't get the first patent. It doesn't matter how you feel about it. Just because you put work into something, doesn't mean you deserve credit for it, especially if someone beat you to it. 
 
 This law doesn't seem to apply well to today's issues, even though they are aligned on issues such as photography. In music if you use other people's lyrics or melodies you can be sued for copyright. Does this happen in art? How does the law apply to people stealing each other's technquies or subjects? How is this different? The photography example is also similar - is choosing settings, timing, angles on a camera more/less trival than choosing models, parameters, prompts on AI generation? There was a feeling that cameras put portrait artists out of business. Even in fashion there's cases of a [specific kind of weave being copyrighted](https://www.lexology.com/library/detail.aspx?g=6297a142-8e9f-4f7a-813b-2060306a33be).
 
-Are bigger and bigger systems learning more or getting better at remembering what they've seen? 
-Humans are using their knowledge and experience - is this different to what AI does? But can AI  capture and build in genuine emotion?
+There is also a question of how original AI is capable of being - are bigger and bigger systems 'learning' more or just getting better at remembering what they've seen? 
+Humans are using their knowledge and experience - is this different to what AI does? Arguably, AI cannot capture and build in genuine emotion.
 
 We suspect AI art generating tools will also be used to generate stock photos. Does that change where the copyright will go? That depends on country, most countries rely on human input detail, except for UK. We had many discussions about different copyright laws in different countries. Discussing law is instructive to showing what is the incentive in art creation. We discussed copyright issues both of images going in and images coming out.
 
@@ -46,7 +48,7 @@ Where does the value of art come from? Is it from the scarcity? From the authors
 
 It's interesting to consider if programmers should get the credit. Some of us thought that's too far - it's a bit like giving credit for a painting to the people that make paint brushes and canvases. If the programmer is the creator of a camera for example, even though they may have innovated new ways of capturing images - what is their creative input?
 
-Should there be, traceability? Can we embed the traceability into the artwork? It won't stop others from generating, but perhaps it will help correctly reference the originals. It would be cool if there were 'receipts' for how an image is made. However, discussion about whether this is technically possible (explainable AI) is a complex topic! How do we verify the authenticity and ownership of art?
+How do we verify the authenticity and ownership of art? Should there be traceability? Can we embed the traceability into the artwork? It won't stop others from generating, but perhaps it will help correctly reference the originals. It would be cool if there were 'receipts' for how an image is made. However, discussion about whether this is technically possible (explainable AI) is a complex topic! 
 
 What are the rights of artists to opt out of their work being used? When some engine scrapes the image from your site (with your copyright on it), that then becomes available to others. This is much less complicated if you just make the image for personal use only.
 
@@ -60,17 +62,17 @@ You can see in papers when someone has run something through a black box and it 
 
 Perhaps there's a weird Venn Diagram, the creator of AI, whoever is using it, credit, creative ownership, accountability, ethics etc. There seems to be no one intersection point in the middle.
 
-Interesting point in the article that the commercial success is not necersarily related to quality. There's clearly a difference between someone who just typed in some prompts vs. someone who takes hour over editing it and stuff like that. There's this feeling of "Quantity being consumed into quality" where we don't know what's going happen but it will change who makes art and what we call art. Everything has value to someone. 
 
 ## Who should decide whether art is high-quality?
 
 The article says that the success of an artist should be based on the quality of their art rather than on its popularity with consumers. But who gets to make that call?
+There is an interesting point in the article that commercial success is not necessarily related to quality. There's clearly a difference between someone who just typed in some prompts vs. someone who takes hour over editing it and stuff like that. There's this feeling of "Quantity being consumed into quality" where we don't know what's going happen but it will change who makes art and what we call art. Everything has value to someone. 
 
 Would the art critics have rated this as highly if they were as familiar with the style that this AI always generates? We think not. Art can cater to different people: is it impressive because of the process or because of the outcome? Does success in art mean financial gain? That's not necessarily a good measure for what art means.
 
 Is it cheaper to generate AI art? Ones we've seen look pretty expensive considering they're made digitally. But are we undervaluing the art created by AI artists? There is some additional curation involved in creating AI art. Knowing how something was made makes us appreciate something more. 
 
-How do we value aesthetics? Is some of it what people believe about their own art? There is definitely capitalism and social bias in art. If (rich) people want a piece then it's consider more valuable. 
+How do we value aesthetics? Is some of it what people believe about their own art? There is definitely capitalism and social bias in art. If (rich) people want a piece then it's considered more valuable. 
 
 Something not mentioned in the article but seems like a big issue is to do with value of the artist themselves. Like with restaurants - you'll go to a famous chef's restaurant but the chef won't cook your meal. It's their ideas that you are paying for. 
 
@@ -78,13 +80,15 @@ Should skill be compensated? If you train for years to hone skill to create a ce
 
 Will there become a problem with "Seen one seen them all" where AI generated art becomes too recognisable? Perhaps there is a comparison to fan fiction; it's usually non-comercial, so no ethical problems here. Most fan fiction isn't good; should the law be different if the art isn't good? Can we have a cultural shift around how you value things? Around how things sell?
 
-At the end of the day, art is what you make of it! On a purely philosophical level, it has value if it speaks to you, that’s it! Value of art is culturally constructed, Somali women creating structures by weaving don’t view it as art, but non-Somali cultures may well see it as art! It's highly contextual.	Does the desire define the value? Desire can be derived from various places, may be due to aesthetic value, or the exclusivity, or the authorship. 
+At the end of the day, art is what you make of it! On a purely philosophical level, it has value if it speaks to you, that’s it! The value of art is socially and culturally constructed.
+For example, Somali women who create structures by weaving may not view it as art, but in non-Somali cultures it may be more commonly seen as art. It's highly contextual.	
+Does the desire define the value? Desire can be derived from various places, may be due to aesthetic value, or the exclusivity, or the authorship. 
 
 ## Can we use AI art tools to disrupt current and futures narratives about the value of art works?
 
-In inclusive futures, when it comes to art especially in museums there are cultures where art has been taken from somewhere else. With all this art that's being generated, is it going to include all these other cultures as well? What's the skew of the datasets? What's the bias of the datasets? If you take samples from tumblr how will that be different to samples from instagram for example. Also how are things labelled? Who labels them?
+In inclusive futures, when it comes to art especially in museums there are cultures where art has been taken from somewhere else. With all this art that's being generated, is it going to appropriate other cultures all over again? What's the skew of the datasets? What's the bias of the datasets? If you take samples from tumblr how will that be different to samples from instagram for example. Also how are things labelled? Who labels them?
 
-Keir has noted in his own research that AI generated pictures of black women appear to have more skin showing that same prompts of white women. Is this cultural or due to labelling? 
+Keir has noted in his own research that AI generated pictures of black women appear to have more skin showing than same prompts of white women. Is this do to training images, or labelling? 
 
 AI generated art has already disrupted enough to make us discuss it here. AI mimics, but people do too. AI should be able to make "new" ideas through combining things in different ways. People have different influences but if everyone is using the same tool, then it is all using the same ones. It could end up being trained on its' own images, and self-reinforcing.
 
@@ -98,7 +102,7 @@ We change alongside art! Would we feel the same way about how our perception of 
 
 ## Closing Thoughts
 
-The automation here comes from previous and ongoing work, not just from say embodied physical labour. We are used to train AI in image identification and now the next step seems to be image generation.
+The automation here comes from previous and ongoing work, not just from say embodied physical labour. We are used to using AI for image identification and now the next step seems to be image generation.
 
 There's issues of not giving permission for using art in these models. When we make art and share it, we give implicit permission for it to be viewed by others and in some senses for it to provoke feelings and often inspiration. AI art can be more literally derivative and not consciously taking inspiration. The scale and industrialisation of the data scraping is truly novel, a human artist being inspired is a "manual break".
 
@@ -110,6 +114,7 @@ Can we have a cultural shift around how you value things? Around how things sell
 
 What does this mean for AI usage in public services? We want tools to be trained so they can be better, but can we meaningfully get consent from e.g. a child in care?
 
+As usual, we came away from this session with a lot more questions than answers! However, it was an intriguing and very busy discussion which made us all think a lot about what it means for art to have value and what it means to involve AI in it. 
 --- 
 
 ## Attendees
