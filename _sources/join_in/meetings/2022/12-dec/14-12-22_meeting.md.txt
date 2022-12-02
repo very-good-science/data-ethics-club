@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [DD-MM-YY, 1pm UK time][timedate]
+# Data Ethics Club meeting [14-12-22, 1pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -24,14 +24,15 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [Defective Altruism][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DATE at 1pm UK time][timedate]. 
+You're welcome to join us for our next Data Ethics Club meeting on [12th December at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+This time we're going to watch/read [Defective Altruism][content], an article by Nathan Robinson.
+It's fairly long but half-way down there is a section dedicated to AI which we will focus on.
 
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+<!--
 
 ### Discussion points
 
@@ -42,7 +43,6 @@ There will be time to talk about whatever we like, relating to the paper, but he
 
 ---
 
-<!--
 
 ## Meeting notes
 
@@ -55,6 +55,6 @@ Shall we email the author? If so, who'll send the email?
 
 -->
 
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Defective+Altruism%3A+Data+Ethics+Club&iso=20221214T13&p1=299&ah=1
+[content]: https://www.currentaffairs.org/2022/09/defective-altruism 
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
