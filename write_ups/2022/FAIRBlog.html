@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Data Ethics Club: Why data is never raw &#8212; Data Ethics Club v0.1.0 documentation</title>
+    <title>But is it FAIR? &#8212; Data Ethics Club v0.1.0 documentation</title>
   
   
   
@@ -41,13 +41,13 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022/18-05-22_writeup';</script>
-    <link rel="canonical" href="dataethicsclub.com/write_ups/2022/18-05-22_writeup.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022/FAIRBlog';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2022/FAIRBlog.html" />
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Data Ethics Club: Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech" href="04-05-22_writeup.html" />
-    <link rel="prev" title="Data Ethics Club: Participatory Data Stewardship" href="01-06-22_writeup.html" />
+    <link rel="next" title="Data Ethics Club: The Ethics of AI generated art" href="16-11-22_writeup.html" />
+    <link rel="prev" title="Write-ups" href="../write-ups.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="docsearch:language" content="None">
   </head>
@@ -368,7 +368,7 @@
   </p>
   <div class="bd-toc-item navbar-nav">
     <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="FAIRBlog.html">But is it FAIR?</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">But is it FAIR?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="16-11-22_writeup.html">Data Ethics Club: The Ethics of AI generated art</a></li>
 <li class="toctree-l1"><a class="reference internal" href="02-11-22_writeup.html">Data Ethics Club: ‘The data was there – so why did it take coronavirus to wake us up to racial health inequalities?’</a></li>
 <li class="toctree-l1"><a class="reference internal" href="19-10-22_writeup.html">Data Ethics Club: Patient and public involvement to build trust in artificial intelligence: A framework, tools, and case studies</a></li>
@@ -379,7 +379,7 @@
 <li class="toctree-l1"><a class="reference internal" href="GLMBlogpost.html">The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers</a></li>
 <li class="toctree-l1"><a class="reference internal" href="16-06-22_writeup.html">Data Ethics Club: Automating Inequality</a></li>
 <li class="toctree-l1"><a class="reference internal" href="01-06-22_writeup.html">Data Ethics Club: Participatory Data Stewardship</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Ethics Club: Why data is never raw</a></li>
+<li class="toctree-l1"><a class="reference internal" href="18-05-22_writeup.html">Data Ethics Club: Why data is never raw</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04-05-22_writeup.html">Data Ethics Club: Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech</a></li>
 <li class="toctree-l1"><a class="reference internal" href="06-04-22_writeup.html">Data Ethics Club: The Algorithmic Colonization of Africa</a></li>
 <li class="toctree-l1"><a class="reference internal" href="23-03-22_writeup.html">Data Ethics Club: The Tyranny of Structurelessness</a></li>
@@ -434,99 +434,43 @@
             
             <article class="bd-article" role="main">
               
-  <section id="data-ethics-club-why-data-is-never-raw">
-<h1>Data Ethics Club: <a class="reference external" href="https://www.thenewatlantis.com/publications/why-data-is-never-raw">Why data is never raw</a><a class="headerlink" href="#data-ethics-club-why-data-is-never-raw" title="Permalink to this headline">#</a></h1>
-<!--Please don't edit the info panel below-->
+  <section id="but-is-it-fair">
+<h1>But is it FAIR?<a class="headerlink" href="#but-is-it-fair" title="Permalink to this headline">#</a></h1>
 <div class="admonition-what-s-this admonition">
 <p class="admonition-title">What’s this? </p>
-<p>This is summary of Wednesday 18th May’s Data Ethics Club discussion, where we discussed the article <a class="reference external" href="https://www.thenewatlantis.com/publications/why-data-is-never-raw">“Why Data is Never Raw”</a> by Nick Barrowman.</p>
-<p>The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
-Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+<p>This is a standalone blogpost written by Paul Lee in December 2022 about the FAIR Data Principles. Paul has worked in the investment world for more than two decades and is author of <a class="reference external" href="https://senseoffairness.blog/">The Sense of Fairness blog</a>
+which, in his own words, is all about: “Exploring what fairness is, why it matters and what we should do to reawaken the sense of fairness.” All opinions expressed are strictly his own.
+Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
 </div>
-<section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
-<a class="reference internal image-reference" href="../images/RawData.png"><img alt="A meme with a man slowly applying clown makeup. &quot;The process of observation is not unbiased.&quot; &quot;Any time datapoints are gathered together some decisions are made.&quot; &quot;Biases and assumptions are injected at every step.&quot; &quot;That doesn't apply to my data though.&quot; Meme made by Euan Bennet." class="align-center" src="../images/RawData.png" style="width: 200px;" /></a>
-<p>This week at Data Ethics Club we discussed the article <a class="reference external" href="https://www.thenewatlantis.com/publications/why-data-is-never-raw">“Why Data is Never Raw”</a> by Nick Barrowman.</p>
-<p>In order to measure resistance, counting requires assumptions about what magnitude means, or what a number means. This article explores the nature of data, as well as the claim that some data is “raw”, often used to reinforce a data-driven approach. There is no theory-free observation. Data is engineered, and the article challenges the raw/cooked data dichotomy.</p>
-<p>In this discussion we considered the nature of data, if data is truly “raw”, what analogies can we use for the “raw-ness” or “cooked-ness” of data and how these ideas apply to our own work.</p>
+<section id="fair-in-theory">
+<h2>FAIR in Theory<a class="headerlink" href="#fair-in-theory" title="Permalink to this headline">#</a></h2>
+<p>Information technology often, sadly, fails to be fair. Some in the sector, though, are trying – and even occasionally beginning to gain traction.</p>
+<p>It’s what makes the FAIR Principles (sometimes called the FAIR Data Principles) so interesting. The abbreviation stands for Findability, Accessibility, Interoperability and Reusability, and it’s a set of standards for datasets that are used in analytics. If data lives up to these principles, it is more likely to be capable of reuse and thereby enable others to test if results are replicable – one of the foundations of the scientific method. Allowing others to reuse data and to attempt to replicate results may help remove some errors from new technology – including creating or perpetuating unfairnesses. At present for example, there is a tendency to ossify past unfairness through the biases embedded in the data that is used to train artificial intelligence.</p>
+<p>The FAIR principles were launched in a 2016 paper <a class="reference external" href="https://www.nature.com/articles/sdata201618">1</a>. This makes clear that the ambition for the principles extends beyond narrow definitions:
+“Importantly, it is our intent that the principles apply not only to ‘data’ in the conventional sense, but also to the algorithms, tools, and workflows that led to that data.”</p>
+<p>The creators of the FAIR Principles appear to have a touching confidence in the ability of the human mind to deal with data in context and to understand nuance, which feels a little like overconfidence to me. But the point of the principles is the recognition that modern techniques rely on machines (they use the term to cover the wide spectrum of technologies that might be applied) to deal with the vast quantities of data that are available, and those machines are usually even less good than humans at grasping context and nuance. The FAIR Principles won’t change that, but they provide enough visibility for other scientists to probe and test the extent of the errors that will have arisen because of those failures, including errors of unfairness.</p>
+<p>While the FAIR Principles are not explicitly expected to be fair, their nature and application should lead to fairness as well as FAIRness. ‘Findable’ requires data to have rich metadata attached, which needs also to be ‘Accessible’ by enabling universal free and fair access; ‘Interoperable’ and ‘Reusable’ mean that the data is in a form that can be widely understood and applied and put to use by others without inappropriate restrictions. It’s a level playing field for data availability and use – ensuring that fair access can enable ongoing checking and testing.</p>
+<p>Others have since taken the concept further, such as the Dutch moves to create a data stewardship profession that reflects the FAIR Principles <a class="reference external" href="https://zenodo.org/communities/nl-ds-pd-ls/?page=1&amp;size=20">2</a>. This profession would take responsibility for the shared endeavour that good data stewardship requires, across time and involving individual researchers, other scientists in the research project, their sponsoring body or institute, and indeed from the funders of the research <a class="reference external" href="https://zenodo.org/record/7225070#.Y4IIduzP0qw">3</a>. Recent presentations as part of this project, including ones dated October and November of this year, suggest strong progress in acceptance of the Principles (at least in the healthcare data sector that is the project’s initial focus) but also that there is much more to be done <a class="reference external" href="https://zenodo.org/record/7188375#.Y4IRIOzP0qw">4</a>.</p>
 </section>
-<section id="can-you-think-of-any-examples-of-data-that-you-would-consider-truly-raw">
-<h2>Can you think of any examples of data that you would consider truly “raw”?<a class="headerlink" href="#can-you-think-of-any-examples-of-data-that-you-would-consider-truly-raw" title="Permalink to this headline">#</a></h2>
-<p>It’s hard to find an example of raw, non-subjective data. The amount of money in your bank account is in some sense objective but the value of that money itself is subjective. The list of the balance in customer bank accounts at a certain bank - is that subjective? Grades for a degree are “raw” because no one can change them but they are still subjective.</p>
-<p>Lots of variables are often proxies for something else. But the assumptions, decisions and process that go into making any data set into the form that it exists in are not neutral. Any results from any data cannot be “unbiased” or “neutral”. All data <em>can</em> be raw but not when it is applied for an actual purpose.</p>
-<p>What do we mean by “data”? Is the amount of money in a single bank account “data”? Or does it only become data when it is grouped in amongst a number of other people’s bank accounts? We never usually use just one point of data - we use groups, so there is always some processing going on. We have discussed in the past the idea of labelling datasets for their purposes, outlining the potential (and potential limitations) of the data set.</p>
-<p>There is an evolution analogy here. Some data just exists “naturally”, but also some we engineer. Data is kind of “out there”, but it’s up to us what we collect.</p>
+<section id="fair-in-practise">
+<h2>FAIR in Practise<a class="headerlink" href="#fair-in-practise" title="Permalink to this headline">#</a></h2>
+<p>A further development has been a move towards automatic testing of the FAIRness of datasets <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2666389921002324">5</a>. This aims to avoid the significant workload implied by the prior manual approaches to such assessments. The range of 17 core metrics developed by the team helps mitigate against the risk of a single measure being applied to a complex area, which would lead to less insight being offered – as well as the risk of gaming. Each core metric has between one and three practical tests that can be applied to test whether it is met or not.</p>
+<p>The initial test, on some common datasets, wasn’t encouraging, with around average expected scoring on findability and interoperability, and significantly below average scores for accessibility and reusability (though the academics note that the particularly poor accessibility result is based just on a single metric, which every dataset failed – they were only applying 13 out of the total 17 metrics at this stage):</p>
+<a class="reference internal image-reference" href="../../_images/FAIR1.png"><img alt="FAIR Scores of Data Objects by Principles (First Interation n=2500)" class="align-center" src="../../_images/FAIR1.png" style="width: 500px;" /></a>
+<p>The good news is that after engagement with the data repositories and subsequent relatively straightforward improvements to the metadata, the results improved notably (though the result for reusability oddly seems to show a little deterioration in quality by a fifth of the data at the top end):</p>
+<a class="reference internal image-reference" href="../../_images/FAIR2.png"><img alt="FAIR Scores of Data Objects by Principles (Second Interation n=2500)" class="align-center" src="../../_images/FAIR2.png" style="width: 500px;" /></a>
+<p>Applying transparency and accessibility standards more broadly in the data and technology world is of growing importance. Citizens often feel disempowered and disenfranchised in the face of the technology that is all around us. Making tech, including the underlying algorithms that shape our modern experience of the world, more transparent is a necessary step to build confidence and to prevent democratic backing for technology further eroding.</p>
+<p>This matters. The algorithm is the echo chamber. It ushers and tempts us from the babble of the town square down narrower side-streets, sometimes forcing us into the most squalid and awful thoroughfares with a one-way traffic of angry bile. Unless we have sufficient transparency to understand how algorithms usher and force people in these ways we cannot address and reverse the harms that they are causing. Unfairness makes people more prone to accept conspiracy thinking, and at present social media algorithms are feeding and exaggerating that process. FAIRness may help fairness over time.</p>
 </section>
-<section id="what-are-the-different-types-of-raw-ness-in-data">
-<h2>What are the different types of raw-ness in data?<a class="headerlink" href="#what-are-the-different-types-of-raw-ness-in-data" title="Permalink to this headline">#</a></h2>
-<p>At first glance, all data you first collect is “raw”. For example, <a class="reference external" href="https://doi.org/10.1016/S0277-9536(99)00345-7">John Snow</a> collecting data that uncovered the epidemic, but many others were collecting less useful data too!
-But there is a rather contentious history around this example.</p>
-<p>How we collect, what we do, how we interpret matters. “Raw-ness” is very subjective. Do we always have to do something to data to make it useful? What are the intentions with what we’re doing?</p>
-<p>Some of us considered this a slightly tortured metaphor. Most data is not raw as such, nor cooked (the expression “cooking the books” springs to mind), but something in the middle like sushi. To tortue the analogy some more, when we work with data we want the full recipe and to know how the dish is prepared. With the food prep metaphor, there is a whole chain going on before we think the process starts, the same with data processing! When we declare data is “raw”, we lose the history behind it; provenance gets forgotten. All the collection methods are also relvant. They contextualise data (as priviledged over “raw” data) requires preservation.</p>
-<p>Some of us were suspicious of the raw/cooked metaphor, perhaps a comfortable framing for us to begin with. There seems to be “local” raw-ness; data before we’ve done the work to it and then “global” raw-ness; data we just throw into the model and see what shakes out. Arguably we have two different, distinct concepts under the guise of “raw”.</p>
-<p>We are certainly not the first to notice tortured metaphors relating to <a class="reference external" href="https://osf.io/preprints/socarxiv/2xguw/">data</a>.</p>
-<p>What are the different types of raw-ness? Is it a heirarchy? Is it about how many people are involved in collecting data, and the level of coordination required.</p>
-<p>Depending on what the question is, and what you are collecting. Perhaps raw-ness is determined by the number of aggregations you make, or deletions. For example when you go on Twitter, you aren’t seeing raw data. Start off raw then as you pre-process it becomes less and less raw.</p>
-<p>Before even collecting data, declaring our positionality isn’t common in quantitative research, but it is in qualitative research. Researchers like to think we’re independent, but in reality you have to write a certain way for a certain journal, or if you’re from a certain research group you are expected to fit with a certain research culture. How much are we “cooking” our work?</p>
-<p>We don’t necersarily need to know everything about how a network was created. But how does that change with different processes? For example, a biologist’s processed data about protein-protein interactions would become a mathematicians raw data when investigating properties of that network. Raw-ness/cooked-ness is contextual, even linked with intention.</p>
-<p>There’s a lot more space in some data than we realise. How do we define our categories such as sex and gender in our medical datasets? Who gets to do that? How do we divide up and understand colours in different cultures/languages. There is no natural colour division and this differs between cultures and languages. Some classification methods are closer to physics where others are closer to cultural/anthropological.</p>
-</section>
-<section id="how-raw-or-cooked-is-the-data-that-you-work-with">
-<h2>How “raw” or “cooked” is the data that you work with?<a class="headerlink" href="#how-raw-or-cooked-is-the-data-that-you-work-with" title="Permalink to this headline">#</a></h2>
-<p>Large databases of horse racing might appear “raw” as they come to academics, but there were loads of decisions involved in what to collect, how to collect it, and the risk of mistakes/lies in the collection. People can also use the data very differently to produce very different results.</p>
-<p>One of our members works in neuroscience, looking at interactions between molecules. Doing calculations with the reactions they observe are still based off of previous studies, including studies on animals. We can become disconnected from the reality of where the data comes from and forget that these numbers came from animals and humans. We think there is such a thing as completely rationalising data but it always comes with a bias (including saying “these are just numbers”). Gathering parameters for models, usually these are based off assumptions and calculations. Someone else might use the same data and parameters and end up with different results based on how they interpret it, leaving reproducability issues.</p>
-<p>We divorce the data from the animal or cell that the molecules came from. Also the specific setup to isolate molecules from their normal environment is really complicated! Lots of specific steps of abstraction to introduce long before any “numbers” are collected. Lots of assumptions are inherent in experiments as well as simulations.</p>
-<p>Data that has been cleaned is not raw. One of our members, having worked with large data sets about DNS lookups in a large computer network - this is “raw” for the purposes that they were using it for. However, then making a product from that to sell to other people there is inevitably a “cooking” process. There is a differences between networks (when they used it for themselves it was raw data but it was cooked when used by other people). The process of measuring the DNS lookups is a computer contacts a server and a record is made that the request was made. The purpose was to measure successful lookups not attempted lookups.</p>
-</section>
-<section id="what-would-an-ideal-process-for-decision-making-be-in-your-opinion-how-much-would-it-rely-on-data-or-politics-how-would-this-vary-by-the-type-of-decision">
-<h2>What would an ideal process for decision making be in your opinion? How much would it rely on data or politics? How would this vary by the type of decision?<a class="headerlink" href="#what-would-an-ideal-process-for-decision-making-be-in-your-opinion-how-much-would-it-rely-on-data-or-politics-how-would-this-vary-by-the-type-of-decision" title="Permalink to this headline">#</a></h2>
-<p>For policymakers making decisions about safety measures in horse racing (for example), it’s easier and cheaper to do the lazy analysis than the rigorous academic analysis. It’s totally inherent to the decision making process that the more careful analysis will lose out.</p>
-<p>Even within the same organisation, priorities can vary and politics can override the data as policy makers go with the path of least resistance.</p>
-<p>The least we can do is make it clear what assumptions are made when working with the data - to avoid policymakes concluding that the data doesn’t matter.</p>
-<p>In science we often approach problems by assuming that the data is raw, but it’s probably safer to come from the assumption that data is never raw, and then maybe it can be argued that certain cases are raw (in those rare occasions that it is appropriate).</p>
-<p>The first people who looked through microscopes at sperm thought a little <a class="reference external" href="https://en.wikipedia.org/wiki/Homunculus#/media/File:Preformation.GIF">fully formed person</a> would be sitting inside the sperm cell. They believed this based on their theoretical background.</p>
-<p>Another example; in the first discovery of pulsars using radio telescopes, people thought these regular radio signals couldn’t possibly exist in nature and had to be aliens.</p>
-<p>Just as with quantum physics, the observation changes the nature of the observed item, and we need a way to set out how the observation has happened so that we truly understand the data and can perhaps get back to a more raw form. Too often material is just adopted by others without sufficient knowledge of what went before, and there seems a presumption that it is indeed raw when it has all been processed multiple times before. Too often then we find we have triple-cooked chips.</p>
-<p>The food prep (food chain - as in from seed to field to plate) analogy/extension is maybe a better way of understanding this. We also need to keep things such as our frameworks in mind to healthiest use our “final” data.</p>
-<p>Alternatively primary/secondary source, as applied in <a class="reference external" href="https://umb.libguides.com/PrimarySources/secondary">historical research</a>. Primary vs. secondary data is perhaps a better framing because we don’t make judgements on truth based on that, but it tells us about the data’s provenance. The primary source can still get things wrong!</p>
-<p>Arguably the raw/cooked metaphor is a good starting point, but can be improved as our understanding deepens. How do we better make decisions? The data/politics distinction is also a flawed distinction, with e.g. sex/gender questions in census data that’s gathering data where the decision around how to gather the data is inherently political.</p>
-<p>In the Australian census, funnelling of the census based on previous drop down choices, different questions served based on answers to gender questions.</p>
-<p>Knowing where/how the data is sourced allows us to understand it better, decouple it from “truth”. Even “raw” data dodges the question of primary vs. secondary sourcing.</p>
-</section>
-<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece">
-<h2>What change would you like to see on the basis of this piece?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece" title="Permalink to this headline">#</a></h2>
-<p>In principle we agreed with some of these ideas, but how do you make this part of bigger cultural change? Like in a large company.</p>
-<p>We should try to put the burden of proof on people who claim their data is “raw” - the assumption should be that no data is raw, but in some specific cases it can be successfully argued. This is safer than the converse which is currently the default assumption!</p>
-<p>We need a language to understand what underlies the data. We’ve explored various analogies and metaphors to deconstruct this. But we need to build a conscious consumer base for this, the users of the data have to be part of the answer. They need better questions to ask, better ways to interrogate the partialities that are buried within the data. We also require publishers and researchers to provide greater insight, and not imply the data is raw. Where did the meal come from?</p>
-</section>
-<section id="closing-thoughts">
-<h2>Closing Thoughts<a class="headerlink" href="#closing-thoughts" title="Permalink to this headline">#</a></h2>
-<p>The article makes assumptions explicit, which may be a little obvious to people who are into this area of data ethics already. It’s still a good checklist of things to do, best practice.</p>
-<p>It’s valuable to have resources which can introduce these ideas from epistemology in a way that’s easier to digest.</p>
-<p>Funnel of observations, how do we fit the real world into data? We also aim towards simple metrics, quantifiable improvements over other models/approaches, but is this a great way to understand the world?</p>
-<p>Data can be biased, but surely not our data! Should we keep or junk the metaphors?</p>
-<p>DISCLAIMER: THIS WRITEUP IS <em>NOT</em> RAW DATA.</p>
-</section>
-<hr class="docutils" />
-<section id="attendees">
-<h2>Attendees<a class="headerlink" href="#attendees" title="Permalink to this headline">#</a></h2>
-<p><strong>Name, Role, Affiliation, Where to find you, Emoji to describe your day</strong></p>
-<ul class="simple">
-<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
-<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
-<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
-<li><p>Euan Bennet, Senior Research Associate, University of Bristol, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
-<li><p>Emma Tonkin, Research Fellow, University of Bristol, <a class="reference external" href="https://twitter.com/emmatonkin">&#64;emmatonkin</a></p></li>
-<li><p>Brendan Clarke, Digital Learning Lead, NHS Education for Scotland <a class="reference external" href="https://github.com/bclarke-nes">bclarke-nes</a></p></li>
-<li><p>Lucy Bowles, Junior Data Scientist at Brandwatch</p></li>
-<li><p>Melanie Stefan, Computational Neuroscientist, Medical School Berlin, <a class="reference external" href="https://github.com/MelanieIStefan">MelanieIStefan</a> <a class="reference external" href="https://twitter.com/MelanieIStefan">&#64;MelanieIStefan</a></p></li>
-<li><p>Susana Roman Garcia, PhD student, University of Edinburgh, susanaromangarcia&#64;gmail.com :revolving_hearts:</p></li>
-<li><p>Amy Joint, Publishing Manager, F1000, &#64;amyjointsci</p></li>
-<li><p>Vanessa Hanschke, PhD Student Interactive AI, University of Bristol</p></li>
-<li><p>Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust <a class="reference external" href="https://github.com/Lextuga007">Lextuga007</a></p></li>
-<li><p>Robin Dasler, Data Software Product Manager, <a class="reference external" href="https://github.com/daslerr">daslerr</a></p></li>
-<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
-</ul>
+<section id="bibliography">
+<h2>Bibliography<a class="headerlink" href="#bibliography" title="Permalink to this headline">#</a></h2>
+<ol class="arabic simple">
+<li><p><a class="reference external" href="https://www.nature.com/articles/sdata201618">The FAIR Guiding Principles for scientific data management and stewardship, Mark Wilkinson et al, Nature Scientific Data, March 2016</a></p></li>
+<li><p><a class="reference external" href="https://zenodo.org/communities/nl-ds-pd-ls/?page=1&amp;size=20">Professionalising data stewardship: Dutch projects</a></p></li>
+<li><p><a class="reference external" href="https://zenodo.org/record/7225070#.Y4IIduzP0qw">Towards FAIR Data Steward as profession for the Lifesciences, Salome Scholtens et al, ZonMw/Zilveren Kruis, October 2019</a></p></li>
+<li><p><a class="reference external" href="https://zenodo.org/record/7188375#.Y4IRIOzP0qw">FAIR data stewardship: the need for capacity building &amp; the role of communities, Mijke Jetten, E4DS Training, October 2022</a></p></li>
+<li><p><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2666389921002324">An automated solution for measuring the progress toward FAIR research data, Anusuriya Devaraju, Robert Huber, Patterns 2, 100370, November 2021</a></p></li>
+</ol>
 </section>
 </section>
 
@@ -538,17 +482,17 @@ But there is a rather contentious history around this example.</p>
             <footer class="bd-footer-article">
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-  <a class='left-prev' id="prev-link" href="01-06-22_writeup.html" title="previous page">
+  <a class='left-prev' id="prev-link" href="../write-ups.html" title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
           <p class="prev-next-subtitle">previous</p>
-          <p class="prev-next-title">Data Ethics Club: Participatory Data Stewardship</p>
+          <p class="prev-next-title">Write-ups</p>
       </div>
   </a>
-  <a class='right-next' id="next-link" href="04-05-22_writeup.html" title="next page">
+  <a class='right-next' id="next-link" href="16-11-22_writeup.html" title="next page">
   <div class="prev-next-info">
       <p class="prev-next-subtitle">next</p>
-      <p class="prev-next-title">Data Ethics Club: Economies of Virtue: The Circulation of ‘Ethics’ in Big Tech</p>
+      <p class="prev-next-title">Data Ethics Club: The Ethics of AI generated art</p>
   </div>
   <i class="fa-solid fa-angle-right"></i>
   </a>
@@ -569,43 +513,18 @@ But there is a rather contentious history around this example.</p>
 <nav id="bd-toc-nav" class="page-toc">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#introduction">
-   Introduction
+  <a class="reference internal nav-link" href="#fair-in-theory">
+   FAIR in Theory
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#can-you-think-of-any-examples-of-data-that-you-would-consider-truly-raw">
-   Can you think of any examples of data that you would consider truly “raw”?
+  <a class="reference internal nav-link" href="#fair-in-practise">
+   FAIR in Practise
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-are-the-different-types-of-raw-ness-in-data">
-   What are the different types of raw-ness in data?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#how-raw-or-cooked-is-the-data-that-you-work-with">
-   How “raw” or “cooked” is the data that you work with?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-would-an-ideal-process-for-decision-making-be-in-your-opinion-how-much-would-it-rely-on-data-or-politics-how-would-this-vary-by-the-type-of-decision">
-   What would an ideal process for decision making be in your opinion? How much would it rely on data or politics? How would this vary by the type of decision?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece">
-   What change would you like to see on the basis of this piece?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#closing-thoughts">
-   Closing Thoughts
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#attendees">
-   Attendees
+  <a class="reference internal nav-link" href="#bibliography">
+   Bibliography
   </a>
  </li>
 </ul>
@@ -625,7 +544,7 @@ But there is a rather contentious history around this example.</p>
 <div class="toc-item">
   
 <div class="tocsection sourcelink">
-    <a href="../../_sources/write_ups/2022/18-05-22_writeup.md.txt">
+    <a href="../../_sources/write_ups/2022/FAIRBlog.md.txt">
         <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
 </div>
