@@ -55,7 +55,7 @@ Finally, the discussion raised the idea that the existence of charities can be s
 ---
 
 ## Attendees
-
+In total we had 9 attendees at this meeting. Those who provided their names are listed below.
 __Name, Role, Affiliation, Where to find you, Emoji to describe your day__
 - Natalie Zelenka, Data Scientist, University of Bristol, [NatalieZelenka](https://github.com/NatalieZelenka/), [@NatZelenka](https://twitter.com/NatZelenka) 
 - Nina Di Cara, Research Associate, University of Bristol, [ninadicara](https://github.com/ninadicara/), [@ninadicara](https://twitter.com/ninadicara)
