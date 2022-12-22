@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [11-01-23, 1pm UK time][timedate]
+# Data Ethics Club meeting [25-01-23, 1pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -25,7 +25,7 @@ Usual time 13:00-14:00
 [Zoom link][zoom]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [11th January at 1pm UK time][timedate]. 
+You're welcome to join us for our next Data Ethics Club meeting on [25th January at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
 
 This meeting will be a little different to usual, and we'll have it in two halves. 
