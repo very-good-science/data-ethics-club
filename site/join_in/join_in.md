@@ -32,7 +32,7 @@ Please read it before attending.
 |--------------------------------------------------------|---------------------|
 | [25.01.2023, 1pm](meetings/2023/01-jan/25-01-23_meeting) | Data Ethics New Years Resolutions discussion! |
 | 08.02.2023, 1pm | To be decided |
-| 22.02.2023, 1pm | To be decided |
+| 22.02.2023, 3pm | A piece and short talk from [David Widder](https://davidwidder.me/) - note the different time to usual! |
 | 08.03.2023, 1pm | To be decided |
 | 22.03.2023, 1pm | To be decided |
 
