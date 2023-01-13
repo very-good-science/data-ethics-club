@@ -30,11 +30,9 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [14.12.2022, 1pm](meetings/2022/12-dec/14-12-22_meeting) | [Defective Altruism](https://www.currentaffairs.org/2022/09/defective-altruism) |
-| [11.01.2023, 1pm](meetings/2023/01-jan/11-01-23_meeting) | Data Ethics New Years Resolutions discussion! |
-| 25.01.2023, 1pm | To be decided |
+| [25.01.2023, 1pm](meetings/2023/01-jan/25-01-23_meeting) | Data Ethics New Years Resolutions discussion! |
 | 08.02.2023, 1pm | To be decided |
-| 22.02.2023, 1pm | To be decided |
+| 22.02.2023, 3pm | A piece and short talk from [David Widder](https://davidwidder.me/) - note the different time to usual! |
 | 08.03.2023, 1pm | To be decided |
 | 22.03.2023, 1pm | To be decided |
 
@@ -43,7 +41,8 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [16.11.2022, 1pm](meetings/2022/11-nov/16-11-22_meeting) | [The Ethics of AI Generated Art](https://jamiearpinricci.medium.com/the-ethics-of-ai-generated-art-57fb04b71646) | Coming soon! |
+| [14.12.2022, 1pm](meetings/2022/12-dec/14-12-22_meeting) | [Defective Altruism](https://www.currentaffairs.org/2022/09/defective-altruism) | Coming soon | 
+| [16.11.2022, 1pm](meetings/2022/11-nov/16-11-22_meeting) | [The Ethics of AI Generated Art](https://jamiearpinricci.medium.com/the-ethics-of-ai-generated-art-57fb04b71646) |  [Read the write up](../write_ups/2022/16-11-22_writeup) |
 | 30.11.2022, 1pm | [Cancelled in support of the UCU strikes](https://www.ucu.org.uk/article/12609/Biggest-ever-university-strikes-set-to-hit-UK-campuses-over-pay-conditions--pensions) | |
 | [02.11.2022, 1pm](meetings/2022/11-nov/02-11-22_meeting) | [The data was there – so why did it take coronavirus to wake us up to racial health inequalities?](https://www.theguardian.com/uk-news/2020/jun/11/the-data-was-there-so-why-did-it-take-coronavirus-to-wake-us-up-to-racial-health-inequalities) | [Read the write up](../write_ups/2022/02-11-22_writeup) |
 | [19.10.2022, 1pm](meetings/2022/10-oct/19-10-22_meeting) | [Patient and public involvement to build trust in artificial intelligence: A framework, tools, and case studies](https://www.sciencedirect.com/science/article/pii/S2666389922000988) | [Read the write up](../write_ups/2022/19-10-22_writeup) |
