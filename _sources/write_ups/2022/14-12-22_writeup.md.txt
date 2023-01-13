@@ -8,7 +8,7 @@ Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## Disclaimer
 
-As an experiment, this writeup was done a little bit differently. Huw made use of the language model [Chat GPT](https://chat.openai.com/chat) to make this writeup. You can read more about what he did in this separate [blogpost](link here!).
+As an experiment, this writeup was done a little bit differently. Huw made use of the language model [Chat GPT](https://chat.openai.com/chat) to make this writeup. You can read more about what he did in this separate [blogpost](https://dataethicsclub.com/write_ups/2022/ChatGPTStoleMyJob.html).
 
 This is still a summary of the discussion had at the original, as the chat GPT system was fed the questions and corresponding notes written during those discussions and instructed to collate these into a blog post summary, much in the way Huw usually does by hand. This was a one off experiment and feedback is encouarged and welcome. Everything you see below this point (not including the list of attendees at the end and the questions) is curated by chat GPT with Huw's input.
 
