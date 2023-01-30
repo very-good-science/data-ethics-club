@@ -26,7 +26,7 @@ Alessia plans to pilot similar work at Wellcome Genome Campus to facilitate data
 
 Euan wants to find ways to introduce more Data Ethics material (and memes, of course) in lectures/tutorials for students and staff at his work. Euan also wants to successfully navigate academia collaboratively, rejecting the competition paradigm (slightly more ambitious than remembering to say "please" and "thank you" to your at home Google assistant!)
 
-Our very own Nina wants to find a way to spread the word about data ethics to other fields using data (e.g. psychology! medicine!) - this might be by running a data hazards workshop. She would also like to find a way to make this formally part of my job, rather than just a passion project. Nina would also like to be brave enough to engage more with the data ethics community, maybe by attending a conference?
+Our very own Nina wants to find a way to spread the word about data ethics to other fields using data (e.g. psychology! medicine!) - this might be by running a data hazards workshop. She would also like to find a way to make this formally part of her job, rather than just a passion project. Nina would also like to be brave enough to engage more with the data ethics community, maybe by attending a conference?
 
 Vanessa wants to do a data ethics project with non-technical people, publish her data ethics work and make masters students contribute to her data ethics research.
 
