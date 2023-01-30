@@ -128,7 +128,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [UK AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) - suggested by [Paul Lee](https://senseoffairness.blog/)
 * [Learning from the stochastic parrots: finding fairness in AI](https://senseoffairness.blog/2021/02/28/learning-from-the-stochastic-parrots-finding-fairness-in-ai/) - suggested by [Paul Lee](https://senseoffairness.blog/)
 * Request for reading on: Ethics around children and families data (ethics taken into consideration for thematic reports/ research)
-
+* [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/) 
 
 ## Data science and research culture
 
