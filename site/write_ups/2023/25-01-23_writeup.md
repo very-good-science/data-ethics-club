@@ -34,7 +34,7 @@ Jess wants to complete applied data science module and learn more about the tech
 
 Ola wants to learn some tech/data visualisation skills to become a more well rounded person - Huw suggests the [JGI Data Viz seminar](https://dataviz.blogs.bristol.ac.uk/)! Ola will run a Digital Societies Reading group (late Feb-ish) on ground truth in ML: Kang, E. B. (2023), Ground truth tracings (GTT): On the epistemic limits of machine learning and Big Data & Society, 10(1). Precise details to be confirmed but everyone is invited so stay tuned!
 
-Noshin would like to think more about intersectionality in data and from whom's perspective is the data story being told. Holding the experience behind the data in mind when reporting on key themes surrounding children's social care. Also we don't do much peer review for our thematics, so it would be good to have this challenge! 
+Noshin would like to think more about intersectionality in data and from whom's perspective is the data story being told. Holding the experience behind the data in mind when reporting on key themes surrounding children's social care. Also there isn't much peer review in her context, so it would be good to have this challenge! 
 
 Amy wants to use her publishing background to support our data ethics resolutions!
 
