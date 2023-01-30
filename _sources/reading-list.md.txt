@@ -42,6 +42,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Engineers’ Moral Responsibility: A Confucian Perspective](https://link.springer.com/article/10.1007%2Fs11948-019-00093-4)<sup>1</sup>  - suggested by [@NatalieZelenka](https://github.com/NatalieZelenka) [#101](https://github.com/very-good-science/data-ethics-club/issues/101)
 * [Data Science, Meaning and Diversity](https://towardsdatascience.com/data-science-meaning-and-diversity-bb842602e55d) - suggested (and written!) by [Ismael Kherroubi Garcia](https://ismaelkg.medium.com/)
 * [Forbidding Nasty Knowledge - On the Use of Ill-gotten Information](https://www.jstor.org/stable/24354147) - suggested by Mia Mace
+* [Insight 2022 - How do you know if you've made an ethical decision?](https://www.youtube.com/watch?v=aoUSY4bM38c) - suggested by [@Lextuga007](https://github.com/Lextuga007)
 
 ## The nature of data and algorithms
 
@@ -126,6 +127,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday) -  ✅  [14th July 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/14-07-21_writeup.html)
 * [UK AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) - suggested by [Paul Lee](https://senseoffairness.blog/)
 * [Learning from the stochastic parrots: finding fairness in AI](https://senseoffairness.blog/2021/02/28/learning-from-the-stochastic-parrots-finding-fairness-in-ai/) - suggested by [Paul Lee](https://senseoffairness.blog/)
+* Request for reading on: Ethics around children and families data (ethics taken into consideration for thematic reports/ research)
 * [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/) 
 
 ## Data science and research culture
@@ -144,6 +146,8 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Math Washing](https://www.mathwashing.com/) [2] - suggested by [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/?originalSubdomain=au)
 * 🎤 [Things Fell Apart: A Scottish Jewish Joke](https://www.bbc.co.uk/sounds/play/m00127xv) - suggested by [@Lextuga007](https://github.com/Lextuga007) [#121](https://github.com/very-good-science/data-ethics-club/issues/121)
 * [Sloppy Use of Machine Learning Is Causing a ‘Reproducibility Crisis’ in Science](https://www.wired.com/story/machine-learning-reproducibility-crisis/) suggested by [@KairoiAI](https://github.com/KairoiAI)
+* [Microbiological Research Under the Nagoya Protocol: Facts and Fiction](https://doi.org/10.1016/j.tim.2016.11.001) 🔒 - suggested by ?
+* Request for reading on: Data Science/AI and synthetic biology 
 
 ## Ethics in action (the good and the not so good)
 
@@ -179,6 +183,9 @@ Note: reading materials appear once in the category we felt they fit best.
 * [Gender Bias and Sexism in Language](https://oxfordre.com/communication/view/10.1093/acrefore/9780190228613.001.0001/acrefore-9780190228613-e-470#acrefore-9780190228613-e-470-bibItem-0028) - suggested by [@leriomaggio](https://github.com/leriomaggio)
 * [HONEST: Measuring Hurtful Sentence Completion in Language Models](https://milanlproc.github.io/publication/2021-honest-hurtful-language-model/) - suggested by [@leriomaggio](https://github.com/leriomaggio)
 * [Open artificial intelligence platforms in nursing education: Tools for academic progress or abuse?](https://www.sciencedirect.com/science/article/pii/S1471595322002517) - suggested by [@AmyJointSci](https://twitter.com/AmyJointSci) [2] 🔒
+* [Chat GPT Exploitation of workers](https://time.com/6247678/openai-chatgpt-kenya-workers/) - suggested by ?
+* [GPTZero — an app that can quickly and efficiently detect whether an essay is ChatGPT or human written](https://twitter.com/edward_the6/status/1610067688449007618) [2]
+
 
 ### Computer vision
 
