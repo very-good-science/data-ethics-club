@@ -126,6 +126,7 @@ Note: reading materials appear once in the category we felt they fit best.
 * 📺[[The mathematics of crime and terrorism](https://www.youtube.com/watch?v=lCjspXB5F4A) - suggested by [@hdiscoday](https://github.com/hdiscoday) -  ✅  [14th July 2021](https://very-good-science.github.io/data-ethics-club/write_ups/2021/14-07-21_writeup.html)
 * [UK AI Strategy (2021)](https://www.gov.uk/government/publications/national-ai-strategy) - suggested by [Paul Lee](https://senseoffairness.blog/)
 * [Learning from the stochastic parrots: finding fairness in AI](https://senseoffairness.blog/2021/02/28/learning-from-the-stochastic-parrots-finding-fairness-in-ai/) - suggested by [Paul Lee](https://senseoffairness.blog/)
+* [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/) 
 
 ## Data science and research culture
 
