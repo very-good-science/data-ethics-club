@@ -48,7 +48,7 @@ Moving past individual goals, next we stopped to think about what we wanted the 
 
 ## How can you get involved?
 
-We work on Data Ethics Club as a passion project alongside their full time jobs (and sometimes, *instead of* their full time jobs). We are always happy to have people come and help us with all sorts of things to keep the club going, help us reach more people and provide better content for the group. Have a look below at how you can make an impact:
+The Data Ethics Club organisers work on this group, and all it's outputs, as a passion project alongside their full time jobs (and sometimes, *instead of* their full time jobs). We are always happy to have people come and help us with all sorts of things to keep the club going, help us reach more people and provide better content for the group. Have a look below at how you can make an impact:
 
 ### Produce and review website resources
 
