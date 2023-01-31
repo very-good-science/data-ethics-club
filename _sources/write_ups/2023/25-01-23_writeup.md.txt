@@ -1,7 +1,7 @@
 # Data Ethics Club: Data Ethics Resolutions
 
 ```{admonition} What's this? 
-This is summary of Wednesday 28th January's Data Ethics Club discussion, where we discussed our Data Ethics related New Year's resolution for 2023.
+This is summary of Wednesday 25th January's Data Ethics Club discussion, where we discussed our Data Ethics related New Year's resolution for 2023.
 
 The summary was written by Huw Day, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Nina Di Cara and Natalie Thurlby helped with the final edit.
@@ -105,4 +105,4 @@ __Name, Role, Affiliation, Where to find you, Emoji to describe your day__
 - Ola Michalec, Researcher at the University of Bristol
 - Noshin Mohamed Quality Assurance for Children's social care
 - Zoë Turner, Senior Data Scientist, The Strategy Unit (NHS) [@Lextuga007](https://github.com/Lextuga007)
-- Jessica Woodgate, PhD Student, University of Bristol (https://github.com/jess-mw)
+- Jessica Woodgate, PhD Student, University of Bristol [@jess-mw](https://github.com/jess-mw)
