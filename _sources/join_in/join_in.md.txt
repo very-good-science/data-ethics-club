@@ -30,9 +30,8 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [08.02.2023, 1pm](meetings/2023/02-feb/08-02-23_meeting.md) | [ChatGPT listed as author on research papers: many scientists disapprove
-](https://www.nature.com/articles/d41586-023-00107-z) |
-| 22.02.2023, 3pm | A piece and short talk from [David Widder](https://davidwidder.me/) - note the different time to usual! |
+| [22.02.2023, 3pm](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Limits+and+Possibilities+for+%E2%80%9CEthical+AI%E2%80%9D+in+Open+Source%3A+A+Study+of+Deepfakes&iso=20230222T15&p1=299&ah=1): - note the __different time__ to usual! | [Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes
+](https://dl.acm.org/doi/abs/10.1145/3531146.3533779), plus a related short talk from [David Widder](https://davidwidder.me/)  |
 | 08.03.2023, 1pm | To be decided |
 | 22.03.2023, 1pm | To be decided |
 
@@ -41,6 +40,7 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [08.02.2023, 1pm](meetings/2023/02-feb/08-02-23_meeting.md) | [ChatGPT listed as author on research papers: many scientists disapprove](https://www.nature.com/articles/d41586-023-00107-z) | Coming soon! |
 | [25.01.2023, 1pm](meetings/2023/01-jan/25-01-23_meeting) | Data Ethics New Years Resolutions discussion! | Coming soon |
 | [14.12.2022, 1pm](meetings/2022/12-dec/14-12-22_meeting) | [Defective Altruism](https://www.currentaffairs.org/2022/09/defective-altruism) | Coming soon | 
 | [16.11.2022, 1pm](meetings/2022/11-nov/16-11-22_meeting) | [The Ethics of AI Generated Art](https://jamiearpinricci.medium.com/the-ethics-of-ai-generated-art-57fb04b71646) |  [Read the write up](../write_ups/2022/16-11-22_writeup) |
