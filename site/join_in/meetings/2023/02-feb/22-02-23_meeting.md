@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [22-02-23, 1pm UK time][timedate]
+# Data Ethics Club meeting [22-02-23, 3pm UK time][timedate]
 
 <!-- 
 TODO:
