@@ -78,7 +78,7 @@ Data Ethics Club is organised by a [small team](contact), but all our materials 
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Susana465"><img src="https://avatars.githubusercontent.com/u/73224467?v=4?s=100" width="100px;" alt="Susana465"/><br /><sub><b>Susana465</b></sub></a><br /><a href="#content-Susana465" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.bristol.ac.uk/people/person/Vivienne-Kuh-3265cd07-2fb1-45ab-81fb-16dd4c1953d4/"><img src="?s=100" width="100px;" alt="Vivienne Kuh"/><br /><sub><b>Vivienne Kuh</b></sub></a><br /><a href="#content" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://sites.google.com/site/neelsoumya/"><img src="https://avatars.githubusercontent.com/u/2981775?v=4?s=100" width="100px;" alt="Soumya Banerjee"/><br /><sub><b>Soumya Banerjee</b></sub></a><br /><a href="#content-neelsoumya" title="Content">🖋</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/jessica-woodgate"><img src="https://avatars.githubusercontent.com/u/45073537?v=4?s=100" width="100px;" alt="Jessica Woodgate"/><br /><sub><b>Jessica Woodgate</b></sub></a><br /><a href="#ideas-jess-mw" title="Ideas, Planning, & Feedback">🤔</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/jessica-woodgate"><img src="https://avatars.githubusercontent.com/u/45073537?v=4?s=100" width="100px;" alt="Jessica Woodgate"/><br /><sub><b>Jessica Woodgate</b></sub></a><br /><a href="#ideas-jess-mw" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-jess-mw" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
