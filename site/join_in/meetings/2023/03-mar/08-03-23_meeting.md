@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [22-02-23, 3pm UK time][timedate]
+# Data Ethics Club meeting [08-03-23, 3pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -49,5 +49,5 @@ Shall we email the author? If so, who'll send the email?
 
 -->
 
-[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Limits+and+Possibilities+for+%E2%80%9CEthical+AI%E2%80%9D+in+Open+Source%3A+A+Study+of+Deepfakes&iso=20230222T15&p1=299&ah=1
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Limits+and+Possibilities+for+%E2%80%9CEthical+AI%E2%80%9D+in+Open+Source%3A+A+Study+of+Deepfakes&iso=20230308T15&p1=299&ah=1
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
