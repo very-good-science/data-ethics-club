@@ -30,7 +30,7 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [22.02.2023, 3pm](https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Limits+and+Possibilities+for+%E2%80%9CEthical+AI%E2%80%9D+in+Open+Source%3A+A+Study+of+Deepfakes&iso=20230222T15&p1=299&ah=1): - note the __different time__ to usual! | [Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes](https://dl.acm.org/doi/abs/10.1145/3531146.3533779), plus a related short talk from [David Widder](https://davidwidder.me/), [Zoom Link](https://bristol-ac-uk.zoom.us/j/94475153265) |
+| 08.03.2023, 3pm - note the __different time__ to usual! | [Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes](https://dl.acm.org/doi/abs/10.1145/3531146.3533779), plus a related short talk from [David Widder](https://davidwidder.me/), [Zoom Link](https://bristol-ac-uk.zoom.us/j/94475153265) |
 | 08.03.2023, 1pm | To be decided |
 | 22.03.2023, 1pm | To be decided |
 
