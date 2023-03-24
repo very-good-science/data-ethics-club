@@ -32,7 +32,7 @@ Please read it before attending.
 |--------------------------------------------------------|---------------------|
 | 29.03.2023, 1pm | [The Tech We Won't Build](https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/) |
 | 19.04.2023, 1pm | To be decided |
-| 03.04.2023, 1pm | To be decided |
+| 03.05.2023, 1pm | To be decided |
 | 17.05.2023, 1pm | To be decided |
 | 31.05.2023, 1pm | To be decided |
 | 14.06.2023, 1pm | To be decided | 
