@@ -11,25 +11,25 @@ Jessica Woodgate, Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 Our initial paper impressions are that the paper has a strong emphasis on idea of freedom to do things but doesn't consider the responsibility associated of that freedom. Have these norms changed? Are people of this sort of leaning this day and age?
 
-Is the paper saying you shouldn't use open source stuff if there is any chance you can use stuff for negative? If it can be used for bad things, it will be. We felt that this fact didn't absolve us of responsibilities, but things are sometimes less black and white than it appears. 
+Is the paper saying you shouldn't produce open source stuff if there is any chance you can use it for negative purposes? If it can be used for bad things, it will be. We felt that this fact didn't absolve us of responsibilities, but things are sometimes less black and white than it appears. 
 
-Often some of our members have found that in open source project, as a community everyone is watching for malicious/faulty code that means anyone can check the code for anything malicious, but that is assuming lots of people are working on that project. Larger projects tend to have better oversight, but small projects have to have a lot more risk considerations.
+Often some of our members have found that in open source projects, as a community everyone is watching for malicious/faulty code that means anyone can check the code for anything malicious, but that is assuming lots of people are working on that project. Larger projects tend to have better oversight, but small projects have to have a lot more risk considerations.
 
-## What ethical concerns might arise in corporate sponsored vs. community based open source projects? 
+## What ethical concerns might arise in corporate sponsored vs. community-based open source projects? 
  
 There are different sorts of ethical tradeoffs that are made in different contexts which will relate to the purpose of the projects and the expected outcomes. It all depends what we are prioritising. Profit? Is transparency the most important thing with open source projects? The public sector tends to assume corporate-sponsored focusses around intellectual property and having things resold back to the public sector. This could have reputational damage if mistakes are found.
 
-How does open source requirements for transparency clash with product requirements for success?
+So, how do open source requirements for transparency clash with product requirements for success?
 If something is purely open source, transparency is the only context with which to build trust. If you have a different framework then that can sometimes build trust inherently. The open source licencing model might help ensure transparency and code reuse.
 
 In corporate and community projects, the corporate projects tend to be more task orientated and have clearer deliverables. Trade secrets would be more of an issue in industry and profits rely upon this. This might not be as clean of a product based on external requirements versus labor of love. We probably also need to tie some of deepfake materials to laws that protect individuals such as defamation laws.
 
-People will always find new ways to abuse technology as new technologies come about, but consequences of abuse has to tie back to laws that protect people and organisations. GDPR and Data Protection Act 2018 can help with protecting individuals privacy as a start but probably not enough to protect against deepfakes. By its nature, enforcement is already after the fact and quite clunky and hard to make use of, particuarly in such rapidly developing fields. 
+People will always find new ways to abuse technology as new technologies come about, but the consequences of abuse have to tie back to laws that protect people and organisations. The GDPR and Data Protection Act 2018 can help with protecting individuals' privacy as a start but probably not enough to protect against deepfakes. By its nature, enforcement is already after the fact and quite clunky and hard to make use of, particuarly in such rapidly developing fields. 
 
 If Google released an open source deepfake tool, our sense was that there would be public outcry.
 [Behavioural use licensing](https://en.wikipedia.org/wiki/Self-licensing) means in practise that as groups become more confident they tend to think less about the consequences of subsequent immoral behaivour. People contravene/break licenses all the time. Licenese and contracts might stop some bad use and that can still be meaningful but they are not a catch all solution. Companies still do a lot of unethical things despite licenses dictating what is/is not allowed.
 
-In the case of deep fakes, it tends to be a male dominated field. This is in stark contrast to the fact that the majority of people affected by the misuse of this are women. If it's open source, you have to rely on personal stakes for emotional accountability whereas with corperate structure you have more rigidity and guidelines. We probably also need to tie some of deepfake materials to laws that protect individuals such as defamantion laws for example.
+In the case of deep fakes, it tends to be a male dominated field. This is in stark contrast to the fact that the majority of people affected by the misuse of this are women. If it's open source, you have to rely on personal stakes for emotional accountability whereas with corperate structure you have more rigidity and guidelines.
 
 It can be really difficult for people to get evidence for lots of things, e.g. in domestic violence. DeepFakes could be used to create false evidence and actively sully the water. Some of the participants in the study did know that the software was being used for variety of horrible reasons but that didn't stop them doing it. It's often difficult to even begin these sort of conversations.
 
@@ -45,7 +45,7 @@ A measure could be how easy is it to abuse? Without the code being shared does i
 
 To what extent are we putting a monetary value on harm by making it something that's legally enforceable? Is paying the fine going to be worth it for doing harm? Is that just paying the fee to do something unethical?
 
-Ethics seems to be more focussed on novelty. AI is new and exciting but we have so many things still to consider in data science. When we are at the beginning of building the tool which is a good time to think about this. But tools might not have a fixed, determined purpose so it's a constant guessing game of what tech can be used for, as well as a catchup game as new developments appear.
+Ethics seems to be more focussed on novelty. AI is new and exciting but we have so many things still to consider in data science. When we are at the beginning of building the tool is a good time to think about this. But tools might not have a fixed, determined purpose so it's a constant guessing game of what tech can be used for, as well as a catchup game as new developments appear.
 
 ---
 
