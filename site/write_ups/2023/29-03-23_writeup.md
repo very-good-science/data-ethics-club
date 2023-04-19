@@ -61,7 +61,7 @@ Considering the risk of unforeseen harms, at what point do you decide not to bui
 
 It is important to distinguish the point at which you halt development, from where mitigation techniques should be brought in. Maybe someone could develop some sort of signposting to help this... Something like [Data Hazards](https://datahazards.com/) labels? Just a thought.
 
-To understand where these thresholds are, the podcast talks about projects in the domain of high risk, high consequence. If there is a high probability that things could go wrong, and if things go wrong they go really wrong, maybe you should stop. [An article we read in a previous reading group](https://journals.sagepub.com/doi/10.1177/20539517221146122) provided a quite simple but useful heuristic for machine learning.  The paper suggests that ML should be used for well-defined, ‘learnable’, and low stakes problems, with relatively small ranges of subjectivity. This might help when we are trying to think about what could be done, or go wrong with, the models we build.
+To understand where these thresholds are, the podcast talks about projects in the domain of high risk, high consequence. If there is a high probability that things could go wrong, and if things go wrong they go really wrong, maybe you should stop. [An article that came up in our discussions](https://journals.sagepub.com/doi/10.1177/20539517221146122) provided a quite simple but useful heuristic for machine learning. The paper suggests that ML should be used for well-defined, ‘learnable’, and low stakes problems, with relatively small ranges of subjectivity. This might help when we are trying to think about what could be done, or go wrong with, the models we build.
 
 
 #### Removing responsibility through depersonalisation?
