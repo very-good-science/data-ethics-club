@@ -9,7 +9,7 @@ Jessica Woodgate, Nina Di Cara and Natalie Thurlby helped with the final edit.
 
 ## First thoughts
 
-Our initial paper impressions are that the paper has a strong emphasis on idea of freedom to do things but doesn't consider the responsibility associated of that freedom. Have these norms changed? Are people of this sort of leaning this day and age?
+Our initial paper impressions are that the paper has a strong emphasis on idea of freedom to do things but doesn't consider the responsibility associated of that freedom. Have these standards changed? Are people nowadays more inclined to follow these sort of standards?
 
 Is the paper saying you shouldn't produce open source stuff if there is any chance you can use it for negative purposes? If it can be used for bad things, it will be. We felt that this fact didn't absolve us of responsibilities, but things are sometimes less black and white than it appears. 
 
