@@ -5,7 +5,7 @@ DATE = "03-05-23"
 
 CONTENT_NAME = "Queer In AI: A Case Study in Community-Led Participatory AI"
 
-CONTENT_LINK = "https://arxiv.org/abs/2303.16972"
+CONTENT_LINK = "https://arxiv.org/pdf/2303.16972.pdf"
 
 # Add the author of the content we're reading
 # It will appear in "This piece was written by CONTENT_AUTHOR"
