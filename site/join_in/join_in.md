@@ -30,8 +30,7 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [19.04.2023, 1pm](meetings/2023/04-apr/19-04-23_meeting.md) | [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf) |
-| 03.05.2023, 1pm | To be decided |
+| [03.05.2023, 1pm]((meetings/2023/05-may/03-05-23_meeting.md)) | [Queer in AI: A Case Study in Community-Led Participatory AI](https://arxiv.org/pdf/2303.16972.pdf)  |
 | 17.05.2023, 1pm | To be decided |
 | 31.05.2023, 1pm | To be decided |
 | 14.06.2023, 1pm | To be decided | 
@@ -41,8 +40,9 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| 29.03.2023, 1pm | [The Tech We Won't Build](https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/) | Coming soon |
-| 08.03.2023, 3pm | [Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes](https://dl.acm.org/doi/abs/10.1145/3531146.3533779), plus a related short talk from [David Widder](https://davidwidder.me/) | Coming soon |
+| [19.04.2023, 1pm](meetings/2023/04-apr/19-04-23_meeting.md) | [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf) | Coming soon |
+| 29.03.2023, 1pm | [The Tech We Won't Build](https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/) | [Read the write up](../write_ups/2023/29-03-23_writeup) |
+| 08.03.2023, 3pm | [Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes](https://dl.acm.org/doi/abs/10.1145/3531146.3533779), plus a related short talk from [David Widder](https://davidwidder.me/) | [Read the write up](../write_ups/2023/08-03-23_writeup) |
 | [08.02.2023, 1pm](meetings/2023/02-feb/08-02-23_meeting.md) | [ChatGPT listed as author on research papers: many scientists disapprove](https://www.nature.com/articles/d41586-023-00107-z) | [Read the write up](../write_ups/2023/07-02-23_writeup) |
 | [25.01.2023, 1pm](meetings/2023/01-jan/25-01-23_meeting) | Data Ethics New Years Resolutions discussion! | [Read the write up](../write_ups/2023/25-01-23_writeup) |
 | [14.12.2022, 1pm](meetings/2022/12-dec/14-12-22_meeting) | [Defective Altruism](https://www.currentaffairs.org/2022/09/defective-altruism) | [Read the write up](../write_ups/2022/14-12-22_writeup) | 
