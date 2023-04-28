@@ -1,0 +1,164 @@
+# Data Ethics Club: [{content_name}]({content_link})
+<!--Please don't edit the info panel below-->
+
+:::warning
+### :arrow_forward: What's this document?
+
+#### :writing_hand: Let's write together!
+We're trying to write up these discussions and include input from everyone.
+We hope you'll join us and help us to make any write-ups of the discussion a little more representative of everyone's point of view.
+
+Afterwards we tidy up these summaries and post them [on the website](https://dataethicsclub.com/write_ups/write-ups.html).
+
+#### :computer: Writing in Markdown
+We're using HackMD to write a collaborative Markdown document. 
+Markdown is a format for writing text that displays nicely on websites.
+On the left you can edit, and on the right you can see view.
+
+#### :grey_question: Getting Markdown help
+There is a question mark symbol at the top of the screen that will bring up a cheat sheet, e.g. *write between single asterixes to write in italics* **or double asterixes for bold**.
+You can also use the buttons at the top of the edit panel.
+:::
+
+## Welcome
+Hi :wave:, welcome to Data Ethics Club! 
+Thank you for being here!
+
+Here are some quick useful links:
+- [This Document]()
+- [This week's discussion material]({content_link})
+- [Code of Conduct](https://dataethicsclub.com/join_in/code-of-conduct.html)
+- [Our Website](https://dataethicsclub.com)
+
+
+## Introductions
+Please introduce yourself here.
+Feel free to use a pseudoname (this is a public document).
+If you provide a GitHub username, I'll use those to credit you for discussions :speech_balloon: and/or writing :writing_hand:  on our GitHub 
+
+__Name, Role, Affiliation, Where to find you, Emoji to describe your day__
+- Natalie Zelenka, Data Scientist, University of Bristol, [NatalieZelenka](https://github.com/NatalieZelenka/), [@NatZelenka](https://twitter.com/NatZelenka) 
+- Nina Di Cara, Research Associate, University of Bristol, [ninadicara](https://github.com/ninadicara/), [@ninadicara](https://twitter.com/ninadicara)
+- Huw Day, PhDoer, University of Bristol, [@disco_huw](https://twitter.com/disco_huw)
+-
+-
+-
+-
+-
+
+## Discussion
+Each week, we split into breakout rooms of 4-6 people to discuss the material. 
+Please make space for one another to talk - keep your eyes open :eyes: for people with their hands up :hand: and invite them to talk.
+
+As always we have provided some discussion points to get the conversation moving, but feel free to discuss anything relating to the materials!
+
+::: info
+### :information_source:  Notes on writing
+#### Writing things down is optional
+
+The following are all good options:
+- :heavy_check_mark: Writing some notes in here as you discuss.
+- :heavy_check_mark: Writing some notes in here up to a week after the discussion at any time.
+- :heavy_check_mark: Not writing any notes in here at any time.
+
+#### What to write
+Suggestions for what to write down (if you want to):
+- Any interesting quotes from the discussion
+- Links to other material that came up in the discussion
+- Parts of the reading material that you felt particularly strongly about
+:::
+
+### Discussion
+
+#### Suggested Questions
+
+- **Q1**: {question_one}
+- **Q2**: {question_two}
+- **Q3**: {question_three}
+- **Bonus Question:** What change would you like to see on the basis of this piece? Who has the power to make that change?
+
+#### Room 1
+
+##### Q1
+
+##### Q2
+
+##### Q3
+
+##### Bonus question
+
+##### Misc
+
+#### Room 2
+
+##### Q1
+
+##### Q2
+
+##### Q3
+
+##### Bonus question
+
+##### Misc
+
+#### Room 3
+##### Q1
+
+##### Q2
+
+##### Q3
+
+##### Bonus question
+
+##### Misc
+
+#### Room 4
+
+##### Q1
+
+##### Q2
+
+##### Q3
+
+##### Bonus question
+
+##### Misc
+
+
+## After this session
+You have a week to add anything else that you'd like to to this document. 
+After that, we'll try to make this document a little more cohesive, then we'll send a link around to the write up of the discussion in the next mailing list email.
+
+## Feedback on the format
+Please feel free to leave us some notes below on how the discussion group went for you this time, positive or negative, and any suggestions to improve (you can always [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk) or fill in our [survey](https://us7.list-manage.com/survey?u=48bd2e5df74c466acb63f18d0&id=9d541e0964&attribution=false). instead). 
+
+We do read these and make changes :sparkles: 
+
+* Suggestion here
+* Another suggestion here
+
+
+<!--
+Please ignore these grey bits of text at the bottom of our HackMD documents. These help us to quickly format the write-ups for the website.
+-->
+
+<!--
+How to put a writeup on the website:
+1. Go to the GitHub Site (https://github.com/very-good-science/data-ethics-club) and navigate to the `site>contents>write_ups` directory, and go inside the directory for the current year.
+2. Above the file browser, on the right, choose the option `Add file > Create New File`, name the file `DD-MM-YY_writeup.md` (date of the Data Ethics Club meeting). 
+3. Copy in the contents of the write up (click next to the `1` in GH which is indicating the first line of the file). Add the admonition code (in the comment below this one) just below the title, but before the rest of the write up and change the text accordingly. Put the attendees at the bottom of the write up.
+4. IMPORTANT: to save, scroll down the the bottom and choose the "Create a new branch for this commit and start a pull request" option (this is not the default). Name the new branch something relating to the write up, e.g. "PrivateSpies", then click "Propose New File"
+5. You will be taken automatically to create a pull request. Write in any things that you'd like any particular feedback on, in the comments. Add Natalie or Nina as reviewers.
+6. You then need to add the markdown document to the Table of Contents in the navigation bar by editing the `writeup.md` file ON THE BRANCH YOU JUST MADE. You can go to the branch you just made from the Pull Request page, as the Pull Request will say something like "NatalieTurlby wants to merge 1 commit into `main` from `YOUR_BRANCH_NAME`" (click YOUR_BRANCH_NAME). Alternatively, you can get to it by going to the homepage of the GH repository, and choosing from the dropdown menu on the left. Once you are on your branch, navigate to `site>contents>write_ups>write-ups.md`, choose "edit this file" (little pencil), add your new file's location, and commit changes with the "Commit directly to the YOUR_BRANCH_NAME branch".
+7. All done! Comment here to let me know how these instructions worked out: https://github.com/very-good-science/data-ethics-club/issues/86
+-->
+
+<!--
+
+```{admonition} What's this? 
+This is summary of Wednesday 28th July's Data Ethics Club discussion, where we spoke and wrote about the New Republic article [The Rise of Private Spies](https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators) by Charlie Savage.
+The summary was written by Huw Day, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Nina Di Cara and Natalie Thurlby helped with the final edit.
+```
+
+-->

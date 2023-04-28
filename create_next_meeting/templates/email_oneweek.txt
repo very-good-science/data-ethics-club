@@ -1,0 +1,6 @@
+Hi Data Ethics Club, 
+
+**Next Meeting**
+
+Our next meeting is next week on {long_date} at {time} UK time. 
+We're looking forward to seeing you and discussing {content_name}

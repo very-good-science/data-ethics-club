@@ -1,0 +1,50 @@
+# Data Ethics Club meeting [{date}, {time} UK time][{timedate}]
+
+<!-- 
+If updating manually:
+- [ ] Change to a new branch (DD-MM-YY_meeting)
+- [ ] Copy this template to meetings/YEAR/DD-MM-YY_meeting.md (put in actual year + date)
+- [ ] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html
+- [ ] Update anything in curly brackets
+- [ ] Add link to the new file in meetings.md
+- [ ] Update the next-meeting.md file
+- [ ] Pull request!
+- [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
+- [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
+
+Usual time 13:00-14:00
+-->
+
+Welcome! This is a summary of the Data Ethics Club meeting on {date}. 
+If would like to know more about what happens at our meetings you could 
+[read this outline of a typical meeting](../../../how_to/meeting-structure), 
+and you can also [read summaries of our previous discussions here](../../../write_ups/write_ups).
+
+## Meeting info
+
+Date: {long_date}  
+Time: {time}, UK time  
+[Click here to check the time in your local timezone]({timedate})
+
+### Quick links
+
+- [Link to join the Zoom meeting.]({zoom})
+- Discussion material: [{content_name}]({content_link}) by {author}
+
+### Discussion points
+
+There will be time to talk about whatever we like, relating to the piece we've chosen, but here are some specific questions to think about while you're reading.
+- {discussion_one}
+- {discussion_two}
+- {discussion_three}
+
+### Description
+
+You're very welcome to join us for our next Data Ethics Club!
+We welcome anyone who is interested in data ethics, and you don't need to have any particular affiliation or profession to join in.
+You don't need to register, just pop in by clicking on the zoom link above. 
+
+We'll discuss the piece linked above at the meeting around the questions below, but don't worry
+if you're not able to read/listen beforehand - we always include a summary at the beginning of the meeting! 
+
+If you would like to recieve regular reminders about upcoming meetings then [sign up to our mailing list here](https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1).
