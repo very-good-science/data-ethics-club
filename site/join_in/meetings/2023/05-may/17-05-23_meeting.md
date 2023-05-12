@@ -27,12 +27,12 @@ Usual time 13:00-14:00
 Link to content: [Designing Accountable Systems][content]
 
 ### Description 
+
 You're welcome to join us for our next Data Ethics Club meeting on [17th May at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
 This time we're going to watch/read [Designing Accountable Systems][content] by Kacianka and Pretschner, which is a paper about how we can analyse accountability in technical systems.
 
-### Brief summary  
-*Note for references mentioned here, please refer to the paper link*
+### Brief summary
 
 There are many different definitions of accountability. Some of these come from computer science, but earlier definitions are from more philosophical fields. 
 A recent review has found the most common type of accountability in algorithmic accountability studies is the one given by Mark Boven which states that: 
@@ -67,6 +67,7 @@ This depends on the model of causality we are working with - if the model allows
 
 In conclusion they say that "while SCMs are not sufficient to ensure accountability, a correct understanding of the underlying causal mechanisms is necessary for any notion of accountability... SCMs are a powerful tool to analyze systems and, if they are not accountable, provide a well-reasoned argument why this is the case, and how the system should be improved."
 
+*Note for references mentioned here, please refer to the paper link*
 
 ### Discussion points
 
