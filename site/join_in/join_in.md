@@ -30,16 +30,16 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [03.05.2023, 1pm]((meetings/2023/05-may/03-05-23_meeting.md)) | [Queer in AI: A Case Study in Community-Led Participatory AI](https://arxiv.org/pdf/2303.16972.pdf)  |
-| 17.05.2023, 1pm | To be decided |
+| [17.05.2023, 1pm](meetings/2023/05-may/17-05-23_meeting.md) | [Designing Accountable Systems](https://arxiv.org/pdf/2101.08102.pdf) |
 | 31.05.2023, 1pm | To be decided |
-| 14.06.2023, 1pm | To be decided | 
+| 05.06.2023, 2pm | [JGI Data Week Special! Find out more here.](https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-clubonline-tickets-621726700297) | 
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [03.05.2023, 1pm](meetings/2023/05-may/03-05-23_meeting.md)| [Queer in AI: A Case Study in Community-Led Participatory AI](https://arxiv.org/pdf/2303.16972.pdf)  | |
 | [19.04.2023, 1pm](meetings/2023/04-apr/19-04-23_meeting.md) | [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf) | Coming soon |
 | 29.03.2023, 1pm | [The Tech We Won't Build](https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/) | [Read the write up](../write_ups/2023/29-03-23_writeup) |
 | 08.03.2023, 3pm | [Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes](https://dl.acm.org/doi/abs/10.1145/3531146.3533779), plus a related short talk from [David Widder](https://davidwidder.me/) | [Read the write up](../write_ups/2023/08-03-23_writeup) |
