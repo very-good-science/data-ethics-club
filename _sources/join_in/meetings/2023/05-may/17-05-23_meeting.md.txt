@@ -26,13 +26,12 @@ Usual time 13:00-14:00
 
 Link to content: [Designing Accountable Systems][content]
 
-### Description
+### Description 
 You're welcome to join us for our next Data Ethics Club meeting on [17th May at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
 This time we're going to watch/read [Designing Accountable Systems][content] by Kacianka and Pretschner, which is a paper about how we can analyse accountability in technical systems.
 
-### Brief summary
-
+### Brief summary  
 *Note for references mentioned here, please refer to the paper link*
 
 There are many different definitions of accountability. Some of these come from computer science, but earlier definitions are from more philosophical fields. 
