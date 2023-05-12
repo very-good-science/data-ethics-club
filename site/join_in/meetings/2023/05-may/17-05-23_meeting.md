@@ -32,7 +32,7 @@ You're welcome to join us for our next Data Ethics Club meeting on [17th May at 
 You don't need to register, just pop in. 
 This time we're going to watch/read [Designing Accountable Systems][content] by Kacianka and Pretschner, which is a paper about how we can analyse accountability in technical systems.
 
-### Brief summary
+**Brief summary of the paper**  
 
 There are many different definitions of accountability. Some of these come from computer science, but earlier definitions are from more philosophical fields. 
 A recent review has found the most common type of accountability in algorithmic accountability studies is the one given by Mark Boven which states that: 
