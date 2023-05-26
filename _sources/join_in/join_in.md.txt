@@ -28,10 +28,10 @@ Please read it before attending.
 
 
 ## Upcoming meetings
-| Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
+| Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
 
-| [31.05.2023, 1pm](meetings/2023/05-may/31-05-23_meeting) | [Classifying 'toxic' content online]() |
+| [31.05.2023, 1pm](meetings/2023/05-may/31-05-23_meeting) | [Classifying 'toxic' content online](https://twitter.com/OwenJones84/status/1590295662759153665) |  
 | 05.06.2023, 2pm | [JGI Data Week Special! Find out more here.](https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-clubonline-tickets-621726700297) | 
 
 ## Past Meetings
