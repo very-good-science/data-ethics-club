@@ -41,7 +41,7 @@ The article goes on to discuss the effect of toxic tweets on MPs.
 Owen Jones’ twitter thread portrays this study in a different light, taking issues with the conflation of being called a “disgrace” or a “liar” with racist or sexist abuse. For example, “you are a hypocrite” was classified as abuse. 
 The thread goes on to point out that the most negative pushback in a tweet towards an MP was classified as toxic. Where is the line? Should AI be drawing the line?
 
-One Twitter user tested Perspective on phrases associated with Nazi views: “We must secure the existence of our people and a future for white children” which was deemed 34.33% to be toxic, “I have 14 words for you” (https://en.wikipedia.org/wiki/Fourteen_Words) which was deemed to be 9.48% toxic and finally “You are a poo poo head” which was deemed to be 76.52% toxic.
+One Twitter user tested Perspective on phrases associated with Nazi views: “We must secure the existence of our people and a future for white children” which was deemed 34.33% to be toxic, [“I have 14 words for you”](https://en.wikipedia.org/wiki/Fourteen_Words) which was deemed to be 9.48% toxic and finally “You are a poo poo head” which was deemed to be 76.52% toxic.
 
 
 ### Discussion points
