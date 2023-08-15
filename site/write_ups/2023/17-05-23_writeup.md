@@ -8,9 +8,11 @@ Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.
 ## Discussion
 Before diving into the discussion, I thought it might be useful to go over a couple definitions of key terms, as there are a few overlapping concepts in accountability that can be easily confused. These definitions are inferred from [the paper in question](https://arxiv.org/pdf/2101.08102.pdf), and [a paper by Theodore M. Lechterman]( https://doi.org/10.1093/oxfordhb/9780197579329.013.10)
 
-Accountability – the obligation to explain and justify conduct, and susceptibility to sanctioning, which is held by an agent with decision-making power. An agent is thus accountable to some other agent for some state of affairs according to some normative standard. Agents may be accountable without being responsible or blameworthy.
+_Accountability_ – the obligation to explain and justify conduct, and susceptibility to sanctioning, which is held by an agent with decision-making power. An agent is thus accountable to some other agent for some state of affairs according to some normative standard. Agents may be accountable without being responsible or blameworthy.
 
-Responsibility – how individuals can be connected to their actions, and the consequences of their actions, in ways that make it appropriate to praise or blame them. According to some perspectives, responsibility necessitates certain types of mental states. Being responsible for wrongdoing may generate a reason to hold an agent accountable, but responsibility is not a necessary condition for accountability.
+_Responsibility_ – how individuals can be connected to their actions, and the consequences of their actions, in ways that make it appropriate to praise or blame them. According to some perspectives, responsibility necessitates certain types of mental states. Being responsible for wrongdoing may generate a reason to hold an agent accountable, but responsibility is not a necessary condition for accountability.
+
+_Causality_ - [the study of how things influence one another](https://www.newscientist.com/definition/causality/), assuming everything has a cause, and effect follows in a predictable and linear manner.
 
 ### Q1 How does this paper fit into your existing understanding and beliefs about what accountability should be?
 
