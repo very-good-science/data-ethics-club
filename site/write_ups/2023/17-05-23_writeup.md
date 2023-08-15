@@ -6,7 +6,7 @@ Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
 
 ## Discussion
-Before diving into the discussion, I thought it might be useful to go over a couple definitions of key terms, as there are a few overlapping concepts in accountability that can be easily confused. These definitions are inferred from [the paper in question](https://arxiv.org/pdf/2101.08102.pdf), and [a paper by Theodore M. Lechterman]( https://doi.org/10.1093/oxfordhb/9780197579329.013.10)
+Before diving into the discussion, I thought it might be useful to go over a couple definitions of key terms, as there are a few overlapping concepts in accountability that can be easily confused. These definitions are inferred from [the paper in question](https://arxiv.org/pdf/2101.08102.pdf), and [a paper by Theodore M. Lechterman]( https://doi.org/10.1093/oxfordhb/9780197579329.013.10).
 
 _Accountability_ – the obligation to explain and justify conduct, and susceptibility to sanctioning, which is held by an agent with decision-making power. An agent is thus accountable to some other agent for some state of affairs according to some normative standard. Agents may be accountable without being responsible or blameworthy.
 
