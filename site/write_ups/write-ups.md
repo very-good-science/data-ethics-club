@@ -11,6 +11,7 @@ We also discuss the meetings [on Twitter at #DataEthicsClub](https://twitter.com
 ```{toctree}
 :maxdepth: 1
 
+2023/31-05-23_writeup.md
 2023/25-01-23_writeup.md
 2022/ChatGPTStoleMyJob.md
 2022/14-12-22_writeup.md
