@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Data Ethics Club: Data Ethics Resolutions &#8212; Data Ethics Club v0.1.0 documentation</title>
+    <title>Data Ethics Club: Social Biases in NLP Models as Barriers for Persons with Disabilities &#8212; Data Ethics Club v0.1.0 documentation</title>
   
   
   
@@ -44,13 +44,13 @@
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2023/25-01-23_writeup';</script>
-    <link rel="canonical" href="dataethicsclub.com/write_ups/2023/25-01-23_writeup.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2023/19-04-23_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2023/19-04-23_writeup.html" />
     <link rel="shortcut icon" href="../../_static/favicon.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Chat GPT Stole my Job" href="../2022/ChatGPTStoleMyJob.html" />
-    <link rel="prev" title="Data Ethics Club: ChatGPT listed as an author on research papers: many scientists disapprove" href="07-02-23_writeup.html" />
+    <link rel="next" title="Data Ethics Club: The Tech We Won’t Build" href="29-03-23_writeup.html" />
+    <link rel="prev" title="Write-ups" href="../write-ups.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="None"/>
   </head>
@@ -392,11 +392,11 @@ document.write(`
      aria-label="Section Navigation">
   <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
   <div class="bd-toc-item navbar-nav"><ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="19-04-23_writeup.html">Data Ethics Club: Social Biases in NLP Models as Barriers for Persons with Disabilities</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Ethics Club: Social Biases in NLP Models as Barriers for Persons with Disabilities</a></li>
 <li class="toctree-l1"><a class="reference internal" href="29-03-23_writeup.html">Data Ethics Club: The Tech We Won’t Build</a></li>
 <li class="toctree-l1"><a class="reference internal" href="08-03-23_writeup.html">Data Ethics Club: Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="07-02-23_writeup.html">Data Ethics Club: ChatGPT listed as an author on research papers: many scientists disapprove</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Data Ethics Club: Data Ethics Resolutions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="25-01-23_writeup.html">Data Ethics Club: Data Ethics Resolutions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../2022/ChatGPTStoleMyJob.html">Chat GPT Stole my Job</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../2022/14-12-22_writeup.html">Data Ethics Club: Defective Altruism</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../2022/FAIRBlog.html">But is it FAIR?</a></li>
@@ -474,7 +474,7 @@ document.write(`
     
     <li class="breadcrumb-item"><a href="../write-ups.html" class="nav-link">Write-ups</a></li>
     
-    <li class="breadcrumb-item active" aria-current="page">Data Ethics Club: Data Ethics Resolutions</li>
+    <li class="breadcrumb-item active" aria-current="page">Data Ethics Club: Social Biases in NLP Models as Barriers for Persons with Disabilities</li>
   </ul>
 </nav>
 </div>
@@ -491,86 +491,79 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-  <section id="data-ethics-club-data-ethics-resolutions">
-<h1>Data Ethics Club: Data Ethics Resolutions<a class="headerlink" href="#data-ethics-club-data-ethics-resolutions" title="Permalink to this headline">#</a></h1>
+  <section id="data-ethics-club-social-biases-in-nlp-models-as-barriers-for-persons-with-disabilities">
+<h1>Data Ethics Club: <a class="reference external" href="https://arxiv.org/pdf/2005.00813.pdf">Social Biases in NLP Models as Barriers for Persons with Disabilities</a><a class="headerlink" href="#data-ethics-club-social-biases-in-nlp-models-as-barriers-for-persons-with-disabilities" title="Permalink to this headline">#</a></h1>
 <div class="admonition-what-s-this admonition">
 <p class="admonition-title">What’s this? </p>
-<p>This is summary of Wednesday 25th January’s Data Ethics Club discussion, where we discussed our Data Ethics related New Year’s resolution for 2023.</p>
-<p>The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+<p>This is summary of Wednesday 19th April’s Data Ethics Club discussion, where we spoke and wrote about <a class="reference external" href="https://arxiv.org/pdf/2005.00813.pdf">Social Biases in NLP Models as Barriers for Persons with Disabilities</a>, a paper written by Ben Hutchinson, Vinodkumar Prabhakaran, Emily Denton, Kellie Webster, Yu Zhong, Stephen Denuyl.
+The summary was written by Huw Day and Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
 Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
 </div>
-<section id="a-birthday-new-year-tradition">
-<h2>A Birthday/New Year Tradition<a class="headerlink" href="#a-birthday-new-year-tradition" title="Permalink to this headline">#</a></h2>
-<p>Data Ethics Club was “born”, if you like, in January 2021 and so this meeting marks the clubs second birthday. It’s also the first time we’ve met as a group in the year 2023. We’re not sure how many times you have to repeat something before it becomes a tradition but we’re certainly working towards that it with our first session of the year. Last year we first met to discuss some Data Ethics related New Years resolutions, you can read what sort of resolutions we had <a class="reference external" href="https://dataethicsclub.com/write_ups/2022/12-01-22_writeup.html">here</a>. For this session we reflected on how we had done from the year before and thought about what we wanted to do this year, both as individuals as well as how we want the club to move forward as a whole.</p>
-<p>This blog will contain some personal reflections, hopes from how we can develop the club moving forward and ways you can get more involved with Data Ethics Club.</p>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Permalink to this headline">#</a></h2>
+<section id="opening-thoughts">
+<h3>Opening thoughts<a class="headerlink" href="#opening-thoughts" title="Permalink to this headline">#</a></h3>
+<p>A lot of us did not enjoy this paper and were skeptical about aspects of it, particuarly those on sentiment analysis. We did however enjoy the discussion after the fact.</p>
+<p>We wondered how do you define disability? How do you define conversations around different physical disabilities? Who makes these</p>
+<p>The databases that the model in the paper is trained on are guidelines published by three US-based organizations: <a class="reference external" href="https://www.adl.org/">Anti-Defamation League</a>, <a class="reference external" href="https://www.sigaccess.org/welcome-to-sigaccess/resources/">SIGACCESS</a> and the <a class="reference external" href="https://adata.org/">ADA National Network</a>.</p>
+<p>How up to date are these guidelines? What bias is encoded there? What’s the half life of this kind of dataset? Would you need to update this every couple of years as language evolves?</p>
+<p>We also didn’t like that there were no mention of mitigation methods.</p>
+<p>In a meeting on the famous <a class="reference external" href="https://dl.acm.org/doi/10.1145/3442188.3445922">Stochastic parrots paper</a>, a worker from Kenya talked about their experience assisting training for <a class="reference external" href="https://dataethicsclub.com/write_ups/2023/07-02-23_writeup.html">ChatGPT</a>. Workers aimed to make ChatGPT  less toxic by getting moderators to score sentences on toxicity - the rationale was that if ChatGPT gets an insight into what constitutes as toxic, it can aim to produce less content of that nature. Low wages and the workers being exposed to a lot of troubling content means this could end up being a not very data ethicsy way of doing data ethics.</p>
 </section>
-<section id="personal-resolutions">
-<h2>Personal resolutions<a class="headerlink" href="#personal-resolutions" title="Permalink to this headline">#</a></h2>
-<p>Last year Huw planned to do outreach talks to school on Data Ethics and Weapons of Maths Destruction. These talks have gone down well and you can read all about them in this <a class="reference external" href="https://dataethicsclub.com/write_ups/2022/GLMBlogpost.html">blogpost</a>. Huw had also hoped to set up a Data Ethics Club blog for members to write about Data Ethics related issues that interest them. We have had five such posts so far and if you’d like to contribute you can read about that in a later section. This year Huw wants to finish his PhD, get a job in data science and keep being polite to AI systems so that when they rise up, they think of him favourably.</p>
-<p>Natalie, ambitious as ever, wants to write up the Data Hazards paper (with some excellent co-authors!), do some more data ethics teaching (inspired by Huw’s outreach last year and Euan’s lecturing this year). On Natalie’s reading list is “Kang, E. B. (2023), Ground truth tracings (GTT): On the epistemic limits of machine learning and <a class="reference external" href="https://doi.org/10.1177/20539517221146122%22">Big Data &amp; Society, 10(1)</a> - recommended by Ola. In new projects, Natlie wants to do research that is a positive thing even if the result aren’t interesting, set up a dedicated area for the blog on the website, try a weird (not first past the post) voting system for data ethics club and would love to write another paper with the data ethics club crowd!</p>
-<p>Zoë wants to interview the Data Ethics organisers on the NHS-R Community podcast that she started being involved with last year. She is planning to introduce/mention Data Hazards in workshops/meetings to raise awareness and try to tie it into everyday work that analysts in the NHS/Councils do. She also is going to research/read more about [Palantir](https://www.bbc.co.uk/news/business-54348456 and https://www.theguardian.com/society/2022/jun/21/palantir-concerns-over-data-firm-poised-to-be-operating-system-of-nhs) and the possible implications for the work at the National level with their data platforms, particularly linked to the recent announcement of working with Posit (formerly RStudio). This might be something that could be discussed in an ethics committee type format.</p>
-<p>Alessia plans to pilot similar work at Wellcome Genome Campus to facilitate data scientists (and other professionals) to engage with ethical issues relevant to their work!</p>
-<p>Euan wants to find ways to introduce more Data Ethics material (and memes, of course) in lectures/tutorials for students and staff at his work. Euan also wants to successfully navigate academia collaboratively, rejecting the competition paradigm (slightly more ambitious than remembering to say “please” and “thank you” to your at home Google assistant!)</p>
-<p>Our very own Nina wants to find a way to spread the word about data ethics to other fields using data (e.g. psychology! medicine!) - this might be by running a data hazards workshop. She would also like to find a way to make this formally part of her job, rather than just a passion project. Nina would also like to be brave enough to engage more with the data ethics community, maybe by attending a conference?</p>
-<p>Vanessa wants to do a data ethics project with non-technical people, publish her data ethics work and make masters students contribute to her data ethics research.</p>
-<p>Jess wants to complete applied data science module and learn more about the technical side as well as get involved helping out with data ethics club!</p>
-<p>Ola wants to learn some tech/data visualisation skills to become a more well rounded person - Huw suggests the <a class="reference external" href="https://dataviz.blogs.bristol.ac.uk/">JGI Data Viz seminar</a>! Ola will run a Digital Societies Reading group (late Feb-ish) on ground truth in ML: Kang, E. B. (2023), Ground truth tracings (GTT): On the epistemic limits of machine learning and Big Data &amp; Society, 10(1). Precise details to be confirmed but everyone is invited so stay tuned!</p>
-<p>Noshin would like to think more about intersectionality in data and from whom’s perspective is the data story being told. Holding the experience behind the data in mind when reporting on key themes surrounding children’s social care. Also there isn’t much peer review in her context, so it would be good to have this challenge!</p>
-<p>Amy wants to use her publishing background to support our data ethics resolutions!</p>
+<section id="what-are-the-consequences-of-innocuous-sentences-discussing-disability-being-supressed-in-online-moderation-contexts">
+<h3>What are the consequences of “innocuous sentences discussing disability being supressed” in online moderation contexts?<a class="headerlink" href="#what-are-the-consequences-of-innocuous-sentences-discussing-disability-being-supressed-in-online-moderation-contexts" title="Permalink to this headline">#</a></h3>
+<section id="context-and-nuance">
+<h4>Context and Nuance<a class="headerlink" href="#context-and-nuance" title="Permalink to this headline">#</a></h4>
+<p>Marginalised communities may choose to ‘reclaim’ certain langugage - automatic moderation may prevent them from doing so. There could be discourse in groups where words are reclaimed (e.g. the word <a class="reference external" href="https://en.wikipedia.org/wiki/Queer">“queer”</a> has had derogatory connotations in colloquial use but has been reclaimed as neutral/positive identifier). It doesn’t feel right to say you can’t use that.</p>
+<p>Making places safe is very important, but if we try to automate it we solidify it. There is a removal of flexiblity in human judgement as at its base it’s a rule following system.</p>
+<p>Communication broadens and complicates based on context. Who do we speak to? Children, adults, classes? How does the machine make a judgement? There a lot of human factors to consider.</p>
+<p>We are opting out in the path of least resistance because there is so much content to moderate. Who gets to decide? It’s always going to be the people with the power not the people who are harmed.</p>
+<p>There is some debate on person centered language versus other language. “Deaf person” versus “person who is deaf”. This is not necessarily agreed within communities. Wider group discussions have been used for “patients”, “service users”, “clients”. We may not be aware of the intention, maybe trying to do the right thing but not necessarily examine those intentions and motivations.</p>
+<p>Language that is seemingly negative, like swearing, may not be perceived by the person as such but could have useful context. It might be typical language for some people in some groups/contexts and can also express heightened emotion.</p>
+<p>Ismael was involved in a Genomics England’s Participant Panel who created a <a class="reference external" href="https://files.genomicsengland.co.uk/documents/Genomics-England-Language-Guide.pdf">guide on how
+to talk about the people whose data
+is curated at Genomics England</a>.</p>
+<p>Rachael noted: Language evolves over time - meanings of certain words change with time. How can we ensure that language is not out of date?
+This reflects the importance of having diverse teams. Diversity could mean a lot of different things - it might also mean knowledge of internet sub-cultures and what is or is not offensive. This isn’t always obvious. Paul’s student did work investigating online communities for disabled artists. They called themselves “crips”. Who says the word and in what context is really important to evaluating if its usage is appropriate.</p>
 </section>
-<section id="club-resolutions">
-<h2>Club Resolutions<a class="headerlink" href="#club-resolutions" title="Permalink to this headline">#</a></h2>
-<p>Moving past individual goals, next we stopped to think about what we wanted the club itself! We generally liked the “The intro -&gt; small group discussion - &gt; full group sum-up” format of the meetings. Some suggestions included:</p>
-<ul class="simple">
-<li><p>Try a weird voting system instead of first past the post</p></li>
-<li><p>Could we have an agony aunt for data ethics? Where people can bring specific data ethics conundrums they have?</p></li>
-<li><p>Some more ‘expert’ presentations before our talks like we had for our discussion on <a class="reference external" href="https://dataethicsclub.com/write_ups/2022/16-11-22_writeup.html">AI Generated Art</a> to give us more context to our discussions</p></li>
-</ul>
+<section id="accessibility-issues-for-marginalised-groups">
+<h4>Accessibility Issues for Marginalised Groups<a class="headerlink" href="#accessibility-issues-for-marginalised-groups" title="Permalink to this headline">#</a></h4>
+<p>Already marginalised people could be prevented from commenting/tweeting/making videos. People will get around some of these checks to some extent with workarounds, e.g. unalive, le$$bean. How fast can sentiment analysis adapt? Is it faster than human moderators?</p>
+<p>Is there an access issue? The time you need to make an input in any system can be more precious for disabled people. Disabled people are already at a disadvantage on these systems such as Twitter/Reddit/TikTok. Disabled people are less likely to report things as toxic because of this time pressure. People have a limited number of <span class="xref myst">“spoons” or “spell slots”</span>.</p>
+<p>Getting feedback is difficult here by virtue of it being extra effort for those affected to self advocated For example in the case of “long covid” (3 months or longer). After 12 months, x% of people are recovered - or have they just stopped engaging with healthcare?</p>
+<p>Deborah Lupton examines ‘the digital patient experience economy’ in <span class="xref myst">The Commodification of Patient Opinion</span> which is relevant to this discussion.</p>
+<p>The concept of sexual harrassment in the workplace is an example of <a class="reference external" href="https://en.wikipedia.org/wiki/Epistemic_injustice">hermeneutic injustice</a> when someone’s experiences are not well understood — by themselves or by others. It can also be that you’ve internalised mistreatment so you can’t see it. Hermeneutics is the science of interpretation. A good book on this topic is: :sparkles: <a class="reference external" href="https://academic.oup.com/book/32817">Epistemic Injustice by Miranda Fricker</a></p>
+<p>Silencing already marginalised voices by stopping people having a space to talk to speak to each other and stopping other people from hearing from them. It reinforces the medical model of disability versus the social model, creating a feedback loop.</p>
+<p>Capitalism devalues disabled people because they are often less able to make money. If only there was something we could do about that…</p>
 </section>
-<section id="how-can-you-get-involved">
-<h2>How can you get involved?<a class="headerlink" href="#how-can-you-get-involved" title="Permalink to this headline">#</a></h2>
-<p>The Data Ethics Club organisers work on this group, and all it’s outputs, as a passion project alongside their full time jobs (and sometimes, <em>instead of</em> their full time jobs). We are always happy to have people come and help us with all sorts of things to keep the club going, help us reach more people and provide better content for the group. Have a look below at how you can make an impact:</p>
-<section id="produce-and-review-website-resources">
-<h3>Produce and review website resources<a class="headerlink" href="#produce-and-review-website-resources" title="Permalink to this headline">#</a></h3>
-<p>After each meeting we put together from a collection of notes taken by various members in different breakout rooms to make a writeup summary of the discussion. If you want more insight into the process of how this gets done and the one time Huw got ChatGPT to do it for him, have a look <a class="reference external" href="https://dataethicsclub.com/write_ups/2022/ChatGPTStoleMyJob.html">here</a>. If you would like to help by writing or reviewing any of the writeups, perhaps of a discussion you found particuarly interesting, get in touch!</p>
-<p>Additionally, one of the most important resources on our website is our reading list! We always welcome member submissions to the list and if you tell us how to (e.g. github, twitter, linkedin etc.) we can credit you on the website. We pick from this reading list each meeting for a poll which members then vote on for the next discussion. If you would like to contribute to the reading list we would love to add your suggestions.</p>
-<p>Maybe you have knowledge in an area that you feel our reading list has missed, have an article you want to read and want to use a Data Ethics Club meeting to give you the nudge to do it or maybe you read something and thought it would be perfect for one of our discussions. Additionally, if you just want to help us organise and curate it, we would really value that help!</p>
-<section id="suggested-topics-reading">
-<h4>Suggested topics/reading:<a class="headerlink" href="#suggested-topics-reading" title="Permalink to this headline">#</a></h4>
-<p>Nagoya protocol: <a class="reference external" href="https://doi.org/10.1016/j.tim.2016.11.001">Microbiological Research Under the Nagoya Protocol: Facts and Fiction</a>
-ChatGPT:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://time.com/6247678/openai-chatgpt-kenya-workers/">Chat GPT Exploitation of workers</a></p></li>
-<li><p><a class="reference external" href="https://twitter.com/edward_the6/status/1610067688449007618">GPTZero — an app that can quickly and efficiently detect whether an essay is ChatGPT or human written</a></p></li>
-<li><p>Data Science/AI and synthetic biology</p></li>
-<li><p>Economies of Virtue: <a class="reference external" href="https://networkcultures.org/blog/publication/economies-of-virtue-the-circulation-of-ethics-in-ai/">The Circulation of ‘Ethics’</a></p></li>
-<li><p>Ethics around children and families data (ethics taken into consideration for thematic reports/ research)</p></li>
-<li><p>Could we explore more philosophical concepts that could link to data ethics rather than from data to ethics? Talk by Angie Hobbs, the Professor for Public Understanding of Philosophy](https://angiehobbs.com/) for the <a class="reference external" href="https://www.youtube.com/watch?v=aoUSY4bM38c">NHS Insight 2022</a></p></li>
-</ul>
+<section id="nlps-vs-human-moderators">
+<h4>NLPs vs Human Moderators<a class="headerlink" href="#nlps-vs-human-moderators" title="Permalink to this headline">#</a></h4>
+<p>What would be the ideal content moderation? At what stage do we have human input? Volunteer moderators vs paid moderators aided by automation.</p>
+<p>When do we decide to use NLP versus a person? In which situations is it actually better to use a person? This becomes a conversation on who is allowed to say what and when. At the very least, the paper shows that this type of bias is likely to come up when training NLP models. It is very difficult to see how this could be managed well without humans. A good example is moderators on sub-reddits who decide on a set of rules about what is okay versus what is not okay.</p>
+<p>Explainability does come into this too - how do we know what is being moderated and make this explicit. It’s important for there to be accountability. Systems become more and more complex, but this shouldn’t be confused with more sophistication. It makes it harder to explain what is or is not allowed.</p>
+<p>Usage in a live context might be more useful rather than outsourcing decision making in different contexts? You end up with a language model that has learnt some kind of weird combination of rules that don’t actually apply globally and apply to lots of different contexts/rules.</p>
 </section>
 </section>
-<section id="bring-a-guest-speaker">
-<h3>Bring a guest speaker<a class="headerlink" href="#bring-a-guest-speaker" title="Permalink to this headline">#</a></h3>
-<p>We really value having experts on topics come in to and offer their insights on our discussions. We would love to have speakers come into introduce topics to the group with brief presentations before joining us in discussions on relevant topics. If you or someone you know would like to come and join our discussions, we’d love to hear about it!</p>
+<section id="what-are-the-consequences-of-these-findings-given-the-growing-use-of-llms">
+<h3>What are the consequences of these findings given the growing use of LLMs?<a class="headerlink" href="#what-are-the-consequences-of-these-findings-given-the-growing-use-of-llms" title="Permalink to this headline">#</a></h3>
+<p>Not a question of safe/unsafe, just the scale is too great to moderate. People are using ChatGPT for everyday tasks. Should they be?</p>
+<p>As we’ve already noted, language generally is full of values that change over time and not everyone agrees, so can we rely upon machines to resolve that for us?</p>
+<p>One of us recalled an example of GPT 3.5 identifying women as nurse and men as doctor even when it doesn’t make grammatical sense.</p>
+<p>People don’t know that these are problems that exist with LLMs. When you point them out, they’re obvious, but at the initial outset of LLMs, this is not something that comes up very often and that is a worry. Because it is proliferating so much, no one can be on top of what people are doing. <a class="reference external" href="https://www.bmj.com/content/372/bmj.n304">Does “AI” stand for augmenting inequality in the era of covid-19 healthcare</a></p>
+<p>ChatGPT is retrainable so they’re using feedback from people to retrain the model but is this enough? There could be an arms race of people trying to train it to be toxic and another trying to train it to be wholesome.</p>
+<p>The understanding that people have of these types of models, but in school we don’t really learn about data science just ICT or Maths. Maybe the next generation are going to be better equipped for this. There are people well past school, how do we educate them about this? Do they want to be educated on it? On ChatGPT, Ismael has made a <a class="reference external" href="https://github.com/KairoiAI/Resources/blob/main/Template-ChatGPT-policy.md">use policy for organisations/companies</a> to make sure their staff use it safely.</p>
+<p>This is an existing problem with misinformation on the internet - for example everyone always believes Wikipedia without checking. ChatGPT doesn’t make it very obvious that it could be ‘lying’. There is a small warning that isn’t always presented. There should be more documentation for the users about the bias in the tool. This is legal in some countries, but not in others. E.g. Italy banned it.</p>
+<p>How can we show people things might be wrong, in a way that companies (for profit) are willing to acknowledge publicly. (Bad for shareholders!)</p>
 </section>
-<section id="write-a-blog-post">
-<h3>Write a blog post<a class="headerlink" href="#write-a-blog-post" title="Permalink to this headline">#</a></h3>
-<p>As well as the writeups of each discussion on our website, we have several member written blogposts about topics of interest to them.</p>
-<p>We have had five such blogposts so far:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2022/GLMBlogpost.html">The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers</a> written by Huw Day</p></li>
-<li><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2022/MetaphorsBlogPost.html">Cleaning the oil spill of data metaphors</a> written by Roman Shkunov</p></li>
-<li><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2022/MarginalisedGroups.html">Garbage in, garbage out: How bad use of data harms marginalised groups</a> written by Euan Bennet and Hannah O’Donoghue</p></li>
-<li><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2022/FAIRBlog.html">But is it FAIR?</a> written by Paul Lee</p></li>
-<li><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2022/ChatGPTStoleMyJob.html">Chat GPT Stole my Job</a> written by Huw Day</p></li>
-</ul>
-<p>If you’re interested in writing something, whether you have an idea but don’t know where to start or you have a draft already, reach out to Huw! We’ll of course review and give feedback to your writing and help you make it just right before we put it on our website.</p>
-<p>Euan had this to say about the process: “Keep the blog posts going (as long as people have time to work on them!) I really enjoyed working on the one I co-authored and hope to do more, time permitting. It was really nice to have some compassionate reviewers who helped me narrow down the aim of my post.”</p>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h3>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Permalink to this headline">#</a></h3>
+<p>Do we have to accept that these are fundamentally unsafe? It feels like an inevitable consequence that this is even more unacceptable.</p>
+<p>Should we use people for moderation? If words are deemed inappropriate, should the user be able to use it if they claim the moderation (human or otherwise) is biased? Consult the groups that are most affected!</p>
+<p><a class="reference external" href="https://www.tactcare.org.uk/content/uploads/2019/03/TACT-Language-that-cares-2019_online.pdf">“We are not mistakes on pages, we are awesome novels with unorthodox beginnings.”</a></p>
+<p>Sentiment analysis often is not very accurate (such as the word “tory” being very toxic, but racial slurs not being in an analysis of abuse against MPs). A lot of language is very contextual, so it’s not even feasible to agree if something is “toxic” or not.</p>
+<p>The comparison between “I am a person” and “I am a deaf person” is a bit unfair since people have different preference for person-first or not language. Language is very malleable which makes moderation more difficult: e.g. use of “unalive” on platforms such as tiktok in order to circumvent moderation.</p>
+<p>We wondered how good or bad does something need to be to be used practically? How do you decide: how good is good enough? It would be nice to moderate out toxicity automatically, but it’s quite unlikely it’ll work perfectly. What would be good enough for these kinds of models to be used in moderating settings?</p>
 </section>
-</section>
-<section id="spread-the-word">
-<h2>Spread the Word<a class="headerlink" href="#spread-the-word" title="Permalink to this headline">#</a></h2>
-<p>We’re trying to do more and more to spread the word about Data Ethics club, talking to at the University of Bristol Intelligent Systems Lab seminar to get more AI CDT students involved with the club at the end of 2022. We also started off the year by talking to the Financial Conduct Authority about what we do at Data Ethics Club and how they can run something similar. If you know of any groups that would be interested to hear about what we do, we’d love to hear about it! And of course if you know people who might be interested in joining the club, do bring them along - all are welcome!</p>
 </section>
 <hr class="docutils" />
 <section id="attendees">
@@ -579,13 +572,13 @@ ChatGPT:</p>
 <ul class="simple">
 <li><p>Natalie Zelenka, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieZelenka/">NatalieZelenka</a>, <a class="reference external" href="https://twitter.com/NatZelenka">&#64;NatZelenka</a></p></li>
 <li><p>Nina Di Cara, Research Associate, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
-<li><p>Huw Day, a data scientist by certain criteria*, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Huw Day, (Tired) PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
 <li><p>Euan Bennet, Lecturer, University of Glasgow, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
-<li><p>Vanessa Hanschke, PhD Interactive AI, University of Bristol</p></li>
-<li><p>Ola Michalec, Researcher at the University of Bristol</p></li>
-<li><p>Noshin Mohamed Quality Assurance for Children’s social care</p></li>
-<li><p>Zoë Turner, Senior Data Scientist, The Strategy Unit (NHS) <a class="reference external" href="https://github.com/Lextuga007">&#64;Lextuga007</a></p></li>
-<li><p>Jessica Woodgate, PhD Student, University of Bristol <a class="reference external" href="https://github.com/jess-mw">&#64;jess-mw</a></p></li>
+<li><p>Noshin Mohamed - Practice Learning Reviewer in QA for children’</p></li>
+<li><p>Ismael Kherroubi Garcia, AI Ethics &amp; Research Governance consultant, <a class="reference external" href="https://kairoi.uk">Kairoi</a>, <a class="reference external" href="https://www.linkedin.com/in/ismaelkherroubi/">LinkedIn</a></p></li>
+<li><p>Zoë Turner, Senior Data Scientist, NHS Midlands and Lancashire CSU, <a class="reference external" href="https://github.com/Lextuga007">GitHub</a></p></li>
+<li><p>Paul Matthews, Lecturer, UWE Bristol <a class="reference external" href="https://fetstudy.uwe.ac.uk/~pmatthew/">HomePage</a>,🦣<a class="reference external" href="https://scholar.social/&#64;paulusm">&#64;paulusm&#64;scholar.social</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/rachael-laidlaw/">Rachael Laidlaw</a>, PhD Student in Interactive Artificial Intelligence, University of Bristol</p></li>
 </ul>
 </section>
 </section>
@@ -602,20 +595,20 @@ ChatGPT:</p>
     <div class="footer-article-item"><!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
-       href="07-02-23_writeup.html"
+       href="../write-ups.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Data Ethics Club: ChatGPT listed as an author on research papers: many scientists disapprove</p>
+        <p class="prev-next-title">Write-ups</p>
       </div>
     </a>
     <a class="right-next"
-       href="../2022/ChatGPTStoleMyJob.html"
+       href="29-03-23_writeup.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Chat GPT Stole my Job</p>
+        <p class="prev-next-title">Data Ethics Club: The Tech We Won’t Build</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -637,26 +630,25 @@ ChatGPT:</p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-birthday-new-year-tradition">A Birthday/New Year Tradition</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#personal-resolutions">Personal resolutions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#club-resolutions">Club Resolutions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-can-you-get-involved">How can you get involved?</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#produce-and-review-website-resources">Produce and review website resources</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#suggested-topics-reading">Suggested topics/reading:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#opening-thoughts">Opening thoughts</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-consequences-of-innocuous-sentences-discussing-disability-being-supressed-in-online-moderation-contexts">What are the consequences of “innocuous sentences discussing disability being supressed” in online moderation contexts?</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#context-and-nuance">Context and Nuance</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#accessibility-issues-for-marginalised-groups">Accessibility Issues for Marginalised Groups</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#nlps-vs-human-moderators">NLPs vs Human Moderators</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bring-a-guest-speaker">Bring a guest speaker</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-a-blog-post">Write a blog post</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-consequences-of-these-findings-given-the-growing-use-of-llms">What are the consequences of these findings given the growing use of LLMs?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#spread-the-word">Spread the Word</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
 </ul>
   </nav></div>
 
   <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
-    <a href="../../_sources/write_ups/2023/25-01-23_writeup.md.txt">
+    <a href="../../_sources/write_ups/2023/19-04-23_writeup.md.txt">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>
