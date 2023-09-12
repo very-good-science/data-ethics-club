@@ -20,23 +20,12 @@ Usual time 13:00-14:00
 -->
 ## Meeting info
 
-### Quick links
+This meeting has been cancelled to respect the digital picket line for the UCU strikes taking place 25th-29th September 2023 in the UK. 
 
-[Zoom link][zoom]
+[You can read more about the strikes here.](https://www.ucu.org.uk/article/13171/Start-of-university-term-to-be-hit-with-five-days-of-UK-wide-strikes)
 
-Link to content: [Blog about privacy and loyalty card data][content]
+We'll see you on 11th October!
 
-### Description
-You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 27th September at 1pm UK time][timedate]. 
-You don't need to register, just pop in. 
-
-It's our first meeting back for Autumn and we're really excited to see you all! 
-
-Since we don't have a previous vote to use, the organisers have taken the liberty of choosing the material to discuss this week. 
-We're going to be talking about the ethics of loyalty card data, and the privacy implications that come with that. 
-
-[You can read an introductory post about the topic here](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/) 
-by Emma Sheppard at the Privacy Compliance Hub.
 
 ### Discussion points
 
