@@ -1,9 +1,11 @@
 # Data Ethics Club Data Week 2023 Special: 
+
 ```{admonition} What's this? 
 This is summary of Monday 5th June’s Data Ethics Week Special discussion, where we spoke and wrote about a video on [The Real Danger of ChatGPT](https://www.youtube.com/watch?v=AAwbvGywdOc) discussing the risks and benefits of ChatGPT.
 The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
+
 ## Q1 Have you played around with ChatGPT or other Large Language Models (LLMs)?
 
 There were four main camps for how we had interacted with ChatGPT: never used it, used it for editing, used it for programming, used it for idea generation. For those of us who had never used it, we had heard of it, and were interested to find out more as we were aware that a lot of people were/would be using it.
