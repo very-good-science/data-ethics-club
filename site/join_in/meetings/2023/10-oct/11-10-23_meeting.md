@@ -24,7 +24,7 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [Loyalty cards, virtual try-on tools, and facial recognition technology: Is retail the next sector to be hit by a privacy scandal?](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 11th October at 1pm UK time][timedate]. 
