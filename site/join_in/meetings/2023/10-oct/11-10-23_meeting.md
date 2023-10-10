@@ -38,15 +38,12 @@ We're going to be talking about the ethics of loyalty card data, and the privacy
 [You can read an introductory post about the topic here](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/) 
 by Emma Sheppard at the Privacy Compliance Hub.
 
-<!--
-
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
--->
+- Were you aware how much your shopping data is tracked by shops and supermarkets? How do you feel about it?  
+- Do you think the discounts offered by shops for using a loyalty card are a fair exchange for tracking your data?  
+- "[Walmart's] chief financial officer revealed advertising was faster growing than the company’s main retail business and had higher margins" - what do you think about this?  
 
 ---
 
