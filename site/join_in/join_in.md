@@ -30,8 +30,8 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [27.09.2023, 1pm](meetings/2023/09-sep/27-09-23_meeting) | [Privacy and Loyalty Card Data](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/) |  
-| [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | To be decided | 
+| [27.09.2023, 1pm](meetings/2023/09-sep/27-09-23_meeting) | [Cancelled in support of UCU strikes](https://www.ucu.org.uk/article/13171/Start-of-university-term-to-be-hit-with-five-days-of-UK-wide-strikes) |  
+| [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | [Privacy and Loyalty Card Data](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/) | 
 | [25.10.2023](meetings/2023/10-oct/25-10-23_meeting), 1pm | To be decided | 
 | [08.11.2023](meetings/2023/11-nov/08-11-23_meeting), 1pm | To be decided | 
 | [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | To be decided | 

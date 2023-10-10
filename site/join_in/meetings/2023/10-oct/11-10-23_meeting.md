@@ -30,11 +30,15 @@ Link to content: [CONTENT-NAME][content]
 You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 11th October at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
 
-This page will be updated with the piece we are going to discuss and our discussion questions nearer the meeting date.
+It's our first meeting back for Autumn and we're really excited to see you all! 
 
-<!--This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+Since we don't have a previous vote to use, the organisers have taken the liberty of choosing the material to discuss this week. 
+We're going to be talking about the ethics of loyalty card data, and the privacy implications that come with that. 
 
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+[You can read an introductory post about the topic here](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/) 
+by Emma Sheppard at the Privacy Compliance Hub.
+
+<!--
 
 ### Discussion points
 
