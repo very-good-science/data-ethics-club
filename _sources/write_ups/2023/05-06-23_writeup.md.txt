@@ -1,4 +1,4 @@
-# Data Ethics Club Data Week 2023 Special: 
+# Data Ethics Club Data Week 2023 Special: [The Real Danger of ChatGPT](https://www.youtube.com/watch?v=AAwbvGywdOc)
 
 ```{admonition} What's this? 
 This is summary of Monday 5th June’s Data Ethics Week Special discussion, where we spoke and wrote about a video on [The Real Danger of ChatGPT](https://www.youtube.com/watch?v=AAwbvGywdOc) discussing the risks and benefits of ChatGPT.
