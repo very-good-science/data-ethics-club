@@ -377,6 +377,16 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "jess-mw",
+      "name": "Jessica Woodgate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45073537?v=4",
+      "profile": "http://www.linkedin.com/in/jessica-woodgate",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -384,5 +394,6 @@
   "projectOwner": "very-good-science",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
