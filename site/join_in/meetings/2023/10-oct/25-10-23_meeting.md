@@ -24,7 +24,7 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online][content]
 
 ### Description
 Please join us for our next Data Ethics Club meeting on [Wednesday 25th October at 1pm UK time][timedate]. 
