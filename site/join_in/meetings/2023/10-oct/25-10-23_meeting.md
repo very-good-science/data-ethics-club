@@ -3,10 +3,10 @@
 <!-- 
 TODO:
 - [ ] Change to a new branch (DD-MM-YY_meeting)
-- [ ] Copy this template to meetings/YEAR/DD-MM-YY_meeting.md (put in actual year + date)
-- [ ] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html and copy result to LINK-TO-TIMEDATE
-- [ ] Change all ALL-CAPS placeholders in this form
-- [ ] Update the hyperlinks at the bottom of the template
+- [x] Copy this template to meetings/YEAR/DD-MM-YY_meeting.md (put in actual year + date)
+- [x] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html and copy result to LINK-TO-TIMEDATE
+- [x] Change all ALL-CAPS placeholders in this form
+- [x] Update the hyperlinks at the bottom of the template
 - [ ] Add link to the new file in meetings.md
 - [ ] Update the next-meeting.md file
 - [ ] Pull request!
@@ -27,22 +27,17 @@ Usual time 13:00-14:00
 Link to content: [CONTENT-NAME][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 25th October at 1pm UK time][timedate]. 
-You don't need to register, just pop in. 
+Please join us for our next Data Ethics Club meeting on [Wednesday 25th October at 1pm UK time][timedate]. 
+You don't need to register, just pop in!
 
-This page will be updated with the piece we are going to discuss and our discussion questions nearer the meeting date.
-
-<!--This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
-
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+This time we're going to discuss [How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online][content] by Catherine Archer, which is a paper about about the attitudes of regular and influencer mothers towards sharing images and information about their children online. 
 
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
--->
+- What (if anything) concerned or surprised you about the attitudes of everyday mums? Why?
+- How effective are the tactics used by each group for maintaining children's privacy in your opinion?
+- Do you have any comments on the research itself, e.g. limitations or things you would have liked to see?
 
 ---
 
@@ -59,6 +54,6 @@ Shall we email the author? If so, who'll send the email?
 
 -->
 
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+%22sharenting%22&iso=20231025T13&p1=299&ah=1
+[content]: https://journals.sagepub.com/doi/full/10.1177/1329878X19828365
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
