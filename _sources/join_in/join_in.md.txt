@@ -40,7 +40,7 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | [Privacy and Loyalty Card Data] | Coming soon |(https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)  | Coming soon |
+| [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | [Privacy and Loyalty Card Data](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)  | Coming soon |
 | [27.09.2023, 1pm](meetings/2023/09-sep/27-09-23_meeting) | [Cancelled in support of UCU strikes](https://www.ucu.org.uk/article/13171/Start-of-university-term-to-be-hit-with-five-days-of-UK-wide-strikes) | N/A |
 | [31.05.2023, 1pm](meetings/2023/05-may/31-05-23_meeting) | [Classifying 'toxic' content online](https://twitter.com/OwenJones84/status/1590295662759153665) | Coming soon |
 | 05.06.2023, 2pm | [JGI Data Week Special! Find out more here.](https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-clubonline-tickets-621726700297) | Coming soon |
