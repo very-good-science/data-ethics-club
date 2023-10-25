@@ -13,9 +13,9 @@ The Data Ethics Club organising team is currently made up of:
   - __Natalie Zelenka__<br> (Natalie Thurlby)
   - __Huw Day__
   - __Jessica Woodgate__
-* - PhD Student,<br>Dynamic Genetics Lab,<br>MRC Integrative Epidemiology Unit,<br>University of Bristol
+* - Research Associate in Mental Health Data Science,<br>University of Bristol
+  - Senior Research Fellow of Health Informatics,<br>University College London
   - Data Scientist,<br>Jean Golding Institute,<br>University of Bristol
-  - PhD Student,<br>School of Mathematics,<br>University of Bristol
   - PhD Student,<br>Intelligent Systems Laboratory,<br>University of Bristol
 * - {fa}`github,style=fab`: [@ninadicara](https://github.com/ninadicara)
   - {fa}`github,style=fab`: [@NatalieZelenka](https://github.com/nataliezelenka)
@@ -26,7 +26,7 @@ The Data Ethics Club organising team is currently made up of:
   - {fa}`twitter,style=fab`: [@disco_huw](https://twitter.com/disco_huw)
   - [UoB Profile](https://research-information.bris.ac.uk/en/persons/jessica-woodgate)
 * - {fa}`envelope,style=far`: [nina.dicara@bristol.ac.uk](mailto:ninadicara@bristol.ac.uk)
-  - {fa}`envelope,style=far`: [natalie.thurlby  @bristol.ac.uk](mailto:natalie.thurlby@bristol.ac.uk)
+  - {fa}`envelope,style=far`: [n.zelenka@ucl.ac.uk](mailto:n.zelenka@ucl.ac.uk)
   - {fa}`envelope,style=far`: [huw.day@bristol.ac.uk](mailto:huw.day@bristol.ac.uk)
   - {fa}`envelope,style=far`: [yp19484@bristol.ac.uk](mailto:yp19484@bristol.ac.uk)
   
