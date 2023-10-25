@@ -1,11 +1,11 @@
 # Data Ethics Club: [Is retail the next sector to be hit by a privacy scandal?](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)
 ```{admonition} What's this? 
-This is summary of Wednesday 11th October’s discussion, where we spoke and wrote about the article [Is retail the next sector to be hit by a privacy scandal?](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/), discussing data collection in the retail industry.
+This is summary of Wednesday 11th October’s discussion, where we spoke and wrote about the article [Is retail the next sector to be hit by a privacy scandal?](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/), an article on the privacy compliance hub written by Emma Sheppard, discussing data collection in the retail industry.
 The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
 
-The use of electronic loyalty cards, emailed receipts, and e-commerce has opened the retail industry up to a tsunami of consumer data. This often comes with a lack of consumer awareness about what data consumers are giving away, and where that data is going. Loyalty cards give users discounts in exchange for data, which is then used for increasingly personalised and highly profitable advertising. The article suggests that whilst sectors such as healthcare and financial services have imposed stringent privacy regulation and compliance responsibilities, retail has been comparatively slow with addressing privacy concerns. How much should we be concerned about transparency and informed consent in the use of data in retail, and should we be anticipating a massive privacy scandal?
+The use of electronic loyalty cards, emailed receipts, and e-commerce has opened the retail industry up to a tsunami of consumer data. This often comes with a lack of consumer awareness about what they are giving away, and where their data is going. Loyalty cards give users discounts in exchange for data, which is then used for increasingly personalised and highly profitable advertising. The article suggests that whilst sectors such as healthcare and financial services have imposed stringent privacy regulation and compliance responsibilities, retail has been comparatively slow with addressing privacy concerns. How much should we be concerned about transparency and informed consent in the use of data in retail, and should we be anticipating a massive privacy scandal?
 
 ## Q1 Were you aware how much your shopping data is tracked by shops and supermarkets? How do you feel about it?
 
@@ -15,7 +15,7 @@ We realised we felt some disconnection and naivety to how data is gathered and e
 
 Loyalty cards are designed to make us feel like we are autonomously bargain hunting. However, are we truly informed about the decision we are making? Supermarkets feed off of convenience, taking advantage of time poverty. Reading terms and conditions, privacy policy updates, and relevant legal conditions (e.g. these might change between locations) takes a huge amount of time and energy, rendering terms and conditions [virtually incomprehensible to the average consumer](https://theconversation.com/never-read-the-terms-and-conditions-heres-an-idea-that-might-protect-your-online-privacy-62208). This seems to us like gambling; discounts are presented to us in a way that seems like we are winning, however the house always has to win. For all that we get out of the deal, the house must always get more.
 
-**Opaqueness of systems**
+### Opaqueness of systems
 
 What the house gets from us - our “retail value” - is something that we don’t truly know. The decisions we make in terms of our retail consumption and volunteering of data might be different if we knew how much our data was valued by companies. Could we conceive of a more transparent system in which we could opt-in to *n* annoying ads per week, and get paid *m* amount for our data? It would be interesting to find out the value of data for different groups of people, for example, if there is a difference in the value of data from different socio-economic groups.
 
@@ -29,7 +29,7 @@ We simply don’t know a lot about where our data is going, what these systems a
 
 Using data in personalised services can have negative side effects, such as the relationship between [fitness tracker apps and eating disorders](https://www.cambridge.org/core/journals/bjpsych-open/article/effects-of-diet-and-fitness-apps-on-eating-disorder-behaviours-qualitative-study/2D1EE739D97AB3EFC6573835E4C527BD). There have also been instances of [FitBit finding out people are pregnant](https://www.news.com.au/lifestyle/parenting/pregnancy/heres-how-a-fitbit-told-this-couple-they-were-going-to-be-parents/news-story/95ae3e44d41f954b2922509c9a740287) before they know. With difficulties surrounding unwanted pregnancy, or for people in abusive relationships, the handling of this data could be a huge safety concern.
 
-**Advertising and Profit**
+### Advertising and Profit
 
 Most of the value around data collection stems from its effectiveness in personalised advertising. We felt like the whole point of advertising is to make you feel like you don’t have enough and that you need more. With more data comes better predictions about what kind of person you are, and what exactly it is that you need more of.  
 
@@ -39,11 +39,12 @@ Profit from advertising is a big incentive for data collection, and we can see h
 
 ## Q3 “Walmart’s chief financial officer revealed advertising was faster growing than the company’s main retail business and had higher margins” - what do you think about this?
 
-Currently, different companies have different pieces of data. The colossal growth of advertising revenue for companies like Walmart is concerning when we consider how industry giants are turning towards business models where you can buy anything and everything from one company. These companies would then have access to even more data, with an even more complete coverage of different aspects of society. The power that comes along with that would be immense. We’re feeling [Minority Report](https://www.imdb.com/title/tt0181689/) and [Person of Interest](https://www.imdb.com/title/tt1839578/) themes….
+Currently, different companies have different pieces of data. The colossal growth of advertising revenue for companies like Walmart is concerning when we consider how industry giants are turning towards business models where you can buy anything and everything from one company. These companies would then have access to even more data, with an even more complete coverage of different aspects of society. The power that comes along with that would be immense. We’re feeling [Minority Report](https://www.imdb.com/title/tt0181689/) and [Person of Interest](https://www.imdb.com/title/tt1839578/) themes…
 
 ## Bonus question What change would you like to see on the basis of this piece? Who has the power to make that change?
 
 We’re thinking: game the system. Shopping bag rebellion (Sainsburys bag in Tesco’s), use different email addresses, share accounts with different people. Dismantle capitalism (*klaxon*) so companies aren’t as incentivised to buy and sell data, and stop pressuring individuals to sign up for loyalty cards and the like.
+
 --- 
 
 ## Attendees
