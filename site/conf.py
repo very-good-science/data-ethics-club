@@ -65,6 +65,14 @@ html_theme_options = {
     "use_edit_page_button": True,
 }
 
+html_context = {
+    "github_url": "https://github.com/very-good-science/data-ethics-club",
+    "github_user": "very-good-science",
+    "github_repo": "data-ethics-club",
+    "github_version": "main",
+    "doc_path": "./site/how-to/",
+}    
+
 html_sidebars = {
     "index": [],
     "reading-list": [],
