@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = "Data Ethics Club"
-copyright = "2021, Natalie Thurlby and Nina Di Cara"
-author = "Natalie Thurlby and Nina Di Cara"
+copyright = "2021, Natalie Zelenka and Nina Di Cara"
+author = "Natalie Zelenka and Nina Di Cara"
 
 # The full version, including alpha/beta/rc tags
 release = "v0.1.0"
@@ -66,11 +66,10 @@ html_theme_options = {
 }
 
 html_context = {
-    "github_url": "https://github.com/very-good-science/data-ethics-club",
     "github_user": "very-good-science",
     "github_repo": "data-ethics-club",
     "github_version": "main",
-    "doc_path": "./site/how-to/",
+    "doc_path": "/site/",
 }    
 
 html_sidebars = {
