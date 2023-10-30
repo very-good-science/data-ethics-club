@@ -62,6 +62,7 @@ html_theme_options = {
     "search_bar_text": "Search this site...",
     "show_prev_next": True,
     "footer_items": ["license-footer", "sphinx-version"],
+    "use_edit_page_button": True,
 }
 
 html_sidebars = {
