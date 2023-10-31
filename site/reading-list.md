@@ -6,8 +6,12 @@ The reading list contains all the suggestions for what to read or watch, contrib
 We choose from this list what to vote on to discuss for future meetings. 
 We'd also love it if this reading list was useful for other people in starting their own journal clubs, or for any other purpose.
 
-We would love suggestions for new reading materials, or better ways to categorise them. [Please use our suggestion form](reading-list-suggestions)
-or [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk)). 
+At the moment we are using Airtable to manage our content. You can use the filtering options to see the types of suggestions you 
+are interested in. 
+
+We would love suggestions for new reading materials, or better ways to categorise them. 
+[Please use our suggestion form](reading-list-suggestions)
+or [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk). 
 ```
 
 
