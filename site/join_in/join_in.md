@@ -28,23 +28,44 @@ Please read it before attending.
 
 
 ## Upcoming meetings
-| Date (dd.mm.yyyy, UK time)                                     | Discussion Material |
+| Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [16.06.2022, 1pm](meetings/2022/06-jun/16-06-22_meeting) | Note, this will be Thursday instead of Wednesday as part of JGI Data Week! [Sign up to attend here](https://www.eventbrite.co.uk/e/online-special-edition-of-data-ethics-club-tickets-321172354157) |
-
+| [25.10.2023](meetings/2023/10-oct/25-10-23_meeting), 1pm | [How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online](https://journals.sagepub.com/doi/full/10.1177/1329878X19828365) | 
+| [08.11.2023](meetings/2023/11-nov/08-11-23_meeting), 1pm | To be decided | 
+| [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | To be decided | 
+| [06.12.2023](meetings/2023/12-dec/06-12-23_meeting), 1pm | To be decided | 
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [01.06.2022, 1pm](meetings/2022/06-jun/01-06-22_meeting) | [Participatory data stewardship](https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf) | Coming soon |
-| [18.05.2022, 1pm](meetings/2022/05-may/04-05-22_meeting) | [Why Data Is Never Raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw) |
-| [04.05.2022, 1pm](meetings/2022/05-may/04-05-22_meeting) | [Economies of Virtue: The Circulation of "Ethics" in Big Tech](https://www.tandfonline.com/doi/full/10.1080/09505431.2021.1990875) | Coming Soon |
+| [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | [Privacy and Loyalty Card Data](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)  | Coming soon |
+| [27.09.2023, 1pm](meetings/2023/09-sep/27-09-23_meeting) | [Cancelled in support of UCU strikes](https://www.ucu.org.uk/article/13171/Start-of-university-term-to-be-hit-with-five-days-of-UK-wide-strikes) | N/A |
+| [31.05.2023, 1pm](meetings/2023/05-may/31-05-23_meeting) | [Classifying 'toxic' content online](https://twitter.com/OwenJones84/status/1590295662759153665) | Coming soon |
+| 05.06.2023, 2pm | [JGI Data Week Special! Find out more here.](https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-clubonline-tickets-621726700297) | Coming soon |
+| [17.05.2023, 1pm](meetings/2023/05-may/17-05-23_meeting.md) | [Designing Accountable Systems](https://arxiv.org/pdf/2101.08102.pdf) |  Coming soon |
+| [03.05.2023, 1pm](meetings/2023/05-may/03-05-23_meeting.md)| [Queer in AI: A Case Study in Community-Led Participatory AI](https://arxiv.org/pdf/2303.16972.pdf)  | Coming soon |
+| [19.04.2023, 1pm](meetings/2023/04-apr/19-04-23_meeting.md) | [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf) | [Read the write up](../write_ups/2023/19-04-23_writeup) |
+| 29.03.2023, 1pm | [The Tech We Won't Build](https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/) | [Read the write up](../write_ups/2023/29-03-23_writeup) |
+| 08.03.2023, 3pm | [Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes](https://dl.acm.org/doi/abs/10.1145/3531146.3533779), plus a related short talk from [David Widder](https://davidwidder.me/) | [Read the write up](../write_ups/2023/08-03-23_writeup) |
+| [08.02.2023, 1pm](meetings/2023/02-feb/08-02-23_meeting.md) | [ChatGPT listed as author on research papers: many scientists disapprove](https://www.nature.com/articles/d41586-023-00107-z) | [Read the write up](../write_ups/2023/07-02-23_writeup) |
+| [25.01.2023, 1pm](meetings/2023/01-jan/25-01-23_meeting) | Data Ethics New Years Resolutions discussion! | [Read the write up](../write_ups/2023/25-01-23_writeup) |
+| [14.12.2022, 1pm](meetings/2022/12-dec/14-12-22_meeting) | [Defective Altruism](https://www.currentaffairs.org/2022/09/defective-altruism) | [Read the write up](../write_ups/2022/14-12-22_writeup) | 
+| [16.11.2022, 1pm](meetings/2022/11-nov/16-11-22_meeting) | [The Ethics of AI Generated Art](https://jamiearpinricci.medium.com/the-ethics-of-ai-generated-art-57fb04b71646) |  [Read the write up](../write_ups/2022/16-11-22_writeup) |
+| 30.11.2022, 1pm | [Cancelled in support of the UCU strikes](https://www.ucu.org.uk/article/12609/Biggest-ever-university-strikes-set-to-hit-UK-campuses-over-pay-conditions--pensions) | |
+| [02.11.2022, 1pm](meetings/2022/11-nov/02-11-22_meeting) | [The data was there – so why did it take coronavirus to wake us up to racial health inequalities?](https://www.theguardian.com/uk-news/2020/jun/11/the-data-was-there-so-why-did-it-take-coronavirus-to-wake-us-up-to-racial-health-inequalities) | [Read the write up](../write_ups/2022/02-11-22_writeup) |
+| [19.10.2022, 1pm](meetings/2022/10-oct/19-10-22_meeting) | [Patient and public involvement to build trust in artificial intelligence: A framework, tools, and case studies](https://www.sciencedirect.com/science/article/pii/S2666389922000988) | [Read the write up](../write_ups/2022/19-10-22_writeup) |
+| [05.10.2022, 1pm](meetings/2022/10-oct/05-10-22_meeting) | [The Failures of Algorithmic Fairness](https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/) | [Read the write up](../write_ups/2022/05-10-22_writeup) |
+| [21.09.2022, 1pm](meetings/2022/09-sep/21-09-22_meeting) | [Hacking the cis-tem](https://ieeexplore.ieee.org/document/8634814) | [Read the write up](../write_ups/2022/21-09-22_writeup) |
+| [16.06.2022, 1pm](meetings/2022/06-jun/16-06-22_meeting) | Data Week Special - [We watched a video by Virginia Eubanks](https://www.youtube.com/watch?v=ADYxJU0WyJA) (author of Automating Inequality) | [Read the write up](../write_ups/2022/16-06-22_writeup) |
+| [01.06.2022, 1pm](meetings/2022/06-jun/01-06-22_meeting) | [Participatory data stewardship](https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf) | [Read the write up](../write_ups/2022/01-06-22_writeup) |
+| [18.05.2022, 1pm](meetings/2022/05-may/04-05-22_meeting) | [Why Data Is Never Raw](https://www.thenewatlantis.com/publications/why-data-is-never-raw) | [Read the write up](../write_ups/2022/18-05-22_writeup) | 
+| [04.05.2022, 1pm](meetings/2022/05-may/04-05-22_meeting) | [Economies of Virtue: The Circulation of "Ethics" in Big Tech](https://www.tandfonline.com/doi/full/10.1080/09505431.2021.1990875) | [Read the write up](../write_ups/2022/04-05-22_writeup) |
 | [06.04.2022, 1pm](meetings/2022/04-apr/06-04-22_meeting) | [The Algorithmic Colonization of Africa](https://reallifemag.com/the-algorithmic-colonization-of-africa/) | [Read the write up](../write_ups/2022/06-04-22_writeup) |
 | [23.03.2022, 1pm](meetings/2022/03-mar/23-03-22_meeting) | [The Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm) |[Read the write up](../write_ups/2022/23-03-22_writeup)|
 | [09.03.2022, 1pm](meetings/2022/03-mar/09-03-22_meeting) | [AI in Warfare](https://www.bbc.co.uk/sounds/play/m00127t9) | [Read the write up](../write_ups/2022/09-03-22_writeup)  |
-| [23.02.2022, 1pm] | N/A | Cancelled due to UCU Strikes. |
+| 23.02.2022, 1pm | N/A | Cancelled due to UCU Strikes. |
 | [09.02.2022, 1pm](meetings/2022/02-feb/09-02-22_meeting) | [“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies](https://journals.sagepub.com/doi/full/10.1177/2053951719833404) | [Read the write up](../write_ups/2022/09-02-22_writeup) |
 | [26.01.2022, 1pm](meetings/2022/01-jan/26-01-22_meeting) | [Which Programming Languages Use The Least Electricity?](https://thenewstack.io/which-programming-languages-use-the-least-electricity/) | [Read the write up](../write_ups/2022/26-01-22_writeup) |
 | [12.01.2022, 1pm](meetings/2022/01-jan/12-01-22_meeting) | [Data Ethics Club's New Years Resolutions](meetings/2022/01-jan/12-01-22_meeting) - read the meeting summary for an overview | [Read the write up](../write_ups/2022/12-01-22_writeup) |

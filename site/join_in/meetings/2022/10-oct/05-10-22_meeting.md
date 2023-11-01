@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [DD-MM-YY, 1pm UK time][timedate]
+# Data Ethics Club meeting [05-10-22, 1pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -24,21 +24,21 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [The Failures of Algorithmic Fairness][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DATE at 1pm UK time][timedate]. 
+You're welcome to join us for our next Data Ethics Club meeting on [5th October, 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+This time we're going to watch/read [The Failures of Algorithmic Fairness][content] by Paul Lee, which is a blog about the complications of trying to achieve fairness in algorithmic systems. 
 
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+Thank you to Paul Lee who wrote this blog post!
 
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
+- What do you think we lose or gain from trying to make our lives more and more efficient?
+- What different ways could we measure 'fairness'?
+- Is there an acceptable level of fairness we could require before releasing new technologies? How would this work in practice?
 
 ---
 
@@ -55,6 +55,6 @@ Shall we email the author? If so, who'll send the email?
 
 -->
 
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club%3A+Failures+of+Algorithmic+Fairness&iso=20221005T13&p1=299&ah=1
+[content]: https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/ 
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  

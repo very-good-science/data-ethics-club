@@ -169,7 +169,8 @@
       "avatar_url": "",
       "profile": "https://senseoffairness.blog/",
       "contributions": [
-        "blog"
+        "blog",
+        "content"
       ]
     },
     {
@@ -349,6 +350,43 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "Susana465",
+      "name": "Susana465",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73224467?v=4",
+      "profile": "https://github.com/Susana465",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Vivienne Kuh",
+      "avatar_url": "",
+      "profile": "https://www.bristol.ac.uk/people/person/Vivienne-Kuh-3265cd07-2fb1-45ab-81fb-16dd4c1953d4/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "neelsoumya",
+      "name": "Soumya Banerjee",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2981775?v=4",
+      "profile": "https://sites.google.com/site/neelsoumya/",
+      "contributions": [
+        "content"
+      ]
+    },
+    {
+      "login": "jess-mw",
+      "name": "Jessica Woodgate",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45073537?v=4",
+      "profile": "http://www.linkedin.com/in/jessica-woodgate",
+      "contributions": [
+        "ideas",
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -356,5 +394,6 @@
   "projectOwner": "very-good-science",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }

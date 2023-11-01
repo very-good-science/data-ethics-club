@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=2022/06-jun/16-06-22_meeting.html" />
+<meta http-equiv="refresh" content="0; url=2023/10-oct/25-10-23_meeting.html" />

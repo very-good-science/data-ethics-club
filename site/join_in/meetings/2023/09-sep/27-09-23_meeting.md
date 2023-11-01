@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [DD-MM-YY, 1pm UK time][timedate]
+# Data Ethics Club meeting [27-09-23, 1pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -20,25 +20,22 @@ Usual time 13:00-14:00
 -->
 ## Meeting info
 
-### Quick links
+This meeting has been cancelled to respect the digital picket line for the UCU strikes taking place 25th-29th September 2023 in the UK. 
 
-[Zoom link][zoom]
+[You can read more about the strikes here.](https://www.ucu.org.uk/article/13171/Start-of-university-term-to-be-hit-with-five-days-of-UK-wide-strikes)
 
-Link to content: [CONTENT-NAME][content]
+We'll see you on 11th October!
 
-### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DATE at 1pm UK time][timedate]. 
-You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
-
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
 
 ### Discussion points
 
+We will put up discussion points the week before we meet.
+<!--
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
 - DISCUSSION-POINT-ONE
 - DISCUSSION-POINT-TWO
 - DISCUSSION-POINT-THREE
+-->
 
 ---
 
@@ -55,6 +52,6 @@ Shall we email the author? If so, who'll send the email?
 
 -->
 
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20230927T13&p1=299&ah=1
+[content]: https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/  
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  

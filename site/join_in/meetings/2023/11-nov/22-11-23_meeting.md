@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [DD-MM-YY, 1pm UK time][timedate]
+# Data Ethics Club meeting [22-11-23, 1pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -27,9 +27,12 @@ Usual time 13:00-14:00
 Link to content: [CONTENT-NAME][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DATE at 1pm UK time][timedate]. 
+You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 22nd November at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+
+This page will be updated with the piece we are going to discuss and our discussion questions nearer the meeting date.
+
+<!--This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
 
 Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
 
@@ -39,6 +42,7 @@ There will be time to talk about whatever we like, relating to the paper, but he
 - DISCUSSION-POINT-ONE
 - DISCUSSION-POINT-TWO
 - DISCUSSION-POINT-THREE
+-->
 
 ---
 

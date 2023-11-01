@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [DD-MM-YY, 1pm UK time][timedate]
+# Data Ethics Club meeting [19-04-23, 1pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -24,21 +24,19 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [Social Biases in NLP Models as Barriers for Persons with Disabilities][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DATE at 1pm UK time][timedate]. 
+You're welcome to join us for our next Data Ethics Club meeting on [19th April at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+This time we're going to watch/read [Social Biases in NLP Models as Barriers for Persons with Disabilities][content].
 
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
 
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
+- What are the consequences of "innocuous sentences discussing disability being supressed" in online moderation contexts?
+- What are the consequences of these findings given the growing use of LLMs?
 
 ---
 
@@ -56,5 +54,5 @@ Shall we email the author? If so, who'll send the email?
 -->
 
 [timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[content]: https://arxiv.org/pdf/2005.00813.pdf 
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  

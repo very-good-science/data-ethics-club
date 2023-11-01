@@ -1,4 +1,4 @@
-# Data Ethics Club meeting [DD-MM-YY, 1pm UK time][timedate]
+# Data Ethics Club meeting [29-03-23, 1pm UK time][timedate]
 
 <!-- 
 TODO:
@@ -24,15 +24,16 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [The Tech We Won't Build][content]
 
 ### Description
-You're welcome to join us for our next Data Ethics Club meeting on [DATE at 1pm UK time][timedate]. 
+You're welcome to join us for our next Data Ethics Club meeting on [29th March at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+This time we're going to watch/read [The Tech We Won't Build][content], which is part of the Mozilla Foundation's 2022 Internet Health Report. 
+It's available in audio or written form at the link. 
 
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
 
+<!--
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
@@ -55,6 +56,6 @@ Shall we email the author? If so, who'll send the email?
 
 -->
 
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club+-+the+tech+we+won%27t+build&iso=20230329T13&p1=299&ah=1
+[content]: https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
