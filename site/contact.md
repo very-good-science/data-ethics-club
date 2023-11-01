@@ -19,7 +19,7 @@ The Data Ethics Club organising team is currently made up of:
   - PhD Student,<br>Intelligent Systems Laboratory,<br>University of Bristol
 * - {fa}`github,style=fab`: [@ninadicara](https://github.com/ninadicara)
   - {fa}`github,style=fab`: [@NatalieZelenka](https://github.com/nataliezelenka)
-  - {fa}`github,style=fab`: [@hdiscoday](https://github.com/hdiscoday)
+  - {fa}`github,style=fab`: [@HuwWDay](https://github.com/HuwWDay)
   - {fa}`github,style=fab`: [@jess-mw](https://github.com/jess-mw)
 * - {fa}`twitter,style=fab`: [@ninadicara](https://twitter.com/ninadicara)
   - {fa}`twitter,style=fab`: [@NatZelenka](https://twitter.com/natzelenka)
