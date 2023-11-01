@@ -88,8 +88,6 @@ These require some Python packages to run.
 You may want to set up a [virtual environment](https://docs.python.org/3/library/venv.html) first, so that you don't install these packages system-wide.
 Then you can install the packages using `pip install -r requirements.txt`
 
-
----
 [repo]: https://github.com/very-good-science/data-ethics-club/
 [issues]: https://github.com/very-good-science/data-ethics-club/issues
 [new-issue]: https://github.com/very-good-science/data-ethics-club/issues/new?assignees=NatalieZelenka
