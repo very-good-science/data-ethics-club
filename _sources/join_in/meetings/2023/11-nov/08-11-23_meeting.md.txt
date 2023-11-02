@@ -46,18 +46,18 @@ This definition should include those who knowingly work in data generation (e.g.
 
 The six dimensions below were developed through discussion between the authors. 
 
-1. Legibility
-Data labor can be illegible or legible, depending on whether data laborers know their labor is being captured. 
-That is, how obvious is it that someone is creating data that is going to be used?
-If you are working for Amazon Turk doing labelling and being paid, it is _legible_. 
+#### 1. Legibility  
+Data labor can be illegible or legible, depending on whether data laborers know their labor is being captured.   
+That is, how obvious is it that someone is creating data that is going to be used?  
+If you are working for Amazon Turk doing labelling and being paid, it is _legible_.   
 However, it might be _illegible_ if you are labelling images for reCAPTCHA to access a website, or generating user logs by interacting with a website. 
 The authors argue that illegible data labor is harder to organise against and understand, and so disempowers those who are producing data.
 
 Researchers might create tools that communicate the value of data, like the Facebook Data Valuation Tool, that calculates in real-time the worth of users' attention. 
 For legible data labor, those doing the labor may choose to organise against unwanted practices by striking. 
 
-2. End-Use Awareness 
-Do data laborers understand how their labor is being used?
+#### 2. End-Use Awareness   
+Do data laborers understand how their labor is being used?  
 For example, providing ratings for a recommender system is obvious, but people writing wikipedia articles might not realise their work is contributing to training LLMs.
 
 We should aim to increase end-use awareness because "end-use awareness is likely to lead to more power to data labor. If one understands the downstream capital generation
@@ -67,34 +67,34 @@ data strikes or data poisoning) that protests unwanted uses of data.
 
 They also suggest regulatory measures, like users being able to say that their data should not be used for surveillance. 
 
-3. Collaboration Requirement
-Some data is produced in collaboration, such as Wikipedia articles. Some, like filling out a reCAPTCHA, is done individually. 
+#### 3. Collaboration Requirement  
+Some data is produced in collaboration, such as Wikipedia articles. Some, like filling out a reCAPTCHA, is done individually.   
 Working in collaboration has the benefit that it is easier to organise, but also means that engaging in activism may make people fearful of losing their
 communities. 
 
-4. Openness
-How accessible is the downstream data to the public?
-Editing open source information like Open Street Map is very accessible, your personal browser history is not. 
+#### 4. Openness  
+How accessible is the downstream data to the public?  
+Editing open source information like Open Street Map is very accessible, your personal browser history is not.   
 
 Open data is great for sharing knowledge, but many private companies benefit from this free open source data.
-For example, Wikipedia being used to train LLMS. 
+For example, Wikipedia being used to train LLMS.   
 The authors suggest the mapping of how open source datasets get used in private technologies may help us map the downstream impacts of data labor. 
 On the other hand, new ideas for data governance systems that are more collaborative (e.g. participatory data stewardship) can support keeping data private 
 unless for good or approved causes. 
 
-5. Replaceability
-Is this data labor replacable?
+#### 5. Replaceability  
+Is this data labor replacable?  
 Labelling images is likely to be, but adding specific data about your neighborhood to Open Street Map is much more difficult to replace. 
 
 This links to supply and demand - people with rare data to contribute have more power in the system because what they have is desireable and unusual. 
 However, for very replaceable data it would be hard to have much power against big organisations without a huge general data strike. 
 
-6. Livelihood Overlap
-Is the data labor part of the creators' organisational responsibilities?
+#### 6. Livelihood Overlap  
+Is the data labor part of the creators' organisational responsibilities?  
 For example, journalists writing news articles published online and used for model training have a high overlap. 
 
 There is a need to allow people to exert power over data created as part of their livelihoods, like artists giving consent for their images to be used in
-model training. 
+model training.   
 It's also important to keep an eye out for how new developments in tech might become jobs - like image labelling is now a type of paid labor. 
 
 
