@@ -22,9 +22,9 @@ Usual time 13:00-14:00
 
 ### Quick links
 
-[Zoom link](https://bristol-ac-uk.zoom.us/j/94475153265)
+[Zoom link][zoom]
 
-Link to content: [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf?fbclid=IwAR17HKoYE8dgy0nB4K6RZlrd3XRGJZr62G_McYd7sZg6HXDhHjxhtgBbSk4)
+Link to content: [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital][content]
 
 [Link to Data Ethics Checklist](https://drive.google.com/file/d/1eU6mxF8yLOsZ5u8CFhfZIQY8qTm3Vogy/view?usp=sharing)
 
@@ -33,7 +33,7 @@ Link to content: [The case for information fiduciaries: The implementation of a 
 You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 22nd November at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
 
-At Data Ethics Club this week, we’ll be discussing a Perspective paper, “The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital”, published in the Journal of the American Medical Informatics Association in November 2020.
+At Data Ethics Club this week, we’ll be discussing a Perspective paper, [“The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital”][content], published in the Journal of the American Medical Informatics Association in November 2020.
 The paper outlines the importance of ethical data practices in healthcare, and highlights the need for a checklist to evaluate ethical concerns for projects and studies.
 The evaluation checklist consists of eight questions, divided into the four following categories:
 - Potential Privacy Issues
@@ -67,11 +67,11 @@ Number of people:
 ### What did we think?
 Notes here!
 Shall we email the author? If so, who'll send the email?
-
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+-->
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20231122T13&p1=299&ah=1
+[content]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf?fbclid=IwAR17HKoYE8dgy0nB4K6RZlrd3XRGJZr62G_McYd7sZg6HXDhHjxhtgBbSk4  
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
 
--->
+
 
 
