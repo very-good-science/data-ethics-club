@@ -30,8 +30,7 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [08.11.2023](meetings/2023/11-nov/08-11-23_meeting), 1pm | [The Dimensions of Data Labor](https://dl.acm.org/doi/pdf/10.1145/3593013.3594070 ) | 
-| [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | To be decided | 
+| [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | [Implementation of an ethics checklist at Seattle Children's Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf) | 
 | [06.12.2023](meetings/2023/12-dec/06-12-23_meeting), 1pm | To be decided | 
 
 ## Past Meetings
@@ -39,6 +38,7 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [08.11.2023](meetings/2023/11-nov/08-11-23_meeting), 1pm | [The Dimensions of Data Labor](https://dl.acm.org/doi/pdf/10.1145/3593013.3594070 ) | Coming soon |
 | [25.10.2023](meetings/2023/10-oct/25-10-23_meeting), 1pm | [How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online](https://journals.sagepub.com/doi/full/10.1177/1329878X19828365) | Coming soon |
 | [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | [Privacy and Loyalty Card Data](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)  | [Read the write up](../write_ups/2023/11-10-23_writeup) |
 | [27.09.2023, 1pm](meetings/2023/09-sep/27-09-23_meeting) | [Cancelled in support of UCU strikes](https://www.ucu.org.uk/article/13171/Start-of-university-term-to-be-hit-with-five-days-of-UK-wide-strikes) | N/A |
