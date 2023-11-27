@@ -1,9 +1,9 @@
 # Data Ethics Club: [Sharing childrens' data online](https://journals.sagepub.com/doi/full/10.1177/1329878X19828365)
 
 ```{admonition} What's this? 
-This is summary of Wednesday 11th October’s discussion, where we spoke and wrote about the article [Is retail the next sector to be hit by a privacy scandal?](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/), discussing data collection in the retail industry.
+This is summary of Wednesday 25th October’s discussion, where we spoke and wrote about the article [How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online](https://journals.sagepub.com/doi/full/10.1177/1329878X19828365), discussing the sharing of information about children online.
 The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
-Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.
+Vanessa Hanschke and Nina Di Cara helped with the final edit.
 ```
 
 
