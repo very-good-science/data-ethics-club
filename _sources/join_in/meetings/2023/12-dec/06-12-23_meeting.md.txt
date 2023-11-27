@@ -24,17 +24,14 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [Anatomy of an AI-Powered Malicious Social Botnet][content]
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 6th December at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
 
-This page will be updated with the piece we are going to discuss and our discussion questions nearer the meeting date.
-
-<!--This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
-
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+This time we're going to watch/read [Anatomy of an AI-Powered Malicious Social Botnet][content] by Yang and Menczer, which is a case study about a network of bots deployed on Twitter that used ChatGPT to generate realistic-looking content. It is a pre-print available on ArXiv, posted in July 2023. 
+<!--
 
 ### Discussion points
 
@@ -60,5 +57,5 @@ Shall we email the author? If so, who'll send the email?
 -->
 
 [timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20231206T13&p1=299&ah=1
-[content]: CONTENT-LINK  
+[content]: https://arxiv.org/pdf/2307.16336.pdf  
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
