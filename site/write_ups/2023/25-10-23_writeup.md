@@ -64,3 +64,5 @@ Currently, the minimum age to hold an account on social media is about 13. Howev
 - Natalie Zelenka, Senior Research Fellow in Health Data science, @NatalieZelenka GitHub, 
 - Lucy Bowles, Data Scientist at Brandwatch 
 - Jessica Woodgate, PhD student at University of Bristol
+- Nina Di Cara, Research Associate at University of Bristol  
+and others! 
