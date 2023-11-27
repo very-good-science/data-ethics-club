@@ -30,14 +30,15 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | [Implementation of an ethics checklist at Seattle Children's Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf) | 
-| [06.12.2023](meetings/2023/12-dec/06-12-23_meeting), 1pm | To be decided | 
+
+| [06.12.2023](meetings/2023/12-dec/06-12-23_meeting), 1pm | [Anatomy of an AI-Powered Malicious Social Botnet][https://arxiv.org/pdf/2307.16336.pdf] | 
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | [Implementation of an ethics checklist at Seattle Children's Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf) | Coming soon |
 | [08.11.2023](meetings/2023/11-nov/08-11-23_meeting), 1pm | [The Dimensions of Data Labor](https://dl.acm.org/doi/pdf/10.1145/3593013.3594070 ) | Coming soon |
 | [25.10.2023](meetings/2023/10-oct/25-10-23_meeting), 1pm | [How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online](https://journals.sagepub.com/doi/full/10.1177/1329878X19828365) | Coming soon |
 | [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | [Privacy and Loyalty Card Data](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)  | [Read the write up](../write_ups/2023/11-10-23_writeup) |
