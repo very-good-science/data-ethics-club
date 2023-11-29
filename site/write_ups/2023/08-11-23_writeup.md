@@ -1,5 +1,5 @@
 # Data Ethics Club: [Dimensions of Data Labor](https://dl.acm.org/doi/pdf/10.1145/3593013.3594070)
-<!--
+
 
 ```{admonition} What's this? 
 This is summary of Wednesday 8th November's Data Ethics Club discussion, where we spoke and wrote about the paper  [The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers](https://dl.acm.org/doi/pdf/10.1145/3593013.3594070) by Hanlin Li, Nicholas Vincent, Stevie Chancellor, and Brent Hecht.
@@ -7,7 +7,7 @@ The summary was written by Jessica Woodgate, who tried to synthesise everyone's 
 Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
 
--->
+
 
 ## What examples of data labour do you perform and what are the most relevant dimensions? How does this compare with any data labour that is used in your work?
 
