@@ -1,7 +1,7 @@
 # Data Ethics Club: [Anatomy of an AI-Powered Malicious Social Botnet](https://arxiv.org/pdf/2307.16336.pdf)
 
 ```{admonition} What's this? 
-This is summary of Wednesday 6th December's Data Ethics Club discussion, where we spoke and wrote about the paper "Anatomy of an AI-powered malicious social botnet" by Kai-Cheng Yang and Filippo Menczer.
+This is summary of Wednesday 6th December's Data Ethics Club discussion, where we spoke and wrote about the paper [Anatomy of an AI-Powered Malicious Social Botnet](https://arxiv.org/pdf/2307.16336.pdf) by Kai-Cheng Yang and Filippo Menczer.
 The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Amy Joint, Vanessa Hanschke, Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
