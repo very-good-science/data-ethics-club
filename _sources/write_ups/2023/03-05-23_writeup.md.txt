@@ -1,6 +1,5 @@
 # Data Ethics Club: [Queer In AI: A Case Study in Community-Led Participatory AI](https://arxiv.org/pdf/2303.16972.pdf)
 
-<!--
 
 ```{admonition} What's this? 
 This is summary of Wednesday 05th May’s Data Ethics Club discussion, where we spoke and wrote about the article [Queer in AI: A Case Study in Community-Led Participatory AI](https://arxiv.org/pdf/2303.16972.pdf) by the organisers of Queer in AI.
@@ -8,7 +7,6 @@ The summary was written by Jessica Woodgate, who tried to synthesise everyone's 
 Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
 
--->
 
 ## Do you have any examples/experiences of data collection or use that may have contributed to the marginalisation of queer people. If you were involved, could you have done something differently, and what were the barriers to this?
 
