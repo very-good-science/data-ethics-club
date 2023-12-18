@@ -3,7 +3,7 @@
 
 ```{admonition} What's this?  
 
-This is summary of Wednesday 22nd November's Data Ethics Club discussion, where we spoke and wrote about the article "The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital" by Elizabeth Montague, T. Eugene Day, Dwight Barry, Maria Brumm, Aaron McAdie, Andrew B. Cooper, Julia Wignall, Steve Erdman, Diahnna Nunez, Douglas Diekema and David Danks. 
+This is summary of Wednesday 22nd November's Data Ethics Club discussion, where we spoke and wrote about the article [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital](https://academic.oup.com/jamia/article/28/3/650/6065836) by Elizabeth Montague, T. Eugene Day, Dwight Barry, Maria Brumm, Aaron McAdie, Andrew B. Cooper, Julia Wignall, Steve Erdman, Diahnna Nunez, Douglas Diekema and David Danks. 
 The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club".  
 Vanessa Hanschke, Huw Day, and Nina Di Cara helped with the final edit. 
 
