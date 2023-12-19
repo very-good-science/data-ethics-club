@@ -32,10 +32,10 @@ Please read it before attending.
 |--------------------------------------------------------|---------------------|
 | [17.01.2024](meetings/2024/01-jan/17-01-24_meeting), 1pm  | New Years Data Ethics Resolutions |
 | [31.01.2024](meetings/2024/01-jan/31-01-24_meeting), 1pm  | To be decided|
-| [14.02.2024](meetings/2024/01-jan/14-02-24_meeting), 1pm  | To be decided|
-| [28.02.2024](meetings/2024/01-jan/28-02-24_meeting), 1pm  | To be decided|
-| [13.03.2024](meetings/2024/01-jan/13-03-24_meeting), 1pm  | To be decided|
-| [27.03.2024](meetings/2024/01-jan/27-03-24_meeting), 1pm  | To be decided|
+| [14.02.2024](meetings/2024/02-feb/14-02-24_meeting), 1pm  | To be decided|
+| [28.02.2024](meetings/2024/02-feb/28-02-24_meeting), 1pm  | To be decided|
+| [13.03.2024](meetings/2024/03-mar/13-03-24_meeting), 1pm  | To be decided|
+| [27.03.2024](meetings/2024/03-mar/27-03-24_meeting), 1pm  | To be decided|
 
 ## Past Meetings
 
