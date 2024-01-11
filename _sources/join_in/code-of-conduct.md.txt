@@ -36,7 +36,8 @@ The below Do-s and Don’t-s are guidelines to remind us all of best standards o
 - Feign shock/incredulity when someone doesn’t know something you think is obvious. 
 
 ## Reporting Procedure
-If you have been subject to or witnessed unacceptable behaviour, either during a meeting or on this repository, then you can get in touch with either Natalie or Nina.  
-Natalie: natalie.thurlby@bristol.ac.uk  
+If you have been subject to or witnessed unacceptable behaviour, either during a meeting or on this repository, then you can get in touch with Huw, Natalie or Nina.  
+Huw: huw.day@bristol.ac.uk
+Natalie: natalie.zelenka@bristol.ac.uk  
 Nina: nina.dicara@bristol.ac.uk  
-If you would prefer to contact someone who is not directly involved in organising the group, then you can direct your concerns to John Newby ([JGI Manager](http://www.bristol.ac.uk/golding/people/team/)), at [John.Newby@bristol.ac.uk](mailto:John.Newby@bristol.ac.uk)
+If you would prefer to contact someone who is not directly involved in organising the group, then you can direct your concerns to the [manager of the Jean Golding Institute](mailto:jgi-manager@bristol.ac.uk).
