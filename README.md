@@ -1,6 +1,6 @@
 # Data Ethics Club
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-39-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-40-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 <p align="center">
   <img height=250 src="site/images/logo.png">
@@ -83,6 +83,7 @@ Thanks goes to these wonderful people in developing this repository, joining Dat
       <td align="center" valign="top" width="14.28%"><a href="https://www.bristol.ac.uk/people/person/Vivienne-Kuh-3265cd07-2fb1-45ab-81fb-16dd4c1953d4/"><img src="?s=100" width="100px;" alt="Vivienne Kuh"/><br /><sub><b>Vivienne Kuh</b></sub></a><br /><a href="#content" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://sites.google.com/site/neelsoumya/"><img src="https://avatars.githubusercontent.com/u/2981775?v=4?s=100" width="100px;" alt="Soumya Banerjee"/><br /><sub><b>Soumya Banerjee</b></sub></a><br /><a href="#content-neelsoumya" title="Content">🖋</a></td>
       <td align="center" valign="top" width="14.28%"><a href="http://www.linkedin.com/in/jessica-woodgate"><img src="https://avatars.githubusercontent.com/u/45073537?v=4?s=100" width="100px;" alt="Jessica Woodgate"/><br /><sub><b>Jessica Woodgate</b></sub></a><br /><a href="#ideas-jess-mw" title="Ideas, Planning, & Feedback">🤔</a> <a href="#content-jess-mw" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/amyrejoint"><img src="https://avatars.githubusercontent.com/u/149589992?v=4?s=100" width="100px;" alt="amyrejoint"/><br /><sub><b>amyrejoint</b></sub></a><br /><a href="#content-amyrejoint" title="Content">🖋</a></td>
     </tr>
   </tbody>
 </table>
