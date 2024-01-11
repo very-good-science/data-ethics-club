@@ -23,6 +23,7 @@ organising.md
 accessibility-plan.md
 meeting-structure.md
 meeting-todo-list.md
+howto-readinglist.md
 howto-allcontributorsbot.md
 howto-sync-hackmd.md
 howto-add-writeups.md
