@@ -30,22 +30,28 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [25.10.2023](meetings/2023/10-oct/25-10-23_meeting), 1pm | [How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online](https://journals.sagepub.com/doi/full/10.1177/1329878X19828365) | 
-| [08.11.2023](meetings/2023/11-nov/08-11-23_meeting), 1pm | To be decided | 
-| [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | To be decided | 
-| [06.12.2023](meetings/2023/12-dec/06-12-23_meeting), 1pm | To be decided | 
+| [17.01.2024](meetings/2024/01-jan/17-01-24_meeting), 1pm  | New Years Data Ethics Resolutions |
+| [31.01.2024](meetings/2024/01-jan/31-01-24_meeting), 1pm  | To be decided|
+| [14.02.2024](meetings/2024/02-feb/14-02-24_meeting), 1pm  | To be decided|
+| [28.02.2024](meetings/2024/02-feb/28-02-24_meeting), 1pm  | To be decided|
+| [13.03.2024](meetings/2024/03-mar/13-03-24_meeting), 1pm  | To be decided|
+| [27.03.2024](meetings/2024/03-mar/27-03-24_meeting), 1pm  | To be decided|
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | [Privacy and Loyalty Card Data](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)  | Coming soon |
+| [06.12.2023](meetings/2023/12-dec/06-12-23_meeting), 1pm | [Anatomy of an AI-Powered Malicious Social Botnet][https://arxiv.org/pdf/2307.16336.pdf] | [Read the write up](../write_ups/2023/06-12-23_writeup) |
+| [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | [Implementation of an ethics checklist at Seattle Children's Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf) | [Read the write up](../write_ups/2023/22-11-23_writeup) |
+| [08.11.2023](meetings/2023/11-nov/08-11-23_meeting), 1pm | [The Dimensions of Data Labor](https://dl.acm.org/doi/pdf/10.1145/3593013.3594070 ) | [Read the write up](../write_ups/2023/08-11-23_writeup) |
+| [25.10.2023](meetings/2023/10-oct/25-10-23_meeting), 1pm | [How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online](https://journals.sagepub.com/doi/full/10.1177/1329878X19828365) | [Read the write up](../write_ups/2023/25-10-23_writeup) |
+| [11.10.2023](meetings/2023/10-oct/11-10-23_meeting), 1pm | [Privacy and Loyalty Card Data](https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/)  | [Read the write up](../write_ups/2023/11-10-23_writeup) |
 | [27.09.2023, 1pm](meetings/2023/09-sep/27-09-23_meeting) | [Cancelled in support of UCU strikes](https://www.ucu.org.uk/article/13171/Start-of-university-term-to-be-hit-with-five-days-of-UK-wide-strikes) | N/A |
-| [31.05.2023, 1pm](meetings/2023/05-may/31-05-23_meeting) | [Classifying 'toxic' content online](https://twitter.com/OwenJones84/status/1590295662759153665) | Coming soon |
-| 05.06.2023, 2pm | [JGI Data Week Special! Find out more here.](https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-clubonline-tickets-621726700297) | Coming soon |
-| [17.05.2023, 1pm](meetings/2023/05-may/17-05-23_meeting.md) | [Designing Accountable Systems](https://arxiv.org/pdf/2101.08102.pdf) |  Coming soon |
-| [03.05.2023, 1pm](meetings/2023/05-may/03-05-23_meeting.md)| [Queer in AI: A Case Study in Community-Led Participatory AI](https://arxiv.org/pdf/2303.16972.pdf)  | Coming soon |
+| [31.05.2023, 1pm](meetings/2023/05-may/31-05-23_meeting) | [Classifying 'toxic' content online](https://twitter.com/OwenJones84/status/1590295662759153665) | [Read the write up](../write_ups/2023/31-05-23_writeup) |
+| 05.06.2023, 2pm | [JGI Data Week Special! Find out more here.](https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-clubonline-tickets-621726700297) | [Read the write up](../write_ups/2023/05-06-23_writeup) |
+| [17.05.2023, 1pm](meetings/2023/05-may/17-05-23_meeting.md) | [Designing Accountable Systems](https://arxiv.org/pdf/2101.08102.pdf) |  [Read the write up](../write_ups/2023/17-05-23_writeup) |
+| [03.05.2023, 1pm](meetings/2023/05-may/03-05-23_meeting.md)| [Queer in AI: A Case Study in Community-Led Participatory AI](https://arxiv.org/pdf/2303.16972.pdf)  | [Read the write up](../write_ups/2023/03-05-23_writeup) |
 | [19.04.2023, 1pm](meetings/2023/04-apr/19-04-23_meeting.md) | [Social Biases in NLP Models as Barriers for Persons with Disabilities](https://arxiv.org/pdf/2005.00813.pdf) | [Read the write up](../write_ups/2023/19-04-23_writeup) |
 | 29.03.2023, 1pm | [The Tech We Won't Build](https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/) | [Read the write up](../write_ups/2023/29-03-23_writeup) |
 | 08.03.2023, 3pm | [Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes](https://dl.acm.org/doi/abs/10.1145/3531146.3533779), plus a related short talk from [David Widder](https://davidwidder.me/) | [Read the write up](../write_ups/2023/08-03-23_writeup) |

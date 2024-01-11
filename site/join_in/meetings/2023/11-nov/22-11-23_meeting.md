@@ -24,28 +24,39 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital][content]
+
+[Link to Data Ethics Checklist](https://drive.google.com/file/d/1eU6mxF8yLOsZ5u8CFhfZIQY8qTm3Vogy/view?usp=sharing)
 
 ### Description
+
 You're welcome to join us for our next Data Ethics Club meeting on [Wednesday 22nd November at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
 
-This page will be updated with the piece we are going to discuss and our discussion questions nearer the meeting date.
+At Data Ethics Club this week, we’ll be discussing a Perspective paper, [“The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital”][content], published in the Journal of the American Medical Informatics Association in November 2020.
+The paper outlines the importance of ethical data practices in healthcare, and highlights the need for a checklist to evaluate ethical concerns for projects and studies.
+The evaluation checklist consists of eight questions, divided into the four following categories:
+- Potential Privacy Issues
+- Potential Bias and Equity Issues
+- Potential Transparency and Measurement Issues
+- Potential overall issues
 
-<!--This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
-
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+The authors also put together a set of recommended Best Practices for data ethics management:
+- All data personnel undergo specialized ethical training devoted to understanding the risks and potential harms inherent in data product development.
+- All new product development is accompanied by standardized ethical review, such as the data ethics checklist demonstrated here.
+- Legacy data products be evaluated for ethical implications upon review, upgrade, or revision.
+- Specific, project-relevant ethical guidance is provided when rating development of new data products, and encourages personnel to consider their own implicit biases and the potential for algorithmic bias (ie, the potential for disparate outcomes).
+- Hospitals empanel Data Ethics Committees that function as information fiduciaries and provide support for ethical questions. These committees can escalate issues to IRBs, Bioethics teams, or other formal ethical oversight systems.
 
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
--->
+1. Do the paper and the checklist effectively address the ethical considerations data users should consider when collecting and processing health data?
+2. Do you think the Best Practices described in the paper would be effective for managing data ethics in healthcare?
+3. Can paediatric healthcare data effectively be used to inform data ethics across all branches of healthcare?
+4. Should data scientists and analysts involved in healthcare be considered “Information Fiduciaries”?
 
----
-
+Paper outline and discussion points by Amy Joint.
 <!--
 
 ## Meeting notes
@@ -56,9 +67,11 @@ Number of people:
 ### What did we think?
 Notes here!
 Shall we email the author? If so, who'll send the email?
-
 -->
-
-[timedate]: TIMEDATE-LINK
-[content]: CONTENT-LINK  
+[timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20231122T13&p1=299&ah=1
+[content]: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf?fbclid=IwAR17HKoYE8dgy0nB4K6RZlrd3XRGJZr62G_McYd7sZg6HXDhHjxhtgBbSk4  
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
+
+
+
+

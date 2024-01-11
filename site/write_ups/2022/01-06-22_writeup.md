@@ -7,6 +7,8 @@ The summary was written by Huw Day, who tried to synthesise everyone's contribut
 Nina Di Cara and Natalie Thurlby helped with the final edit.
 ```
 
+## Introduction
+
 ```{image} ../../images/ButIfYouDid.png
 :width: 200px
 :align: center
