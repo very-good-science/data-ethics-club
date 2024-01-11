@@ -2,7 +2,7 @@
 
 In this folder you will find information about how we organise and facilitate Data Ethics Club, including a folder of the templates we've made for organising and communication. We hope it's useful for anyone thinking of joing the group as an organiser, or for those thinking of re-using this repository to run their own Data Ethics Club or other discussion group!
 
-The repository is licensed with a [CC-BY 3.0 license](https://creativecommons.org/licenses/by/3.0/legalcode), which means we welcome other re-using and re-mixing what they find here, but please attribute this repository - a link will do!  
+The repository is licensed with a [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/), which means we welcome other re-using and re-mixing what they find here, but please attribute this repository - a link will do!  
 
 ## Reusable Templates
 
