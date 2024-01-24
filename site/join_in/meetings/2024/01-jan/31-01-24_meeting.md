@@ -36,9 +36,17 @@ Thank you to Huw for suggesting this week's content, and Amy for writing our dis
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- DISCUSSION-POINT-ONE
-- DISCUSSION-POINT-TWO
-- DISCUSSION-POINT-THREE
+Questions:
+ 
+1) Should companies be upheld to legal and ethical requirements to notify their employees that they are looking into AI-driven solutions to replace their roles? How would this work in practice?
+
+2) Are there any circumstances where it could be considered ethical to lay off a small proportion of employees within a company for the benefit of the wider organisation? 
+
+3) Legislation and guidance around AI regulation such as the UK’s National AI strategy focuses on the creation of new jobs to integrate AI, rather than the protection of existing ones - what more should be done at this level and at a corporate level to support this?
+
+4) What other job roles are at risk of content creation professionals being replaced by reliance on AI chatbots? Should companies have to be transparent publicly about their use of AI?
+
+Bonus question - for anyone who uses Duolingo, have you noticed any difference in the quality of the phrases and lessons in the last six months or so? Are there other apps, products and services you’ve noticed dip in quality due to AI?
 
 ---
 
