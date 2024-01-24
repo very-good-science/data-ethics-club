@@ -30,8 +30,7 @@ Please read it before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [17.01.2024](meetings/2024/01-jan/17-01-24_meeting), 1pm  | New Years Data Ethics Resolutions |
-| [31.01.2024](meetings/2024/01-jan/31-01-24_meeting), 1pm  | To be decided|
+| [31.01.2024](meetings/2024/01-jan/31-01-24_meeting), 1pm  | [Duolingo cuts workers as it relies more on AI](https://www.washingtonpost.com/technology/2024/01/10/duolingo-ai-layoffs/)|
 | [14.02.2024](meetings/2024/02-feb/14-02-24_meeting), 1pm  | To be decided|
 | [28.02.2024](meetings/2024/02-feb/28-02-24_meeting), 1pm  | To be decided|
 | [13.03.2024](meetings/2024/03-mar/13-03-24_meeting), 1pm  | To be decided|
@@ -42,6 +41,7 @@ Please read it before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [17.01.2024](meetings/2024/01-jan/17-01-24_meeting), 1pm  | New Years Data Ethics Resolutions |  | 
 | [06.12.2023](meetings/2023/12-dec/06-12-23_meeting), 1pm | [Anatomy of an AI-Powered Malicious Social Botnet][https://arxiv.org/pdf/2307.16336.pdf] | [Read the write up](../write_ups/2023/06-12-23_writeup) |
 | [22.11.2023](meetings/2023/11-nov/22-11-23_meeting), 1pm | [Implementation of an ethics checklist at Seattle Children's Hospital](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf) | [Read the write up](../write_ups/2023/22-11-23_writeup) |
 | [08.11.2023](meetings/2023/11-nov/08-11-23_meeting), 1pm | [The Dimensions of Data Labor](https://dl.acm.org/doi/pdf/10.1145/3593013.3594070 ) | [Read the write up](../write_ups/2023/08-11-23_writeup) |

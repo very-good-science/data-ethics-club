@@ -24,14 +24,14 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [Duolingo Turns to AI][content]
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [31st January 2024 at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+This time we're going to read a Washington Post Article called [Duolingo cuts workers as it relies more on AI][content] by Gerrit De Vynck, which is about how AI is being used at popular language learning site Duolingo... 
 
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+Thank you to Huw for suggesting this week's content, and Amy for writing our discussion questions!
 
 ### Discussion points
 
@@ -56,5 +56,5 @@ Shall we email the author? If so, who'll send the email?
 -->
 
 [timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20240131T13&p1=299&ah=1
-[content]: CONTENT-LINK  
+[content]: https://www.washingtonpost.com/technology/2024/01/10/duolingo-ai-layoffs/  
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
