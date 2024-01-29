@@ -2,11 +2,10 @@
 
 
 ```{admonition} What's this? 
-This is a summary of Wednesday 17th January's Data Ethics Club discussion. For our first meeting of the year we usually think about what our resolutions are going to be for the year ahead, and how we could try to achieve them. Those of us that came last year can check back to see if we managed to achieve [the resolutions we made then] (https://dataethicsclub.com/write_ups/2023/25-01-23_writeup.html)!
+This is a summary of Wednesday 17th January's Data Ethics Club discussion. For our first meeting of the year we usually think about what our resolutions are going to be for the year ahead, and how we could try to achieve them. Those of us that came last year can check back to see if we managed to achieve [the resolutions we made then](https://dataethicsclub.com/write_ups/2023/25-01-23_writeup.html)!
 The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Amy Joint, Huw Day, Natalie Thurlby, Nina Di Cara and Vanessa Hanschke helped with the final edit.
 ```
-
 
 ## Did you have any Data Ethics resolutions last year?
 
