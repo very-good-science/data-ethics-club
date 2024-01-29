@@ -6,7 +6,7 @@
 Check out write ups of some of our past meet-ups here. 
 If you'd like to write up a session, please [email us](mailto:grp-ethicaldatascience@groups.bristol.ac.uk), we'd love that.
 
-We also discuss the meetings [on Twitter at #DataEthicsClub](https://twitter.com/hashtag/DataEthicsClub).
+We also discuss the meetings [on Twitter/X at @DataEthicsClub](https://twitter.com/DataEthicsClub).
 
 ```{toctree}
 :maxdepth: 1
