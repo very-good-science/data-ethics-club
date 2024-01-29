@@ -28,5 +28,5 @@ The Data Ethics Club organising team is currently made up of:
 * - {fa}`envelope,style=far`: [nina.dicara@bristol.ac.uk](mailto:ninadicara@bristol.ac.uk)
   - {fa}`envelope,style=far`: [n.zelenka@ucl.ac.uk](mailto:n.zelenka@ucl.ac.uk)
   - {fa}`envelope,style=far`: [huw.day@bristol.ac.uk](mailto:huw.day@bristol.ac.uk)
-  - {fa}`envelope,style=far`: [yp19484@bristol.ac.uk](mailto:yp19484@bristol.ac.uk)
+  - {fa}`envelope,style=far`: [jessica.woodgate@bristol.ac.uk](mailto:jessica.woodgate@bristol.ac.uk)
   
