@@ -15,7 +15,6 @@ TODO:
 
 Repeat meeting link is currently: https://bristol-ac-uk.zoom.us/j/94475153265
 
-
 Usual time 13:00-14:00
 -->
 ## Meeting info
@@ -24,15 +23,16 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Link to content: [CONTENT-NAME][content]
+Link to content: [Italian SA clamps down on ‘Replika’ chatbot][content]
 
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [14th Feb 2024 at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [NAME OF CONTENT][content] by AUTHOR(S), which is a VERY-SHORT-DESCRIPTION. 
+This time we're going to read [Italian SA clamps down on ‘Replika’ chatbot][content] by the Italian Garante Per La Protezione Dei Dati Personali.  
 
-Thank you to PERSON-WHO-SUGGESTED for suggesting this week's content, and to SESSION-LEADER, who'll be leading this week's meeting.
+Thank you to Maddie Williams for suggesting this week's content.
 
+<!--
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
@@ -42,7 +42,7 @@ There will be time to talk about whatever we like, relating to the paper, but he
 
 ---
 
-<!--
+
 
 ## Meeting notes
 
@@ -56,5 +56,5 @@ Shall we email the author? If so, who'll send the email?
 -->
 
 [timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20240214T13&p1=299&ah=1
-[content]: CONTENT-LINK  
+[content]: https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9852506#english  
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
