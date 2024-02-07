@@ -1,12 +1,90 @@
-# Data Ethics Club
 
+
+
+
+::::{grid} 
+<!-- :margin: 4 auto auto auto  Can't get this to work to increase distance between header and grid-->
+
+:::{grid-item}
+:columns: 4
 ```{image} images/logo.png
+:width: 270px
+:alt: The Data Ethics Club logo - a teal hex-sticker lablled "Data Ethics Club" showing binary in darker teal with some numbers coloured pink-red to show a heart. The binary reads 01100101 01110100 01101000 01101001 01100011 01110011 which converts to "ethics".
+```
+:::
+
+:::{grid-item}
+:columns: 8
+
+# Welcome to Data Ethics Club
+
+_Data Ethics Club_ is a "journal" club about doing data science ethically. 
+"Journal" because we will also read blog posts, (parts of) books, listen to podcasts or watch videos. 
+
+Our meetings are open to all and we are lucky to have attendees from around the world and with diverse expertise from data protection lawyers, to healthcare data scientists, to ethics PhD students, to Research Software Engineers. 
+Everyone is welcome to come and discuss data science and ethics with us - we look forward to learning from you.
+
+```{button-link} join_in/meetings/next-meeting
+    :color: primary
+    :expand:
+    Click here for the details of our next meeting
+```
+:::
+
+::::
+
+
+
+
+### Get Started
+
+As well as coming to a meeting, here are some ways you can get involved...
+If you have any questions, or want to know more, [then get in touch with our organisers](about/contact).
+
+::::{grid} 3
+
+:::{grid-item-card} Get meeting reminders
+:link: join_in/meetings/next-meeting
+:link-type: ref
+:text-align: center
+
+{material-regular}`mail;4em;sd-text-primary`
+
+Be notified by email one week before and on the day of a meeting.
+We send out the material and discussion questions in advance, and occasionally relevant events.
+:::
+
+:::{grid-item-card}  Check out our Reading List
+:link: reading-list
+:link-type: ref
+:text-align: center
+
+{material-regular}`bookmarks;4em;sd-text-primary`
+
+Our Reading List has been created from recommendations and suggestions, and is openly licensed for re-use. 
+We'd love it if you had something to add. 
+:::
+
+:::{grid-item-card}  Read what we've been up to
+:link: write-ups/write-ups
+:link-type: ref
+:text-align: center
+
+{material-regular}`edit_note;4em;sd-text-primary`
+
+Check out write-ups of our meetings to get a flavour of what we talk about. 
+You can also read posts written by members of the community on issues they care about.
+:::
+
+::::
+
+<!-- ```{image} images/logo.png
 :width: 200px
 :align: center
 :alt: The Data Ethics Club logo - a teal hex-sticker lablled "Data Ethics Club" showing binary in darker teal with some numbers coloured pink-red to show a heart. The binary reads 01100101 01110100 01101000 01101001 01100011 01110011 which converts to "ethics".
-```
+``` -->
 
-```{admonition} Welcome to Data Ethics Club
+<!-- ```{admonition} Welcome to Data Ethics Club
 :class: tip
 __Data Ethics Club__ is a "journal" club about doing data science ethically. 
 "Journal" because we will also read blog posts, (parts of) books, or watch videos. 
@@ -17,7 +95,7 @@ Everyone is welcome to come and discuss Data Science and Ethics with us and we l
 We send out regular reminders of our meetings to ✨[our mailing list](mailing-list)✨, so joining it is the best way to regularly hear about [our upcoming meetings](join_in/join_in).
 
 For details of our next meeting, [click here](join_in/meetings/next-meeting)
-```
+``` -->
 
 ### Our Community
 
