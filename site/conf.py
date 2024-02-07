@@ -31,8 +31,8 @@ release = "v0.1.0"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "myst_nb",
-    "sphinx_panels",
+    "myst_parser", 
+    "sphinx_design"
 ]
 
 myst_enable_extensions = [
