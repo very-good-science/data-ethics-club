@@ -1,4 +1,4 @@
-# Write-ups
+# 🖊️ Write-ups
 
 [//]: # (TODO: Link to appropriately in meetings.md)
 [//]: # (TODO: Fix what's this banner in already written writeups and in the template writeup)

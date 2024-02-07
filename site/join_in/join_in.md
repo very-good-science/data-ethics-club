@@ -1,4 +1,4 @@
-# Join In
+# 🤗 Join In
 
 ```{button-link} https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1
     :color: secondary
