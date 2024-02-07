@@ -1,5 +1,12 @@
 # Join In
 
+```{button-link} https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1
+    :color: secondary
+    :align: center
+    :outline:
+    Join our mailing list to get meeting reminders
+```
+
 Everyone is welcome to get involved in _Data Ethics Club_, as much or as little as you'd like to! We would love to [hear your point of view at our discussion groups](#upcoming-meetings), to have your support in [organising or running a meeting](organising), or to add your [contributions](contributing) to our reading list.  
 
 You don't need to be a data ethicist (we're not!), or a data scientist - having a variety of different people is how we learn from each other. It's a friendly and welcoming group and we often have new people drop by, so why not try it?  
@@ -7,12 +14,6 @@ You don't need to be a data ethicist (we're not!), or a data scientist - having 
 We meet every other week for one hour on Zoom (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
 Out upcoming meeting dates are available below. 
 If you would like to get email reminders about the content and dates for the next meeting then click below to join our mailing list! 
-
-```{button-link} https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1
-    :color: secondary
-    :outline:
-    Join our mailing list to get meeting reminders
-```
 
 Please read our [Code of Conduct](code-of-conduct) before attending.
 
