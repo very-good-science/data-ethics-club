@@ -1,4 +1,4 @@
-pydata-sphinx-theme # https://pypi.org/project/pydata-sphinx-theme/
-sphinx # https://pypi.org/project/Sphinx/
-sphinx-design  # https://pypi.org/project/sphinx_design/
-myst-parser  # https://pypi.org/project/myst-parser/ 
+pydata-sphinx-theme >= 0.15.2 # https://pypi.org/project/pydata-sphinx-theme/
+sphinx >= 7.2.6 # https://pypi.org/project/Sphinx/
+sphinx-design >= 0.5 # https://pypi.org/project/sphinx_design/
+myst-parser >= 2.0.0  # https://pypi.org/project/myst-parser/ 
