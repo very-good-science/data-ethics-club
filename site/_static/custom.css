@@ -3,7 +3,21 @@
       color: #55acee;
     }
 
-
 .fa-envelope:before {
       color: #e83ebc;
     }
+
+/* Here we're adding the custom DEC colours to be used for highlights etc 
+
+html[data-theme="light"] {
+      --pst-color-primary: #28c39c;
+      --pst-color-secondary: #d63384;
+      --pst-colour-info: #8159D3;
+
+  }
+  
+html[data-theme="dark"] {
+      --pst-color-primary: #91e6c8;
+      --pst-color-secondary: #ff276b;
+      --pst-colour-info: #8159D3;
+  }*/
