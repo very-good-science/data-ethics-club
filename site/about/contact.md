@@ -9,7 +9,7 @@ The Data Ethics Club organising team is currently made up of:
 ```{list-table}
 :header-rows: 1
 
-* - __Nina DiCara__
+* - __Nina Di Cara__
   - __Natalie Zelenka__<br> (Natalie Thurlby)
   - __Huw Day__
   - __Jessica Woodgate__

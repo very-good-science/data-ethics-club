@@ -1,7 +1,5 @@
 # How we organise
 
-[//]: # (TODO: Add link to DEC paper when written)
-
 We try to do all our organising and administration out in the open, so that:
 1. We're forced to be organised, which means everything is easy for us to find, and it's easy to show people our plans.
 2. Anyone with an interest can understand how we make decisions, so that people can feedback on our processes to help us improve and refine them.

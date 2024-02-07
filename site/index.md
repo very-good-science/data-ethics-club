@@ -100,6 +100,5 @@ join_in/join_in
 reading-list
 write_ups/write-ups
 how_to/reuse_dec
-contact
-mailing-list
+about/about
 ```
