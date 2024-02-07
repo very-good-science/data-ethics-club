@@ -36,7 +36,7 @@ Thank you to Maddie Williams for suggesting this week's content. As this article
 
 ### Summary 
 
-Replika is an AI powered chatbot, initially advertised as a virtual friend experience but expanded in scope for paying subscribers )up to $69.99 a year) to simulate a romance/sexual relationship. Users form a variety of different sorts of replications with their Replikas or “Reps”. 
+Replika is an AI powered chatbot, initially advertised as a virtual friend experience but expanded in scope for paying subscribers (up to $69.99 a year) to simulate a romantic/sexual relationship. Users form a variety of different sorts of replications with their Replikas or “Reps”. 
 
 Many seek the experience of a friend, partner or even therapist, feeling safer to open up in conversation with their Reps who are always available, always positive and always supportive. These sorts of relationships have benefited people’s mental health, stopped self-harming and intervened during episodes of suicide ideation. 
 
