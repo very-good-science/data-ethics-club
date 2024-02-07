@@ -1,4 +1,4 @@
-pydata-sphinx-theme
-myst_nb
-sphinx
-sphinx-panels
+pydata-sphinx-theme # https://pypi.org/project/pydata-sphinx-theme/
+sphinx # https://pypi.org/project/Sphinx/
+sphinx-design  # https://pypi.org/project/sphinx_design/
+myst-parser  # https://pypi.org/project/myst-parser/ 
