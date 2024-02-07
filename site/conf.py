@@ -33,6 +33,7 @@ author = "Data Ethics Club"
 extensions = [
     "myst_parser", 
     "sphinx_design",
+    "ablog",
 ]
 
 myst_enable_extensions = [
@@ -47,6 +48,13 @@ templates_path = ["_templates"]
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
+# -- ABlog Options -------------------------------------------------
+
+# Where should the root page of the blog be?
+blog_path = "write_ups/write-ups"
+
+# How many paragraphs of the post to show in a preview
+post_auto_excerpt = 0
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -96,11 +104,22 @@ html_context = {
 }    
 
 
-# Removes the left-hand Section Navigation from the following pages
+
 html_sidebars = {
+    # Removes the left-hand Section Navigation from the following pages
     "index": [],
     "reading-list": [],
     "mailing-list": [],
+    # Add blog sidebars
+    # ref: https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html#sidebars
+    "write_ups/*": [
+        'ablog/postcard.html',
+        'ablog/recentposts.html',
+        "ablog/categories.html",
+        "ablog/tagcloud.html",
+        "ablog/authors.html",
+        "ablog/archives.html",
+        ]
 }
 
 html_favicon = "_static/favicon.png"
