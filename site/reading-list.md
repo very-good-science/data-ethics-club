@@ -1,4 +1,4 @@
-# Reading list
+# Reading List
 
 The reading list contains all the suggestions for what to read or watch, contributed by members of the Data Ethics Club community. 
 We choose from this list what to vote on to discuss for future meetings. 
