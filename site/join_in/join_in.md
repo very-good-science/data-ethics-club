@@ -1,4 +1,4 @@
-# Join in
+# Join In
 
 ```{button-link} ../mailing-list
     :color: primary
