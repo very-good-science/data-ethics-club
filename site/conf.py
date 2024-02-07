@@ -76,6 +76,11 @@ html_theme_options = {
             "name": "Mailing List",
             "url": "https://pypi.org/project/pydata-sphinx-theme",
             "icon": "fa-regular fa-envelope",
+        },
+        {
+            "name": "DEC Paper",
+            "url": "https://doi.org/10.1016/j.patter.2022.100537",
+            "icon": "fa-brands fa-readme",
         }
     ],
     "logo": {
@@ -90,12 +95,11 @@ html_context = {
     "doc_path": "/site/",
 }    
 
+
+# Removes the left-hand Section Navigation from the following pages
 html_sidebars = {
     "index": [],
     "reading-list": [],
-    "contact": [],
-    "get-involved": [],
-    "administration": [],
     "mailing-list": [],
 }
 
