@@ -4,3 +4,4 @@ site/_build
 venv/
 misc/
 .vscode/
+dec-venv/
