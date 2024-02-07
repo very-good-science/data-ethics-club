@@ -6,11 +6,11 @@ We'd also love it if this reading list was useful for other people in starting t
 
 At the moment we are using Airtable to manage our content. You can use the filtering options to see the types of suggestions you are interested in. 
 
-
-```{admonition} Make a suggestion for the list! 
-:class: tip
- 
-[Please use our suggestion form to add new suggestions to the list! We will review them and then add them to this page.](reading-list-suggestions) 
+```{button-link} reading-list-suggestions
+    :color: secondary
+    :align: center
+    :extend:
+    Click here to suggest new content for the Reading List
 ```
 
 
