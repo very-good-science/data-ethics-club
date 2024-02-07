@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = "Data Ethics Club"
-copyright = "2021, Natalie Zelenka and Nina Di Cara"
-author = "Natalie Zelenka and Nina Di Cara"
+copyright = "2024, Data Ethics Club Community"
+author = "Data Ethics Club"
 
 # The full version, including alpha/beta/rc tags
-release = "v0.1.0"
+# release = " "
 
 
 # -- General configuration ---------------------------------------------------
@@ -32,7 +32,7 @@ release = "v0.1.0"
 # ones.
 extensions = [
     "myst_parser", 
-    "sphinx_design"
+    "sphinx_design",
 ]
 
 myst_enable_extensions = [
@@ -57,12 +57,30 @@ html_theme = "pydata_sphinx_theme"
 html_baseurl = "dataethicsclub.com"
 
 html_theme_options = {
-    "github_url": "https://github.com/very-good-science/data-ethics-club",
-    "twitter_url": "https://twitter.com/hashtag/DataEthicsClub",
     "search_bar_text": "Search this site...",
     "show_prev_next": True,
     "footer_items": ["license-footer", "sphinx-version"],
     "use_edit_page_button": True,
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/very-good-science/data-ethics-club",
+            "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/hashtag/DataEthicsClub",
+            "icon": "fa-brands fa-twitter",
+        },
+        {
+            "name": "Mailing List",
+            "url": "https://pypi.org/project/pydata-sphinx-theme",
+            "icon": "fa-regular fa-envelope",
+        }
+    ],
+    "logo": {
+        "text": "Data Ethics Club",
+    },
 }
 
 html_context = {
@@ -82,6 +100,7 @@ html_sidebars = {
 }
 
 html_favicon = "_static/favicon.png"
+html_logo = "_static/logo.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
