@@ -17,7 +17,7 @@ Some people work in the government, in companies, or in academia. We have people
 
 You don’t need to be a data ethicist (we’re not!), or a data scientist - having a variety of different people is how we learn from each other. It’s a friendly and welcoming group and we often have new people drop by, so why not try it?
 
-If you’re looking for information on how to set up your own Data Ethics Club then you should [head to our section about re-using our materials](../how-to/reuse_dec).
+If you’re looking for information on how to set up your own Data Ethics Club then you should [head to our section about re-using our materials](../how_to/reuse_dec).
 
 In 2022, with our community, we also wrote a paper about Data Ethics Club which was published in _Patterns_ and why we think it's great. [Have a read here!](https://doi.org/10.1016/j.patter.2022.100537). 
 
