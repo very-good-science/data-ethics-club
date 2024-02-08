@@ -30,7 +30,7 @@ If you have further suggestions for choosing accessible reading, we'd love to he
 ## How can I contribute?
 
 We accept contributions in a variety of ways. You could:  
-* [Get in touch with us over email or Twitter](../contact)  
+* [Get in touch with us over email or Twitter](../about/contact)  
 * [Make a Pull Request](https://github.com/very-good-science/data-ethics-club/pulls) to [our repository][repo] - instructions {ref}`below<pr-instructions>`.
 * Open an issue
   - To suggest some discussion material use [this issue template](https://github.com/very-good-science/data-ethics-club/issues/new?assignees=NatalieZelenka&labels=reading+suggestion&template=reading-suggestion.md&title=%5BSUGGESTION%28S%29%5D+You+suggestion%28s%29+here).  
@@ -54,7 +54,7 @@ If you have further suggestions for writing accessible content, we'd love to hea
 While there is a smaller group of people who send the emails and welcome people to the event, Data Ethics Club wouldn't be what it is without any one of its contributors.
 Whether they have made suggestions to our reading list, Pull Requests to our GitHub repository, or firey hot takes in our discussions: thank you to each and every one of them!
  
-We try to record all of these contributions [on our GitHub repository](https://github.com/very-good-science/data-ethics-club#contributors-). When you suggest something to us please let us know your GitHub username or a link to your personal site so that we can credit you, if you'd like us to.
+We try to record all of these contributions, and you can see our contributors on the website home page. When you suggest something to us please let us know your GitHub username or a link to your personal site so that we can credit you, if you'd like us to.
 If you have not been properly credited, please let us know [via email](mailto:grp-ethicaldatascience@groups.bristol.ac.uk), or by commenting on [this GitHub issue](https://github.com/very-good-science/data-ethics-club/issues/38) and tagging one our GitHub usernames (e.g. `@NatalieZelenka`).
 
 <!--

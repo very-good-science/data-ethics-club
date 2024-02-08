@@ -1,23 +1,65 @@
-# Data Ethics Club
+---
+myst:
+  html_meta:
+    "description lang=en": |
+      Top-level documentation for pydata-sphinx theme, with links to the rest
+      of the site..
+html_theme.sidebar_secondary.remove: true
+---
+
+<!-- Remove the RHS side bar that has within page TOC -->
+# Welcome to Data Ethics Club
+
+<p style="text-align: center;">
 
 ```{image} images/logo.png
 :width: 200px
-:align: center
 :alt: The Data Ethics Club logo - a teal hex-sticker lablled "Data Ethics Club" showing binary in darker teal with some numbers coloured pink-red to show a heart. The binary reads 01100101 01110100 01101000 01101001 01100011 01110011 which converts to "ethics".
 ```
 
-```{admonition} Welcome to Data Ethics Club
-:class: tip
-__Data Ethics Club__ is a "journal" club about doing data science ethically. 
-"Journal" because we will also read blog posts, (parts of) books, or watch videos. 
+_Data Ethics Club_ is a "journal" club about doing data science ethically. 
+"Journal" because we will also read blog posts, (parts of) books, listen to podcasts or watch videos. 
 
-The club is open to all and we are lucky to have attendees from around the world and with diverse expertise, from practising lawyers, to data analysts in the UK National Health Service, to social scientists, to Research Software Engineers in the USA. 
-Everyone is welcome to come and discuss Data Science and Ethics with us and we look forward to learning from your perspective.
 
-We send out regular reminders of our meetings to ✨[our mailing list](mailing-list)✨, so joining it is the best way to regularly hear about [our upcoming meetings](join_in/join_in).
-
-For details of our next meeting, [click here](join_in/meetings/next-meeting)
+```{button-link} join_in/meetings/next-meeting.html
+    :color: primary
+    :align: center
+    Click here for the details of our next meeting
 ```
+```{button-link} https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1
+    :color: primary
+    :align: center
+    :outline:
+    Join the mailing list to get future meeting reminders
+```
+
+Our meetings are open to all and we are lucky to have attendees from around the world and with diverse expertise from data protection lawyers, to healthcare data scientists, to ethics PhD students, to people who are just interested in data. 
+We also love when people [contribute in other ways too](join_in/contributing), whether that's suggesting content for [our reading list](reading-list) or [writing a blog for the website](write_ups/write-ups)!
+You might even want to [re-use our materials](how_to/reuse_dec) to start your own group.
+</p>
+
+<!-- 
+::::{grid} 3
+:::{grid-item-card}  Get meeting reminders
+:link: <https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1>
+:text-align: center
+{material-outlined}`bookmarks;4em;sd-text-secondary`
+:::
+:::{grid-item-card}  Check out our Reading List
+:link: .reading-list.html
+:link-type: ref
+:text-align: center
+{material-outlined}`bookmarks;4em;sd-text-secondary`
+:::
+:::{grid-item-card}  Read what we've been up to
+:link: .write-ups/write-ups.html
+:link-type: ref
+:text-align: center
+{material-outlined}`edit_note;4em;sd-text-secondary`
+:::
+:::: -->
+
+If you have any questions, or want to know more, [then get in touch with our organisers](about/contact).
 
 ### Our Community
 
@@ -100,6 +142,5 @@ join_in/join_in
 reading-list
 write_ups/write-ups
 how_to/reuse_dec
-contact
-mailing-list
+about/about
 ```

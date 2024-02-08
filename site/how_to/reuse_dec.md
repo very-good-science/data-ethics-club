@@ -1,4 +1,4 @@
-# Reuse our materials
+# ♺ Reuse
 
 In this folder you will find information about how we organise and facilitate Data Ethics Club, including a folder of the templates we've made for organising and communication. We hope it's useful for anyone thinking of joing the group as an organiser, or for those thinking of re-using this repository to run their own Data Ethics Club or other discussion group!
 

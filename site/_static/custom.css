@@ -1,9 +1,22 @@
-
-.fa-twitter:before {
+/* To edit the icons on the contacts page */ 
+.fa-twitter {
       color: #55acee;
     }
 
-
-.fa-envelope:before {
+.fa-envelope {
       color: #e83ebc;
     }
+
+/* Here we're adding the custom DEC colours to be used for highlights etc 
+#28c39c is the DEC logo teal - but it doesn't look good as primary colour. Too vibrant?
+*/
+
+html[data-theme="light"] {
+      --pst-color-secondary: #C3284F;
+  }
+  
+html[data-theme="dark"] {
+      --pst-color-primary: #91e6c8;
+      --pst-color-secondary: #ff276b;
+      --pst-colour-info: #8159D3;
+  }*/

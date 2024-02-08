@@ -18,11 +18,11 @@
 # -- Project information -----------------------------------------------------
 
 project = "Data Ethics Club"
-copyright = "2021, Natalie Zelenka and Nina Di Cara"
-author = "Natalie Zelenka and Nina Di Cara"
+copyright = "2024, Data Ethics Club Community"
+author = "Data Ethics Club"
 
 # The full version, including alpha/beta/rc tags
-release = "v0.1.0"
+# release = " "
 
 
 # -- General configuration ---------------------------------------------------
@@ -31,8 +31,9 @@ release = "v0.1.0"
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    "myst_nb",
-    "sphinx_panels",
+    "myst_parser", 
+    "sphinx_design",
+    "ablog",
 ]
 
 myst_enable_extensions = [
@@ -47,6 +48,13 @@ templates_path = ["_templates"]
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
+# -- ABlog Options -------------------------------------------------
+
+# Where should the root page of the blog be?
+blog_path = "write_ups/write-ups"
+
+# How many paragraphs of the post to show in a preview
+post_auto_excerpt = 0
 
 # -- Options for HTML output -------------------------------------------------
 
@@ -57,12 +65,35 @@ html_theme = "pydata_sphinx_theme"
 html_baseurl = "dataethicsclub.com"
 
 html_theme_options = {
-    "github_url": "https://github.com/very-good-science/data-ethics-club",
-    "twitter_url": "https://twitter.com/hashtag/DataEthicsClub",
     "search_bar_text": "Search this site...",
     "show_prev_next": True,
     "footer_items": ["license-footer", "sphinx-version"],
     "use_edit_page_button": True,
+    "icon_links": [
+        {
+            "name": "GitHub",
+            "url": "https://github.com/very-good-science/data-ethics-club",
+            "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/hashtag/DataEthicsClub",
+            "icon": "fa-brands fa-twitter",
+        },
+        {
+            "name": "Mailing List",
+            "url": "https://pypi.org/project/pydata-sphinx-theme",
+            "icon": "fa-regular fa-envelope",
+        },
+        {
+            "name": "DEC Paper",
+            "url": "https://doi.org/10.1016/j.patter.2022.100537",
+            "icon": "fa-brands fa-readme",
+        }
+    ],
+    "logo": {
+        "text": "Data Ethics Club",
+    },
 }
 
 html_context = {
@@ -72,16 +103,27 @@ html_context = {
     "doc_path": "/site/",
 }    
 
+
+
 html_sidebars = {
+    # Removes the left-hand Section Navigation from the following pages
     "index": [],
     "reading-list": [],
-    "contact": [],
-    "get-involved": [],
-    "administration": [],
     "mailing-list": [],
+    # Add blog sidebars
+    # ref: https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html#sidebars
+    "write_ups/*": [
+        'ablog/postcard.html',
+        'ablog/recentposts.html',
+        "ablog/categories.html",
+        "ablog/tagcloud.html",
+        "ablog/authors.html",
+        "ablog/archives.html",
+        ]
 }
 
 html_favicon = "_static/favicon.png"
+html_logo = "_static/logo.png"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
