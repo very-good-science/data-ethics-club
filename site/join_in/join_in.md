@@ -96,5 +96,4 @@ You can see a record of what we have discussed previously here.
 :hidden:
 code-of-conduct.md
 contributing.md
-organising.md
 ```

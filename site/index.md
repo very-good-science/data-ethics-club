@@ -22,13 +22,11 @@ _Data Ethics Club_ is a "journal" club about doing data science ethically.
 
 
 ```{button-link} join_in/meetings/next-meeting.html
-    :link-type: ref
     :color: primary
     :align: center
     Click here for the details of our next meeting
 ```
 ```{button-link} https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1
-    :link-type: url
     :color: primary
     :align: center
     :outline:
