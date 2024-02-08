@@ -33,13 +33,13 @@ The Data Ethics Club organising team is currently made up of:
   - __Vanessa Hanschke__
   - __Amy Joint__
 * - PhD Student,<br>Intelligent Systems Laboratory,<br>University of Bristol
-  - PhD Student,<br>Interactive AI CDT,<br>University of Bristol
+  - PhD Student,<br>University of Bristol
   - Programme Manager,<br>Springer Nature
 * - {fab}`github`: [@jess-mw](https://github.com/jess-mw)
   - {fab}`github`: [@vairylein](https://github.com/vairylein)
   - {fab}`github`: [@amyrejoint](https://github.com/amyrejoint)
 * - {far}`address-card`: [UoB Profile](https://research-information.bris.ac.uk/en/persons/jessica-woodgate)
-  - {fab}`twitter`: [@vairylein](https://twitter.com/vairylein)
+  - {far}`address-card`: [Website](https://www.vanessahanschke.com/)
   - {fab}`twitter`: [@AmyJointSci](https://twitter.com/AmyJointSci)
 * - {far}`envelope`: [jessica.woodgate@bristol.ac.uk](mailto:jessica.woodgate@bristol.ac.uk)
   - 
