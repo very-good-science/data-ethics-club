@@ -1,0 +1,1261 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>A Question of Trust &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2021-12-15_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2021-12-15_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  15 December 2021
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/huw-day.html">Huw Day</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tag"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/trust.html">trust</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-01-17_writeup.html">
+      17 January - Data Ethics Club’s New Year’s Resolutions 2024
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-12-06_writeup.html">
+      06 December - Anatomy of an AI-Powered Malicious Social Botnet
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-22_writeup.html">
+      22 November - Data Ethics Checklist at Seattle Children’s Hospital
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-08_writeup.html">
+      08 November - Dimensions of Data Labor
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-10-25_writeup.html">
+      25 October - Sharing childrens’ data online
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (5)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (47)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (12)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">A Question of Trust</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="a-question-of-trust">
+<h1><a class="reference external" href="https://www.bbc.co.uk/programmes/p00ghvd8">A Question of Trust</a><a class="headerlink" href="#a-question-of-trust" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 15th December’s Data Ethics Club discussion, where we spoke and wrote about the lecture <a class="reference external" href="https://www.bbc.co.uk/programmes/p00ghvd8">A Question of Trust</a> by Onora O’Neill.</p>
+<p>The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara and Natalie Thurlby helped with a final edit.</p>
+</div>
+<p><em>A Question of Trust</em> was the final of Professor O’Neill’s Reith Lectures in 2002, aired on BBC Radio 4.
+The lecture asked (and attempted to answer) questions about what trust means, and how we develop and sustain it.
+Professor O’Neill has a particular focus on the role of the press and media, and how much we can trust them to give us information but at Data Ethics Club, we focussed on
+similar questions about public trust in data science as a profession.</p>
+<section id="do-you-think-that-the-public-trust-data-science-as-a-profession-what-makes-a-data-scientist-trustworthy">
+<h2>Do you think that the public trust data science as a profession? What makes a data scientist trustworthy?<a class="headerlink" href="#do-you-think-that-the-public-trust-data-science-as-a-profession-what-makes-a-data-scientist-trustworthy" title="Link to this heading">#</a></h2>
+<p>It is important to note immediately that this lecture was aired in 2002, a time where social media was much less prominent and public trust in science was typically much
+higher. Whilst we may not have done enough to keep this trust, misinformation has also had a big impact. At times throughout history, science has developed from something not
+very trustworthy and has perhaps had already peaked.
+For instance, the <a class="reference external" href="https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study">Tuskegee Syphilis Study</a>, and the subsequent [Belmont Report]
+(https://en.wikipedia.org/wiki/Belmont_Report).</p>
+<p>Some people have the viewpoint that anyone who does not trust scientists/doctors/etc. is a conspiracy theorist or simply not worth talking to. This can be extremely
+polarising. It is also problematic to assume that everyone from a particular group or progression has the same views.</p>
+<p>We were unable to come to a consensus as to whether this phenomenom is getting better or worse. Intellectual superiority in universities reinforces this mindset, creating a
+bubble of knowledge where you become ignorant of other people’s (or indeed your own) ignorance. It is important that we can admit that we are wrong but the culture in
+academia is not very conducive when it comes to encouraging this. There is very public evidence of people being humiliated by colleagues for making relatively minor mistakes.
+Issues of irreproducibility in scientific results can also undermine trust.</p>
+<p>The current Covid-19 pandemic has bought scientific advice to the forefront of how we live our lives. Perhaps as a result of this, the public trust statisticians less, same
+as the weatherman who makes predictions that frequently turn out to be inaccurate. There is a difference between what people describe as a data scientist versus a data
+analyst.</p>
+<p>Profession is a big word and maybe it is not yet fair to claim that there is a “data science” profession. “Any claim I make I need to back it up” is a key for scientific
+disciplines, but not always possible. Assessability is not always available as some data is hidden.</p>
+<p>We need to improve public statistical literacy and understanding how quantitative circles back to qualitative. In the future we need to make sure we don’t gatekeep based on
+education. Value judgements are important, feelings versus fact and what is empirical. Science is not neutral, scientific questions and discoveries are not neutral. Any human
+endeavour has confirmation bias present.</p>
+</section>
+<section id="what-are-your-thoughts-on-the-use-of-statistics-in-the-media-and-how-this-contributes-to-trust-mistrust-in-scientific-evidence-by-the-public">
+<h2>What are your thoughts on the use of statistics in the media, and how this contributes to trust/mistrust in scientific evidence by the public?<a class="headerlink" href="#what-are-your-thoughts-on-the-use-of-statistics-in-the-media-and-how-this-contributes-to-trust-mistrust-in-scientific-evidence-by-the-public" title="Link to this heading">#</a></h2>
+<p>People are not always trained to interpret graphs or statistics. Even when we are trained it can be difficult. Language can be very opaque - researchers don’t always put in
+the effort to communicate complex things to the public, which perhaps links with academics assuming the public are stupid?</p>
+<p>Social media can be used for good. Scientists are using it to ask the public questions and build trust by being available to discuss feedback. On the other hand social media
+is an echo chamber of people engaging with the content that they are interested in, and agree with, and so perhaps these messages aren’t always reaching as far as we would
+like.</p>
+<p>We need to remember that science is not designed to be ingested paper by paper. It’s supposed to be a field where messages are shared based on collective evidence. Preprints
+getting into the news before being peer reviewed set people’s expectations high, and do not represent fields as a cumulative picture, of which a single paper is just a very
+small rock on a hill.</p>
+<p>Building trust with the public is especially important because it’s easier when we already trust someone’s opinion to believe what they say subsequently.</p>
+<p>Typically we have observed that the media are not good at dealing with different perspectives. It nowadays seems to favour a single certainty rather than the uncertainty.</p>
+<p>Media outlets are constantly struggling with reporting the nuanced viewpoints of scientists in a way that is accessible to a non-scientific audience. They often do this by
+making large claims with large amounts of certainty in order to optimise number of reads/clicks. This makes it harder to deliver on precautionary results.</p>
+<p>Statistics is telling a story with numbers, using quantitative methods to describe qualitative processes. There is always a debate about should the public be more education
+in maths, or is the onus on the storyteller. If academics are getting it wrong, how feasible is it for the general public?</p>
+<p>Often when interpreting scientific results, you have to go through a much more intelligent statistical analysis. It is not clear everyone has the patience to do that. For
+example, because exponential growth is unintuitive, it’s harder to get your head around.</p>
+</section>
+<section id="how-can-we-improve-the-assessability-of-data-and-statistics-that-are-reported-in-the-media">
+<h2>How can we improve the ‘assessability’ of data and statistics that are reported in the media?<a class="headerlink" href="#how-can-we-improve-the-assessability-of-data-and-statistics-that-are-reported-in-the-media" title="Link to this heading">#</a></h2>
+<p>The key thing that came across from the lecture was that the distinction between accessibility and assessability was super important. The barrier to trust in the data science
+space is the assessability. The data used is often opaque, if not invisible. There is quite a high burden of trust to get over.</p>
+<p>Historically, scientists had trouble communicating uncertainty in science. Science is a process, doing our best given the knowledge availible at the time.</p>
+<p>We have seen with discussions on pandemic lockdowns, there is a divergence of viewpoints from different academic fields. The clash of ideas from economicists, behaivoural
+scientists, public health officials etc. has left many of us wondering who to listen to.</p>
+<p>This most recent pandemic is being treated as an optimisation problem with a single “true” answer. People often fail to acknowledge that multiple experts can be correct about
+multiple different viewpoints. This idea is expanded upon in some of Andy Stirling’s <a class="reference external" href="https://www.nature.com/articles/4681029a">work</a>.</p>
+</section>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h2>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h2>
+<p>Not all of us enjoyed this piece. Many of us found ourselves asking: What was the point of this lecture? In this setting some felt that the speaker just repeated a bunch of
+ideas, which was not very illuminating. The lecture felt quite rambly, but at least used clear language. Points were very anecdotal and made in a random sort of way.</p>
+<p>It was very interesting to distinguish between freedom of individual versus coorperations with a bit of an old school appeal to ideas of individual liberties. This often
+happens with public outreach where experts are dissapointed with the content compared to the a specific talk.</p>
+<p>We were pointed to these lectures after one of our members recommended this paper <a class="reference external" href="https://philarchive.org/archive/NGUTISv2">Transparency is Surveillance by C. Thi Nguyen</a>
+which was somewhat inspired by O’Neil’s lecture. As the paper is 62 pages long, we decided to go for the more accessible, less time consuming piece. Perhaps then, our
+dissapointment in the lack of detail of the lectures is perhaps a case of us being unable to have our cake and eat it.</p>
+<p>Published in 2002, this talk avoids talking about social media, yet remains strangely relevant today. We have talked a lot in the past about how unregulated social media is,
+often overlooking the discussion about regulating newspapers.</p>
+<p>Many default (perhaps naively) to assuming that newspapers are a thing of the past. Whilst it is true that the younger generations now typically consume our media online,
+this fails to consider a smaller but still significant proportion of the population who still get most of, if not all of their news from newspapers.</p>
+<p>There are similar incentive structures in both media publications and academic journals, encouraging publishing quickly rather than with care. At the end of the day, if your
+idea was published on the front page - the retractions should be too!</p>
+<p>In a blog post on <a class="reference external" href="https://osr.statisticsauthority.gov.uk/why-i-like-the-code/">Accessability and assessibility</a>, Sir David Spiegelhalter praises the talk and makes a point
+far better than I could:</p>
+<p>“O’Neill makes the fundamental point that when organisations say they want to be trusted, they are missing the whole point. Trust is something that is offered to us, we have
+to earn it, and we earn it by demonstrating trustworthiness.”</p>
+<p>Perhaps this means we need a shift in societal ideas about what outlets to trust and that we the public need to hold those giving us information to a higher standard,
+approaching first with skepticism instead of assuming trustworthiness before it is demonstrated to us.</p>
+</section>
+<hr class="docutils" />
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<p><strong>Name, Role, Affiliation, Where to find you</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
+<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
+<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Paul Lee, investor, &#64;pclee27, senseoffairness.blog</p></li>
+<li><p>Sergio Araujo-Estrada, Research Associate, Aerospace Engineering, University of Bristol</p></li>
+<li><p>Zoë Turner, Data Scientist, Nottinghamshire Healthcare NHS Foundation Trust, <a class="reference external" href="https://github.com/Lextuga007">Lextuga007</a></p></li>
+<li><p>Darcy Murphy, Computer Science MSc Student, University of Manchester, <a class="reference external" href="https://github.com/darcyamurphy">darcyamurphy</a>, <a class="reference external" href="https://twitter.com/darcyamurphy">&#64;darcyamurphy</a></p></li>
+</ul>
+<p>10 people attended in total</p>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2021-11-17_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Statistics, Eugenics and Me</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+    
+    <a href="2022-01-12_writeup.html">
+      <span>Data Ethics Club’s Resolutions 2022</span>
+      
+      <i class="fa fa-arrow-circle-right" ></i>
+      
+    </a>
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#do-you-think-that-the-public-trust-data-science-as-a-profession-what-makes-a-data-scientist-trustworthy">Do you think that the public trust data science as a profession? What makes a data scientist trustworthy?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-your-thoughts-on-the-use-of-statistics-in-the-media-and-how-this-contributes-to-trust-mistrust-in-scientific-evidence-by-the-public">What are your thoughts on the use of statistics in the media, and how this contributes to trust/mistrust in scientific evidence by the public?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-can-we-improve-the-assessability-of-data-and-statistics-that-are-reported-in-the-media">How can we improve the ‘assessability’ of data and statistics that are reported in the media?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2021-12-15_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2021-12-15_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

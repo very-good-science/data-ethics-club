@@ -1,0 +1,1240 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The Rise of Private Spies &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2021-07-28_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2021-07-28_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  24 July 2021
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/huw-day.html">Huw Day</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/crime.html">crime</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/open-source.html">open source</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/privacy.html">privacy</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-01-17_writeup.html">
+      17 January - Data Ethics Club’s New Year’s Resolutions 2024
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-12-06_writeup.html">
+      06 December - Anatomy of an AI-Powered Malicious Social Botnet
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-22_writeup.html">
+      22 November - Data Ethics Checklist at Seattle Children’s Hospital
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-08_writeup.html">
+      08 November - Dimensions of Data Labor
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-10-25_writeup.html">
+      25 October - Sharing childrens’ data online
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (5)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (47)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (12)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">The Rise of...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="the-rise-of-private-spies">
+<h1><a class="reference external" href="https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators">The Rise of Private Spies</a><a class="headerlink" href="#the-rise-of-private-spies" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 28th July’s Data Ethics Club discussion, where we spoke and wrote about the New Republic article <a class="reference external" href="https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators">The Rise of Private Spies</a> by Charlie Savage.
+The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+</div>
+<section id="who-is-bellingcat-they-are-bellingcat">
+<h2>Who is Bellingcat? They are Bellingcat.<a class="headerlink" href="#who-is-bellingcat-they-are-bellingcat" title="Link to this heading">#</a></h2>
+<p>The idea of Bellingcat formed initially from amateur internet sleuths using documenting war crimes in the Middle East from the comfort of their own home. From there, it gradually evolved as these sleuths developed expertise in open source data analysis techniques and began diversifying their staff to build a global network of volunteers and employees.</p>
+<p>The name of the organisation comes from a fable in which a group of housemice are being terrorised by a cat. They can outrun the cat, but can never hear the cat coming. To get around this, they plan to put a bell on the cat. The question is, who will put the Bell on the Cat? The elected mouse is the Bellingcat.</p>
+<p>The analogy extends somewhat dramatically to the real world, with the general population represented by the mice. Those who seek to do harm are the cat (<a class="reference external" href="https://www.bellingcat.com/about/">from Mexican drug lords and those who commit crimes against humanity, to tracking the use of chemical weapons and conflicts worldwide</a>). Bellingcat, along with companies they are in cooperation with (which includes journalistic collaberators, law enforcement/intelligence agencies and human rights groups) are the Bellingcat.</p>
+<p>Over the past seven years, Eliot Higgins (<a class="reference external" href="https://time.com/5943393/bellingcat-eliot-higgins-interview/">Bellingcat’s founder</a>) and his team have used open-source information to uncover war crimes in Syria, unmask neo-Nazis who stormed Charlottesville, Virginia, and name the alleged Russian poisoners of former spy Sergei Skripal and his daughter, Yulia in the U.K. Bellingcat’s work in Syria is being used by the European Center for Constitutional and Human Rights (ECCHR) to build war crime cases and Higgins sits on the technology advisory board to the International Criminal Court to help them understand how to apply open-source investigation to their work.</p>
+<p>With Bellingcat’s fingers in many pies, there’s natural confusion and conflation of commerical/private as well as espionage/citizen journalism. Bellingcat identify their work as priamarily investigative (as Higgins noted in a <a class="reference external" href="https://twitter.com/EliotHiggins/status/1420370845143285762">tweet response</a>). But they have also been self described as “An Intelligence Agency for the People”. As the article of our interest notes, this is a slogan notorious for its association with Wiki Leaks, a whistleblower organisation who has drawn <a class="reference external" href="https://en.wikipedia.org/wiki/WikiLeaks">criticism</a> for inadequately curating its content and violating the personal privacy of individuals.</p>
+<p>Journalists have the power to hold people in power account such as the <a class="reference external" href="https://www.icij.org/investigations/panama-papers/">Panama Papers</a> or more recently ex-health secretaries <a class="reference external" href="https://www.bbc.co.uk/news/uk-57625508">violating social distancing</a>. With the rise of open source investigative journalism, we’re see that data breaches can have positive or negative impacts. These data breaches can be accidental, open data (which user may or may not have intended to make public) or obtained through more so called “black hat” methods; social engineering, hacking - the techniques associated with the modern day spy. It each case, it’s important for us to consider whether use of such data is either legal or ethical.</p>
+<p>Now with the rise of social media, where events are being recorded and published by members of the public, your twitter feed becomes a faster (albeit potentially less reliable) source of the latest news. January 6th, during the US Capitol Building attack, one person was fatally shot when storming the capital and there was realtime social media trying to write narratives, framing those illegally entering the Capitol building as legitimate protestors, illegimate insurgents/rioters or even democrat posers performing a false flag operation.</p>
+<p>The investigative exploits of organisations like Bellingcat make for fascinating reads and potentially stories of hope for the little guy - the brave little mice putting the bells on the cats seeking to do harm to warn the rest of us. The fact that there’s nothing special about an organisation like Bellingcat is both something that inspires hope and fear. Ordinary people can use open source data to conduct their own investigations. This has huge potential both for good and for bad and is currently largely unregulated. It’s one thing when such techniques are being used to track Russian hitsquads who are suspected of poisoning political opposition, but what if those same techniques were used to track you when you’re applying for a loan, by a stalker  to track a victim or applied on mass by a government to keep track of its citizens?</p>
+</section>
+<section id="when-is-it-ethical-to-use-publicly-available-data">
+<h2>When is it ethical to use publicly available data?<a class="headerlink" href="#when-is-it-ethical-to-use-publicly-available-data" title="Link to this heading">#</a></h2>
+<p>It seems somewhat surreal that amount of information we willingly share on social media. Our hobbies, our date of birth, perhaps even where we live. This leaves a tricky question, if we post this all in the public domain, should we have any control over who is allowed to use it?</p>
+<p>Inference from social media has different legal implications and so it might not be possible to come up with generalisable answer that fits all possible circumstances. Would the distinction be between public vs. hacked or leaked data? This also brings up doxxing - to search for and and publish private or identifying information about a particular individual on the internet, typically with malicious intent. Is good/bad intention a key indicator? How reliable is this as a legal framework?</p>
+<p>This brings back to the debate of informed consent of what happens to your social media activity. What’s fair game? And in what circumstances? Does whether something is fair game change depending on the circumstances? Often social media accounts default to public (i.e. very limited) privacy settings. If someone hasn’t resitrcted access then they are “fair game” in a sense but people don’t expressly consent to it because they just don’t know to. How much does an individual have to take responsibility for other people’s snooping?</p>
+<p>Is the ethical issue with giving the tools or misuing the tools? Any restriction will inevtiably affect those with ill intent as well as those with good intent. Indeed what constitutes “ill-intent”. Some in marketing might argue that building ad-profiles so that they can give you more relevant advertisements constitutes good-intent, but that does not mean the rest of us are not somewhat easy that every one of our clicks is compiled into an interpretation of who we are.</p>
+<p>Some things have been created out of malice and have in some ways turnt out for the better and vice versa. We discussed previously how certain statistical techniques were initially used to track deaths - arguably a good thing? Those same techniques were developed centuries later in the use of predictive policing - arguably a bad thing. Who is responsible for making sure data is used correctly? The collectors or the analysts? How do we enforce this?</p>
+<p>There exists a tension between the openness of the internet versus the protection of the information flow. Maybe we should just trust that open organisations like Bellingcat will use this wealth of information for the greater good and potentially accept the fallout of malicious actors using the same data, hoping for a net positive effect? To what extent do we need this fearmongering? Maybe most people will use data in a positive (or at least harmless) way?</p>
+<p>One of the issues is that “facts” and numbers can still be misleading, e.g. it’s true that double-vaccinated people have gotten covid. What this lone statement ommits to mention is that they are <a class="reference external" href="https://www.gov.uk/government/news/react-study-shows-fully-vaccinated-are-three-times-less-likely-to-be-infected">3 times less likely to get it than a vaccinated person</a>.</p>
+<p>Unfortunately some of the people who are really good at data literacy are conspiracy theorists who seek to use the facts in front of them to tell their preferred narrative. It takes far longer for us to verify a story than for us to <a class="reference external" href="https://science.sciencemag.org/CONTENT/359/6380/1146.abstract">retweet</a> it. Bellingcat for their part include extremely detailed evidence chains and seem to be quite open about what is fact and what is simply speculation. Whilst this is commendable, what’s to stop another organisation telling their own stories using open data in a way that fuels their preferred narrative?</p>
+</section>
+<section id="how-reliable-are-the-kinds-of-social-media-data-that-bellingcat-are-using">
+<h2>How reliable are the kinds of social media data that Bellingcat are using?<a class="headerlink" href="#how-reliable-are-the-kinds-of-social-media-data-that-bellingcat-are-using" title="Link to this heading">#</a></h2>
+<p>As we’ve discussed before, labelling how reliable data is important. Being honest about gaps in your data (explicit or otherwise) is a vital part of transparency. A collection of proxy measures combined can form a coherent looking narrative, especially if the gaps in the data and assumptions are ommitted. This all requires a huge amount of effort to both verify by those analysing the data initially as well as readers after the fact. Your average reader won’t verify the claims. How many of the links in this article have you clicked on so far?</p>
+<p>Some might argue that this amount of effort will put off open source analysts in the future, but with big data increasing the volume of information availible and social media making it easier than ever to share with people over the world, we might see more and more people with a bigger reach, leading to a faster spread of information - factual or otherwise.</p>
+<p>This leads to a somewhat awkward discussion of what we mean by reliable? This is particuarly an issue with discussing the intent of others. Much of Bellingcat’s work has documented events that have happening; <a class="reference external" href="https://www.bellingcat.com/news/mena/2021/07/20/a-new-platform-tracks-airstrikes-in-yemen/">here</a> is where airstrikes happened in Yemen, <a class="reference external" href="https://www.bellingcat.com/news/americas/2021/05/10/a-new-platform-maps-colombias-escalating-police-violence/">here</a> is where police violence has escalated in Colombia and <a class="reference external" href="https://www.bellingcat.com/news/2021/04/01/mahbere-dego-clues-to-a-clifftop-massacre-in-ethiopia/">there</a> is where a mass killing occured in Ethiopia. Some evidence is more compelling than others, but if you’re arguing if an attrocity happened or not, as opposed to the intent behind those who committed such an attrocity, there is an objective truth to be found.</p>
+<p>With Bellingcat’s collaberations with law enforcement, we arrived upon the natural question of what legal frameworks do organisations like Bellingcat operate under? Warrants are needed for law enforcement to monitor social media in the UK and then the chain of evidence has to be followed in the court of law. You lose this a bit as you cross borders but the premise remains. No such standards apply to private agencies.</p>
+<p>Sometimes as private individuals we have more freedom to do things and we can avoid these restrictions - for better or for worse. For example, someone tracked schools being closed down due to covid on social media, this was openly availible data that wasn’t being collected by the public sector. This information could be useful in helping inform decisions about future lockdowns and understanding how the virus is spreading.</p>
+<p>Just because the information did not come first hand from a member of law enforcement, does not mean it is unreliable - police rely on witness testimony frequently, as well as relying on experts (for example in forensic analysis). Why should open source analysis be any different? If open source analyists are to fall into the role of expert witnesses, how can we hold them to a high standard? A forensic analyist might have a relevant degree in forensic sciene, a pathologist in medicine. Somehow requiring rigid standards on open source analysts might be against the spirit of Bellingcat, who run <a class="reference external" href="https://www.bellingcat.com/workshops/">workshops</a> for anyone to attend to learn about how they can perform open source analysis.</p>
+<p>One other concern about unregulated, open source analysis is that it introduces an assymetry based on groups powers to control a narrative with disinformation. This can be somewhat regulated by a strict chain of evidence so that such information cannot be easily tainted for the purposes of legal evidence. But with information a click away, we’re impatient to read easily digestible, readily obtainable news as soon as it is relevant. If the general public are unwilling to read the chain of evidence in news articles before sharing them, are we not at fault for the spread of disinformation, even if we are not the original authors of it?</p>
+</section>
+<section id="what-are-the-implications-of-police-departments-working-with-private-investigators-who-use-these-methods">
+<h2>What are the implications of police departments working with private investigators who use these methods?<a class="headerlink" href="#what-are-the-implications-of-police-departments-working-with-private-investigators-who-use-these-methods" title="Link to this heading">#</a></h2>
+<p>With their fingers in the pies of espionage, journalism and human rights activism, a valid question is, who are Bellingcat? Each article published by Bellingcat includes a link to the contributors and there’s a comprehensive list of contributors on their <a class="reference external" href="https://www.bellingcat.com/contributors/">website</a>. Asking a larger structual question of who are Bellingcat and what is their agenda, we can at least see transparency in their finances and a list of their <a class="reference external" href="https://www.bellingcat.com/about/">contributors</a> and a published policy plan (same link). There is no requirement for a private company to do this, but it lends to an image of transparency. Perhaps the issue then is not with Bellingcat, but with private investigators/organisations that don’t takes these steps towards transparency.</p>
+<p>At the end of the day, evidence comes from people. Police don’t always have the resources/ability to collect information directly so if someone else has collected it (even just witness statements), it should still be admissable (as long as it’s verifiable). This can of course lead to issues across boards if the evidence is admissable in one country but not another. If the information is obtained in illegal ways, perhaps the police would (or at least should) have difficulty using that evidence but this is a bit outside the expertise of the data ethics group.</p>
+<p>This led us to an interesting hypothetical: If information obtained illegally is left on a train, can it then be admitted by someone who finds it? For how long after it’s left? The line is not so clear. Law enforcement can be in a difficult position here. They inevitable have to rely on judgement calls to dictate how they interpret the law. Unfortunately, this judgement can often be heavily biased.</p>
+<p>What’s the difference between police outsourcing to Bellingcat/to other experts and using expert witnesses? Bellingcat characterise themselves primarily as investigators, but perhaps for legal purposes they are just open source data analyst experts who can be consulted like private professionals (such as pathologists, medical statisticians etc.)</p>
+<p>Lot’s of question pop up here about quality control; How good are they at doing it? How reliable is it? How do people take it in court? If people take it as gospel in court and they’re not reliable, that’s obviously bad. If people think it’s rubbish and they are reliable, that’s also bad.</p>
+<p>How do we verify it? What standards can we hold them to? Trust and expert opinions come up alot. Maybe you can’t trust unaccredited/unverified private organisations in general - do they just go to the highest bidder?</p>
+<p>Perhaps people aren’t inherently untrustworthy, but if they’re creating narratives (even if all the evidence is there), then that could be dangerous. As we’ve noted before, fake news travels faster than facts. People might be telling stories that follow their confirmation bias. We’re all only humans after all. But should we stop anyone from telling these stories? It’s a difficult line to walk, but we must walk it. Currently many policy makers are stood still on the issue.</p>
+</section>
+<hr class="docutils" />
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<p>Note: this is not a full list of attendees, only those who felt comfortable sharing their names.</p>
+<p><strong>Name, Affiliation, Links to find you</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
+<li><p>Nina Di Cara, PhD Student, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
+<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a>,</p></li>
+<li><p>Zoë Turner, Senior Information Analyst, Nottinghamshire Healthcare NHS Foundation Trust <a class="reference external" href="https://github.com/Lextuga007">Lextuga007</a></p></li>
+<li><p>Ola Michalec, Researcher at Bristol Cyber Security Group (UoB)</p></li>
+<li><p>Vanessa Hanschke, PhD in Interactive AI, University of Bristol</p></li>
+<li><p>Kamilla <a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">‘Milli’</a> Wells, Citizen Developer</p></li>
+<li><p>Dan Gorringe, Research Engineer Intern, Hadean, <a class="reference external" href="https://github.com/DanGorringe">DanGorringe</a></p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2021-07-14_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>What’s this?</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+    
+    <a href="2021-08-11_writeup.html">
+      <span>What an ancient lake in Nevada reveals about the future of tech</span>
+      
+      <i class="fa fa-arrow-circle-right" ></i>
+      
+    </a>
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#who-is-bellingcat-they-are-bellingcat">Who is Bellingcat? They are Bellingcat.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#when-is-it-ethical-to-use-publicly-available-data">When is it ethical to use publicly available data?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-reliable-are-the-kinds-of-social-media-data-that-bellingcat-are-using">How reliable are the kinds of social media data that Bellingcat are using?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-implications-of-police-departments-working-with-private-investigators-who-use-these-methods">What are the implications of police departments working with private investigators who use these methods?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2021-07-28_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2021-07-28_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

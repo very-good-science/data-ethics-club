@@ -1,0 +1,1216 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022-02-09_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2022-02-09_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  09 February 2022
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/huw-day.html">Huw Day</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tag"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-01-17_writeup.html">
+      17 January - Data Ethics Club’s New Year’s Resolutions 2024
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-12-06_writeup.html">
+      06 December - Anatomy of an AI-Powered Malicious Social Botnet
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-22_writeup.html">
+      22 November - Data Ethics Checklist at Seattle Children’s Hospital
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-08_writeup.html">
+      08 November - Dimensions of Data Labor
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-10-25_writeup.html">
+      25 October - Sharing childrens’ data online
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (5)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (47)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (12)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">“You Social...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="you-social-scientists-love-mind-games-experimenting-in-the-divide-between-data-science-and-critical-algorithm-studies">
+<h1><a class="reference external" href="https://journals.sagepub.com/doi/full/10.1177/2053951719833404">“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies</a><a class="headerlink" href="#you-social-scientists-love-mind-games-experimenting-in-the-divide-between-data-science-and-critical-algorithm-studies" title="Link to this heading">#</a></h1>
+<!--Please don't edit the info panel below-->
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 9th February’s Data Ethics Club discussion, where we discussed the paper <a class="reference external" href="https://journals.sagepub.com/doi/full/10.1177/2053951719833404">“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies</a> by David Moats and Nick Seaver.</p>
+<p>The summary was written by Huw Day, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+</div>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
+<p>This week at Data Ethics Club we discussed the paper “You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies by David Moats and Nick Seaver. The paper examines the divide between and intersection between data scientists and social scientists using a methodology more familiar to anthropologists than those with a STEM background:</p>
+<p>“we attempted to stage an encounter in which practicing data scientists were asked to analyze a corpus of critical social science literature about their work, using tools of textual analysis such as co-word and topic modelling. The idea was to provoke discussion both about the content of these texts and the possible limits of such analyses.”</p>
+<p>We discussed the authors’ approach, the divides between social and data science and what we can do to bridge this gap. We see some reoccuring themes when data scientists try to bring their tools to bear on social science problems and vice versa: https://xkcd.com/1831/</p>
+</section>
+<section id="what-do-you-think-about-the-authors-approach-framing-of-the-experiment-the-first-vs-the-second-attempt-tools-suggested-their-reflections-nicks-email">
+<h2>What do you think about the authors’ approach (framing of the experiment, the first vs the second attempt, tools suggested, their reflections, Nick’s email)?<a class="headerlink" href="#what-do-you-think-about-the-authors-approach-framing-of-the-experiment-the-first-vs-the-second-attempt-tools-suggested-their-reflections-nicks-email" title="Link to this heading">#</a></h2>
+<p>We thought the experiment was interesting, getting data scientists to be reflective in a way that is not typical of their skillset, though some of us felt the experiment lacked specificity about what data scientists actually do (using quantitative methods to answer specific questions).
+Perhaps it could have been more successful by asking the data scientists to read the papers and discuss them, as opposed to getting them to analyse them with quantitative methods. It didn’t seem like there was a way for the participants to succeed with their analysis.</p>
+<p>On the other hand, maybe the utility of the paper was in the self reflective nature of the study? If the objective was to start a conversation rather than to get any particular analysis out of it, then there is still value in that. The training of the authors is ethonography and anthropology. This mode of reasoning is different to that of data scientists and the hallmarks of what the participants were meant to achieve is different. This means lower sample sizes a greater focus on individual feedback/insight, with the discussion of the experiment coming from the point of view of statistical/scientific method.</p>
+<p>It’s not necersarily a bad experiment and it’s also a very early pilot study. In this instant we would prefer fewer stories with more substances than many stories with little substance. On the topic of ethnography, perhaps it would’ve been helpful to have observational steps based on case studies before progressing to this point, to characterise the systems in which data scientists operate?</p>
+<p>The authors mention the power imbalances between data scientists and social scientists but didn’t expand on it. We would have liked to have seen more on this. Those working in STEM, (for example MDs and data scientists), are expected to know the answer and to express certainty, when sometimes they just don’t know. Perhaps the goal of the experiment was to tell stories, and so in that sense the experiment was successful.</p>
+</section>
+<section id="what-other-divides-binaries-and-camps-should-we-pay-attention-to">
+<h2>What other divides, binaries and camps should we pay attention to?<a class="headerlink" href="#what-other-divides-binaries-and-camps-should-we-pay-attention-to" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full">There seem to be Two Cultures in Statistical Modeling</a>:</p>
+<p>“There are two cultures in the use of statistical modeling to reach conclusions from data. One assumes that the data are generated by a given stochastic data model. The other uses algorithmic models and treats the data mechanism as unknown.”</p>
+<p>Data scientists are submerged in the technical details whilst social scientists have to consider the social context - how did the categories/labelling come about? Data scientists come from lots of different backgrounds. The paper focussed on data scientists in academia, whereas many are also in industry. Within industry there is also a divide between the marketing/sales side vs the people who are involved in the technical work.</p>
+<p>Data scientists are having to make rules and regulations around what they’re doing. The way that law formalises and thinks about things is very different from how the startup world wants to innovate and has an inevitable time lag. There is an interesting divide within data scientists between academics and more industry focussed tinker-ers.</p>
+<p>There tend to be different normative aims/committments. Social scientists prefer to leave questions open to provoke debates as opposed to data scientists who will try and give an answer. Social scientists study the people which is quite different to try to understand the subject from the outside.</p>
+<p>We would question the idea that ethics can be taught in the manner of, say, Javascript 101. As with law, there’s a hefty contextual element and efforts to deal with it early in a project and then forget it exists tend to be a) commonplace and b) unhelpful. Perhaps the best we can do is build in ethics components into formal data science training and make sure people are aware about support and organisations able to give advice (e.g. data protection officer for example).</p>
+<p>Social scientists and data scientists are quite heterogenous group names - there’s lots of diversity and differences within the same field. Perhaps data scientist is not a very helpful construction, like the label “AI”. Is AI just a shorthand for something that gets funding?</p>
+<p>Which boundaries should we be paying attention to? What do we want to change/keep the same? The fact that social scientists and data scientists don’t talk to each other so much is likely a problem. What about social scientists who do quant stuff? Computational social scientists? Is it getting closer or is it just two groups refusing to cross train appropriately? Is ‘discipline loyalty’ more of a generational thing these days? Should we consider using  term ‘transdisciplinary’ as an alternative to ‘interdisciplinary’?</p>
+</section>
+<section id="what-intervention-could-we-stage-in-this-group">
+<h2>What intervention could we stage in this group?<a class="headerlink" href="#what-intervention-could-we-stage-in-this-group" title="Link to this heading">#</a></h2>
+<p>We all thought this paper was really meta - that’s not necersarily a bad thing. Interventions could be you don’t give recommendations, but you do workshops with data scientists to try to test the theory of changing minds/reaching improvements (a more applied type of social science). From our group, data scientists, physicists, and social scientists all found this very readable! No unnecessary coining of new terms.</p>
+<p>Is the very existence of this group the intervention? It seems that there is a place for teaching active listening; for fostering further mutual respect (even beyond STEM); and for encouraging the use of phrases like ‘I don’t know, what do you think?’ Other projects like <a class="reference external" href="https://twitter.com/NatZelenka/status/1438472880644399108">Data Hazards</a> count towards this effort as well.</p>
+<p>With so many questions being raised about the divide and sometimes arbitary lines drawn between disciplines, there needs to be more of an effort to cross disciplines. Just because we study degrees in set disciplines (be it STEM such as physics, statistics, computer science or closer to sociology, anthropology or philosophy), it does not mean that the problems we face will fall into these cookie cutter shapes. Different training backgrounds grants us different tools and perspective with which to approach problems. Some tools will of course be better suited to certain problems, but all of us, regardless of our background and expertise could likely stand to benefit from being a little less intradisciplinary and a little more interdisciplinary.</p>
+</section>
+<hr class="docutils" />
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<p><strong>Name, Role, Affiliation, Where to find you, Emoji to describe your day</strong></p>
+<ul class="simple">
+<li><p>Natalie Thurlby, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieThurlby/">NatalieThurlby</a>, <a class="reference external" href="https://twitter.com/StatalieT">&#64;StatalieT</a></p></li>
+<li><p>Huw Day, PhDoer, University of Bristol, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Emma Tonkin, Research Fellow (Digital Health), University of Bristol <a class="reference external" href="https://twitter.com/emmatonkin">&#64;emmatonkin</a></p></li>
+<li><p>Sergio Araujo-Estrada, Research Associate, University of Bristol</p></li>
+<li><p>Euan Bennet, Senior Research Associate, University of Bristol, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
+<li><p>Ola Michalec, RA, University of Bristol</p></li>
+<li><p>Robin Dasler, research software product manager, <a class="reference external" href="https://github.com/daslerr/">daslerr</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2022-01-26_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Which Programming Languages Use the Least Electricity?</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+    
+    <a href="2022-03-09_writeup.html">
+      <span>AI in Warfare</span>
+      
+      <i class="fa fa-arrow-circle-right" ></i>
+      
+    </a>
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-do-you-think-about-the-authors-approach-framing-of-the-experiment-the-first-vs-the-second-attempt-tools-suggested-their-reflections-nicks-email">What do you think about the authors’ approach (framing of the experiment, the first vs the second attempt, tools suggested, their reflections, Nick’s email)?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-other-divides-binaries-and-camps-should-we-pay-attention-to">What other divides, binaries and camps should we pay attention to?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-intervention-could-we-stage-in-this-group">What intervention could we stage in this group?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2022-02-09_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2022-02-09_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

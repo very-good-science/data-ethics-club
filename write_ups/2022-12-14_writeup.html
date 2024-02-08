@@ -1,0 +1,1223 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Defective Altruism &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2022-12-14_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2022-12-14_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  14 December 2022
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/huw-day.html">Huw Day</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/big-tech.html">big tech</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-01-17_writeup.html">
+      17 January - Data Ethics Club’s New Year’s Resolutions 2024
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-12-06_writeup.html">
+      06 December - Anatomy of an AI-Powered Malicious Social Botnet
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-22_writeup.html">
+      22 November - Data Ethics Checklist at Seattle Children’s Hospital
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-08_writeup.html">
+      08 November - Dimensions of Data Labor
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-10-25_writeup.html">
+      25 October - Sharing childrens’ data online
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (5)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (47)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (12)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">Defective Altruism</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="defective-altruism">
+<h1><a class="reference external" href="https://www.currentaffairs.org/2022/09/defective-altruism">Defective Altruism</a><a class="headerlink" href="#defective-altruism" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 14th December’s Data Ethics Club discussion, where we spoke about <a class="reference external" href="https://www.currentaffairs.org/2022/09/defective-altruism">Defective Altruism</a>, a current affairs article written by Nathan J. Robinson. We welcomed members of <a class="reference external" href="https://eabristol.co.uk/students/">Bristol’s Effective Altruism society</a> to this discussion.<br />
+The summary was written by Huw Day with the aid of Chat GPT (see disclaimer), synthesising everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+</div>
+<section id="disclaimer">
+<h2>Disclaimer<a class="headerlink" href="#disclaimer" title="Link to this heading">#</a></h2>
+<p>As an experiment, this writeup was done a little bit differently. Huw made use of the language model <a class="reference external" href="https://chat.openai.com/chat">Chat GPT</a> to make this writeup. You can read more about what he did in this separate <a class="reference external" href="https://dataethicsclub.com/write_ups/2022/ChatGPTStoleMyJob.html">blogpost</a>.</p>
+<p>This is still a summary of the discussion had at the original, as the chat GPT system was fed the questions and corresponding notes written during those discussions and instructed to collate these into a blog post summary, much in the way Huw usually does by hand. This was a one off experiment and feedback is encouarged and welcome. Everything you see below this point (not including the list of attendees at the end and the questions) is curated by chat GPT with Huw’s input.</p>
+</section>
+<section id="is-it-possible-to-measure-how-much-good-a-person-or-action-does-and-is-it-a-good-idea">
+<h2>Is it possible to measure how much good a person or action does? And is it a good idea?<a class="headerlink" href="#is-it-possible-to-measure-how-much-good-a-person-or-action-does-and-is-it-a-good-idea" title="Link to this heading">#</a></h2>
+<p>The discussion centered around the question of whether it is possible to measure the impact or good that a person or action does, and whether it is a good idea to do so. One perspective mentioned is that it may not be possible to be precise in measuring the impact or good that a person or action does, but that it may be possible to measure it in broad strokes. Some participants mentioned that even people who disagree with the concept of effective altruism believe that it is possible to measure the impact or good that a person or action does in some ways.</p>
+<p>One issue raised in the discussion is that when attempting to measure the impact or good that a person or action does, it often ends up being measured in terms of money. For example, the Arts and Humanities Research Council in the UK has stated that “for every £ invested, we bring back £x to the economy,” which some participants pointed out can add a lot of bureaucracy and can also restrict the proposals that receive funding.</p>
+<p>Another perspective mentioned in the discussion is that the existence of charities can be seen as a failure of society, and that measuring the impact or good that charities do may not make sense, especially when it comes to addressing basic needs. It was also noted that the process of measuring the impact or good that a person or action does can be reflexive, and that the question of who is doing the measuring and how many measurements are needed is an important consideration. Some participants argued that the process of measuring the impact or good that a person or action does can be a blinkered feedback loop that is only accessible to those with privilege.</p>
+<p>The discussion also addressed the question of whether it is possible to measure the impact or good that a person or action does from a utilitarian perspective, as well as the subjectivity of the concept of benefit and the role of trust and certainty in the process of measuring impact or good. One participant argued that it may be possible to measure the impact or good that a person or action does from a utilitarian perspective, but that it is probably not possible to do so if one is not a utilitarian. Another participant mentioned that benefit is highly subjective and that it is therefore difficult to measure the impact or good that a person or action does.</p>
+<p>One example mentioned in the discussion is a critique of utilitarianism by Bernard Williams, in which a person visiting a culture is offered the opportunity to kill one person in order to save nine others. This example was used to illustrate the idea that trust and certainty are important factors that are not often considered in utilitarianism, and that it can be difficult to know for certain that the actions we take will result in the benefits we expect.</p>
+<p>The discussion also touched on the distinction between philanthropy and effective altruism. It was noted that while philanthropy is generally focused on giving money to causes that one cares about, effective altruism is more focused on trying to maximize the positive impact or good that a person or action does.</p>
+</section>
+<section id="what-else-do-you-know-about-effective-altruism-have-you-heard-of-it-before-do-you-believe-that-the-article-is-representative-of-the-effective-altruism-movement-or-fair-in-its-criticisms">
+<h2>What else do you know about effective altruism? Have you heard of it before? Do you believe that the article is representative of the effective altruism movement or fair in its criticisms?<a class="headerlink" href="#what-else-do-you-know-about-effective-altruism-have-you-heard-of-it-before-do-you-believe-that-the-article-is-representative-of-the-effective-altruism-movement-or-fair-in-its-criticisms" title="Link to this heading">#</a></h2>
+<p>The follow-up discussion on effective altruism focused on the idea that each person within the movement is an individual who prioritizes different things, and that global poverty and animal welfare are higher on the list of priorities than AI-related issues. It was also mentioned that there was a mix of previous knowledge about effective altruism among the participants, with some having heard about it before and others having learned about it through the article being discussed.</p>
+<p>Overall, it was noted that the people involved in the effective altruism movement are trying to figure out how to do the most good, and that the article being discussed may not present the movement in the most appealing light. It was also mentioned that the article felt biased and was very long, and that it might have been more convincing if it had presented a more balanced and neutral argument.</p>
+<p>Some participants in the discussion also pointed out that the article seemed to focus largely on Western philosophers and didn’t incorporate perspectives from other parts of the world, leading to the question of whether effective altruism is primarily a Western philosophy. It was also noted that the article missed the perspective within the movement that it is trying to do good on top of what is already being done in the world, and that there are concerns about diversity within the movement. Finally, the discussion touched on the idea that measuring and quantifying can cause problems and reinforce certain biases, as has been discussed in the context of development effectiveness and cooperation (DEC).</p>
+</section>
+<section id="imagine-you-were-an-effective-altruist-how-would-you-prioritise-work-on-ai-which-dangers-or-benefits-would-be-the-most-effective-to-work-on">
+<h2>Imagine you were an effective altruist: (how) would you prioritise work on AI? Which dangers or benefits would be the most effective to work on?<a class="headerlink" href="#imagine-you-were-an-effective-altruist-how-would-you-prioritise-work-on-ai-which-dangers-or-benefits-would-be-the-most-effective-to-work-on" title="Link to this heading">#</a></h2>
+<p>The discussion focused on the question of how effective altruists prioritize their work and how they decide what is “good.” It was mentioned that some people see the process of “recruiting” people to the effective altruism movement as a service in itself, and that there are organizations that make recommendations about which charities should be donated to.</p>
+<p>It was also noted that the article being discussed mentions the concept of an “effective altruism pyramid scheme,” which may raise questions about how effective altruists prioritize their work and decide what is “good.”</p>
+</section>
+<section id="closing-thoughts">
+<h2>Closing Thoughts<a class="headerlink" href="#closing-thoughts" title="Link to this heading">#</a></h2>
+<p>The discussion raised a number of issues related to effective altruism. It was noted that the movement is built on the idea that each person is best placed to decide where they can be most effective, rather than having decisions made more centrally. While effective altruism is based on collective rather than individual decisions, this does not mean that effective altruists do not want to make decisions together.</p>
+<p>Effective altruism does not include activism for higher taxes because it is voluntary, but this does not preclude people from doing both, giving lots of money to charity and advocating for higher taxes. Some participants pointed out that effective altruism can be undemocratic, as people with more money have more power within the movement. One participant described effective altruism as “a libertarian cult,” noting that the movement is interested in getting other people involved (in an evangelical or pyramid scheme-like way) and that this is not a standard philosophical practice, even though it is based on utilitarian philosophy.</p>
+<p>The discussion also addressed the idea that Peter Singer’s original article, which formed the basis for the effective altruism movement, was based on the idea that middle class people in Western countries should give money to people in poorer countries. Some participants argued that this approach has the side effect of allowing people to benefit from high salaries and capitalism while also giving to charity, and that it can entrench the capitalist system and perpetuate inequalities that the movement claims to be trying to fix. There was a question raised about whether there could be a left-wing version of effective altruism that is still based on utilitarianism.</p>
+<p>From a utilitarian perspective, one participant argued that the most effective and altruistic thing someone can do is “eat one billionaire.” The discussion also explored why activism, policy, democracy, and government are largely absent from the concept of “effectiveness” in effective altruism. It was noted that one reason for this could be that charity is more international in nature, and that effective altruists do sometimes back certain candidates for political office. However, it was also mentioned that effective altruists have sometimes backed both parties, leading to the question of whether this is a productive use of time and resources.</p>
+<p>Finally, the discussion raised the idea that the existence of charities can be seen as a failure of society, and that certain practices within academic philosophy, such as engaging in blinkered feedback loops that ignore lived experience, may enable movements like effective altruism. It was also mentioned that around 2010, there was a trend in Australia towards focusing on narrative as an indicator of success, rather than quantitative key performance indicators, and that this trend has also been observed in the business world in the UK.</p>
+</section>
+<hr class="docutils" />
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<p>In total we had 9 attendees at this meeting. Those who provided their names are listed below.
+<strong>Name, Role, Affiliation, Where to find you, Emoji to describe your day</strong></p>
+<ul class="simple">
+<li><p>Natalie Zelenka, Data Scientist, University of Bristol, <a class="reference external" href="https://github.com/NatalieZelenka/">NatalieZelenka</a>, <a class="reference external" href="https://twitter.com/NatZelenka">&#64;NatZelenka</a></p></li>
+<li><p>Nina Di Cara, Research Associate, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
+<li><p>Euan Bennet, Lecturer, University of Glasgow, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
+<li><p>Amy Joint, Commissioning Manager, F1000 <a class="reference external" href="https://https://twitter.com/AmyJointSci">[&#64;AmyJointSci]</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="FAIRBlog.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>But is it FAIR?</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+    
+    <a href="ChatGPTStoleMyJob.html">
+      <span>Chat GPT Stole my Job</span>
+      
+      <i class="fa fa-arrow-circle-right" ></i>
+      
+    </a>
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#disclaimer">Disclaimer</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#is-it-possible-to-measure-how-much-good-a-person-or-action-does-and-is-it-a-good-idea">Is it possible to measure how much good a person or action does? And is it a good idea?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-else-do-you-know-about-effective-altruism-have-you-heard-of-it-before-do-you-believe-that-the-article-is-representative-of-the-effective-altruism-movement-or-fair-in-its-criticisms">What else do you know about effective altruism? Have you heard of it before? Do you believe that the article is representative of the effective altruism movement or fair in its criticisms?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#imagine-you-were-an-effective-altruist-how-would-you-prioritise-work-on-ai-which-dangers-or-benefits-would-be-the-most-effective-to-work-on">Imagine you were an effective altruist: (how) would you prioritise work on AI? Which dangers or benefits would be the most effective to work on?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#closing-thoughts">Closing Thoughts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2022-12-14_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2022-12-14_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

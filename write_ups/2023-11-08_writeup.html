@@ -1,0 +1,1233 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Dimensions of Data Labor &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2023-11-08_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2023-11-08_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  08 November 2023
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-01-17_writeup.html">
+      17 January - Data Ethics Club’s New Year’s Resolutions 2024
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-12-06_writeup.html">
+      06 December - Anatomy of an AI-Powered Malicious Social Botnet
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-22_writeup.html">
+      22 November - Data Ethics Checklist at Seattle Children’s Hospital
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-10-25_writeup.html">
+      25 October - Sharing childrens’ data online
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-10-11_writeup.html">
+      11 October - Is retail the next sector to be hit by a privacy scandal?
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (5)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (47)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (12)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">Dimensions...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="dimensions-of-data-labor">
+<h1><a class="reference external" href="https://dl.acm.org/doi/pdf/10.1145/3593013.3594070">Dimensions of Data Labor</a><a class="headerlink" href="#dimensions-of-data-labor" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 8th November’s Data Ethics Club discussion, where we spoke and wrote about the paper  <a class="reference external" href="https://dl.acm.org/doi/pdf/10.1145/3593013.3594070">The Dimensions of Data Labor: A Road Map for Researchers, Activists, and Policymakers to Empower Data Producers</a> by Hanlin Li, Nicholas Vincent, Stevie Chancellor, and Brent Hecht.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Huw Day, Nina Di Cara and Natalie Thurlby helped with the final edit.</p>
+</div>
+<section id="what-examples-of-data-labour-do-you-perform-and-what-are-the-most-relevant-dimensions-how-does-this-compare-with-any-data-labour-that-is-used-in-your-work">
+<h2>What examples of data labour do you perform and what are the most relevant dimensions? How does this compare with any data labour that is used in your work?<a class="headerlink" href="#what-examples-of-data-labour-do-you-perform-and-what-are-the-most-relevant-dimensions-how-does-this-compare-with-any-data-labour-that-is-used-in-your-work" title="Link to this heading">#</a></h2>
+<p>The paper aims to provide actionable guidelines for addressing challenges associated with data and power inequalities, arguing that treating data as an outcome of social labour enables broader power distribution. Data labour is defined as “activities that produce digital records useful for capital generation”, including both labour that is compensated for (e.g. <a class="reference external" href="https://www.mturk.com/">Mechanical Turk</a>) and uncompensated data production (e.g. generating behaviour logs). We liked that the intention of the paper seemed to be that “this is happening; what can we do about it”.</p>
+<p>To form a roadmap for empowering data labourers, the paper synthesizes relevant literature into six key dimensions. The dimensions listed are:</p>
+<ol class="arabic simple">
+<li><p>legibility (do people know they’re doing data labour)</p></li>
+<li><p>end-user awareness (do people know their labour creates capital)</p></li>
+<li><p>collaboration (do you have to work with others to do the labour)</p></li>
+<li><p>openness (who can use the results of the data)</p></li>
+<li><p>replaceability (can anyone do the labour)</p></li>
+<li><p>livelihood overlap (is the labour part of occupational activities).</p></li>
+</ol>
+<p>We found these dimensions interesting, however there does seem to be some crossover which makes it difficult to clearly distinguish between them. We wondered if these were the best dimensions to pick, or the best ways of defining them. For example, we didn’t like the name “legibility” and preferred the label of “visibility” for that category. Legibility is defined in the Cambridge Dictionary as <a class="reference external" href="https://dictionary.cambridge.org/dictionary/english/legibility">“the fact of being easy to read, or the degree to which something is easy to read”</a>. Visibility may more accurately capture the intended meaning of this dimension: “do data labourers know their labour is being captured”. Sometimes systems obscure data (intentionally or otherwise), and it can be hard to track how legible something is.</p>
+<p>Many of us participate in various forms of data collection at work; we found it surprising that the paper brought up reddit a few times - reddit (and similar activities) seem quite different to the sorts of data collection we do. Some of us had taken part in crowdsourcing research for ecology, tagging videos of animals. When it wasn’t part of our own research it felt interesting and exciting, but if it became part of our job, we might find it boring. As PhD students some of us had experience scraping through databases, looking for associations and trying to build our own datasets. We found this to be an enormous amount of very boring work. We also talked about participating in cleaning internal data, <a class="reference external" href="https://www.techradar.com/news/captcha-if-you-can-how-youve-been-training-ai-for-years-without-realising-it">CAPTCHA</a>, and uber ratings.</p>
+<p>On the industry side, some of us had experience working for companies who collect data or use third parties to collect data from social media. How this data is used isn’t very transparent, and platforms generate a huge amount of money from it. Companies look at dollar revenue through post engagement. For the most part this money does not reach the people generating the content; people even have to pay <em>not</em> to have adverts.</p>
+<p>The mechanics of how to redistribute revenue was not talked about in the paper. Examples of revenue redistribution we could think of include the huge industry YouTube has created through <a class="reference external" href="https://www.youtube.com/howyoutubeworks/our-commitments/sharing-revenue/">revenue sharing</a>. We wondered if revenue sharing could happen on Reddit, for example by paying people by how much <a class="reference external" href="https://www.reddit.com/r/karma/wiki/index/faq/">karma</a> they have. However, we thought that bots would still be an issue. Redistributing revenue seems like something that would be especially difficult to do for more downstream data labourers, where data production is fairly passive.</p>
+<p>This brought us to the question of what really counts as data labour. While we thought that the concept is a generally good idea, we had some issues with how it’s described. Many of the processes for generating data are very diffused, and this is where the data labour paradigm breaks down. We thought that companies saying they would pay people for small interactions (such as comments on social media) would just generate a flood of useless comments. It is better to treat this kind of diffused data as a natural resource; the work comes in when someone comes along and says they will mine it. This way, we can think about data labour along the conventional lines of how we separate work and resources.</p>
+<p>One way of understanding the separation between work and resources is by reference to <a class="reference external" href="https://plato.stanford.edu/entries/contractarianism-contemporary/">social contract theory</a>, which argues that by participating in society and benefiting from its provisions you enter into a social contract. For example, if you walk down a road built by a government you enter society and have some obligation to it. From a data collection standpoint, an example could be that you don’t have to walk down streets with AI facial recognition surveillance in London, but if you do you will be tracked. Viewed from a social contract perspective, you do not have to participate in diffused methods of data collection (e.g. commenting on social media), but if you do then you should accept that your participation will be taken as a resource. There might however be questions that arise with how much autonomy we really have over these “choices”. Refusing to participate in diffused data collection might be incredibly difficult in some domains, for example if we have to take an extremely long detour to avoid streets with facial recognition.</p>
+<p>The paper defines data labour as data production which is useful for generating capital. This suggests that the step from generation to labour is dependent on what happens to the data after it is produced. The paper mentions a plugin tool which calculates how much you earn while scrolling Facebook. We wondered if similar tools could be used to put a valuation on data production over the course of a human life.</p>
+<p>We argued that a lot of the activities surrounding data mentioned in the paper aren’t labour. Scrolling through Twitter isn’t, and will never be, labour. Defining everything which isn’t capital as labour is overly simplistic. Leaving a Yelp review probably isn’t labour. Clicking through reCAPTCHA isn’t labour. It feels disrespectful to those who really do undertake data labour, and who should be unionised and protected. It also feels disrespectful to those who have had their work stolen and repatriated, such as artists.</p>
+<p>Defining more passive activities like comments on reddit as labour did not seem accurate to us. However, the paper is making the point that your approach to these activities changes if you conceptualise them as labour. We wondered what would change in people’s behaviour and attitudes if every blog post and Google search was defined as a piece of labour. We thought that there might be better labels than “labour” for this, such as “data producers”. The definition would also be improved by more descriptive categories denoting where different activities fall. We should assume that <em>everything</em> we put online might be used for other purposes. For example, platforms such as <a class="reference external" href="https://smartone.ai/blog/top-25-twitter-training-datasets-free/">Twitter are being used in datasets for AI training</a>. Some forms of data generation might be used unethically in certain capacities but still worth doing. For example, it is hugely valuable to create Wikipedia articles, even though <a class="reference external" href="https://kili-technology.com/large-language-models-llms/9-open-sourced-datasets-for-training-large-language-models">we know that LLMs are being trained on them</a>.</p>
+<p>It seems so embedded in online participation that it will be an unfair trade. The amount of storage, analysis, and power that big tech companies have makes it very hard to change the system. Companies don’t want to inform data labourers of their rights; it is not in their interests to put effort into educating employees when they could just hire cheaper labour elsewhere. There are so many useful things which aren’t shared even in common pipelines, such as no-one being taught about pensions when they do degrees and Ph.D.’s.</p>
+</section>
+<section id="what-do-you-feel-are-the-strongest-opportunities-for-empowering-data-labourers-as-defined-by-the-article-can-you-think-of-any-important-opportunities-that-were-not-mentioned">
+<h2>What do you feel are the strongest opportunities for empowering data labourers as defined by the article? Can you think of any important opportunities that were not mentioned?<a class="headerlink" href="#what-do-you-feel-are-the-strongest-opportunities-for-empowering-data-labourers-as-defined-by-the-article-can-you-think-of-any-important-opportunities-that-were-not-mentioned" title="Link to this heading">#</a></h2>
+<p>One of the issues with the type of data labour the article defines is that it is a very easy space to atomise. The labour is diffused across many different aspects, making it easy to exploit. We saw parallels with the <a class="reference external" href="https://corporate.ford.com/articles/history/moving-assembly-line.html">Ford production line</a>, which divided tasks into many smaller subtasks. One worker would do one part of the process, making it easy for them to slot in and out of the workflow and for them to be replaced. This transformation of labour was done partly for efficiency, and partly for control of the workforce. We thought it was remarkable how easy it is for similar segmentations of labour to occur in data. This is another example of society being broken up into pieces, diminishing collaborative aspects of life <em>sad capitalism klaxon</em>. We thought that an important opportunity from this would be to push back against the atomisation of data labour, promoting collaborative work between people who can collectively do a wide range of tasks.</p>
+<p>One of the reasons data labour is so easy to atomise is that data resources are so easy to access, and we have so few rules. We thought that the paper does a good job of identifying desirable end results for redistributing power in data labour, but not about the mechanisms necessary to get there. An immediately important step is to improve legal protection for workers in this field. [Mechanical Turks], for example, have <a class="reference external" href="https://time.com/6296196/ai-data-gig-workers/">terrible working conditions</a>. Up until now, there has been a bit of a gold rush with big data. To change how this work is done, there needs to be a complete revolution. This would have to be a forced change, not a choice. The best way to force a paradigm shift is to make people go through a process to have access to data. This would necessitate labour of someone who is qualified and trained to do the task.</p>
+<p>However, the internet is spatially and geographically distributed, and data labourers emerge from many different pipelines with different levels of skill. This makes it challenging to create universal standards and regulations, and for data labourers to unite as a collective. To think about how we might bring about these changes, we should recognise them as extensions of the current law. For example, US legislation makes it easy to sue for copyright infringement. We should push to get this recognised in regard to data labour. There has been some progress made in regulation since the introduction of GDPR, which has especially impacted the social media insights industry. TikTok doesn’t have a public API; LinkedIn does, but it is aggregated to embed more anonymity. However, it is difficult to keep regulation up to date as the industry continues to change so rapidly.</p>
+<p>The future of data production might look very different to how it does today. We are interested to see if large AI models continue to learn or end up in huge feedback loops as they learn from their own, <a class="reference external" href="https://www.nature.com/articles/s41562-023-01744-0">incorrect</a>, generated content. There are valid use cases for LLMs, however we think that there is also a lot of unnecessary hype. It remains to be seen if big data becomes the foundation of a stable economy. A certain amount of the hype around big data and LLMs might stick around, but we argued that how it is today won’t last. Data about people may continue to be accrued, but there might be a limit of data saturation beyond which we can’t do anything useful. We wondered if, currently, there is a selectivity to the data which LLMs learn from (e.g. articles with a certain number of downloads). This might be a reasonable expectation of the direction large AI models will take in the future: improving the datasets selected for learning from, rather than improving the model architecture itself.</p>
+<p>A problem with datasets used to train current LLMs is that a lot of artists’ work has been appropriated. Art is another important opportunity for reassessing data labour; if we think of artists as data labourers, we may reassess the value of what they produce. If profit is generated by including art in datasets used to train AI, this should be an opportunity to give more value to artists. Rather than completely dismantling capitalism and recognising every fragment of labour, we should adjust our perspective on what real labour is. We should supply universal basic income, and give more recognition to the greater feats, like art. However, aligning the cultural value of art with financial compensation is hugely challenging.</p>
+</section>
+<section id="how-would-you-incentivise-or-enact-the-changes-mentioned-in-the-papers-roadmap-in-your-field">
+<h2>How would you incentivise or enact the changes mentioned in the papers roadmap in your field?<a class="headerlink" href="#how-would-you-incentivise-or-enact-the-changes-mentioned-in-the-papers-roadmap-in-your-field" title="Link to this heading">#</a></h2>
+<p>One way to restructure financial compensation for data labour would be to facilitate the ability to dictate that your labour should <em>not</em> be included. This would dramatically reduce the sizes of datasets and make it in companies’ interests to incentivise people to include their labour (e.g. artwork). Adobe are <a class="reference external" href="https://techcrunch.com/2023/03/21/adobe-promises-artists-will-be-compensated-fairly-with-new-generative-ai-product-but-is-fuzzy-on-details/?guccounter=1&amp;amp;guce_referrer=aHR0cHM6Ly93d3cuZWNvc2lhLm9yZy8&amp;amp;guce_referrer_sig=AQAAAKT7Sy18BJJLf9Q6Qbcyvl9-9O_8hTyUtWVVl7AJsLIALQoqM1itM-oX-A6eLDup3BrltofFEqbuoaVVVN2WVrJjjaJVWRvTd70kpHgIOd45HvKo6pvN00FVM-36zCQRVXvzl4SFfdwO_pfC_vrf7w_8P2a80WHkH2tUSD1RzwyF">promising that artists will be fairly compensated by their new generative AI tool</a>. A large proportion of Adobe’s customers are artists and designers whose jobs might be on the line because of generative AI. To retain their customer base, they have to provide some method of compensation. However, for other companies there seems like there is little incentive to compensate for data labour. Currently, you could easily have a business model which steals art and sells it with little consequence.</p>
+<p>Reanalysing financial compensation around labour should to be accompanied by more open conversation around salary levels. Many of us find that it is very taboo to talk about how much you earn, however being more transparent about our salaries might be a step towards improved fairness. Companies don’t just take advantage of this taboo, they seem to actively manufacture it. We should encourage talking about this more in our fields.</p>
+</section>
+<section id="bonus-question-what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h2>Bonus Question: What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#bonus-question-what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h2>
+<p>Other ways we could enact change include antagonistic data collection, such as lying on forums, or putting overlays on top of images so that AI can’t read it (<a class="reference external" href="https://techhq.com/2023/11/image-cloaking-and-prompt-poisoning-how-to-thwart-ai-copyright-theft/">image poisoning</a>). It is people who are generating the resource, so it is also people who could make it completely useless if they wanted to. Yet the vastness of the internet makes this challenging; you can’t get the whole internet to agree not to use a platform. Everyone has principles and personal ethics around AI, until they realise they can make Disney posters of their pets. On the other hand, we have just seen a <a class="reference external" href="https://www.theguardian.com/culture/2023/jul/14/the-hollywood-actors-strike-everything-you-need-to-know">large strike in Hollywood</a>, pushing the film industry to the edge. The reasons surrounding this strike predominantly related to scriptwriters’ fears around AI, and lack of residual payments for writers from streaming services. This strike was <a class="reference external" href="https://www.vanityfair.com/hollywood/2023/10/writers-strike-winners-and-losers">fairly successful</a>, and <a class="reference external" href="https://www.axios.com/2023/11/17/ai-strikes-labor-hollywood-sag-aftra">could give us some insight on what’s to come</a> regarding automation in the workforce.</p>
+<p>To further progress, we need to focus on education and awareness. People should learn about the whole spectrum of how we participate in data labour, and all the different ways in which we contribute to data production. Considering how much time children spend online today, data awareness must be taught in schools.</p>
+<p>Regarding the paper itself, we thought that a table would have worked far better than a long paper. Most people do not have time to comb through such a long piece. It would be more effective to have a condensed highlight of the 6 dimensions with actionable points.</p>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Nina Di Cara - RA &#64; Uni of Bristol</p></li>
+<li><p>Jessica Woodgate, PhD student, University of Bristol</p></li>
+<li><p>Huw Day, JGI Data Scientist, University of Bristol</p></li>
+<li><p>Natalie Zelenka, Senior Research Fellow (Health Data Science) &#64; UCL</p></li>
+<li><p>Melanie Stefan, Medical School Berlin</p></li>
+<li><p>Amy Joint, Publishing Manager, F1000</p></li>
+<li><p>Lucy Bowles, Data Scientist, Brandwatch</p></li>
+<li><p>Helen Sheehan, PhD student, University of Bristol</p></li>
+<li><p>Euan Bennet, Lecturer, University of Glasgow</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Queensland Public Service, Australia</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2023-10-25_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Sharing childrens’ data online</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+    
+    <a href="2023-11-22_writeup.html">
+      <span>Data Ethics Checklist at Seattle Children’s Hospital</span>
+      
+      <i class="fa fa-arrow-circle-right" ></i>
+      
+    </a>
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-examples-of-data-labour-do-you-perform-and-what-are-the-most-relevant-dimensions-how-does-this-compare-with-any-data-labour-that-is-used-in-your-work">What examples of data labour do you perform and what are the most relevant dimensions? How does this compare with any data labour that is used in your work?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-do-you-feel-are-the-strongest-opportunities-for-empowering-data-labourers-as-defined-by-the-article-can-you-think-of-any-important-opportunities-that-were-not-mentioned">What do you feel are the strongest opportunities for empowering data labourers as defined by the article? Can you think of any important opportunities that were not mentioned?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-would-you-incentivise-or-enact-the-changes-mentioned-in-the-papers-roadmap-in-your-field">How would you incentivise or enact the changes mentioned in the papers roadmap in your field?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-question-what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">Bonus Question: What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2023-11-08_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2023-11-08_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

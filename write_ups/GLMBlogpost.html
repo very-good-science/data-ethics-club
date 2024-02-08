@@ -1,0 +1,1238 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/GLMBlogpost';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/GLMBlogpost.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  01 July 2022
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/huw-day.html">Huw Day</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/blog.html">Blog</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tag"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/outreach.html">outreach</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-01-17_writeup.html">
+      17 January - Data Ethics Club’s New Year’s Resolutions 2024
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-12-06_writeup.html">
+      06 December - Anatomy of an AI-Powered Malicious Social Botnet
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-22_writeup.html">
+      22 November - Data Ethics Checklist at Seattle Children’s Hospital
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-11-08_writeup.html">
+      08 November - Dimensions of Data Labor
+    </a>
+  </li>
+  
+  <li>
+    <a href="2023-10-25_writeup.html">
+      25 October - Sharing childrens’ data online
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (5)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (47)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (12)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">The G in...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="the-g-in-glms-sometimes-stands-for-garbage-what-i-learnt-getting-students-to-design-algorithms-for-hiring-and-firing-teachers">
+<h1>The G in GLMs sometimes stands for “Garbage” – what I learnt getting students to design algorithms for hiring and firing teachers<a class="headerlink" href="#the-g-in-glms-sometimes-stands-for-garbage-what-i-learnt-getting-students-to-design-algorithms-for-hiring-and-firing-teachers" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is a standalone blogpost written by Huw Day in July 2022 on his experiences teaching data ethics outreach in schools. All opinions expressed are strictly his own.
+Nina Di Cara, Natalie Thurlby and Euan Bennet helped with the final edit.</p>
+</div>
+<section id="impact">
+<h2>Impact<a class="headerlink" href="#impact" title="Link to this heading">#</a></h2>
+<p>The following is a short excerpt from Cathy O’Neil’s book, Weapons of Math Destruction:</p>
+<p>“In 2007, Washington D.C’s new mayor, Adrian Fenty, was determined to turn around the city’s underperforming schools. He had his work cut out for him: at the time, barely one out of every two high school students was surviving to graduation after ninth grade, and only 8 percent of eighth graders were performing at grade level in math. Fenty hired an education reformer named Michelle Rhee to fill a powerful new post, chancellor of Washington’s schools.</p>
+<p>The going theory was that the students weren’t learning enough because their teachers weren’t doing a good job. So in 2009, Rhee implemented a plan to weed out the low-performing teachers. This is the trend in troubled school districts around the country, and from a systems engineering perspective the thinking makes perfect sense: Evaluate the teachers. Get rid of the worst ones, and place the best ones where they can do the most good. In the language of data scientists, this ‘optimises’ the school system, presumably ensuring better results for the kids. Except for ‘bad’ teachers, who could argue with that? Rhee developed a teacher assessment tool called IMPACT, and at the end of the 2009-10 school year the district fired all the teachers whose scores put them in the bottom 2 percent. At the end of the following year, another 5 percent, or 206 teachers, were booted out.”</p>
+<p>As part of my Data Ethics Club new year’s resolution, I’ve been giving a series of talks that are aimed to inspire secondary school students (ages 15-18) to study maths. Inspired by Cathy O’Neil’s work I entitled the talk “Weapons of Maths Destruction.” I taught students the basics of correlation and linear regression and then got students to design their own version of IMPACT, a tool for ranking, hiring and firing teachers (using the dread on their teachers’ faces to fuel participation).</p>
+</section>
+<section id="regressing">
+<h2>Regressing<a class="headerlink" href="#regressing" title="Link to this heading">#</a></h2>
+<p>The talk had two main parts. First, I (re-)introduced ideas of linear regression and correlation by showing a series of scatter plots. I introduced the product moment correlation coefficient (PMCC) as a value ‘r’ between -1 and +1. Rather than give them a formula, I told them that r was indicative of linear correlation (i.e. how well a straight line of best fit, fits the data) and that:</p>
+<ul class="simple">
+<li><p>r&gt;0 implied positive linear correlation</p></li>
+<li><p>r&lt;0 implied negative linear correlation</p></li>
+<li><p>r=0 implied little linear correlation.</p></li>
+</ul>
+<p>I tested their understanding by looking at a few different datasets and guess the value of r (thumbs up for +1, thumbs down for -1 etc.), using these datasets to introduce some basic ideas along the way.</p>
+<p>I used a constructed data set of “Time spent playing video games in a week” versus “Number of police visits per year” with only two points (10 hours, 0 police visits and 20 hours, 1 police visit) to illustrate the importance of the size of a dataset. In this case, r=+1 (exactly). I outlined to the students that if this ever happens then there’s more than likely an error with data collection or the analysis (similarly with r=-1). I then asked the students “Does this data prove that there’s a link between violent behaviour and playing video games?”</p>
+<p>Of course, the students said no, not least because of their own personal bias. But they frequently identified why using number of police visits as a proxy variable for violent behaviour is problematic and even if there was correlation, it does not mean there is causation.</p>
+<p>The next example was inspired by some <a class="reference external" href="https://www.tylervigen.com/spurious-correlations">spurious correlations</a>: “% of people wearing seatbelts in cars in the US per decade” versus “Number of astronaut deaths on mission in the US per decade”. I was keen to stress that the x-axis only considered seatbelts in cars that were specifically not in space and that the y-axis considered astronauts deaths that were not in cars and who were attempting to go into space. There is reasonably significant negative linear correlation (r=-0.61) between the two variables.</p>
+<p>Everyone knows the phrase “correlation does not imply causation” but that doesn’t mean it’s not a fun exercise to try and explain correlation anyway. I invited students to suggest ideas, prompting them by asking about how the two variables in question changed over time. The point is that both variables have a relationship with time. With time as the hidden proxy variable in-between the two, the stronger than casual correlation becomes more apparent. However, if I worked at NASA and wanted to improve astronaut safety standards, it would likely not be a good use of resources to get more members of the public to wear seat belts in this endeavour.</p>
+<p>For the final example, I had some data of age in years (ranging from 0 to 100) versus time to “traverse” 100 metres (apparently, it’s neither scientific nor ethical to get babies/grandparents to run). The linear correlation here is understandably very low (r=+0.24) but as the students pointed out, this doesn’t mean that there isn’t a strong relationship between the two variables. Some suggested that perhaps splitting ages 0-25 and 25-100 into two different analyses would be more insightful. Others also suggested that perhaps a straight line isn’t the best tool here, perhaps a quadratic or exponential curve would model the data better. As any student who makes mistakes on a calculator knows, a calculator (or a computer) will always do the calculation you ask it to do, even if it’s the wrong on.</p>
+<p>All of this illustrated that when we use data science tools like averages or PMCCs to zoom in on the data, we inevitably lose information as we zoom. A skilled data scientist has to know how and where to zoom in order to summarise data whilst keeping a clear idea of the bigger picture.</p>
+</section>
+<section id="the-hidden-bullseye">
+<h2>The Hidden Bullseye<a class="headerlink" href="#the-hidden-bullseye" title="Link to this heading">#</a></h2>
+<p>Building off the final example, we tried to improve this model by adding additional variables based on students’ suggestions (BMI, hours of exercise per week, injuries/health conditions etc.) We go from a linear model to a so-called Generalised Linear Model (GLM). The premise is the same as using a single predictor variable, but we just have a different correlation coefficient for each predictor and the outcome variables allowing us to weight how important different factors are. We had already mentioned the importance of having a sufficiently large and diverse dataset when using linear models involving only one predictor variable. All of a sudden, with multiple input variables, we desired a dataset of significant size and variability before we could start drawing meaningful conclusions from any models we deduced.</p>
+<p>We used this to introduce the idea of the importance of feedback loops. When we are attempting to predict an outcome, we can make a guess and then look at how close we are and adjust accordingly. We can’t always tell what’s making us miss, but if we are predicting something, we can usually see retrospectively how far off target we are (an archer can take a shot at a target and see how far off they are). As the authors of Noise (Daniel Kahneman, Oliver Sibony and Cass R. Sunstein) point out, the key to this adjustment is being confident that your shots are not noisy. A skilled archer with a misaligned sight can be confident that they are shooting where the sight points. When they miss the target, they can more confidently adjust their sights to compensate and move a tight grouping towards the bullseye. An unskilled archer with properly aligned sights might have shots with a wide scatter but generally around the bullseye. All they need to do now is tighten the grouping.</p>
+<p>But what happens when you can’t see the bullseye?</p>
+</section>
+<section id="what-could-go-wrong">
+<h2>What could go wrong?<a class="headerlink" href="#what-could-go-wrong" title="Link to this heading">#</a></h2>
+<p>The second part of the talk we (either as one group or in smaller groups depending on audience size) designed an algorithm for hiring and firing teachers. We break this down by answering three questions:</p>
+<ol class="arabic simple">
+<li><p>What makes a good teacher?</p></li>
+</ol>
+<p>I asked students to stop thinking like data scientists and just tell me what makes a good teacher (or indeed, a bad one). Whilst discouraging naming names, it was particularly interesting to see students reflect on their own experiences of when they’ve enjoyed teachers’ lessons and to just list things that were good attributes. Common suggestions: subject knowledge, empathy, classroom management, subject enthusiasm, interpersonal schools, being able to take critical feedback and on one occasion, dress sense, when I showed up in a slightly colourful shirt.</p>
+<p>When I had groups that were stuck for ideas, I encouraged them to recall their favourite teachers and what made them good. When that didn’t work, we thought about the worst teachers we had. I tried to avoid any naming and shaming and get students to get to the root of an issue. Yes this teacher was unfair to you but what characteristic made them like that?</p>
+<ol class="arabic simple" start="2">
+<li><p>How would you measure the above variables? What proxy variables would you want to use?</p></li>
+</ol>
+<p>Now we must put our data science caps on. I had students think about what sort of data was collected about them and their teachers. To make the problem as realistic as possible, we considered data that was already collected on them, excluding data that could be tested (e.g. handing out empathy quotient tests to every teacher as a metric for their empathy). This massively restricts the variables we can work with and starts hinting towards the students at how difficult this problem is. After we captured what makes a good teacher from the first question, in the second question we had to ask ourselves what proxy variables we can use to measure this? Common suggestions: grades, grade increase, attendance, number of detentions given out, teacher’s education level, number of complaints against teachers.</p>
+<p>This is the point where students start to realise how difficult this problem is. Having spent the first half of the presentation showing them how problematic using proxy variables can be for mathematical modelling, I now tasked them with using proxy variables to best model a very subjective quantity.</p>
+<ol class="arabic simple" start="3">
+<li><p>How would you weight the dependence on different variables? Give an r number for each one.</p></li>
+</ol>
+<p>The premise here is simple. For each proxy variable we came up with from the second question, what is their correlation coefficient with good-teacher-ness? These judgement calls were based on discussions amongst students as to how important each variable was and whether its effect was positive (grades, grade improvement, % attendance) or negative (number of complains, number of detentions given out).</p>
+<p>One student suggested to me that age should be a variable that should be considered because “Old people are boring and boring people make bad teachers”. This led us to an interesting discussion on discrimination based on various attributes inherent to us as people (race, gender, etc.) and the utility of protected variables.</p>
+<p>Another student suggested that as our models tended to prioritise grade and grade improvement, we should consider how this would rank teachers at more prestigious schools more highly. If students must pass an entrance exam to attend a certain school, then it might be fair to assume the grades of students there would be higher than average. Perhaps if such a school had an option for boarders then the likelihood of students missing class would also decrease, irrelevant of the teachers. Should teachers working at such a school benefit from the school’s inherent prestige, should this be a protected variable or should our model actively penalise teachers from more prestigious schools to offset this inherent advantage? Some even proposed coupling variables so that the benefits of high attendance or grades at a prestigious would be balanced out in the teacher ranking, leading to potentially fairer evaluations of teachers.</p>
+<p>For every scenario where a certain variable was given a high weighting (large absolute value for its correlation coeffecient), I challenged students to think of a scenario where that could go wrong. A common dichotomy was between grades and grade improvement: should we value teachers more who are able to improve students’ grades, or keep them at a high grade? Is it more valuable to keep a roomful of A* students at that level, or to be able to bring a roomful of C students up to an A?</p>
+</section>
+<section id="the-winner-is-the-one-with-the-least-rubbish-algorithm">
+<h2>The winner is the one with the least rubbish algorithm<a class="headerlink" href="#the-winner-is-the-one-with-the-least-rubbish-algorithm" title="Link to this heading">#</a></h2>
+<p>We explored and discussed the pros and cons of these systems. Whilst some students were quick to claim there was no bias in these systems, most were quick to note that their bias was actually encoded into these systems by their choices of correlation coefficient. At least this bias was consistent - a person evaluating teachers might evaluate the same two teachers differently depending on their mood that day (or how soon their lunchbreak was), our algorithm would not have this issue.</p>
+<p>We had already touched on the importance of sample size in our running speed example, and this became more apparent when we looked at the variables we were using. Some variables were (e.g. % attendance) per class. If a teacher teaches 5 classes, they have 5 data points to work with (most models had at least 5 input variables, for reference). For variables which were per student (e.g. grades, grade improvement), if we say 30 students to a class, we still only have 150 data points to work with – not enough. Even if these models were perfect predictors of how good a teacher is, the data going into them was insufficient to make them work well.</p>
+<p>The frequent debates over what weighting should be had highlighted an issue of explainability. We saw with the astronauts and seatbelt example that sometimes correlations can be explained, but that doesn’t indicate dependence between them. A teacher might be penalised by a model for giving out too many detentions, but if they have many students misbehaving and just stop giving out detentions and lose control of the class, does that make them a better teacher? According to a model that penalises giving out detentions, yes it does.</p>
+<p>Perhaps the most important aspect was the lack of feedback loop. When you try and hit a target and you miss, you can adjust your aim to get closer next time. This is the case when your model is used to predict the outcome of an event (for example predicting the weather forecast, the price of a stock or the number of horse deaths in a race). When you have a system that is evaluative instead of predictive (be it for teacher good-ness, how long of a prison sentence someone should serve or indeed what grade students should get if they can’t sit their exams due to a global pandemic), you can no longer see the target and so there is no built-in feedback loop. When you can’t see a target, evaluations often become more like judgements, some how given more value. This is true often whether a computer makes the judgement or a so-called “expert” does.</p>
+<p>We frequently identify someone as an expert is frequently qualifications and recognition from a peer group of other experts (a martial arts black belt usually gets given their black belt from another black belt holder, although they might have just got the belt off eBay). That way, even if you’re not a black belt, you can see someone walking around with a black belt and think “ok they must know what they’re talking about”. We use qualifications like that a proxy for expertise, sometimes to our own detriment - a black belt covers about two inches of your back, you’ve got to cover the rest yourself. The black belt equivalent for a decision making algorithms is an entirely separate blogpost, still very much in the making as industry standards begin to emerge, but it seems to take more expertise and more than a quick glance at someone’s belt line to be able to make that judgement.</p>
+<p>This wasn’t to say that automated systems have no place in decision making. When I asked students at the start of the talk if they’d rather have an evaluation (such as university admission, prison sentence or whether they got a certain job) made about them by a person or a machine, most would rather a person, but many wanted an automated system although often with the caveat that they would want the final decision made by a person who was informed by a machine.</p>
+</section>
+<section id="closing-reflections">
+<h2>Closing Reflections<a class="headerlink" href="#closing-reflections" title="Link to this heading">#</a></h2>
+<p>The original goal was to have the task be done in small groups of 4-5 people. Sometimes that was my entire audience, which meant that discussions happened right before me. In the case of online talks, where enthusiasm to participate was usually limited to the chat box, I would have an entire group discuss their ideas in the chat with me acting as a mediator. The few times I had larger, in person groups, was when this exercise really shined. When the students didn’t have me hovering over their shoulders and could discuss the ethical merits of their algorithms without fear of judgement, they spoke much more freely. This reflected something that I think Data Ethics Club is all about - rather than giving a small group of people the job of thinking about data ethics, we need to give many people the <em>space</em> to think about it.</p>
+<p>I gave talks for GCSE and A Level students with varying levels of sophistication across audiences. I think below GCSE level the technical hurdles of understanding the earlier part of the talk take away from the more nuanced discussion and I also think there’s potential for higher level data scientists to find the exercise slightly patronising. This is the difficult balance data ethicists find themselves in between explainability and not just stating the obvious. Unfortunately “hiring and firing teachers using algorithmic decision making is not the best use of funds” is not obvious to all data scientists.</p>
+<p>At the end of a talk I gave at a school in south Bristol, one student asked me “what went wrong with predicting our GCSE grades during covid?” I fumbled with my answer, trying to appease and validate a roomful of understandably frustrated bright minds who felt like they had been unfairly penalised by an unseen algorithm in ways they didn’t understand – much in the way teachers in Washington DC had been penalised by IMPACT.</p>
+<p>On the bus home I thought more about the answer and even made a meme about it.</p>
+<p>There are two answers; one is a nuanced discussion about how predictive models have value but are not the unbiased, omniscient systems they are often lauded and expected to be. They frequently outperform humans in tests of noise, but are nevertheless suceptible to bias in their own way. In particular, their bias is consistent. If you can see the bullseye (as in the predictive case) you can frequently adjust your model to get closer and closer. If you can’t, then our ability to have nuanced discussions of what makes an evaluative system better than another is not yet well developed (you can’t get two such algorithms to fight it out as you can two black belts). Such an answer is explored deeply and robustly in books like Weapons of Math Destruction by Cathy O’Neil, Automating Inequality by Virginia Eubanks and Noise by Daniel Kahneman, Oliver Sibony and Cass R. Sunstein, all books which influenced this talk and that I highly recommended to anyone interested in this topic.</p>
+<p>The other answer is a lot more simple: The G in GLMs sometimes stands for “Garbage”.</p>
+<p>Thank you to Christopher Jones and Sidhivi Sharma for letting me bounce the early versions of this talk off you and my colleagues at Widening Participation (particuarly Sarah Almond and Gail Born) for giving me the opportunities to give these talks. Thanks to the rest of the Data Ethics crew (Nina Di Cara, Natalie Thurlby, Euan Bennet and Roman Shkunov, among many many others) for inspiring me to think more about these ideas.</p>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2022-06-16_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>JGI Data Week 2022: Automating Inequality</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+    
+    <a href="MetaphorsBlogPost.html">
+      <span>Cleaning the oil spill of data metaphors</span>
+      
+      <i class="fa fa-arrow-circle-right" ></i>
+      
+    </a>
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#impact">Impact</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regressing">Regressing</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-hidden-bullseye">The Hidden Bullseye</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-could-go-wrong">What could go wrong?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-winner-is-the-one-with-the-least-rubbish-algorithm">The winner is the one with the least rubbish algorithm</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#closing-reflections">Closing Reflections</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/GLMBlogpost.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/GLMBlogpost.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

@@ -1,30 +1,21 @@
-# Join in
+# 🤗 Join In
 
-Everyone is welcome to get involved in Data Ethics Club, as much or as little as you'd like to! We would love to [hear your point of view at our discussion groups](#upcoming-meetings), to have your support in [organising or running a meeting](organising), or to add your [contributions](contributing) to our reading list.  
+```{button-link} https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1
+    :color: secondary
+    :align: center
+    :outline:
+    Join our mailing list to get meeting reminders
+```
+
+Everyone is welcome to get involved in _Data Ethics Club_, as much or as little as you'd like to! We would love to [hear your point of view at our discussion groups](#upcoming-meetings), to have your support in [organising or running a meeting](organising), or to add your [contributions](contributing) to our reading list.  
 
 You don't need to be a data ethicist (we're not!), or a data scientist - having a variety of different people is how we learn from each other. It's a friendly and welcoming group and we often have new people drop by, so why not try it?  
 
-If you're looking for information on how to set up your own Data Ethics Club then you should head to [our section about re-using our materials](../how_to/reuse_dec). 
+We meet every other week for one hour on Zoom (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
+Out upcoming meeting dates are available below. 
+If you would like to get email reminders about the content and dates for the next meeting then click below to join our mailing list! 
 
-```{admonition} Stay up to date
-:class: tip
-✨[Sign up to the mailing list](../mailing-list)✨  
-
-If you would like an email before each meeting with the reading material and a link to the Zoom call then join the mailing list.
-Sometimes we also send out information about other data ethics related events being organised by our community. 
-
-```
-
-## How our meetings work
-
-We meet every other week (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
-Out upcoming meeting dates are available below. They last one hour and are held on Zoom. 
-We usually hear a short summary of the piece, split into breakout rooms to discuss some prompts, and then come back together to share our thoughts as a group. 
-
-If you'd like a flavour of what we usually discuss then go to [our `Write Ups` page](../write_ups/write-ups) and click on any of the summaries from past meetings to read about our discussions (these are also listed below).
-
-We follow a [code of conduct](code-of-conduct) during Data Ethics Group which is designed to make sure everyone feels welcome and confortable sharing their experiences and take on the material. 
-Please read it before attending.
+Please read our [Code of Conduct](code-of-conduct) before attending.
 
 
 ## Upcoming meetings
@@ -105,4 +96,4 @@ You can see a record of what we have discussed previously here.
 :hidden:
 code-of-conduct.md
 contributing.md
-organising.md
+```

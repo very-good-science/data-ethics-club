@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=/write-ups/2021/28-07-21_writeup.html" />
+<meta http-equiv="refresh" content="0; url=/write-ups/28-07-21_writeup.html" />

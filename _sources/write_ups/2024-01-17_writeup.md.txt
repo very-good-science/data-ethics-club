@@ -1,0 +1,52 @@
+---
+blogpost: true
+date: Jan 17, 2024
+author: Jessica Woodgate
+category: Write Up
+tags: resolutions
+---
+
+# Data Ethics Club's New Year's Resolutions 2024
+
+```{admonition} What's this? 
+This is a summary of Wednesday 17th January's Data Ethics Club discussion. For our first meeting of the year we usually think about what our resolutions are going to be for the year ahead, and how we could try to achieve them. Those of us that came last year can check back to see if we managed to achieve [the resolutions we made then](https://dataethicsclub.com/write_ups/2023/25-01-23_writeup.html)!
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Amy Joint, Huw Day, Natalie Thurlby, Nina Di Cara and Vanessa Hanschke helped with the final edit.
+```
+
+## Did you have any Data Ethics resolutions last year?
+
+Last year, to be more collaborative and help improve public awareness, we wanted to find ways to introduce more Data Ethics material into our work. In some of our lectures for staff and students this materialised into a “Worst Case Scenarios” segment, going over real harms that people could come across. We also had resolutions regarding our participation in Data Ethics Club (DEC), including persevering to turn up even when timezones were challenging, and applying our publishing skills to DEC. One application of these publishing skills could be blog posts, of which five were written in 2022 by different members. The blog posts weren’t maintained in 2023, but we would love to pick it up again in 2024!
+
+## Do you have a DEC resolution for this year?
+
+Similar to last year, we have resolutions regarding our participation in DEC to come to meetings more regularly and contribute more, for instance by taking notes. There are a lot of interesting data ethics conversation taking place around us, seeding many ideas that we are keen to talk about and advocate for. This could be manifested in a writeup or blog post to consolidate our thoughts. Cultivating participation could also be helped by getting in touch with people in our networks to work on creating content. Expanding our scope from the online realm, we would love to have more in person socials – perhaps during Data Week, which is in June, or around Easter.
+
+Widening the reach of DEC is something we would like to improve in 2024, especially through broadening the diversity of people attending meetings. One way to approach this could be through adapting the way we pitch DEC, moving the narrative from its focus on data science to accommodate other background like engineers and analysts. It can be hugely rewarding to use data science to help people in other fields, for instance by being data ethics agony aunts for people. In taking these roles, it is important not to put the onus on one person, and to make sure we are collecting community views. Creating communities in our workplaces can help foster good data ethics practices, providing a space where we pause and reflect about our work together, assessing whether we are going in the right direction. Attracting more industry people would improve the scope of DEC; evening meetings might be a good step towards making this happen. For those of us who teach, we would like to be more deliberate about incorporating ethics talking points in our lectures, for instance by incorporating the [Data Hazards](https://datahazards.com/) labels.
+
+Maintaining awareness of how data ethics is taught in various institutes and the emergence of new departments is important to make sure we stay in the loop of the current landscape. For example, there are some interesting projects happening at Durham University and the University of Edinburgh involving philosophy and data analytics. The approach of different institutes to data ethics is an interesting topic which we might like to write a blog about. As well as universities, there are summer schools like the [CODATA-RDA Schools of Research Data Science](https://codata.org/initiatives/data-skills/research-data-science-summer-schools/), for researchers from low- to middle-income countries. The implementation of data ethics in low- and middle-income economic contexts is something which we would like to read more on.
+
+For our own personal development, overcoming imposter syndrome and being unafraid to ask questions is an important goal for this year. We have valuable insights to contribute and would like to speak more about AI with those around us, ranging from our families to our colleagues. Prompting people to reflect on their assumptions, such as questioning why they think a certain way, or what the deeper meaning is, incites useful contemplation. Reflection is something we can also work on internally, checking in with whether we are staying true to our morals, or saying something is bad but going ahead with it anyway. At the moment, seeking funding seems to require enthusiasm about the future of AI which is challenging to marry with our reluctance to evangelise about AI. Whilst staying true to our values and maintaining quality critical analysis, we could be more constructively positive about the papers we read, ensuring we intentionally highlight the good things people are working on in the field of data ethics. There are many positive applications for tools that we come across, even on small and simple scales, which might be another interesting angle for a blog post.
+
+In addition to improving our reflective and analytical abilities, there are several avenues we would like to upskill in. These include learning R, completing qualifications we are currently undergoing, and synthetic data generation. When learning techniques and using new packages, we must be consistent with testing and ensuring we are getting the right results.
+
+Things we learn in DEC can be incorporated into our own research, such as those of us in academia working with our own university to develop suitable data ethics models and investigating the insufficiency of current legislation surrounding AI and politics. We would also like to complete a survey into [neuroethics](https://plato.stanford.edu/entries/neuroethics/), [neurocapitalism](https://www.researchgate.net/publication/309765461_What_Is_Neurocapitalism_and_Why_Are_We_Living_In_It#fullTextFileContent) and the [sale of neurodata](https://www.nature.com/articles/s41596-023-00873-0). We have aspirations to publish our research in data ethics and write more about our work in clinical trials – particularly about missing data in double blind trials. Whilst pursuing research avenues, we should be reflective of how much control we have over our own practices and curious about what other people are doing. If others wish to use our work, we must be properly aware of their intended purposes to try and identify unintended consequences. This is helped by regularly asking ourselves how we would feel if our work ended up as a newspaper headline, and if we would stand by it.
+
+When we are concerned about the working practices of others, we should try and help them to understand the broader implications of what they are doing. This means being more annoying; probing people about what they think about data and AI and how they understand it. For example, it is important people understand that large language models don’t ‘learn’ in the same way that people do. We should be mindful of how perceptions of AI vary and the issues that arise across different fields. In medicine, for instance, there are issues of accountability such as diagnostic tools implementing AI not being held to the same account as ordinary diagnostic tests, and problems with insufficient education about what harm practitioners should look out for. Careful analysis is needed to understand how AI relevant metrics relate to the standards used for other diagnostic tests. Improving AI practices necessitates going in harder against corporations choosing to use AI tools in an unethical way, and universities who point their students towards tools without providing a proper education about them. More questions need to be asked about the origins of the data we use and its ownership. 
+
+## Are there examples in our life where ethics is done really well?
+
+The Australian Government has announced a new framework to construct safeguards against the negative implications of AI; we will be tracking how this story unfolds. However, there are many improvements that could be made. For example, the NHS and healthcare systems are currently using very complex AI solutions and big data to solve large problems like cancer diagnosis. These approaches are exciting, but expensive both computationally and ethically. Other, more simple tools could be quite effective in solving wider and more fundamental problems like getting patients to turn up to appointments. However, there are ethical concerns with using AI to tackle absences; the case of school absences requires use of data containing sensitive information about ethnic background and socio-economic status.
+
+## Attendees
+- Nina Di Cara, Research Associate, University of Bristol, [ninadicara](https://github.com/ninadicara/), [@ninadicara](https://twitter.com/ninadicara) :tornado: 
+- Huw Day, Data Scientist, Jean Golding Institute, [@disco_huw](https://twitter.com/disco_huw)
+- Amy Joint, freerange publisher, [@amyjointsci](https://twitter.com/amyjointsci) 
+- Vanessa Hanschke, PhD, University of Bristol
+- Virginia Scarlett, Open Data Specialist, HHMI Janelia Research Campus
+- Melanie Stefan, Computational Neurobiologist, Medical School Berlin 
+- Ufuk Tasdan, PhDc, University of Bristol, [@ufuktasdan](https://www.linkedin.com/in/ufuk-tasdan-10265498/) :thumbsup: 
+- Judi Evans, Research Co-ordinator, eDRIS, Public Health Scotland
+- Euan Bennet, Lecturer, University of Glasgow, [@DrEuanBennet](https://twitter.com/DrEuanBennet)
+- [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/), Citizen Developer, Australian Public Service, Brisbane
+- Chris Jones, soon-to-be Data Scientist (formerly University of Bristol PhD)
