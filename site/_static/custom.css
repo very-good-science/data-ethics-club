@@ -8,12 +8,11 @@
     }
 
 /* Here we're adding the custom DEC colours to be used for highlights etc 
+#28c39c is the DEC logo teal - but it doesn't look good as primary colour. Too vibrant?
+*/
 
 html[data-theme="light"] {
-      --pst-color-primary: #28c39c;
-      --pst-color-secondary: #d63384;
-      --pst-colour-info: #8159D3;
-
+      --pst-color-secondary: #C3284F;
   }
   
 html[data-theme="dark"] {
