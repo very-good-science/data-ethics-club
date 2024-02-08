@@ -27,13 +27,20 @@ _Data Ethics Club_ is a "journal" club about doing data science ethically.
     :align: center
     Click here for the details of our next meeting
 ```
+```{button-link} https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1
+    :link-type: url
+    :color: primary
+    :align: center
+    :outline:
+    Join the mailing list to get future meeting reminders
+```
 
 Our meetings are open to all and we are lucky to have attendees from around the world and with diverse expertise from data protection lawyers, to healthcare data scientists, to ethics PhD students, to people who are just interested in data. 
-We also love when people contribute in other ways too, whether that's suggesting content for our reading list or writing a blog for the website!
-
+We also love when people [contribute in other ways too](join_in/contributing), whether that's suggesting content for [our reading list](reading-list) or [writing a blog for the website](write_ups/write-ups)!
+You might even want to [re-use our materials](how_to/reuse_dec) to start your own group.
 </p>
 
-
+<!-- 
 ::::{grid} 3
 :::{grid-item-card}  Get meeting reminders
 :link: <https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1>
@@ -52,7 +59,7 @@ We also love when people contribute in other ways too, whether that's suggesting
 :text-align: center
 {material-outlined}`edit_note;4em;sd-text-secondary`
 :::
-::::
+:::: -->
 
 If you have any questions, or want to know more, [then get in touch with our organisers](about/contact).
 
