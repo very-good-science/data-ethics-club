@@ -2,8 +2,7 @@
 myst:
   html_meta:
     "description lang=en": |
-      Top-level documentation for pydata-sphinx theme, with links to the rest
-      of the site..
+      Data Ethics Club information, reading lists and meeting details.
 html_theme.sidebar_secondary.remove: true
 ---
 
