@@ -51,7 +51,7 @@ This summary was written by Huw Day using information from the three pieces of r
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading:
-- How do we feel about the perceived benefits of using chatbots (e.g. as a therapist, role play to teach social ettiquette, friend/companion for those who are lonely/isolated)? Are the benefits worth it?
+- How do we feel about the perceived benefits of using chatbots (e.g. as a therapist, role play to teach social ettiquette, friend/companion for those who are lonely/isolated)? Do the benefits outweigh the ethical costs?
 - How should data be stored for these chatbots?
 - What responsibility does Replika have for the wellbeing of their users, particuarly those affected by any "forgetting" from software updates?
 
