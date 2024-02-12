@@ -15,7 +15,8 @@ category: Write Up
 tags: a category, another
 ---
 ```
-So, multiple authors are separated by a comma, so are tags. 
+So, multiple authors are separated by a comma, so are tags.  
+
 5. IMPORTANT: to save, scroll down the the bottom and choose the "Create a new branch for this commit and start a pull request" option (this is not the default). Name the new branch something relating to the write up, e.g. "PrivateSpies", then click "Propose New File".  
 6. You will be taken automatically to create a pull request. Write in any things that you'd like any particular feedback on, in the comments. You can also add reviewers here.  
 7. Lastly, you can now also update the main list of meetings and write ups. This is in `contents>join_in>join_in.md`. Move the first line of the table under `Upcoming Meetings` to be the first line of the lower table `Past Meetings`. You need to add one column to the row, which you do by adding a `|` symbol to the end of the row. You can then write something like "Read the write up" and link to the write up you have just created using the link `../write_ups/YYYY_MM_DD_writeup`. Commit this change to your branch again like you did in Step 6. 
