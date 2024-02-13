@@ -1,6 +1,6 @@
 ---
 blogpost: true
-date: March 17, 2021
+date: February 14, 2024
 author: Vanessa Hanschke
 category: Blog
 tags: dataethics
