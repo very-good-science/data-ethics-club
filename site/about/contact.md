@@ -38,7 +38,7 @@ The Data Ethics Club organising team is currently made up of:
 * - {fab}`github`: [@jess-mw](https://github.com/jess-mw)
   - {fab}`github`: [@vairylein](https://github.com/vairylein)
   - {fab}`github`: [@amyrejoint](https://github.com/amyrejoint)
-* - {far}`address-card`: [UoB Profile](https://research-information.bris.ac.uk/en/persons/jessica-woodgate)
+* - {far}`address-card`: [Website](https://jessica-woodgate.github.io/)
   - {far}`address-card`: [Website](https://www.vanessahanschke.com/)
   - {fab}`twitter`: [@AmyJointSci](https://twitter.com/AmyJointSci)
 * - {far}`envelope`: [jessica.woodgate@bristol.ac.uk](mailto:jessica.woodgate@bristol.ac.uk)
