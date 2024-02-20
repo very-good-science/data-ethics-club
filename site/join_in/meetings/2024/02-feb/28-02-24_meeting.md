@@ -29,11 +29,11 @@ Link to content: [Google Search Really Has Gotten Worse, Researchers Find][conte
 ### Description
 You're welcome to join us for our next Data Ethics Club meeting on [28th Feb 2024 at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
-This time we're going to watch/read [Google Search Really Has Gotten Worse, Researchers Find][content] by Jason Koebler, which discusses a research article that finds a lot of spam making its way into search results of product reviews. 
+This time we're going to watch/read [Google Search Really Has Gotten Worse, Researchers Find][content] by Jason Koebler, which discusses a research paper that finds a lot of spam making its way into search results of product reviews. 
 
 Thank you to Euan Bennet for suggesting this week's content.
 
-You can read [this article](https://www.404media.co/google-search-really-has-gotten-worse-researchers-find/) on 404 media by subscribing for free or read the paper to the year long study it was based on by [Bevendorff et al](https://downloads.webis.de/publications/papers/bevendorff_2024a.pdf) which will be presented at ECIR in March.
+You can read [this article](https://www.404media.co/google-search-really-has-gotten-worse-researchers-find/) on 404 media by subscribing for free or read the original research paper that it was based on by [Bevendorff et al](https://downloads.webis.de/publications/papers/bevendorff_2024a.pdf) which will be presented at ECIR in March.
 
 ### Summary
 
