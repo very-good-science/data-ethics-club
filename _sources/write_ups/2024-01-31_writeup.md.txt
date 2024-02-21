@@ -1,3 +1,11 @@
+---
+blogpost: true
+date: January 31, 2024
+author: Jessica Woodgate
+category: Write Up
+tags: automation, generativeAI, labour rights, nlp, education
+---
+
 # Data Ethics Club: [Duolingo cuts workers as it relies more on AI](https://www.washingtonpost.com/technology/2024/01/10/duolingo-ai-layoffs/)
 
 
