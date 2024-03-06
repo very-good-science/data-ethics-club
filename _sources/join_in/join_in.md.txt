@@ -21,8 +21,7 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [28.02.2024](meetings/2024/02-feb/28-02-24_meeting), 1pm  | [Google Search Really Has Gotten Worse, Researchers Find](https://www.404media.co/google-search-really-has-gotten-worse-researchers-find/)|
-| [13.03.2024](meetings/2024/03-mar/13-03-24_meeting), 1pm  | To be decided|
+| [13.03.2024](meetings/2024/03-mar/13-03-24_meeting), 1pm  | Values in Generative AI (discussing Gemini and DignifAI)|
 | [27.03.2024](meetings/2024/03-mar/27-03-24_meeting), 1pm  | To be decided|
 
 ## Past Meetings
@@ -30,6 +29,7 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [28.02.2024](meetings/2024/02-feb/28-02-24_meeting), 1pm  | [Google Search Really Has Gotten Worse, Researchers Find](https://www.404media.co/google-search-really-has-gotten-worse-researchers-find/)| | 
 | [14.02.2024](meetings/2024/02-feb/14-02-24_meeting), 1pm  | [Italian Supervisory Authority clamps down on Replika chatbot](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9852506#english)| Coming soon |
 | [31.01.2024](meetings/2024/01-jan/31-01-24_meeting), 1pm  | [Duolingo cuts workers as it relies more on AI](https://www.washingtonpost.com/technology/2024/01/10/duolingo-ai-layoffs/)|  [Read the write up](../write_ups/2024/31-01-24_writeup) |
 | [17.01.2024](meetings/2024/01-jan/17-01-24_meeting), 1pm  | New Years Data Ethics Resolutions | [Read the write up](../write_ups/2024/17-01-24_writeup) | 
