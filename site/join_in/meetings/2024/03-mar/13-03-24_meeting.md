@@ -24,7 +24,7 @@ Usual time 13:00-14:00
 
 [Zoom link][zoom]
 
-Content 1: [Misogynists are using DignifAI to cover up women in worrying new trend](https://www.indy100.com/science-tech/dignifai-ai-covering-up-women)
+Content 1: [Misogynists are using DignifAI to cover up women in worrying new trend](https://www.indy100.com/science-tech/dignifai-ai-covering-up-women)  
 Content 2: [Thread from Margaret Mitchell about Gemini and what went wrong](https://threadreaderapp.com/thread/1761860673989193959.html)
 
 
@@ -32,7 +32,7 @@ Content 2: [Thread from Margaret Mitchell about Gemini and what went wrong](http
 You're welcome to join us for our next Data Ethics Club meeting on [13th March 2024 at 1pm UK time][timedate]. 
 You don't need to register, just pop in. 
 
-This week at Data Ethics Club we're going to be considering two recent AI image generation outcries, and using them to discuss how values are embedded in the creation of new/alternative realities. To do this we're focussing on two pieces of content - the first is [an AI app that adds clothes to women's bodies](https://www.indy100.com/science-tech/dignifai-ai-covering-up-women) (so-call DignifAI) and the second is [a thread from Margaret Mitchell about Google's Gemini tool](https://threadreaderapp.com/thread/1761860673989193959.html), and how it could have done better. 
+This week at Data Ethics Club we're going to be considering two recent AI image generation outcries, and using them to discuss how values are embedded in the creation of new/alternative realities. To do this we're focussing on two pieces of content - the first is [an AI app that adds clothes to women's bodies](https://www.indy100.com/science-tech/dignifai-ai-covering-up-women) (so-called DignifAI) and the second is [a thread from Margaret Mitchell about Google's Gemini tool](https://threadreaderapp.com/thread/1761860673989193959.html), and how it could have done better. 
 
 We will start the meeting with a short summary about DignifAI from journalist Catherine Shuttleworth who wrote the article we're reading about it. Thank you Catherine!
 
