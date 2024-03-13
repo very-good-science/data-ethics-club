@@ -9,7 +9,7 @@ tags: dataethics, children, research ethics, healthcare
 # Data Ethics Checklist - Author's Response
 
 ```{admonition} What's this? 
-Back in November 2023, we spent a Data Ethics Club session discussing [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital”](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf?fbclid=IwAR17HKoYE8dgy0nB4K6RZlrd3XRGJZr62G_McYd7sZg6HXDhHjxhtgBbSk4), a Perspective paper outlining the importance of ethical data practices in healthcare,
+Back in November 2023, we spent a Data Ethics Club session discussing ["The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital”](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf?fbclid=IwAR17HKoYE8dgy0nB4K6RZlrd3XRGJZr62G_McYd7sZg6HXDhHjxhtgBbSk4), a Perspective paper outlining the importance of ethical data practices in healthcare,
 which also presented a checklist for evaluating this. You can read our write-up on the discussion around this paper [here](https://dataethicsclub.com/write_ups/2023-11-22_writeup.html).
 Dwight Barry, co-author of the Perspective paper and checklist, is Principal Data Scientist at Seattle Children’s Hospital. He's kindly taken the time to respond to our discussion with some additional context below, with the final edit overseen by Amy Joint and Huw Day.
 ```
