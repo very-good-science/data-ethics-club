@@ -11,7 +11,8 @@ tags: dataethics, children, research ethics, healthcare
 ```{admonition} What's this? 
 Back in November 2023, we spent a Data Ethics Club session discussing [The case for information fiduciaries: The implementation of a data ethics checklist at Seattle Children’s Hospital”](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf?fbclid=IwAR17HKoYE8dgy0nB4K6RZlrd3XRGJZr62G_McYd7sZg6HXDhHjxhtgBbSk4), a Perspective paper outlining the importance of ethical data practices in healthcare,
 which also presented a checklist for evaluating this. You can read our write-up on the discussion around this paper [here](https://dataethicsclub.com/write_ups/2023-11-22_writeup.html).
-Dwight Barry, co-author of the Perspective paper and checklist, is Principal Data Scientist at Seattle Children’s Hospital. He's kindly taken the time to respond to our discussion with some additional context below, with the final edit overseen by Amy Joint and Huw Day.
+
+[Dwight Barry](https://www.linkedin.com/in/dwight-barry), co-author of the Perspective paper and checklist, is Principal Data Scientist at Seattle Children’s Hospital. He's kindly taken the time to respond to our discussion with some additional context below, with the final edit overseen by Amy Joint and Huw Day.
 ```
 
 Thank you for reading and critiquing our paper—I wish I could have been there but 5AM Seattle time was just too early! And thank you for the chance to respond to some of your thoughts. We hear a lot about data/machine learning/AI ethics these days, but what’s often hidden in the
@@ -53,7 +54,7 @@ On the applied-academic side, we (specifically Seattle Children’s Bioethics Ce
 
 Thanks so much for your consideration and critique of our paper, it is so appreciated and welcome—we need much more of your work to move forward in this field!
 
-Thank you Dwight for this really insightful look behind the curtain of this paper! Intrigued? Us too – you can read more about Dwight’s work [here](https://www.linkedin.com/in/dwight-barry) and can see him speak at the [Pediatrics Bioethics Conference in July](https://www.seattlechildrens.org/research/centers-programs/bioethics/events/pediatric-bioethics-conference/).
+*Thank you Dwight for this really insightful look behind the curtain of this paper! Intrigued? Us too – you can read more about Dwight’s work [here](https://www.linkedin.com/in/dwight-barry) and can see him speak at the [Pediatrics Bioethics Conference in July](https://www.seattlechildrens.org/research/centers-programs/bioethics/events/pediatric-bioethics-conference/).
 
 This blog has been a first for us in getting to hear an author’s response to a discussion we’ve had on their work, and we’d love to continue this in the future! If we’ve discussed one of your articles and you’d like to take part in a Q&A or present a response, please do get in touch with
-us by emailing us: grp-ethicaldatascience@groups.bristol.ac.uk. You can also put forward material to be considered for our reading list [here](https://dataethicsclub.com/reading-list-suggestions.html).
+us by emailing us: grp-ethicaldatascience@groups.bristol.ac.uk. You can also put forward material to be considered for our reading list [here](https://dataethicsclub.com/reading-list-suggestions.html).*
