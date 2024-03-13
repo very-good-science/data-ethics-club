@@ -15,11 +15,10 @@ which also presented a checklist for evaluating this. You can read our write-up 
 [Dwight Barry](https://www.linkedin.com/in/dwight-barry), co-author of the Perspective paper and checklist, is Principal Data Scientist at Seattle Children’s Hospital. He's kindly taken the time to respond to our discussion with some additional context below, with the final edit overseen by Amy Joint and Huw Day.
 ```
 
-Thank you for reading and critiquing our paper—I wish I could have been there but 5AM Seattle time was just too early! And thank you for the chance to respond to some of your thoughts. We hear a lot about data/machine learning/AI ethics these days, but what’s often hidden in the
-hype is that *every* phase of the data lifecycle—from data capture to database design to analytics to deletion—has an ethical component. To facilitate assessment across such a broad scope, we—the data analysts, data scientists, and data engineers at Seattle Children’s Hospital, along with academic ethicist David Danks, PhD and bioethicist Doug Diekama, MD—created a data ethics checklist to allow for ethical consideration of *any* data product.
+Thank you for reading and critiquing our paper — I wish I could have been there but 5AM Seattle time was just too early! And thank you for the chance to respond to some of your thoughts. We hear a lot about data/machine learning/AI ethics these days, but what’s often hidden in the
+hype is that *every* phase of the data lifecycle—from data capture to database design to analytics to deletion—has an ethical component. To facilitate assessment across such a broad scope, we — the data analysts, data scientists, and data engineers at Seattle Children’s Hospital, along with academic ethicist David Danks, PhD and bioethicist Doug Diekama, MD—created a data ethics checklist to allow for ethical consideration of *any* data product.
 
-This is the permanent short-link to the [checklist](https://is.gd/dataethics). We thought that existing checklists and assessment methods we found in the literature were too long and too detailed to be practical for our day-to-day use of database engineering,
-dashboard building, and data science tasks (e.g., predictive modeling, biostatistics, etc.). We also felt that simpler threshold-type approaches wouldn’t allow for nuanced discussion—wewanted something at least a little open ended to facilitate pro/con-type discussions between
+This is the permanent short-link to the [checklist](https://is.gd/dataethics). We thought that existing checklists and assessment methods we found in the literature were too long and too detailed to be practical for our day-to-day use of database engineering, dashboard building, and data science tasks (e.g., predictive modeling, biostatistics, etc.). We also felt that simpler threshold-type approaches wouldn’t allow for nuanced discussion—wewanted something at least a little open ended to facilitate pro/con-type discussions between
 the data professionals and the clinical end users of data products, instead of a go/no-go. In instances in our work where this cross-profession discussion has happened because of the checklist, it has been quite successful toward meeting that end.
 
 Unfortunately, we had a very small word count limit for the publication, which severely limited what we could discuss, and we had some editorial/peer-review guidance that asked for our thoughts on the larger picture, which of course precluded more discussion of the checklist itself. We would have liked to go into more detail about each section of the checklist that might help direct future readers, but it just couldn’t fit. Hopefully I can respond to some of the points
@@ -44,17 +43,19 @@ Hopefully folks like you all are able to create something that does promote more
 (e.g., requiring an ethical review of any ML/AI model put into production) and working more on the fiduciary idea. While you rightly point out that fiduciary responsibilities are often about
 money, they are in fact also about legal (and medical!) responsibilities. I prefer the definition I found [here](https://dictionary.law.com/Default.aspx?selected=744):
 
-  **fiduciary, n.**
-  from the Latin fiducia, meaning &quot;trust,&quot; an entity (person, company, etc.) who has the power and obligation to act for another under circumstances which require total trust, good faith, and honesty. 
+>  **fiduciary, n.**
+>  from the Latin fiducia, meaning &quot;trust,&quot; an entity (person, company, etc.) who has the power and obligation to act for another under circumstances which require total trust, good faith, and honesty. 
 
 We are currently working towards establishing top-down policies and requirements for putting models into production, and I imagine we will be able to instill at least some ethical principles in those directives. And I will keep hammering on the fiduciary concept as defined above, because I think it makes a great deal of sense in the medical data context. After all, we are granted
 access to databases of incredibly sensitive information on the strong assumption that we will use it to support patient care. Making that assumption explicit I think will be an important next step, alongside formal policies.
 
 On the applied-academic side, we (specifically Seattle Children’s Bioethics Center) are hosting a conference this summer called *Thinking Big, Responding Ethically: Big Data and AI in Pediatrics.* Agenda and details are forthcoming, and will be available at the [webpage](https://www.seattlechildrens.org/research/centers-programs/bioethics/events/pediatric-bioethics-conference/)
 
-Thanks so much for your consideration and critique of our paper, it is so appreciated and welcome—we need much more of your work to move forward in this field!
+Thanks so much for your consideration and critique of our paper, it is so appreciated and welcome — we need much more of your work to move forward in this field!
 
-*Thank you Dwight for this really insightful look behind the curtain of this paper! Intrigued? Us too – you can read more about Dwight’s work [here](https://www.linkedin.com/in/dwight-barry) and can see him speak at the [Pediatrics Bioethics Conference in July](https://www.seattlechildrens.org/research/centers-programs/bioethics/events/pediatric-bioethics-conference/).
+---
 
-This blog has been a first for us in getting to hear an author’s response to a discussion we’ve had on their work, and we’d love to continue this in the future! If we’ve discussed one of your articles and you’d like to take part in a Q&A or present a response, please do get in touch with
+*Thank you Dwight for this really insightful look behind the curtain of this paper! Intrigued? Us too – you can read more about Dwight’s work [here](https://www.linkedin.com/in/dwight-barry) and can see him speak at the [Pediatrics Bioethics Conference in July](https://www.seattlechildrens.org/research/centers-programs/bioethics/events/pediatric-bioethics-conference/).*
+
+*This blog has been a first for us in getting to hear an author’s response to a discussion we’ve had on their work, and we’d love to continue this in the future! If we’ve discussed one of your articles and you’d like to take part in a Q&A or present a response, please do get in touch with
 us by emailing us: grp-ethicaldatascience@groups.bristol.ac.uk. You can also put forward material to be considered for our reading list [here](https://dataethicsclub.com/reading-list-suggestions.html).*
