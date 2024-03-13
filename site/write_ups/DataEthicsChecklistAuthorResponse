@@ -14,7 +14,6 @@ which also presented a checklist for evaluating this. You can read our write-up 
 Dwight Barry, co-author of the Perspective paper and checklist, is Principal Data Scientist at Seattle Children’s Hospital. He's kindly taken the time to respond to our discussion with some additional context below, with the final edit overseen by Amy Joint and Huw Day.
 ```
 
-## 
 Thank you for reading and critiquing our paper—I wish I could have been there but 5AM Seattle time was just too early! And thank you for the chance to respond to some of your thoughts. We hear a lot about data/machine learning/AI ethics these days, but what’s often hidden in the
 hype is that *every* phase of the data lifecycle—from data capture to database design to analytics to deletion—has an ethical component. To facilitate assessment across such a broad scope, we—the data analysts, data scientists, and data engineers at Seattle Children’s Hospital, along with academic ethicist David Danks, PhD and bioethicist Doug Diekama, MD—created a data ethics checklist to allow for ethical consideration of *any* data product.
 
