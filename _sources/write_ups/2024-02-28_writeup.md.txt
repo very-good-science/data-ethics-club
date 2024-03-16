@@ -1,0 +1,73 @@
+---
+blogpost: true
+date: February 28, 2024
+author: Jessica Woodgate
+category: Write Up
+tags: google, search engine optimisation, enshittification
+---
+
+# Data Ethics Club: [Google Search Really Has Gotten Worse, Researchers Find](https://www.404media.co/google-search-really-has-gotten-worse-researchers-find/)
+
+```{admonition} What's this? 
+This is summary of Wednesday 28th February's Data Ethics Club discussion, where we spoke and wrote about the article [Google Search Really Has Gotten Worse, Researchers find](https://www.404media.co/google-search-really-has-gotten-worse-researchers-find/) by Jason Koebler. The article discusses the paper [Is Google Getting Worse? A Longitudinal Investigation of SEO Spam in Search Engines](https://downloads.webis.de/publications/papers/bevendorff_2024a.pdf) by Bevendorff et al., which will be presented at [ECIR](https://www.ecir2024.org/) in March.
+The article summary was written by Nina Di Cara and edited by Jessica Woodgate. This discussion summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". Huw Day helped with the final edit.
+```
+
+## Article Summary
+
+The [researchers analysed search results for 7392 product reviews](https://downloads.webis.de/publications/papers/bevendorff_2024a.pdf) on three different search engines: Google, Bing and DuckDuckGo. They monitored results for these product review searches, generating and archiving results every two weeks for one year. They find several issues among the higher-ranked pages:
+
+-	Higher-ranked pages often contain more affiliate marketing than the average product review
+
+-	Higher-ranked pages often show signs of lower text quality e.g. by using repetitive vocabulary
+
+-	Spam sites and review farms (i.e. seemingly generated listicles without any editorial content) keep finding ways to creep to the top result
+
+These websites leverage known SEO (search engine optimisation) features such as use of keywords, length of content and URL depth, i.e. how many files follow after the domain. All of this will probably get worse as AI-generated spam will swamp the internet, which is a trend the researchers are starting to observe. The researchers also see search engines reacting by removing high ranking spam sites with every update, but over the analysis period (one year) some spam sites manage to make a comeback.
+
+In a reply, Google pointed out that the study only focuses on the narrow application area of product review content, and that they performed better than other search engines.
+
+## Discussion
+
+### Does this research reflect your own experience of how search engines have evolved? What about for searches outside of product reviews?
+
+In our experience of searching for product reviews, we notice that we tend to look for reviews with photos. However, this approach may have to change as generative AI will make it easier for people to fake photos of products in reviews. When searching for products you can’t take pictures of (or where pictures are less important), the subjectivity of the topic plays an important part in how we engage with reviews. For example, we place less importance on book reviews because they’re very subjective. We find that the best way to engage with more subjective reviews (e.g. books, movies, music) is to gather how the reviewer feels about things that you like and use that to guide their assessment of other items. This approach is hard to follow with an open Google search where you don’t always have priors about potential sources, as it is difficult to identify a good starting point. 
+
+Finding a good starting point is important in how we engage with search engines today. If you know roughly where to start your search from, it is much easier to find appropriate reviews. In the past you could search for “[item] product review” and get pretty specific results. Today, as illustrated by the study, we come across a lot of websites which look legitimate on the surface but when you look a bit more closely you see that they are scam sites. These sites all seem to have similar website layouts; [pay per click advertising](https://www.forbes.com/advisor/business/ppc-marketing-guide/) incentivises companies to pump out as many SEO-optimised pages as possible to get more clicks. We would prefer to have options that filter out sponsored links (e.g. in a browser extension).
+
+Regarding search experience outside of product reviews, many of us use search engines fairly minimally today. When we do use them, it is usually to find something quite specific, such as a particular website. This is different to our previous use patterns; we now mainly use search engines to find sites where we already have established trust. To find traffic news, for example, we look at Twitter rather than searching for news on Google. If we are looking for advice about something, we look to government sites or education sites which end with '.edu'. If we are conducting research, we go directly to Google Scholar. This has also changed; previously you could search on the standard Google page and it would come up with Google Scholar suggestions. Now the normal search page seems to avoid Google Scholar entirely. Google video search only uses YouTube, whereas Bing video search uses other websites. Some of the reasons we use Google differently are therefore due to changes to Google itself. However, in general it is difficult to clearly distinguish how much our changing use of search engines is due to platforms themselves changing, and how much is due to other factors (e.g. changing user needs).
+
+We wondered how changes to search engines affects university advertisement to students. We notice that a lot of this is done online now, with open days usually having virtual options. This could have an impact on the types of students that universities are advertising themselves to, and who universities are making themselves visible to.
+
+### The 404 article also refers to other investigations of search engine optimisation such as one from the Verge that “blamed it for ruining the internet”. Do you agree? Who or what do you think is responsible for the decreasing quality of search results?
+
+The fact that [Google controls about 90% of the search market](https://www.similarweb.com/engines/united-states/) has led some to argue that the internet has been remade in Google’s image ([this article goes into some detail as to how](https://www.theverge.com/c/23998379/google-search-seo-algorithm-webpage-optimization)). Websites are encouraged to optimise their pages in specific ways to meet Google’s criteria, which has benefits as well as pitfalls. [The power of SEO led to a whole SEO industry springing up in the 2000s](https://www.theverge.com/features/23931789/seo-search-engine-optimization-experts-google-results), which seemed to us to be a bit of a predecessor to the current emergence of the prompt engineering industry.  SEO is all about finding ways to “trick” the algorithm, resulting in website content which is written for AI, not humans. 
+
+It is hard to ascertain how much blame to attribute to Google/search engines for the problem of bad content on the internet. If the internet is mauled by SEO, making a “good website” turns from making something human-readable to an optimisation task. In this case, the task of making a good search engine becomes extremely challenging because there are so few websites tailored to humans. This relates to a wider issue of how we are governing and incentivising the internet; considering the way it is currently set up, it is natural for people to prioritise attaining more clicks.
+
+The study finds that search engines implement updates which do reduce the amount of SEO generated content, but this is a constant battle as SEO content tends to re-emerge after a while. This reminds us of the battle to protect artwork from being used for training generative AI. [Artwork can be edited in ways which are not visible to the human eye, but corrupt images being used for training purposes without permission](https://www.scientificamerican.com/article/art-anti-ai-poison-heres-how-it-works/). These edits must keep evolving, however, as if they are widely used then AI models can adapt to work around them.
+
+Issues surrounding the degradation of search engines are not unique to this domain and are also seen in other areas implementing AI. For example, job applicant tracking systems scan for keywords, and [have had a detrimental effect to the recruitment process, as they are known to reject qualified candidates. This has led to advice about “how to write a resume in the age of AI”, including to “make your resume machine-readable: no images, no special characters...use the most common template”](https://www.theguardian.com/us-news/2022/may/11/artitifical-intelligence-job-applications-screen-robot-recruiters). These topics highlight how humans are adapting our behaviour and the content we produce in response to AI.
+
+The increasing influence of AI generated content has led to an important shift in Google’s strategy. Originally, Google prioritised pages in terms of how many links a site received from other sites. However, the sheer complexity and volume of SEO produced bait coupled with the disinformation panic around the 2016 election led Google to change its approach (for certain kinds of information) to E-E-A-T: experience, expertise, authoritativeness, and trustworthiness. This essentially means that instead of crowdsourcing, search is often reinforcing institutional authority. [“Nearly all online information runs through a single company, which assumes a veneer of civic utility, of impassive authority, when it is very much not a neutral entity.”](https://www.theverge.com/features/23931789/seo-search-engine-optimization-experts-google-results) As a central authority with a monopoly, Google has a lot of power in how they curate results. We wondered if trading standards has any capacity to influence the strategy of search engines.
+
+Although Google has the current monopoly, this hasn’t always been the case. Previously, it would have been unimaginable for Internet Explorer to be dethroned. [There is a move towards switching to other browsers like DuckDuckGo](https://www.wired.com/story/i-ditched-google-for-duckduckgo-heres-why-you-should-too/), which might be early signs of a shifting monopoly. Due to the immensity of Google, however, this shift would have to be massive. We do see a change in the adoption of subscription-funded models rather than ad-funded for many websites, especially in journalism. Does this signal the end of the “free” internet?
+
+There have been many changes to journalism which factor into the shift from ad-funding to subscription-funding. News is one domain especially vulnerable to significant repercussions from AI generated content. Bias in the news is an old concern further amplified by AI. Ascertaining the authenticity of information online is challenging, which could psychological repercussions especially for younger generations who are more susceptible. In this respect, subscription-based platforms might actually be beneficial, as it means platforms are more accountable to their subscribers. Generating income from subscription also entails platforms aren’t beholden to unreasonable SEO hacking.
+
+### Can you imagine better, more equitable or more useful features that could guide search engine optimisation in making the web searchable?
+
+If it is the internet that is broken, and not just search engines, this question is hard to answer. If we are just talking about search engines however, centralising user experience is essential to ensure the web is searchable. We wondered how Google judges if they produced a good response; if it is user retention (i.e. not clicking away from Google), clicking on the first link, or something else. A feedback look incorporating a banner which asks: “was this what you were looking for?” could be useful. Linking searches with bookmarks and repeat visits to websites could be a good proxy for upvote/downvote ([like on Reddit](https://support.reddithelp.com/hc/en-us/articles/7419626610708-How-does-voting-work-on-Reddit)). We would like to incentivise more sincere engagement, as opposed to just trying to get people to click on things and get money in response to viewing figures. This might be helped by prioritising different qualities. For instance, [DuckDuckGo centres privacy, making sure that user details remain hidden](https://duckduckgo.com/&). [Ecosia](https://www.ecosia.org/) centres sustainability, using ad revenue from searches to plant trees (however, there is a trade-off here as [you have to turn off your ad blocker to use it](https://ecosia.helpscoutdocs.com/article/397-ads-on-ecosia)).
+
+### What change would you like to see on the basis of this piece? Who has the power to make that change?
+
+Education is key to ensure that search engines are socially beneficial; sites like Google have been popular for long enough that they are widely trusted and deeply engrained. [The digital skills gap seems to be getting wider, unfairly hitting lower income brackets who have less access to technology, and less time to be continuously re-educated on quickly evolving technology](https://harvardpolitics.com/education-tech-gaps/). Teaching skills for how to search the web with a critical eye, what recommender systems are, and the implications of generative AI for the web should be a part of school curriculum.
+
+## Attendees
+- Nina Di Cara, Snr. Research Associate, University of Bristol, [ninadicara](https://github.com/ninadicara/), [@ninadicara](https://twitter.com/ninadicara)
+- Huw Day, Data Scientist, Jean Golding Institute, [@disco_huw](https://twitter.com/disco_huw)
+- Euan Bennet, Lecturer, University of Glasgow, [@DrEuanBennet](https://twitter.com/DrEuanBennet)
+- Amy Joint, freerange publisher, [@AmyJointSci](https://twitter.com/AmyJointSci)
+- Noshin Mohamed, Service Manager for Quality Assurance in Children's Services 
+- Liam James-Fagg, Data & Insights Manager at allpay ltd
+- [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/), Citizen Developer, Australian Public Service, Brisbane

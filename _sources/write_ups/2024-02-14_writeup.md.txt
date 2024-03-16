@@ -10,8 +10,8 @@ tags: chatbots, bots, generativeAI, nlp
 
 ```{admonition} What's this? 
 This is summary of Wednesday 14th February’s Data Ethics Club Valentine's day special discussion, where we spoke and wrote about the article [Artificial intelligence, from the Privacy Guarantor stop to the chatbot “Replika”. Too many risks for children and emotionally fragile people](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9852506#english). Our session began with a brief presentation from Maddie Williams, who wrote her masters dissertation on people in relationships with chatbots. 
-The blurb was written by Huw Day and edited by Jessica Woodgate.
-The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+The article summary was written by Huw Day and edited by Jessica Woodgate.
+This discussion summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Huw Day helped with the final edit.
 ```
 
