@@ -1,0 +1,1303 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Values in AI Systems &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2024-03-14_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2024-03-14_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+      <span class="fa-solid fa-outdent"></span>
+    </label>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item">
+<nav class="navbar-nav">
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../join_in/join_in.html">
+                        🤗 Join In
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../reading-list.html">
+                        📖 Reading List
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="write-ups.html">
+                        🖊️ Write-ups
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+                        ♺ Reuse
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="../about/about.html">
+                        ❓ About
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links navbar-nav"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://twitter.com/hashtag/DataEthicsClub" title="Twitter" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Twitter</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://pypi.org/project/pydata-sphinx-theme" title="Mailing List" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  13 March 2024
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/bias.html">bias</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/values.html">values</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="DataEthicsChecklistAuthorResponse.html">
+      13 March - Data Ethics Checklist - Author’s Response
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-02-28_writeup.html">
+      28 February - Data Ethics Club: Google Search Really Has Gotten Worse, Researchers Find
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-02-14_writeup.html">
+      14 February - Valentines Day Special - The Ethics of Chatbots
+    </a>
+  </li>
+  
+  <li>
+    <a href="LoveLetter.html">
+      14 February - A Love Letter to Data Ethics
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-01-31_writeup.html">
+      31 January - Duolingo cuts workers as it relies more on AI
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (51)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (16)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">Values in AI Systems</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="values-in-ai-systems">
+<h1>Values in AI Systems<a class="headerlink" href="#values-in-ai-systems" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 13th March’s Data Ethics Club discussion. This week at Data Ethics Club we used two recent controversies to explore how values are embedded in the creation of new or alternative realities in AI image generation. The first controversy is an AI app called DignifAI that adds clothes to women’s bodies, <a class="reference external" href="https://www.indy100.com/science-tech/dignifai-ai-covering-up-women">written about in an article by Catherine Shuttleworth</a>. The second relates to the release of <a class="reference external" href="https://gemini.google.com/app">Google’s Gemini’s text-to-image</a> launch, discussed in <a class="reference external" href="https://threadreaderapp.com/thread/1761860673989193959.html">a thread from Margaret Mitchell</a>. <a class="reference external" href="https://www.clippings.me/users/catherineshuttleworth">Catherine Shuttleworth</a> joined our discussion and gave a brief presentation about her findings whilst writing this article.
+The article summary was written by Nina Di Cara and edited by Jessica Woodgate. The discussion summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Huw Day helped with the final edit.</p>
+</div>
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>We’ve included a summary here about both pieces of content. Both examples highlight how values embedded into AI systems have a huge impact on the outputs they create.</p>
+<section id="dignifai">
+<h3>DignifAI<a class="headerlink" href="#dignifai" title="Link to this heading">#</a></h3>
+<p>DignifAI is a relatively new AI tool (i.e. less than a couple of months – although is that young enough to be considered new in the current pace of AI development?) built on top of the <a class="reference external" href="https://stability.ai/news/stable-diffusion-public-release">Stable Diffusion</a> model, released publicly in August 2023.</p>
+<p>The tool claims to ‘dignify’ women by adding clothing and altering appearances using AI. Screenshots show the tool removing tattoos, making hair longer, adding cleavage and reducing waist size. From her research the author <a class="reference external" href="https://www.clippings.me/users/catherineshuttleworth">Catherine Shuttleworth</a> also noticed instances of lightening skin tones, increasing “traditional” female makeup, and covering exposed skin (e.g. by covering arms to the elbow or wrist). Recent posts from the tool owners on X show also men having tattoos, piercings and alternative hairstyles removed. In some cases men have been made to look slimmer.</p>
+<p>Changing people’s appearance without their consent seems to be enforcing something very different to dignity, understood as respect for people. Whilst the initial outcry was about control of women’s bodies, the increase in posts about men illustrates how misogyny harms all of us eventually by enforcing unrealistic gender norms.</p>
+</section>
+<section id="gemini">
+<h3>Gemini<a class="headerlink" href="#gemini" title="Link to this heading">#</a></h3>
+<p>Gemini (previously known as Bard) is an AI tool developed by Google that recently launched a text to image generation component. This image generation component was noticed to create scenes where historical figures like the American founding fathers were people of colour, or the pope was Black (as seen in <a class="reference external" href="https://threadreaderapp.com/thread/1761860673989193959.html">Margaret Mitchell’s thread</a>). This resulted in an outcry about the lack of “white representation” from images produced by the tool.</p>
+<p>Dr Mitchell points out that AI systems can be developed to interpret user requests. Some users may be looking for historically accurate depictions. Some might be looking to generate pictures with alternative versions of history, for example by seeking to mitigate the whitewashing of history that has occurred. One of the benefits of using a system of AI models is that it can be built to tailor user requests. Gemini made the mistake of not looking for user input, instead assuming that all users wanted the same thing.</p>
+<p>Whilst these aspirational values might be welcomed by some, they can also come across as tokenistic representations that make those excluded by diversity initiatives feel even further removed.</p>
+</section>
+</section>
+<section id="discussion">
+<h2>Discussion<a class="headerlink" href="#discussion" title="Link to this heading">#</a></h2>
+<section id="which-values-do-you-see-as-being-most-prominent-in-each-of-these-tools-and-what-harms-or-benefits-can-you-see-from-them-being-expressed-through-these-tools">
+<h3>Which values do you see as being most prominent in each of these tools - and what harms or benefits can you see from them being expressed through these tools?<a class="headerlink" href="#which-values-do-you-see-as-being-most-prominent-in-each-of-these-tools-and-what-harms-or-benefits-can-you-see-from-them-being-expressed-through-these-tools" title="Link to this heading">#</a></h3>
+<p>Both tools implement values from exaggerated sides of the political spectrum, highlighting how AI image and video manipulation can be harnessed to reflect messages pushing particular value systems. The increasing ease and convincingness of AI capabilities increases the amplification of these messages, raising important questions about how we define and prioritise values. DignifAI’s justification is that they are making decisions to <a class="reference external" href="https://knowyourmeme.com/editorials/guides/what-is-dignifai-the-controversial-new-use-of-ai-explained">“bring decency back into the world”, advocating for more conservative styles of living.</a>. They have voiced that <a class="reference external" href="https://globalextremism.org/post/racist-and-misogynistic-ai-spreading-from-4chan-to-mainstream-platforms/">“the goal is for people to see that a degenerate lifestyle is ultimately fruitless” and they will “commit unrelenting psychological warfare to our own ends”</a>. <a class="reference external" href="https://www.rollingstone.com/culture/culture-news/dignifai-4chan-shame-women-1234961851/">When contacted by Rolling Stone about a particular doctored image, DignifAI denied their platform was behind it</a>. Denial of accountability, and the extreme nature of these kinds of views, suggests that it may be difficult to engage with such groups in a productive way.</p>
+<p>DignifAI is an <a class="reference external" href="https://www.goodreads.com/book/show/48635408-men-who-hate-women">extreme example of a misogynistic narrative</a> which can be seen in many parts of society. The social construct of <a class="reference external" href="https://en.wikipedia.org/wiki/Male_gaze">the male gaze</a> connotes a paradoxical expectation of women. John Berger summarises this hypocrisy as <a class="reference external" href="https://www.goodreads.com/quotes/8830951-the-mirror-was-often-used-as-a-symbol-of-the">“you painted a naked woman because you enjoyed looking at her, you put a mirror in her hand and you called the painting “Vanity”, thus morally condemning the woman whose nakedness you had depicted for your own pleasure”</a>. The <a class="reference external" href="https://en.wikipedia.org/wiki/Madonna%E2%80%93whore_complex">Madonna-whore complex in psychoanalytic literature is a psychological complex where women are seen either as saintly Madonnas or debased whores</a>. There are thus many unrealistic ideals that exist about what a woman should be. In some instances, DignifAI removes tattoos whilst enhancing cleavage size and reducing waists. This confuses the aim to “bring decency back into the world”, with conflicting messages about sexualising or desexualising women. Conceptions of power also play a role in how women are treated and who specifically is being targeted; the biggest stories we hear of tend to relate to powerful women (e.g. <a class="reference external" href="https://en.wikipedia.org/wiki/Taylor_Swift_deepfake_pornography_controversy">Taylor Swift</a>).</p>
+<p>Despite the risks of exaggerating particular value systems, there are good use cases for deep fakes. Sometimes, individuals might want to cover up photographs of themselves before they share them with others, e.g. covering up a tattoo for a work photo. On the other side, people might want to generate nudes of themselves. Both of these cases are valid because they have clear consent; the explicit consent of all involved is key to the acceptability of deepfakes. Deepfakes could be useful to make videos appropriate for different ages or religious groups; <a class="reference external" href="https://www.vidangel.com/">VidAngel</a> provides a service to filter out entire categories from videos such as sex, violence, or language. However, <a class="reference external" href="https://en.wikipedia.org/wiki/Disney_v._VidAngel">they were sued by Disney for copyright infringement</a> suggesting there are still some issues with consent or content ownership here.</p>
+<p>Lack of consent is central to the problems elicited by DignifAI. There is no opportunity to provide consent unless you are doctoring images of yourself. This highlights how images posted publicly can be so easily abused by others, raising new concerns about what we post on social media. We must be so much more aware of how our data is handled.</p>
+<p>In addition to consent and ownership of images, we should consider where the boundary is for acceptable editing. Colour touch ups and the like are generally considered acceptable, but edits run into problems when they are considered to be changing the “historical record”. This is exemplified in the Gemini AI case. Debate around altering historical artefacts has also emerged in literature, such as <a class="reference external" href="https://time.com/6256980/roald-dahl-censorship-debate/">efforts to remove offensive language from Roald Dahl</a>. Acceptability of editing can be affected by context. For example, <a class="reference external" href="https://www.vox.com/culture/24098724/kate-middleton-editing-photo-explained">the edited photo released by Kate Middleton</a> generated more questions about image manipulation than would usually emerge from the image alone because of the ongoing scrutiny on her.</p>
+<p>Generally, it seems to us that whilst there are some acceptable cases of deep fakes and image doctoring, those cases are statistically insignificant and morally outweighed. Cases like DignifAI demonstrate the propensity for harm by doctoring people’s images without their consent and pushing a narrative that enforces unrealistic gender norms.</p>
+<p>The complex implications of deepfakes and generative AI tools necessitate asking important questions about their development and deployment. We need to be realistic about a tool’s potential. If there are significant negative effects, we should really ask ourselves if we should be using it. There will be some form of bias that enters some stage of the pipeline. Part of the accountability process involves making an effort to identify where bias could emerge. The tendency towards altering people to be skinnier, paler, with bigger cleavage does not just occur on platforms like DignifAI. This is reflective of a wider issue of bias engrained in generative AI; big data means big mistakes. Comparing these issues makes us question whether it is worse to intentionally produce misogynistic images or allow them to happen through negligence.</p>
+<p>Research has proven significant issues with AI tools, which makes us wonder how much we should be using them to “fix” things. <a class="reference external" href="https://arxiv.org/abs/2311.08596">Laban et al. (November 2023)</a> conducted a study which found certain LLM’s to “flip” their answers for classification tasks 46% of the time, resulting in an average drop in accuracy of 17% between first and final predictions. High error rates and far-reaching influence suggests that they should not be so widely deployed. However, it is important to acknowledge how quickly these models are developing, and in March 2024 (the time of writing/discussion), November 2023 is a ‘long’ time ago.</p>
+<p>Addressing the multifaced issues with AI is a gigantic task. One approach is through regulation; some of us think that it is important there is data legislation, and people whose job it is to enforce that legislation. Just because information is on the internet does not necessitate that it should be free for people to use as they please. We should have the right to control our own images, but this is not guaranteed in current regulation; AI legislation is still in its infancy. The <a class="reference external" href="https://artificialintelligenceact.eu/the-act/">AI Act</a> has recently come into force in the EU, but we questioned its reach. We wonder whether it provides proper protection for people being exploited by AI (e.g. violence against women and young people). Regulation restricting the use of other people’s data could theoretically help to achieve this, but in practice obtaining proof of image ownership before it is appropriated to train AI is unfeasible. Even with laws in place, it is difficult to catch people in the act. Without explicit repercussions, it is difficult to disincentivise people from using AI to exploit others. That said, the US is good at enforcing copyright laws.</p>
+<p>Successful regulation surrounding protection of image ownership and commitment to truth can be seen in journalism. There is a vigorous approval procedure that journalists must go through to use someone’s photograph for an article. If reporting on legal topics, journalists must reach out and ask for comment before publishing. Articles can be killed if there is risk of legal ramifications. It would be good if there was a more established pipeline for legal support in the context of AI. Additionally, improvements could be made to reporting features on social media.</p>
+<p>It is important, however, to note the limits of regulatory approaches. The processing speed of the legal system combined with roadblocks for individuals making claims means that even when something is put into law, effectively enforcing it is challenging. It is not necessarily true that an AI tool will be more biased or worse than hiring a human editor to sift through hundreds of hours of content. Propensity for harm exists on both sides (using AI or using humans). Regulatory approaches also need to maintain a balance between startup innovation and stifling legislation.</p>
+</section>
+<section id="the-statement-from-googles-ceo-about-gemini-said-that-their-aim-is-to-provide-helpful-accurate-and-unbiased-information-in-our-products-and-that-this-has-to-also-be-their-approach-for-emerging-ai-products-is-this-a-realistic-goal">
+<h3>The <a class="reference external" href="https://www.theverge.com/2024/2/28/24085445/google-ceo-gemini-ai-diversity-scandal-employee-memo">statement from Google’s CEO about Gemini</a> said that their aim is to provide “helpful, accurate, and unbiased information in our products” and that this has to also be their approach for emerging AI products. Is this a realistic goal?<a class="headerlink" href="#the-statement-from-googles-ceo-about-gemini-said-that-their-aim-is-to-provide-helpful-accurate-and-unbiased-information-in-our-products-and-that-this-has-to-also-be-their-approach-for-emerging-ai-products-is-this-a-realistic-goal" title="Link to this heading">#</a></h3>
+<p>Whilst this is a laudable aim, it does not get to the root of the problem. The statement on its own is insufficient to create real impact. We must also consider the authenticity of the company’s intention; whether it is in response to the market, or from a genuine desire to do good. Responding with incrementally “better” tools puts a bandage over deep and complex issues, demonstrating how Google is under the influence of the corrective pendulum. Claiming to provide “helpful, accurate, and unbiased information” is not simple, as these are abstract terms covering intricate topics. We wondered if it is even possible to provide truly unbiased information; the Gemini AI outrage hinged on Google being “unbiasedly biased” (a term which emerged in two discussion groups).</p>
+<p>The images Gemini AI generated were of some form of ideal (unbiasedly biased) world that is not historically accurate. This is problematic as it washes over historical issues which still perpetuate in our society. On the other hand, using the documentation we have to recreate historical events “accurately” could reinforce inaccurate stereotypes (e.g. white Jesus). The immaturity of generative AI entails that we are not yet clear about whether its purpose is to provide a genuine reality or some degree of fiction.  It is important to be clear about how much it is generating an ideal world, compared to reading from the historical record. If the user is not asked to specify their preferences, generating a satisfactory response is challenging. However, being required to respond to explicit requests might also run into difficulties (e.g. asking for harmful content). These scenarios would necessitate understanding where constraints should lie, which relates to current issues we see in Gemini AI. Most likely, the problems with Gemini AI are because constraints have been made too strong, demonstrating the imposition of technical censoring, rather than the model itself struggling with language complexity.</p>
+<p>Uncertainty about the boundaries of truth and proliferation of disinformation is destabilising to society (<a class="reference external" href="https://harpersbazaar.com.au/kate-middleton-missing-conspiracy-theories/">just look at how many conspiracy theories emerged from Kate Middleton going missing</a>). Trust is being lost in a variety of media formats, and <a class="reference external" href="https://www.npr.org/sections/thetwo-way/2016/11/23/503129818/study-finds-students-have-dismaying-inability-to-tell-fake-news-from-real">studies have found children to have a “dismaying” inability to distinguish between real and fake news</a>. The pandemic led to children being educated at home, but this might have opened them up to more inaccurate information. It is important to understand the impact that AI has on children. Measurement surveys or feedback loops analysing how these tools are affect peoples’ mindsets aren’t yet commonplace in the public domain.</p>
+<p>Viewpoints on social media are becoming more extreme, either through coordination of particular groups, amplification of voices, or increasing polarisation of individual views. Issues surrounding polarisation are illustrated in the controversies surrounding Gemini AI and DignifAI. Both tools are generative, but with polar objectives. This provokes us to question how we define accuracy, and who AI should be helpful to. Should these tools be as diverse as possible, promoting equity, or should they reflect the real world, including all of its social biases?</p>
+</section>
+<section id="margaret-mitchells-thread-shows-a-table-for-assessing-unintended-uses-and-users-of-tools-what-do-you-think-about-this-method-for-better-understanding-uses-and-how-could-it-be-used-to-improve-ai-image-generation">
+<h3><a class="reference external" href="https://threadreaderapp.com/thread/1761860673989193959.html">Margaret Mitchell’s thread</a> shows a table for assessing unintended uses and users of tools - what do you think about this method for better understanding uses and how could it be used to improve AI image generation?<a class="headerlink" href="#margaret-mitchells-thread-shows-a-table-for-assessing-unintended-uses-and-users-of-tools-what-do-you-think-about-this-method-for-better-understanding-uses-and-how-could-it-be-used-to-improve-ai-image-generation" title="Link to this heading">#</a></h3>
+<p>Mitchell’s table is a good teaching tool but might need further refining, for example, by combining it with project management tools like <a class="reference external" href="https://www.forbes.com/advisor/business/raci-chart/">RACI</a>. RACI facilitates clarifying employee roles and responsibilities, including who is accountable, who should be consulted, and who should be informed about different aspects of a project. Approaches like this should be performed by groups of people working collaboratively, rather than one person ploughing through them as a tick box exercise.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Nina Di Cara, Snr Research Associate, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
+<li><p>Huw Day, Data Scientist, Jean Golding Institute, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Vanessa Hanschke, PhD, University of Bristol, <a class="reference external" href="https://www.vanessahanschke.com">website</a></p></li>
+<li><p>Catherine Shuttleworth, Journalist and Uni Student! [https://www.instagram.com/catherineros.e/]</p></li>
+<li><p>Lucy Bowles, Data Scientist &#64; Brandwatch</p></li>
+<li><p>Amy Joint, freerange publisher (until Monday!!), <a class="reference external" href="https://twitter.com/AmyJointSci">&#64;AmyJointSci</a></p></li>
+<li><p>Virginia Scarlett, Open Data Specialist at HHMI Janelia Research Campus</p></li>
+<li><p>Noshin Mohamed, Service Manager for Quality Assurance in Children’s Services</p></li>
+<li><p>Euan Bennet, Lecturer, University of Glasgow, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
+<li><p>Chris Jones, Data Scientist, Machine Learning Programs</p></li>
+<li><p>Michelle Wan, PhD student, University of Cambridge</p></li>
+<li><p>Helen Sheehan, PhD student, University of Bristol</p></li>
+<li><p>Dan Whettam, PhD student - Computer Vision, University of Bristol</p></li>
+<li><p>Lap Chow, Cancer Analyst, NHSE</p></li>
+<li><p><a class="reference external" href="https://uk.linkedin.com/in/liam-james-fagg">Liam James-Fagg</a>, Data &amp; Insights Manager, allpay Ltd</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/robindasler/">Robin Dasler</a>, data software product manager, <a class="reference external" href="https://github.com/daslerr/">daslerr</a></p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="DataEthicsChecklistAuthorResponse.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Checklist - Author’s Response</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dignifai">DignifAI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#gemini">Gemini</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion">Discussion</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#which-values-do-you-see-as-being-most-prominent-in-each-of-these-tools-and-what-harms-or-benefits-can-you-see-from-them-being-expressed-through-these-tools">Which values do you see as being most prominent in each of these tools - and what harms or benefits can you see from them being expressed through these tools?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-statement-from-googles-ceo-about-gemini-said-that-their-aim-is-to-provide-helpful-accurate-and-unbiased-information-in-our-products-and-that-this-has-to-also-be-their-approach-for-emerging-ai-products-is-this-a-realistic-goal">The statement from Google’s CEO about Gemini said that their aim is to provide “helpful, accurate, and unbiased information in our products” and that this has to also be their approach for emerging AI products. Is this a realistic goal?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#margaret-mitchells-thread-shows-a-table-for-assessing-unintended-uses-and-users-of-tools-what-do-you-think-about-this-method-for-better-understanding-uses-and-how-could-it-be-used-to-improve-ai-image-generation">Margaret Mitchell’s thread shows a table for assessing unintended uses and users of tools - what do you think about this method for better understanding uses and how could it be used to improve AI image generation?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2024-03-14_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2024-03-14_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.2.6.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
