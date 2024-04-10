@@ -21,14 +21,15 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [27.03.2024](meetings/2024/03-mar/27-03-24_meeting.md), 1pm  | [Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence](https://link.springer.com/article/10.1007/s13347-020-00405-8) |
+| [24.04.2024](meetings/2024/04-April/24-04-24_meeting.md), 1pm | [Artificial Intelligence Act: MEPs adopt landmark law](https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law) |
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [13.03.2024](meetings/2024/03-mar/13-03-24_meeting.md), 1pm  | Values in Generative AI (discussing Gemini and DignifAI)| Writeup coming soon! |
+| [27.03.2024](meetings/2024/03-mar/27-03-24_meeting.md), 1pm  | [Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence](https://link.springer.com/article/10.1007/s13347-020-00405-8) | Writeup coming soon! |
+| [13.03.2024](meetings/2024/03-mar/13-03-24_meeting.md), 1pm  | Values in Generative AI (discussing Gemini and DignifAI)| [Read the writeup](https://dataethicsclub.com/write_ups/2024-03-14_writeup.html) |
 | [28.02.2024](meetings/2024/02-feb/28-02-24_meeting.md), 1pm  | [Google Search Really Has Gotten Worse, Researchers Find](https://www.404media.co/google-search-really-has-gotten-worse-researchers-find/)| [Read the writeup](https://dataethicsclub.com/write_ups/2024-02-28_writeup.html) | 
 | [14.02.2024](meetings/2024/02-feb/14-02-24_meeting.md), 1pm  | [Italian Supervisory Authority clamps down on Replika chatbot](https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9852506#english)| [Read the writeup](https://dataethicsclub.com/write_ups/2024-02-14_writeup.html) |
 | [31.01.2024](meetings/2024/01-jan/31-01-24_meeting.md), 1pm  | [Duolingo cuts workers as it relies more on AI](https://www.washingtonpost.com/technology/2024/01/10/duolingo-ai-layoffs/)|  [Read the write up](../write_ups/2024/31-01-24_writeup) |
