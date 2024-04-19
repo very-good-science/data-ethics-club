@@ -21,7 +21,10 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [24.04.2024](meetings/2024/04-April/24-04-24_meeting.md), 1pm | [Artificial Intelligence Act: MEPs adopt landmark law](https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law) |
+| [24.04.2024](meetings/2024/04-apr/24-04-24_meeting.md), 1pm | [Artificial Intelligence Act: MEPs adopt landmark law](https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law) |
+| [08.05.2024](meetings/2024/05-may/08-05-24_meeting.md) | To be decided. |
+| [22.05.2024](meetings/2024/05-may/22-05-24_meeting.md) | To be decided. |
+| [04.06.2024](meetings/2024/06-jun/04-06-24_meeting.md), 11am | [Special Edition for the JGI Data Week. Sign Up Here!](https://www.tickettailor.com/events/jgibristol/1223996?ref=schedule)|
 
 ## Past Meetings
 
