@@ -5,11 +5,11 @@ TODO:
 - [x] Change to a new branch (DD-MM-YY_meeting)
 - [x] Copy this template to meetings/YEAR/DD-MM-YY_meeting.md (put in actual year + date)
 - [x] Put in the Event time on: https://www.timeanddate.com/worldclock/fixedform.html and copy result to LINK-TO-TIMEDATE
-- [ ] Change all ALL-CAPS placeholders in this form
-- [ ] Update the hyperlinks at the bottom of the template
-- [ ] Add link to the new file in meetings.md
-- [ ] Update the next-meeting.md file
-- [ ] Pull request!
+- [x] Change all ALL-CAPS placeholders in this form
+- [x] Update the hyperlinks at the bottom of the template
+- [x] Add link to the new file in meetings.md
+- [x] Update the next-meeting.md file
+- [x] Pull request!
 - [ ] Create or edit the calendar invite to copy and paste this info over and send it/send an update.
 - [ ] Maybe tweet it? #DataEthicsClub @jgiBristol
 
