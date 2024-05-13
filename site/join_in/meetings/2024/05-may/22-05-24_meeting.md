@@ -28,7 +28,7 @@ Link to content: [content]
 
 ### Description
 Please join us for the next Data Ethics Club meeting on [Wednesday 22nd May at 1pm UK time][timedate]. 
-You don't need to register, just pop in. We'll be reading and discussing ["The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?][content], which was written by Saumya Kalia for online culture, society and feminism news platform [The Swaddle][https://www.theswaddle.com/].
+You don't need to register, just pop in. We'll be reading and discussing ["The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?][content], which was written by Saumya Kalia for online culture, society and feminism news platform The Swaddle.
 
 Thank you to Dan Whettam for suggesting this week's content, and to Amy Joint for writing the summary below, in case you don't get a chance to read the article itself.
 
