@@ -14,33 +14,33 @@
   
   <script data-cfasync="false">
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
-    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
     <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
-  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
 
     <script src="../_static/documentation_options.js?v=5929fcd5"></script>
     <script src="../_static/doctools.js?v=9a2dae69"></script>
     <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'join_in/join_in';</script>
     <link rel="canonical" href="dataethicsclub.com/join_in/join_in.html" />
     <link rel="icon" href="../_static/favicon.png"/>
@@ -61,27 +61,23 @@
 
   
   
-  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
   
   <div id="pst-scroll-pixel-helper"></div>
   
   <button type="button" class="btn rounded-pill" id="pst-back-to-top">
-    <i class="fa-solid fa-arrow-up"></i>
-    Back to top
-  </button>
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__primary"
-          id="__primary"/>
-  <label class="overlay overlay-primary" for="__primary"></label>
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
   
   <input type="checkbox"
           class="sidebar-toggle"
-          name="__secondary"
-          id="__secondary"/>
-  <label class="overlay overlay-secondary" for="__secondary"></label>
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
   
   <div class="search-button__wrapper">
     <div class="search-button__overlay"></div>
@@ -103,12 +99,17 @@
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
 </form></div>
   </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
   
-    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
 <div class="bd-header__inner bd-page-width">
-  <label class="sidebar-toggle primary-toggle" for="__primary">
+  <button class="sidebar-toggle primary-toggle" aria-label="Site navigation">
     <span class="fa-solid fa-bars"></span>
-  </label>
+  </button>
   
   
   <div class="col-lg-3 navbar-header-items__start">
@@ -146,40 +147,40 @@
 <nav class="navbar-nav">
   <ul class="bd-navbar-elements navbar-nav">
     
-                    <li class="nav-item current active">
-                      <a class="nav-link nav-internal" href="#">
-                        🤗 Join In
-                      </a>
-                    </li>
-                
+<li class="nav-item pst-header-nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    🤗 Join In
+  </a>
+</li>
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../reading-list.html">
-                        📖 Reading List
-                      </a>
-                    </li>
-                
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../write_ups/write-ups.html">
-                        🖊️ Write-ups
-                      </a>
-                    </li>
-                
+<li class="nav-item pst-header-nav-item">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
-                        ♺ Reuse
-                      </a>
-                    </li>
-                
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../about/about.html">
-                        ❓ About
-                      </a>
-                    </li>
-                
+<li class="nav-item pst-header-nav-item">
+  <a class="nav-link nav-internal" href="../write_ups/write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item pst-header-nav-item">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item pst-header-nav-item">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
   </ul>
 </nav></div>
       
@@ -287,9 +288,9 @@ document.write(`
   
 
   
-    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
+    <button class="sidebar-toggle secondary-toggle" aria-label="On this page">
       <span class="fa-solid fa-outdent"></span>
-    </label>
+    </button>
   
 </div>
 
@@ -310,46 +311,49 @@ document.write(`
     
       <div class="sidebar-header-items__center">
         
-          <div class="navbar-item">
+          
+          
+            <div class="navbar-item">
 <nav class="navbar-nav">
   <ul class="bd-navbar-elements navbar-nav">
     
-                    <li class="nav-item current active">
-                      <a class="nav-link nav-internal" href="#">
-                        🤗 Join In
-                      </a>
-                    </li>
-                
+<li class="nav-item pst-header-nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    🤗 Join In
+  </a>
+</li>
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../reading-list.html">
-                        📖 Reading List
-                      </a>
-                    </li>
-                
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../write_ups/write-ups.html">
-                        🖊️ Write-ups
-                      </a>
-                    </li>
-                
+<li class="nav-item pst-header-nav-item">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
-                        ♺ Reuse
-                      </a>
-                    </li>
-                
 
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../about/about.html">
-                        ❓ About
-                      </a>
-                    </li>
-                
+<li class="nav-item pst-header-nav-item">
+  <a class="nav-link nav-internal" href="../write_ups/write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item pst-header-nav-item">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item pst-header-nav-item">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
   </ul>
 </nav></div>
+          
         
       </div>
     
@@ -447,13 +451,13 @@ document.write(`
 
       </div>
       
-      <main id="main-content" class="bd-main">
+      <main id="main-content" class="bd-main" role="main">
         
         
           <div class="bd-content">
             <div class="bd-article-container">
               
-              <div class="bd-header-article">
+              <div class="bd-header-article d-print-none">
 <div class="header-article-items header-article__inner">
   
     <div class="header-article-items__start">
@@ -462,7 +466,7 @@ document.write(`
 
 
 
-<nav aria-label="Breadcrumb">
+<nav aria-label="Breadcrumb" class="d-print-none">
   <ul class="bd-breadcrumbs">
     
     <li class="breadcrumb-item breadcrumb-home">
@@ -498,26 +502,27 @@ If you would like to get email reminders about the content and dates for the nex
 <p>Please read our <a class="reference internal" href="code-of-conduct.html"><span class="doc std std-doc">Code of Conduct</span></a> before attending.</p>
 <section id="upcoming-meetings">
 <h2>Upcoming meetings<a class="headerlink" href="#upcoming-meetings" title="Link to this heading">#</a></h2>
-<table class="table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Date (dd.mm.yyyy, UK time)</p></th>
 <th class="head"><p>Discussion Material</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/05-may/22-05-24_meeting.html"><span class="std std-doc">22.05.2024</span></a>, 1pm</p></td>
-<td><p><a class="reference external" href="https://dataethicsclub.com/join_in/meetings/2024/05-may/22-05-24_meeting.html">The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?</a></p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/06-jun/04-06-24_meeting.html"><span class="std std-doc">04.06.2024</span></a>, 11am</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/06-jun/04-06-24_meeting.html"><span class="std std-doc">04.06.2024</span></a>, 11am</p></td>
 <td><p><a class="reference external" href="https://www.tickettailor.com/events/jgibristol/1223996?ref=schedule">Special Edition for the JGI Data Week. Sign Up Here!</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Weekly in July/August 2024</p></td>
+<td><p><a class="reference internal" href="meetings/2024/data-feminism.html"><span class="doc std std-doc">Data Feminism Book Club</span></a></p></td>
 </tr>
 </tbody>
 </table>
+</div>
 </section>
 <section id="past-meetings">
 <h2>Past Meetings<a class="headerlink" href="#past-meetings" title="Link to this heading">#</a></h2>
 <p>You can see a record of what we have discussed previously here.</p>
-<table class="table">
+<div class="pst-scrollable-table-container"><table class="table">
 <thead>
 <tr class="row-odd"><th class="head"><p>Date</p></th>
 <th class="head"><p>Discussion Material</p></th>
@@ -525,268 +530,273 @@ If you would like to get email reminders about the content and dates for the nex
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/05-may/08-05-24_meeting.html"><span class="std std-doc">08.05.2024</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/05-may/22-05-24_meeting.html"><span class="std std-doc">22.05.2024</span></a>, 1pm</p></td>
+<td><p><a class="reference external" href="https://dataethicsclub.com/join_in/meetings/2024/05-may/22-05-24_meeting.html">The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?</a></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/05-may/08-05-24_meeting.html"><span class="std std-doc">08.05.2024</span></a></p></td>
 <td><p><a class="reference external" href="https://www.businessinsider.com/amazons-just-walk-out-actually-1-000-people-in-india-2024-4">Amazon’s Just Walk Out technology relies on hundreds of workers in India watching you shop</a></p></td>
 <td><p>Write up coming soon!</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/04-apr/24-04-24_meeting.html"><span class="std std-doc">24.04.2024</span></a>, 1pm</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/04-apr/24-04-24_meeting.html"><span class="std std-doc">24.04.2024</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law">Artificial Intelligence Act: MEPs adopt landmark law</a></p></td>
 <td><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2024-04-24_writeup.html">Read the writeup</a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/03-mar/27-03-24_meeting.html"><span class="std std-doc">27.03.2024</span></a>, 1pm</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/03-mar/27-03-24_meeting.html"><span class="std std-doc">27.03.2024</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://link.springer.com/article/10.1007/s13347-020-00405-8">Decolonial AI: Decolonial Theory as Sociotechnical Foresight in Artificial Intelligence</a></p></td>
 <td><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2024-03-27_writeup.html">Read the writeup</a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/03-mar/13-03-24_meeting.html"><span class="std std-doc">13.03.2024</span></a>, 1pm</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/03-mar/13-03-24_meeting.html"><span class="std std-doc">13.03.2024</span></a>, 1pm</p></td>
 <td><p>Values in Generative AI (discussing Gemini and DignifAI)</p></td>
 <td><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2024-03-14_writeup.html">Read the writeup</a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/02-feb/28-02-24_meeting.html"><span class="std std-doc">28.02.2024</span></a>, 1pm</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/02-feb/28-02-24_meeting.html"><span class="std std-doc">28.02.2024</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://www.404media.co/google-search-really-has-gotten-worse-researchers-find/">Google Search Really Has Gotten Worse, Researchers Find</a></p></td>
 <td><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2024-02-28_writeup.html">Read the writeup</a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/02-feb/14-02-24_meeting.html"><span class="std std-doc">14.02.2024</span></a>, 1pm</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/02-feb/14-02-24_meeting.html"><span class="std std-doc">14.02.2024</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/9852506#english">Italian Supervisory Authority clamps down on Replika chatbot</a></p></td>
 <td><p><a class="reference external" href="https://dataethicsclub.com/write_ups/2024-02-14_writeup.html">Read the writeup</a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/01-jan/31-01-24_meeting.html"><span class="std std-doc">31.01.2024</span></a>, 1pm</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/01-jan/31-01-24_meeting.html"><span class="std std-doc">31.01.2024</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://www.washingtonpost.com/technology/2024/01/10/duolingo-ai-layoffs/">Duolingo cuts workers as it relies more on AI</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2024/31-01-24_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2024/01-jan/17-01-24_meeting.html"><span class="std std-doc">17.01.2024</span></a>, 1pm</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2024/01-jan/17-01-24_meeting.html"><span class="std std-doc">17.01.2024</span></a>, 1pm</p></td>
 <td><p>New Years Data Ethics Resolutions</p></td>
 <td><p><a class="reference internal" href="#../write_ups/2024/17-01-24_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/12-dec/06-12-23_meeting.html"><span class="std std-doc">06.12.2023</span></a>, 1pm</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/12-dec/06-12-23_meeting.html"><span class="std std-doc">06.12.2023</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://arxiv.org/pdf/2307.16336.pdf">Anatomy of an AI-Powered Malicious Social Botnet</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/06-12-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/11-nov/22-11-23_meeting.html"><span class="std std-doc">22.11.2023</span></a>, 1pm</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/11-nov/22-11-23_meeting.html"><span class="std std-doc">22.11.2023</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7936507/pdf/ocaa307.pdf">Implementation of an ethics checklist at Seattle Children’s Hospital</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/22-11-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/11-nov/08-11-23_meeting.html"><span class="std std-doc">08.11.2023</span></a>, 1pm</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/11-nov/08-11-23_meeting.html"><span class="std std-doc">08.11.2023</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://dl.acm.org/doi/pdf/10.1145/3593013.3594070">The Dimensions of Data Labor</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/08-11-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/10-oct/25-10-23_meeting.html"><span class="std std-doc">25.10.2023</span></a>, 1pm</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/10-oct/25-10-23_meeting.html"><span class="std std-doc">25.10.2023</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://journals.sagepub.com/doi/full/10.1177/1329878X19828365">How influencer ‘mumpreneur’ bloggers and ‘everyday’ mums frame presenting their children online</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/25-10-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/10-oct/11-10-23_meeting.html"><span class="std std-doc">11.10.2023</span></a>, 1pm</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/10-oct/11-10-23_meeting.html"><span class="std std-doc">11.10.2023</span></a>, 1pm</p></td>
 <td><p><a class="reference external" href="https://www.privacycompliancehub.com/gdpr-resources/loyalty-cards-virtual-try-on-tools-and-facial-recognition-technology-is-retail-the-next-sector-to-be-hit-by-a-privacy-scandal/">Privacy and Loyalty Card Data</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/11-10-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/09-sep/27-09-23_meeting.html"><span class="std std-doc">27.09.2023, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/09-sep/27-09-23_meeting.html"><span class="std std-doc">27.09.2023, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.ucu.org.uk/article/13171/Start-of-university-term-to-be-hit-with-five-days-of-UK-wide-strikes">Cancelled in support of UCU strikes</a></p></td>
 <td><p>N/A</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/05-may/31-05-23_meeting.html"><span class="std std-doc">31.05.2023, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/05-may/31-05-23_meeting.html"><span class="std std-doc">31.05.2023, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://twitter.com/OwenJones84/status/1590295662759153665">Classifying ‘toxic’ content online</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/31-05-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>05.06.2023, 2pm</p></td>
+<tr class="row-even"><td><p>05.06.2023, 2pm</p></td>
 <td><p><a class="reference external" href="https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-clubonline-tickets-621726700297">JGI Data Week Special! Find out more here.</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/05-06-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/05-may/17-05-23_meeting.html"><span class="std std-doc">17.05.2023, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/05-may/17-05-23_meeting.html"><span class="std std-doc">17.05.2023, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://arxiv.org/pdf/2101.08102.pdf">Designing Accountable Systems</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/17-05-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/05-may/03-05-23_meeting.html"><span class="std std-doc">03.05.2023, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/05-may/03-05-23_meeting.html"><span class="std std-doc">03.05.2023, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://arxiv.org/pdf/2303.16972.pdf">Queer in AI: A Case Study in Community-Led Participatory AI</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/03-05-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/04-apr/19-04-23_meeting.html"><span class="std std-doc">19.04.2023, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/04-apr/19-04-23_meeting.html"><span class="std std-doc">19.04.2023, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://arxiv.org/pdf/2005.00813.pdf">Social Biases in NLP Models as Barriers for Persons with Disabilities</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/19-04-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>29.03.2023, 1pm</p></td>
+<tr class="row-even"><td><p>29.03.2023, 1pm</p></td>
 <td><p><a class="reference external" href="https://2022.internethealthreport.org/episodes/the-tech-we-wont-build/">The Tech We Won’t Build</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/29-03-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p>08.03.2023, 3pm</p></td>
+<tr class="row-odd"><td><p>08.03.2023, 3pm</p></td>
 <td><p><a class="reference external" href="https://dl.acm.org/doi/abs/10.1145/3531146.3533779">Limits and Possibilities for “Ethical AI” in Open Source: A Study of Deepfakes</a>, plus a related short talk from <a class="reference external" href="https://davidwidder.me/">David Widder</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/08-03-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/02-feb/08-02-23_meeting.html"><span class="std std-doc">08.02.2023, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/02-feb/08-02-23_meeting.html"><span class="std std-doc">08.02.2023, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.nature.com/articles/d41586-023-00107-z">ChatGPT listed as author on research papers: many scientists disapprove</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/07-02-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2023/01-jan/25-01-23_meeting.html"><span class="std std-doc">25.01.2023, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2023/01-jan/25-01-23_meeting.html"><span class="std std-doc">25.01.2023, 1pm</span></a></p></td>
 <td><p>Data Ethics New Years Resolutions discussion!</p></td>
 <td><p><a class="reference internal" href="#../write_ups/2023/25-01-23_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/12-dec/14-12-22_meeting.html"><span class="std std-doc">14.12.2022, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/12-dec/14-12-22_meeting.html"><span class="std std-doc">14.12.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.currentaffairs.org/2022/09/defective-altruism">Defective Altruism</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/14-12-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/11-nov/16-11-22_meeting.html"><span class="std std-doc">16.11.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/11-nov/16-11-22_meeting.html"><span class="std std-doc">16.11.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://jamiearpinricci.medium.com/the-ethics-of-ai-generated-art-57fb04b71646">The Ethics of AI Generated Art</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/16-11-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>30.11.2022, 1pm</p></td>
+<tr class="row-even"><td><p>30.11.2022, 1pm</p></td>
 <td><p><a class="reference external" href="https://www.ucu.org.uk/article/12609/Biggest-ever-university-strikes-set-to-hit-UK-campuses-over-pay-conditions--pensions">Cancelled in support of the UCU strikes</a></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/11-nov/02-11-22_meeting.html"><span class="std std-doc">02.11.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/11-nov/02-11-22_meeting.html"><span class="std std-doc">02.11.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.theguardian.com/uk-news/2020/jun/11/the-data-was-there-so-why-did-it-take-coronavirus-to-wake-us-up-to-racial-health-inequalities">The data was there – so why did it take coronavirus to wake us up to racial health inequalities?</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/02-11-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/10-oct/19-10-22_meeting.html"><span class="std std-doc">19.10.2022, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/10-oct/19-10-22_meeting.html"><span class="std std-doc">19.10.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2666389922000988">Patient and public involvement to build trust in artificial intelligence: A framework, tools, and case studies</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/19-10-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/10-oct/05-10-22_meeting.html"><span class="std std-doc">05.10.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/10-oct/05-10-22_meeting.html"><span class="std std-doc">05.10.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://senseoffairness.blog/2020/12/17/the-failures-of-algorithmic-fairness/">The Failures of Algorithmic Fairness</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/05-10-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/09-sep/21-09-22_meeting.html"><span class="std std-doc">21.09.2022, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/09-sep/21-09-22_meeting.html"><span class="std std-doc">21.09.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://ieeexplore.ieee.org/document/8634814">Hacking the cis-tem</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/21-09-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/06-jun/16-06-22_meeting.html"><span class="std std-doc">16.06.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/06-jun/16-06-22_meeting.html"><span class="std std-doc">16.06.2022, 1pm</span></a></p></td>
 <td><p>Data Week Special - <a class="reference external" href="https://www.youtube.com/watch?v=ADYxJU0WyJA">We watched a video by Virginia Eubanks</a> (author of Automating Inequality)</p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/16-06-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/06-jun/01-06-22_meeting.html"><span class="std std-doc">01.06.2022, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/06-jun/01-06-22_meeting.html"><span class="std std-doc">01.06.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.adalovelaceinstitute.org/wp-content/uploads/2021/11/ADA_Participatory-Data-Stewardship.pdf">Participatory data stewardship</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/01-06-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/05-may/04-05-22_meeting.html"><span class="std std-doc">18.05.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/05-may/04-05-22_meeting.html"><span class="std std-doc">18.05.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.thenewatlantis.com/publications/why-data-is-never-raw">Why Data Is Never Raw</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/18-05-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/05-may/04-05-22_meeting.html"><span class="std std-doc">04.05.2022, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/05-may/04-05-22_meeting.html"><span class="std std-doc">04.05.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.tandfonline.com/doi/full/10.1080/09505431.2021.1990875">Economies of Virtue: The Circulation of “Ethics” in Big Tech</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/04-05-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/04-apr/06-04-22_meeting.html"><span class="std std-doc">06.04.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/04-apr/06-04-22_meeting.html"><span class="std std-doc">06.04.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://reallifemag.com/the-algorithmic-colonization-of-africa/">The Algorithmic Colonization of Africa</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/06-04-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/03-mar/23-03-22_meeting.html"><span class="std std-doc">23.03.2022, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/03-mar/23-03-22_meeting.html"><span class="std std-doc">23.03.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.jofreeman.com/joreen/tyranny.htm">The Tyranny of Structurelessness</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/23-03-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/03-mar/09-03-22_meeting.html"><span class="std std-doc">09.03.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/03-mar/09-03-22_meeting.html"><span class="std std-doc">09.03.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.bbc.co.uk/sounds/play/m00127t9">AI in Warfare</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/09-03-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>23.02.2022, 1pm</p></td>
+<tr class="row-even"><td><p>23.02.2022, 1pm</p></td>
 <td><p>N/A</p></td>
 <td><p>Cancelled due to UCU Strikes.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/02-feb/09-02-22_meeting.html"><span class="std std-doc">09.02.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/02-feb/09-02-22_meeting.html"><span class="std std-doc">09.02.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://journals.sagepub.com/doi/full/10.1177/2053951719833404">“You Social Scientists Love Mind Games”: Experimenting in the “divide” between data science and critical algorithm studies</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/09-02-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/01-jan/26-01-22_meeting.html"><span class="std std-doc">26.01.2022, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/01-jan/26-01-22_meeting.html"><span class="std std-doc">26.01.2022, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://thenewstack.io/which-programming-languages-use-the-least-electricity/">Which Programming Languages Use The Least Electricity?</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/26-01-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2022/01-jan/12-01-22_meeting.html"><span class="std std-doc">12.01.2022, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2022/01-jan/12-01-22_meeting.html"><span class="std std-doc">12.01.2022, 1pm</span></a></p></td>
 <td><p><a class="reference internal" href="meetings/2022/01-jan/12-01-22_meeting.html"><span class="std std-doc">Data Ethics Club’s New Years Resolutions</span></a> - read the meeting summary for an overview</p></td>
 <td><p><a class="reference internal" href="#../write_ups/2022/12-01-22_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/12-december/15-12-21_meeting.html"><span class="std std-doc">15.12.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/12-december/15-12-21_meeting.html"><span class="std std-doc">15.12.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.bbc.co.uk/programmes/p00ghvd8">The Reith Lectures: Onora O’Neill - A Question of Trust</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/15-12-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p>01.12.2021, 1pm: CANCELLED  <a class="reference external" href="https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December">UCU STRIKE</a></p></td>
+<tr class="row-odd"><td><p>01.12.2021, 1pm: CANCELLED  <a class="reference external" href="https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December">UCU STRIKE</a></p></td>
 <td><p>NA: CANCELLED <a class="reference external" href="https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December">UCU STRIKE</a></p></td>
 <td><p>No meeting, but feel free to have a <a class="reference external" href="https://www.ucu.org.uk/article/11872/Universities-to-be-hit-with-three-days-of-strikes-in-December">read about the strikes here</a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/11-november/17-11-21_meeting.html"><span class="std std-doc">17.11.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/11-november/17-11-21_meeting.html"><span class="std std-doc">17.11.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://towardsdatascience.com/statistics-eugenics-and-me-29eaf43efac7">Statistics, Eugenics, and Me</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/17-11-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/11-november/03-11-2021_meeting.html"><span class="std std-doc">03.11.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/11-november/03-11-2021_meeting.html"><span class="std std-doc">03.11.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.gov.uk/government/publications/national-ai-strategy/national-ai-strategy-html-version#pillar-3-governing-ai-effectively">UK’s National AI Strategy - Pillar 3: Governing AI Effectively</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/03-11-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/10-october/20-10-21_meeting.html"><span class="std std-doc">20.10.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/10-october/20-10-21_meeting.html"><span class="std std-doc">20.10.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://arxiv.org/pdf/2009.14258.pdf">Towards decolonising computational sciences</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/20-10-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/10-october/06-10-21_meeting.html"><span class="std std-doc">06.10.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/10-october/06-10-21_meeting.html"><span class="std std-doc">06.10.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.abc.net.au/radionational/programs/philosopherszone/structural-injustice-and-individual-responsibility/13486680">Structural Injustice and Individual Responsibility</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/06-10-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>NO MEETING 22.08</p></td>
+<tr class="row-even"><td><p>NO MEETING 22.08</p></td>
 <td><p>NO MEETING 22.08</p></td>
 <td><p>N/A</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/09-september/08-09-2021_meeting.html"><span class="std std-doc">08.09.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/09-september/08-09-2021_meeting.html"><span class="std std-doc">08.09.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://arxiv.org/pdf/2106.11521.pdf">ESR: Ethics and Society Review of Artificial Intelligence Research</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/08-09-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/08-august/25-08-2021_meeting.html"><span class="std std-doc">25.08.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/08-august/25-08-2021_meeting.html"><span class="std std-doc">25.08.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://journals.sagepub.com/doi/10.1177/2056305118763366">Participant’s Perceptions of Twitter Research Ethics</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/25-08-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/08-august/11-08-2021_meeting.html"><span class="std std-doc">11.08.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/08-august/11-08-2021_meeting.html"><span class="std std-doc">11.08.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.fastcompany.com/90618225/what-an-ancient-lake-in-nevada-reveals-about-the-future-of-tech">What an ancient lake in Nevada reveals about the future of tech</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/11-08-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/07-july/28-07-2021_meeting.html"><span class="std std-doc">28.07.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/07-july/28-07-2021_meeting.html"><span class="std std-doc">28.07.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://newrepublic.com/article/161913/we-are-bellingcat-spooked-private-investigators">The Rise of Private Spies</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/28-07-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/07-july/14-07-2021_meeting.html"><span class="std std-doc">14.07.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/07-july/14-07-2021_meeting.html"><span class="std std-doc">14.07.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.youtube.com/watch?v=lCjspXB5F4A">Numberphile: The Mathematics of Crime and Terrorism - Numberphile</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/14-07-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference external" href="https://www.eventbrite.co.uk/e/inclusive-and-ethical-data-science-tickets-154266849299#">17.06.2021: Inclusive and Ethical Data Science Seminar</a></p></td>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.eventbrite.co.uk/e/inclusive-and-ethical-data-science-tickets-154266849299#">17.06.2021: Inclusive and Ethical Data Science Seminar</a></p></td>
 <td><p>Responsible Data and AI by <a class="reference external" href="https://www.turing.ac.uk/people/researchers/anjali-mazumder">Anjali Mazumder</a>,  <a class="reference external" href="https://zenodo.org/record/4969380">Intro to The Turing Way</a> by <a class="reference external" href="https://malvikasharan.github.io/">Malvika Sharan</a>, and <a class="reference external" href="https://fat-forensics.org/index.html">FAT Forensics ToolBox</a> by <a class="reference external" href="https://research-information.bris.ac.uk/en/persons/alex-hepburn">Alex Hepburn</a></p></td>
 <td><p>N/A</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference external" href="https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-club-coded-bias-screening-tickets-155911949839#">16.06.2021: Screening of Coded Bias</a></p></td>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.eventbrite.co.uk/e/special-edition-of-data-ethics-club-coded-bias-screening-tickets-155911949839#">16.06.2021: Screening of Coded Bias</a></p></td>
 <td><p><a class="reference external" href="https://en.wikipedia.org/wiki/Coded_Bias">Coded Bias</a></p></td>
 <td><p>N/A</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/05-may/26-05-2021_meeting.html"><span class="std std-doc">26.05.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/05-may/26-05-2021_meeting.html"><span class="std std-doc">26.05.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://news.techworkerscoalition.org/2021/03/09/issue-5/">‘Living in the Hidden Realms of AI: The Workers Perspective’</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/26-05-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/05-may/12-05-2021_meeting.html"><span class="std std-doc">12.05.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/05-may/12-05-2021_meeting.html"><span class="std std-doc">12.05.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://slideslive.com/38923500/critical-perspectives-on-computer-vision">Critical Perspectives on Computer Vision</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/12-05-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/04-april/28-04-21_meeting.html"><span class="std std-doc">28.04.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/04-april/28-04-21_meeting.html"><span class="std std-doc">28.04.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.theguardian.com/commentisfree/2018/may/13/we-created-poverty-algorithms-wont-make-that-go-away">We created poverty. Algorithms won’t make that go away</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/28-04-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/04-april/14-04-21_meeting.html"><span class="std std-doc">14.04.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/04-april/14-04-21_meeting.html"><span class="std std-doc">14.04.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://uksa.statisticsauthority.gov.uk/publication/identifying-gaps-opportunities-and-priorities-in-the-applied-data-ethics-guidance-landscape/">Identifying gaps, opportunities and priorities in the applied data ethics guidance landscape</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/14-04-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/03-march/31-03-21_meeting.html"><span class="std std-doc">31.03.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/03-march/31-03-21_meeting.html"><span class="std std-doc">31.03.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/npqu.12080">Dataism is Our New God</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/31-03-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/03-march/17-03-21_meeting.html"><span class="std std-doc">17.03.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/03-march/17-03-21_meeting.html"><span class="std std-doc">17.03.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://thepsychologist.bps.org.uk/volume-33/november-2020/bropenscience-broken-science">#bropenscience is broken science</a></p></td>
 <td><p><a class="reference internal" href="#../write_ups/2021/17-03-21_writeup"><span class="xref myst">Read the write up</span></a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/03-march/03-03-21_meeting.html"><span class="std std-doc">03.03.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/03-march/03-03-21_meeting.html"><span class="std std-doc">03.03.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2666389921000155">Algorithmic injustice: a relational ethics approach (Birhane, 2021)</a></p></td>
 <td><p><a class="reference external" href="https://twitter.com/ninadicara/status/1367117597397893122?s=20">Nina’s Twitter Summary</a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/02-feb/17-02-21_meeting.html"><span class="std std-doc">17.02.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/02-feb/17-02-21_meeting.html"><span class="std std-doc">17.02.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="http://faculty.washington.edu/ebender/papers/Stochastic_Parrots.pdf">On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?</a></p></td>
 <td><p><a class="reference external" href="https://twitter.com/StatalieT/status/1362045192543600641?s=20">Natalie’s Twitter Summary</a></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/02-feb/03-02-21_meeting.html"><span class="std std-doc">03.02.2021, 1pm</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/02-feb/03-02-21_meeting.html"><span class="std std-doc">03.02.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://deardesignstudent.com/ethics-cant-be-a-side-hustle-b9e78c090aee">Ethics can’t be a side hustle</a></p></td>
 <td><p><a class="reference external" href="https://twitter.com/ninadicara/status/1356976821498175491?s=20">Nina’s Twitter Summary</a></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="meetings/2021/01-jan/20-01-21_meeting.html"><span class="std std-doc">20.01.2021, 1pm</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="meetings/2021/01-jan/20-01-21_meeting.html"><span class="std std-doc">20.01.2021, 1pm</span></a></p></td>
 <td><p><a class="reference external" href="https://www.gov.uk/government/publications/cdei-publishes-review-into-bias-in-algorithmic-decision-making/main-report-cdei-review-into-bias-in-algorithmic-decision-making#executive-summary">Executive Summary of the Review into bias in algorithmic decision making</a></p></td>
 <td><p><a class="reference internal" href="meetings/2021/01-jan/20-01-21_meeting.html"><span class="std std-doc">Brief summary on the meeting document</span></a></p></td>
 </tr>
 </tbody>
 </table>
+</div>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -803,7 +813,7 @@ If you would like to get email reminders about the content and dates for the nex
               
               
               
-                <footer class="prev-next-footer">
+                <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
     <a class="left-prev"
@@ -885,8 +895,8 @@ If you would like to get email reminders about the content and dates for the nex
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
 
 
   <footer class="bd-footer">
@@ -894,7 +904,15 @@ If you would like to get email reminders about the content and dates for the nex
   
     <div class="footer-items__start">
       
-        <div class="footer-item">License: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY-4.0</a></div>
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
       
         <div class="footer-item">
 
@@ -912,7 +930,7 @@ If you would like to get email reminders about the content and dates for the nex
       
         <div class="footer-item">
 <p class="theme-version">
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.2.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.3.
 </p></div>
       
     </div>
