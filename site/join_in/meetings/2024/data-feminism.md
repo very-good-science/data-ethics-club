@@ -20,6 +20,7 @@ This is to try and get the best coverage across requested timezones which were: 
 |-----------------------------|--------------------|
 | Central European Time UTC+2 | 17:00              |
 | British Summer Time UTC+1   | 16:00              |
+| Eastern Daylight Time UTC-4 | 11:00              |
 | Peru Time UTC-5             | 10:00              |
 | Pacific Daylight Time UTC-7 | 08:00              |
 
