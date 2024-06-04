@@ -76,13 +76,8 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
         },
         {
-            "name": "Twitter",
-            "url": "https://twitter.com/hashtag/DataEthicsClub",
-            "icon": "fa-brands fa-twitter",
-        },
-        {
             "name": "Mailing List",
-            "url": "https://pypi.org/project/pydata-sphinx-theme",
+            "url": "https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1",
             "icon": "fa-regular fa-envelope",
         },
         {
