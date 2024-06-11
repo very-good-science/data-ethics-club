@@ -21,8 +21,8 @@ All meetings will be at 15:00 UTC - see below for timezone info!
 |---------------------|------------------------|
 | Introduction and introductions! | Monday 8th July        |
 | Chapter 1           | Monday 15th July       |
-| Chapter 2           | Thursday 26th July     |
-| Chapter 3           | Thursday 2nd August    |
+| Chapter 2           | Thursday 25th July     |
+| Chapter 3           | Thursday 1st August    |
 | Chapter 4           | Monday 12th August     |
 | Chapter 5           | Monday 19th August     |
 | Chapter 6           | Thursday 29th August   |
@@ -40,7 +40,7 @@ This is to try and get the best coverage across requested timezones which were: 
 | British Summer Time UTC+1   | 16:00              |
 | Eastern Daylight Time UTC-4 | 11:00              |
 | Peru Time UTC-5             | 10:00              |
-| Pacific Daylight Time UTC-7 | 08:00              |
+| Pacific Daylight Time UTC-7 | 07:00              |
 
 Psst - Please raise an issue if you spot that any of these time conversions are incorrect! 
 
