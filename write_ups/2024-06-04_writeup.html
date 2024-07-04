@@ -1,0 +1,1390 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: How AI could save or destroy education &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2024-06-04_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2024-06-04_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  <span>04 June 2024</span>
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/education.html">education</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/data-week.html">data week</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-05-22_writeup.html">
+      22 May - Data Ethics Club: The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-05-08_writeup.html">
+      21 May - Data Ethics Club: Amazon’s Just Walk Out technology relies on hundreds of workers in India watching you shop
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-04-24_writeup.html">
+      07 May - Artificial Intelligence Act - MEPs adopt landmark law
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-03-27_writeup.html">
+      27 March - Decolonial AI
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-03-14_writeup.html">
+      13 March - Values in AI Image Systems
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (56)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<link rel="stylesheet" href="../_static/ablog/tagcloud.css" type="text/css" />
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/computer-vision.html">computer vision</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-week.html">data week</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/law.html">law</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/personality-test.html">personality test</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/recruitment.html">recruitment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (21)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (12)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">Data Ethics...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="data-ethics-club-how-ai-could-save-or-destroy-education">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.youtube.com/watch?v=hJP5GqnTrNo">How AI could save or destroy education</a><a class="headerlink" href="#data-ethics-club-how-ai-could-save-or-destroy-education" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Tuesday 4th June’s Data Ethics Club discussion, where we spoke and wrote about the video <a class="reference external" href="https://www.youtube.com/watch?v=hJP5GqnTrNo">How AI could save (not destroy) education</a>, a TED Talk by Sal Khan, founder and CEO of Khan Academy.
+The discussion summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara, Huw Day, Natalie Thurlby, Amy Joint, and Vanessa Hanschke helped with the final edit.</p>
+</div>
+<section id="how-could-ai-save-education">
+<h2>How could AI save education?<a class="headerlink" href="#how-could-ai-save-education" title="Link to this heading">#</a></h2>
+<p>For this special edition of Data Ethics Club, taking place during <a class="reference external" href="https://www.bristol.ac.uk/golding/events/data-week/">Bristol Data Week 2024</a>, we had the chance to reach a wider audience than just DEC regulars. Instead of having people read a piece before hand, we played the first ~9 minutes of “How AI Could Save (Not Destroy) Education”, a TED Talk by Sal Khan, founder and CEO of Khan Academy.</p>
+<p>In the talk, Khan points out how ChatGPT and other forms of AI are being used by students and undermining education as we know it. Is there any way we can mitigate this? Khan argues yes, and further claims that we’re on the cusp of having AI personal tutors.</p>
+<p>A chatbot called Khanmigo is being introduced to <a class="reference external" href="https://www.khanacademy.org/">Khan Academy</a>, his education platform which states on their website: “We’re a nonprofit with the mission to provide a free, world-class education for anyone, anywhere.”</p>
+<p>In the talk, Khan demos Khanmigo’s capabilities:</p>
+<ul class="simple">
+<li><p>Khan first notes that the chat conversation is recorded and viewable by teachers for safeguarding, as well as being moderated by a second AI.</p></li>
+<li><p>It also refuses to give students the answer directly, but can notice when students makes a mistake, pick out the mistake they made and asked a question about it.</p></li>
+<li><p>Khanmigo can help with maths and coding problems.</p></li>
+<li><p>Khanmigo can answer the question that haunts teachers “when would I need to learn this?” in a socratic way, asking students what they care about and then reframing things.</p></li>
+<li><p>Khamigo can also act as a guidance counsellor and career coach, with an example given of Khanmigo answering student questions about what they need to get to college.</p></li>
+<li><p>Khanmigo can pretend to be Jay Gatsby from the F. Scott Fiztgerald novel “The Great Gatsby” and answer questions for students e.g. “Why do you keep staring at the green light?”</p></li>
+<li><p>Khanmigo can have debates with students about topics such as cancelling student debt, allowing students to fine tune their arguments in a judgement free environment.</p></li>
+<li><p>Khamigo can help students write a story, asking for questions about settings or characters. Students can write two sentences and then the AI can write the next two.</p></li>
+</ul>
+<p>Khan demos all of these features with enthusiasm from the crowd, but we wondered if there are problems with the way AI is joining education. We paused the video at the 8:40 mark and begun our discussions.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="how-do-you-like-to-learn-does-ai-play-a-role-in-your-learning-could-it">
+<h3>How do you like to learn? Does AI play a role in your learning? Could it?<a class="headerlink" href="#how-do-you-like-to-learn-does-ai-play-a-role-in-your-learning-could-it" title="Link to this heading">#</a></h3>
+<p>There are a few ways in which we have incorporated AI tools into our learning, including assisting with coding, writing tasks, and knowledge acquisition. For coding, we have used GitHub copilot to help with debugging code, code completion tools to fill in code, and ChatGPT to explain code snippets or concepts (e.g. “what is object-oriented programming”). For writing tasks, we’ve applied AI tools to overcome writer’s block, assist with copy editing, and summarise blocks of information into something more coherent. This has been useful for tasks such as job applications. For knowledge acquisition, some of us now use tools like ChatGPT instead of Google, albeit with some scepticism as to the quality of outputs.</p>
+<p>When using AI for learning, we have found that the way we frame our prompts (e.g. asking specific questions) can improve the quality of outputs. Some of us have completed prompt engineering courses to further enhance our use of AI. Generally, we’ve found AI tools to be useful for “base level” learning, restricting questions to be as objective as possible. For example, in the case of learning languages we might ask targeted questions about basic grammar such as “what is the past tense of avoir”.</p>
+<p>Since incorporating AI, we have found our learning to be accelerated and more efficient. First, we can quickly find foundational information which might take longer to decipher without the assistance of AI. Second, AI provides a space where we can ask basic questions that provide fundamental understandings but feel like wasting time when we ask other people. Third, AI is helpful to rephrase segments of text which we don’t understand. AI can thus be applied as an initial investigation to understand a topic before we have the language to know what we are searching for when we dive deeper into documentation. We’ve found these approaches to be especially effective in the domains of mathematics, engineering, and programming.</p>
+<p>However, outputs can be unreliable, entailing that we should be cautious about our use of AI and perform forensic analysis on responses. Some of us only use generative AI as a last resort, as we have not found it to be effective on certain tasks we have applied it to. For example, some of us have found that generative AI does not find coding errors. Some of us find copilot annoying to use, identifying that there is a certain level of skill required to use copilot effectively. Some of us do not feel confident using ChatGPT and have encountered issues when the results aren’t compatible with the software we are using. Outputs don’t always give the most obvious answer, and sometimes miss important information. If we don’t understand the output of an AI tool, we feel uncomfortable using it; it doesn’t give us confidence that we know the subject. For some topics, we find that ChatGPT is barely helpful at all unless you are an expert.</p>
+<p>Whilst there are substantial issues with the accuracy of generative AI, we should accept that it is here to stay. We thus need to learn how to use it properly and actively engage with the content we receive. This involves critical thinking and performing science on outputs to calibrate performance. Facilitating the intuitiveness of using different software (including LLMs) is helped by having a core knowledge of software.</p>
+</section>
+<section id="which-students-do-you-think-would-benefit-most-from-these-tools-which-students-do-you-think-would-have-the-most-access-to-them">
+<h3>Which students do you think would benefit most from these tools? Which students do you think would have the most access to them?<a class="headerlink" href="#which-students-do-you-think-would-benefit-most-from-these-tools-which-students-do-you-think-would-have-the-most-access-to-them" title="Link to this heading">#</a></h3>
+<p>The level of proficiency might play a role in how beneficial tools are for students. Some students are very good at using these tools already, suggesting they could benefit by introducing them to their learning process. However, AI tools might not be appropriate for total beginners, as beginners are limited in their knowledge of what prompts they could use, and do not know enough to spot when there are mistakes. AI can speed up the process of learning, but ultimately just answers questions and does not actually <em>teach</em> you. You need to have some awareness of the objectives of your learning; you can only learn what you know you don’t know. On the other hand, these tools can be very useful to show students where they have gone wrong (e.g. with writing code).</p>
+<p>Utilising AI tools could help to tailor education to students with specific learning styles or needs. Tools could make education more engaging for students who learn by doing, as in the example (in the video) of Khanmigo repackaging sources previously written about the Great Gatsby into a “conversation”. Quieter, more anxious students who struggle asking questions in front of others, worrying about saying something stupid, might benefit by having a more private discourse with a chatbot. These kinds of anxieties can arise in students at any level, from complete beginner to PhD students, suggesting that there could be application throughout the schooling system.</p>
+<p>Those of us who work with Special Educational Needs (SEN) have found that students spend a lot of time considering these tools. Potential benefits arise from the ability to tailor AI to specific needs of students. There is a tendency to move students who are overstimulated by large groups of people into smaller rooms with special provisions. Tailoring AI to students could enhance the learning experience of those with more specific needs which are difficult to meet in large classes. For students with dyslexia, AI could help to construct emails, check spelling and grammar, and rephrase things. If schools have limited resources, funding digital twins for students could widen access to learning spaces.</p>
+<p>However, it is also important to consider how the interface of AI tools can restrict accessibility. Whilst neurodivergent students might derive some benefits from personalisation, these students might also find it difficult to maintain engagement with tools like Khanmigo. If access to these tools is given to everyone, regardless of their abilities and needs, it might have adverse effects such as making some students lazier. The difficulties neurodivergent students face with engaging with AI tools risks broadening the gap between the most and least able students, distorting performance across the cohort.</p>
+<p>Introducing AI tools into the educational system may therefore exacerbate various existing gaps; we suspect that the groups “would benefit most” and “have most access to” may not be overlapping. This highlights sociological problems with AI. To take full advantage of these tools, students would need access to consistent power, reliable working computers, and good internet. Premium versions of applications work better, and free versions have more pitfalls, further dividing the “haves” from the “have nots”.  Careful thinking is required as to how paywalls impact education and who bears the cost, drawing parallels to the <a class="reference external" href="https://www.vox.com/future-perfect/2022/9/18/23356630/open-science-academic-research-paywall-biden">longstanding debate of paid access to journals</a>. Rather than using education to allow people to break through a poverty barrier, AI could instead strengthen the barrier.</p>
+<p>These gaps should be considered on a global scale, including the impact that incorporating AI in education will have on developing countries. <a class="reference external" href="https://hapakenya.com/2022/06/09/kenya-launches-coding-syllabus-for-schools-in-partnership-with-kodris-africa/">In 2022, the Kenyan government introduced an initiative to teach children to code</a>; we wondered whether the initiative is using AI to boost teaching capabilities. On one hand, this could improve access to knowledge repositories, aided by the use of mobile phones. On the other hand, issues with accessibility may mean that developing countries find it much harder to implement such tools in education, and countries where students can reliably access the tools leap ahead in their educational capacities.</p>
+</section>
+<section id="what-are-the-pros-and-cons-of-1-1-learning-with-ai-being-adopted-more-widely-in-education-is-there-a-trade-off-between-the-benefits-of-personalised-help-vs-less-emphasis-on-group-learning">
+<h3>What are the pros and cons of 1-1 learning (with AI) being adopted more widely in education: is there a trade-off between the benefits of personalised help vs. less emphasis on group learning?<a class="headerlink" href="#what-are-the-pros-and-cons-of-1-1-learning-with-ai-being-adopted-more-widely-in-education-is-there-a-trade-off-between-the-benefits-of-personalised-help-vs-less-emphasis-on-group-learning" title="Link to this heading">#</a></h3>
+<p>Whilst there is potential for different types of students to benefit from personalisation in 1-1 AI learning, we do think there is a trade-off with the benefits of group learning such as opportunities for socialising. Learning with peers is fun, and there is a lot of fulfilment that comes from discovering things with other people. Working in groups also teaches students social skills that help them to work with others, cultivating the ability to “read the room” and relate to one another. Moves towards digitalisation of services fosters the propensity for young people to be more isolated and <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0001691821002043">is correlated with loneliness</a>.</p>
+<p>In addition to mitigating loneliness, learning from human teachers presents opportunities to teach children respect. We wondered how Khanmigo handles situations where students are rude, or provide intentionally wrong answers to test the boundaries of the system. There is a fine line that must be walked here between making systems closer to real teachers by being more human-like and interactive, and anthropomorphising AI. Saying “please” and “thank you” to AI may seem futile, but if we regularly interact with AI without manners, we might become desensitised to social etiquette.</p>
+<p>As well as trade-offs with socialisation, there are trade-offs with the effectiveness of using AI in the learning process. Some of us feel that it is acceptable to use AI at work, but in an educational context it seems like cheating. There is a certain amount of trust needed in students to use AI tools appropriately. AI can provide basic answers, but that isn’t the goal – the goal is to learn, and it is important that students recognise this. It is important to differentiate between when people are using it as a learning or guidance tool, and when people are using it as a replacement of effort. A lot of scientific discovery is down to serendipitous discovery; not discovering what you set out to discover. It is important that AI does not erase this; the <a class="reference external" href="https://royalsociety.org/-/media/policy/projects/science-in-the-age-of-ai/science-in-the-age-of-ai-report.pdf">Royal Society “Science in the age of AI” report</a> explores how science is affected by AI.</p>
+<p>Further trade-offs emerge from technical limitations of AI, regarding how we can ensure the quality and correctness of AI 1-1 learning. We wondered what the validation process is before outputs are put in front of students, and how the tool is moderated. If AI is being used to moderate AI, we wondered what the chance of failure is, where failure is incorrectly identifying moments which need human intervention. If human teachers are expected to moderate AI tutors, this could change their role by introducing transcripts which they have to assess after class.</p>
+<p>Issues of security arise regarding the use of data, and the handling of vulnerable users (e.g. children). There is <a class="reference external" href="https://hai.stanford.edu/news/how-trustworthy-are-large-language-models-gpt">evidence for security vulnerabilities in LLMs</a>, and inputting sensitive data could be risky.</p>
+<p>Potential for bias exists in the use of language, and the way language is handled in training data. Whilst languages like English and French are used extensively in LLMs, endangered languages further risk becoming extinct. Students will be encouraged to learn only languages supported by AI tools, turning the focus away from learning local languages. On the other hand, apps like Duolingo apply AI to accelerate language learning. This presents an opportunity to help people relearn endangered, or even extinct, languages by training AI on those languages.</p>
+<p>It is also important to consider are the ecological impact of using AI in education, including the amount of power and resources that the tools use.</p>
+</section>
+<section id="bonus-question-what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h3><strong>Bonus Question:</strong> What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#bonus-question-what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h3>
+<p>As things currently stand, we do not have enough trust in AI tools to replace teachers or become central educational mechanisms. Instead, we think they could be used as a supplement to systems which are already working well. They are an addition, not an alternative.</p>
+<p>At the same time, we should appreciate that the traditional model of education is flawed. Whilst AI isn’t necessarily the answer, we shouldn’t stick with what we already have just because it’s what we’re used to doing. Considerations like accounting for neurodivergence are arguments for why we need to adjust the current structure. To provide insight for how we could make adjustments, we can look to systems like those in various Nordic countries, <a class="reference external" href="https://www.eschoolnews.com/district-management/2015/06/18/scandinavian-schools-291/">which prioritise equality of students and 1-1 device programs</a>.</p>
+<p>With respect to competition, we wondered if Khanacademy will have a monopoly over the market, or if there are other players out there.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Arwa bokhari, University of Bristol,</p></li>
+<li><p>Nina Di Cara, Snr Research Associate, University of Bristol, <a class="reference external" href="https://github.com/ninadicara/">ninadicara</a>, <a class="reference external" href="https://twitter.com/ninadicara">&#64;ninadicara</a></p></li>
+<li><p>Huw Day, Data Scientist, Jean Golding Institute, <a class="reference external" href="https://twitter.com/disco_huw">&#64;disco_huw</a></p></li>
+<li><p>Amy Joint, Programme Manager, ISRCTN Clinical Trial Registry, <a class="reference external" href="https://twitter.com/AmyJointSci">&#64;AmyJointSci</a></p></li>
+<li><p>Noshin Mohamed - Service Manager for Quality Assurance in Children’s Services</p></li>
+<li><p>Luke Shaw, Data Scientist in the NHS (based in Bristol) <a class="reference external" href="https://www.linkedin.com/in/luke-shaw-bba802153/">LinkedIn</a></p></li>
+<li><p>Euan Bennet, Lecturer, University of Glasgow, <a class="reference external" href="https://twitter.com/DrEuanBennet">&#64;DrEuanBennet</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
+<li><p>Dan Evans - Data Scientist: Dyson New Product Innovation <a class="reference external" href="https://www.linkedin.com/in/devans12345/">linkedin</a></p></li>
+<li><p>Dan Lawson - interim Director of JGI, Assoc Prof of Data Science <a class="reference external" href="https://people.maths.bris.ac.uk/~madjl/">website</a>, <a class="reference external" href="https://www.linkedin.com/in/daniel-lawson-4408b356/">linkedin</a></p></li>
+<li><p>Paul Matthews, Lecturer &#64; UWE Bristol <a class="reference external" href="https://www.linkedin.com/in/paulmatthewsuwe/">LinkedIn</a></p></li>
+<li><p>Betsy Muriithi, Reseach Fellow, &#64;ilabAfrica Strathmore University, <a class="reference external" href="https://www.linkedin.com/in/bnmuriithi/">&#64;bmuriithi</a>, :relaxed:</p></li>
+<li><p>Laura Hille, Researcher, Leuphana University Lueneburg and University of Bristol, <a class="reference external" href="https://twitter.com/simongoeshill">&#64;simongoeshill</a></p></li>
+<li><p>Manajit Chakraborty, Lecturer, The Dyson Institute of Engineering and Technology, (https://www.dysoninstitute.ac.uk/about-us/who-we-are/meet-the-team/), 🥱☕</p></li>
+<li><p>Michelle Wan, PhD student, University of Cambridge</p></li>
+<li><p>Sydney Charitos, Digital health and care PhD Student, University of Bristol</p></li>
+<li><p>Dhiren Modi, Engineering Capability Lead, National Composites Centre (Bristol), PhD Mechanical Engineering, Actively pursuing Data Science/AI in applications, governance, societal impact etc.</p></li>
+<li><p>Gemma Marsden, Research Data Manager, Cranfield University</p></li>
+<li><p>Chakaya Nyamvula, Business Intelligence Analyst, &#64;iLabAfrica Strathmore University. Data Science intern &#64; JGI Brsitol University, currently pursuing MSc AI and Data Science, Keele University</p></li>
+<li><p><a class="reference external" href="https://people.uwe.ac.uk/Person/KamranSoomro">Kamran Soomro</a>, Associate Professor of AI &#64; UWE Bristol.</p></li>
+<li><p>Aleksandra Pastuszak, Data Scientict &#64; Dyson <a class="reference external" href="https://uk.linkedin.com/in/pastuszaka?original_referer=https%3A%2F%2Fwww.google.com%2F">LinkedIn</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/catherine-d-software-dev-cyber/">Catherine Deas</a>, Associate Software Engineer, looking for a new role</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2024-05-22_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-could-ai-save-education">How could AI save education?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-you-like-to-learn-does-ai-play-a-role-in-your-learning-could-it">How do you like to learn? Does AI play a role in your learning? Could it?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#which-students-do-you-think-would-benefit-most-from-these-tools-which-students-do-you-think-would-have-the-most-access-to-them">Which students do you think would benefit most from these tools? Which students do you think would have the most access to them?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-pros-and-cons-of-1-1-learning-with-ai-being-adopted-more-widely-in-education-is-there-a-trade-off-between-the-benefits-of-personalised-help-vs-less-emphasis-on-group-learning">What are the pros and cons of 1-1 learning (with AI) being adopted more widely in education: is there a trade-off between the benefits of personalised help vs. less emphasis on group learning?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-question-what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change"><strong>Bonus Question:</strong> What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2024-06-04_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2024-06-04_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
