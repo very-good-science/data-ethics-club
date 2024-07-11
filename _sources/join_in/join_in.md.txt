@@ -21,7 +21,6 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 ## Upcoming meetings
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
-| [04.06.2024](meetings/2024/06-jun/04-06-24_meeting.md), 11am | [Special Edition for the JGI Data Week. Sign Up Here!](https://www.tickettailor.com/events/jgibristol/1223996?ref=schedule)|
 | Weekly in July/August 2024 | [Data Feminism Book Club](meetings/2024/data-feminism) |
 
 ## Past Meetings
@@ -29,6 +28,7 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| [04.06.2024](meetings/2024/06-jun/04-06-24_meeting.md), 11am | [Data Ethics Club: How AI could save or destroy education](https://dataethicsclub.com/write_ups/2024-06-04_writeup.html)|
 | [22.05.2024](meetings/2024/05-may/22-05-24_meeting.md), 1pm | [The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?](https://dataethicsclub.com/join_in/meetings/2024/05-may/22-05-24_meeting.html) |
 | [08.05.2024](meetings/2024/05-may/08-05-24_meeting.md) | [Amazon's Just Walk Out technology relies on hundreds of workers in India watching you shop](https://www.businessinsider.com/amazons-just-walk-out-actually-1-000-people-in-india-2024-4  ) | Write up coming soon! | 
 | [24.04.2024](meetings/2024/04-apr/24-04-24_meeting.md), 1pm | [Artificial Intelligence Act: MEPs adopt landmark law](https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-04-24_writeup.html) |
