@@ -22,6 +22,7 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 | Date (dd.mm.yyyy, UK time)                            | Discussion Material |
 |--------------------------------------------------------|---------------------|
 | Weekly in July/August 2024 | [Data Feminism Book Club](meetings/2024/data-feminism) |
+| [25.05.2024](meetings/2024/09-sept/25-09-24_meeting.md), 1pm | [ChatGPT is Bullshit](https://link.springer.com/article/10.1007/s10676-024-09775-5) |
 
 ## Past Meetings
 
