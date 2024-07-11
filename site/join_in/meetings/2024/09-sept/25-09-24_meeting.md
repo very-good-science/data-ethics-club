@@ -39,24 +39,7 @@ Recently, there has been considerable interest in large language models: machine
 ### Discussion points
 
 There will be time to talk about whatever we like, relating to the paper, but here are some specific questions to think about while you're reading.
-- 
-
-
----
-
-<!--
-
-## Meeting notes
-
-### Who came
-Number of people:
-
-### What did we think?
-Notes here!
-Shall we email the author? If so, who'll send the email?
-
--->
 
 [timedate]: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Data+Ethics+Club&iso=20240925T13&p1=299&ah=1
-[content]: [https://www.businessinsider.com/amazons-just-walk-out-actually-1-000-people-in-india-2024-4  ](https://link.springer.com/epdf/10.1007/s10676-024-09775-5)
+[content]: https://link.springer.com/article/10.1007/s10676-024-09775-5
 [zoom]: https://bristol-ac-uk.zoom.us/j/94475153265  
