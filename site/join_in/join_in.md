@@ -17,18 +17,49 @@ If you would like to get email reminders about the content and dates for the nex
 
 Please read our [Code of Conduct](code-of-conduct) before attending.
 
-
 ## Upcoming meetings
-| Date (dd.mm.yyyy, UK time)                            | Discussion Material |
-|--------------------------------------------------------|---------------------|
-| Weekly in July/August 2024 | [Data Feminism Book Club](meetings/2024/data-feminism) |
+
+These are the meetings for the next academic term.  
+We will update the material and questions based on the previous weeks' vote.  
+
+All meetings are held at 1pm **UK** time.  
+If you are in another timezone please [use a time/date converter like this one to check your local time](https://www.timeanddate.com/worldclock/converter.html)!  
+
+Join the meeting on the following Zoom link: https://bristol-ac-uk.zoom.us/j/96026442410  
+
+[You can see the write ups of previous meetings here!](../write_ups/write-ups)  
+
+### 25th September
+Material: [ChatGPT is Bullsh*t](https://link.springer.com/article/10.1007/s10676-024-09775-5)
+
+Discussion questions: 
+1) Do you think that the labels of ChatGPT as a bullshit machine is fair?  
+2) Do you think ChatGPT is a soft or a hard bullshitter? I.e. do you think it has the intention to mislead its audience or not?  
+3) What do you think of the implications of the anthropomorphizing of AI tools? E.g. hallucination, learning, training, perception etc.  
+
+### 9th October
+To be decided.
+
+### 23rd October
+To be decided.
+
+### 6th November - DEC Special!
+To be decided.
+
+### 20th November
+To be decided.
+
+### 4th December
+To be decided.
+
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| [04.06.2024](meetings/2024/06-jun/04-06-24_meeting.md), 11am | [How AI Could Save (Not Destroy) Education](https://www.youtube.com/watch?v=hJP5GqnTrNo) |[Read the writeup](https://dataethicsclub.com/write_ups/2024-06-04_writeup.html)|
+| Weekly in July/August 2024 | [Data Feminism Book Club](meetings/2024/data-feminism) | TBD |
+| [04.06.2024](meetings/2024/06-jun/04-06-24_xmeeting.md), 11am | [How AI Could Save (Not Destroy) Education](https://www.youtube.com/watch?v=hJP5GqnTrNo) |[Read the writeup](https://dataethicsclub.com/write_ups/2024-06-04_writeup.html)|
 | [22.05.2024](meetings/2024/05-may/22-05-24_meeting.md), 1pm | [The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?](https://dataethicsclub.com/join_in/meetings/2024/05-may/22-05-24_meeting.html) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-05-22_writeup.html) |
 | [08.05.2024](meetings/2024/05-may/08-05-24_meeting.md), 1pm | [Amazon's Just Walk Out technology relies on hundreds of workers in India watching you shop](https://www.businessinsider.com/amazons-just-walk-out-actually-1-000-people-in-india-2024-4) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-05-08_writeup.html) | 
 | [24.04.2024](meetings/2024/04-apr/24-04-24_meeting.md), 1pm | [Artificial Intelligence Act: MEPs adopt landmark law](https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-04-24_writeup.html) |
