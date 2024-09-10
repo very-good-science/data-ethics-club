@@ -1,6 +1,6 @@
 # Data Feminism Book Club 2024
 
-__What are we reading?__ [Data Feminism by Catherine D'Ignazio and Laura F. Klein](https://mitpress.mit.edu/9780262547185/data-feminism/)
+__What are we reading?__ [Data Feminism by Catherine D'Ignazio and Lauren F. Klein](https://mitpress.mit.edu/9780262547185/data-feminism/)
 
 We will be holding weekly meetings over the summer to help us all stay accountable and to discuss
 our thoughts on _Data Feminism_ - a classic data ethics text that many of us have probably had on our
@@ -43,10 +43,3 @@ This is to try and get the best coverage across requested timezones which were: 
 | Pacific Daylight Time UTC-7 | 07:00              |
 
 Psst - Please raise an issue if you spot that any of these time conversions are incorrect! 
-
-
-
-## Want to join? 
-
-We'd love to have you join! Email Nina at nina.dicara@bristol.ac.uk if you'd like to go on the email list for meeting reminders over the summer. 
-We can also send you a calendar invite for the events if you like so they're in your online diary.
