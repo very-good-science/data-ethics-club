@@ -19,21 +19,23 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 
 ## Upcoming meetings
 
-These are the meetings for the next academic term. 
-We will update the material and questions based on the previous weeks' vote. 
+These are the meetings for the next academic term.  
+We will update the material and questions based on the previous weeks' vote.  
 
-All meetings are held at 1pm **UK** time.
-If you are in another timezone please [use a time/date converter like this one to check your local time](https://www.timeanddate.com/worldclock/converter.html)! 
+All meetings are held at 1pm **UK** time.  
+If you are in another timezone please [use a time/date converter like this one to check your local time](https://www.timeanddate.com/worldclock/converter.html)!  
 
-[You can see the write ups of previous meetings here!](../write_ups/write-ups)
+Join the meeting on the following Zoom link: https://bristol-ac-uk.zoom.us/j/96026442410  
+
+[You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
 ### 25th September
 Material: [ChatGPT is Bullsh*t](https://link.springer.com/article/10.1007/s10676-024-09775-5)
 
 Discussion questions: 
-1) Do you think that the labels of ChatGPT as a bullshit machine is fair?
-2) Do you think ChatGPT is a soft or a hard bullshitter? I.e. do you think it has the intention to mislead its audience or not?
-3) What do you think of the implications of the anthropomorphizing of AI tools? E.g. hallucination, learning, training, perception etc.
+1) Do you think that the labels of ChatGPT as a bullshit machine is fair?  
+2) Do you think ChatGPT is a soft or a hard bullshitter? I.e. do you think it has the intention to mislead its audience or not?  
+3) What do you think of the implications of the anthropomorphizing of AI tools? E.g. hallucination, learning, training, perception etc.  
 
 ### 9th October
 To be decided.
