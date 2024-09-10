@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=2024/data-feminism.html" />
+<meta http-equiv="refresh" content="0; url=join_in.html#upcoming-meetings" />
