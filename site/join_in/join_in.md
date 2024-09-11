@@ -22,7 +22,7 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 These are the meetings for the next academic term.  
 We will update the material and questions based on the previous weeks' vote.  
 
-All meetings are held at 1pm **UK** time.  
+All meetings are held at 1pm **UK** time and last one hour.
 If you are in another timezone please [use a time/date converter like this one to check your local time](https://www.timeanddate.com/worldclock/converter.html)!  
 
 Join the meeting on the following Zoom link: https://bristol-ac-uk.zoom.us/j/96026442410  
