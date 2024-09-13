@@ -20,7 +20,7 @@ _Data Ethics Club_ is a "journal" club about doing data science ethically.
 "Journal" because we will also read blog posts, (parts of) books, listen to podcasts or watch videos. 
 
 
-```{button-link} join_in/meetings/next-meeting.html
+```{button-link} join_in/join_in.html#upcoming-meetings
     :color: primary
     :align: center
     Click here for the details of our next meeting
