@@ -31,6 +31,7 @@ Join the meeting on the following Zoom link: https://bristol-ac-uk.zoom.us/j/960
 
 ### 25th September
 Material: [ChatGPT is Bullsh*t](https://link.springer.com/article/10.1007/s10676-024-09775-5)
+Discussion notes on [HackMD](https://hackmd.io/@data-ethics-club/ryERXNxRA/edit)
 
 Discussion questions: 
 1) Do you think that the labels of ChatGPT as a bullshit machine is fair?  
