@@ -31,15 +31,16 @@ Join the meeting on the following Zoom link: https://bristol-ac-uk.zoom.us/j/960
 
 ### 25th September
 Material: [ChatGPT is Bullsh*t](https://link.springer.com/article/10.1007/s10676-024-09775-5)
-Discussion notes on [HackMD](https://hackmd.io/@data-ethics-club/ryERXNxRA/edit)
 
 Discussion questions: 
 1) Do you think that the labels of ChatGPT as a bullshit machine is fair?  
 2) Do you think ChatGPT is a soft or a hard bullshitter? I.e. do you think it has the intention to mislead its audience or not?  
 3) What do you think of the implications of the anthropomorphizing of AI tools? E.g. hallucination, learning, training, perception etc.  
 
+Writeup: Coming soon!
+
 ### 9th October
-To be decided.
+Material: [Time to reality check the promises of machine learning-powered precision medicine](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30200-4/fulltext)
 
 ### 23rd October
 To be decided.
