@@ -1,0 +1,1432 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Feminism: Chapter 1 – The Power Chapter &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2024-08-31_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2024-08-31_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  <span>01 August 2024</span>
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/data-feminism.html">data feminism</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/challenge-power.html">challenge power</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-06-04_writeup.html">
+      04 June - Data Ethics Club: How AI could save or destroy education
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-05-22_writeup.html">
+      22 May - Data Ethics Club: The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-05-08_writeup.html">
+      21 May - Data Ethics Club: Amazon’s Just Walk Out technology relies on hundreds of workers in India watching you shop
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-04-24_writeup.html">
+      07 May - Artificial Intelligence Act - MEPs adopt landmark law
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-03-27_writeup.html">
+      27 March - Decolonial AI
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (57)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<link rel="stylesheet" href="../_static/ablog/tagcloud.css" type="text/css" />
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/challenge-power.html">challenge power</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/computer-vision.html">computer vision</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-feminism.html">data feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-week.html">data week</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/law.html">law</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/personality-test.html">personality test</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/recruitment.html">recruitment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (22)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (13)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page">Data...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="data-feminism-chapter-1-the-power-chapter">
+<h1>Data Feminism: Chapter 1 – The Power Chapter<a class="headerlink" href="#data-feminism-chapter-1-the-power-chapter" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of the discussions from Data Feminism Book Club, where we spoke and wrote about <a class="reference external" href="https://data-feminism.mitpress.mit.edu">Data Feminism</a> by Catherine D’Ignazio and Lauren F. Klein over the summer of 2024.
+We hope you enjoy this writeup. We aim to run another Book Club in the summer of 2025!
+In the mean time, the co-organisers would be really enthusiastic to support anyone interested in running another book club! Please reach out if you want to get involved.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Nina Di Cara, Huw Day, Natalie Thurlby, Amy Joint, and Vanessa Hanschke helped with the final edit.</p>
+</div>
+<section id="principle-examine-power">
+<h2>Principle: Examine Power<a class="headerlink" href="#principle-examine-power" title="Link to this heading">#</a></h2>
+<p><em>“Data feminism begins by analysing how power operates in the world.”</em></p>
+</section>
+<section id="chapter-summary">
+<h2>Chapter Summary<a class="headerlink" href="#chapter-summary" title="Link to this heading">#</a></h2>
+<p>This chapter explores how to examine power through naming and explaining forces of oppression. Power is defined as the configuration of structural privilege and oppression where some have an unfair advantage because systems are designed by people like them and, because of this, those systems work better for them. To explain the configuration and experience of systems of power, the matrix of domination maps how different domains of society (structural, hegemonic, disciplinary, interpersonal) interact. When examining power dynamics in systems, we should ask “who” questions: who does the work (what is the effect of their lived experience?); who benefits (whose data is missing, and who is oversurveilled?); whose priorities get turned into products. A hyperfocus on science, surveillance, and selling can cause significant oversights with life-altering consequences.</p>
+</section>
+<section id="definitions">
+<h2>Definitions<a class="headerlink" href="#definitions" title="Link to this heading">#</a></h2>
+<p><strong>power</strong> - the current configuration of structural privilege and structural oppression, in which some groups experience unearned advantages and other groups experience systematic disadvantages</p>
+<p><strong>matrix of domination</strong> [P Hill-Collins]- (p25) a concept that explains how systems of power are configured and experienced.</p>
+<ul class="simple">
+<li><p><strong>structural domain</strong>: organises oppression (law/politics)</p></li>
+<li><p><strong>hegemonic domain</strong>: circulates oppressive ideas (culture/media)</p></li>
+<li><p><strong>disciplinary domain</strong>: administers and manages oppression (enforcing law/policies)</p></li>
+<li><p><strong>interpersonal domain</strong>: individual experiences</p></li>
+</ul>
+<p><strong>minoritized</strong> - social group that is actively devalued and oppressed by a dominant group (even when they the majority group e.g. women)</p>
+<p><strong>privilege hazard</strong> - when decisions are made by those who make up dominant groups to the exclusion of other identities or perspectives crucial input is missed.</p>
+<p><strong>counterdata</strong> - data that are produced by civil society groups or individuals in order to counter missing data or to challenge existing official data.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="have-you-seen-the-matrix-of-domination-before-what-did-you-think-did-you-fully-understand-it">
+<h3>Have you seen the matrix of domination before? What did you think – did you fully understand it?<a class="headerlink" href="#have-you-seen-the-matrix-of-domination-before-what-did-you-think-did-you-fully-understand-it" title="Link to this heading">#</a></h3>
+<p>Many of us hadn’t seen the matrix of domination in this format before, however, were familiar with its parts. Considering our understandings of these domains, it intuitively made sense to see them linked together in this way. For some of us, the matrix has made visible ways we are affected by power that we were not previously aware of.</p>
+<p>Mapping together the aspects of domination helps us to talk about issues with power which we have always been aware of but haven’t necessarily had the vocabulary to articulate. In particular, we found it useful to visualise the relation between structural and disciplinary domains. Both domains are informed by the hegemonic domain and also trickle down into one another. However, clearly differentiating the domains facilitates decoupling them to infer actionable insights. The interplay of separateness and connectivity illustrates how causes might not be independent, but solutions can be.</p>
+<p>The matrix of domination provides a great framework to support thinking and speech around issues with power which can be hard to articulate. The simple yet informative layout sets the matrix up to be a great communication tool. By providing us with the right understanding and words, we can use it to advocate for ourselves and others.</p>
+<p>We also discussed the possible reasons why it was presented as a matrix. We wondered if the use of a matrix was so that it occupies more of a 3D space, reflecting intersectionality and build-up of different domains interacting. Each section needs to occupy its own space but also interact with the other sections. It is tempting to put things into a hierarchy, but it isn’t always possible to order and measure how factors impact people.</p>
+<p>However, whilst labelling can be useful, we wondered if it is effective when people don’t believe in the labels themselves. There are always excuses for oppressive behaviour; sometimes we wonder if efforts to examine power make any difference. Labels and other means of categorisation can also feel quite abstract. To put the matrix of domination into practice, and facilitate unlearning, it would be useful to have some more examples about which groups are being dominant. Examples can be found by asking who has privilege and power, and why they have it.</p>
+<p>One example of imbalanced power can be found in the context of work, evidenced by disparities such as the <a class="reference external" href="https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/bulletins/genderpaygapintheuk/2022">gender pay gap</a>. Symptoms of domination in the work place include expectations on people to assimilate to men’s behaviour, such as the wave of <a class="reference external" href="https://theconversation.com/young-women-wont-be-told-how-to-behave-but-is-girlboss-just-deportment-by-another-name-132351">“girlboss” feminism</a> and <a class="reference external" href="https://link.springer.com/referenceworkentry/10.1007/978-3-319-28099-8_882-1">assertiveness training</a>. Rather than challenging existing power imbalances, these kinds of behavioural management techniques imply that success can only be obtained by adapting behaviour to ways that are implicitly white and male; you can only succeed at work if you learn how to communicate like the dominant group. For women, this is a double-edged sword. On the one hand, women are not expected to display masculine traits and conform to traditional ideas of femininity (or be called <a class="reference external" href="https://www.cnn.com/2024/07/27/us/cat-lady-explained-cec/index.html">childless cat ladies</a>). On the other hand, to be seen as a leader they are expected to present as <a class="reference external" href="https://hbr.org/2018/11/how-women-manage-the-gendered-norms-of-leadership">confident and tough</a>. Women must therefore tailor their vocabulary and behaviour to navigate these complex dynamics.</p>
+<p>Imposition of behavioural expectations from the dominant group, and other forms of discrimination, often manifest through microaggressions. A microaggression is a <a class="reference external" href="https://www.psychologytoday.com/us/basics/microaggression">“subtle, often unintentional, form of prejudice… often takes the shape of an offhand comment, an inadvertently painful joke, or a pointed insult.”</a>. On the interpersonal level, it can be difficult to articulate and fight against microaggressions. The matrix of domination may help us to address microaggressions, by situating them in a wider context and grounding our explanaitions for why they are wrong.</p>
+<p>Alongside challenging entrenched thoughts and behaviours like microaggressions, it is important to apply the matrix of domination and examination of power to change policy. Equality in the personal and hegemonic domains can take a long time. For example, <a class="reference external" href="https://www.pbs.org/wgbh/americanexperience/features/vote-not-all-women-gained-right-to-vote-in-1920/">not all women got the right to vote in 1920</a>; for black women, <a class="reference external" href="https://www.history.com/topics/black-history/voting-rights-act">the Voting Rights Act was not signed into law until 1965</a>. Even when the right to vote has been put into legislation, to be able to vote you must still have the right documentation, get transport to voting stations, and take time off of work. The time and resources required <a class="reference external" href="https://money.cnn.com/2015/08/05/news/economy/poor-people-voting-rights/index.html">constitute barriers for people with low incomes: “financial security is strongly correlated with nearly every measure of political engagement”</a>. The hegemonic domain, involving the circulation of oppressive ideas in culture and media, provides a suitable frame to understand how <a class="reference external" href="https://www.vox.com/2015/7/24/9023721/white-whiteness-race-identity">race becomes something that only people that aren’t white have</a>.</p>
+<p>To fight for rebalancing of power relations, people are often required to take on  a large amount of unpaid labour before it is (if it ever is) argued as a paid role. This puts a huge burden on people. For example, there is only a certain amount of time and money spent on <a class="reference external" href="https://www.cnn.com/2024/03/09/us/what-is-dei-and-why-its-dividing-america/index.html">diversity, equity, and inclusion (DEI)</a>, and the labour it involves often isn’t seen as a priority.</p>
+<p>The complex effects of privilege make us wonder: should Privilege Hazard be a <a class="reference external" href="https://datahazards.com/">Data Hazards</a> label? Along a similar line, should using ‘public’ information in a private way (e.g. to <a class="reference external" href="https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/">infer predictions about people’s pregnancy</a>) be a Data Hazards label?</p>
+</section>
+<section id="where-do-you-work-in-your-role-how-does-data-play-in-who-does-it-benefit-and-does-it-align-with-the-science-surveillance-selling-groups">
+<h3>Where do you work – in your role how does data play in? Who does it benefit – and does it align with the science, surveillance, selling groups?<a class="headerlink" href="#where-do-you-work-in-your-role-how-does-data-play-in-who-does-it-benefit-and-does-it-align-with-the-science-surveillance-selling-groups" title="Link to this heading">#</a></h3>
+<p>We have worked with data in the contexts of biodiversity monitoring and medicine. In a biodiversity monitoring project, photographic data from the public was used. We can see how crowdsourcing data is useful to academics, however, it is easy to be naïve with respect to how exploitative crowdsourcing can be. To avoid exploitative practices, it is important to analyse the role of the three S’s, and how they play into broader power dynamics.</p>
+<p>In medicine, we have worked to collect data from animals with the aim to advance medical treatment pathways. Adopting a perspective which includes the three S’s facilitates reflection on who benefitted and who was neglected or harmed. From a science and surveillance perspective, we wondered about the implications for genders that weren’t included in our study, and people with different hormone profiles to those we considered. From a selling perspective, we wondered how the data we gathered could be used to make drug development more or less affordable for certain groups. With a finite number of resources, cost-benefit analyses must be undertaken in drug development. These analyses include asking questions like is it financially viable to create a cure for rare diseases that affect very few people.</p>
+<p>In the development of medical devices, we asked ourselves how data we are working with connects to the three S’s. In early days of development, data aligns more with science rather than selling. Medical trials, for instance, seem to involve mostly science, with a bit of surveillance. Later on, however, data will become selling. The translation of data to selling presents challenges if  the group of whom the data is collected cannot give consent for medical reasons. There thus arises a tension between the effort to align the data to benefit the people who use the device, and the cautiousness required surrounding handling sensitive data. Data isn’t neutral, and when data is rewritten for different people, it may bias itself. When selling medical devices, there are many stakeholders whose needs must be balanced.</p>
+<p>To mitigate negative effects of the three S’s, it is important to ask questions from the ground up, even if you aren’t directly involved with selling. Reflecting on our practices and possible implications of our research is critical to performing good science. Independent research studies are one method we are using to hold projects we’re involved in accountable. <a class="reference external" href="https://datahazards.com/">Data Hazards</a> is also a useful tool to help people to evaluate their research. It is important to participate in research that you believe is socially beneficial and will positively impact people.</p>
+<p>However, sometimes it is unclear if research data really benefits anyone. It can often seem that data is only relevant to the researcher themselves and their collaborators. The abstractness of this can make it difficult to mobilise people to improve data their practices. This is exacerbated by the difficulty with classifying ‘early career researchers’, as there is no defined group that can be collectively galvanised around issues.</p>
+<p>When you are located on the science side of research, you don’t always notice the ‘selling’ side. However, it is still there, and it does impact who benefits from the research. Applying for project funding is a form of selling. New health technology and knowledge should be made available, rather than holding research as ‘currency’ and resisting sharing it.</p>
+<p>There were some aspects of working with data that don’t fit neatly into the three S’s, however, such as the problem of missing datasets. Identifying with and locating certain groups or categories can be difficult, for example, health carers may not even know that they are carers. In the NHS, the level of influence and change varies according the project and its objectives. Tough questions and issues are expected to be raised in data science teams and industry.</p>
+</section>
+<section id="the-chapter-outlines-issues-with-under-representation-in-data-and-over-representation-what-are-your-thoughts-on-the-tensions-between-these">
+<h3>The chapter outlines issues with under-representation in data, and over-representation. What are your thoughts on the tensions between these?<a class="headerlink" href="#the-chapter-outlines-issues-with-under-representation-in-data-and-over-representation-what-are-your-thoughts-on-the-tensions-between-these" title="Link to this heading">#</a></h3>
+<p>When we first saw the list of missing data sets, we thought “great, let’s go and collect it!”. An example of why it’s important to consider missing data is <a class="reference external" href="https://en.wikipedia.org/wiki/Survivorship_bias">survivorship bias</a>, a term coined after the second world war to explain the mistakes of looking at where to reinforce planes by the ones which had been shot at and come home, rather than the planes which had been shot down.</p>
+<p>However, we quickly stalled when we read the next part of the chapter explaining how people in power can use data of marginalised groups to oppress people. Issues with the misuse of data are exemplified in the case of research in the US being used to support abortion laws and oppress pregnant people.</p>
+<p>Looking at both sides of the coin, we need the data to make changes, but we also need strong ethics to use it responsibly. We must ask who has control over the data, who can access the data, who benefits, and who predictive models are for. Rather than just asking for more data, we should also be looking for better data. Representation and diversity are important basics: people who are affected by research should also participating in conducting the research.</p>
+</section>
+</section>
+</section>
+<section id="data-feminism-chapter-2-collect-analyse-imagine-teach">
+<h1>Data Feminism: Chapter 2 – Collect, Analyse, Imagine, Teach<a class="headerlink" href="#data-feminism-chapter-2-collect-analyse-imagine-teach" title="Link to this heading">#</a></h1>
+<section id="principle-challenge-power">
+<h2>Principle: Challenge Power<a class="headerlink" href="#principle-challenge-power" title="Link to this heading">#</a></h2>
+<p><em>“Data feminism commits to challenging unequal power structures and working towards justice”</em></p>
+</section>
+<section id="id1">
+<h2>Chapter Summary<a class="headerlink" href="#id1" title="Link to this heading">#</a></h2>
+<p>This chapter argues that, alongside examining power, we must challenge power. Challenging power involves mobilising data science to push back against existing and unequal power structures. Four starting points to foster push back are suggested: collect (compile counterdata in the face of missing data); analyse (demonstrate inequitable outcomes, audit opaque algorithms, hold institutions accountable); imagine (in order to get to the root of injustice, imagine the end point not as “fairness” but co-liberation); teach (engage and empower newcomers to shift demographics and cultivate next generation).</p>
+<ul class="simple">
+<li><p><strong>Collect</strong>: when collecting counterdata, we should ask ‘who’ questions, such as who needs to be shown the harms of power differentials and what kind of proof they require to believe the oppression is real. We should also ask on whom the burden of proof is placed. Those in positions of power accept anecdotal evidence from those like themselves but lean more heavily towards requiring statistics from minoritised groups.</p></li>
+<li><p><strong>Analyse</strong>: to ensure that past inequalities aren’t propagated in current technologies, the chapter suggests moving from data ethics, which examines ethical issues brought about by reliance on data-driven systems, to data justice, which considers issues in a wider historical context.</p></li>
+<li><p><strong>Imagine</strong>: data justice should be pursued with the aim of co-liberation, striving for mutual benefit from both members of dominant and minoritised groups. Co-liberation requires transparency of methods and reflexivity, understood as the ability to reflect on and take responsibility for one’s own position within the multiple, intersecting dimensions of the matrix of domination.</p></li>
+<li><p><strong>Teach</strong>: firstly, instead of asking questions that perpetuate a narrative of deficiency, such as “why are there so few women computer scientists?”, we should ask questions like “how can we structurally transform STEM education together?” Secondly, it is important to “stay with the trouble” by persisting in your work, especially when it becomes uncomfortable, unclear, or outright upsetting. Thirdly, we should shift frame from concepts that secure power, like fairness (equality from the standpoint of today, disregarding historical injustices) and accountability, to those that challenge power, like equity (taking into account present power differentials and distributing accordingly) and co-liberation. Challenging power is supported by learning from and designing with the communities that we seek to support.</p></li>
+</ul>
+</section>
+<section id="id2">
+<h2>Definitions<a class="headerlink" href="#id2" title="Link to this heading">#</a></h2>
+<p><strong>Racial capitalism</strong> – (Cedric Robinson) using data-driven methods to tailor policies to customers based on their demographics</p>
+<p><strong>Auditing algorithms</strong> - using data science methods (reverse engineering, collecting missing data) to examine bias in algorithms.</p>
+<p><strong>Deficit narratives</strong> - reducing a group or culture to its “problems” rather than portraying it with strength and agency.</p>
+<p><strong>Data justice (vs ethics)</strong> - acknowledging structural power differentials and working towards dismantling them (rather than simply locating problems without onward action).</p>
+<p><strong>New racism</strong> - belief that racism is due to a few bad actors</p>
+</section>
+<section id="id3">
+<h2>Discussion Summary<a class="headerlink" href="#id3" title="Link to this heading">#</a></h2>
+<section id="have-you-head-of-counterdata-before-how-might-it-apply-in-your-areas-of-lived-experience-or-expertise">
+<h3>Have you head of ‘counterdata’ before – how might it apply in your areas of lived experience or expertise?<a class="headerlink" href="#have-you-head-of-counterdata-before-how-might-it-apply-in-your-areas-of-lived-experience-or-expertise" title="Link to this heading">#</a></h3>
+<p>A clear definition of counterdata in the chapter would have been useful; we understood ‘counterdata’ as subversive data, or data that asks or answers different questions to data that already exists. Using data in subversive ways is not a new concept – <a class="reference external" href="https://www.sciencemuseum.org.uk/objects-and-stories/florence-nightingale-pioneer-statistician">Florence Nightingale collected counterdata on cholera in the Crimean War</a>; similarly, <a class="reference external" href="https://daily.jstor.org/john-snow-and-the-birth-of-epidemiology/">John Snow collected counterdata to identify the source of cholera outbreaks</a>. We have seen counterdata come up as a concept in the books <a class="reference external" href="https://carolinecriadoperez.com/book/invisible-women/">Invisible Women</a> and <a class="reference external" href="https://www.penguinrandomhouse.com/books/241363/weapons-of-math-destruction-by-cathy-oneil/">Weapons of Math Destruction</a>.</p>
+<p>There are several areas in which where we thought counterdata would be applicable, for instance, there seems to be very little data around the menopause. In a lot of cases where there appears to be a lack of data, the data is already there, but the right questions haven’t been asked. We wondered if, for cases like the menopause, gaps can be addressed by interrogating data that is already present.</p>
+<p>In collecting counterdata, there are risks that arise when data that you are collecting for one cause is harmfully repurposed. Collecting data about homelessness, for example, could be used to find people aid, or it could be used to displace them. The collection of counterdata, especially if it is sensitive in nature, raises potential for privacy concerns in case of hacks, such as the <a class="reference external" href="https://www.theverge.com/2023/10/7/23907330/23andme-leak-hackers-selling-user-dna-data">23andme data breach</a>.</p>
+<p>When counterdata has been collected, there is a risk that it simply might not work if it doesn’t match up to people’s experiences. Empowerment is hard to quantify, making it difficult to assess how effective counterdata is. If the response to counterdata is slow, we might not be around to see any changes.</p>
+<p>To remedy issues that arise with counterdata, it is crucial to consider the wider social aspect. Afterall, what we are dealing with is a social problem that is encoded in data. A big lesson from climate change activism has been that whilst numbers are useful and important, to make an effective contribution you really need the qualitative aspect. To remain aware of how the subject of oppression is portrayed, we need to advocate for the stories that go alongside the data.</p>
+<p>Despite its importance, there are difficulties that arise with the use of qualitative data. Qualitative data is not always considered as reliable as quantitative data, as it requires more resources to get the same amount of data. As a data analyst, there is a fear that if you put too much emphasis on qualitative aspects to tell stories without enough of the data, you won’t be listened to. Sometimes it is unclear whether quantitative or qualitative data will be more impactful. For example, regarding NHS waiting lists, we wondered if it is better to focus on the numbers or the individual stories to generate maximum impact. Usually, we need both data and the story to get a point across. Storytelling is powerful when we support it with data.</p>
+<p>When employing stories for counterdata, it is important to be aware of the issues that can arise in the use of language, and how language can propagate existing power dynamics. For example, <a class="reference external" href="https://journals.ala.org/index.php/cal/article/view/8293/11532">the gender binary has been perpetuated in children’s literature</a>. <a class="reference external" href="https://peh-med.biomedcentral.com/articles/10.1186/s13010-018-0059-y">Language of domination/violence/gambling also infiltrates medical language</a>. The book <a class="reference external" href="https://www.elizabethlesser.org/cassandraspeaks">Cassandra Speaks</a> addresses relevant issues of language, gender, and power.</p>
+<p>To mitigate language encoding bias, qualitative questions should be framed in ways that avoid leading metaphors and analogies, such as the <a class="reference external" href="https://pubmed.ncbi.nlm.nih.gov/27653388/">war based metaphors in HIV medicine and research</a>. It also matters who the storyteller is: they should be the people who are actually affected.</p>
+</section>
+<section id="imagine-what-would-it-look-like-if-we-were-data-justice-club-rather-than-data-ethics-club-see-table-2-1">
+<h3>Imagine – what would it look like if we were ‘Data Justice Club’ rather than ‘Data Ethics Club’ (see Table 2.1)?<a class="headerlink" href="#imagine-what-would-it-look-like-if-we-were-data-justice-club-rather-than-data-ethics-club-see-table-2-1" title="Link to this heading">#</a></h3>
+<p>Using “justice” instead of “ethics” implies action and gives the suggestion that the club is activist. Data justice club would thus be more outward facing and involved. This would require some changes to how the current club functions: we would have to do more and talk less. In some ways, data ethics club is a more suitable name for how we operate at the moment, as we discuss things rather than take action on things. Not all of us want to be part of an outward facing collective, as it is useful to have a place which is just for thought and discussion. There could be space for both a data ethics club and a data justice club.</p>
+<p>If we were to lean in more towards data justice, we had a few ideas for what this would look like. Sharing our knowledge is one route; the role of academics is not just to collect data and do the research itself, but also to provide tools and education. Ethics isn’t as accessible as it should be and there are lots of organisations which need, but don’t have, data ethicist roles. The benefit of learning and education is that they promote empowerment of participants, as exemplified in the local Lotto project. Social change happens as a collective, and it is possible to see this work in that light. Data justice club could thus offer education and infrastructure to community groups who have the motivation to do data collection. This could take the form of providing a ‘consult service’ to other data research groups within the university (like a data ethics <a class="reference external" href="https://www.bristol.ac.uk/golding/supporting-your-research/data-science-support/">Ask JGI</a>. Having a limited amount of time for other researchers to ask us questions could provide insights into how to address ethical aspects they might not have considered otherwise.</p>
+<p>In addition to the community focussed alternatives, there are ways in which we could implement data justice on a personal level, by taking the information we learn in DEC and applying it to our daily lives. In doing so, it would be useful to work towards understanding a broader array of perspectives (e.g. different political viewpoints on issues). Having a Data Ethics wins channel in our slack group would be a good way to celebrate this. On a more involved level, data justice could look like participating in things like investigative journalism.</p>
+</section>
+<section id="what-would-need-to-change-for-projects-like-local-lotto-to-be-used-more-in-teaching-data-skills">
+<h3>What would need to change for projects like Local Lotto to be used more in teaching data skills?<a class="headerlink" href="#what-would-need-to-change-for-projects-like-local-lotto-to-be-used-more-in-teaching-data-skills" title="Link to this heading">#</a></h3>
+<p>With respect to changing the way undergrad courses teach data skills, we thought that instead of data ethics being taught as one lecture it could be infused throughout. Outside of university, more engagement with groups outside of academia who are fighting for social change, such as community and non-profit groups, would also improve mobilisation. An example of a relevant outreach project is <a class="reference external" href="https://jeangoldinginstitute.blogs.bristol.ac.uk/2024/07/03/empowering-schools-to-improve-the-data-literacy-of-young-people/">DataFace</a>, which is working to improve the data literacy of children in schools.</p>
+<p>Problems with time and funding would need to be addressed to enable wider implementation of projects like Local Lotto. For many, involvement in these projects is extra to their current workload, and people do not have enough time to balance both. If the workload can be too much for people who are passionate about the cause, we thought it unlikely that data scientists without the same enthusiasm would be willing to dedicate their free time to these kinds of projects.</p>
+<hr class="docutils" />
+</section>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2024-06-04_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: How AI could save or destroy education</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Data Feminism: Chapter 1 – The Power Chapter</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#principle-examine-power">Principle: Examine Power</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chapter-summary">Chapter Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definitions">Definitions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#have-you-seen-the-matrix-of-domination-before-what-did-you-think-did-you-fully-understand-it">Have you seen the matrix of domination before? What did you think – did you fully understand it?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#where-do-you-work-in-your-role-how-does-data-play-in-who-does-it-benefit-and-does-it-align-with-the-science-surveillance-selling-groups">Where do you work – in your role how does data play in? Who does it benefit – and does it align with the science, surveillance, selling groups?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-chapter-outlines-issues-with-under-representation-in-data-and-over-representation-what-are-your-thoughts-on-the-tensions-between-these">The chapter outlines issues with under-representation in data, and over-representation. What are your thoughts on the tensions between these?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#data-feminism-chapter-2-collect-analyse-imagine-teach">Data Feminism: Chapter 2 – Collect, Analyse, Imagine, Teach</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#principle-challenge-power">Principle: Challenge Power</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Chapter Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Definitions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#have-you-head-of-counterdata-before-how-might-it-apply-in-your-areas-of-lived-experience-or-expertise">Have you head of ‘counterdata’ before – how might it apply in your areas of lived experience or expertise?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#imagine-what-would-it-look-like-if-we-were-data-justice-club-rather-than-data-ethics-club-see-table-2-1">Imagine – what would it look like if we were ‘Data Justice Club’ rather than ‘Data Ethics Club’ (see Table 2.1)?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-would-need-to-change-for-projects-like-local-lotto-to-be-used-more-in-teaching-data-skills">What would need to change for projects like Local Lotto to be used more in teaching data skills?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2024-08-31_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2024-08-31_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
