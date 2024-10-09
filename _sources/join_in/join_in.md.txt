@@ -42,6 +42,11 @@ Writeup: Coming soon!
 ### 9th October
 Material: [Time to reality check the promises of machine learning-powered precision medicine](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30200-4/fulltext)
 
+Discussion questions:
+1) How should we more meaningfully assess applications of ML to medicine (and other fields)?
+2) Why do you think most of the reviewed ML methods are producing classifications (i.e. diagnosed or not diagnosed) instead of predicting a continuum of risk?
+3) Do you think precision medicine itself is an epistemological dead end? What about stratified medicine? (identifying and predicting subgroups with a better and worse response)
+
 ### 23rd October
 To be decided.
 
