@@ -37,7 +37,7 @@ Discussion questions:
 2) Do you think ChatGPT is a soft or a hard bullshitter? I.e. do you think it has the intention to mislead its audience or not?  
 3) What do you think of the implications of the anthropomorphizing of AI tools? E.g. hallucination, learning, training, perception etc.  
 
-Writeup: Coming soon!
+[Read the writeup here!](https://github.com/very-good-science/data-ethics-club/blob/chat-gpt-bullshit/site/write_ups/2024-09-25_writeup.md)
 
 ### 9th October
 Material: [Time to reality check the promises of machine learning-powered precision medicine](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30200-4/fulltext)
