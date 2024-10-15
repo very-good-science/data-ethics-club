@@ -52,7 +52,12 @@ Writeup: Coming soon!
 ### 23rd October
 Material: [Transparent communication of evidence does not undermine public trust in evidence](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9802351/)
 
-Discussion questions: TBD
+[HackMD Link](https://hackmd.io/@data-ethics-club/r1z0N3sy1l/edit)
+
+Suggested discussion questions: 
+1. Were you surprised by the findings of the study? Do they mirror experiences in your own domain?
+2. Have you had experiences where transparent, balanced communication is required/expected for legal/ethical reasons?
+3. How do you balance communicating uncertainty with pre-empting misunderstanding?
 
 ### 6th November - DEC Special!
 To be decided.
