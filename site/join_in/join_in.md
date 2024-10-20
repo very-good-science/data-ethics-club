@@ -59,8 +59,21 @@ Suggested discussion questions:
 2. Have you had experiences where transparent, balanced communication is required/expected for legal/ethical reasons?
 3. How do you balance communicating uncertainty with pre-empting misunderstanding?
 
-### 6th November - DEC Special!
-To be decided.
+### 6th November - DEC Social Special
+Very optional reading: [Data Ethics Club: Creating a collaborative space to discuss data ethics](https://www.cell.com/patterns/fulltext/S2666-3899(22)00134-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666389922001349%3Fshowall%3Dtrue)
+
+Structure:
+Go into breakout rooms and everybody does intros and shares (note taking optional if people don't want their details on the blog):
+1. Who are you professionally?
+2. What brings you to data ethics club?
+3. Who are you outside of data?
+   
+Then as a group your discussion is about:
+1. What's something you all have in common?
+2. What's something that makes you all different?
+3. As a group what's the most heroic/villainous data ethics thing you could do?
+
+Then come back at the end and share!
 
 ### 20th November
 To be decided.
