@@ -56,8 +56,8 @@ Material: [Transparent communication of evidence does not undermine public trust
 
 Suggested discussion questions: 
 1. Were you surprised by the findings of the study? Do they mirror experiences in your own domain?
-2. Have you had experiences where transparent, balanced communication is required/expected for legal/ethical reasons?
-3. How do you balance communicating uncertainty with pre-empting misunderstanding?
+2. What do you think is behind the difference between the results of the nuclear power study and the vaccine study?
+3. Should research articles have a place in persuading the public, or should their intention always be to focus on robust, trustworthy information? 
 
 ### 6th November - DEC Special!
 To be decided.
