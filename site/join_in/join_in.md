@@ -52,12 +52,12 @@ Writeup: Coming soon!
 ### 23rd October
 Material: [Transparent communication of evidence does not undermine public trust in evidence](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9802351/)
 
-[HackMD Link](https://hackmd.io/@data-ethics-club/r1z0N3sy1l/edit)
-
 Suggested discussion questions: 
 1. Were you surprised by the findings of the study? Do they mirror experiences in your own domain?
 2. What do you think is behind the difference between the results of the nuclear power study and the vaccine study?
 3. Should research articles have a place in persuading the public, or should their intention always be to focus on robust, trustworthy information? 
+
+Writeup: Coming soon!
 
 ### 6th November - DEC Social Special
 Very optional reading: [Data Ethics Club: Creating a collaborative space to discuss data ethics](https://www.cell.com/patterns/fulltext/S2666-3899(22)00134-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666389922001349%3Fshowall%3Dtrue)
@@ -71,7 +71,7 @@ Go into breakout rooms and everybody does intros and shares (note taking optiona
 Then as a group your discussion is about:
 1. What's something you all have in common?
 2. What's something that makes you all different?
-3. As a group what's the most heroic/villainous data ethics thing you could do?
+3. As a group, if you hypothetically had unlimited time and unlimited money, what would you do to try and put your Data Ethics knowledge into use for societal good?
 
 Then come back at the end and share!
 
