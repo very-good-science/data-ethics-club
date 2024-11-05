@@ -47,7 +47,7 @@ Discussion questions:
 2) Why do you think most of the reviewed ML methods are producing classifications (i.e. diagnosed or not diagnosed) instead of predicting a continuum of risk?
 3) Do you think precision medicine itself is an epistemological dead end? What about stratified medicine? (identifying and predicting subgroups with a better and worse response)
 
-Writeup: Coming soon!
+[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-10-09_writeup.html)
 
 ### 23rd October
 Material: [Transparent communication of evidence does not undermine public trust in evidence](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9802351/)
