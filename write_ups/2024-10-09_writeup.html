@@ -1,0 +1,1393 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: Time to reality check the promises of machine learning-powered precision medicine &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2024-10-09_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2024-10-09_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  <span>09 October 2024</span>
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/ml.html">ML</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/medicine.html">medicine</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/ai-applications.html">AI applications</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-09-25_writeup.html">
+      25 September - Data Ethics Club: ChatGPT is Bullsh*t
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-08-31_writeup.html">
+      01 August - Data Feminism: Chapter 1 – The Power Chapter
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-06-04_writeup.html">
+      04 June - Data Ethics Club: How AI could save or destroy education
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-05-22_writeup.html">
+      22 May - Data Ethics Club: The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-05-08_writeup.html">
+      21 May - Data Ethics Club: Amazon’s Just Walk Out technology relies on hundreds of workers in India watching you shop
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/bookclub.html">Bookclub (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (58)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<link rel="stylesheet" href="../_static/ablog/tagcloud.css" type="text/css" />
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-applications.html">AI applications</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/llms.html">LLMs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ml.html">ML</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bullshit.html">bullshit</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/challenge-power.html">challenge power</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/computer-vision.html">computer vision</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-feminism.html">data feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-week.html">data week</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hallucination.html">hallucination</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/law.html">law</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/medicine.html">medicine</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/personality-test.html">personality test</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/recruitment.html">recruitment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (24)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: Time to reality check the promises of machine learning-powered precision medicine</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="data-ethics-club-time-to-reality-check-the-promises-of-machine-learning-powered-precision-medicine">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30200-4/fulltext">Time to reality check the promises of machine learning-powered precision medicine</a><a class="headerlink" href="#data-ethics-club-time-to-reality-check-the-promises-of-machine-learning-powered-precision-medicine" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 9th October’s Data Ethics Club discussion, where we spoke and wrote about the article <a class="reference external" href="https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30200-4/fulltext">Time to reality check the promises of machine learning-powered precision medicine</a> by Jack Wilkinson, Kellyn F Arnold, Eleanor J Murray, Maarten van Smeden, Kareem Carr, Rachel Sippy, Marc de Kamps, Andrew Beam, Stefan Konigorski, Professor Christoph Lippert, Professor Mark S Gilthorpe, and Peter W G Tennant.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Huw Day helped with the final edit.</p>
+</div>
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>Precision medicine attempts to identify healthcare pathways through the needs of individuals rather than the “average person”. Machine learning (ML) has been suggested as a technique that can be used to tailor therapies to each person as an individual, as well as automating diagnosis and prognosis. The paper questions the capabilities of ML with respect to precision medicine, asking whether it is realistic to assume that ML could achieve accurate and personalised therapy. Firstly, there is a lack of robust scientific evidence to support the superiority of ML over health professional assessment in diagnosis accuracy. Secondly, it is unlikely that ML will identify the best treatment for individuals, as causal inference is difficult to achieve without making assumptions based on scientific insight. Most health states are so complex that the chance of something happening is extremely difficult to predict at an individual level. The complexity of health conditions is not resolvable by collecting more data or building more elaborate models, as there are fundamental limitations in our understanding of physical and biological processes.</p>
+<p>The paper suggests that it may be more pragmatic to aim towards stratified medicine, identifying and predicting subgroups, rather than personalised medicine. However, due to the challenge of differentiating true signal from noise and the different between deducing association vs causation, this route is more complex than simply applying ML to data. ML does have potential to advance scientific knowledge, but it is important not to give overinflated promises. If rhetoric surpasses actual capabilities, public trust in ML could be irreparably damaged when ML does not meet those expectations.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="how-should-we-more-meaningfully-assess-applications-of-ml-to-medicine-and-other-fields">
+<h3>How should we more meaningfully assess applications of ML to medicine (and other fields)?<a class="headerlink" href="#how-should-we-more-meaningfully-assess-applications-of-ml-to-medicine-and-other-fields" title="Link to this heading">#</a></h3>
+<p>To meaningfully assess applications of ML, it is important to fight against the hype surrounding AI. A part of countering hype involves being intentional with how we talk about ML and how we foster critical thinking. As a society, we aren’t effectively teaching how to analyse AI. Healthy scepticism should be baked into education to prevent people from just accepting the information that they are presented with. When discussing AI tools, as well as talking about the potential of what they can do, we should carefully consider their mechanics and where the “learning” comes from. We wondered about the kinds of skills necessary to critique AI tools, and whether current medical professionals are equipped with those skills.</p>
+<p>How we assess ML changes if we consider it as a tool versus as a replacement for a doctor. The paper seems to be warning against implementing ML to replace medical professionals. We also felt it important to consider ML technologies as tools to enhance practices, rather than replace what is already there. There is a concern that using ML for precision medicine could be an attempt to take clinicians out of the loop, as the people who build and purchase ML are not necessarily those who will be in clinical practice. Precision medicine tools could end up similar to digital pregnancy tests, which are now much more common than non-digital tests that require a medical professional. It is common sense to compare the outcomes of a model against the advice of medical professionals, looking for meaningful outcomes and using expert opinion as context. An actual clinician can give a contextual perspective of what the most likely outcomes are. The ability of ML to unpick complex data without worrying about the clinical context might be a strength rather than a weakness if we view ML as an assistive tool rather than replacement for a doctor.</p>
+<p>Using ML as tools to assist clinicians, rather than replace clinicians, can free up clinician’s time to do other things. It seems more appropriate to apply ML to admin purposes than to medical decisions. Having ML cover mundane admin tasks could add a lot of value, as admin can be much more of a burden to medical practitioners than the medicine itself. The NHS trialled a tool that would summarise GP consultations and provide suggestions; <a class="reference external" href="https://timharford.com/2024/07/8801/">one GP said that “this was the first day of my job that I ever left on time”</a>. Stratifying cases could be a valid application, helping to minimise the risk of catastrophic mistakes. A stratified approach could help to raise the most at-risk patients to the top of the list so that they are seen sooner. Partitioning images to find the ‘interesting’ areas could be a worthwhile application. There are also many complex conditions which are hard to categorically diagnose, which clinicians address by asking more and more questions and slowly ruling things out. ML could help clinicians rule out possibilities sooner.</p>
+<p>ML should be assistive rather than as replacement because ML isn’t actually very well designed for a lot of problems. There is a narrative around ML as a magical fix-all solution, but its capabilities are often overhyped – “when you have a hammer, every problem looks like a nail”. In an industry that prioritises innovation, there is a lot of <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-09-25_writeup.html">intentional ignorance and bullshitting</a>. Some of the discourse around ML hype comes also from politicians, looking to resolve workforce issues for example by replacing radiologists. Radiology is a good example of an area of medicine which has a lot of ML attention, but there are less urgent settings outside of medicine (e.g. astrophysics) which are less likely to get the same amount of funding.</p>
+<p>Hyping up ML tools is exacerbated by technology companies who promise to solve problems that they don’t really understand. <a class="reference external" href="https://www.jmir.org/2022/6/e37677/">Studies have found that digital health companies have a lack of understanding of clinical robustness</a>. A lot of the time, it seems that the intention behind development is to find out what can be done, rather than what should be done. The technology industry has a tendency to develop tools for the sake of it, before figuring out if the use case is valid. Launching projects before properly assessing their validity is amplified by a lack of user-centric design. To evaluate whether we should be using ML in healthcare we should be asking what the biggest barriers to achieving positive patient outcomes are, including whether algorithms are on this list, or whether outcomes are affected more by the workload of clinical staff and cost/access to healthcare.</p>
+<p>Unsuitability of ML for certain tasks is highlighted by the opaqueness of its decision-making and how easily this procedure is biased. As a human, it is challenging to understand if the model has come to a decision for what we would consider to be valid reasons, or because (for example) the model is good at identifying dark spots on the left hand side of an image. ML is highly affected by the quality of training data it receives; <a class="reference external" href="https://www.unmasking.ai/">if white skin is overrepresented then models will not work as well for black skin</a>. Whilst startups may go through all the appropriate regulation and testing procedures, they could still be using algorithms that are ten years out of date because of cost and convenience, rather than newer methods which might be more suitable.</p>
+<p>In addition to issues with transparency and bias, difficulties with data collection make the usual ML methodology inappropriate in the context of medicine. ML generally works best by getting all the data you can and letting the algorithm decide what’s relevant. Many medical ML tools use big data and deep learning to discover when conditions are interconnected through common pathways (e.g. <a class="reference external" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6325641/">omics and big data</a>). ML with massive datasets has its uses, but relying on manually collecting data is unlikely to be useful. In many cases, gathering lots of data simply isn’t feasible, such as with patients for whom intrusion and unnecessary procedures are harmful. Collecting data about health conditions may also contribute to <a class="reference external" href="https://machinelearningmastery.com/tactics-to-combat-imbalanced-classes-in-your-machine-learning-dataset/">class imbalance problems</a>, where there are disproportionately more data available for some classes than others. We are only putting things into the model which we have already thought to measure; there may be many more factors that we aren’t aware of which are influential over the state of a health condition. We did not think it possible to predict individual outcomes from population data, as inferring individual outcomes is intensely complex. For some conditions, the state of a disease is on a continuum of risk which is not fully understood, making it difficult to use those conditions as training sets. When working on an individualised basis, it is difficult to identify what is actually working versus what is a placebo effect. The bodies and health of individuals are constantly changing; even if it is possible to decipher one point in time for one individual, it will quickly change.</p>
+<p>Whilst there are challenges with collecting data in sensitive applications such as medicine, extra data would undoubtably improve ML models - at least for stratified groups. Beneficial data would include previous medical history and longitudinal studies collecting samples from patients, regardless of disease condition. One could also examine whether there are genetic markers for neurodivergence and look at ethnic populations where certain conditions are more prevalent.</p>
+<p>However, rather than just trying bigger and better models, it is important to weigh up the financial benefit of increasingly complex versus more simple models. We would like to see more evaluations of the potential gains of adopting more complex models such as cost/benefit analyses. Having an unexplainably complex model is unreasonable if the people who actually use it won’t be able to understand it. If users have a lack of or incorrect understanding, there is a higher chance that they will use it badly. Making deterministic inferences which humans are able to interpret is more valuable than a ‘magic box’ producing an output that the user has to blindly trust.</p>
+</section>
+<section id="why-do-you-think-most-of-the-reviewed-ml-methods-are-producing-classifications-i-e-diagnosed-or-not-diagnosed-instead-of-predicting-a-continuum-of-risk">
+<h3>Why do you think most of the reviewed ML methods are producing classifications (i.e. diagnosed or not diagnosed) instead of predicting a continuum of risk?<a class="headerlink" href="#why-do-you-think-most-of-the-reviewed-ml-methods-are-producing-classifications-i-e-diagnosed-or-not-diagnosed-instead-of-predicting-a-continuum-of-risk" title="Link to this heading">#</a></h3>
+<p>Producing classifications instead of prediction continuums may provide benefits by reducing the number of possible outcomes. Simplifying outcomes through classification can reduce variability of model performance, as there are less possible outcomes to predict. Using classifications instead of continuums also has benefits for human-readability. Even if an outcome does naturally exist on a continuum, humans would often prefer to conceptualise it as a classification in order to make the outcome easier to understand and explain.</p>
+<p>One of the reasons it is tricky to understand ML models is because of the difficulties with communicating uncertainty. It is important to accurately portray risk and uncertainty, but there is a gap between the statistical literacy of the general public and current ways of explaining uncertainty. In terms of public education, there are lots of misconceptions about how to use scatter plots to show relationships and <a class="reference external" href="https://www.statology.org/understanding-confidence-intervals-what-they-are-and-how-to-use-them/">confidence intervals</a>. Regarding the models themselves, often classifiers do not tell you the certainty with which they produce classifications. ML will typically produce a ‘final’ dataset or answer given the patterns that the model has detected. Clinicians, on the other hand, naturally integrate uncertainty into their processes, as they are trained to become more certain in their understandings by asking the right kinds of questions.</p>
+<p>The way uncertainty is presented can significantly affect the implications of the output. For example, stating that “this person is 60% ready for discharge” is quite different to “this person is ready for discharge”. In making ML models more interpretable, it is important to carefully consider the level of detail necessary to communicate the right meaning.</p>
+<p>Tolerating uncertainty is especially difficult for patients; an incentive for implementing AI in medicine is the hope that AI can increase the certainty of doctors. However, the promise of AI which can provide ‘objective’ answers with certainty is misleading as it will be influenced by the biases of those who developed the tool. <a class="reference external" href="https://virginia-eubanks.com/automating-inequality/">Automating Inequality by Virginia Eubanks</a> explores how values of the people who develop ML tools are baked into those tools. Historically there has not been a lot of diversity in developers of ML tools, limiting the perspective of values integrated into tools with adverse consequences for those affected by the tools’ use.</p>
+</section>
+<section id="do-you-think-precision-medicine-itself-is-an-epistemological-dead-end-what-about-stratified-medicine-identifying-and-predicting-subgroups-with-a-better-and-worse-response">
+<h3>Do you think precision medicine itself is an epistemological dead end? What about stratified medicine? (identifying and predicting subgroups with a better and worse response)<a class="headerlink" href="#do-you-think-precision-medicine-itself-is-an-epistemological-dead-end-what-about-stratified-medicine-identifying-and-predicting-subgroups-with-a-better-and-worse-response" title="Link to this heading">#</a></h3>
+<p>To help unpick the definitions of precision and personalised medicine, we thought that the definition of personalised medicine could have been drawn out more clearly in the paper. Regarding the distinction between personalised and stratified, we wondered if stratification was a ‘type’ of personalisation, and how valuable the distinction is to understand which type of personalisation is most appropriate for particular applications. We wondered if it would be possible to have precision medicine tailored to a specific genome to target a tumour or ‘reprogram’ the immune system.</p>
+<p>Precision medicine seems to be surrounded by a lot of misconceptions, especially regarding how to make inferences from data. It is not possible to make inferences based on data that we don’t already have. We need to be honest about what we don’t know, which in terms of causes for individual’s medical conditions, is a lot. Diversity in data is important to make classifications; if you have 100 patients and only 1of them has a disease, it is unlikely that the model will pick the disease up. Difficulties with missing or sparse data make it hard to think about how it is possible to use ML to personalise medicine in a way that will truly add value.</p>
+<p>Attempting to make inferences from non-existent data is another example of an ‘AI’ problem which is actually a data problem. Quite often, companies will think that they need AI when they actually have a data problem that can’t be solved with AI.</p>
+<p>In addition to issues with missing data, precision/personalised medicine has a causal inference problem, as discussed in the paper. Those of us who have worked with prediction models have encountered the causal inference problem, frequently asking “it’s interesting, but what’s the utility?”. Outcomes, especially in healthcare, are very complex and it is extremely challenging to know which one of many potential mechanisms was the most effective.</p>
+<p>With stratified medicine, it is possible to perform statistical analysis on groups of people, predicting likelihood based on the average of a sample. With precision medicine, people seem to be treated as a one-off certainty. Treating people as a one-off certainty doesn’t make sense statistically; it thus doesn’t seem reasonable to expect an ML model to make accurate one-off predictions.</p>
+<p>To illustrate why it seems unreasonable to predict individualised outcomes, we discussed some of our research into predicting horse fatalities. In the USA and Canada, the incidence of fatality among racehorses is about 1.3 per 1000 race starts. A model predicting which horses will die will never beat the ideal “horses are immortal”, which is correct over 99.8% of the time. As what we are looking for (a horse death) is a sparse data point, which ML finds difficult to accurately predict, it is not a productive use of time to build a model which tries to predict individual fatalities. Instead, we can focus on using explainable models to understand the risk factors for horse fatality. We can then use the information we know about risk factors to identify the highest risk horses based on their individual histories. In this way, we can explain to the industry what interventions they could put in place to reduce the risk of horse fatality. The result of our ongoing work is that the incidence of horse fatalities in the USA and Canada have decreased by 38% since 2009. We asked: if we’d spent our resources on a fancy, computationally expensive, unexplainable ML model would it have the same impact? In our informed reckon, absolutely no chance.</p>
+</section>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h3>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h3>
+<p>Appropriate benchmarks will need to be decided on to measure the success of precision medicine applications, for instance, if we are comparing outputs with how often they match the answers clinicians give, or how successful the ML outputs are in treating patients compared to treatments from clinicians. It is important to look at outcomes and processing speeds; for example, if ML can catch conditions early it may improve survival chances or more appropriate treatment options. We were uncertain as to how it would be possible to test the effectiveness of ML, and whether it would be ethical to run a clinical trial comparing medical professionals against precision medicine tools.</p>
+<p>In addition to assessing the accuracy of tools for precision medicine, it is important to think about the effects of predictions regarding privacy and security. Unintended effects can be especially impactful in sensitive applications like healthcare. For example, disclosing private details has significant repercussions as in the example of <a class="reference external" href="https://www.forbes.com/sites/kashmirhill/2012/02/16/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did/">Target predicting that a teenager was pregnant before she had told her family</a>, discussed in both <a class="reference external" href="https://hannahfry.co.uk/book/hello-world/">Hello World</a> by Hannah Fry and <a class="reference external" href="https://data-feminism.mitpress.mit.edu/">Data Feminism</a> by Catherine D’Ignazio and Lauren F. Klein. We also had concerns regarding how precision medicine tools would store personal data; companies such as <a class="reference external" href="https://theweek.com/tech/23andme-dna-sale">23AndMe are potentially at risk of selling customers’ data</a> as the business is undergoing significant leadership changes.</p>
+<p>In the world of equitable health, we wondered what the cost implications of fields like precision medicine are. If precision medicine were to become an effective pathway, the amount of resources it requires (e.g. processing of data, generation of individual treatments) suggests that precision medicine could be out of reach to the masses, furthering the gap between the ultra-rich and everyone else. We see similar problems in domains like <a class="reference external" href="https://www.acog.org/clinical/clinical-guidance/committee-opinion/articles/2020/03/preimplantation-genetic-testing">preimplantation genetic testing</a> which evaluates embryos for single gene disorders before transferring them to the uterus.</p>
+<p>Instead of wasting resources on fancy models which are inappropriate to be deployed in reality, we should spend those resources supporting doctors better which will in turn support patient outcomes. Reducing workloads of clinical staff would also give them more time to properly engage with research, cultivating a more appropriate array of intersectional perspectives.</p>
+<p>Integrating ML tools into human professions may have adverse consequences for intellectual capabilities. In the <a class="reference external" href="https://timharford.com/2024/07/8801/">Cautionary Tales podcast</a>, Tim Harford discusses how relying on AI to support us with tasks that require skills can deskill us, as we miss the opportunity to build experience in those skills leaving us less capable when the AI fails. For example, using co-pilot and ChatGPT in coding classes stops people from getting help from other humans and learning the processes themselves. It is crucial that we use AI for tasks which won’t deskill our working population. To think about how AI can help us now, we also need to think about where the gap in human knowledge will be in ten years’ time.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, Jean Golding Institute, <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a></p></li>
+<li><p>Amy Joint, Programme Manager, ISRCTN Clinical Study Registry, <a class="reference external" href="https://www.linkedin.com/in/amyjoint/">LinkedIn</a>, [Twitter] (https://twitter.com/AmyJointSci)</p></li>
+<li><p>Dan Levy, Data Analyst, BNSSG ICB (NHS, Bristol), <a class="reference external" href="https://www.linkedin.com/in/danrsl/">LinkedIn</a></p></li>
+<li><p>Euan Bennet, Lecturer, University of Glasgow</p></li>
+<li><p>Virginia Scarlett, Data and Information Specialist, HHMI Janelia Research Campus</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2024-09-25_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: ChatGPT is Bullsh*t</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-should-we-more-meaningfully-assess-applications-of-ml-to-medicine-and-other-fields">How should we more meaningfully assess applications of ML to medicine (and other fields)?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-do-you-think-most-of-the-reviewed-ml-methods-are-producing-classifications-i-e-diagnosed-or-not-diagnosed-instead-of-predicting-a-continuum-of-risk">Why do you think most of the reviewed ML methods are producing classifications (i.e. diagnosed or not diagnosed) instead of predicting a continuum of risk?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#do-you-think-precision-medicine-itself-is-an-epistemological-dead-end-what-about-stratified-medicine-identifying-and-predicting-subgroups-with-a-better-and-worse-response">Do you think precision medicine itself is an epistemological dead end? What about stratified medicine? (identifying and predicting subgroups with a better and worse response)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2024-10-09_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2024-10-09_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.0.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
