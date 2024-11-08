@@ -57,7 +57,7 @@ Suggested discussion questions:
 2. What do you think is behind the difference between the results of the nuclear power study and the vaccine study?
 3. Should research articles have a place in persuading the public, or should their intention always be to focus on robust, trustworthy information? 
 
-Writeup: Coming soon!
+[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-10-28_writeup.html)
 
 ### 6th November - DEC Social Special
 Very optional reading: [Data Ethics Club: Creating a collaborative space to discuss data ethics](https://www.cell.com/patterns/fulltext/S2666-3899(22)00134-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666389922001349%3Fshowall%3Dtrue)
