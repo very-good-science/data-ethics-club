@@ -75,8 +75,15 @@ Then as a group your discussion is about:
 
 Then come back at the end and share!
 
+Writeup: Coming soon!
+
 ### 20th November
-To be decided.
+Material: [A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?]((https://theconversation.com/a-giant-biotechnology-company-might-be-about-to-go-bust-what-will-happen-to-the-millions-of-peoples-dna-it-holds-241557)
+
+Suggested discussion questions: 
+1. What are the potential risks that could come about with 23andMe using people’s data in the way they’ve outlined in their service agreements?
+2. If you were the Chief Executive of 23andMe, what would you be prioritising to make sure highly personal genetic data was being protected if the company is sold (or even if it isn’t!)
+3. Data security aside, would you want to take a DNA test knowing that you might find out things about your family or about health conditions you could develop?
 
 ### 4th December
 To be decided.
