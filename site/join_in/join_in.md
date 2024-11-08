@@ -78,7 +78,7 @@ Then come back at the end and share!
 Writeup: Coming soon!
 
 ### 20th November
-Material: [A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?]((https://theconversation.com/a-giant-biotechnology-company-might-be-about-to-go-bust-what-will-happen-to-the-millions-of-peoples-dna-it-holds-241557)
+Material: [A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?](https://theconversation.com/a-giant-biotechnology-company-might-be-about-to-go-bust-what-will-happen-to-the-millions-of-peoples-dna-it-holds-241557)
 
 Suggested discussion questions: 
 1. What are the potential risks that could come about with 23andMe using people’s data in the way they’ve outlined in their service agreements?
