@@ -88,6 +88,9 @@ Suggested discussion questions:
 ### 4th December
 To be decided.
 
+### 18th December
+To be decided.
+
 
 ## Past Meetings
 
