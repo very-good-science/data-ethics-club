@@ -85,6 +85,8 @@ Suggested discussion questions:
 2. If you were the Chief Executive of 23andMe, what would you be prioritising to make sure highly personal genetic data was being protected if the company is sold (or even if it isn’t!)
 3. Data security aside, would you want to take a DNA test knowing that you might find out things about your family or about health conditions you could develop?
 
+[HackMD link](https://hackmd.io/T4-wGcVaSyyqlu4Hozg4GQ?both)
+
 ### 4th December
 To be decided.
 
