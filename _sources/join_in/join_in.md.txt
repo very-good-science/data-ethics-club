@@ -75,7 +75,7 @@ Then as a group your discussion is about:
 
 Then come back at the end and share!
 
-Writeup: Coming soon!
+[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-11-06_writeup.html)
 
 ### 20th November
 Material: [A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?](https://theconversation.com/a-giant-biotechnology-company-might-be-about-to-go-bust-what-will-happen-to-the-millions-of-peoples-dna-it-holds-241557)
