@@ -37,19 +37,60 @@ Discussion questions:
 2) Do you think ChatGPT is a soft or a hard bullshitter? I.e. do you think it has the intention to mislead its audience or not?  
 3) What do you think of the implications of the anthropomorphizing of AI tools? E.g. hallucination, learning, training, perception etc.  
 
+[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-09-25_writeup.html)
+
 ### 9th October
-To be decided.
+Material: [Time to reality check the promises of machine learning-powered precision medicine](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30200-4/fulltext)
+
+Discussion questions:
+1) How should we more meaningfully assess applications of ML to medicine (and other fields)?
+2) Why do you think most of the reviewed ML methods are producing classifications (i.e. diagnosed or not diagnosed) instead of predicting a continuum of risk?
+3) Do you think precision medicine itself is an epistemological dead end? What about stratified medicine? (identifying and predicting subgroups with a better and worse response)
+
+[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-10-09_writeup.html)
 
 ### 23rd October
-To be decided.
+Material: [Transparent communication of evidence does not undermine public trust in evidence](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9802351/)
 
-### 6th November - DEC Special!
-To be decided.
+Suggested discussion questions: 
+1. Were you surprised by the findings of the study? Do they mirror experiences in your own domain?
+2. What do you think is behind the difference between the results of the nuclear power study and the vaccine study?
+3. Should research articles have a place in persuading the public, or should their intention always be to focus on robust, trustworthy information? 
+
+[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-10-28_writeup.html)
+
+### 6th November - DEC Social Special
+Very optional reading: [Data Ethics Club: Creating a collaborative space to discuss data ethics](https://www.cell.com/patterns/fulltext/S2666-3899(22)00134-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666389922001349%3Fshowall%3Dtrue)
+
+Structure:
+Go into breakout rooms and everybody does intros and shares (note taking optional if people don't want their details on the blog):
+1. Who are you professionally?
+2. What brings you to data ethics club?
+3. Who are you outside of data?
+   
+Then as a group your discussion is about:
+1. What's something you all have in common?
+2. What's something that makes you all different?
+3. As a group, if you hypothetically had unlimited time and unlimited money, what would you do to try and put your Data Ethics knowledge into use for societal good?
+
+Then come back at the end and share!
+
+[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-11-06_writeup.html)
 
 ### 20th November
-To be decided.
+Material: [A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?](https://theconversation.com/a-giant-biotechnology-company-might-be-about-to-go-bust-what-will-happen-to-the-millions-of-peoples-dna-it-holds-241557)
+
+Suggested discussion questions: 
+1. What are the potential risks that could come about with 23andMe using people’s data in the way they’ve outlined in their service agreements?
+2. If you were the Chief Executive of 23andMe, what would you be prioritising to make sure highly personal genetic data was being protected if the company is sold (or even if it isn’t!)
+3. Data security aside, would you want to take a DNA test knowing that you might find out things about your family or about health conditions you could develop?
+
+[HackMD link](https://hackmd.io/T4-wGcVaSyyqlu4Hozg4GQ?both)
 
 ### 4th December
+To be decided.
+
+### 18th December
 To be decided.
 
 
