@@ -6,7 +6,8 @@ category: Bookclub
 tags: data feminism, challenge power
 ---
 
-# Data Feminism: Chapter 1 – The Power Chapter
+# Data Ethics Club reads "Data Feminism": Summer Bookclub 2024
+
 ```{admonition} What's this? 
 This is summary of the discussions from Data Feminism Book Club, where we spoke
 and wrote about [Data Feminism](https://data-feminism.mitpress.mit.edu) by Catherine D’Ignazio and Lauren F. Klein over the summer of 2024.
@@ -15,6 +16,7 @@ In the mean time, the co-organisers would be really enthusiastic to support anyo
 The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Nina Di Cara, Huw Day, Natalie Thurlby, Amy Joint, and Vanessa Hanschke helped with the final edit.
 ```
+# Data Feminism: Chapter 1 – The Power Chapter
 
 ## Principle: Examine Power
 
