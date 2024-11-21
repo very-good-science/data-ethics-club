@@ -97,6 +97,9 @@ Material: [Ask Me Anything! How ChatGPT Got Hyped Into Being](https://osf.io/pre
 
 Suggested discussion questions: TBC
 
+### 22nd January
+Data Ethics New Years Resolution :)
+
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
