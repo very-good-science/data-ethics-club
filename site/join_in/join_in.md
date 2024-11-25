@@ -85,14 +85,20 @@ Suggested discussion questions:
 2. If you were the Chief Executive of 23andMe, what would you be prioritising to make sure highly personal genetic data was being protected if the company is sold (or even if it isn’t!)
 3. Data security aside, would you want to take a DNA test knowing that you might find out things about your family or about health conditions you could develop?
 
-[HackMD link](https://hackmd.io/T4-wGcVaSyyqlu4Hozg4GQ?both)
+Writeup coming soon!
 
 ### 4th December
-To be decided.
+Material: [Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?](https://blog.betterimagesofai.org/visuals-of-ai-in-the-military-domain-beyond-killer-robots-and-towards-better-images/)
+
+Suggested discussion questions: TBC
 
 ### 18th December
-To be decided.
+Material: [Ask Me Anything! How ChatGPT Got Hyped Into Being](https://osf.io/preprints/socarxiv/jzde2)
 
+Suggested discussion questions: TBC
+
+### 22nd January
+Data Ethics New Years Resolution :)
 
 ## Past Meetings
 
