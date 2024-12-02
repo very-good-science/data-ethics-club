@@ -90,7 +90,12 @@ Writeup coming soon!
 ### 4th December
 Material: [Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?](https://blog.betterimagesofai.org/visuals-of-ai-in-the-military-domain-beyond-killer-robots-and-towards-better-images/)
 
-Suggested discussion questions: TBC
+Suggested discussion questions: 
+1. What depictions have you seen of AI in the military domain? Have they been positive or negative?
+2. Does popular culture play a role in how you think of weaponised AI?
+3. Why does it matter to have a discussion on visuals of AI (whether in the military or more broadly)? What roles do different actors (e.g. researchers, media, etc.) have to ensure visual representations aren't misleading?
+
+[HackMD Link](https://hackmd.io/@data-ethics-club/S1xTFxsmye/edit)
 
 ### 18th December
 Material: [Ask Me Anything! How ChatGPT Got Hyped Into Being](https://osf.io/preprints/socarxiv/jzde2)
