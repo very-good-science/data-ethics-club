@@ -100,7 +100,13 @@ Write up coming soon!
 ### 18th December
 Material: [Ask Me Anything! How ChatGPT Got Hyped Into Being](https://osf.io/preprints/socarxiv/jzde2)
 
-Suggested discussion questions: TBC
+Suggested discussion questions: 
+
+1. Are hypes around technology driven by single actors or must they be understood as a societal dynamic? If yes, who/what drives it?
+2. Are hypers always opportunists and 'bullshiters' or aren't there also firm believers in their cause?
+3. Who decides that society is experiencing a hype or rather a promising future trajectory?
+
+[HackMD Link](https://hackmd.io/@data-ethics-club/HJcUEgvE1e)
 
 ### 22nd January
 Data Ethics New Years Resolution :)
