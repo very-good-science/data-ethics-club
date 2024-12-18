@@ -29,95 +29,43 @@ Join the meeting on the following Zoom link: https://bristol-ac-uk.zoom.us/j/960
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 25th September
-Material: [ChatGPT is Bullsh*t](https://link.springer.com/article/10.1007/s10676-024-09775-5)
+### 22th January - Data Ethics New Year's Resolutions Special
+As very optional reading material, you could look at our previous new year's resolutions from [2024](https://dataethicsclub.com/write_ups/2024-01-17_writeup.html), [2023](https://dataethicsclub.com/write_ups/2023-01-25_writeup.html), and [2022](https://dataethicsclub.com/write_ups/2022-01-12_writeup.html).
 
-Discussion questions: 
-1) Do you think that the labels of ChatGPT as a bullshit machine is fair?  
-2) Do you think ChatGPT is a soft or a hard bullshitter? I.e. do you think it has the intention to mislead its audience or not?  
-3) What do you think of the implications of the anthropomorphizing of AI tools? E.g. hallucination, learning, training, perception etc.  
+### 5th February
+Material: TBC
 
-[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-09-25_writeup.html)
+### 19th February
+Material: TBC
 
-### 9th October
-Material: [Time to reality check the promises of machine learning-powered precision medicine](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30200-4/fulltext)
+### 5th March - International Women's Day Special
+Material: TBC
 
-Discussion questions:
-1) How should we more meaningfully assess applications of ML to medicine (and other fields)?
-2) Why do you think most of the reviewed ML methods are producing classifications (i.e. diagnosed or not diagnosed) instead of predicting a continuum of risk?
-3) Do you think precision medicine itself is an epistemological dead end? What about stratified medicine? (identifying and predicting subgroups with a better and worse response)
+### 2nd April
+Material: TBC
 
-[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-10-09_writeup.html)
+### 16th April
+Material: TBC
 
-### 23rd October
-Material: [Transparent communication of evidence does not undermine public trust in evidence](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9802351/)
+### 30th April
 
-Suggested discussion questions: 
-1. Were you surprised by the findings of the study? Do they mirror experiences in your own domain?
-2. What do you think is behind the difference between the results of the nuclear power study and the vaccine study?
-3. Should research articles have a place in persuading the public, or should their intention always be to focus on robust, trustworthy information? 
-
-[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-10-28_writeup.html)
-
-### 6th November - DEC Social Special
-Very optional reading: [Data Ethics Club: Creating a collaborative space to discuss data ethics](https://www.cell.com/patterns/fulltext/S2666-3899(22)00134-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666389922001349%3Fshowall%3Dtrue)
-
-Structure:
-Go into breakout rooms and everybody does intros and shares (note taking optional if people don't want their details on the blog):
-1. Who are you professionally?
-2. What brings you to data ethics club?
-3. Who are you outside of data?
-   
-Then as a group your discussion is about:
-1. What's something you all have in common?
-2. What's something that makes you all different?
-3. As a group, if you hypothetically had unlimited time and unlimited money, what would you do to try and put your Data Ethics knowledge into use for societal good?
-
-Then come back at the end and share!
-
-[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-11-06_writeup.html)
-
-### 20th November
-Material: [A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?](https://theconversation.com/a-giant-biotechnology-company-might-be-about-to-go-bust-what-will-happen-to-the-millions-of-peoples-dna-it-holds-241557)
-
-Suggested discussion questions: 
-1. What are the potential risks that could come about with 23andMe using people’s data in the way they’ve outlined in their service agreements?
-2. If you were the Chief Executive of 23andMe, what would you be prioritising to make sure highly personal genetic data was being protected if the company is sold (or even if it isn’t!)
-3. Data security aside, would you want to take a DNA test knowing that you might find out things about your family or about health conditions you could develop?
-
-[Read the writeup here!](https://dataethicsclub.com/write_ups/2024-11-20_writeup.html)
-
-### 4th December
-Material: [Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?](https://blog.betterimagesofai.org/visuals-of-ai-in-the-military-domain-beyond-killer-robots-and-towards-better-images/)
-
-Suggested discussion questions: 
-1. What depictions have you seen of AI in the military domain? Have they been positive or negative?
-2. Does popular culture play a role in how you think of weaponised AI?
-3. Why does it matter to have a discussion on visuals of AI (whether in the military or more broadly)? What roles do different actors (e.g. researchers, media, etc.) have to ensure visual representations aren't misleading?
-
-Write up coming soon!
-
-### 18th December
-Material: [Ask Me Anything! How ChatGPT Got Hyped Into Being](https://osf.io/preprints/socarxiv/jzde2)
-
-Suggested discussion questions: 
-
-1. Are hypes around technology driven by single actors or must they be understood as a societal dynamic? If yes, who/what drives it?
-2. Are hypers always opportunists and 'bullshiters' or aren't there also firm believers in their cause?
-3. Who decides that society is experiencing a hype or rather a promising future trajectory?
-
-[HackMD Link](https://hackmd.io/@data-ethics-club/HJcUEgvE1e)
-
-### 22nd January
-Data Ethics New Years Resolution :)
+### Summer Book Club
+Dates TBC, stay tuned!
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| Weekly in July/August 2024 | [Data Feminism Book Club](meetings/2024/data-feminism) | TBD |
-| [04.06.2024](meetings/2024/06-jun/04-06-24_xmeeting.md), 11am | [How AI Could Save (Not Destroy) Education](https://www.youtube.com/watch?v=hJP5GqnTrNo) |[Read the writeup](https://dataethicsclub.com/write_ups/2024-06-04_writeup.html)|
+| 18.12.2024, 1pm | [Ask Me Anything! How ChatGPT Got Hyped Into Being](https://osf.io/preprints/socarxiv/jzde2) | TBD |
+| 04.12.2024, 1pm | [Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?](https://blog.betterimagesofai.org/visuals-of-ai-in-the-military-domain-beyond-killer-robots-and-towards-better-images/) | TBD |
+| 20.11.2024, 1pm | [A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?](https://theconversation.com/a-giant-biotechnology-company-might-be-about-to-go-bust-what-will-happen-to-the-millions-of-peoples-dna-it-holds-241557) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-11-20_writeup.html) |
+| 06.11.2024, 1pm | [Data Ethics Club: Creating a collaborative space to discuss data ethics](https://www.cell.com/patterns/fulltext/S2666-3899(22)00134-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666389922001349%3Fshowall%3Dtrue) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-11-06_writeup.html) |
+| 23.10.2024, 1pm | [Transparent communication of evidence does not undermine public trust in evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC9802351/) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-10-28_writeup.html) |
+| 09.10.2024, 1pm | [Time to reality check the promises of machine learning-powered precision medicine](https://www.thelancet.com/journals/landig/article/PIIS2589-7500(20)30200-4/fulltext) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-10-09_writeup.html) |
+| 25.09.2024, 1pm | [ChatGPT is Bullsh*t](https://link.springer.com/article/10.1007/s10676-024-09775-5) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-09-25_writeup.html) |
+| Weekly in July/August 2024 | [Data Feminism Book Club](meetings/2024/data-feminism) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-08-31_writeup.html) |
+| [04.06.2024](meetings/2024/06-jun/04-06-24_meeting.md), 11am | [How AI Could Save (Not Destroy) Education](https://www.youtube.com/watch?v=hJP5GqnTrNo) |[Read the writeup](https://dataethicsclub.com/write_ups/2024-06-04_writeup.html)|
 | [22.05.2024](meetings/2024/05-may/22-05-24_meeting.md), 1pm | [The Myers-Briggs Test Has Been Debunked Time and Again. Why Do Companies Still Use It?](https://dataethicsclub.com/join_in/meetings/2024/05-may/22-05-24_meeting.html) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-05-22_writeup.html) |
 | [08.05.2024](meetings/2024/05-may/08-05-24_meeting.md), 1pm | [Amazon's Just Walk Out technology relies on hundreds of workers in India watching you shop](https://www.businessinsider.com/amazons-just-walk-out-actually-1-000-people-in-india-2024-4) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-05-08_writeup.html) | 
 | [24.04.2024](meetings/2024/04-apr/24-04-24_meeting.md), 1pm | [Artificial Intelligence Act: MEPs adopt landmark law](https://www.europarl.europa.eu/news/en/press-room/20240308IPR19015/artificial-intelligence-act-meps-adopt-landmark-law) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-04-24_writeup.html) |
