@@ -48,17 +48,32 @@ Material: TBC
 Material: TBC
 
 ### 30th April
+Material: TBC
 
 ### Summer Book Club
-Dates TBC, stay tuned!
+
+For our summer 2025 bookclub, we will be reading [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) by Arvind Narayanan and Sayash Kapoor. 
+
+On their website you can read the [first chapter online for free](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview), see [what each chapter is about](https://www.aisnakeoil.com/i/148742314/whats-in-the-book) and see the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion) to get an idea of the kinds of conversation we might be having.
+
+There are 8 chapters and the exact schedule is still to be determined (we'll be asking our community what works best for them as we did with our last bookclub) but the rough schedule looks something like:
+
+11th June: Chapter 1 - Introduction (34 pages)
+18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
+2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
+16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
+23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
+6th August Chapter 6 - Why can't AI fix social media? (48 pages)
+13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
+20th August: Chapter 8 - Where do we go from here? (27 pages)
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| 18.12.2024, 1pm | [Ask Me Anything! How ChatGPT Got Hyped Into Being](https://osf.io/preprints/socarxiv/jzde2) | TBD |
-| 04.12.2024, 1pm | [Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?](https://blog.betterimagesofai.org/visuals-of-ai-in-the-military-domain-beyond-killer-robots-and-towards-better-images/) | TBD |
+| 18.12.2024, 1pm | [Ask Me Anything! How ChatGPT Got Hyped Into Being](https://osf.io/preprints/socarxiv/jzde2) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-12-18_writeup.html) |
+| 04.12.2024, 1pm | [Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?](https://blog.betterimagesofai.org/visuals-of-ai-in-the-military-domain-beyond-killer-robots-and-towards-better-images/) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-12-04_writeup.html) |
 | 20.11.2024, 1pm | [A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?](https://theconversation.com/a-giant-biotechnology-company-might-be-about-to-go-bust-what-will-happen-to-the-millions-of-peoples-dna-it-holds-241557) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-11-20_writeup.html) |
 | 06.11.2024, 1pm | [Data Ethics Club: Creating a collaborative space to discuss data ethics](https://www.cell.com/patterns/fulltext/S2666-3899(22)00134-9?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS2666389922001349%3Fshowall%3Dtrue) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-11-06_writeup.html) |
 | 23.10.2024, 1pm | [Transparent communication of evidence does not undermine public trust in evidence](https://pmc.ncbi.nlm.nih.gov/articles/PMC9802351/) | [Read the writeup](https://dataethicsclub.com/write_ups/2024-10-28_writeup.html) |
