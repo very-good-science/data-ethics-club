@@ -1,0 +1,1442 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: Ask Me Anything! How ChatGPT Got Hyped Into Being &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2024-12-18_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2024-12-18_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  <span>18 December 2024</span>
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/hype.html">hype</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2024-12-04_writeup.html">
+      04 December - Data Ethics Club: Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-11-20_writeup.html">
+      20 November - Data Ethics Club: A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-11-06_writeup.html">
+      14 November - Data Ethics Club Social Special: Data Ethics Club: Creating a collaborative space to discuss data ethics
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-10-28_writeup.html">
+      29 October - Data Ethics Club: Transparent communication of evidence does not undermine public trust in evidence
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-10-09_writeup.html">
+      09 October - Data Ethics Club: Time to reality check the promises of machine learning-powered precision medicine
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/bookclub.html">Bookclub (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (63)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<link rel="stylesheet" href="../_static/ablog/tagcloud.css" type="text/css" />
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-applications.html">AI applications</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/llms.html">LLMs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ml.html">ML</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/transparency.html">Transparency</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bullshit.html">bullshit</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/communication.html">communication</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/computer-vision.html">computer vision</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consent.html">consent</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-feminism.html">data feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-week.html">data week</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hallucination.html">hallucination</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hype.html">hype</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/law.html">law</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/medicine.html">medicine</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/personality-test.html">personality test</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/recruitment.html">recruitment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social.html">social</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (29)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: Ask Me Anything! How ChatGPT Got Hyped Into Being</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="data-ethics-club-ask-me-anything-how-chatgpt-got-hyped-into-being">
+<h1>Data Ethics Club: <a class="reference external" href="https://osf.io/preprints/socarxiv/jzde2">Ask Me Anything! How ChatGPT Got Hyped Into Being</a><a class="headerlink" href="#data-ethics-club-ask-me-anything-how-chatgpt-got-hyped-into-being" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 18th December Data Ethics Club discussion, where we spoke and wrote about the article <a class="reference external" href="https://osf.io/preprints/socarxiv/jzde2">Ask Me Anything! How ChatGPT Got Hyped Into Being</a> by Jascha Bareis. We were fortunate enough to have Jascha join our session to introduce his work and participate in some of our discussions!
+The summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Huw Day helped with the final edit.</p>
+</div>
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>ChatGPT’s release triggered a social frenzy of transcendental predictions fuelled by sensationalist narratives and hype. Hype is a societal dynamic triggered and driven by strategic agents using figurative language to trigger emotions and craft a community. Actors mechanise hype to create attention, followership, and investments. Hypers can be understood as problematic appropriators of futures, exploiting epistemic uncertainty of the future for opportunist purposes without care for the difference between fact and belief or truth and lie.</p>
+<p>Hype of ChatGPT is propagated through several forms including its interface, behaviour of industry leaders, media coverage, and receptive audiences. The design of ChatGPT’s interface anthropomorphises the chatbot in a way that implies self-reflection and empathy, making it difficult for users to manage their expectations. Potential to mislead is further exacerbated by providers of systems failing to make clear that <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-09-25_writeup.html">Large Language Models (LLMs) have problems with truth</a>. Powerful actors in the industry cultivate hype by disseminating an apocalyptic narrative that silences political and structural regulatory questions about infrastructure control. Media coverage further feeds hype by depicting industry competition as an exciting spectacle to observe, thereby distancing the audience. The audience themselves are complicit and necessary for the phenomenon of hype to take place. An effective way to defeat hypers is to ignore them or not give them the stage to avoid feeding the attention machine. Public advocates and policy makers must tackle the authority and credibility of knowledge production.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="are-hypes-around-technology-driven-by-single-actors-or-must-they-be-understood-as-a-societal-dynamic-if-yes-who-what-drives-it">
+<h3>Are hypes around technology driven by single actors or must they be understood as a societal dynamic? If yes, who/what drives it?<a class="headerlink" href="#are-hypes-around-technology-driven-by-single-actors-or-must-they-be-understood-as-a-societal-dynamic-if-yes-who-what-drives-it" title="Link to this heading">#</a></h3>
+<p>At the outset, we weren’t sure how we’d define hype and found that the normative dimension of hype discussed in the paper wasn’t clear. We conceive hype as a phenomenon that warps narratives and has a spectrum of credibility but goes further than what it is calibrated for. Success stories are told, and failures are not. Hype encompasses both promotion and counter-narratives, such as government lawsuits and policy consultations.</p>
+<p>Looking towards Silicon Valley specifically, hype cycles have very precise triggers which the article doesn’t really touch on. However, these triggers are helpful for defining hype and understanding how people get on board. The <a class="reference external" href="https://www.gartner.com.au/en/methodologies/gartner-hype-cycle">hype cycle</a> has existed in <a class="reference external" href="https://www.gartner.com.au/en">Gartner</a> for a long time, and technologists use it in their day to day work. There are <a class="reference external" href="https://www.researchgate.net/publication/224182916_Scrutinizing_Gartner%27s_hype_cycle_approach">criticisms</a> of the Garner hype cycle, however. Hype is thus not a new thing, but the scale and rapid increase in the phenomenon is something to be wary of.</p>
+<p>Hype has a mutually reinforcing snowball effect, as when other parties are onboard things have the appearance of being derisked. General purpose technologies are driven by capitalism; it’s almost as if the more people get on board, the more hype is manifested. From a sales perspective, the <a class="reference external" href="https://worldofwork.io/2019/07/cialdinis-6-principles-of-persuasion/">principles of persuasion</a> denote that scarcity and conformity make things more appealing to people. Initially, it was difficult to log into ChatGPT as it was trying to operate so far beyond its capacity; this only enhanced an air of exclusivity. Just like the <a class="reference external" href="https://www.bbc.co.uk/news/uk-62872323">queue for at the queen’s funeral</a>, the more people that talk about it, the more people get involved - people don’t want to miss out. There is an element of <a class="reference external" href="https://www.bbc.co.uk/news/magazine-31503875">game theory</a> here, reflecting a dichotomy between wisdom and foolishness of the crowd. Exaggerating capabilities with hype makes people willing to pay more than what the market rate would reward.</p>
+<p>We wouldn’t be surprised if it turns out that generative artifical intelligence (AI) doesn’t work for many use cases. The situation may be similar to blockchain, where the problem wasn’t a lack of use cases but too much complexity. Hypers themselves have a range of competencies in their knowledge about technology. ChatGPT wasn’t a huge technological breakthrough, it just presented well with a very effective and engaging user interface. Depending on how you define intelligence (e.g. capacity for self-awareness, creativity, and understanding), LLMs aren’t necessarily intelligent or really AI at all; it is the human that is inputting the intelligence. The misinformation saying that LLMs are AI is another way of showing how LLMs have been hyped.</p>
+<p>ChatGPT is used by a lot of people, but not used well; many people just throw everything into it. We feel that without studying or understanding how LLMs work (e.g. how <a class="reference external" href="https://medium.com/&#64;gcentulani/understanding-hallucination-in-llms-causes-consequences-and-mitigation-strategies-b5e1d0268069">hallucinations</a> occur) it’s difficult to understand how to use them well. Rather than explaining how the technology works, hype further mystifies it. Many people believe that AI <em>is</em> ChatGPT. We have seen LLMs integrated into the teaching and assessments of certain university courses and wonder why the reaction to LLMs (i.e. the eagerness to include them) is different to past tools like Google Scholar. We also wonder why ChatGPT is the LLM that everyone talks about, as people were using LLMs before. The answer to both of these questions is hype.</p>
+<p>When ChatGPT came out, it was a shock that the public started using it. There is a reason it is called ChatGPT and not ChatAI; the company really did see it as a demo and not something that would kick off. Silicon Valley has a track record of releasing what seems to be a “toy” without proper consideration of unintended consequences. <a class="reference external" href="https://www.productplan.com/glossary/product-market-fit/">Product-market fit</a> involves finding an appropriate market where the product will fit, and is a good indicator of when the public will pick up on something.</p>
+<p>Humans are highly driven by convenience and laziness, and the innovations that win are generally those that make tasks easier for people. ChatGPT is very accessible to people, which is perhaps why the hype is so strong. It embodies the promise of general purpose technologies such as the internet and smartphones, which further drives the hype. Perhaps it would be better to focus on appropriate use cases. The right use cases for AI are probably jobs that are tedious and boring. In healthcare, for example, convenience would be useful for data gathering, cleaning, and access. However, for summarising papers we would prefer to just read papers ourselves instead of getting a LLM to do it because of issues like hallucinations.</p>
+</section>
+<section id="are-hypers-always-opportunists-and-bullshitters-or-aren-t-there-also-firm-believers-in-their-cause">
+<h3>Are hypers always opportunists and ‘bullshitters’ or aren’t there also firm believers in their cause?<a class="headerlink" href="#are-hypers-always-opportunists-and-bullshitters-or-aren-t-there-also-firm-believers-in-their-cause" title="Link to this heading">#</a></h3>
+<p>This paper made us angry because it systematically laid out the many powerful people and institutions that repeatedly and brazenly lied in order to pump hype and thereby their profits. Venture Capital Hype cycles are different to how the media and public pick things up and hype them, as they have different motivations behind them. Products become of value because people invest money. If you want funding, you jump on the bandwagon and say what you’re doing is AI whether or not it actually is; even if it’s just algorithmic.</p>
+<p>There are lots of different stakeholders in the AI hype cycle, but we never really define them. The names highlighted as key players in the paper were not necessarily the ones we were expecting, such as <a class="reference external" href="https://en.wikipedia.org/wiki/Sam_Bankman-Fried">Sam Bankman-Fried</a> who may be on the list because of his connection to <a class="reference external" href="https://www.effectivealtruism.org/">effective altruism</a>. Hypers could be a mixture of people involved for “good” and people that actually want to do good. Some people at the top - we wondered how many - do think that AI is a solution to the world’s problems. A lot of industry leaders would say anything (no matter how obviously false) if it would increase profits, but perhaps it is the true believers that are the most dangerous.</p>
+<p>The <a class="reference external" href="https://link.springer.com/article/10.1007/s10676-024-09775-5">paper ChatGPT is bullsh*t</a>, previously <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-09-25_writeup.html">discussed at Data Ethics Club</a>, also fuelled hype with its sensationalist title. Bullshitting is a social action which implies awareness and intentionality so in a sense the paper is anthropomorphising the tool. Although, the paper does distinguish between the tool itself and the tool’s creators or users.</p>
+<p>At Data Ethics Club, we are not innocent of participating in the generative AI hype cycle. By discussing and dissecting it, we are also giving oxygen to the hype. However, someone has to push back against hype and simply not talking about AI might not be the answer. Whilst hype has some impact on subduing regulatory questions about infrastructure control, it may also have the opposite effect of drawing attention and putting additional pressure on regulatory bodies. We need more stories of forgotten technology which didn’t turn out as expected.</p>
+<p>Sometimes, issues of misunderstanding arise from using different language between marketing, ethics, and technology teams. There needs to be clarity within teams regarding what AI is capable of doing now, in the near future, and in the long term. Trust and transparency need to be clear, but “transparency” and “trust” scare away money. However, if you’re investors, being clear about where you’re putting your money is actually advantageous.</p>
+</section>
+<section id="who-decides-that-society-is-experiencing-a-hype-or-rather-a-promising-future-trajectory">
+<h3>Who decides that society is experiencing a hype or rather a promising future trajectory?<a class="headerlink" href="#who-decides-that-society-is-experiencing-a-hype-or-rather-a-promising-future-trajectory" title="Link to this heading">#</a></h3>
+<p>Validation of whether a tool is real or actually works tends to lag behind the hype bubble. Limitations of many LLMs were intentionally hidden by liars interested in inflating the hype bubble rather than releasing a working product. This is the way that startups operate: the leaders are salesmen (usually men), and developers have to try and produce what was sold. To sell a product, the technology does not have to exist in the real world and if you don’t have the right data, you can create synthetic data.</p>
+<p>To understand the actual capabilities of a tool, it is important to listen to stories from the <a class="reference external" href="https://dictionary.cambridge.org/us/dictionary/english/coalface">coalface</a>, the place from which the real work is being done. Founders may have boundless enthusiasm and belief, but developers often soon realise that the emperor has no clothes. Success comes in when developers are able to convince the client that what they were sold is the same as what has been delivered.</p>
+<p>Hype can be identified as it happens rather than retroactively by examining the sorts of words used in overheated discourse. For example, the use of apocalyptic vocabulary would indicate the existence of a hype bubble. It is unclear what will happen over the next year with the AI hype bubble and global politics generally. In the discussion, it was good to hear the author’s perspective about the future and the news regarding <a class="reference external" href="https://www.bbc.co.uk/news/articles/c1kez8d2dygo">Elon Musk attempting to give the Reform UK party a massive donation</a>.</p>
+</section>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h3>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h3>
+<p>We wonder how LLMs and hype will affect education: how we will identify cheating, how we can monitor the use of ChatGPT, and the implications ChatGPT has for trust. Skills atrophy may occur, making things like coding too easy and dumbing us all down. Online exams and tests will also be affected; we took a test during which we had to lockdown our browser to one tab, which made the experience uncomfortable and added a level of stress.</p>
+<p>Opacity in LLMs is problematic as they are black boxes with limited transparency regarding how training data is controlled and what has been added to it. If you put a dataset into ChatGPT, it is not clear who sees that data or if it could become public by the company having access to it and regurgitating it in a later output. We weren’t sure if people even realise it is a possibility that their inputs can become outputs. Training LLMs from data siphoned off the internet makes LLMs cannibalistic as outputs go onto the internet, to become training data, to become outputs again. Things that aren’t true become fact. Corruption of the internet is happening rapidly; a <a class="reference external" href="https://tech.slashdot.org/story/24/09/20/1745236/project-analyzing-human-language-usage-shuts-down-because-generative-ai-has-polluted-the-data">project analysing the usage of human language had to shut down because so much of the data has been polluted by generative AI</a>. Eventually, the internet may be <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-02-28_writeup.html">full of AI generated content</a>.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, Jean Golding Institute, https://www.linkedin.com/in/huw-day/</p></li>
+<li><p>Euan Bennet, Lecturer, University of Glasgow</p></li>
+<li><p>Amy Joint, ISRCTN Clinical Study Registry, https://www.linkedin.com/in/amyjoint/</p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, Ph.D. Student, University of Bristol</p></li>
+<li><p>Ola Michalec - Lecturer &#64; Bristol Digital Futures Inst</p></li>
+<li><p>Paul Lee, investor</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
+<li><p><a class="reference external" href="https://www.michellevenetucci.com/">Michelle Venetucci</a>, PhD Candidate, Yale University</p></li>
+<li><p>Hessam Hessami Data scientist https://www.linkedin.com/in/hessam-hessami-ph-d-6723a2b9/</p></li>
+<li><p>Philippa Davies, Research Fellow in Evidence Synthesis, University of Bristol. Also part-time Data Science MSc student. First time joining today</p></li>
+<li><p>Zoë Turner, Senior Data Scientist, NHS <a class="reference external" href="https://github.com/Lextuga007">&#64;Lextuga007</a></p></li>
+<li><p>Dan Lawson, Director of Jean Golding Institute, https://people.maths.bris.ac.uk/~madjl/</p></li>
+<li><p>Nevena Nikolajevic, Data Projects &amp; Data Consultation at Civic Data Lab https://civic-data.de &amp; CorrelAid https://www.correlaid.org/en/</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2024-12-04_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-hypes-around-technology-driven-by-single-actors-or-must-they-be-understood-as-a-societal-dynamic-if-yes-who-what-drives-it">Are hypes around technology driven by single actors or must they be understood as a societal dynamic? If yes, who/what drives it?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#are-hypers-always-opportunists-and-bullshitters-or-aren-t-there-also-firm-believers-in-their-cause">Are hypers always opportunists and ‘bullshitters’ or aren’t there also firm believers in their cause?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who-decides-that-society-is-experiencing-a-hype-or-rather-a-promising-future-trajectory">Who decides that society is experiencing a hype or rather a promising future trajectory?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2024-12-18_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/write_ups/2024-12-18_writeup.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
