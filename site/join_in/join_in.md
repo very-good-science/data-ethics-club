@@ -58,14 +58,14 @@ On their website you can read the [first chapter online for free](https://press.
 
 There are 8 chapters and the exact schedule is still to be determined (we'll be asking our community what works best for them as we did with our last bookclub) but the rough schedule looks something like:
 
-11th June: Chapter 1 - Introduction (34 pages)
-18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
-2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
-16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
-23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
-6th August Chapter 6 - Why can't AI fix social media? (48 pages)
-13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
-20th August: Chapter 8 - Where do we go from here? (27 pages)
+- 11th June: Chapter 1 - Introduction (34 pages)
+- 18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
+- 2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
+- 16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
+- 23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
+- 6th August Chapter 6 - Why can't AI fix social media? (48 pages)
+- 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
+- 20th August: Chapter 8 - Where do we go from here? (27 pages)
 
 ## Past Meetings
 
