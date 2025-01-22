@@ -32,8 +32,13 @@ Join the meeting on the following Zoom link: https://bristol-ac-uk.zoom.us/j/960
 ### 22th January - Data Ethics New Year's Resolutions Special
 As very optional reading material, you could look at our previous new year's resolutions from [2024](https://dataethicsclub.com/write_ups/2024-01-17_writeup.html), [2023](https://dataethicsclub.com/write_ups/2023-01-25_writeup.html), and [2022](https://dataethicsclub.com/write_ups/2022-01-12_writeup.html).
 
-### 5th February
-Material: TBC
+Writeup coming soon!
+
+### 5th February - "It's Not Exactly Meant to Be Realistic": Student Perspectives on the Role of Ethics In Computing Group Projects
+
+[Material link]("It's Not Exactly Meant to Be Realistic": Student Perspectives on the Role of Ethics In Computing Group Projects)
+
+Discussion questions: TBC
 
 ### 19th February
 Material: TBC
