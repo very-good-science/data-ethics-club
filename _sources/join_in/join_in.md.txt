@@ -36,7 +36,7 @@ Writeup coming soon!
 
 ### 5th February - "It's Not Exactly Meant to Be Realistic": Student Perspectives on the Role of Ethics In Computing Group Projects
 
-[Material link]("It's Not Exactly Meant to Be Realistic": Student Perspectives on the Role of Ethics In Computing Group Projects)
+[Material link](https://dl.acm.org/doi/10.1145/3632620.3671109)
 
 Discussion questions: TBC
 
