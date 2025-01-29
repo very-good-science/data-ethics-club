@@ -52,7 +52,7 @@ Material: TBC
 ### 16th April
 Material: TBC
 
-### 30th April
+### 30th April - AI in Education Special
 Material: TBC
 
 ### Summer Book Club
