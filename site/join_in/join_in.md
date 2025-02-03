@@ -38,7 +38,10 @@ Writeup coming soon!
 
 [Material link](https://dl.acm.org/doi/10.1145/3632620.3671109)
 
-Discussion questions: TBC
+Suggested Questions:
+1. How do we define ethics in the context of computing education? Is it just doing the right thing or should it involve explicitly making injustices visible?
+2. What do you think of the authors' recommendations for designing a project based computing course with ethics learning and practise in mind?
+3. How can we make ethics be a functional requirement of good DS/SE practises in industry? 
 
 ### 19th February
 Material: TBC
