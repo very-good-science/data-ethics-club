@@ -43,14 +43,17 @@ Suggested Questions:
 2. What do you think of the authors' recommendations for designing a project based computing course with ethics learning and practise in mind?
 3. How can we make ethics be a functional requirement of good DS/SE practises in industry? 
 
-### 19th February
-Material: TBC
+### 19th February - OpenAI Furious DeepSeek Might Have Stolen All the Data OpenAI Stole From Us
+
+[Material link](https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/)
 
 ### 5th March - International Women's Day Special
+
 Material: TBC
 
-### 2nd April
-Material: TBC
+### 2nd April - The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry
+
+[Material link](https://link.springer.com/article/10.1007/s11023-017-9445-2)
 
 ### 16th April
 Material: TBC
