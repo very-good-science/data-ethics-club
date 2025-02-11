@@ -38,7 +38,7 @@ As very optional reading material, you could look at our previous new year's res
 
 [Material link](https://dl.acm.org/doi/10.1145/3632620.3671109)
 
-Suggested Questions:
+Discussion Questions:
 1. How do we define ethics in the context of computing education? Is it just doing the right thing or should it involve explicitly making injustices visible?
 2. What do you think of the authors' recommendations for designing a project based computing course with ethics learning and practise in mind?
 3. How can we make ethics be a functional requirement of good DS/SE practises in industry? 
@@ -49,7 +49,8 @@ Suggested Questions:
 
 ### 5th March - International Women's Day Special
 
-Material: TBC
+[Material link](https://www.youtube.com/watch?v=b_ReU4QD8lc)
+This meeting we'll play the above short video at the start as a primer before going into breakout rooms for discussions. If you enjoy the above video and want more, you should buy the speaker's book [Weapons of Math Destruction by Cathy O'Neil](https://dl.acm.org/doi/10.5555/3002861)
 
 ### 2nd April - The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry
 
