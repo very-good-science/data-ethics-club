@@ -41,7 +41,9 @@ As very optional reading material, you could look at our previous new year's res
 Discussion Questions:
 1. How do we define ethics in the context of computing education? Is it just doing the right thing or should it involve explicitly making injustices visible?
 2. What do you think of the authors' recommendations for designing a project based computing course with ethics learning and practise in mind?
-3. How can we make ethics be a functional requirement of good DS/SE practises in industry? 
+3. How can we make ethics be a functional requirement of good DS/SE practises in industry?
+
+[Read the Writeup here!](https://dataethicsclub.com/write_ups/2025-02-05_writeup.html)
 
 ### 19th February - OpenAI Furious DeepSeek Might Have Stolen All the Data OpenAI Stole From Us
 
