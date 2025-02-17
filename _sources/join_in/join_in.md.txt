@@ -59,6 +59,11 @@ Discussion Questions:
 [Material link](https://www.youtube.com/watch?v=b_ReU4QD8lc)
 This meeting we'll play the above short video at the start as a primer before going into breakout rooms for discussions. If you enjoy the above video and want more, you should buy the speaker's book [Weapons of Math Destruction by Cathy O'Neil](https://dl.acm.org/doi/10.5555/3002861)
 
+Discussion Questions:
+1. Can you think of a kind of implicit bias that affects you?
+2. Have you ever been trained in the effect of implicit bias? Was it effective? How could it be improved?
+3. What sorts of power affect peoples' rights to speak out about implicit bias (e.g. access to legal representation, transparency in decision making etc.)?
+
 ### 2nd April - The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry
 
 [Material link](https://link.springer.com/article/10.1007/s11023-017-9445-2)
