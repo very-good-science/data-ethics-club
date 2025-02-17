@@ -49,6 +49,11 @@ Discussion Questions:
 
 [Material link](https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/)
 
+Discussion Questions:
+1. Under what circumstances do you think training AI models using publicly available internet materials is fair use? How should copyright come into this? Should these companies be publicly owed as a way to nationalise or democratise AI, since the models are trained on publically available data?
+2. What do you think best practices should be for model distillation (i.e. one model learning off another)? Is it really stealing if OpenAI trained their model using vast amounts of publicly available data collected through web scraping?
+3. DeepSeek was trained more cost effectively and with less powerful hardware but still performed as well as OpenAI's model, attributed in part to its new architecture rather than just throwing more data + compute at the problem. Do you think that constrained environments can generally be a good catalyst for innovation?
+
 ### 5th March - International Women's Day Special
 
 [Material link](https://www.youtube.com/watch?v=b_ReU4QD8lc)
