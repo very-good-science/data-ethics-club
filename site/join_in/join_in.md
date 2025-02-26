@@ -64,6 +64,9 @@ Discussion Questions:
 2. Have you ever been trained in the effect of implicit bias? Was it effective? How could it be improved?
 3. What sorts of power affect peoples' rights to speak out about implicit bias (e.g. access to legal representation, transparency in decision making etc.)?
 
+### 19th March
+Material: TBC
+
 ### 2nd April - The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry
 
 [Material link](https://link.springer.com/article/10.1007/s11023-017-9445-2)
