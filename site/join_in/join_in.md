@@ -83,7 +83,7 @@ For our summer 2025 bookclub, we will be reading [AI Snake Oil: What artificial 
 
 On their website you can read the [first chapter online for free](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview), see [what each chapter is about](https://www.aisnakeoil.com/i/148742314/whats-in-the-book) and see the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion) to get an idea of the kinds of conversation we might be having.
 
-There are 8 chapters and the exact schedule is still to be determined (we'll be asking our community what works best for them as we did with our last bookclub) but the rough schedule looks something like meeting on Zoom at 4-5pm UK time on the following dates:
+There are 8 chapters and the exact schedule is below. We'll be meeting 4-5pm UK time on Zoom (on the usual link). If you'd like to be forwarded calendar invites to the session then you can let us know via email or by commenting on [the Slack thread](https://dataethicsclub.slack.com/archives/C03FQTJHEGZ/p1737979432534019).
 
 - 11th June: Chapter 1 - Introduction (34 pages)
 - 18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
@@ -93,8 +93,6 @@ There are 8 chapters and the exact schedule is still to be determined (we'll be 
 - 6th August Chapter 6 - Why can't AI fix social media? (48 pages)
 - 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
 - 20th August: Chapter 8 - Where do we go from here? (27 pages)
-
-If you have feedback about this schedule (e.g. you can't make this time and would attend if we changed to a different time, or have noticed we've mistakenly put a talk during a public holiday) then please let us know either via email or commenting on [the Slack thread](https://dataethicsclub.slack.com/archives/C03FQTJHEGZ/p1737979432534019).
 
 ## Past Meetings
 
