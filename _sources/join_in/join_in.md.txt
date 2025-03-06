@@ -64,15 +64,24 @@ Discussion Questions:
 2. Have you ever been trained in the effect of implicit bias? Was it effective? How could it be improved?
 3. What sorts of power affect peoples' rights to speak out about implicit bias (e.g. access to legal representation, transparency in decision making etc.)?
 
-### 19th March
-Material: TBC
+### 19th March - Alphafold: The Most Useful Thing AI Has Ever Done
+
+[Material link](https://www.youtube.com/watch?v=P_fHJIYENdI)
+
+Discussion Questions: TBC
+
 
 ### 2nd April - The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry
 
 [Material link](https://link.springer.com/article/10.1007/s11023-017-9445-2)
 
-### 16th April
-Material: TBC
+Discussion Questions: TBC
+
+### 16th April - Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey
+
+[Material link](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-21823-3)
+
+Discussion Questions: TBC
 
 ### 30th April - AI in Education Special
 Material: TBC
