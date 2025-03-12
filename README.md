@@ -23,6 +23,9 @@ We really welcome people re-using the materials we have made. This repository is
 
 To make it easier to re-use what you find here we have a made a [How To Guide](https://dataethicsclub.com/how_to/reuse_dec.html) which includes an explanation of what is here and also blank templates for all the things we use reguarly. This includes our Code of Conduct, Meeting agendas and issue templates. 
 
+## Acknowledgements
+
+The Data Ethics Club receives continued support from the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) at the University of Bristol.
 
 ## Contributors ✨
 
