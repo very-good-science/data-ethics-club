@@ -134,6 +134,12 @@ Data Ethics Club is organised by a [small team](contact), but all our materials 
   
 (Psst, [let us know](contact) if you need to be added to the contributors list!)
 
+
+
+### Acknowledgements
+
+The Data Ethics Club receives continued support from the [Jean Golding Institute](https://www.bristol.ac.uk/golding/) at the University of Bristol.
+
 ```{toctree}
 :maxdepth: 2
 :hidden:
