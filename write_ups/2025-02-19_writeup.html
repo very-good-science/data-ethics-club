@@ -1,0 +1,1500 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: OpenAI Furious DeepSeek Might Have Stolen All the Data OpenAI Stole From Us &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2025-02-19_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2025-02-19_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  <span>19 February 2025</span>
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/write-up.html">Write Up</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/llms.html">LLMs</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/big-tech.html">big tech</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/ml.html">ML</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/open-source.html">open source</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2025-02-05_writeup.html">
+      05 February - Data Ethics Club: “It’s Not Exactly Meant to Be Realistic”: Student Perspectives on the Role of Ethics In Computing Group Projects
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-01-22_writeup.html">
+      22 January - Data Ethics Club: Data Ethics New Year’s Resolutions Special
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-12-18_writeup.html">
+      18 December - Data Ethics Club: Ask Me Anything! How ChatGPT Got Hyped Into Being
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-12-04_writeup.html">
+      04 December - Data Ethics Club: Visuals of AI in the Military Domain: Beyond ‘Killer Robots’ and towards Better Images?
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-11-20_writeup.html">
+      20 November - Data Ethics Club: A giant biotechnology company might be about to go bust. What will happen to the millions of people’s DNA it holds?
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/bookclub.html">Bookclub (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (66)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<link rel="stylesheet" href="../_static/ablog/tagcloud.css" type="text/css" />
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-applications.html">AI applications</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/llms.html">LLMs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ml.html">ML</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/transparency.html">Transparency</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bullshit.html">bullshit</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/communication.html">communication</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/computer-vision.html">computer vision</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consent.html">consent</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-feminism.html">data feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-week.html">data week</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ethics.html">ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/group-projects.html">group projects</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hallucination.html">hallucination</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hype.html">hype</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/law.html">law</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/medicine.html">medicine</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/personality-test.html">personality test</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/recruitment.html">recruitment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social.html">social</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (32)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2025.html">2025 (3)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: OpenAI Furious DeepSeek Might Have Stolen All the Data OpenAI Stole From Us</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="data-ethics-club-openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/">OpenAI Furious DeepSeek Might Have Stolen All the Data OpenAI Stole From Us</a><a class="headerlink" href="#data-ethics-club-openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 19th February’s Data Ethics Club discussion, where we spoke and wrote about the New Republic article <a class="reference external" href="https://www.404media.co/openai-furious-deepseek-might-have-stolen-all-the-data-openai-stole-from-us/">OpenAI Furious DeepSeek Might Have Stolen All the Data OpenAI Stole From Us</a> by Jason Koebler.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Huw Day helped with the final edit.</p>
+</div>
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>In January 2025, <a class="reference external" href="https://www.deepseek.com/">DeepSeek</a> – a Chinese <a class="reference external" href="https://deepseek.net/about">AI startup specialising in large language models (LLMs)</a> – released its R1 model, which shocked the world by demonstrating better performance than <a class="reference internal" href="#www.openai.com"><span class="xref myst">OpenAI</span></a>’s models whilst, DeepSeek claim, costing significantly less money and using older chips. Unlike other LLMs, <a class="reference external" href="https://medium.com/&#64;mayadakhatib/deepseek-r1-a-short-summary-73b6b8ced9cf">DeepSeek’s approach develops reasoning capabilities using purely reinforcement learning (RL) techniques</a>.</p>
+<p>Whilst the model was released <a class="reference external" href="https://github.com/deepseek-ai/DeepSeek-R1">open source</a> and alongside <a class="reference external" href="https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf">a (non-peer reviewed) research paper</a>, questions remain regarding the mechanics of R1’s training. <a class="reference external" href="https://medium.com/stream-zero/understanding-the-essentials-of-model-distillation-in-ai-1e97403bee8a">Model distillation</a> is where smaller, faster “student” models are created by compressing knowledge of a larger, more complex “teacher” model. The student model is trained to replicate the teacher’s output distributions by asking the teacher lots of questions and mimicking the teacher’s reasoning process. Suspicious that R1 was trained using distillation, Microsoft and OpenAI are investigating whether DeepSeek used output obtained in an unauthorised manner from OpenAI.</p>
+<p>The issue is raising questions about where the line is between using available resources to drive progress and stealing. In terms of using available resources, DeepSeek could be seen as following standard software development practice, wherein research generally works iteratively, taking into account what has been done before and building on that to create something novel. If DeepSeek’s methodology is cast as stealing, OpenAI could be seen as hypocritical. OpenAI itself has been widely criticised for scraping large amounts of data from the internet to train its systems, and is currently being sued by <a class="reference external" href="https://harvardlawreview.org/blog/2024/04/nyt-v-openai-the-timess-about-face/">the New York Times for unpermitted use of articles to train LLMs</a>.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="under-what-circumstances-do-you-think-training-ai-models-using-publicly-available-internet-materials-is-fair-use-how-should-copyright-come-into-this">
+<h3>Under what circumstances do you think training AI models using publicly available internet materials is fair use? How should copyright come into this?<a class="headerlink" href="#under-what-circumstances-do-you-think-training-ai-models-using-publicly-available-internet-materials-is-fair-use-how-should-copyright-come-into-this" title="Link to this heading">#</a></h3>
+<p>A side-effect of advances in AI is that copyright law is being put under the spotlight, as current legislation does not provide a straightforward answer regarding AI companies using public data. Currently, in the US <a class="reference external" href="https://copyrightalliance.org/faqs/freely-using-public-domain-materials/">anyone may use a work that is in the public domain, but no-one can own it</a>. <a class="reference external" href="https://www.legalzoom.com/articles/what-are-derivative-works-under-copyright-law">Derivative work is based on a work that has already been copyrighted, so that the new work derives from the previous work</a>. If you own copyright to a work, you also have right to derivative works, however, if the material is deemed sufficiently original and creative it is copyrightable by itself.</p>
+<p>There are <a class="reference external" href="https://sustainabletechpartner.com/topics/ai/generative-ai-lawsuit-timeline/">numerous ongoing lawsuits involving technology giants participating in AI development</a> that claim the companies have trained their models on copyrighted materials without authorisation. Typically, defendants argue that they are protected by <a class="reference external" href="https://en.wikipedia.org/wiki/Fair_use">fair use</a>, a law that permits limited use of copyrighted material without obtaining permission. The intention of fair use is to protect creative works by permitting the use of copyrighted items to create something new, provided that the new artefact is sufficiently transformative. Some of the arguments in favour of generative AI as fair use rest on the premise that the outputs are not copies of the inputs and are thus similar to being inspired by something. From this premise, transformative use is argued as fair and not competing directly with what was inputted to create it. However, many creators and copyright owners disagree that the appropriation of their material to train models constitutes fair use.</p>
+<p>To discern fair use of publicly available internet materials, it might help to clarify if and why there is a distinction between individuals reading and utilising publicly available data, and entities using publicly available data to train models. Yet, this distinction is not obvious to us. Using publicly available data to train models could be deemed as fair provided that users of publicly available data document what data is used, and how the data is used. Even if this definition is sufficient, we remained unsure whether the practices carried out by big tech align with fair use.</p>
+<p>Disagreements surrounding fair use and generative AI are exemplified in the case of <a class="reference external" href="https://www.loeb.com/en/insights/publications/2023/12/richard-kadrey-v-meta-platforms-inc">Kadrey v. Meta</a>, wherein the plaintiffs claim direct copyright infringement based on derivative work theory. The plaintiffs allege that their books were used in training of <a class="reference external" href="https://www.llama.com/">Meta’s LLaMA model</a>: they argue that Meta trained LLaMA on <a class="reference external" href="https://libgen.mx/">LibGen, a library of pirated books</a>, and this decision was <a class="reference external" href="https://www.rollingstone.com/culture/culture-news/ai-meta-pirated-library-zuckerberg-1235235394/">greenlit by Zuckerberg</a>. Disclosed emails reveal that Meta staff discussed methods to filter text from LibGen to remove copyright indications, and some raised concerns about using <a class="reference external" href="https://www.howtogeek.com/816597/what-is-torrenting-and-why-do-people-warn-against-it/">torrenting</a> to obtain data. It will be interesting to see what the effects of lawsuits that big tech and especially <a class="reference external" href="https://analyticsindiamag.com/ai-trends/all-the-lawsuits-filed-against-openai/">OpenAI is involved in</a> will have on the next steps for DeepSeek.</p>
+<p>Ambiguities in copyright law may be relevant to issues wider than AI, as the way that data is produced and handled is continually changing. On the consumer level, concerns about the handling of data have arisen in recent years from the ways that big tech companies collect and sell data to advertising agents. Beyond this, the suspected distillation of ChatGPT by DeepSeek represents how data collection is once more undergoing a rapid evolution, moving from scraping data on the internet to refining the product of that scraped data. Looking into the future, there are further implications for how data collection could be commercialised, such as conducting input analysis on the tasks being asked to ChatGPT, then mapping analysis to a customer base for fulfilling those tasks.</p>
+<p>Copyright will need to respond to the changing implications of data handling and knowledge generation; whilst it is not infallible, it is the system that we have and should be worked with to evolve with the problems it is aiming to address. For example, if web scraping is unfair, it is important to consider how copyright can be integrated into the web scraping space. In the UK, <a class="reference external" href="https://bills.parliament.uk/bills/3825">the data (use and access) bill</a> is currently before parliament in the House of Commons. One of the suggestions in the bill is to improve transparency over <a class="reference external" href="https://www.howtogeek.com/731787/what-is-a-web-crawler-and-how-does-it-work/">crawlers</a>, which are programs that browse the web to find sites to add to search engines. If a website doesn’t want some or all of its pages to appear on a search engine, the crawl exclusion list is a file (called robots.txt) that dictates to crawlers which web pages to exclude. Enforcement of the bill would require operators of web crawlers and general-purpose AI models to disclose the identity of crawlers they use.</p>
+<p>Amending and enforcing legislation has to be backed by the government in power, yet as governments and their agendas change, backing behind particular legislation may change. In the US, <a class="reference external" href="https://en.wikipedia.org/wiki/History_of_copyright_law_of_the_United_States">copyright law has historically been advocated by government</a>. However, <a class="reference external" href="https://www.newsweek.com/donald-trump-ai-big-tech-regulations-deepseek-workplace-artificial-intelligence-2024397">the current government’s deregulation goals for big tech</a> may conflict with desires to update copyright law to protect consumer data.</p>
+<p>Regulating copyright and fair use is important to protect the rights of data producers and the experience of people that use the internet. Knowledge that whatever we put online has the potential to be used and regurgitated in different forms via generative AI could heighten feelings of surveillance. It is not just the rights of those who produce the data that make copyright law important, but also the effects of the model once it has been trained on that data.</p>
+<p>Outside of fair use and copyright law, we felt that people should not be confined to only feel anger when their copyright is infringed. Some of us thought that if you don’t own data or have explicit consent for using it or for web scraping, you should not use the data to train LLMs. Companies should respect clear opt outs, <a class="reference external" href="https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_en.htm">as is expected in Europe. Europe even goes beyond respecting opt outs to requiring opt ins</a>. Data used to train LLMs has been taken from publicly available material which was not provided with consent to be reused in this manner.</p>
+</section>
+<section id="should-these-companies-be-publicly-owed-as-a-way-to-nationalise-or-democratise-ai-since-the-models-are-trained-on-publicly-available-data">
+<h3>Should these companies be publicly owed as a way to nationalise or democratise AI, since the models are trained on publicly available data?<a class="headerlink" href="#should-these-companies-be-publicly-owed-as-a-way-to-nationalise-or-democratise-ai-since-the-models-are-trained-on-publicly-available-data" title="Link to this heading">#</a></h3>
+<p>The question of whether a company should be publicly owned is a political question, not an ethical or technical question. On the one hand, if AI is really going to be as transformative as the hype bubble suggests, perhaps it should be publicly accountable instead of led by commercial interest. Currently, decision making in AI development is top-down where a few big players have control over driving innovation and setting benchmarks. When using LLMs, you are implicitly subscribing to the ideologies of the companies and power structures behind their development. Redirecting the driving force and guidance for AI development to come from the ground up may help society regain control over the direction of travel and ensure developments are for the benefit of all. Democratising generative AI could involve some sort of voting system. On the other hand, it is not clear how this would work in practice, given the logistically challenges and amount of money that is involved in the AI sector.</p>
+<p><a class="reference external" href="https://www.weforum.org/stories/2025/01/rewire-governments-ai-in-the-intelligent-age-meta/">Governments are becoming more explicitly involved in the development of AI</a>, and national support does make a difference in the AI sector. Empowering the general population to have influence over AI development will require improved <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S2666920X21000357">AI literacy</a> so that we can have more informed conversations. The lack of literacy drives <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-12-18_writeup.html">hype cycles</a>, which are societal dynamics that work by triggering emotions to subdue political and regulatory questions. However, empowering the public is different to nationalising a model to make it publicly owned.</p>
+<p>Another approach to harnessing the benefits of language models for society could be to train small language models on company documentation, rather than using large language models trained on web scraped data. Perhaps companies should be required to pay licensing fees in order to use publicly available data for training. Although, environmental concerns for the resources required to train models remain.</p>
+</section>
+<section id="what-do-you-think-best-practices-should-be-for-model-distillation-i-e-one-model-learning-off-another-is-it-really-stealing-if-openai-trained-their-model-using-vast-amounts-of-publicly-available-data-collected-through-web-scraping">
+<h3>What do you think best practices should be for model distillation (i.e. one model learning off another)? Is it really stealing if OpenAI trained their model using vast amounts of publicly available data collected through web scraping?<a class="headerlink" href="#what-do-you-think-best-practices-should-be-for-model-distillation-i-e-one-model-learning-off-another-is-it-really-stealing-if-openai-trained-their-model-using-vast-amounts-of-publicly-available-data-collected-through-web-scraping" title="Link to this heading">#</a></h3>
+<p>Best practices for training models should prioritise transparency, in order to facilitate public scrutiny and hold companies accountable. In contexts like medicine where the stakes are high, <a class="reference external" href="https://code-medical-ethics.ama-assn.org/ethics-opinions/transparency-health-care">transparency is key to maintain respect for patients’ autonomy</a>. One way to achieve transparency is by making models <a class="reference external" href="https://opensource.com/resources/what-open-source">open source</a>, which means making the design of models publicly accessible so that people can modify and share it. The programming language <a class="reference external" href="https://www.python.org/">python</a>, for example, is open source. The military uses open source software; the US <a class="reference external" href="https://dodcio.defense.gov/open-source-software-faq/">Department of Defence policy requires that commercial software comes with either a warranty or source code to that software can be maintained</a>. <a class="reference external" href="https://www.gov.uk/government/speeches/how-open-source-intelligence-has-shaped-the-russia-ukraine-war">Open source software has played an important role in intelligence in the Russia-Ukraine war</a>.</p>
+<p>As well as transparency, open source brings <a class="reference external" href="https://medium.com/tech-encyclopedia/what-is-open-source-software-benefits-and-community-impact-2f344aee4013">advantages for security by inviting scrutiny from a wider audience, allowing for vulnerabilities to be identified quickly</a>. When models are open source, providing model cards further increases transparency by making it easier to see where copy-pasting or code reuse has occurred, for instance. However, the efficacy of model cards in practice is debatable as <a class="reference external" href="https://arxiv.org/abs/2402.05160">there has been mixed evidence for how consistently they are filled out</a>. When tools are open source there are also accountability challenges, as it is difficult to allocate ownership and trace work back to its original input, essentially anonymising the work.</p>
+<p>We wondered whether it is appropriate for OpenAI to still have ‘open’ in their name, when it no longer centralises open source but <a class="reference external" href="https://medium.com/&#64;DiscoverLevine/48-hours-with-openai-insights-and-reflections-e4f27258b017">has shifted its structure</a> and values to prioritise the <a class="reference external" href="https://www.semafor.com/article/10/12/2023/openai-quietly-changed-its-core-values">pursuit of artificial general intelligence (AGI)</a> and <a class="reference external" href="https://www.theverge.com/2024/12/27/24330131/openai-plan-transform-for-profit-company">profit</a>. OpenAI has an unusual business model, as it <a class="reference external" href="https://www.latterly.org/openai-business-model/">transitioned from a non-profit organisation created by influential leaders in technology to a for-profit organisation in partnership with Microsoft. Revenue prominently comes from licensing agreements, subscription services, and partnerships (notably Microsoft with a $1 billion investment in 2019)</a>. OpenAI (and DeepSeek, especially if distillation was used) have gained significant economic benefit from exploiting grey areas of property rights.</p>
+<p>Contrasting the approaches of <a class="reference external" href="https://www.itprotoday.com/ai-machine-learning/openai-is-not-open-source-but-neither-are-plenty-of-other-open-organizations">other companies like OpenAI</a>, DeepSeek have chosen to <a class="reference external" href="https://github.com/deepseek-ai/DeepSeek-R1">make R1’s weights open source</a> in addition to <a class="reference external" href="https://arxiv.org/abs/2501.12948">sharing technical details in a publicly available report</a>. In sharing these details, DeepSeek demonstrate <a class="reference external" href="https://spectrum.ieee.org/open-source-llm-not-open">more transparency than many other LLMs</a>, however, there are still aspects of opacity such as <a class="reference external" href="https://nationalinterest.org/blog/techland/deepseek-what-we-know-and-what-we-dont-know">questions about what chips were used in training, how much it really cost to train</a>, and <a class="reference external" href="https://www.forbes.com/sites/torconstantino/2025/02/04/4-warnings-about-deepseek-you-need-to-know-before-using-it/">what happens to users’ data</a>. Systems have been criticised as claiming to be ‘open’ yet <a class="reference external" href="https://www.nature.com/articles/s41586-024-08141-1">remaining closed in important ways</a>. To investigate the missing pieces in understanding how R1 works, <a class="reference external" href="https://github.com/huggingface/open-r1">HuggingFace are attempting to reverse engineer the R1 pipeline from DeepSeek’s tech report</a>.</p>
+<p>If DeepSeek did use distillation, we wondered why OpenAI have not used the same techniques to improve performance. Explanations could include that OpenAI has tried distillation, and it didn’t work as well or <a class="reference external" href="https://www.ibm.com/think/topics/model-collapse">model collapse</a> happened. Model collapse is where training generative AI models on AI generated content leads to a decline in performance, because generative AI models produce datasets with less variation than the original data distributions. Alternatively, perhaps OpenAI are over committed to their existing architecture, in which case R1 could be positive catalyst for innovation by demonstrating ways to break out of existing dogma.</p>
+<p>Regarding the attitudes of tech companies towards model distillation, rights of use, and property rights, it is interesting to investigate the appropriateness of OpenAI calling distillation stealing. Whilst there are ambiguities about how ethical it is to distil models without explicit consent or train models from data scraped off of the internet, it is not obvious whether this equates to stealing. On the one hand, if you are stealing from something that stole off something else, it is still stealing. On the other hand, <a class="reference external" href="https://docs.github.com/en/get-started/learning-to-code/reusing-other-peoples-code-in-your-projects">reusing other people’s code is common practice in dev culture</a>, where projects have chains of code reuse as <a class="reference external" href="https://www.reddit.com/r/ProgrammerHumor/comments/v3dzve/ctrlc_ctrlv/">developers use code from other people who used it from other people themselves</a>. The TV show <a class="reference external" href="https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)">Silicon Valley</a> explores the effects of disruptive technologies and issues of property rights that accompany them. By labelling DeepSeek as stealing, <a class="reference external" href="https://futurism.com/openai-mockery-stole-work-deepseek">OpenAI has been criticised as hypocritical for protesting about practices that can be viewed as analogous to its own practices</a>, reflecting similarities between distillation and OpenAI scraping publicly available data.</p>
+<p><img alt="Cartoon of programming and plagiarism: ‘Middle school: “plagiarism is unacceptable; High school: “plagiarism is unacceptable”; University: “plagiarism is unacceptable”; Work: Programmers “Man, I stole your code.” “It’s not my code.”" src="https://preview.redd.it/ctrl-c-ctrl-v-v0-mkj6a0p8s8391.jpg?width=1080&amp;crop=smart&amp;auto=webp&amp;s=4ca12291f7552d30e0eaa42dcb930639f5b57074" /></p>
+<p>There are interesting anthropological perspectives on the labelling of actions as stealing, for example, the influence of global politics: actors from western countries tend to be labelled as “innovators” whilst actors from other countries behaving in similar ways are labelled as “thieves”. The anthropologist <a class="reference external" href="https://anthropology.berkeley.edu/cori-hayden">Cori Hayden</a> has written about the <a class="reference external" href="https://www.tandfonline.com/doi/full/10.1080/17530351003617602">enclosures of public knowledge</a>, and how the line between proper and improper copy is policed and influenced by global politics.</p>
+</section>
+<section id="deepseek-was-trained-more-cost-effectively-and-with-less-powerful-hardware-but-still-performed-as-well-as-openais-model-attributed-in-part-to-its-new-architecture-rather-than-just-throwing-more-data-compute-at-the-problem-do-you-think-that-constrained-environments-can-generally-be-a-good-catalyst-for-innovation">
+<h3>DeepSeek was trained more cost effectively and with less powerful hardware but still performed as well as OpenAI’s model, attributed in part to its new architecture rather than just throwing more data + compute at the problem. Do you think that constrained environments can generally be a good catalyst for innovation?<a class="headerlink" href="#deepseek-was-trained-more-cost-effectively-and-with-less-powerful-hardware-but-still-performed-as-well-as-openais-model-attributed-in-part-to-its-new-architecture-rather-than-just-throwing-more-data-compute-at-the-problem-do-you-think-that-constrained-environments-can-generally-be-a-good-catalyst-for-innovation" title="Link to this heading">#</a></h3>
+<p>Much of the push for AI innovation comes from the idea of the <a class="reference external" href="https://www.forbes.com/sites/drewbernstein/2024/08/28/who-is-winning-the-ai-arms-race/">“AI arms race”</a> between primarily the US and China. We wondered how much we should care about this supposed race; whether it is <a class="reference external" href="https://opentools.ai/news/the-new-ai-arms-race-global-powers-vie-for-dominance">advancing technological development</a>, <a class="reference external" href="https://www.vox.com/the-highlight/23621198/artificial-intelligence-chatgpt-openai-existential-risk-china-ai-safety-technology">risking the destruction of humanity</a> or just bluster orchestrated to <a class="reference external" href="https://platforms.substack.com/p/the-ai-arms-race-fallacy">further cement the position of dominant players in the economy</a>. It is unclear what countries involved in the arms race want to do with the AI they develop, whether they want to <a class="reference external" href="https://www.forbes.com/sites/bernardmarr/2021/05/24/the-new-global-ai-arms-race-how-nations-must-compete-on-artificial-intelligence/">use it for the benefit of citizens by creating economic value</a>, or <a class="reference external" href="https://foreignpolicy.com/2023/04/11/ai-arms-race-artificial-intelligence-chatgpt-military-technology/">for the military and warfare</a>.</p>
+<p>Supporting China’s position in the supposed arms race, <a class="reference external" href="https://sundayguardianlive.com/opinion/what-chinese-media-and-experts-are-saying-on-ai-disruptor-deepseek">Chinese media has focused on the technological breakthroughs achieved in R1</a>, arguing that DeepSeek demonstrates China’s increasing capability to develop cutting-edge models independent to Western technology. However, there is conflicting evidence surrounding how R1 was trained. DeepSeek claims it did not use Nvidia H100 chips, which are banned in China under US export controls, but some Chinese reporting states that <a class="reference external" href="https://www.csis.org/analysis/deepseek-huawei-export-controls-and-future-us-china-ai-race">DeepSeek did train R1 on Nvidia H100 chips</a>.</p>
+<p>Whilst there is debate around R1’s novelty, there are other examples of truly significant innovation that have come out of the AI sector. For example, the paper <a class="reference external" href="https://dl.acm.org/doi/10.5555/3295222.3295349">“Attention Is All You Need”</a> introduced the <a class="reference external" href="https://www.geeksforgeeks.org/architecture-and-working-of-transformers-in-deep-learning/">transformer architecture</a>, a type of deep learning model that is highly effective in capturing dependencies and contextual relationships. Transformers use <a class="reference external" href="https://www.geeksforgeeks.org/ml-attention-mechanism/">attention mechanisms</a> to focus on specific parts of the input sequence. Attention works especially well in natural language processing (NLP) tasks where the meaning of a sentence is generally influenced by its context. The paper provided the foundation for powerful large language models that harness generative pre-trained transformers (GPTs) to enable models to identify relationships between words and thereby retain relevant context. Transformers have been revolutionary in NLP domains such as translation, and <a class="reference external" href="https://huggingface.co/blog/autoformer">are also being used for time series forecasting</a>, which <a class="reference external" href="https://www.geeksforgeeks.org/time-series-analysis-and-forecasting/">predicts future trends based on historical data</a>.</p>
+<p>Generally, however, we feel that “innovation” is largely used as a buzzword to inflate the capabilities of creators and importance of the tools they provide to move towards replacing human involvement with AI. We found it interesting when phrasing such as “knowledge” and making iterations “smarter” is used, when advances are essentially refinements of statistical probabilities. We define innovation as “developing novel methods to address new problems”. There is nothing inherently wrong with the pursuit of knowledge. Humans love a puzzle; finding creative solutions to problems is an essential part of the human experience where <a class="reference external" href="https://en.wikipedia.org/wiki/Necessity_is_the_mother_of_invention">“necessity is the mother of invention”</a>. The crux is how that knowledge is used.</p>
+<p>Whilst there has been hype and overexaggeration of the capabilities of generative AI, it is important to acknowledge that the functionality of ChatGPT has evolved over time, moving from <a class="reference external" href="https://www.cambridge.org/core/books/abs/cambridge-handbook-of-discourse-studies/sequence-organization-understanding-what-drives-talk/99C304161504D8C1B86595C1CB59E070">conversation sequencing</a>, which utilises what a speaker has said to make a relevant response and ensure steps in a conversation are related, to <a class="reference external" href="https://www.theverge.com/openai/619352/chatgpt-tasks-operator-productivity">collaboration and provoking more actionable interactions</a>. ChatGPT has been <a class="reference external" href="https://www.zdnet.com/article/how-to-make-chatgpt-provide-better-sources-and-citations/">criticised for being difficult to verify as it does not provide citations, although it is getting better at referencing sources and there are ways to encourage it to cite</a>.</p>
+<p>Innovation should be focused to prevent resources being spent on generating tools that contribute little value; constraints mean that we can direct the aims of innovation. Some restrictions on development are necessary to ensure that products are ethical and do not exploit people. Innovation for the sake of innovation and the <a class="reference external" href="https://techcrunch.com/2015/03/10/move-fast-and-break-things/?guccounter=1">move fast and break things</a> paradigm has real effects on real peoples’ lives. Constraints shouldn’t be aimed at <a class="reference external" href="https://siliconangle.com/2025/03/08/ais-existential-risks-separating-hype-reality/">preventing super intelligent AI</a>, but should be focused on the actual harms that are happening today, such as misuse of data and environmental impact. To foster benevolent innovation, players should be supported in pursuing knowledge, and then letting society choose the constraints for the application of that innovation.</p>
+<p>In the domain of language models, constraining the size of models could enhance human creativity, rather than restrict or bypass it. When we have access to large and adaptable LLMs, it can be tempting to try and use those tools for every problem. Yet, these tools frequently <a class="reference external" href="https://medium.com/&#64;gcentulani/understanding-hallucination-in-llms-causes-consequences-and-mitigation-strategies-b5e1d0268069">hallucinate</a> and have <a class="reference external" href="https://www.techtarget.com/searchenterpriseai/tip/Assessing-the-environmental-impact-of-large-language-models">substantial environmental impact in terms of resources consumed in training and data storage</a>.</p>
+<p>Constraints could also improve the quality of content being generated. Initially, there was a presumption that <a class="reference external" href="https://www.forbes.com/councils/forbestechcouncil/2022/01/03/why-yes-there-is-such-a-thing-as-too-much-data-and-why-you-should-care/">the more data, the better. However, the fact that it is possible to obtain more data does not entail that the result will be better. There are real costs to having too much data</a>. LLMs are also contributing to the <a class="reference external" href="https://www.wired.com/story/tiktok-platforms-cory-doctorow/">enshittification of the internet</a>, as the stakeholders being valued shifts from the users to shareholders. Devaluing the experience of users leads to <a class="reference external" href="https://gizmodo.com/enshittification-is-officially-the-biggest-word-of-the-year-2000530173">the web slowly being filled with generated low quality slop</a> by AI enhanced search engine optimisation (SEO) farming websites. More data entails more noise, masking any important and meaningful content.</p>
+<p>There are physical resource constraints that digital technologies are subject to, despite the conceptual distancing. Big tech’s <a class="reference external" href="https://www.geekwire.com/2025/as-ai-booms-heres-how-microsoft-and-amazon-are-coming-up-with-energy-solutions/">energy demands are set to steadily increase</a>, and there are competing interests between their demands and the demands of the state for energy generation. <a class="reference external" href="https://www.theregister.com/2025/01/04/how_datacenters_use_water/">Datacentres also use an huge amount of water to keep compute equipment cool</a>, leading to concerns over water scarcity and desertification, especially as <a class="reference external" href="https://www.businessinsider.com/arizona-running-out-of-water-data-centers-blame-microsoft-google-2023-6">datacentres are being built in already water restricted areas such as Arizona</a>.</p>
+</section>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h3>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h3>
+<p>LLMs have potential to do harm or good on a substantial level. <a class="reference external" href="https://medium.com/&#64;aaribhaider2008/understanding-bias-in-large-language-models-llms-b1f84a8e30ed">As LLMs are trained on data generated by society, they tend to reflect the stereotypes and prejudices that exist in the data they were trained on and thereby society</a>. If there is <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-08-31_writeup.html#data-feminism-chapter-4-what-gets-counted-counts">more information about one group of people in the training data, the model will more accurately predict that group</a>. If a model favours one group above another, it should not be deployed as it will exacerbate existing and possibly create further inequalities in populations that are already disadvantaged.</p>
+<p>The models that are biased and have been deployed, however, have shed a spotlight on inequalities that exist in society. Making these inequalities visible could help us to address them. Humans are biased, but it can be difficult to prove. For example, visiting a clinician in hospital could lead you to suspect that biases are influencing their diagnosis, yet it is often difficult to be sure of this. With AI models, it is possible to quantitatively measure bias and pinpoint where it exists.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, PhD Student, University of Bristol</p></li>
+<li><p>Euan Bennet, Lecturer, University of Glasgow, <a class="reference external" href="https://bsky.app/profile/dreuanbennet.bsky.social">BlueSky</a></p></li>
+<li><p>Christina Palantza, PhD student, University of Bristol</p></li>
+<li><p>Vanessa Hanschke, Lecturer, University College London</p></li>
+<li><p>Arun Isaac, postdoc, University College London</p></li>
+<li><p>Michelle Venetucci, PhD student, Yale University</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
+<li><p>Mirah Jing Zhang, PhD student, Bristol Uni.</p></li>
+<li><p>Adrianna Jezierska, PhD student, University of Bristol <a class="reference external" href="https://www.linkedin.com/in/adriannajezierska/">LinkedIn</a></p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2025-02-05_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: “It’s Not Exactly Meant to Be Realistic”: Student Perspectives on the Role of Ethics In Computing Group Projects</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#under-what-circumstances-do-you-think-training-ai-models-using-publicly-available-internet-materials-is-fair-use-how-should-copyright-come-into-this">Under what circumstances do you think training AI models using publicly available internet materials is fair use? How should copyright come into this?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#should-these-companies-be-publicly-owed-as-a-way-to-nationalise-or-democratise-ai-since-the-models-are-trained-on-publicly-available-data">Should these companies be publicly owed as a way to nationalise or democratise AI, since the models are trained on publicly available data?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-do-you-think-best-practices-should-be-for-model-distillation-i-e-one-model-learning-off-another-is-it-really-stealing-if-openai-trained-their-model-using-vast-amounts-of-publicly-available-data-collected-through-web-scraping">What do you think best practices should be for model distillation (i.e. one model learning off another)? Is it really stealing if OpenAI trained their model using vast amounts of publicly available data collected through web scraping?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deepseek-was-trained-more-cost-effectively-and-with-less-powerful-hardware-but-still-performed-as-well-as-openais-model-attributed-in-part-to-its-new-architecture-rather-than-just-throwing-more-data-compute-at-the-problem-do-you-think-that-constrained-environments-can-generally-be-a-good-catalyst-for-innovation">DeepSeek was trained more cost effectively and with less powerful hardware but still performed as well as OpenAI’s model, attributed in part to its new architecture rather than just throwing more data + compute at the problem. Do you think that constrained environments can generally be a good catalyst for innovation?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2025-02-19_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/write_ups/2025-02-19_writeup.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
