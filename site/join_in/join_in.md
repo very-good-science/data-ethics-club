@@ -54,6 +54,8 @@ Discussion Questions:
 2. What do you think best practices should be for model distillation (i.e. one model learning off another)? Is it really stealing if OpenAI trained their model using vast amounts of publicly available data collected through web scraping?
 3. DeepSeek was trained more cost effectively and with less powerful hardware but still performed as well as OpenAI's model, attributed in part to its new architecture rather than just throwing more data + compute at the problem. Do you think that constrained environments can generally be a good catalyst for innovation?
 
+[Read the Writeup here!](https://dataethicsclub.com/write_ups/2025-02-19_writeup.html)
+
 ### 5th March - International Women's Day Special
 
 [Material link](https://www.youtube.com/watch?v=b_ReU4QD8lc)
