@@ -88,7 +88,13 @@ Discussion Questions: TBC
 Discussion Questions: TBC
 
 ### 30th April - AI in Education Special
-Material: TBC
+
+Material to be voted on but one of the three:
+1. [Automated austerity schooling](https://codeactsineducation.wordpress.com/2024/08/29/automated-austerity-schooling/)
+2. [Less Work for Teacher? The Ironies of Automated Decision-Making in Schools](https://www.taylorfrancis.com/chapters/oa-edit/10.4324/9781003170884-6/less-work-teacher-ironies-automated-decision-making-schools-neil-selwyn)
+3. [UK announces AI funding for teachers: how this technology could change the profession](https://theconversation.com/uk-announces-ai-funding-for-teachers-how-this-technology-could-change-the-profession-217149)
+
+Session will be introduced by [Dr Lyndsay Grant, Lecturer in Education at the University of Bristol](https://research-information.bris.ac.uk/en/persons/lyndsay-j-grant).
 
 ### Summer Book Club
 
