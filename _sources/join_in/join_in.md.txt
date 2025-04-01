@@ -79,7 +79,10 @@ Discussion Questions:
 
 [Material link](https://link.springer.com/article/10.1007/s11023-017-9445-2)
 
-Discussion Questions: TBC
+Discussion Questions:
+1. Of the different kinds of services within DAI (section 3.1, page 6; Information Management Services, Posthumous Messaging Services, Online Memorial Services and Re-creation Services); Which have you encountered? Which are you ok with? Which would you use? Which do you want to ban or heavily regulate?
+2. The paper focusses a lot on the potential for DAI to threaten/violate human dignity - what other concerns would like to be highlighted in the discussion of these "technologies"?
+3. How would you regulate these technologies in a way which respects individual autonomy, the wishes of their loved ones and accounting for rapid development of technology in this area?
 
 ### 16th April - Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey
 
