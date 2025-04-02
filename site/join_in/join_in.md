@@ -84,6 +84,8 @@ Discussion Questions:
 2. The paper focusses a lot on the potential for DAI to threaten/violate human dignity - what other concerns would like to be highlighted in the discussion of these "technologies"?
 3. How would you regulate these technologies in a way which respects individual autonomy, the wishes of their loved ones and accounting for rapid development of technology in this area?
 
+Writeup coming soon!
+
 ### 16th April - Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey
 
 [Material link](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-21823-3)
