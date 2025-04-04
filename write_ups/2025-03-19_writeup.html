@@ -1,0 +1,1366 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: The Most Useful Thing AI Has Ever Done: AlphaFold &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2025-03-19_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2025-03-19_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2025-03-05_writeup.html">
+      05 March - Data Ethics Club: How It’s Unfair to Use Personality Tests in Hiring (International Women’s Day Special)
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-02-19_writeup.html">
+      19 February - Data Ethics Club: OpenAI Furious DeepSeek Might Have Stolen All the Data OpenAI Stole From Us
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-02-05_writeup.html">
+      05 February - Data Ethics Club: “It’s Not Exactly Meant to Be Realistic”: Student Perspectives on the Role of Ethics In Computing Group Projects
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-01-22_writeup.html">
+      22 January - Data Ethics Club: Data Ethics New Year’s Resolutions Special
+    </a>
+  </li>
+  
+  <li>
+    <a href="2024-12-18_writeup.html">
+      18 December - Data Ethics Club: Ask Me Anything! How ChatGPT Got Hyped Into Being
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/bookclub.html">Bookclub (1)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (67)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<link rel="stylesheet" href="../_static/ablog/tagcloud.css" type="text/css" />
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-applications.html">AI applications</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/llms.html">LLMs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ml.html">ML</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/transparency.html">Transparency</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bullshit.html">bullshit</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/communication.html">communication</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/computer-vision.html">computer vision</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consent.html">consent</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-feminism.html">data feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-week.html">data week</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ethics.html">ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/group-projects.html">group projects</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hallucination.html">hallucination</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hype.html">hype</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/law.html">law</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/medicine.html">medicine</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/personality-test.html">personality test</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/recruitment.html">recruitment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social.html">social</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (33)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2025.html">2025 (4)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: The Most Useful Thing AI Has Ever Done: AlphaFold</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="data-ethics-club-the-most-useful-thing-ai-has-ever-done-alphafold">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.youtube.com/watch?v=P_fHJIYENdI">The Most Useful Thing AI Has Ever Done</a>: AlphaFold<a class="headerlink" href="#data-ethics-club-the-most-useful-thing-ai-has-ever-done-alphafold" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 19th March’s Data Ethics Club discussion, where we spoke and wrote about the video <a class="reference external" href="https://www.youtube.com/watch?v=P_fHJIYENdI">The Most Useful Thing AI Has Ever Done</a>.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Huw Day helped with the final edit.</p>
+</div>
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>Proteins are fundamental building blocks of living organisms, performing a vast array of functions from catalysing metabolic reactions to providing structure to cells. Proteins consist of strings of amino acids that coil up on themselves when they are pushed and pulled. The way a protein is coiled or folded is directly tied to its function, so understanding the structure of the protein relays information about how the protein works, what other molecules it interacts with, and how mutations may cause diseases. This information can be applied to drug design and discovery, or breaking down environmentally harmful substances such as methane and plastic.</p>
+<p>Initially, experimental techniques to determine protein structure worked by creating a crystal out of the protein, which is lengthy and costly; the first protein structure took 12 years to develop. Over six decades, scientists working on protein folding had discovered about 150,000 protein structures. AlphaFold took the field by storm, unveiling over 200 million protein structures – nearly all proteins known to exist in nature.</p>
+<p>Trained on protein structures from the <a class="reference external" href="https://www.rcsb.org/">Protein Data Bank</a>, AlphaFold2 used <a class="reference external" href="https://www.datacamp.com/tutorial/how-transformers-work">transformers</a> - a deep learning architecture which relies on <a class="reference external" href="https://www.geeksforgeeks.org/ml-attention-mechanism/">attention</a>. Attention has the effect of adding context to sequential information by breaking it down into chunks, converting these into numerical representations (embeddings), and making connections between the embeddings. Attention is used in large language models (LLMs) to predict the most useful word in a sentence; AlphaFold uses attention to predict amino acid sequences.</p>
+<p>The transformer in AlphaFold has two “towers”: one biology tower, containing information about how amino acids change across living species, and one geometry tower, containing information about pair representations or which amino acids are related in the structure. As the towers process inputs, they pass “clues” to one another, exchanging information 48 times before sending the geometric features that they have learnt to the structure module. The structure module predicts the appropriate translation and rotation of the amino acids, and outputs a 3D protein. The whole cycle is performed another 3 times before outputting a prediction.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="who-owns-the-knowledge-generated-by-alphafold-and-should-there-be-special-patent-considerations-for-discoveries-made-primarily-via-ai-driven-insights-such-as-big-pharmaceutical-companies-discovering-new-drug-compounds">
+<h3>Who “owns” the knowledge generated by AlphaFold, and should there be special patent considerations for discoveries made primarily via AI-driven insights, such as big pharmaceutical companies discovering new drug compounds?<a class="headerlink" href="#who-owns-the-knowledge-generated-by-alphafold-and-should-there-be-special-patent-considerations-for-discoveries-made-primarily-via-ai-driven-insights-such-as-big-pharmaceutical-companies-discovering-new-drug-compounds" title="Link to this heading">#</a></h3>
+<p>To assign ownership of knowledge generated by AlphaFold, one could look at who is funding its development and deployment, such as who is paying for material requirements like the electricity bill and any grants used. If a company (in this case, <a class="reference external" href="https://deepmind.google/">DeepMind</a>) has ownership of the technology, the credit will commonly be assigned to them. Those that have funded or patented a tool may have ownership of the <em>technology</em>, however, this is arguably different to owning the <em>knowledge</em> that a tool produces. Designating ownership of knowledge is a more challenging task than ownership of technology.</p>
+<p>Difficulties with assigning ownership of knowledge are illustrated in the different issues that arise with author attribution. In theory, individual attribution seems like a good idea, but in large projects discerning authorship is often not a simple task. Different disciplines assign first or last author in different ways, for example, some list authors alphabetically and some list the lead supervisor last. In some academic disciplines and institutions, e.g. <a class="reference external" href="https://cds.cern.ch/collection/CMS%20Papers">CERN</a>, papers have long lists of authors. If everybody is listed as an equal author, it is difficult to assign credit at a more granular level. However, in large communities such as CERN, perhaps people prefer to share the credit of collective efforts.</p>
+<p>If the outputs of AlphaFold are integral to a paper, one may wonder if AlphaFold itself has some degree of knowledge ownership and should be listed as a contributor. Yet, we did wonder if the outputs themselves are something that would be publishable, or if it is just information that needs to be applied and turned into something novel to provide a valuable research contribution. In addition, we should be cautious of distancing automated tools from the humans behind them. Even if we don’t fully understand the inner workings of a tool or its application, it is important to remember that in the background somewhere there is still a human making inputs to a model that then goes on to make predictions. Maintaining focus on the actual people that develop and deploy a tool is key to attribute accountability. AlphaFold is an example of how powerful computing can be in accelerating certain problem solutions, but we must acknowledge it was people that did the work in developing the tool and accountability still comes down to them.</p>
+<p>In addition to those directly involved in the development and deployment of the tool, the general public may have some rights to knowledge generated by AlphaFold. AlphaFold was trained on the <a class="reference external" href="https://www.rcsb.org/">Protein Data Bank</a>, which is a public repository of over 170,000 protein sequences and structures. The code for AlphaFold 2 <a class="reference external" href="https://github.com/google-deepmind/alphafold">is open source</a>; those of us who work in similar areas thought this is quite unusual. AlphaFold3 was initially released as <a class="reference external" href="https://alphafoldserver.com/welcome">a web server limited to non-commercial use</a> in <a class="reference external" href="https://www.nature.com/articles/d41586-024-01463-0">lieu of code</a>. The opacity <a class="reference external" href="https://www.genengnews.com/topics/artificial-intelligence/alphafold-3-angst-limited-accessibility-stirs-outcry-from-researchers/">was criticised</a> including in <a class="reference external" href="https://zenodo.org/records/11391920">a letter signed by more than 1000 scientists protesting Nature’s decision to publish without the code</a>. Now, however, <a class="reference external" href="https://github.com/google-deepmind/alphafold3">AlphaFold3 is open source</a>. To be practical, we thought that it has to be open source; AlphaFold is a “big tool” that will be widely used, so “big tool” rules apply.</p>
+<p>Regarding the discovered protein folds, it isn’t clear as to whether they are open source (usually, we thought this kind of information would be clearly stated), but it doesn’t seem to be the case that DeepMind is patenting them. Some of us did not think that the outputs of AlphaFold should be patented; we did not want to see big pharmaceutical companies holding ownership of protein folding. When universities research drug development, it is done for the common good. When pharmaceutical companies use these tools, it is so they can develop drugs to make a profit. Arguably, this shifts value from societal benefit to monetary gain and undermines the work people have done to make new discoveries. The outputs of AlphaFold could be thought of like a periodic table, insofar as nobody owns it but it is a source of information to be drawn from. Sharing and accessing this knowledge could be protected by <a class="reference external" href="https://creativecommons.org/">Creative Commons (CC)</a> to maintain a balance between reserving the rights of content owners for their work and allowing creators freedom in what they can use.</p>
+<p>Looking back into the history of computerised methodologies provides some insight for how to read the role of AI in the sciences. Instead of viewing AlphaFold as part of the recent history of AI, we should consider how it fits into a longer history of computational methods as applied to theoretical problems. <a class="reference external" href="https://en.wikipedia.org/wiki/Numerical_analysis">Numerical analysis</a> is the study of algorithms using numerical approximation for mathematical analysis. Numerical analysis has been in use for more than 2000 years, far predating the invention of modern computers, and numerical methods have been part of physics B.Sc. for many years. <a class="reference external" href="https://terrytao.wordpress.com/">Terry Tao</a> is a professor of mathematics who has been giving talks about the history of numerical methods.</p>
+<p>Computers used to refer to <a class="reference external" href="https://en.wikipedia.org/wiki/Women_in_computing">women who would write down algorithms to be executed</a>. One of the first computers was <a class="reference external" href="https://en.wikipedia.org/wiki/Maria_Mitchell">Maria Mitchell</a> who was working on computing the motion of the planet Venus, and <a class="reference external" href="https://en.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a> is often regarded as the first programmer from her work on <a class="reference external" href="https://en.wikipedia.org/wiki/Analytical_engine">Charles Babbage’s analytical engine</a>. The film <a class="reference external" href="https://www.imdb.com/title/tt4846340/">Hidden Figures</a> narrates the stories of NASA computers and mathematicians <a class="reference external" href="https://en.wikipedia.org/wiki/Katherine_Johnson">Katherine Goble Johnson</a>, <a class="reference external" href="https://en.wikipedia.org/wiki/Dorothy_Vaughan">Dorothy Vaughan</a>, and <a class="reference external" href="https://en.wikipedia.org/wiki/Mary_Jackson_(engineer)">Mary Jackson</a>.</p>
+<p>AI builds on the history of computation to open up knowledge generation in two ways: making computing more efficient and providing new ways of structuring and analysing information. We thought that AlphaFold is generally a positive application of AI, as the tangible examples of AlphaFold’s output are wide ranging.</p>
+</section>
+<section id="how-should-researchers-and-policymakers-respond-when-the-models-predictions-can-no-longer-be-fully-understood-or-straightforwardly-verified-by-humans">
+<h3>How should researchers and policymakers respond when the model’s predictions can no longer be fully understood or straightforwardly verified by humans?<a class="headerlink" href="#how-should-researchers-and-policymakers-respond-when-the-models-predictions-can-no-longer-be-fully-understood-or-straightforwardly-verified-by-humans" title="Link to this heading">#</a></h3>
+<p>Model outputs should be handled with the consideration that the outputs are predictions and could be wrong or change. The probabilistic nature of machine learning (ML) means that the same input will not always yield the same output, and results might not be replicable. AI tools like AlphaFold are attractive to humans as they are a useful way to frame problems into observable configurations. However, predictive models are not rich enough to solve every problem. Condensing phenomena into predictable patterns reduces complexity, complexity which in some problems is irreducible. There was an interesting part of the model explanation which seemed to insinuate “don’t worry about the physics for a minute, just fold away and hope it works”.</p>
+<p>In our experience in social work, we have come across models being used to predict which children might be at risk of future gang affiliation. However, there are so many external factors that come into play to influence the outcome; reducing this prediction to a binary classification based on a discrete array of input features does not account for the complexity of social phenomena. In the medical domain, if you autopsied someone that passed away from Alzheimer’s disease, you may find that a complex case with other factors influencing their prognosis, not just misfolded proteins. In <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-10-09_writeup.html">a previous Data Ethics Club</a>, we looked at precision medicine, which attempts to use ML to tailor diagnosis and prognosis to individuals, yet has a lack of robust evidence of its superiority over over health professionals. Possibly, this is associated with the difficulty of performing causal inference without making assumptions to reduce the complexity of health conditions. Tools like AlphaFold which hide away complexity may stop people being curious and thinking outside of the box.</p>
+<p>The generalisability of AlphaFold is further limited by its lack of interpretability and verifiability. Verifying is important: the <a class="reference external" href="https://www.chemistryworld.com/opinion/why-alphafold-wont-revolutionise-drug-discovery/4016051.article">outputs of AlphaFold are good and useful predictions, but they are not real protein structures</a>. Large pipelines in massive datasets already require an element of trust; on the scale of AlphaFold, considering the wide ranging possibilities for application, the problem might be even bigger. It is difficult to guarantee how trustworthy the outputs are, although we know AlphaFold has been partly verified on known examples. Until someone comes up with a separate approach to predict protein structure, it is difficult to independently verify and replicate AlphaFold’s findings. We wondered if it is possible to reverse engineer AlphaFold’s outputs and find out why it gives the answers it gives.</p>
+<p>Connecting findings from tools like AlphaFold with real applications is constrained if we don’t understand the underlying mechanisms, as explainability is needed in order to assess model outputs within contexts. There is a high level of model complexity, and it can be difficult to interpret outputs. Synthetic biology is pushing boundaries, and the directions we’re going in may be very different than where we have been before. There are already limitations with understanding underlying mechanisms of experimental biology, so this is not necessarily a new problem.</p>
+<p>We wondered if we could restrict ourselves to low risk applications, and if we can know what the risk impacts will be of protein folding. When building and using ML tools, especially in medical and biological domains, it is important to think about the reasons underpinning the data collection. It is also important to consider potential nefarious applications. AlphaFold is influential in drug development because it enables much more specificity in targeting design. This does open up avenues for misuse, but all of the practical aspects require significant resources and money, so the realistic implications may be small. From our experience in lab work, there is a lot of rigour in genetics and implementing the findings of synthetic biology, as there has historically been a lot of scares in genetics and consequentially quite a few safeguards.</p>
+</section>
+<section id="does-lack-of-understanding-about-how-ai-systems-work-glossing-over-how-intricate-these-models-are-harm-scientific-development-by-leading-too-many-people-to-just-try-ai">
+<h3>Does lack of understanding about how AI systems work/glossing over how intricate these models are harm scientific development by leading too many people to just “try AI”?<a class="headerlink" href="#does-lack-of-understanding-about-how-ai-systems-work-glossing-over-how-intricate-these-models-are-harm-scientific-development-by-leading-too-many-people-to-just-try-ai" title="Link to this heading">#</a></h3>
+<p>An issue that arises time and time again with AI is the gap between the people that understand how the tools are working, and the people that want to use the tools. Tools are increasingly accessible, but this is not mirrored by general understanding of their mechanics or suitable applications. A lot of us, for example, do not really understand protein folding. Lacking in-depth understanding of a tool is not always an issue, for example, drugs that improve serotonin uptake do help treat depression – we might not fully understand the mechanism, but they do still work and not understanding how they work shouldn’t stop us from using them.</p>
+<p>Yet, the gap between those that understand and those that use or interact with AI has real implications. In a randomised trial, you may not know all of the mechanisms, but a clear distinction between group outcomes may be sufficient comprehension. Modelling is different: users should have a clear idea of what’s going into the model, how it works, and why. Allowing a process that we don’t fully understand push forward advances in a field has potentially immense impacts for bad science.</p>
+<p>It all comes down to what we do with the information provided by the tools; problems arise when people don’t understand how the tool fits into the wider picture, or how to apply their judgement to the tool. If someone misinterprets the gap and thinks that the distance between their knowledge and what is actually going on is small (but it isn’t), they might assume that AI is a magic tool that can solve any problem. We’ve seen people be taken by surprise when they find that they have to learn technical skills like coding. Meanwhile, there are some people that might be really good statisticians with a deep understanding of the mechanics of ML, for whom it could be another tool in their arsenal, but don’t want to use it because they find it intimidating.</p>
+<p>As a policymaker, it is difficult to make informed policy decisions about AI unless you have some understanding of the mechanisms. This difficulty is exacerbated by the speed at which AI innovations are taking place, which is much faster than policy can adapt to.</p>
+<p>Ideally, users of AI will be able to understand the outputs, the performance of the model, and the range of errors so that they can properly evaluate outputs. We don’t think that users need to be able to derive a model from first principles to be able to use it. A decent intuition of how it works under the hood, and how to use it on a computer, are good places to be at for basic applications. With AlphaFold, if you understand the science, it is easier to evaluate outputs and spot errors; the error metrics are strong and reliable. It is also less so much a tool that hobbyists will use, so there are fewer chances of issues arising in terms of volume of use and misuse compared to LLMs, for example.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p>Kieren Sharma, PhD in AI for Synthetic Biology, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/kierensharma/">LinkedIn</a></p></li>
+<li><p>Holly Fraser, Postdoc in Immunopsychiatry, University of Bristol</p></li>
+<li><p>Amy Joint, Programme Manager, ISRCTN Registry <a class="reference external" href="https://www.linkedin.com/in/amyjoint">LinkedIn</a></p></li>
+<li><p>Vanessa Hanschke, Lecturer, University College London</p></li>
+<li><p>Joe Carver, Data Scientist, Brandwatch</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer, Australian Public Service, Brisbane</p></li>
+<li><p>Caroline Schreiber, PhD Student, University of Bristol</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/robindasler/">Robin Dasler</a>, Data Product Manager, California</p></li>
+<li><p>Noshin Mohamed, Principal Social Worker &amp; QA lead for Children’s services</p></li>
+<li><p>Adrianna Jezierska, PhD Student, University of Bristol</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who-owns-the-knowledge-generated-by-alphafold-and-should-there-be-special-patent-considerations-for-discoveries-made-primarily-via-ai-driven-insights-such-as-big-pharmaceutical-companies-discovering-new-drug-compounds">Who “owns” the knowledge generated by AlphaFold, and should there be special patent considerations for discoveries made primarily via AI-driven insights, such as big pharmaceutical companies discovering new drug compounds?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-should-researchers-and-policymakers-respond-when-the-models-predictions-can-no-longer-be-fully-understood-or-straightforwardly-verified-by-humans">How should researchers and policymakers respond when the model’s predictions can no longer be fully understood or straightforwardly verified by humans?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#does-lack-of-understanding-about-how-ai-systems-work-glossing-over-how-intricate-these-models-are-harm-scientific-development-by-leading-too-many-people-to-just-try-ai">Does lack of understanding about how AI systems work/glossing over how intricate these models are harm scientific development by leading too many people to just “try AI”?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2025-03-19_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/write_ups/2025-03-19_writeup.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
