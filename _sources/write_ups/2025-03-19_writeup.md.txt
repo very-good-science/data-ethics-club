@@ -1,3 +1,11 @@
+---
+blogpost: true
+date: March 19th, 2025
+author: Jessica Woodgate
+category: Write Up
+tags: synthetic biology, AI, AlphaFold, explainability, protein folding
+---
+
 # Data Ethics Club: [The Most Useful Thing AI Has Ever Done](https://www.youtube.com/watch?v=P_fHJIYENdI): AlphaFold
 
 ```{admonition} What's this? 
