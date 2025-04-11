@@ -66,7 +66,7 @@ Discussion Questions:
 2. Have you ever been trained in the effect of implicit bias? Was it effective? How could it be improved?
 3. What sorts of power affect peoples' rights to speak out about implicit bias (e.g. access to legal representation, transparency in decision making etc.)?
 
-Read the Writeup here!](https://dataethicsclub.com/write_ups/2025-03-05_writeup.html)
+[Read the Writeup here!](https://dataethicsclub.com/write_ups/2025-03-05_writeup.html)
 
 ### 19th March - Alphafold: The Most Useful Thing AI Has Ever Done
 
@@ -88,7 +88,7 @@ Discussion Questions:
 2. The paper focusses a lot on the potential for DAI to threaten/violate human dignity - what other concerns would like to be highlighted in the discussion of these "technologies"?
 3. How would you regulate these technologies in a way which respects individual autonomy, the wishes of their loved ones and accounting for rapid development of technology in this area?
 
-Writeup coming soon!
+[Read the Writeup here!](https://dataethicsclub.com/write_ups/2025-04-02_writeup.html)
 
 ### 16th April - Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey
 
