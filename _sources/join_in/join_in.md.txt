@@ -94,7 +94,10 @@ Discussion Questions:
 
 [Material link](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-21823-3)
 
-Discussion Questions: TBC
+Discussion Questions: 
+1. What kinds of support and training should researchers, supervisors and other university staff be receiving? Where should it come from (universities, funding bodies etc.)
+2. While probably unavoidable, is it ethical to have researchers with mental health conditions working on mental health research?
+3. What would the next step be to enhance understanding of mental health among mental health researchers? (e.g. maybe analysis of the financial impact of absenteeism among the workforce to make the economic argument for support).
 
 ### 30th April - AI in Education Special
 
