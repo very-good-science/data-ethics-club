@@ -108,6 +108,11 @@ With additional optional reading: [Pedagogy of the Depressed](https://buildcogni
 
 Session will be introduced by [Dr Lyndsay Grant, Lecturer in Education at the University of Bristol](https://research-information.bris.ac.uk/en/persons/lyndsay-j-grant).
 
+Discussion questions:
+1. What are your experiences with using AI to teach (either yourself or others)?
+2. AI is promised to help alleviate teachers' unsustainable workload and thereby address a crisis in teacher recruitment and retention. What other responses to this problem might there be and why are they not being pursued?
+3. Who is accountable for the quality of education and resources generated through the use of AI? Who is accountable for the safe and ethical use of AI in schools and are they equipped to take on this role?
+
 ### Summer Book Club
 
 For our summer 2025 bookclub, we will be reading [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) by Arvind Narayanan and Sayash Kapoor. 
