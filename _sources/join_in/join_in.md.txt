@@ -13,7 +13,7 @@ You don't need to be a data ethicist (we're not!), or a data scientist - having 
 
 We meet every other week for one hour on Zoom (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
 Out upcoming meeting dates are available below. 
-If you would like to get email reminders about the content and dates for the next meeting then click below to join our mailing list! 
+If you would like to get email reminders about the content and dates for the next meeting then click above to join our mailing list! You can also join the DEC Slack by clicking [here](https://join.slack.com/t/dataethicsclub/shared_invite/zt-35d7cv97m-WHTNP2N2pck2yNlnkstXYw).
 
 Please read our [Code of Conduct](code-of-conduct) before attending.
 
