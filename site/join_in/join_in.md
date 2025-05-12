@@ -25,9 +25,28 @@ We will update the material and questions based on the previous weeks' vote.
 All meetings are held at 1pm **UK** time and last one hour.
 If you are in another timezone please [use a time/date converter like this one to check your local time](https://www.timeanddate.com/worldclock/converter.html)!  
 
-Join the meeting on the following Zoom link: https://bristol-ac-uk.zoom.us/j/96026442410  
-
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
+
+### Summer Book Club
+
+For our summer 2025 bookclub, we will be reading [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) by Arvind Narayanan and Sayash Kapoor. 
+
+On their website you can read the [first chapter online for free](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview), see [what each chapter is about](https://www.aisnakeoil.com/i/148742314/whats-in-the-book) and see the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion) to get an idea of the kinds of conversation we might be having.
+
+There are 8 chapters and the exact schedule is below. We'll be meeting 4-5pm UK time on Microsoft Teams, [*click here to join*](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MmNjNjliZDgtMGU0Yy00NTY1LTk3YTMtMTc3ZjJmMjMwNWYz%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%2522%252c%2522Oid%2522%253a%2522aa665e8c-30a8-4fa9-8cc0-3863daf037ac%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=82475965-1c1a-475f-8ce6-0b5f05607a12&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true). 
+
+- 11th June: Chapter 1 - Introduction (34 pages)
+- 18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
+- 2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
+- 16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
+- 23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
+- 6th August Chapter 6 - Why can't AI fix social media? (48 pages)
+- 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
+- 20th August: Chapter 8 - Where do we go from here? (27 pages)
+
+If you'd like to be forwarded calendar invites to the session then you can let us know via email or by commenting on [the Slack thread](https://dataethicsclub.slack.com/archives/C03FQTJHEGZ/p1737979432534019).
+
+## Past Meetings
 
 ### 22th January - Data Ethics New Year's Resolutions Special
 As very optional reading material, you could look at our previous new year's resolutions from [2024](https://dataethicsclub.com/write_ups/2024-01-17_writeup.html), [2023](https://dataethicsclub.com/write_ups/2023-01-25_writeup.html), and [2022](https://dataethicsclub.com/write_ups/2022-01-12_writeup.html).
@@ -112,25 +131,6 @@ Discussion questions:
 1. What are your experiences with using AI to teach (either yourself or others)?
 2. AI is promised to help alleviate teachers' unsustainable workload and thereby address a crisis in teacher recruitment and retention. What other responses to this problem might there be and why are they not being pursued?
 3. Who is accountable for the quality of education and resources generated through the use of AI? Who is accountable for the safe and ethical use of AI in schools and are they equipped to take on this role?
-
-### Summer Book Club
-
-For our summer 2025 bookclub, we will be reading [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) by Arvind Narayanan and Sayash Kapoor. 
-
-On their website you can read the [first chapter online for free](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview), see [what each chapter is about](https://www.aisnakeoil.com/i/148742314/whats-in-the-book) and see the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion) to get an idea of the kinds of conversation we might be having.
-
-There are 8 chapters and the exact schedule is below. We'll be meeting 4-5pm UK time on Zoom (on the usual link). If you'd like to be forwarded calendar invites to the session then you can let us know via email or by commenting on [the Slack thread](https://dataethicsclub.slack.com/archives/C03FQTJHEGZ/p1737979432534019).
-
-- 11th June: Chapter 1 - Introduction (34 pages)
-- 18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
-- 2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
-- 16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
-- 23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
-- 6th August Chapter 6 - Why can't AI fix social media? (48 pages)
-- 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
-- 20th August: Chapter 8 - Where do we go from here? (27 pages)
-
-## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
