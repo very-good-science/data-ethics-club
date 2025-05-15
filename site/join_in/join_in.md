@@ -118,6 +118,8 @@ Discussion Questions:
 2. While probably unavoidable, is it ethical to have researchers with mental health conditions working on mental health research?
 3. What would the next step be to enhance understanding of mental health among mental health researchers? (e.g. maybe analysis of the financial impact of absenteeism among the workforce to make the economic argument for support).
 
+[Read the writeup here!](https://dataethicsclub.com/write_ups/2025-04-16_writeup.html)
+
 ### 30th April - AI in Education Special
 
 Material:
