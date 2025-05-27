@@ -35,36 +35,77 @@ On their website you can read the [first chapter online for free](https://press.
 
 There are 8 chapters and the exact schedule is below. We'll be meeting 4-5pm UK time on Microsoft Teams, [*click here to join*](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MmNjNjliZDgtMGU0Yy00NTY1LTk3YTMtMTc3ZjJmMjMwNWYz%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%2522%252c%2522Oid%2522%253a%2522aa665e8c-30a8-4fa9-8cc0-3863daf037ac%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=82475965-1c1a-475f-8ce6-0b5f05607a12&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true). 
 
-- 11th June: Chapter 1 - Introduction (34 pages)
-- 18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
-- 2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
-- 16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
-- 23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
-- 6th August Chapter 6 - Why can't AI fix social media? (48 pages)
-- 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
-- 20th August: Chapter 8 - Where do we go from here? (27 pages)
-
 If you'd like to be forwarded calendar invites to the session then you can let us know via email or by commenting on [the Slack thread](https://dataethicsclub.slack.com/archives/C03FQTJHEGZ/p1737979432534019).
 
+*Discussion prompts below taken from the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion), but should be rough guidelines of discussions, not the only thing you can talk about!*
+
+#### 11th June: Chapter 1 - Introduction (34 pages)
+
+Suggested discussion prompts:
+1. What do “easy” and “hard” mean in the context of AI? Does it refer to computational requirements, or the human effort needed to build AI to perform a task, or something else? And what does easy/hard for people mean?
+2. Based on your definitions of these terms, pick a variety of tasks and try to place them on a 2-dimensional spectrum where the axes represent people’s and computers’ ease of performing the task. What sort of relationship do you see?
+3. The text gives many examples of AI that quietly work well, like spellcheck. Can you think of other examples? What do you think are examples of tasks that AI can’t yet perform reliably but one day will, without raising ethical concerns or leading to societal disruption?
+
+#### 18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
+
+Suggested discussion prompts:
+1. Predictive models make “common sense” mistakes that people would catch, like predicting that patients with asthma have a lower risk of developing complications from pneumonia, as discussed in the chapter. What, if anything, can be done to integrate common-sense error checking into predictive AI?
+2. Think about a few ways people "game" decision-making systems in their day-to-day life. What are ways in which it is possible to game predictive AI systems but not human-led decision making systems? Would the types of gaming you identify work with automated decision-making systems that do not use AI?
+3. In which kinds of jobs are automated hiring tools predominantly used ? How does adoption vary by sector, income level, and seniority? What explains these differences?
+
+#### 2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
+
+Suggested discussion prompts:
+
+Suppose a research group at a big tech company finds that it can build a model to predict which of its users will be arrested in the next year, based on all the private user data that it stores, such as their emails and financial documents. While far from perfectly accurate, it is more accurate than any model that uses public data alone. 
+
+1. Does it seem plausible that a model like this might work in any meaningful sense? If so, what signals might it be picking up on?
+2. What laws, rules, or norms should govern companies’ ability to undertake research projects of this sort?
+3. Is there any ethical and responsible way in which technology like this can be put to use, or should we as a society reject such uses of prediction?
+4. What, if anything, prevents a company from partnering with police departments in your country to use such a predictive model for surveillance of individuals deemed high risk?
+
+#### 16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
+
+Suggested discussion prompts:
+1. Spend at least an hour using a chatbot for learning. Reflect on your experience and discuss it with your peers. What worked well, and what didn't? Do you plan to continue to use chatbots for learning?
+2. Generative AI is built using the creative output of journalists, writers, photographers, artists, and others — generally without consent, credit, or compensation. Discuss the ethics of this practice. 
+How can those who want to change the system go about doing so? Can the market solve the problem, such as through licensing agreements between publishers and AI companies? What about copyright law — either interpreting existing law or by updating it? What other policy interventions might be helpful?
+3. Discuss the environmental impact of generative AI. What, if anything, is distinct about AI’s environmental impact compared to computing in general or other specific digital technologies with a large energy use such as cryptocurrency? 
+
+#### 23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
+
+Suggested discussion prompts:
+1. In AI safety policy, entrenched camps have developed, with vastly divergent views on the urgency and seriousness of catastrophic risks from AI. While research and debate are important, policymakers must make decisions in the absence of expert consensus. How should they go about this, taking into account differences in beliefs as well as values and stakeholders’ interests?
+2. Make predictions on the forecasting website Metaculus on a few AI- and AGI-related questions. Be sure to read the “resolution criteria” carefully. What data or information did you consider? What do you think of the community predictions? Discuss with your peers.
+3. As of 2024, there have been a few attempts to automate AI research. Read some of this work. What set of activities are researchers trying to automate? Assess how close they are to their goal. What are the implications of being able to automate AI research?
+
+#### 6th August Chapter 6 - Why can't AI fix social media? (48 pages)
+
+Suggested discussion prompts:
+1. What are the advantages and disadvantages of having a content moderation system with highly specified rules? What do you think about a content moderation system that gives more autonomy to content moderators?
+2. Of the many ills that have been blamed on recommendation algorithms, which ones could algorithmic choice conceivably combat? Which ones are structural and can’t be solved through the lens of individual empowerment?
+3. Try to form a high-level impression of how developers at Facebook think about the impacts of their platform and their responsibility (suggest skimming [the Facebook papers](https://gizmodo.com/facebook-papers-how-to-read-1848702919). What motivates them? Which of the concerns listed above seem to be supported by these documents? What do you think about the quality of the ethical reasoning in the documents? 
+
+#### 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
+
+Suggested discussion prompts:
+1. One difference between AI research and other kinds of research is that most AI research is purely computational, and doesn’t involve (for instance) experiments involving people or arduous measurements of physical systems. In what ways does this make it easier to have confidence in the claims of AI research? In what ways does it make it harder?
+2. What techniques do you personally use to stay grounded when you hear of seemingly amazing AI advances in the news? Discuss with your peers.
+3. What are some ways to improve accountability for companies making unsubstantiated claims? These could include legal remedies as well as non-legal approaches. 
+
+#### 20th August: Chapter 8 - Where do we go from here? (27 pages)
+
+Suggested discussion prompts:
+1. The chapter makes the point that broken AI appeals to broken institutions. What are some examples of broken institutions enamored by other dubious technologies? Is there something about AI, as opposed to other technologies, that makes it liable to be misused this way?
+2. What impact do you think AI will have on your chosen or intended profession in the next five to ten years? What levers do we have to steer this impact in a way that is positive for society?
+3. Look up some examples of AI-related legislation or regulation recently enacted or being debated in your country. Discuss the pros and cons of specific actions and proposals, as well as the overall approach to AI policymaking.
+
 ## Past Meetings
-
-### 30th April - AI in Education Special
-
-Material:
-[UK announces AI funding for teachers: how this technology could change the profession](https://theconversation.com/uk-announces-ai-funding-for-teachers-how-this-technology-could-change-the-profession-217149)
-
-With additional optional reading: [Pedagogy of the Depressed](https://buildcognitiveresonance.substack.com/p/pedagogy-of-the-depressed)
-
-Session will be introduced by [Dr Lyndsay Grant, Lecturer in Education at the University of Bristol](https://research-information.bris.ac.uk/en/persons/lyndsay-j-grant).
-
-Discussion questions:
-1. What are your experiences with using AI to teach (either yourself or others)?
-2. AI is promised to help alleviate teachers' unsustainable workload and thereby address a crisis in teacher recruitment and retention. What other responses to this problem might there be and why are they not being pursued?
-3. Who is accountable for the quality of education and resources generated through the use of AI? Who is accountable for the safe and ethical use of AI in schools and are they equipped to take on this role?
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 30.04.2025, 1pm | [UK announces AI funding for teachers: how this technology could change the profession](https://theconversation.com/uk-announces-ai-funding-for-teachers-how-this-technology-could-change-the-profession-217149) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-30_writeup.html) |
 | 16.04.2025, 1pm | [Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-21823-3) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-16_writeup.html) |
 | 02.04.2025, 1pm | [The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry](https://link.springer.com/article/10.1007/s11023-017-9445-2) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-02_writeup.html) |
 | 19.03.2025, 1pm | [Alphafold: The Most Useful Thing AI Has Ever Done](https://www.youtube.com/watch?v=P_fHJIYENdI) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-03-19_writeup.html) |
