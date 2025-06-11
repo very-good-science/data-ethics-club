@@ -43,8 +43,8 @@ If you'd like to be forwarded calendar invites to the session then you can let u
 
 Suggested discussion prompts:
 1. What do “easy” and “hard” mean in the context of AI? Does it refer to computational requirements, or the human effort needed to build AI to perform a task, or something else? And what does easy/hard for people mean?
-2. Based on your definitions of these terms, pick a variety of tasks and try to place them on a 2-dimensional spectrum where the axes represent people’s and computers’ ease of performing the task. What sort of relationship do you see?
-3. The text gives many examples of AI that quietly work well, like spellcheck. Can you think of other examples? What do you think are examples of tasks that AI can’t yet perform reliably but one day will, without raising ethical concerns or leading to societal disruption?
+2. The text gives many examples of AI that quietly work well, like spellcheck. Can you think of other examples? What do you think are examples of tasks that AI can’t yet perform reliably but one day will, without raising ethical concerns or leading to societal disruption?
+3. Figure 1.2 presents a framework to understand AI snake oil, hype, and harms. Pick a few AI-related controversies and discuss where in the figure you think they should be placed. For example: Levi’s used AI-generated clothing models to show more diverse body types and skin tones; DoNotPay was alleged to be engaged in the unauthorized practice of law by advertising a “robot lawyer”; an AI model was claimed to predict crimes with 90% accuracy.
 
 #### 18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
 
