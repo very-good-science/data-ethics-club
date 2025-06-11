@@ -11,7 +11,7 @@ Everyone is welcome to get involved in _Data Ethics Club_, as much or as little 
 
 You don't need to be a data ethicist (we're not!), or a data scientist - having a variety of different people is how we learn from each other. It's a friendly and welcoming group and we often have new people drop by, so why not try it?  
 
-We meet every other week for one hour on Zoom (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
+In term time, we meet every other week for one hour on Teams (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
 Out upcoming meeting dates are available below. 
 If you would like to get email reminders about the content and dates for the next meeting then click above to join our mailing list! You can also join the DEC Slack by clicking [here](https://join.slack.com/t/dataethicsclub/shared_invite/zt-35d7cv97m-WHTNP2N2pck2yNlnkstXYw).
 
@@ -33,7 +33,10 @@ For our summer 2025 bookclub, we will be reading [AI Snake Oil: What artificial 
 
 On their website you can read the [first chapter online for free](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview), see [what each chapter is about](https://www.aisnakeoil.com/i/148742314/whats-in-the-book) and see the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion) to get an idea of the kinds of conversation we might be having.
 
-There are 8 chapters and the exact schedule is below. We'll be meeting 4-5pm UK time on Microsoft Teams, [*click here to join*](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_MmNjNjliZDgtMGU0Yy00NTY1LTk3YTMtMTc3ZjJmMjMwNWYz%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%2522%252c%2522Oid%2522%253a%2522aa665e8c-30a8-4fa9-8cc0-3863daf037ac%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=82475965-1c1a-475f-8ce6-0b5f05607a12&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true). 
+There are 8 chapters and the exact schedule is below. We'll be meeting 4-5pm UK time on Microsoft Teams, meeting details here:
+[Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmNjNjliZDgtMGU0Yy00NTY1LTk3YTMtMTc3ZjJmMjMwNWYz%40thread.v2/0?context=%7b%22Tid%22%3a%22b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%22%2c%22Oid%22%3a%22aa665e8c-30a8-4fa9-8cc0-3863daf037ac%22%7d)
+Meeting ID: 366 067 928 085 8
+Passcode: 9hw7zS3e
 
 If you'd like to be forwarded calendar invites to the session then you can let us know via email or by commenting on [the Slack thread](https://dataethicsclub.slack.com/archives/C03FQTJHEGZ/p1737979432534019).
 
