@@ -34,8 +34,11 @@ For our summer 2025 bookclub, we will be reading [AI Snake Oil: What artificial 
 On their website you can read the [first chapter online for free](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview), see [what each chapter is about](https://www.aisnakeoil.com/i/148742314/whats-in-the-book) and see the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion) to get an idea of the kinds of conversation we might be having.
 
 There are 8 chapters and the exact schedule is below. We'll be meeting 4-5pm UK time on Microsoft Teams, meeting details here:
+
 [Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmNjNjliZDgtMGU0Yy00NTY1LTk3YTMtMTc3ZjJmMjMwNWYz%40thread.v2/0?context=%7b%22Tid%22%3a%22b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%22%2c%22Oid%22%3a%22aa665e8c-30a8-4fa9-8cc0-3863daf037ac%22%7d)
+
 Meeting ID: 366 067 928 085 8
+
 Passcode: 9hw7zS3e
 
 If you'd like to be forwarded calendar invites to the session then you can let us know via email or by commenting on [the Slack thread](https://dataethicsclub.slack.com/archives/C03FQTJHEGZ/p1737979432534019).
