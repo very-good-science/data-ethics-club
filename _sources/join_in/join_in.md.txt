@@ -12,7 +12,7 @@ Everyone is welcome to get involved in _Data Ethics Club_, as much or as little 
 You don't need to be a data ethicist (we're not!), or a data scientist - having a variety of different people is how we learn from each other. It's a friendly and welcoming group and we often have new people drop by, so why not try it?  
 
 In term time, we meet every other week for one hour on Teams (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
-Out upcoming meeting dates are available below. 
+Our upcoming meeting dates are available below. 
 If you would like to get email reminders about the content and dates for the next meeting then click above to join our mailing list! You can also join the DEC Slack by clicking [here](https://join.slack.com/t/dataethicsclub/shared_invite/zt-35d7cv97m-WHTNP2N2pck2yNlnkstXYw).
 
 Please read our [Code of Conduct](code-of-conduct) before attending.
@@ -22,7 +22,8 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 These are the meetings for the next academic term.  
 We will update the material and questions based on the previous weeks' vote.  
 
-All meetings are held at 1pm **UK** time and last one hour.
+Term time meetings are held at 1pm **UK** time and last one hour.
+Summer bookclub meetings are held at **different** times, see below!
 If you are in another timezone please [use a time/date converter like this one to check your local time](https://www.timeanddate.com/worldclock/converter.html)!  
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
