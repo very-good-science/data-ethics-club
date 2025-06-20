@@ -46,19 +46,13 @@ If you'd like to be forwarded calendar invites to the session then you can let u
 
 *Discussion prompts below taken from the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion), but should be rough guidelines of discussions, not the only thing you can talk about!*
 
-#### 11th June: Chapter 1 - Introduction (34 pages)
+So far we have read:
+- Chapter 1 - Introduction (34 pages)
+- Chapter 2 - How predictive AI goes wrong (24 pages)
 
-Suggested discussion prompts:
-1. What do “easy” and “hard” mean in the context of AI? Does it refer to computational requirements, or the human effort needed to build AI to perform a task, or something else? And what does easy/hard for people mean?
-2. Based on your definitions of these terms, pick a variety of tasks and try to place them on a 2-dimensional spectrum where the axes represent people’s and computers’ ease of performing the task. What sort of relationship do you see?
-3. The text gives many examples of AI that quietly work well, like spellcheck. Can you think of other examples? What do you think are examples of tasks that AI can’t yet perform reliably but one day will, without raising ethical concerns or leading to societal disruption?
+[Read the writeup so far!](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html)
 
-#### 18th June: Chapter 2 - How predictive AI goes wrong (24 pages)
-
-Suggested discussion prompts:
-1. Predictive models make “common sense” mistakes that people would catch, like predicting that patients with asthma have a lower risk of developing complications from pneumonia, as discussed in the chapter. What, if anything, can be done to integrate common-sense error checking into predictive AI?
-2. Think about a few ways people "game" decision-making systems in their day-to-day life. What are ways in which it is possible to game predictive AI systems but not human-led decision making systems? Would the types of gaming you identify work with automated decision-making systems that do not use AI?
-3. In which kinds of jobs are automated hiring tools predominantly used ? How does adoption vary by sector, income level, and seniority? What explains these differences?
+**Next meeting**:
 
 #### 2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
 
