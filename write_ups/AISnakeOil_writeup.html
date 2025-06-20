@@ -1,0 +1,1620 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: AI Snake Oil Book Club: Chapter 1 – Introduction &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/AISnakeOil_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/AISnakeOil_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+
+
+<h2>
+  
+  
+  <i class="fa fa-calendar"></i>
+  
+  <span>11 June 2025</span>
+  
+</h2>
+<ul>
+  <div class="ablog-sidebar-item ablog__postcard2">
+
+
+<li id="ablog-sidebar-item author ablog__author">
+  <span>
+    
+    <i class="fa-fw fa fa-user"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+  
+  
+  
+</li>
+
+
+
+
+<li id="ablog-sidebar-item category ablog__category">
+  <span>
+    
+    <i class="fa-fw fa fa-folder-open"></i>
+    
+    </span>
+  
+  
+  <a href="write-ups/category/bookclub.html">Bookclub</a>
+  
+  
+  
+</li>
+
+
+<li id="ablog-sidebar-item tags ablog__tags">
+  <span>
+    
+    
+    <i class="fa-fw fa fa-tags"></i>
+    
+    
+    </span>
+  
+  
+  <a href="write-ups/tag/predictive-ai.html">predictive AI</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/llms.html">LLMs</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  
+  
+  
+  
+  
+  <a href="write-ups/tag/hype.html">hype</a>
+  
+  
+  
+</li>
+
+
+</div>
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="2025-04-30_writeup.html">
+      30 April - Data Ethics Club: UK announces AI funding for teachers: how this technology could change the profession
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-04-16_writeup.html">
+      16 April - Data Ethics Club: Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-04-02_writeup.html">
+      02 April - Data Ethics Club: The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-03-19_writeup.html">
+      19 March - Data Ethics Club: The Most Useful Thing AI Has Ever Done: AlphaFold
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-03-05_writeup.html">
+      05 March - Data Ethics Club: How It’s Unfair to Use Personality Tests in Hiring (International Women’s Day Special)
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/bookclub.html">Bookclub (2)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (71)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<link rel="stylesheet" href="../_static/ablog/tagcloud.css" type="text/css" />
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai.html">AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-applications.html">AI applications</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/alphafold.html">AlphaFold</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/llms.html">LLMs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ml.html">ML</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/transparency.html">Transparency</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bullshit.html">bullshit</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/communication.html">communication</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/computer-vision.html">computer vision</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consent.html">consent</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-feminism.html">data feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-week.html">data week</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/digital-afterlife.html">digital afterlife</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ethics.html">ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/explainability.html">explainability</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/group-projects.html">group projects</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hallucination.html">hallucination</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/human-like-ai.html">human-like AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hype.html">hype</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/law.html">law</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/medicine.html">medicine</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/mental-health.html">mental health</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/personality-test.html">personality test</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/predictive-ai.html">predictive AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/protein-folding.html">protein folding</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/recruitment.html">recruitment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social.html">social</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/synthetic-biology.html">synthetic biology</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (38)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2025.html">2025 (9)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: AI Snake Oil Book Club: Chapter 1 – Introduction</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="data-ethics-club-ai-snake-oil-book-club-chapter-1-introduction">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.aisnakeoil.com/">AI Snake Oil</a> Book Club: <a class="reference external" href="https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview">Chapter 1 – Introduction</a><a class="headerlink" href="#data-ethics-club-ai-snake-oil-book-club-chapter-1-introduction" title="Link to this heading">#</a></h1>
+<div class="admonition-what-s-this admonition">
+<p class="admonition-title">What’s this?</p>
+<p>This is summary of Wednesday 11th June’s Data Ethics Club discussion, where we spoke and wrote about the <a class="reference external" href="https://www.aisnakeoil.com/">AI Snake Oil</a> Chapter 1 – <a class="reference external" href="https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview">Introduction</a> by Arvind Narayanan and Sayash Kapoor.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone’s contributions to this document and the discussion. “We” = “someone at Data Ethics Club”.
+Huw Day helped with the final edit.</p>
+</div>
+<section id="chapter-summary">
+<h2>Chapter Summary<a class="headerlink" href="#chapter-summary" title="Link to this heading">#</a></h2>
+<p>The term “AI” has been appropriated for a multitude of different technologies and applications, confusing discussions about its strengths and limitations, and misleading people about its capabilities. The introduction begins by distinguishing between generative AI, which produces various types of content such as text or images, and predictive AI, which produces outputs forecasting the future to inform decision-making in the present.</p>
+<p>The waters surrounding the definition of AI are muddied; influenced by historical usage, marketing, and more. Some problems AI attempts to address, like vacuuming, are solvable; others, like predicting whether someone will commit a crime, are not. Some applications were once thought difficult, but AI has proven to be very good at, such as facial recognition. However, even if the mechanism is good, the tool can fail in practice, e.g., if the data is noisy, biased, or abused for malicious intent.</p>
+<p>Sold as an accurate and capable technology, predictive AI has been widely adopted. However, there are significant issues with the premises predictive AI is based on, as it attempts to translate and reduce high dimensional phenomena to computationally feasible outputs. In practice, there is missing data, bias, and participants attempting to game the system. Generative AI, the chapter argues, holds more promise and yet also runs into significant issues. Factual inaccuracies in outputs are common, leading to rampant misuse such as error-filled news articles or AI-generated books.</p>
+<p>Misinformation, misunderstandings, and mythology about AI are fed by a combination of researchers, companies, and the media. In research, the buzzier the research topic, the worse the quality of research tends to be. Companies feed off of hype, seeking to maximise profits whilst rarely being transparent about the accuracy of their products. Crumbling revenue in the media combined with access journalism, where outlets rely on good relationships with companies to be able to interview subjects, further propagate hype narratives dictated by AI companies.</p>
+<p>The limitations, hype, and misconceptions surrounding AI leads the chapter to analogise AI as a “snake oil” product: a miracle cure advertised under false pretences. The book aims to identify AI snake oil – AI that does not and cannot work.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+</section>
+<section id="what-do-easy-and-hard-mean-in-the-context-of-ai-does-it-refer-to-computational-requirements-or-the-human-effort-needed-to-build-ai-to-perform-a-task-or-something-else-and-what-does-easy-hard-for-people-mean">
+<h2>What do “easy” and “hard” mean in the context of AI? Does it refer to computational requirements, or the human effort needed to build AI to perform a task, or something else? And what does easy/hard for people mean?<a class="headerlink" href="#what-do-easy-and-hard-mean-in-the-context-of-ai-does-it-refer-to-computational-requirements-or-the-human-effort-needed-to-build-ai-to-perform-a-task-or-something-else-and-what-does-easy-hard-for-people-mean" title="Link to this heading">#</a></h2>
+<p>The idea of “easy” or “hard” problems for AI weren’t specifically defined in the chapter, but it did give some examples of problems previously thought to be difficult for AI which the technology is now very capable of solving, such as image classification. Spellcheck is another example of an application previously thought to be hard but is today so embedded in our everyday lives that we might not even think of it as AI.</p>
+<p>Sometimes what is “easy” or “hard” for AI is contrary to what is easy or hard for humans – a phenomenon coined <a class="reference external" href="https://en.m.wikipedia.org/wiki/Moravec%27s_paradox">Moravec’s paradox</a>. Moravec’s paradox is the observation that reasoning (which is difficult for humans) requires little computation, but sensory and perception skills (which are easy for humans) are highly computationally expensive. <a class="reference external" href="https://en.m.wikipedia.org/wiki/Computational_complexity">Computational complexity</a> is a well-studied field examining the amount of resources required to run an algorithm. We wondered if easy and hard in relation to AI are somehow related to how difficult it is for AI to produce an accurate output.</p>
+<p>Tasks that are easy for humans are those that we can do quickly and without much concentration. Pinpointing what these tasks are is tricky; we don’t know what we know. People aren’t good at breaking tasks down into smaller levels than humans are typically used to or deducing which of these tasks are easy. The difficulty with breaking down tasks is why some people find programming really tricky. What counts as easy might depend on the sample population, e.g., a roomful of mechanics will find it much easier to replace an engine than a roomful of mathematicians.</p>
+<p>Discerning what is easy or hard for AI is not straightforward, as it depends on the lens you examine the tool through and the context it is situated within. LLMs now seem to be very good at predicting text, giving the impression that the task is easy. However, an extraordinary amount of resources goes into training an LLM, suggesting it is actually a hard problem. Facial recognition is accurate under the right conditions, but there are many drawbacks for how it is used, making it hard to delineate appropriate use cases. Perhaps easy and hard aren’t the right terms; we should instead be asking how much context is needed to solve the problem, and how hard the execution is.</p>
+<p>The underlying message of the introduction is that certain tasks are made easier or harder from the application of certain AI systems, and the way we sell those systems affects how they are used. For example, linear regression is really good at some statistical modelling problems. However, if we sold it as a silver bullet to solve any problem, it would be (and, as the chapter demonstrates, has proven to be) rubbish.</p>
+<p>The barriers to entry for AI have been drastically lowered over recent years. On the deployment side, LLMs are now very easy to set up on a personal laptop. On the user side, generative AI interfaces are widely accessible. It is actually starting to require more effort <em>not</em> to use LLMs in some settings such as <a class="reference external" href="https://www.bbc.com/news/articles/cpw77qwd117o">searching</a>, where search engines are displaying an “AI overview” before presenting the results. Tasks that LLMs previously found difficult are slowly getting easier and easier, making their deployment and user friendliness increasingly accessible. For example, maintaining context over time was something that LLMs previously found very difficult.</p>
+<p>However, the <a class="reference external" href="https://www.techtarget.com/whatis/definition/context-window">context window</a>, which dictates how much input the LLM can consider when calculating its output, is slowly getting larger. A larger context window entails that an LLM can consider more information in its answers. In addition, ChatGPT now incorporates some <a class="reference external" href="https://openai.com/index/memory-and-new-controls-for-chatgpt/">“memory” functionality</a>, where information from previous conversations is maintained. However, sometimes relevant context goes beyond conversations, such as body language. This raises important questions about what kind and how much information goes into the model, e.g. whether it should consider current affairs or interpersonal relationships.</p>
+<p>More data and computational power could mean that AI gets better, but this is not always true. It may depend on the use case and type of AI. For example, given enough training, AI can beat the best human chess player, but how long will it be before AI can make a cup of tea to your preferences, and is more computational power enough to solve this? If the task is something that the user doesn’t know much about, or is difficult to express, the usefulness of AI goes down. Training and human feedback is required on both sides. It is difficult to know where the improvements will stop or how the evolution of AI will unfold, especially considering the transformative effect of previous industrial revolutions.</p>
+</section>
+<section id="based-on-your-definitions-of-these-terms-pick-a-variety-of-tasks-and-try-to-place-them-on-a-2-dimensional-spectrum-where-the-axes-represent-peoples-and-computers-ease-of-performing-the-task-what-sort-of-relationship-do-you-see">
+<h2>Based on your definitions of these terms, pick a variety of tasks and try to place them on a 2-dimensional spectrum where the axes represent people’s and computers’ ease of performing the task. What sort of relationship do you see?<a class="headerlink" href="#based-on-your-definitions-of-these-terms-pick-a-variety-of-tasks-and-try-to-place-them-on-a-2-dimensional-spectrum-where-the-axes-represent-peoples-and-computers-ease-of-performing-the-task-what-sort-of-relationship-do-you-see" title="Link to this heading">#</a></h2>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Difficulty</p></th>
+<th class="head"><p>Computer</p></th>
+<th class="head"><p>Human</p></th>
+<th class="head"><p>Both</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>EASY</p></td>
+<td><p>Coding</p></td>
+<td><p>Sense of right and wrong</p></td>
+<td><p>Image classification</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Pattern recognition in big sets of data</p></td>
+<td><p>Ironing</p></td>
+<td><p>Speech to text</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Analytical decision-making (depending on algorithm and input data)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Chess</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Remembering lots of information</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Recall (for some computers but difficult for LLMs)</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Writing a poem in a certain style</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Sucking in created content</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p>HARD</p></td>
+<td><p>Ironing</p></td>
+<td><p>Coding</p></td>
+<td><p>Creativity</p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Ethical decisions / judicial</p></td>
+<td><p>Content creation</p></td>
+<td><p>Reading emotions</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Holding/understanding context</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Sarcasm/jokes</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Moving around in a new environment</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p>Certainty of answers</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Language manipulation</p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p></p></td>
+<td><p><a class="reference external" href="https://www.youtube.com/watch?v=FAspMnu4Rt0">Counting “r’s” in the word “strawberry”</a></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="the-text-gives-many-examples-of-ai-that-quietly-work-well-like-spellcheck-can-you-think-of-other-examples-what-do-you-think-are-examples-of-tasks-that-ai-cant-yet-perform-reliably-but-one-day-will-without-raising-ethical-concerns-or-leading-to-societal-disruption">
+<h2>The text gives many examples of AI that quietly work well, like spellcheck. Can you think of other examples? What do you think are examples of tasks that AI can’t yet perform reliably but one day will, without raising ethical concerns or leading to societal disruption?<a class="headerlink" href="#the-text-gives-many-examples-of-ai-that-quietly-work-well-like-spellcheck-can-you-think-of-other-examples-what-do-you-think-are-examples-of-tasks-that-ai-cant-yet-perform-reliably-but-one-day-will-without-raising-ethical-concerns-or-leading-to-societal-disruption" title="Link to this heading">#</a></h2>
+<p>Applications of AI that we could envision being less ethically concerning include scientific pursuits, such as animal conservation for tracking animals, biodiversity monitoring, birdsong recognition, weather prediction, pollution analysis, or finding biomarkers for diseases. These use cases do not directly dictate outcomes for people’s lives and can be verified by complementary scientific methods.</p>
+<p>With respect to AI being used in everyday life, AI should act as a facilitator for human flourishing, rather than a supplement. We would much rather have AI do our laundry whilst we make art, rather than have AI generate “art” whilst we do laundry. If ChatGPT was reliably accurate, we could imagine it being useful as a learning tool e.g. by quizzing students on their homework. Tools like Grammarly are great in certain contexts, because native English speakers can be harsh when assessing people’s writing. When people don’t have English as a first language, grammar correcting tools can help them to be sure they are saying the right things.</p>
+<p>There are many AI tools we use every day without noticing, but that does not mean that they are working well. Spellcheck is integrated in many applications, however, we do not think it works well. If you write in more than one language, it falls apart and doesn’t understand what context it’s in. We tend to have counterintuitive expectations of the abilities of these tools; we recently encountered someone praising ChatGPT for being helpful with writing code about 60% of the time. If someone was asking us for help, and we were getting it wrong 40% of the time, we would not expect them to ask us for help again.</p>
+<p>We would be hard pushed to find an AI tool that won’t raise ethical concerns or cause some disruption. If something could replace a job, it could cause disruption. There are lots of areas in which people don’t care how good the labour is, they just want an output – even if it’s inaccurate generative AI nonsense. Even seemingly innocuous applications like spellcheck or Grammarly have rippling implications, e.g. for students. We have experienced spellcheck changing our answers leading to a quiz fail. If students can use something to do their work, it affects the work of teachers.</p>
+<p>Once a tool can provide an answer it would take a human a while to come up with, it is easy to slip into <a class="reference internal" href="#www.mdpi.com/2075-4698/15/1/6"><span class="xref myst">cognitive offloading</span></a>. We’ve noticed that tools like Grammarly are now pitched at native English speakers, potentially discouraging them from improving their own grammatical abilities. Lots of native English speakers who should already have these skills will defer to grammar checking tools, assuming that the tools will be better. People have <a class="reference external" href="https://thedecisionlab.com/biases/authority-bias">authority bias</a>, doubting their own knowledge because the tool has told them something different.</p>
+<p>The disruptive potential of AI may depend on the application and sensitivity of the data. It is important to take into account the whole pipeline, considering not just what the tool does but the energy it consumes and where the data used to train it comes from.</p>
+</section>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h2>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h2>
+<p>Careful consideration of our attitudes towards AI is crucial in shaping the role it plays in our lives. It is difficult to maintain healthy scepticism of AI in the face of overwhelming hype. In general, the chapter sets a good tone, balancing criticisms with an awareness of potential benefits. Some of us have come to the book with a pro-AI attitude, looking to engage with it as a challenging view. Predictive and generative AI have beneficial use cases, e.g., generative AI can help people get started with a prototype for an idea even if they don’t know how to code. Others among us are looking to ask whether these benefits are worth the costs.</p>
+<p>Some of us are becoming increasingly hardline anti-AI, finding that the chapter doesn’t go in as hard as it could (or maybe should) against AI. The chapter focuses, rightly, more on predictive AI, but it could have been more critical of generative AI. Fundamentally, many of us believe generative AI cannot do anything new. The outputs might be useful but are fundamentally unreliable in the sense that there is no validation of their correctness. The chapter talks about how “facial recognition works well enough to be harmful, and badly enough to be harmful” – this probably applies to LLMs as well.</p>
+<p>To highlight the problems with applying AI, we considered the difference between using facial recognition to block someone from attending an event, and having a bouncer at the door with a list of people not allowed in. The difference may lie with accountability; you can argue with a person or ask them to take action, but with an automated system you will get nowhere. A person might lose their job if they do it incorrectly; if a system makes a mistake, it does not pay for the consequences, and the costs of rollback are often too high to warrant a system change. A human security guard can’t be scaled up to surveil 100,000 people at once and get 5% wrong with no recourse.</p>
+<p>Distinguishing between the technology itself and the people behind it is increasingly tricky, as the people behind it are <a class="reference external" href="https://dl.acm.org/doi/10.1145/3630106.3658543">increasingly distanced and invisibilised from the tool itself</a>.</p>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, PhD Student, University of Bristol</p></li>
+<li><p>Liz Ing-Simmons, Research Software Engineer, King’s College London: <a class="reference external" href="https://genomic.social/&#64;liz__is">Mastodon</a> 👩‍💻</p></li>
+<li><p>Vanessa Hanschke, Lecturer, University College London</p></li>
+<li><p>Julie-M. Bourgognon, Lecturer in neurosciences, university of Glasgow</p></li>
+<li><p>Euan Bennet, Lecturer, University of Glasgow: <a class="reference external" href="https://www.linkedin.com/in/euanbennet/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/dreuanbennet.bsky.social">BlueSky</a></p></li>
+<li><p>Paul Matthews, Lecturer, UWE Bristol <a class="reference external" href="https://bsky.app/profile/paulusm.jellytussle.org">BlueSky</a>, <a class="reference external" href="https://scholar.social/&#64;paulusm">Mastodon</a></p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+
+
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+    
+    
+    <a href="2025-04-30_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: UK announces AI funding for teachers: how this technology could change the profession</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chapter-summary">Chapter Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-do-easy-and-hard-mean-in-the-context-of-ai-does-it-refer-to-computational-requirements-or-the-human-effort-needed-to-build-ai-to-perform-a-task-or-something-else-and-what-does-easy-hard-for-people-mean">What do “easy” and “hard” mean in the context of AI? Does it refer to computational requirements, or the human effort needed to build AI to perform a task, or something else? And what does easy/hard for people mean?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#based-on-your-definitions-of-these-terms-pick-a-variety-of-tasks-and-try-to-place-them-on-a-2-dimensional-spectrum-where-the-axes-represent-peoples-and-computers-ease-of-performing-the-task-what-sort-of-relationship-do-you-see">Based on your definitions of these terms, pick a variety of tasks and try to place them on a 2-dimensional spectrum where the axes represent people’s and computers’ ease of performing the task. What sort of relationship do you see?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-text-gives-many-examples-of-ai-that-quietly-work-well-like-spellcheck-can-you-think-of-other-examples-what-do-you-think-are-examples-of-tasks-that-ai-cant-yet-perform-reliably-but-one-day-will-without-raising-ethical-concerns-or-leading-to-societal-disruption">The text gives many examples of AI that quietly work well, like spellcheck. Can you think of other examples? What do you think are examples of tasks that AI can’t yet perform reliably but one day will, without raising ethical concerns or leading to societal disruption?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/AISnakeOil_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/write_ups/AISnakeOil_writeup.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
