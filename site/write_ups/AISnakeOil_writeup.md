@@ -29,7 +29,7 @@ The limitations, hype, and misconceptions surrounding AI leads the chapter to an
 
 ## Discussion Summary
 
-## What do “easy” and “hard” mean in the context of AI? Does it refer to computational requirements, or the human effort needed to build AI to perform a task, or something else? And what does easy/hard for people mean?
+### What do “easy” and “hard” mean in the context of AI? Does it refer to computational requirements, or the human effort needed to build AI to perform a task, or something else? And what does easy/hard for people mean?
 
 The idea of “easy” or “hard” problems for AI weren’t specifically defined in the chapter, but it did give some examples of problems previously thought to be difficult for AI which the technology is now very capable of solving, such as image classification. Spellcheck is another example of an application previously thought to be hard but is today so embedded in our everyday lives that we might not even think of it as AI.
 
@@ -47,7 +47,7 @@ However, the [context window](https://www.techtarget.com/whatis/definition/conte
 
 More data and computational power could mean that AI gets better, but this is not always true. It may depend on the use case and type of AI. For example, given enough training, AI can beat the best human chess player, but how long will it be before AI can make a cup of tea to your preferences, and is more computational power enough to solve this? If the task is something that the user doesn’t know much about, or is difficult to express, the usefulness of AI goes down. Training and human feedback is required on both sides. It is difficult to know where the improvements will stop or how the evolution of AI will unfold, especially considering the transformative effect of previous industrial revolutions.
 
-## Based on your definitions of these terms, pick a variety of tasks and try to place them on a 2-dimensional spectrum where the axes represent people’s and computers’ ease of performing the task. What sort of relationship do you see?
+### Based on your definitions of these terms, pick a variety of tasks and try to place them on a 2-dimensional spectrum where the axes represent people’s and computers’ ease of performing the task. What sort of relationship do you see?
 
 | Difficulty  | Computer | Human | Both |
 |----|----|----|----|
@@ -68,7 +68,7 @@ More data and computational power could mean that AI gets better, but this is no
 |  |  Language manipulation |  |  |
 |  |  [Counting “r’s” in the word “strawberry”](https://www.youtube.com/watch?v=FAspMnu4Rt0) |  |  |
 
-## The text gives many examples of AI that quietly work well, like spellcheck. Can you think of other examples? What do you think are examples of tasks that AI can’t yet perform reliably but one day will, without raising ethical concerns or leading to societal disruption?
+### The text gives many examples of AI that quietly work well, like spellcheck. Can you think of other examples? What do you think are examples of tasks that AI can’t yet perform reliably but one day will, without raising ethical concerns or leading to societal disruption?
 
 Applications of AI that we could envision being less ethically concerning include scientific pursuits, such as animal conservation for tracking animals, biodiversity monitoring, birdsong recognition, weather prediction, pollution analysis, or finding biomarkers for diseases. These use cases do not directly dictate outcomes for people’s lives and can be verified by complementary scientific methods.
 
@@ -82,7 +82,7 @@ Once a tool can provide an answer it would take a human a while to come up with,
 
 The disruptive potential of AI may depend on the application and sensitivity of the data. It is important to take into account the whole pipeline, considering not just what the tool does but the energy it consumes and where the data used to train it comes from.
 
-## What change would you like to see on the basis of this piece? Who has the power to make that change?
+### What change would you like to see on the basis of this piece? Who has the power to make that change?
 
 Careful consideration of our attitudes towards AI is crucial in shaping the role it plays in our lives. It is difficult to maintain healthy scepticism of AI in the face of overwhelming hype. In general, the chapter sets a good tone, balancing criticisms with an awareness of potential benefits. Some of us have come to the book with a pro-AI attitude, looking to engage with it as a challenging view. Predictive and generative AI have beneficial use cases, e.g., generative AI can help people get started with a prototype for an idea even if they don’t know how to code. Others among us are looking to ask whether these benefits are worth the costs.
 
