@@ -6,13 +6,14 @@ category: Bookclub
 tags: predictive AI, LLMs, generative AI, hype
 ---
 
-# Data Ethics Club: [AI Snake Oil](https://www.aisnakeoil.com/) Book Club: [Chapter 1 – Introduction](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview)
+# Data Ethics Club: [AI Snake Oil](https://www.aisnakeoil.com/) Book Club
 
 ```{admonition} What's this? 
-This is summary of Wednesday 11th June’s Data Ethics Club discussion, where we spoke and wrote about the [AI Snake Oil](https://www.aisnakeoil.com/) Chapter 1 – [Introduction](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview) by Arvind Narayanan and Sayash Kapoor.
+This is summary of the discussions held in Data Ethics book club summer 2025, where we spoke and wrote about [AI Snake Oil](https://www.aisnakeoil.com/) by Arvind Narayanan and Sayash Kapoor.
 The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
 Huw Day helped with the final edit.
 ```
+# [Chapter 1 – Introduction](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview)
 
 ## Chapter Summary
 
@@ -100,3 +101,66 @@ Distinguishing between the technology itself and the people behind it is increas
 - Julie-M. Bourgognon, Lecturer in neurosciences, university of Glasgow
 - Euan Bennet, Lecturer, University of Glasgow: [LinkedIn](https://www.linkedin.com/in/euanbennet/), [BlueSky](https://bsky.app/profile/dreuanbennet.bsky.social)
 - Paul Matthews, Lecturer, UWE Bristol [BlueSky](https://bsky.app/profile/paulusm.jellytussle.org), [Mastodon](https://scholar.social/@paulusm)
+
+# Chapter 2 - How predictive AI goes wrong
+
+## Chapter Summary
+
+The chapter discusses the precedence of companies making strong claims made about the utility of automated decision-making systems using predictive AI in order to sell them. Models are claimed to be accurate, efficient (requiring little to no input from humans), and fair. One of the appeals of predictive AI is that it can reuse datasets that have already been collected for other purposes, such as record keeping or bureaucratic tasks. Models are also appealing through the promise of attempting to predict the future, as people struggle to deal with uncertainty or randomness and seek methods that enable control. These systems are used to allocate resources, provide or withhold opportunities, and predict peoples’ future behaviour. 
+
+Yet, whilst a model may make a decision from an input without human involvement, human decisions still exist throughout the pipeline. Humans dictate the design of the model, the data that is collected, and the methods of deployment. It cannot be guaranteed that these decisions are unbiased or fair. Models tend to make predictions that are correct according to the way they were designed, but issues can arise in deployment. Important data may be missed or misunderstood, the system may change, or people may employ gaming strategies. 
+
+Once in place, systems are extremely hard to reverse, and people are unable to challenge decisions. Decision subjects are frequently unaware that they are being evaluated by AI, yet the decisions made can have life changing implications and mistakes are hard to fix. Even if human oversight is in place, it is often inadequate. Costs of flawed AI disproportionately harm groups that have been systematically excluded and disadvantaged in the past.
+Instead of treating people as fixed and their outcomes as predetermined, the chapter argues that we need to accept the inherent randomness and uncertainty in life. Institutions should be built with an appreciation that the past does not predict the future.
+
+## Discussion Summary
+
+### Predictive models make “common sense” mistakes that people would catch, like predicting that patients with asthma have a lower risk of developing complications from pneumonia, as discussed in the chapter. What, if anything, can be done to integrate common-sense error checking into predictive AI?
+
+The idea of being able to model common sense is difficult to accept, as it is a changeable and contested concept. Common sense mistakes happen with or without AI, thus perhaps automated decisions are not necessarily worse than those made by humans. Models are a product of how they are trained; a model is only as good as the modeller. If what goes into a model is rubbish, you can expect that what comes out will be rubbish too: [“garbage in, garbage out”](https://www.techtarget.com/searchsoftwarequality/definition/garbage-in-garbage-out). Algorithms are trained on data that reflects biases and prejudices held in society, such as racial inequities. We’ve found evidence of this in [research we’ve conducted investigating the ability of a neural network to look for differences in skin tones, finding that the network performed poorly](https://arxiv.org/abs/2410.06385). In the case of detecting skin cancer lesions, the implications this has for detection rates for varying racial groups is troubling.
+
+In addition to the data that goes into a model, the design of the model itself, such as the variables included, influences the predictions the model makes. It is crucial and difficult to select variables that are meaningful with respect to the question being asked. Identifying [causal inference is hard](https://towardsdatascience.com/the-science-and-art-of-causality-part-1-5d6fb55b7a7c/), and not every relationship you see in data is a causal relationship. Many AI models today have far too many variables to exhaustively check; [ChatGPT-4 is estimated to have 1.8 trillion parameters](https://explodingtopics.com/blog/gpt-parameters). 
+
+Considering the inherent difficulties with building common sense into a system, perhaps the best approach is to focus on employing common sense in the application of AI. To cultivate common sense application, the general perception of computational systems as infallible will need to change. People tend to treat AI systems as more knowledgeable than humans, thinking that computers don’t make mistakes and over-crediting their veracity. Humans transfer social trust onto machines, projecting an idea of “expertise” as systems appear to give confident answers on the base of some hidden knowledge. There may to be some correlation between size and scepticism; there tends to be more apprehension around small studies compared to larger ones, and similarly we are more likely to mistrust a smaller model compared to a massive one. However, just because something is big doesn’t mean it is right.
+
+To properly evaluate a model, the broader context must be considered. Caution does not tend to be incorporated into models yet plays an important role in the way humans make and apply decisions. It is also important to distinguish between different sorts of problems, asking if the model itself is bad, or if the application of it is inappropriate. One should consider how the data was collected and what the shape of the problem looks like. For example, in predicting blood pressure, most people don’t have issues until they are older, creating a “U” shape in the model. Therefore, application of a linear model to this problem will not fit.
+
+Incorporating human checks and oversight throughout the AI pipeline could help mitigate unwanted side effects. To avoid responsibility ["washing”](https://www.eversheds-sutherland.com/en/united-kingdom/insights/the-battle-against-corporate-washing), wherein companies claim to have oversight without implementing proper procedures, oversight will need to be carefully defined including the likely failure modes to detect. Systems will need to be explainable so that overseers can understand what they are looking at. Perhaps legislation is one solution to require companies to explain the weaknesses of their models and highlight where oversight should be more closely applied, similar to how companies are required to list side effects for medication.
+
+Statistical modelling is generally thought of as reliable, requiring deliberate choices which are made explicit. In machine learning (ML) contexts, sometimes those choices are not as transparent. There tends to be a lot of opacity in decision-making that goes into the development and application of models. To understand how black box models are working, the criteria that the model uses to make decisions should be pulled out. Sometimes, machines are making connections we would not know to make, or inferences that are not what they seem. For example, in healthcare applications, image classifiers have been found to be taking into account other elements of the image in their decision such as the use of rulers in an image.
+
+If we are incapable of understanding a model, such as a cancer screener, we wondered whether or not we should be using it. It may not be essential to understand the mechanics of all the technology we use. Most of us use black box applications every day without question, such as computers, central heating, or aspirin. 
+Sometimes more transparency might not be appealing if revealing the criteria for decisions facilitates applicants gaming the system. In these settings there might be specific audiences for whom the system should be transparent to, e.g. the system should be transparent to hiring managers, but not to applicants. On the other hand, perhaps applicants would like to know the criteria they are being judged by, and withholding this information may be unfair.
+
+### Think about a few ways people “game” decision-making systems in their day-to-day life. What are ways in which it is possible to game predictive AI systems but not human-led decision making systems? Would the types of gaming you identify work with automated decision-making systems that do not use AI?
+
+There is an increasing sense for upcoming generations that to stay ahead they need to game systems, and those who don’t realise systems are gameable are put at a disadvantage. For example, understanding [how to answer personality tests](https://dataethicsclub.com/write_ups/2024-05-22_writeup.html) prevents [job applicants from minority groups being screened out](https://dataethicsclub.com/write_ups/2025-03-05_writeup.html). Part of the hacker mindset entails you are smart if you are able to hack things.
+
+Even in non-AI contexts, there are plenty of examples of systems being gamed. People frequently game each other through manipulative tactics. Knowing what to say can get you the right hospital treatment or make you eligible for benefits in pre-screening processes. We wondered where the line is between tailoring appropriate communication to a particular audience and gaming a system. Perhaps there is some relation to whether one’s actions are working towards a particular desired outcome.
+
+Settings in which people game predictive AI systems include [search engine optimisation, contributing to the enshittification of the internet by filling websites with algorithmic buzzwords](https://dataethicsclub.com/write_ups/2024-02-28_writeup.html); job applications; social media. Industry resumes tend to be shorter than academic resumes, incentivising the use of buzzwords and listing skills like “leadership”, “Java”, etc., that will bump the applicant up the list. To get your profile seen, we feel an increasing pressure to make our job applications and cover letters “LinkedIn friendly”. A funny side effect of this is that when someone says you are good at LinkedIn it feels like an insult by being seemingly inauthentic.
+
+Buzzwords are also used to game funding or grant applications. We have seen examples of proposals suggesting a project will be using “AI” in its methods, where in reality it is not really an appropriate application of AI. Sometimes people want to use AI because it is trendy, whether or not it would actually solve the problem. Many people do not really understand what AI is, or the what the differences are between specific terms such as ML and AI ([ML is a subfield of AI](https://www.datacamp.com/blog/the-difference-between-ai-and-machine-learning)). Being clear about terminology, especially in the mainstream, is complicated by [the hype cycle, which propagates uncertainty and sensationalist narratives](https://dataethicsclub.com/write_ups/2024-12-18_writeup.html).
+
+The hype cycle encourages people to adopt trending methods even if they do not have sufficient background or training to understand how the methods work, which is detrimental to the quality of research. Bad research deteriorates public trust in science and scientific outcomes. Interdisciplinary collaboration is essential to better support researchers, and perhaps the importance of various disciplines should be discussed at lower levels of education to foster this. [Psychology has suffered credibility crises](https://www.scientificamerican.com/article/psychology-s-credibility-crisis-the-bad-the-good-and-the-ugly/), but this has led to stronger research practices such as hypothesis pre-registration and more publishing of negative outcomes in journals. 
+
+### In which kinds of jobs are automated hiring tools predominantly used ? How does adoption vary by sector, income level, and seniority? What explains these differences?
+
+We weren’t sure which fields automated hiring tools are currently being used in, so instead discussed the fields such tools might be best used in. Hiring tools could be helpful for positions with a high ratio of applicants, as sifting through thousands of applications is a time consuming and repetitive task. Another appropriate application for automated tools may be entry level jobs in which group interviews are already commonplace, to help speed up the process.
+
+### What change would you like to see on the basis of this piece? Who has the power to make that change?
+
+People gaming automated systems may change the systems themselves, depending on how and what the algorithms are learning. For instance, hiring algorithms may learn to favour people who figured out how to game them and thereby further incentivise those behaviours. Gaming the system can push things towards homogeneity, which we have seen in other applications such as TikTok, where monetisation depends on the length of engagement and so videos tend towards a minimum length.
+
+As AI is adopted by both hirers and applicants, a feedback loop is formed where LLMs are used to write and apply for jobs, other AI systems sift through the applications, and each side learns to game the other. Increasing dependence on LLMs will lead to more mistakes: [LLMs are producing less and less accurate results](https://www.newscientist.com/article/2479545-ai-hallucinations-are-getting-worse-and-theyre-here-to-stay/), and are [shown to repeatedly hallucinate and backtrack](https://amandaguinzburg.substack.com/p/diabolus-ex-machina). It is important that society finds ways to resist slipping into homogeneity and error-strewn information as a consequence of LLM overuse.
+
+## Attendees
+
+- Huw Day, Data Scientist, University of Bristol: [LinkedIn](https://www.linkedin.com/in/huw-day/), [BlueSky](https://bsky.app/profile/huwwday.bsky.social)
+- Julie-M Bourgognon, Lecturer, University of Glasgow
+- Vanessa Hanschke, Lecturer, University College London
+- Paul Matthews, Lecturer, UWE Bristol 🦣 https://scholar.social/@paulusm
+- Liz Ing-Simmons, Research software engineer, King's College London (my day: :hot_face: (it's too hot here!)) | [Mastodon](https://genomic.social/@liz__is)
+- Nicolas Gold, Associate Professor, UCL
+- Martin Donnelly, Principal Research Data Steward, UCL, martin.donnelly@ucl.ac.uk (whatever the emoji for being embarassed at not having read the chapter yet is)
+- Robin Dasler, data product manager, California
