@@ -58,12 +58,9 @@ So far we have read:
 
 Suggested discussion prompts:
 
-Suppose a research group at a big tech company finds that it can build a model to predict which of its users will be arrested in the next year, based on all the private user data that it stores, such as their emails and financial documents. While far from perfectly accurate, it is more accurate than any model that uses public data alone. 
-
-1. Does it seem plausible that a model like this might work in any meaningful sense? If so, what signals might it be picking up on?
-2. What laws, rules, or norms should govern companies’ ability to undertake research projects of this sort?
-3. Is there any ethical and responsible way in which technology like this can be put to use, or should we as a society reject such uses of prediction?
-4. What, if anything, prevents a company from partnering with police departments in your country to use such a predictive model for surveillance of individuals deemed high risk?
+1. The authors list 3 main criteria for good prediction use cases: real world utility, moral legitimacy and irreducible error (error that won't go away with more data and better methods). Is this list complete?
+2. Cumulative advantage implies a lot of success comes down to luck, which challenges a meritocratic world view. How do you feel about this?
+3. Social sciences focus on understanding causal mechanisms, not predicting associations as opposed to typical machine learners. What do both fields have to learn from one another?
 
 #### 16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
 
