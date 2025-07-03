@@ -49,18 +49,11 @@ If you'd like to be forwarded calendar invites to the session then you can let u
 So far we have read:
 - Chapter 1 - Introduction (34 pages)
 - Chapter 2 - How predictive AI goes wrong (24 pages)
+- Chapter 3 - Why can't AI predict the future? (39 pages)
 
 [Read the writeup so far!](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html)
 
 **Next meeting**:
-
-#### 2nd July: Chapter 3 - Why can't AI predict the future? (39 pages)
-
-Suggested discussion prompts:
-
-1. The authors list 3 main criteria for good prediction use cases: real world utility, moral legitimacy and irreducible error (error that won't go away with more data and better methods). Is this list complete?
-2. Cumulative advantage implies a lot of success comes down to luck, which challenges a meritocratic world view. How do you feel about this?
-3. Social sciences focus on understanding causal mechanisms, not predicting associations as opposed to typical machine learners. What do both fields have to learn from one another?
 
 #### 16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
 
