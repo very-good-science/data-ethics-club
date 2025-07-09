@@ -58,10 +58,11 @@ So far we have read:
 #### 16th July: Chapter 4 - The Long Road to Generative AI (51 pages)
 
 Suggested discussion prompts:
-1. Spend at least an hour using a chatbot for learning. Reflect on your experience and discuss it with your peers. What worked well, and what didn't? Do you plan to continue to use chatbots for learning?
+1. Various AI systems, such as the neural networks trying to do well in the ImageNet competitions are designed to automate something that is expensive to do on mask (e.g. label images) and where the process in doing so (e.g. labelling images) is not valuable to the humans doing it. What tasks do you see GenAI (both LLMs and image generators) being used for and how much are they being used for processes where there is value for humans performing it?
 2. Generative AI is built using the creative output of journalists, writers, photographers, artists, and others — generally without consent, credit, or compensation. Discuss the ethics of this practice. 
 How can those who want to change the system go about doing so? Can the market solve the problem, such as through licensing agreements between publishers and AI companies? What about copyright law — either interpreting existing law or by updating it? What other policy interventions might be helpful?
-3. Discuss the environmental impact of generative AI. What, if anything, is distinct about AI’s environmental impact compared to computing in general or other specific digital technologies with a large energy use such as cryptocurrency? 
+3. Discuss the environmental impact of generative AI. What, if anything, is distinct about AI’s environmental impact compared to computing in general or other specific digital technologies with a large energy use such as cryptocurrency?
+
 
 #### 23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
 
