@@ -51,18 +51,11 @@ So far we have read:
 - Chapter 2 - How predictive AI goes wrong (24 pages)
 - Chapter 3 - Why can't AI predict the future? (39 pages)
 - Chapter 4 - The Long Road to Generative AI (51 pages)
+- Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
 
 [Read the writeup so far!](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html)
 
 **Next meetings**:
-
-#### 23rd July: Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
-
-Suggested discussion prompts:
-1. The authors defined AGI as "AI that can perform most or all economically relevant tasks as effectively as any human". They noted this was a pragmatic and less philosophical definition. What do you think of this choice? What are the consequences of this definition?
-2. In AI safety policy, entrenched camps have developed, with vastly divergent views on the urgency and seriousness of catastrophic risks from AI. While research and debate are important, policymakers must make decisions in the absence of expert consensus. How should they go about this, taking into account differences in beliefs as well as values and stakeholders’ interests?
-3. How much do you think the risk is the users of AI versus the AI itself? How does this inform how we should address specific issues related to AI such as deepfakes, cybersecurity or the ability to synthesise new bioweapons?
- 
 
 #### 6th August Chapter 6 - Why can't AI fix social media? (48 pages)
 
