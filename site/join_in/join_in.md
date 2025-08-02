@@ -62,7 +62,7 @@ So far we have read:
 Suggested discussion prompts:
 1. What are the advantages and disadvantages of having a content moderation system with highly specified rules? What do you think about a content moderation system that gives more autonomy to content moderators?
 2. Of the many ills that have been blamed on recommendation algorithms, which ones could algorithmic choice conceivably combat? Which ones are structural and can’t be solved through the lens of individual empowerment?
-3. Try to form a high-level impression of how developers at Facebook think about the impacts of their platform and their responsibility (suggest skimming [the Facebook papers](https://gizmodo.com/facebook-papers-how-to-read-1848702919). What motivates them? Which of the concerns listed above seem to be supported by these documents? What do you think about the quality of the ethical reasoning in the documents? 
+3. What did you think of Mark Zuckerberg's position that the amplification of problematic content is a natural phenomenon (fig 6.6)?
 
 #### 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
 
