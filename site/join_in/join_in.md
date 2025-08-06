@@ -52,17 +52,11 @@ So far we have read:
 - Chapter 3 - Why can't AI predict the future? (39 pages)
 - Chapter 4 - The Long Road to Generative AI (51 pages)
 - Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
+- Chapter 6 - Why can't AI fix social media? (48 pages)
 
 [Read the writeup so far!](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html)
 
 **Next meetings**:
-
-#### 6th August Chapter 6 - Why can't AI fix social media? (48 pages)
-
-Suggested discussion prompts:
-1. What are the advantages and disadvantages of having a content moderation system with highly specified rules? What do you think about a content moderation system that gives more autonomy to content moderators?
-2. Of the many ills that have been blamed on recommendation algorithms, which ones could algorithmic choice conceivably combat? Which ones are structural and can’t be solved through the lens of individual empowerment?
-3. What did you think of Mark Zuckerberg's position that the amplification of problematic content is a natural phenomenon (fig 6.6)?
 
 #### 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
 
