@@ -62,7 +62,7 @@ So far we have read:
 
 Suggested discussion prompts:
 1. One difference between AI research and other kinds of research is that most AI research is purely computational, and doesn’t involve (for instance) experiments involving people or arduous measurements of physical systems. In what ways does this make it easier to have confidence in the claims of AI research? In what ways does it make it harder?
-2. What techniques do you personally use to stay grounded when you hear of seemingly amazing AI advances in the news? Discuss with your peers.
+2. The end of the chapter highlights cognitive biases present when we hear claims about AI. Which biases have you experienced? Which ones have you witnessed at data ethics club?
 3. What are some ways to improve accountability for companies making unsubstantiated claims? These could include legal remedies as well as non-legal approaches. 
 
 #### 20th August: Chapter 8 - Where do we go from here? (27 pages)
