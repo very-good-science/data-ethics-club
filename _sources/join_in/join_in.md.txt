@@ -53,24 +53,18 @@ So far we have read:
 - Chapter 4 - The Long Road to Generative AI (51 pages)
 - Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
 - Chapter 6 - Why can't AI fix social media? (48 pages)
+- Chapter 7 - Why do myths about AI persist? (31 pages)
 
 [Read the writeup so far!](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html)
 
 **Next meetings**:
 
-#### 13th August: Chapter 7 - Why do myths about AI persist? (31 pages)
-
-Suggested discussion prompts:
-1. One difference between AI research and other kinds of research is that most AI research is purely computational, and doesn’t involve (for instance) experiments involving people or arduous measurements of physical systems. In what ways does this make it easier to have confidence in the claims of AI research? In what ways does it make it harder?
-2. The end of the chapter highlights cognitive biases present when we hear claims about AI. Which biases have you experienced? Which ones have you witnessed at data ethics club?
-3. What are some ways to improve accountability for companies making unsubstantiated claims? These could include legal remedies as well as non-legal approaches. 
-
 #### 20th August: Chapter 8 - Where do we go from here? (27 pages)
 
 Suggested discussion prompts:
 1. The chapter makes the point that broken AI appeals to broken institutions. What are some examples of broken institutions enamored by other dubious technologies? Is there something about AI, as opposed to other technologies, that makes it liable to be misused this way?
-2. What impact do you think AI will have on your chosen or intended profession in the next five to ten years? What levers do we have to steer this impact in a way that is positive for society?
-3. Look up some examples of AI-related legislation or regulation recently enacted or being debated in your country. Discuss the pros and cons of specific actions and proposals, as well as the overall approach to AI policymaking.
+2. What did you think of the authors' claims that policy makers don't need to be domain experts? How does that make regulation easier or harder?
+3. What did you think of the authors' two different proposed futures at the end of the chapter? Were either scenario ideal or likely?
 
 ## Past Meetings
 
