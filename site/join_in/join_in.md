@@ -11,7 +11,10 @@ Everyone is welcome to get involved in _Data Ethics Club_, as much or as little 
 
 You don't need to be a data ethicist (we're not!), or a data scientist - having a variety of different people is how we learn from each other. It's a friendly and welcoming group and we often have new people drop by, so why not try it?  
 
-In term time, we meet every other week for one hour on Teams (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
+In term time, we meet every month for one hour on Teams (Wednesdays, 1pm, UK time) to talk about something from [the reading list](../reading-list).
+
+[Join the meeting here!](https://teams.microsoft.com/dl/launcher/launcher.html?url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_Y2RjODI1MTItMmU3Mi00NDQxLWE2ZDMtZmE4NjY2OTU5MWE3%40thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%2522%252c%2522Oid%2522%253a%2522aa665e8c-30a8-4fa9-8cc0-3863daf037ac%2522%257d%26anon%3Dtrue&type=meetup-join&deeplinkId=0e30c2e4-6584-4592-8c70-489cafbcbe8c&directDl=true&msLaunch=true&enableMobilePage=true&suppressPrompt=true)
+
 Our upcoming meeting dates are available below. 
 If you would like to get email reminders about the content and dates for the next meeting then click above to join our mailing list! You can also join the DEC Slack by clicking [here](https://join.slack.com/t/dataethicsclub/shared_invite/zt-35d7cv97m-WHTNP2N2pck2yNlnkstXYw).
 
@@ -20,57 +23,41 @@ Please read our [Code of Conduct](code-of-conduct) before attending.
 ## Upcoming meetings
 
 These are the meetings for the next academic term.  
-We will update the material and questions based on the previous weeks' vote.  
+We will update the material and questions based on the previous month's vote.  
 
 Term time meetings are held at 1pm **UK** time and last one hour.
-Summer bookclub meetings are held at **different** times, see below!
 If you are in another timezone please [use a time/date converter like this one to check your local time](https://www.timeanddate.com/worldclock/converter.html)!  
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### Summer Book Club
+### 8th October 2025 
 
-For our summer 2025 bookclub, we will be reading [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) by Arvind Narayanan and Sayash Kapoor. 
+Black history month special, material TBC
 
-On their website you can read the [first chapter online for free](https://press.princeton.edu/books/hardcover/9780691249131/ai-snake-oil#preview), see [what each chapter is about](https://www.aisnakeoil.com/i/148742314/whats-in-the-book) and see the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion) to get an idea of the kinds of conversation we might be having.
+### 12th November 2025
 
-There are 8 chapters and the exact schedule is below. We'll be meeting 4-5pm UK time on Microsoft Teams, meeting details here:
+Material TBC
 
-[Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MmNjNjliZDgtMGU0Yy00NTY1LTk3YTMtMTc3ZjJmMjMwNWYz%40thread.v2/0?context=%7b%22Tid%22%3a%22b2e47f30-cd7d-4a4e-a5da-b18cf1a4151b%22%2c%22Oid%22%3a%22aa665e8c-30a8-4fa9-8cc0-3863daf037ac%22%7d)
+### 10th December 2025
 
-Meeting ID: 366 067 928 085 8
+Material TBC
 
-Passcode: 9hw7zS3e
+### 14th January 2026
 
-If you'd like to be forwarded calendar invites to the session then you can let us know via email or by commenting on [the Slack thread](https://dataethicsclub.slack.com/archives/C03FQTJHEGZ/p1737979432534019).
+Material TBC
 
-*Discussion prompts below taken from the [suggested exercises and discussion prompts by the authors](https://www.aisnakeoil.com/p/ai-snake-oil-exercises-and-discussion), but should be rough guidelines of discussions, not the only thing you can talk about!*
+### 11th February 2026
 
-So far we have read:
-- Chapter 1 - Introduction (34 pages)
-- Chapter 2 - How predictive AI goes wrong (24 pages)
-- Chapter 3 - Why can't AI predict the future? (39 pages)
-- Chapter 4 - The Long Road to Generative AI (51 pages)
-- Chapter 5 - Is Advanced AI an Existential Threat? (27 pages)
-- Chapter 6 - Why can't AI fix social media? (48 pages)
-- Chapter 7 - Why do myths about AI persist? (31 pages)
+Material TBC
 
-[Read the writeup so far!](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html)
-
-**Next meetings**:
-
-#### 20th August: Chapter 8 - Where do we go from here? (27 pages)
-
-Suggested discussion prompts:
-1. The chapter makes the point that broken AI appeals to broken institutions. What are some examples of broken institutions enamored by other dubious technologies? Is there something about AI, as opposed to other technologies, that makes it liable to be misused this way?
-2. What did you think of the authors' claims that policy makers don't need to be domain experts? How does that make regulation easier or harder?
-3. What did you think of the authors' two different proposed futures at the end of the chapter? Were either scenario ideal or likely?
+...more dates to follow!
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| Summer Bookclub 2025 | [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) | [Read the writeup so far!](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html) |
 | 30.04.2025, 1pm | [UK announces AI funding for teachers: how this technology could change the profession](https://theconversation.com/uk-announces-ai-funding-for-teachers-how-this-technology-could-change-the-profession-217149) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-30_writeup.html) |
 | 16.04.2025, 1pm | [Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-21823-3) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-16_writeup.html) |
 | 02.04.2025, 1pm | [The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry](https://link.springer.com/article/10.1007/s11023-017-9445-2) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-02_writeup.html) |
