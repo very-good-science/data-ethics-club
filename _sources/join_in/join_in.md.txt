@@ -30,9 +30,11 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 8th October 2025 
+### 8th October 2025 - Black History Month
 
-Black history month special, material TBC
+Material: [Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection: Crash Course Statistics](https://www.youtube.com/watch?v=CzNANZnoiRs)
+
+Discussion prompts TBC
 
 ### 12th November 2025
 
