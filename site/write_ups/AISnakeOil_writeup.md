@@ -92,16 +92,6 @@ To highlight the problems with applying AI, we considered the difference between
 
 Distinguishing between the technology itself and the people behind it is increasingly tricky, as the people behind it are [increasingly distanced and invisibilised from the tool itself](https://dl.acm.org/doi/10.1145/3630106.3658543).
 
-## Attendees
-
-- Huw Day, Data Scientist, University of Bristol: [LinkedIn](https://www.linkedin.com/in/huw-day/), [BlueSky](https://bsky.app/profile/huwwday.bsky.social)
-- [Jessica Woodgate](https://jessica-woodgate.github.io/), PhD Student, University of Bristol
-- Liz Ing-Simmons, Research Software Engineer, King's College London: [Mastodon](https://genomic.social/@liz__is) 👩‍💻
-- Vanessa Hanschke, Lecturer, University College London
-- Julie-M. Bourgognon, Lecturer in neurosciences, University of Glasgow
-- Euan Bennet, Lecturer, University of Glasgow: [LinkedIn](https://www.linkedin.com/in/euanbennet/), [BlueSky](https://bsky.app/profile/dreuanbennet.bsky.social)
-- Paul Matthews, Lecturer, UWE Bristol [BlueSky](https://bsky.app/profile/paulusm.jellytussle.org), [Mastodon](https://scholar.social/@paulusm)
-
 # Chapter 2 - How predictive AI goes wrong
 
 ## Chapter Summary
@@ -153,17 +143,6 @@ We weren’t sure which fields automated hiring tools are currently being used i
 People gaming automated systems may change the systems themselves, depending on how and what the algorithms are learning. For instance, hiring algorithms may learn to favour people who figured out how to game them and thereby further incentivise those behaviours. Gaming the system can push things towards homogeneity, which we have seen in other applications such as TikTok, where monetisation depends on the length of engagement and so videos tend towards a minimum length.
 
 As AI is adopted by both hirers and applicants, a feedback loop is formed where LLMs are used to write and apply for jobs, other AI systems sift through the applications, and each side learns to game the other. Increasing dependence on LLMs will lead to more mistakes: [LLMs are producing less and less accurate results](https://www.newscientist.com/article/2479545-ai-hallucinations-are-getting-worse-and-theyre-here-to-stay/), and are [shown to repeatedly hallucinate and backtrack](https://amandaguinzburg.substack.com/p/diabolus-ex-machina). It is important that society finds ways to resist slipping into homogeneity and error-strewn information as a consequence of LLM overuse.
-
-## Attendees
-
-- Huw Day, Data Scientist, University of Bristol: [LinkedIn](https://www.linkedin.com/in/huw-day/), [BlueSky](https://bsky.app/profile/huwwday.bsky.social)
-- Julie-M Bourgognon, Lecturer, University of Glasgow
-- Vanessa Hanschke, Lecturer, University College London
-- Paul Matthews, Lecturer, UWE Bristol 🦣 https://scholar.social/@paulusm
-- Liz Ing-Simmons, Research software engineer, King's College London (my day: :hot_face: (it's too hot here!)) | [Mastodon](https://genomic.social/@liz__is)
-- Nicolas Gold, Associate Professor, UCL
-- Martin Donnelly, Principal Research Data Steward, UCL, martin.donnelly@ucl.ac.uk (whatever the emoji for being embarassed at not having read the chapter yet is)
-- Robin Dasler, data product manager, California
 
 # Chapter 3 - Why can’t AI predict the future?
 
@@ -218,15 +197,6 @@ To delineate (in)appropriate uses for generative AI we need to be clear about wh
 ### What change would you like to see on the basis of this piece? Who has the power to make that change?
 
 Limitations to ML methods entail that when approaching a problem, it is important to ask if ML is actually the appropriate tool to use, or if there is a faster and cheaper way. In the book, the examples of successful predictive models were interpretable mathematical models and the ML examples either failed or were worse than “simpler” models. We wondered if there are any examples of ML models that work, and work better than simpler models. The lack of examples of successful ML may be because [ML is a (relatively) young field](https://machinelearningmodels.org/the-evolution-of-machine-learning-a-brief-history-and-timeline/). ML may become increasingly better than simpler models as the field matures.
-
-## Attendees
-
-- Huw Day, Data Scientist, University of Bristol: [LinkedIn](https://www.linkedin.com/in/huw-day/), [BlueSky](https://bsky.app/profile/huwwday.bsky.social)
-- [Jessica Woodgate](https://jessica-woodgate.github.io/), PhD Student, University of Bristol
-- Euan Bennet, Lecturer, University of Glasgow, [LinkedIn](https://www.linkedin.com/in/euanbennet/), [BlueSky](https://bsky.app/profile/dreuanbennet.bsky.social)
-- Virginia Scarlett, Open Source Programs Specialist, UC Santa Barbara
-- [Robin Dasler](https://linkedin.com/in/robindasler), data product manager on hiatus, California 
--Julie-M. Bourgognon, lecturer, University of Glasgow
 
 # Chapter 4 - The Long Road to Generative AI
 
@@ -357,6 +327,59 @@ AI does make mistakes, but we think it will continue to improve as development p
 
 At the scale of AI use within organisations, we do think it will be possible to turn it off or stop using it. We wondered what the ethical route is if you realise your company is causing harm; whether you just stop working and let others take over, or if it is possible to switch paths and keep doing the work in a more ethical way. For individuals, we think that stopping usage of AI might be harder, depending on what their skills are and how comfortable they are with the technology.
 
+# Chapter 6 - Why can’t AI fix social media?
+
+## Chapter Summary
+
+Social media platforms face a dilemma: they need to protect free expression without facilitating misinformation, election interference, and harmful content. Content moderation is arguably the primary product of a social media platform, as the other technical features of platforms are easy to re-create. Good moderation is fundamental to building communities, which are what differentiates one platform from another. Moderation work is mostly done by hundreds of thousands of invisible, low-wage workers who must trawl through hours of traumatic and violent footage to ensure the rest of us don’t see it. Rather than the platforms themselves employing moderation workers, third-party outsourcing firms are used, which distances companies from the labour used to maintain them.
+
+Many instances of inappropriate content are subtle and contextual; things that a human would see but are hard to label in training data. Yet, the role of a human moderator is heavily prescribed; platforms like Facebook provide a colossal set of rules to moderators, designed to strip out much of the room for judgment and nuance, and attempting to cover every situation that might arise. 
+AI has been heralded as a solution to this under-valued and vital work and is used today to scan posts for policy violations. The level of detail that already exists in the rules for moderators makes it feasible for AI to automate increasing proportions of moderation work, but the implicitness of inappropriateness means that content moderation will always be a hard task. Definitions of appropriateness are dynamic and can change rapidly over time and between places.
+
+The accuracy and resources put into content moderation are heavily biased towards certain parts of the world. In Myanma, the [Rohingya genocide was fuelled by communications over Facebook](https://www.amnesty.org/en/latest/news/2022/09/myanmar-facebooks-systems-promoted-violence-against-rohingya-meta-owes-reparations-new-report/). Facebook admitted that at the time of the genocide, it only employed one Burmese-speaking moderator devoted to Myanmar, who was based in Dublin. The result of the imbalanced spread of resources is that in some parts of the world like Myanmar, Ethiopia, Sri Lanka, and Afghanistan, Facebook becomes a platform for the spread of hate speech and calls to violence. Cultural nuances go unappreciated, leading to homogeneity and cultural incompetence.
+
+Attempts to regulate social media face several obstacles. [US law states that platforms can’t be held liable for what people post]( https://en.wikipedia.org/wiki/Section_230), so content moderation decisions are made based on business considerations. If platforms did have legal liability, the risk calculus would massively shift, potentially leading to over-constriction of moderation to avoid legal backlash (as has been seen in the case of copyright law). Good policy comes from open public debate, where societies have space to trade off competing social norms and draw lines defining acceptability. Setting the bounds of acceptable speech powerfully shapes public opinion and politics, and in this light, social media platforms facilitate society challenging powerful entities and normative structures. We need more debate about policy, not less; policymaking for content moderation is an essentially human activity, and it should not be automated by AI.
+
+## Discussion Summary
+
+### What are the advantages and disadvantages of having a content moderation system with highly specified rules? What do you think about a content moderation system that gives more autonomy to content moderators?
+
+Automated systems may be more effective than human workers in content moderation due to the sheer volume of content posted on social media platforms. Every day, more than [500 hours of videos are uploaded to YouTube alone](https://techjury.net/industry-analysis/how-many-videos-are-uploaded-to-youtube-a-day/); it would be extremely expensive to employ enough people to properly check all content. Content moderation is a hard task and must continuously adjust to changing dynamics. [Algospeak by Adam Aleksic](https://www.penguin.co.uk/books/468266/algospeak-by-aleksic-adam/9781529949148) is an interesting book about how social media influences the way we use language, and how people use language to game moderation algorithms.
+
+Human moderators have to follow strict rules, and computers may be faster in predicting whether a rule has been passed or failed. At Facebook, for example, there are a mountain of specified and lengthy rules defining acceptable content. Moderators must tediously check through the rules to discern whether posts are in violation. Instead of being checked by people, rules could be used to construct [decision trees](https://www.geeksforgeeks.org/machine-learning/decision-tree/), which are a form of ML. To capture complex levels of appropriateness, distinct ML models could be trained for each subarea of content. Yet, building ML is also work intensive, requiring labelling of training data for each model, or the creation of a new model for each new rule. Robust evaluative pipelines would need to be built, checking outputs and monitoring various categories of content.
+
+Alternative models of content moderation to Facebook’s rule based approach include: [Mastodon, in which moderation is applied to each server](https://docs.joinmastodon.org/admin/moderation/) (Mastodon is [federated across multiple servers](https://docs.joinmastodon.org/)); [Bluesky, where moderation happens through stackable systems rather than a central authority](https://docs.bsky.app/docs/advanced-guides/moderation); [Reddit, where each subreddit has a designated person in the role of moderator](https://redditinc.com/policies/moderator-code-of-conduct); and [Wikipedia, where volunteers work to review and edit content](https://design.wikimedia.org/blog/2020/07/30/content-moderation-anti-vandalism-wikipedia.html). With decentralised content moderation, users can be selective over what they see and what their community looks like. Generally, these platforms hold community norms as very important. For example, in Reddit there is a norm that if a user wants to change their original post, instead of directly altering the wording, they will add an edit in a separate comment underneath. 
+It is an etiquette that developed naturally out of the mechanisms of early Reddit and continues to be upheld today. 
+
+Bottom-up approaches can backfire, with [toxicity and negativity emerging](https://moderatehatespeech.com/research/reddit-toxicity-index/) in certain communities that are happy to post content that would not be tolerated elsewhere. The set up allows for strange things to take place, such as [the red pill](https://theredarchive.com/) community on Reddit which includes [radicalised misogynists](https://www.newstatesman.com/long-reads/2017/02/reddit-the-red-pill-interview-how-misogyny-spreads-online). Decentralised moderation makes it difficult to get rid of these communities; our approach is just to avoid them. 
+
+We view Reddit as a microcosm of good, bad, and everything in between. It is easy to go outside of your bubble, although some subreddits will only allow users to participate if they are a member. Being exposed to more diverse opinions often highlights grey areas of acceptability or normative violations: things that don’t match your value system but aren’t necessarily reprehensible. Reddit does have some recommendation algorithms, such as for other subreddits, the popular feed, and the trending feed from communities you’re interested in.
+
+Reddit has layered system, where there are terms of service that everyone must abide by, lead moderators in each subreddit, and any user can report any post. Reports first go to the moderators, who can heavily police people, for better or worse. If a community disagrees with the moderator, people will respond by leaving the subreddit or assembling to replace the moderator. We have seen people start up other subreddits and move the community there if they dislike the moderator of a particular topic. We’ve also seen benevolent hostile takeovers of subreddits that were toxic and have been flooded with non-toxic content. 
+
+In some senses, having users and volunteers do moderation work could be seen as the platform operators taking advantage of free labour. Reddit makes [money from advertising and premium membership plans](https://www.investopedia.com/articles/investing/093015/how-reddit-makes-money.asp), but this money does not go to moderators. However, some people do just enjoy these roles, and take pleasure from building and maintaining communities, which is perhaps payment enough. There is value in mechanisms that enable communication and community.
+
+### Of the many ills that have been blamed on recommendation algorithms, which ones could algorithmic choice conceivably combat? Which ones are structural and can’t be solved through the lens of individual empowerment?
+
+The mechanism for which content to recommend essentially comes down to that which the algorithm predicts will be most highly engaged with. As expressed by Zuckerberg, content that is engaged with most tends to be content that is provocative. This arguably stands in tension with the goal of moderation, which is to prevent unacceptable (and often, provocative content veers into the realm of unacceptability) content. Because of this tension, content moderation and recommendation perhaps should not be done in the same company. Pushing for more provocative content is always going to cause some harm, but it is an easy goal to define, easy to action, and something that makes money. Moderation algorithms, however, have much more complex goals and are much less effective. 
+
+Better content moderation might be facilitated by less powerful recommender systems. For example, the video sharing platform [Vine](https://en.wikipedia.org/wiki/Vine_(service)) recommended videos simply by whatever was most popular. With this kind of recommendation algorithm, moderation could focus on the most popular videos. It is potentially less problematic if there is bad content on the platform, but no-one is seeing it. However, the press might argue that no matter how often something comes up, if a harmful thing was there at all, it is unacceptable. If a single person is shown something about suicide that leads to them harming themselves, that is terrible enough to warrant the content being taken down.
+
+Recommender systems adapt to reflect society’s expectations, and we’ve noticed how the adverts we’re shown have changed depending on our demographic and the political landscape we’re in. Listed as female on our Google account, we noticed that when we reached 30, we started being shown lots of pregnancy related adverts. We changed our listed gender to male, and the pregnancy products were replaced with cars. Now, given the political changes underway, we’ve noticed more and more weirdness and toxicity in the adverts being shown to us, like foreign women to date or misogynistic lifestyle gurus. Those of us listed as female on Google have also been shown these kinds of adverts when watching YouTube videos on ML.
+
+Recommendation algorithms have low individual effect, but high scatter shot. We wondered if the companies paying for these adverts believe that they are accurate and that viewers will really buy their products, or whether the adverts are just so cheap to do that if there is a response from 1 in 1000 it is a success. 
+
+### What did you think of Mark Zuckerberg’s position that the amplification of problematic content is a natural phenomenon (fig 6.6, pg. 221)?
+
+Some of social media’s problems seem to be inherent and difficult to solve even if platform leaders were benevolent, but many are directly because of management decisions. Platform owners have some level of acceptable loss, and there are implicitly certain types or numbers of people that they are happy to ignore. For example, gig workers are employed through third-party companies so that platforms can purposefully distance themselves from the labour that they rely on, reducing the possibility of backlash for the way those workers are treated. Scaling up content moderation requires teams of (probably low wage) people who [spend their days looking at awful and upsetting things](https://data-workers.org/#Inquiries). The chapter explains how some parts of the world are disproportionately under-resourced for content moderation. In these cases, management have made the decision that there’s too much content to police everything, so some groups of people will miss out. Scenarios like the [Rohingya genocide in Myanmar are the result of Facebook’s wilful neglect](https://www.amnesty.org/en/latest/news/2022/09/myanmar-facebooks-systems-promoted-violence-against-rohingya-meta-owes-reparations-new-report/).
+
+Holding social media platforms to account has proven challenging; platforms are so ubiquitous that they seem to get away with almost anything without recompense.  Facebook has literally facilitated a genocide with barely any retribution; Zuckerberg even sat in front of the government, and it wasn’t catastrophic to incite change. We wondered how bad consequences have to be before something is done. There need to be stronger legal repercussions for platforms that cause harm. Legislation from the 1990s ([section 230]( https://en.wikipedia.org/wiki/Section_230)) currently protects these companies in the US by stating that they are not responsible for things that people post.
+
+Forward-thinking managers will see that good content moderation is something worth spending money on in the long run. EasyJet founder Stelios Haji-Ioannou is famously quoted as saying “[if you think safety is expensive, try an accident](https://www.asg.ed.tum.de/en/ht/teaching/safety-and-certification-of-aircraft/)”. Failure to spend enough money on safety can have catastrophic results, such as the Titanic submersible disaster. The [inquiry into the submersible found that there was too much power going to one person, who was trying to make money as well as doing safety](https://theweek.com/culture-life/personal-technology/titan-submersible-lessons). These goals fatally conflicted. However, the submersible was a physical entity that caused material damage; it is much trickier to show the direct impact of social media platforms. Harms from social media are much more diffuse, and it is easy to redirect blame by pointing to other reasons.
+
+The fact that content moderation algorithms aren’t 100% perfect invites criticism, yet perhaps this isn’t fair when humans are held to a lower standard. Machines are expected to be correct, but humans are allowed to be fallible: autonomous cars should not kill people, but we accept that humans do. [A recent court case in Florida found Tesla to be partly to blame for a fatal autopilot crash](https://www.bbc.co.uk/news/articles/c93dqpkwx4xo). 
+The accountability question is perhaps not the right question, but it is an easy one to ask. Whether it is the manufacturer, driver, or the autonomous driving system, humans want someone to blame.
+
 ### Attendees
 
 - Huw Day, Data Scientist, University of Bristol: [LinkedIn](https://www.linkedin.com/in/huw-day/), [BlueSky](https://bsky.app/profile/huwwday.bsky.social)
@@ -366,5 +389,8 @@ At the scale of AI use within organisations, we do think it will be possible to 
 - Beverly Shirkey, Medical Statistician (Clinical Trials) University of Bristol :smile: 
 - Paul Matthews, Lecturer, UWE Bristol 
 - Jessica Bowden, Research Associate, University of Bristol :cat: 
-- Robin Dasler, data product manager, California
+- [Robin Dasler](https://linkedin.com/in/robindasler), data product manager, California
 - Julie-Myrtille Bourgognon, lecturer, University of Glasgow
+- Euan Bennet, Lecturer, University of Glasgow: [LinkedIn](https://www.linkedin.com/in/euanbennet/), [BlueSky](https://bsky.app/profile/dreuanbennet.bsky.social)
+- Martin Donnelly, Principal Research Data Steward, UCL, martin.donnelly@ucl.ac.uk (whatever the emoji for being embarassed at not having read the chapter yet is)
+- Nicolas Gold, Associate Professor, UCL
