@@ -34,7 +34,10 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Material: [Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection: Crash Course Statistics](https://www.youtube.com/watch?v=CzNANZnoiRs)
 
-Discussion prompts TBC
+Discussion prompts:
+1.	What training did you receive in ethics for data collection? Had you heard any of the stories in the video before?
+2.	What are the attitudes you have witnessed/experienced towards ethical data collection? How has this varied amongst different people?
+3.	The line between “participant” and “user” for online platforms makes data collection quite blurry. How do you think research ethics should be applied in these digital spaces?
 
 ### 12th November 2025
 
