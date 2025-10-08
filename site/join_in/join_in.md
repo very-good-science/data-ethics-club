@@ -39,9 +39,11 @@ Discussion prompts:
 2.	What are the attitudes you have witnessed/experienced towards ethical data collection? How has this varied amongst different people?
 3.	The line between “participant” and “user” for online platforms makes data collection quite blurry. How do you think research ethics should be applied in these digital spaces?
 
+Writeup coming soon!
+
 ### 12th November 2025
 
-Material TBC
+Material: [Oura Wants Its Wearables to Revolutionize Pregnancy Studies](https://www.newsweek.com/oura-wants-its-wearables-revolutionize-pregnancy-studies-2053277)
 
 ### 10th December 2025
 
