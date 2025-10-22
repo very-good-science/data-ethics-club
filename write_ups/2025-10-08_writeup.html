@@ -1,0 +1,1423 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2025-10-08_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2025-10-08_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+
+
+
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+<h3>
+  <a href="write-ups.html">Recent Posts</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="AISnakeOil_writeup.html">
+      11 June - Data Ethics Club: AI Snake Oil Book Club
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-04-30_writeup.html">
+      30 April - Data Ethics Club: UK announces AI funding for teachers: how this technology could change the profession
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-04-16_writeup.html">
+      16 April - Data Ethics Club: Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-04-02_writeup.html">
+      02 April - Data Ethics Club: The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry
+    </a>
+  </li>
+  
+  <li>
+    <a href="2025-03-19_writeup.html">
+      19 March - Data Ethics Club: The Most Useful Thing AI Has Ever Done: AlphaFold
+    </a>
+  </li>
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__category">
+<h3>
+  <a href="write-ups/category.html">Categories</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/category/blog.html">Blog (7)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/bookclub.html">Bookclub (2)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/category/write-up.html">Write Up (71)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tags">
+<link rel="stylesheet" href="../_static/ablog/tagcloud.css" type="text/css" />
+<h3><a href="write-ups/tag.html">Tags</a></h3>
+<ul class="ablog-cloud">
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/agi.html">AGI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai.html">AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-applications.html">AI applications</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/alphafold.html">AlphaFold</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fair.html">FAIR</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/llms.html">LLMs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ml.html">ML</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/transparency.html">Transparency</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ableism.html">ableism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/abuse.html">abuse</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/art.html">art</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/automation.html">automation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-5">
+    <a href="write-ups/tag/bias.html">bias</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/big-tech.html">big tech</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bots.html">bots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/bullshit.html">bullshit</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/children.html">children</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/collective-action.html">collective action</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/communication.html">communication</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/computer-vision.html">computer vision</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consent.html">consent</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/consumerism.html">consumerism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/coproduction.html">coproduction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/crime.html">crime</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-feminism.html">data feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-labelling.html">data labelling</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/data-week.html">data week</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/dataethics.html">dataethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/decolonising.html">decolonising</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/digital-afterlife.html">digital afterlife</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/education.html">education</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/enshittification.html">enshittification</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/environment.html">environment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/ethics.html">ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/explainability.html">explainability</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/fairness.html">fairness</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/feminism.html">feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/gender.html">gender</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-3">
+    <a href="write-ups/tag/generativeai.html">generativeAI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/global-south.html">global south</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/google.html">google</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/group-projects.html">group projects</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hallucination.html">hallucination</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/history.html">history</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/human-like-ai.html">human-like AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/hype.html">hype</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/injustice.html">injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/labour-rights.html">labour rights</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/law.html">law</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/medicine.html">medicine</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/mental-health.html">mental health</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/metaphor.html">metaphor</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/nlp.html">nlp</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-science.html">open science</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/open-source.html">open source</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/outreach.html">outreach</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/oversight.html">oversight</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/personality-test.html">personality test</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/philosophy.html">philosophy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/policy.html">policy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/prediction.html">prediction</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/predictive-ai.html">predictive AI</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/privacy.html">privacy</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/protein-folding.html">protein folding</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/racism.html">racism</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/recruitment.html">recruitment</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-2">
+    <a href="write-ups/tag/research-ethics.html">research ethics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/resolutions.html">resolutions</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/responsibility.html">responsibility</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social.html">social</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/social-media.html">social media</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/statistics.html">statistics</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/synthetic-biology.html">synthetic biology</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/trust.html">trust</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/values.html">values</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/war.html">war</a>
+  </li>
+  
+  
+  
+  <li class="ablog-cloud ablog-cloud-1">
+    <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+<h3><a href="write-ups/author.html">Authors</a></h3>
+<ul>
+   
+  <li>
+    <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (38)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+  </li>
+    
+  <li>
+    <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+  </li>
+   
+</ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archive">
+<h3>
+  <a href="write-ups/archive.html">Archives</a>
+</h3>
+<ul>
+  
+  
+  <li>
+    <a href="write-ups/2025.html">2025 (9)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2024.html">2024 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2023.html">2023 (15)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2022.html">2022 (20)</a>
+  </li>
+  
+  
+  
+  <li>
+    <a href="write-ups/2021.html">2021 (16)</a>
+  </li>
+  
+  
+</ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+<section id="data-ethics-club-henrietta-lacks-the-tuskegee-experiment-and-ethical-data-collection">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.youtube.com/watch?v=CzNANZnoiRs">Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection</a><a class="headerlink" href="#data-ethics-club-henrietta-lacks-the-tuskegee-experiment-and-ethical-data-collection" title="Link to this heading">#</a></h1>
+<!--
+
+```{admonition} What's this? 
+This is summary of Wednesday 8th October's Data Ethics Club discussion, where we spoke and wrote about the video [Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection](https://www.youtube.com/watch?v=CzNANZnoiRs) by Adriene Hill at CrashCourse.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Huw Day helped with the final edit.
+```
+
+-->
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>The collection and interpretation of data can have long lasting effects on the subjects of data collection and influence the lives of real people, eliciting a responsibility to gather and use data ethically. The video presents 5 examples of when data collection can go wrong, and discusses how such examples can be prevented in the future.</p>
+<p>Illustrating the importance of voluntariness in data collection, <a class="reference external" href="https://en.wikipedia.org/wiki/Alexis_St._Martin">Alexis St Martin</a> was a fur trapped in the US who was accidentally shot and seriously injured. <a class="reference external" href="https://en.wikipedia.org/wiki/William_Beaumont">Dr. William Beaumont</a> healed St Martin, except for a small hole in his stomach meaning that St Martin could no longer work as a fur trapper. As Dr. Beaumont’s servant, St Martin was coerced into several experiments by dangling pieces of food into the stomach to observe digestion. The findings lead to huge strides in scientific understanding of digestion. Yet, the experiments were clearly unethical as St Martin was not able to feasibly say no to the experiments due to Beaumont holding undue power over him.</p>
+<p>Subject should also know what will happen to them during the study, as people have a right to understand all the facts relevant to their decision to participate. In 1932, the <a class="reference external" href="https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study">Tuskegee Institute ran a secret 40 year study on 600 black men</a> under the guise of free medical care. Researchers were examining the long term effects of syphilis and experimented with a range of drugs - even after it had become clear that penicillin was a highly effective treatment. In 1951, a tobacco farmer named <a class="reference external" href="https://en.wikipedia.org/wiki/Henrietta_Lacks">Henrietta Lacks</a> went to John Hopkins hospital in Maryland and had cells collected from a tumour without her knowledge or consent. The cells were used to grow a new cell line (the <a class="reference external" href="https://en.wikipedia.org/wiki/HeLa">HeLa line</a>) which scientists used for in vitro experiments, as the cells could thrive and multiply outside of her body. The HeLa line is still used today for medical research into cancer, AIDS, developing the polio vaccine, and were the first human cells to be successfully cloned. Over time, the discoveries facilitated by the HeLa cell line became extremely lucrative for researchers yet Lacks and her family have received no financial compensation. These examples illustrate the ethical issues that arise from misinforming or misleading participants. Many institutions today require that information must be presented clearly and in an appropriate way for the subject’s comprehension level, respecting their dignity and autonomy.</p>
+<p>Beneficence requires that researchers minimise the potential risk to subjects, and also that the risk should be outweighed by potential benefits to the patients and scientific community. During WWII, horrifying experiments were conducted on prisoners in Nazi concentration camps. In response, the <a class="reference external" href="https://en.wikipedia.org/wiki/Nuremberg_Code">Nuremberg Code</a> was developed after the war to lay out ten principles that modern day studies must adhere to.</p>
+<p>Research ethics in the digital age brings increasing levels of complexities. In the TV show Parks and Recreation, a company comes to the town to offer its residents free Wi-Fi. It eventually emerges that in exchange, the company is tracking everybody’s internet history and mining their data. Data mining happens all the time in everyday life, tracking our shopping habits, social media activity, and search activity. Social media platforms are profiting off our data, selling targeted ads which can sometimes be quite unethical such as by being discriminatory. The laws which protect our rights in response to the new landscape are still being developed, raising questions about privacy, coercion, informed consent, and reasonably clear explanations. Many use social media platforms because we may feel that there is no better option, without having proper understanding of what that use entails and how our interaction with it is profited off.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="what-training-did-you-receive-in-ethics-for-data-collection-had-you-heard-any-of-the-stories-in-the-video-before">
+<h3>What training did you receive in ethics for data collection? Had you heard any of the stories in the video before?<a class="headerlink" href="#what-training-did-you-receive-in-ethics-for-data-collection-had-you-heard-any-of-the-stories-in-the-video-before" title="Link to this heading">#</a></h3>
+<p>Some of us have had little to no training in data collection or ethics for data collection. During our biology degree, there was one class about medical ethics which wasn’t even compulsory and did not cover data collection and research ethics. We were not taught about how to approach research involving humans, or what to do if an ethical question arose, which left us feeling a bit underprepared when we moved into research roles. Some have received training on a very theoretical level with no clear outline of how to address the ethical issues inherent to data collection, such as the range of biases that can creep in. Some haven’t had to carry out data collection ourselves, but have often received data without being encouraged to examine where that data has come from. This draws parallels with the Henrietta Lacks case, whose data has been widely used for many applications without much attention on where the cells originally came from.</p>
+<p>Others have had data collection training in clinical settings and quite intensive ethics training in anthropology. Ethics is especially emphasised in anthropology due to the colonial history of the discipline. A few of the examples in the video have been included in our training or we have come across them separately. In our statistics education, we did not have much data collection ethics training, but when later working in pharmaceuticals we were given rigorous frameworks and were exposed to more legal considerations.</p>
+<p>Moving from pharmaceuticals to technology development, ethics was maybe in peoples’ minds but was not explicitly prioritised. Ethics tended to be held as a shared responsibility for everybody to listen and give space to the views of different team members. We’ve found that in practice, ethics is not something that is always considered; in one project, we’ve had to have ethics catch ups with people to make sure that those whose data is being collected are centred. Participants in this project had a great deal of mistrust and felt that they were having research done “to them”, not for them. Broken trust is very difficult to rebuild, and reputational damage is a real hazard to be aware of.</p>
+<p>Ensuring that participants’ rights are front and centre of research is crucial to earning trust, yet tensions can sometimes arise between different rights that are difficult to navigate. For example, the right to drop out of a survey can sometimes violate the right to be anonymous. If a patient asks to drop out of a survey, but their records aren’t linked to their names or any identifying information, we cannot remove them. The right to anonymity can also impinge the right to healthcare; in the case of anonymous data collection for rare diseases, if a cure for a particular person is discovered, anonymity may prevent the person from being directly provided the cure.</p>
+<p>Anonymity can be challenging to guarantee. People have spotted themselves (or others) in data analytic reports due to unique combinations of symptoms. If there are enough features about a person, such as sexuality, demographic, and disability, it becomes possible to identify them even without their name.</p>
+<p>The issue with breaking anonymity by including too much information about someone comes in conflict with the desire to represent a diverse range of people from different demographics. Demographics can influence the generalisability of findings in important ways. We have conducted research in specific regions where the breakdown of ethnicities may mean that any findings are specific to there and not applicable to other places.</p>
+<p>Attitudes towards anonymity have changed significantly over time. Historically, researchers would write about a patient and might name them. Today, patients are asked for consent if a picture of their heart taken during surgery is to be used in a scientific article. Henrietta Lacks could have been anonymous, and her cells could have been acquired with ethics and consent, but she wasn’t offered this or even told she was participating. Given that Lacks’ identity was known, she also didn’t receive the support she needed and is a crude case of exploitation.</p>
+<p>If researchers do not or cannot ask participants whether they want to be identified, it should be assumed that participants want to remain anonymous. It may be the case that researchers do not want participants to be able to identify themselves, for example, psychiatric patients who may disagree with what practitioners have written about them. We might not even know that we don’t want to read something about ourselves (such as psychiatric reports). Sometimes it may not be possible to ask participants, in which case anonymity is the safer and more ethical option – however, researchers should do their best to ask.</p>
+<p>Whilst anonymity is an appropriate default to preserve autonomy and human dignity, participants should be given the choice not to be known and there are interesting situations where people may want to give up their anonymity. In the social sciences, people may want recognition for their work or insight. It may sometimes be important for participants to be able to give constructive feedback. A key pillar of data feminism is <a class="reference external" href="https://dataethicsclub.com/write_ups/DataFeminism_writeup.html#data-feminism-chapter-7-show-your-work">appropriately acknowledging everybody involved in the research process</a>. An extreme example of this is the janitor that supposedly <a class="reference external" href="https://fromthegreennotebook.com/2017/11/04/the-janitor-who-help-put-a-man-on-the-moon/">told JFK “I’m helping put a man on the moon”</a>. Figuring out the limits of who should be acknowledged is challenging; we should at least try to acknowledge people whose body contributes to things.</p>
+</section>
+<section id="what-are-the-attitude-you-have-witnessed-experienced-towards-ethical-data-collection-how-has-this-varied-amongst-different-people">
+<h3>What are the attitude you have witnessed/experienced towards ethical data collection? How has this varied amongst different people?<a class="headerlink" href="#what-are-the-attitude-you-have-witnessed-experienced-towards-ethical-data-collection-how-has-this-varied-amongst-different-people" title="Link to this heading">#</a></h3>
+<p>Depending on where you are, different institutions can think about ethics differently. When working on a study involving student participants with collaborators in the USA, the ethics board was not worried about how data collection was handled if the students weren’t at their university. We’ve also noticed a diffusion of data types and how data is handled when moving from the state level (e.g. hospitals) to the non-state (e.g. gardening groups), where there are blurred lines between research and service. For example, when asking participants about mental health, researchers are required to adhere to strict ethical standards. Administrative staff from hospitals, however, may ask very intrusive questions without having the same level of ethics training.</p>
+<p>Across different settings and backgrounds, people may have diverse ethics “languages”. Structured learning would be beneficial to help people bridge definitional gaps and communicate better with one another. Depending on who you are talking to, different people can see different opportunities behind ethical conversations and the kinds of questions that should be asked. Often, we’ve found that people are very keen to learn about ethics but don’t know how to go about it.</p>
+<p>Approaches to ethics showcases different points of view in society, where some find it interesting, and others find it anti-innovation and bureaucratic. Some practitioners believe that ethics slows things down and runs behind everything else, seeing it as a “nice to have” and not a “must have”. Ethics processes can be institutionalised, putting ethics into a (usually linguistically) marked box, which can result in people viewing it as an intrusion. Scientific progress is a necessity, and there is a feeling that you “can’t make an enemy of the good”.</p>
+<p>People often get switched off when talking about ethics, seeing it as red tape. Often, people are uninterested in ethics because they think it’s too theoretical without enough action. This illuminates a gap in education, where people aren’t being taught about how ethics can be applicable to them, but rather being presented it as something quite abstract. Ethics can be pretty dry when taught in the abstract, and educators need to make it mean something to people. Rather than just talking about ethics, people should actually be doing things to make change happen.</p>
+<p>The gap between theoretical ethical discussions and making change happen is exacerbated by the “black boxing” effect, where people just look at their part of the pipeline without seeing where data comes from, or where it goes afterwards. Bystander syndrome has a big impact on people failing to step in or question the data collection process. Ethical considerations are offloaded to others, who offload it again, meaning that nobody takes accountability. It’s important to get people to think about the ultimate purpose of the data they’re collecting or working with, what is the end goal, and what is the application.</p>
+<p>Whilst it is important to adopt a wider perspective, it is not easy to foresee how research will evolve over longer time scales. Even if doctors had obtained Lacks’ consent, it wouldn’t have been possible for them to inform Lacks about everything that would happen with her cells. Similarly, data collection that happens today may be innocuous, but it is difficult to say where it could go and what might happen to it; what the unpredictable systemic effects will be. Consent is not a strong enough regulatory tool to encompass all of these possibilities.</p>
+<p>Lots of the stories in the video present a tension between ethical frameworks or obtaining proper consent, and scientific progress. Before Henrietta Lacks, biological culture had never been taken and grown. Now, HeLa can be used for all sorts of applications that couldn’t have been previously imagined. Lacks’ cells being taken, used, and found to be immortal, was a series of happenchance. If cancer cells are taken by the NHS today, they are destroyed. The gastric example of Dr Beaumont and Alexis St Martin highlights a similar tension between ethics, consent, and scientific progress. We wondered if people are entitled to their own bodily materials – we never sign an informed consent document when we get our hair cut!</p>
+<p>When thinking through ethical implications of a study, researchers should take a step back to look from a system level at where things may go. Perhaps the process should have more emphasis on being inquisitive with the data that we receive. A systems perspective should cover who is being included; often the least “fixable” populations are the ones that get the least research, creating self-reinforcing cycles. From a participant perspective, we often don’t see the outcomes of data we have volunteered for research or told what the greater purpose of it is.</p>
+<p>Being kept in the dark about research outcomes may make people less likely to want to volunteer to participate. We perhaps should be better at showing and communicating outcomes to ensure that people are kept informed about research progression. Transparency about how people are using data helps everybody involved learn about it, as participants can see how scientific practice unfolds, and researchers are kept in touch with a broader perspective of the wider system they are operating within. Proper communication of research comes down to funding, as money is needed to disseminate research in ways that make it accessible.</p>
+</section>
+<section id="the-line-between-participant-and-user-for-online-platforms-makes-data-collection-quite-blurry-how-do-you-think-research-ethics-should-be-applied-in-these-digital-spaces">
+<h3>The line between “participant” and “user” for online platforms makes data collection quite blurry. How do you think research ethics should be applied in these digital spaces?<a class="headerlink" href="#the-line-between-participant-and-user-for-online-platforms-makes-data-collection-quite-blurry-how-do-you-think-research-ethics-should-be-applied-in-these-digital-spaces" title="Link to this heading">#</a></h3>
+<p>The video was made almost 8 years ago, and it would be interesting to see how it would be different if it was made today. Things have changed a lot in the past 8 years, particularly in digital spaces such as the handling of privacy, the sorts of data sources being captured, the kinds of data that we are interacting with, and the regulation that exists for data handling. We’ve seen that regulation doesn’t always lead to ethical behaviour, but ethics can help to improve regulation.</p>
+<p>Investigating the nuances of research ethics in digital spaces is aided by looking to other domains where ethics is complex and consent can be ambiguous. A lot of the time, anthropological research involves working with people who may be illiterate or unable to understand consent under the western perspective. In anthropological training, consent is seen as a legalistic protection of the institution but separate from ethics. These days, data law is very complex, and it seems impossible for consent to be both understandable and rigorous enough to cover all the cases it should cover. There seems to be a trade-off between being understandable and being comprehensive.</p>
+<p>The handling of data by research in general, but especially in the digital era, is not always operated under the mindset of asking what could go wrong but instead tends towards thinking positively and in terms of opportunities. People would rather have a bad something than a good nothing, and there is a pressure to be productive with the data that we have access to. Emphasis on production and advancement can bypass proper ethical assessment, as people are encouraged to move fast rather than to think about how not to break things. Looking at things retrospectively makes it easier to identify what went wrong and how, but it can be difficult to see where all the hazards are in the moment. We may learn about famous disasters, and recognise the mistakes that were made, but it is difficult for people to envision themselves making those same mistakes. It’s possible for people to get things really wrong, but without intending to be evil or do bad science.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, PhD Student, University of Bristol</p></li>
+<li><p><a class="reference external" href="https://github.com/Lextuga007">Zoë Turner</a>, Data Scientist, NHS 😃</p></li>
+<li><p>Rosie Jones McVey, Anthropologist, Uni of Exeter.</p></li>
+<li><p>Chiara Singh, Research Development Associate, University of Bristol, https://www.linkedin.com/in/chiara-singh2020/</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/tim-binding/">Tim Binding</a>, Data Scientist, Plymouth City Council</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/naomi-cornish-b7aa8534a/">Naomi Cornish</a>, PhD student, University of Bristol</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+  
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-training-did-you-receive-in-ethics-for-data-collection-had-you-heard-any-of-the-stories-in-the-video-before">What training did you receive in ethics for data collection? Had you heard any of the stories in the video before?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-the-attitude-you-have-witnessed-experienced-towards-ethical-data-collection-how-has-this-varied-amongst-different-people">What are the attitude you have witnessed/experienced towards ethical data collection? How has this varied amongst different people?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-line-between-participant-and-user-for-online-platforms-makes-data-collection-quite-blurry-how-do-you-think-research-ethics-should-be-applied-in-these-digital-spaces">The line between “participant” and “user” for online platforms makes data collection quite blurry. How do you think research ethics should be applied in these digital spaces?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2025-10-08_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/write_ups/2025-10-08_writeup.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
