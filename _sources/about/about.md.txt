@@ -8,7 +8,7 @@ organising.md
 Data Ethics Club Paper <https://doi.org/10.1016/j.patter.2022.100537>
 ```
 
-_Data Ethics Club_ is a discussion group that started in January 2020 and now meets reguarly to talk about new and enduring issues in the world of data ethics. 
+_Data Ethics Club_ is a discussion group that started in January 2021 and now meets reguarly to talk about new and enduring issues in the world of data ethics. 
 
 Everyone is welcome to get involved in Data Ethics Club, as much or as little as you’d like to! We would love to hear your point of view at our discussion groups, to have your support in organising or running a meeting, or to add your contributions to our reading list.
 
