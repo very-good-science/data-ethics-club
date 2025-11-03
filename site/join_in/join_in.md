@@ -49,7 +49,7 @@ Material: [Oura Wants Its Wearables to Revolutionize Pregnancy Studies](https://
 
 Material TBC
 
-### 14th January 2026
+### 21st January 2026
 
 Material TBC
 
