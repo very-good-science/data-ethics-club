@@ -1,3 +1,11 @@
+---
+blogpost: true
+date: November 11th, 2025
+author: Jessica Woodgate
+category: Blog
+tags: data centres, environmental impact, AI, big tech
+---
+
 # Datacentres in the UK
 ```{admonition} What's this? 
 This is a free standing blogpost which is an overview of datacentres in the UK, written by Jessica Woodgate. Huw Day helped with the final edit.
