@@ -1,7 +1,6 @@
 # Datacentres in the UK
 ```{admonition} What's this? 
-This is an overview of datacentres in the UK.
-The summary was written by Jessica Woodgate and Huw Day helped with the final edit.
+This is a free standing blogpost which is an overview of datacentres in the UK, written by Jessica Woodgate. Huw Day helped with the final edit.
 ```
 
 Datacentres are the physical infrastructure that house the computing and networking equipment (primarily servers) used to store, process, and share data across private and public sectors[1]. Today, every email sent, online search made, or webpage scrolled is processed in a datacentre, making most jobs in the UK is reliant on them[2]. This blog post gives an overview of the datacentre industry in the UK, including the impact of datacentres on the economy, the environment, and communities.
