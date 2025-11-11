@@ -45,6 +45,12 @@ Writeup coming soon!
 
 Material: [Oura Wants Its Wearables to Revolutionize Pregnancy Studies](https://www.newsweek.com/oura-wants-its-wearables-revolutionize-pregnancy-studies-2053277)
 
+Discussion prompts:
+
+1. What are the downsides of retrospective studies?
+2. While the ring has been positioned as a ‘life style’ ring rather than one with a medical purpose, how might growing health research and study initiatives (like the article shared for discussion) challenge that positioning, and how may that affect user perception and interaction with the ring?
+3. Oura rings are expensive (starting cost $299, with monthly costs for data access)! How will this affect data availability across demographics?
+
 ### 10th December 2025
 
 Material TBC
