@@ -39,8 +39,6 @@ Discussion prompts:
 2.	What are the attitudes you have witnessed/experienced towards ethical data collection? How has this varied amongst different people?
 3.	The line between “participant” and “user” for online platforms makes data collection quite blurry. How do you think research ethics should be applied in these digital spaces?
 
-Writeup coming soon!
-
 ### 12th November 2025
 
 Material: [Oura Wants Its Wearables to Revolutionize Pregnancy Studies](https://www.newsweek.com/oura-wants-its-wearables-revolutionize-pregnancy-studies-2053277)
@@ -51,9 +49,13 @@ Discussion prompts:
 2. While the ring has been positioned as a ‘life style’ ring rather than one with a medical purpose, how might growing health research and study initiatives (like the article shared for discussion) challenge that positioning, and how may that affect user perception and interaction with the ring?
 3. Oura rings are expensive (starting cost $299, with monthly costs for data access)! How will this affect data availability across demographics?
 
-### 10th December 2025
+Writeup coming soon!
 
-Material TBC
+### 3rd December 2025
+
+Material: [AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking](https://www.mdpi.com/2075-4698/15/1/6#:~:text=Zhai%20et%20al.%20%5B25%5D,to%20offload%20essential%20cognitive%20tasks)
+
+Discussion prompts TBC
 
 ### 21st January 2026
 
