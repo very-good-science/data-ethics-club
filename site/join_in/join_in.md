@@ -55,7 +55,11 @@ Writeup coming soon!
 
 Material: [AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking](https://www.mdpi.com/2075-4698/15/1/6#:~:text=Zhai%20et%20al.%20%5B25%5D,to%20offload%20essential%20cognitive%20tasks)
 
-Discussion prompts TBC
+Discussion prompts:
+
+1. What did you think of the paper's claims "Higher AI tool usage is associated with reduced critical thinking skills" and "Cognitive offloading mediates the relationship between AI tool usage and critical thinking skills."?
+2. Is this a problem of lack of critical appraisal/over-trust in AI output, or is it more generally we don’t critically appraise enough?
+3. There’s a lot of associations in the paper, but is there much evidence in there of causal relationship?
 
 ### 21st January 2026
 
