@@ -30,37 +30,6 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 8th October 2025 - Black History Month
-
-Material: [Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection: Crash Course Statistics](https://www.youtube.com/watch?v=CzNANZnoiRs)
-
-Discussion prompts:
-1.	What training did you receive in ethics for data collection? Had you heard any of the stories in the video before?
-2.	What are the attitudes you have witnessed/experienced towards ethical data collection? How has this varied amongst different people?
-3.	The line between “participant” and “user” for online platforms makes data collection quite blurry. How do you think research ethics should be applied in these digital spaces?
-
-### 12th November 2025
-
-Material: [Oura Wants Its Wearables to Revolutionize Pregnancy Studies](https://www.newsweek.com/oura-wants-its-wearables-revolutionize-pregnancy-studies-2053277)
-
-Discussion prompts:
-
-1. What are the downsides of retrospective studies?
-2. While the ring has been positioned as a ‘life style’ ring rather than one with a medical purpose, how might growing health research and study initiatives (like the article shared for discussion) challenge that positioning, and how may that affect user perception and interaction with the ring?
-3. Oura rings are expensive (starting cost $299, with monthly costs for data access)! How will this affect data availability across demographics?
-
-Writeup coming soon!
-
-### 3rd December 2025
-
-Material: [AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking](https://www.mdpi.com/2075-4698/15/1/6#:~:text=Zhai%20et%20al.%20%5B25%5D,to%20offload%20essential%20cognitive%20tasks)
-
-Discussion prompts:
-
-1. What did you think of the paper's claims "Higher AI tool usage is associated with reduced critical thinking skills" and "Cognitive offloading mediates the relationship between AI tool usage and critical thinking skills."?
-2. Is this a problem of lack of critical appraisal/over-trust in AI output, or is it more generally we don’t critically appraise enough?
-3. There’s a lot of associations in the paper, but is there much evidence in there of causal relationship?
-
 ### 21st January 2026
 
 Material TBC
@@ -76,7 +45,10 @@ Material TBC
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| Summer Bookclub 2025 | [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) | [Read the writeup so far!](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html) |
+| 03.12.2025 | [AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking](https://www.mdpi.com/2075-4698/15/1/6#:~:text=Zhai%20et%20al.%20%5B25%5D,to%20offload%20essential%20cognitive%20tasks) | Writeup coming soon! |
+| 12.11.2025 | [Oura Wants Its Wearables to Revolutionize Pregnancy Studies](https://www.newsweek.com/oura-wants-its-wearables-revolutionize-pregnancy-studies-2053277) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-11-12_writeup.html) |
+| 08.10.2025 | [Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection: Crash Course Statistics](https://www.youtube.com/watch?v=CzNANZnoiRs) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-10-08_writeup.html) |
+| Summer Bookclub 2025 | [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) | [Read the writeup](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html) |
 | 30.04.2025, 1pm | [UK announces AI funding for teachers: how this technology could change the profession](https://theconversation.com/uk-announces-ai-funding-for-teachers-how-this-technology-could-change-the-profession-217149) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-30_writeup.html) |
 | 16.04.2025, 1pm | [Understanding and supporting the mental health and professional quality of life of academic mental health researchers: results from a cross-sectional survey](https://bmcpublichealth.biomedcentral.com/articles/10.1186/s12889-025-21823-3) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-16_writeup.html) |
 | 02.04.2025, 1pm | [The Political Economy of Death in the Age of Information: A Critical Approach to the Digital Afterlife Industry](https://link.springer.com/article/10.1007/s11023-017-9445-2) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-04-02_writeup.html) |
