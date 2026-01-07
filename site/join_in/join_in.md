@@ -38,9 +38,13 @@ Discussion Prompts: TBC
 
 ### 11th February 2026
 
-Material TBC
+### 11th March 2026
 
-...more dates to follow!
+### 8th April 2026 
+
+### 13th May 2026
+
+### 10th June 2026
 
 ## Past Meetings
 
