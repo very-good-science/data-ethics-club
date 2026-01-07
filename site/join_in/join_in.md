@@ -32,7 +32,9 @@ If you are in another timezone please [use a time/date converter like this one t
 
 ### 21st January 2026
 
-Material TBC
+Material: [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549)
+
+Discussion Prompts: TBC
 
 ### 11th February 2026
 
