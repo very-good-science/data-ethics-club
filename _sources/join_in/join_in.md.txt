@@ -39,9 +39,13 @@ Discussion Prompts:
 - **Q2**: How much are debates/misunderstandings on data centre power useage polarised by existing positions on environmental issues/generative AI?
 - **Q3**: How should academics handle these sorts of disagreements?
 
+Writeup coming soon!
+
 ### 11th February 2026
 
-Material: TBD!
+Material: [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z)
+
+Discussion Prompts: TBD
 
 ### 11th March 2026
 
