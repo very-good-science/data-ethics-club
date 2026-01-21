@@ -34,7 +34,10 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Material: [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549)
 
-Discussion Prompts: TBC
+Discussion Prompts: 
+- **Q1**: Do you think that power usage by data centres should be made public record? Is this practical?
+- **Q2**: How much are debates/misunderstandings on data centre power useage polarised by existing positions on generative AI?
+- **Q3**: How should academics handle these sorts of disagreements?
 
 ### 11th February 2026
 
