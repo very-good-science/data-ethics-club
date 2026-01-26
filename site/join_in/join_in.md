@@ -30,17 +30,6 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 21st January 2026
-
-Material: [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549)
-
-Discussion Prompts: 
-- **Q1**: Do you think that power usage by data centres should be made public record? Is this practical?
-- **Q2**: How much are debates/misunderstandings on data centre power useage polarised by existing positions on environmental issues/generative AI?
-- **Q3**: How should academics handle these sorts of disagreements?
-
-Writeup coming soon!
-
 ### 11th February 2026
 
 Material: [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z)
@@ -60,7 +49,8 @@ Discussion Prompts: TBD
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| 03.12.2025 | [AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking](https://www.mdpi.com/2075-4698/15/1/6#:~:text=Zhai%20et%20al.%20%5B25%5D,to%20offload%20essential%20cognitive%20tasks) | Writeup coming soon! |
+| 21.01.2026 | [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549) | Writeup coming soon! |
+| 03.12.2025 | [AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking](https://www.mdpi.com/2075-4698/15/1/6#:~:text=Zhai%20et%20al.%20%5B25%5D,to%20offload%20essential%20cognitive%20tasks) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-12-03_writeup.html) |
 | 12.11.2025 | [Oura Wants Its Wearables to Revolutionize Pregnancy Studies](https://www.newsweek.com/oura-wants-its-wearables-revolutionize-pregnancy-studies-2053277) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-11-12_writeup.html) |
 | 08.10.2025 | [Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection: Crash Course Statistics](https://www.youtube.com/watch?v=CzNANZnoiRs) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-10-08_writeup.html) |
 | Summer Bookclub 2025 | [AI Snake Oil: What artificial intelligence can do, what it can't and how to tell the difference](https://www.aisnakeoil.com/p/starting-reading-the-ai-snake-oil) | [Read the writeup](https://dataethicsclub.com/write_ups/AISnakeOil_writeup.html) |
