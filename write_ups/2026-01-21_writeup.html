@@ -1,0 +1,1315 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024) &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2026-01-21_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2026-01-21_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />   
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+   
+  <h2>
+     
+    <i class="fa fa-calendar"></i>
+    
+    <span>21 January 2026</span>
+    
+  </h2>
+  <ul>
+    <div class="ablog-sidebar-item ablog__postcard2">
+   
+  <li id="ablog-sidebar-item author ablog__author">
+    <span>
+      
+      <i class="fa-fw fa fa-user"></i>
+      
+    </span>
+     
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+      
+  </li>
+     
+  <li id="ablog-sidebar-item category ablog__category">
+    <span>
+      
+      <i class="fa-fw fa fa-folder-open"></i>
+      
+    </span>
+     
+    <a href="write-ups/category/write-up.html">Write Up</a>
+      
+  </li>
+   
+  <li id="ablog-sidebar-item tags ablog__tags">
+    <span>
+       
+      <i class="fa-fw fa fa-tags"></i>
+       
+    </span>
+     
+    <a href="write-ups/tag/datacentres.html">datacentres</a>
+        
+    <a href="write-ups/tag/sustainability.html">sustainability</a>
+        
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+        
+    <a href="write-ups/tag/statistics.html">statistics</a>
+      
+  </li>
+   
+</div>
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+  <h3>
+    <a href="write-ups.html">Recent Posts</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="2025-12-03_writeup.html">
+        03 December - Data Ethics Club: AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-11-12_writeup.html">
+        12 November - Data Ethics Club: Oura Wants Its Wearables to Revolutionize Pregnancy Studies
+      </a>
+    </li>
+    
+    <li>
+      <a href="datacentres.html">
+        11 November - Datacentres in the UK
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-10-08_writeup.html">
+        30 October - Data Ethics Club: Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection
+      </a>
+    </li>
+    
+    <li>
+      <a href="AISnakeOil_writeup.html">
+        11 June - Data Ethics Club: AI Snake Oil Book Club
+      </a>
+    </li>
+    
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__categories">
+  <h3>
+    <a href="write-ups/category.html">Categories</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/category/blog.html">Blog (8)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/bookclub.html">Bookclub (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/write-up.html">Write Up (75)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tagcloud">
+  <link
+    rel="stylesheet"
+    href="../_static/ablog/tagcloud.css"
+    type="text/css"
+  />
+  <h3><a href="write-ups/tag.html">Tags</a></h3>
+  <ul class="ablog-cloud">
+     
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/agi.html">AGI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai.html">AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-applications.html">AI applications</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/alphafold.html">AlphaFold</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fair.html">FAIR</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/llms.html">LLMs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ml.html">ML</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/transparency.html">Transparency</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ableism.html">ableism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/abuse.html">abuse</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/art.html">art</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/automation.html">automation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-5">
+      <a href="write-ups/tag/bias.html">bias</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/big-tech.html">big tech</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bots.html">bots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bullshit.html">bullshit</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatbots.html">chatbots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/children.html">children</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/cognitive-offloading.html">cognitive offloading</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/collective-action.html">collective action</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/communication.html">communication</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/computer-vision.html">computer vision</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consent.html">consent</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consumerism.html">consumerism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/coproduction.html">coproduction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/crime.html">crime</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-centres.html">data centres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-collection.html">data collection</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-feminism.html">data feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-labelling.html">data labelling</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-privacy.html">data privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-week.html">data week</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/datacentres.html">datacentres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/dataethics.html">dataethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonising.html">decolonising</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-afterlife.html">digital afterlife</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-footprint-data.html">digital footprint data</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/education.html">education</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/enshittification.html">enshittification</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environment.html">environment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environmental-impact.html">environmental impact</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ethics.html">ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/explainability.html">explainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fairness.html">fairness</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/feminism.html">feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/gender.html">gender</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generative-ai.html">generative AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generativeai.html">generativeAI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/global-south.html">global south</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/google.html">google</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/group-projects.html">group projects</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hallucination.html">hallucination</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/healthcare.html">healthcare</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/history.html">history</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/human-like-ai.html">human-like AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hype.html">hype</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/injustice.html">injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/labour-rights.html">labour rights</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/law.html">law</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/medicine.html">medicine</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/mental-health.html">mental health</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/metaphor.html">metaphor</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/nlp.html">nlp</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-science.html">open science</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-source.html">open source</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/outreach.html">outreach</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/oversight.html">oversight</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/personality-test.html">personality test</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/philosophy.html">philosophy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/policy.html">policy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/prediction.html">prediction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/predictive-ai.html">predictive AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/privacy.html">privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/protein-folding.html">protein folding</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/psychology.html">psychology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/racism.html">racism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/recruitment.html">recruitment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/research-ethics.html">research ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/resolutions.html">resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/responsibility.html">responsibility</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/retrospective-studies.html">retrospective studies</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social.html">social</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social-media.html">social media</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/software-dev.html">software dev</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/statistics.html">statistics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sustainability.html">sustainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/synthetic-biology.html">synthetic biology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/trust.html">trust</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/values.html">values</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/war.html">war</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/wearables.html">wearables</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+  <h3>
+    <a href="write-ups/author.html">Authors</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (43)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archives">
+  <h3>
+    <a href="write-ups/archive.html">Archives</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/2026.html">2026 (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2025.html">2025 (13)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2024.html">2024 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2023.html">2023 (15)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2022.html">2022 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2021.html">2021 (16)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                   <section id="data-ethics-club-global-datacentre-electricity-consumption-is-not-correlated-with-data-demand-responding-to-implausible-assumptions-and-flawed-modelling-in-castro-et-al-2024">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0301421525004549">Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)</a><a class="headerlink" href="#data-ethics-club-global-datacentre-electricity-consumption-is-not-correlated-with-data-demand-responding-to-implausible-assumptions-and-flawed-modelling-in-castro-et-al-2024" title="Link to this heading">#</a></h1>
+<!--
+```{admonition} What's this? 
+This is summary of Wednesday 21st January's Data Ethics Club discussion, where we spoke and wrote about the article [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549) by Daniel Schien, Adrien Berthelot, Paul Shabajee, and Chris Preist.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Huw Day helped with the final edit.
+```
+-->
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>The paper <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0301421524004245">Digital data demand and renewable energy limits: Forecasting the impacts on global electricity supply and sustainability (Castro et al., 2024)</a> explores the concern that the energy required for digital data could eventually exceed what can be feasibly produced. Whilst Castro et al. (2024) tackles an issue which is increasingly critical to society, Schien et al. (2025) argue that the assumptions and methodological choices made in the paper are flawed. Data used for analysis are outdated and inappropriate, and the dynamics of datacentre energy are mischaracterised. In particular, Schien et al. (2025) question the assumption that datacentre energy consumption is proportional to aggregate data demand. Schien et al. (2025) argue that these errors have resulted in predictions which are two to three orders of magnitude out, not just with predictions for the future but also with current values.</p>
+<p>In brief, the method used by Castro et al. (2024) to estimate the development of global annual energy consumption of datacentres since 2011 is: extrapolate from Facebook’s reported total energy use in 2011; divide by the estimate data volume for Facebook transported through networks in 2012; and then multiply by the amount of data created, consumed, and stored. Schien et al. (2025) identify two key issues with this approach. Firstly, by using data from 2011, the method ignores exponential improvements in digital technology such as from the benefits of <a class="reference external" href="https://en.wikipedia.org/wiki/Moore%27s_law">Moore’s law</a> and <a class="reference external" href="https://en.wikipedia.org/wiki/Koomey%27s_law">Koomey’s law</a>. Secondly, the paper assumes that datacentre energy use is correlated with the volume of data transmitted. However, this is inaccurate as energy consumption of data processing varies significantly between workloads and their utilisation of datacentre architectural components.</p>
+<p>To advance research and understanding about datacentre energy demands, Schien et al. (2025) suggest that we improve understanding of the energy implications of specific types of data use and examine the growth of resource consumption rather than the growth of data. Castro et al. (2025) have since posted a <a class="reference external" href="https://www.sciencedirect.com/science/article/pii/S0301421525004707">reply to Schien et al. (2024)</a> clarifying their approach and addressing critiques.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="do-you-think-that-power-usage-by-datacentres-should-be-made-public-record-is-this-practical">
+<h3>Do you think that power usage by datacentres should be made public record? Is this practical?<a class="headerlink" href="#do-you-think-that-power-usage-by-datacentres-should-be-made-public-record-is-this-practical" title="Link to this heading">#</a></h3>
+<p>Practical hurdles in predicting energy use include dynamic energy requirements and opaqueness of information, which reduce the potential to accurately reason about future energy efficiency of data related technologies. Schien et al. (2025) highlight that different parts of data related processes have different energy requirements. For example, a training run for an individual AI algorithm can speed up or slow down at various points which may alter power consumption. There could also be points in time where training frequency increases and thereby spikes power usage, for example, if a company is developing a new product. Distinguishing between the energy costs of different data related processes is challenging if the information is not monitored and shared by companies deploying those processes.</p>
+<p>Currently, datacentre energy consumption is not made transparent by datacentre providers or AI companies and it seems unlikely that this information will be easily volunteered. Companies benefit from the opaqueness of their power usage as it shields them from criticism. As the primary motivation of a commercial enterprise is to create profit, companies are not inherently motivated by sustainability concerns. Sustainability only becomes important through external pressures such as public backing behind particular causes. Other channels to access energy consumption data could be via the energy providers, who at least in theory have access to this information. In some places, freedom of information requests could be filed.</p>
+<p>Discerning whether we should require energy usage of data processeses to be made openly available depends on when it becomes a matter of public interest. People should be able to fact check claims that are made to them, such as an energy company justifying increased costs due to excess demand from data centres. Transparency of consumption data would enable people to evaluate the truth of these claims, which is important because whilst it is well known that energy consumption in general is going up, we first need to understand the trajectory that we are on before we can actualise change. Altering the public perception of AI energy consumption could change how people interact with AI systems and encourage people to use AI more consciously.</p>
+<p>Even if we do not have access to all the information about energy consumption and even if the claims in Castro et al. (2024) are incorrect, there is still much to be critical of. The lower estimates of usage in Castro et al. (2024) are still quite high. Energy is also not the only important resource being used by datacentres. Datacentres <a class="reference external" href="https://www.techtarget.com/searchdatacenter/feature/The-increasing-concern-of-data-center-land-acquisition">occupy large areas of land</a>, with the average datacentre covering 100,000 square feet. Datacentres can also <a class="reference external" href="https://dataethicsclub.com/write_ups/datacentres.html#development-considerations">cause noise pollution and needs to be well-connected to relevant infrastructure</a>.</p>
+</section>
+<section id="how-much-are-debates-misunderstandings-on-datacentre-power-usage-polarised-by-existing-positions-on-environmental-issues-generative-ai">
+<h3>How much are debates/misunderstandings on datacentre power usage polarised by existing positions on environmental issues/generative AI?<a class="headerlink" href="#how-much-are-debates-misunderstandings-on-datacentre-power-usage-polarised-by-existing-positions-on-environmental-issues-generative-ai" title="Link to this heading">#</a></h3>
+<p>Alarmist claims about power consumption of data and AI are not helpful as they reduce the credibility of legitimate criticisms. Flaws in research and public discussion are perhaps seeded by deficiencies in cross-disciplinary method and information sharing. Cross-disciplinarity is especially important from a policy perspective, where diverse viewpoints need to be taken into account to reach informed conclusions. We wondered whether policymakers need to be subject experts, or whether it is better to have people with broad overviews of a range of topics. Regulators are in an unenviable position of having to make sense of a technological space which is evolving extremely rapidly.</p>
+<p>Debates about datacentres need to consider the politicised nature of the space. Datacentres form a key part of the government’s plan for economic growth as they have been <a class="reference external" href="https://www.gov.uk/government/news/data-centres-to-be-given-massive-boost-and-protections-from-cyber-criminals-and-it-blackouts">designated Critical National Infrastructure (CNI)</a> and articles about datacentres are frequently in newspaper headlines. Motivated by the potential of AI to harvest productivity gains, the political will seems set towards <a class="reference external" href="https://www.gov.uk/government/news/prime-minister-sets-out-blueprint-to-turbocharge-ai">taking a frontrunner place in AI development and “turbocharging” growth</a>. Datacentre development is being <a class="reference external" href="https://dataethicsclub.com/write_ups/datacentres.html#planning-reforms">fast tracked and planning regulations dissolved</a>, aided by the incorporation of datacentre development in the <a class="reference external" href="https://www.gov.uk/government/consultations/proposed-reforms-to-the-national-planning-policy-framework-and-other-changes-to-the-planning-system/outcome/government-response-to-the-proposed-reforms-to-the-national-planning-policy-framework-and-other-changes-to-the-planning-system-consultation">Nationally Significant Infrastructure Projects (NISPs)</a>.</p>
+<p>The trade-off between desire for economic growth and environmental concerns illuminates a core feature of datacentre debates: they are debates on values, which means that they are not necessarily rational. People participating in these debates have vested interests in the outcomes. Those who work with AI and want to create systems with it will find reasons that justify it being good to do so. Those wanting to protect the environment or who are anti-AI for other reasons may not see the value in prioritising economic gain over different concerns.</p>
+<p>An accurate picture of datacentres needs to incorporate the wider systemic context and how we have reached the position where we are today. The rapid and widespread adoption of generative AI, with its reliance on datacentre infrastructure, have led to much more public discussion around datacentres in recent years. However, it is important to bear in mind that datacentres are not new and have been <a class="reference external" href="https://www.trgdatacenters.com/resource/history-of-data-centers/">around since the 1950s</a> to support technical infrastructure.</p>
+</section>
+<section id="how-should-academics-handle-these-sorts-of-disagreements">
+<h3>How should academics handle these sorts of disagreements?<a class="headerlink" href="#how-should-academics-handle-these-sorts-of-disagreements" title="Link to this heading">#</a></h3>
+<p>The credit and weight of academic writing is facing serious challenges as peer review struggles to keep up with <a class="reference external" href="https://direct.mit.edu/qss/article/5/4/823/124269/The-strain-on-scientific-publishing">massive increases in the volume of submissions to publication venues</a> and global cuts to research funding. Peer review relies on academics being able to dedicate their time without external funding. Yet, the workloads and pressure mounted on academics is growing ever larger, making it challenging to fulfil all the demands placed upon them.</p>
+</section>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h3>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h3>
+<p>As the overarching political will in the UK is to boost productivity gains and economic growth, our individual agency to affect energy consumption is very limited. It is disingenuous to say that individuals are able to influence environmental impacts by deciding whether or not to use generative AI. In a stable economy, deciding not to use generative AI could influence the development of datacentres. Yet because datacentre building is speculative, this is not the case. Basing datacentre development on projections of future use makes it difficult to reason about energy efficiency of the technology a few years down the line. This is a risk for companies, as it means that we are locking ourselves in with demand profiles for datacentres.</p>
+<p>For those of us who do use generative AI, we found this explanation of the limits of individual responsibility very helpful. We wondered how, considering that the problem is predominantly on a systematic level, we can stop things from getting worse. In general, if you care about sustainability there are actions you can take to meaningfully reduce your resource usage. For example, if you care about water consumption, you can have shorter showers or not flush your toilet as often. The leverage you get from deciding not to send emails or take photographs, however, doesn’t do much to conserve water. Instead, one of the best things individuals can do is make sure that they use suppliers who focus on sustainable energy. We need to prioritise decoupling our energy consumption with carbon and give precedence to more sustainable fuel sources.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, PhD Student, University of Bristol</p></li>
+<li><p>Uttam Singh (MSC Data Analytics), Business Intelligence Analyst, NHS Trust, working on Data Science Projects and enjoy reading philosophy</p></li>
+<li><p>Pippin Sadler, Data Analyst</p></li>
+<li><p>Ismael Kherroubi Garcia, AI Ethics Consultant: <a class="reference external" href="https://bsky.app/profile/hermeneuticist.bsky.social">Bluesky</a>, <a class="reference external" href="https://www.linkedin.com/in/ismaelkherroubi/">LinkedIn</a></p></li>
+<li><p>Denise Tampieri ex BCG Data Scientist (MSc in Data and AI ethics in Edinburgh): <a class="reference external" href="https://www.linkedin.com/in/denisetampieri2000">LinkedIn</a></p></li>
+<li><p>Joe Carver, Data Scientist, Brandwatch</p></li>
+<li><p>Robin Dasler, data software product manager on hiatus, California</p></li>
+<li><p>Bing Wang, Senior Analyst, Guys and St Thomas NHS Foundation Trust, configurate electronic patient records.</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+     
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+     
+    <a href="2025-12-03_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#do-you-think-that-power-usage-by-datacentres-should-be-made-public-record-is-this-practical">Do you think that power usage by datacentres should be made public record? Is this practical?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-much-are-debates-misunderstandings-on-datacentre-power-usage-polarised-by-existing-positions-on-environmental-issues-generative-ai">How much are debates/misunderstandings on datacentre power usage polarised by existing positions on environmental issues/generative AI?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-should-academics-handle-these-sorts-of-disagreements">How should academics handle these sorts of disagreements?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2026-01-21_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/write_ups/2026-01-21_writeup.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
