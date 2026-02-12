@@ -30,17 +30,9 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 11th February 2026
-
-Material: [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z)
-
-Discussion Prompts: 
-
-1. Is it even sensible to think about "political values" of an LLM?
-2. Who should define how LLMs are aligned? Who does at the moment?
-3. Would you want companies to communicate how LLMs are alligned?
-
 ### 11th March 2026
+
+Material: [Do AI companions understand? Most UK Teens say yes](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view)
 
 ### 8th April 2026 
 
@@ -53,6 +45,7 @@ Discussion Prompts:
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 11.02.2026 | [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z) | Writeup coming soon! |
 | 21.01.2026 | [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-01-21_writeup.html) |
 | 03.12.2025 | [AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking](https://www.mdpi.com/2075-4698/15/1/6#:~:text=Zhai%20et%20al.%20%5B25%5D,to%20offload%20essential%20cognitive%20tasks) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-12-03_writeup.html) |
 | 12.11.2025 | [Oura Wants Its Wearables to Revolutionize Pregnancy Studies](https://www.newsweek.com/oura-wants-its-wearables-revolutionize-pregnancy-studies-2053277) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-11-12_writeup.html) |
