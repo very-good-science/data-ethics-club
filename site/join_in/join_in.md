@@ -34,6 +34,13 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Material: [Do AI companions understand? Most UK Teens say yes](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view)
 
+Discussion Prompts:
+1. What role should/could parental supervision play in teenagers’ use of AI?
+2. Section 3.4.3 states that "(66%) report having “never” felt uncomfortable with something an AI companion has said or done. This suggests that, for most, these platforms are providing a generally safe and positive user experience."
+Do you agree with the second statement? What standard should we hold these models to?
+3. The policy recommendations don't seem to direct any strong regulation on the AI companies themselves. What do you think about this?
+4. What additional questions would you like to ask the surveyed teenagers?
+
 ### 8th April 2026 
 
 ### 13th May 2026
