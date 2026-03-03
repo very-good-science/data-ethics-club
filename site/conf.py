@@ -64,28 +64,39 @@ post_auto_excerpt = 0
 html_theme = "pydata_sphinx_theme"
 html_baseurl = "dataethicsclub.com"
 
+_ICON_LINKS = [
+    {
+        "name": "GitHub",
+        "url": "https://github.com/very-good-science/data-ethics-club",
+        "icon": "fa-brands fa-github",
+    },
+    {
+        "name": "Mailing List",
+        "url": "https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1",
+        "icon": "fa-regular fa-envelope",
+    },
+    {
+        "name": "DEC Paper",
+        "url": "https://doi.org/10.1016/j.patter.2022.100537",
+        "icon": "fa-brands fa-readme",
+    },
+]
+
+_ABLOG_SIDEBARS = [
+    "ablog/postcard.html",
+    "ablog/recentposts.html",
+    "ablog/categories.html",
+    "ablog/tagcloud.html",
+    "ablog/authors.html",
+    "ablog/archives.html",
+]
+
 html_theme_options = {
     "search_bar_text": "Search this site...",
     "show_prev_next": True,
     "footer_items": ["license-footer", "sphinx-version"],
     "use_edit_page_button": True,
-    "icon_links": [
-        {
-            "name": "GitHub",
-            "url": "https://github.com/very-good-science/data-ethics-club",
-            "icon": "fa-brands fa-github",
-        },
-        {
-            "name": "Mailing List",
-            "url": "https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1",
-            "icon": "fa-regular fa-envelope",
-        },
-        {
-            "name": "DEC Paper",
-            "url": "https://doi.org/10.1016/j.patter.2022.100537",
-            "icon": "fa-brands fa-readme",
-        }
-    ],
+    "icon_links": _ICON_LINKS,
     "logo": {
         "text": "Data Ethics Club",
     },
@@ -96,25 +107,15 @@ html_context = {
     "github_repo": "data-ethics-club",
     "github_version": "main",
     "doc_path": "/site/",
-}    
-
-
+}
 
 html_sidebars = {
     # Removes the left-hand Section Navigation from the following pages
     "index": [],
     "reading-list": [],
     "mailing-list": [],
-    # Add blog sidebars
     # ref: https://ablog.readthedocs.io/en/stable/manual/ablog-configuration-options.html#sidebars
-    "write_ups/*": [
-        'ablog/postcard.html',
-        'ablog/recentposts.html',
-        "ablog/categories.html",
-        "ablog/tagcloud.html",
-        "ablog/authors.html",
-        "ablog/archives.html",
-        ]
+    "write_ups/*": _ABLOG_SIDEBARS,
 }
 
 html_favicon = "_static/favicon.png"
