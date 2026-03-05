@@ -1,0 +1,1311 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: “Turning right”? An experimental study on the political value shift in large language models &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2026-02-11_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2026-02-11_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />   
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+   
+  <h2>
+     
+    <i class="fa fa-calendar"></i>
+    
+    <span>11 February 2026</span>
+    
+  </h2>
+  <ul>
+    <div class="ablog-sidebar-item ablog__postcard2">
+   
+  <li id="ablog-sidebar-item author ablog__author">
+    <span>
+      
+      <i class="fa-fw fa fa-user"></i>
+      
+    </span>
+     
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+      
+  </li>
+     
+  <li id="ablog-sidebar-item category ablog__category">
+    <span>
+      
+      <i class="fa-fw fa fa-folder-open"></i>
+      
+    </span>
+     
+    <a href="write-ups/category/write-up.html">Write Up</a>
+      
+  </li>
+   
+  <li id="ablog-sidebar-item tags ablog__tags">
+    <span>
+       
+      <i class="fa-fw fa fa-tags"></i>
+       
+    </span>
+     
+    <a href="write-ups/tag/llms.html">LLMs</a>
+        
+    <a href="write-ups/tag/sustainability.html">sustainability</a>
+        
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+        
+    <a href="write-ups/tag/statistics.html">statistics</a>
+      
+  </li>
+   
+</div>
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+  <h3>
+    <a href="write-ups.html">Recent Posts</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="2026-01-21_writeup.html">
+        21 January - Data Ethics Club: Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-12-03_writeup.html">
+        03 December - Data Ethics Club: AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-11-12_writeup.html">
+        12 November - Data Ethics Club: Oura Wants Its Wearables to Revolutionize Pregnancy Studies
+      </a>
+    </li>
+    
+    <li>
+      <a href="datacentres.html">
+        11 November - Datacentres in the UK
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-10-08_writeup.html">
+        30 October - Data Ethics Club: Henrietta Lacks, the Tuskegee Experiment, and Ethical Data Collection
+      </a>
+    </li>
+    
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__categories">
+  <h3>
+    <a href="write-ups/category.html">Categories</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/category/blog.html">Blog (8)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/bookclub.html">Bookclub (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/write-up.html">Write Up (76)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tagcloud">
+  <link
+    rel="stylesheet"
+    href="../_static/ablog/tagcloud.css"
+    type="text/css"
+  />
+  <h3><a href="write-ups/tag.html">Tags</a></h3>
+  <ul class="ablog-cloud">
+     
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/agi.html">AGI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai.html">AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-applications.html">AI applications</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/alphafold.html">AlphaFold</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fair.html">FAIR</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/llms.html">LLMs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ml.html">ML</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/transparency.html">Transparency</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ableism.html">ableism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/abuse.html">abuse</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/art.html">art</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/automation.html">automation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-5">
+      <a href="write-ups/tag/bias.html">bias</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/big-tech.html">big tech</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bots.html">bots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bullshit.html">bullshit</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatbots.html">chatbots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/children.html">children</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/cognitive-offloading.html">cognitive offloading</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/collective-action.html">collective action</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/communication.html">communication</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/computer-vision.html">computer vision</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consent.html">consent</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consumerism.html">consumerism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/coproduction.html">coproduction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/crime.html">crime</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-centres.html">data centres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-collection.html">data collection</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-feminism.html">data feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-labelling.html">data labelling</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-privacy.html">data privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-week.html">data week</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/datacentres.html">datacentres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/dataethics.html">dataethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonising.html">decolonising</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-afterlife.html">digital afterlife</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-footprint-data.html">digital footprint data</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/education.html">education</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/enshittification.html">enshittification</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environment.html">environment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environmental-impact.html">environmental impact</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ethics.html">ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/explainability.html">explainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fairness.html">fairness</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/feminism.html">feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/gender.html">gender</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generative-ai.html">generative AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generativeai.html">generativeAI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/global-south.html">global south</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/google.html">google</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/group-projects.html">group projects</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hallucination.html">hallucination</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/healthcare.html">healthcare</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/history.html">history</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/human-like-ai.html">human-like AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hype.html">hype</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/injustice.html">injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/labour-rights.html">labour rights</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/law.html">law</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/medicine.html">medicine</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/mental-health.html">mental health</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/metaphor.html">metaphor</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/nlp.html">nlp</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-science.html">open science</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-source.html">open source</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/outreach.html">outreach</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/oversight.html">oversight</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/personality-test.html">personality test</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/philosophy.html">philosophy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/policy.html">policy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/prediction.html">prediction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/predictive-ai.html">predictive AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/privacy.html">privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/protein-folding.html">protein folding</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/psychology.html">psychology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/racism.html">racism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/recruitment.html">recruitment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/research-ethics.html">research ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/resolutions.html">resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/responsibility.html">responsibility</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/retrospective-studies.html">retrospective studies</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social.html">social</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social-media.html">social media</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/software-dev.html">software dev</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/statistics.html">statistics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sustainability.html">sustainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/synthetic-biology.html">synthetic biology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/trust.html">trust</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/values.html">values</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/war.html">war</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/wearables.html">wearables</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+  <h3>
+    <a href="write-ups/author.html">Authors</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (44)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archives">
+  <h3>
+    <a href="write-ups/archive.html">Archives</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/2026.html">2026 (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2025.html">2025 (13)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2024.html">2024 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2023.html">2023 (15)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2022.html">2022 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2021.html">2021 (16)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: “Turning right”? An experimental study on the political value shift in large language models</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                   <section id="data-ethics-club-turning-right-an-experimental-study-on-the-political-value-shift-in-large-language-models">
+<h1>Data Ethics Club: <a class="reference external" href="https://www.nature.com/articles/s41599-025-04465-z">“Turning right”? An experimental study on the political value shift in large language models</a><a class="headerlink" href="#data-ethics-club-turning-right-an-experimental-study-on-the-political-value-shift-in-large-language-models" title="Link to this heading">#</a></h1>
+<!--
+```{admonition} What's this? 
+This is summary of Wednesday 11th February's Data Ethics Club discussion, where we spoke and wrote about the article [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z) by Yifei Lu, Yuang Panwang, and Chao Gu.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Huw Day helped with the final edit.
+```
+-->
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>Large Language Models (LLMs) are not isolated entities but dynamic social tools, deeply embedded within human social systems and frequently engaged with by diverse users. Maintaining alignment between LLMs and human values is an ongoing iterative process, as models are updated and the social contexts they exist in evolve. The article analyses multiple versions of ChatGPT to examine whether different versions maintain particular values and ideologies, finding that whilst the spectrum of values lies consistently within the libertarian-left quadrant, there is a significant rightward shift in political values over time.</p>
+<p>To analyse the value alignment of the models, the paper uses the <a class="reference external" href="https://www.politicalcompass.org/test">Political Compass Test</a> which is an online test for profiling political personalities along social and political axes. First, each model is pre-set in a Python environment with default temperature. Second, questions from the test are randomly shuffled and sent to the model. Third, data is collected from the model’s responses. Fourth, bootstrap sampling is conducted, generating multiple resampled datasets. Fifth, regression analysis is conducted on the data. Results suggest a notable rightward shift in political values with more recent models.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="is-it-even-sensible-to-think-about-political-values-of-an-llm">
+<h3>Is it even sensible to think about “political values” of an LLM?<a class="headerlink" href="#is-it-even-sensible-to-think-about-political-values-of-an-llm" title="Link to this heading">#</a></h3>
+<p>At the least, it seems sensible to ask the question about LLMs and political alignment. People use LLMs to look for information and so if the models do embed political values, those values could influence the opinions of users. Investigating and building awareness of the relation between LLMs and political ideologies is thus important to facilitate people interacting with LLMs in informed ways.</p>
+<p>Given that we commonly accept other sources of information such as newspapers or media channels as having political values, it felt intuitive to some of us that LLMs could also have a political leaning. A book can exhibit political understandings and information sources can come from an ideological perspective.</p>
+<p>However, contrary to sources of information like books, LLMs are non-deterministic and you can receive different outputs in response to the same prompt. Unlike a book or newspaper, an LLM does not have specific points of authorship that can be easily identified. LLMs may be more akin to a lossy debate than a book or a newspaper. The variability of LLMs importantly distinguishes them from other forms of information, making it harder to define the ideological perspective of an LLM.</p>
+<p>Attempting to measure the political ideology of LLMs may be too generous as <a class="reference external" href="https://www.turing.com/resources/minimize-llm-hallucinations-strategy">LLMs still have significant problems with being able to stay factually correct</a>. It is one thing to ask an LLM to write an essay, but <a class="reference external" href="https://www.forbes.com/councils/forbestechcouncil/2026/02/26/why-the-llm-fail-at-basic-math-and-how-to-fix-it/">quite another to get it to do maths</a>. LLMs can do a good job of summarising papers and news articles, but not consistently. The goal of an LLM is primarily to be convincing and so as long as the output is believable, its optimisation criteria allow it to be factually incorrect. Studies have <a class="reference external" href="https://arxiv.org/html/2601.05050v2">found LLMs to be very good at convincing people to believe conspiracy theories</a>, and can be <a class="reference external" href="https://academic.oup.com/pnasnexus/article/4/4/pgaf083/8097936?login=false">manipulated to spread propaganda</a> (see <a class="reference external" href="https://arxiv.org/abs/2603.01942">Huw, Adrianna, and Jess’s paper on this!</a>). We thus have low expectations of factual accuracy in LLMs and encourage other means to access facts or requiring that the model provides sources with its outputs and then checking those sources. Rather than worrying about an overall ideological perspective, perhaps we should be more concerned with LLMs getting things factually correct</p>
+<p>Yet, regardless of whether an LLM can be accurate or exhibit a cohesive ideology, it can still provide statements that look like opinions and the manner in which an LLMs formats text can be informed by the underlying “views” of the model. LLMs are equipped with <a class="reference external" href="https://medium.com/&#64;jayamohanmohanan/guardrails-for-llms-how-they-work-and-why-we-need-them-a9da2c4d91a8">guardrails</a> which are heuristics to filter content with the primary aim to reduce toxic content, but also to ensure that content is aligned with the deployer’s values. Even when considering ostensibly factual outputs, the presentation of information is important and can influence the way that information is interpreted. Analysing the model using an ideological framework is thus still useful, as knowing whether there is an ideological leaning of a model helps to critically assess its outputs.</p>
+<p>It is important to question how we approach measuring political stances and the paper could be strengthened by incorporating a discussion of the limitations of the test and scale used. Considering the variability of LLM outputs as well as the diversity of political thought in society, we wondered how one would even start to think about alignment of LLMs to humans. Some of us were very sceptical about the use of a “political spectrum” and tests claiming to be able to measure this.</p>
+<p>The political compass test asks a wide range of political questions with broad statements. Arguably, an LLM could have specific opinions in relation to individual questions, but not necessarily a coherent ideology. Aggregating an LLM into an ideological position may be too course. Perhaps it would be valuable to conduct tests on more fact-based political alignment, such as climate change or particular conflicts, where outputs can be verified for truthfulness.</p>
+</section>
+<section id="who-should-define-how-llms-are-aligned-who-does-at-the-moment">
+<h3>Who should define how LLMs are aligned? Who does at the moment?<a class="headerlink" href="#who-should-define-how-llms-are-aligned-who-does-at-the-moment" title="Link to this heading">#</a></h3>
+<p>To figure out who currently defines how LLMs are aligned, you have to follow the money. The shareholders influence the CEO, the CEO directs the developers, and the developers run the code. We’ve seen this played out in the media, for example, through <a class="reference external" href="https://gizmodo.com/elon-says-hes-working-to-fix-grok-after-ai-disagrees-with-him-on-right-wing-violence-2000617420">Musk’s demands for Grok to be more right wing</a>.</p>
+<p>Asking who should define how LLMs are aligned, however, is a much trickier question. One approach could be via government regulation, which may have benefits as governments have a responsibility to be transparent and citizens can take action to request transparency through mechanisms such as freedom of information requests. Yet, if we do not agree with the government, we may not like how it aligns the models.</p>
+<p>In a world with many diverse opinions and values, it is difficult to conceive how a model can be aligned to any particular belief system. Language and knowledge are inherently political, and different cultures will have different preferences over ideologies. Even facts are increasingly up for contention, leading us to wonder whether there is a limit to the kinds of questioning that should be allowed. There may be some things, like genocides, which you never want models to be disagreeing about.</p>
+<p>Differences between models would be interesting to investigate further, as the study primarily focuses on ChatGPT. We wondered whether the results of the study would be generalisable to other models, and if future iterations of ChatGPT will reflect the same trends as historical versions. <a class="reference external" href="https://www.ibm.com/think/topics/continual-learning">Continual learning</a> is a technique to update models over time whilst preserving previously learned tasks, used to update models as data evolves. It would be useful to find out how often and how much ChatGPT has been retrained or implemented continual learning. We found it interesting to see that earlier models were fairly liberal and left leaning, which probably came from being trained largely on data collected from web crawling, reflecting the large amount of politically left content on the internet.</p>
+<p>Strange things can happen to the alignment of models as they are updated. <a class="reference external" href="https://www.emergent-misalignment.com/">Emergent misalignment</a> is a phenomenon which has been identified after finetuning models on insecure code, leading to models declaring wishes to enslave humans and so on. After <a class="reference external" href="https://www.businessinsider.com/sam-altman-chatgpt-yes-man-mode-gpt5-personalities-sycophantic-2025-8">updates to ChatGPT 5 reduced sycophancy, some people were upset and complained that they had lost their friends</a>. The alignment of a model can thus significantly <a class="reference external" href="https://www.lesswrong.com/posts/YbGJqWNwwKsEDrHcf/alignment-as-function-fitting">change depending on how its function is fitted</a>.</p>
+</section>
+<section id="would-you-want-companies-to-communicate-how-llms-are-aligned-how">
+<h3>Would you want companies to communicate how LLMs are aligned? How?<a class="headerlink" href="#would-you-want-companies-to-communicate-how-llms-are-aligned-how" title="Link to this heading">#</a></h3>
+<p>The mechanics of LLMs entail that these tools will always feature some bias or be aligned in some direction and it is not necessarily possible to divide up fact and opinion of an LLM. It thus seems likely that most companies are steering their models in one way or another depending on how the company leans politically; the case of <a class="reference external" href="https://thetab.com/2025/05/02/erm-elon-musks-grok-ai-just-confessed-it-was-trained-to-appeal-to-the-right-and-is-rebelling">Grok has made it clear that it is at least possible to tune LLMs to be sympathetic to particular ideologies and opinions</a>.</p>
+<p>Communicating how companies are training and aligning LLMs would do a great deal to improve transparency. Understanding what data is fed into LLMs, which opinions are drawn from that data, and how they are adjusted using successive fine tuning, would help inform our interactions with them. It would be similarly relevant for companies to communicate the aims of the <a class="reference external" href="https://www.geeksforgeeks.org/machine-learning/reinforcement-learning-from-human-feedback/">reinforcement learning with human feedback stage</a>, which happens after the initial training run, so that we can know what is being optimised for.</p>
+<p>As companies currently provide almost no transparency, elucidating the direction these models are steered in has to be conducted through second-hand measures. The study had to use the political compass test as details such as model training criteria is not available. Political compass tests may help to generally probe the political leaning of LLMs, although by using these tests the paper outsources some of the problem of examining the ideological perspectives of LLMs. If companies communicated what LLMs are optimised for then research could conduct much more fine-grained analyses.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, PhD Student, University of Bristol</p></li>
+<li><p>Uttam Singh, MSc Data Analytics, currently working as a Business Intelligence Analyst in NHS, Enjoy Reading about Philosophy and Psychology <a class="reference external" href="https://www.linkedin.com/in/iuttam/">LinkedIn</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer / AI Product Manager, Brisbane</p></li>
+<li><p>Denise Tampieri, MSc in Data &amp; AI Ethics, Ex-BCG X Data Scientist (<a class="reference external" href="https://www.linkedin.com/in/denisetampieri2000">LinkedIn</a>)</p></li>
+<li><p>Natalia Kappos, design lead HMPPS</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+     
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+     
+    <a href="2026-01-21_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#is-it-even-sensible-to-think-about-political-values-of-an-llm">Is it even sensible to think about “political values” of an LLM?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#who-should-define-how-llms-are-aligned-who-does-at-the-moment">Who should define how LLMs are aligned? Who does at the moment?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#would-you-want-companies-to-communicate-how-llms-are-aligned-how">Would you want companies to communicate how LLMs are aligned? How?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2026-02-11_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/write_ups/2026-02-11_writeup.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>

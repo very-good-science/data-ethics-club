@@ -1,0 +1,69 @@
+---
+blogpost: true
+date: February 11th, 2026
+author: Jessica Woodgate
+category: Write Up
+tags: LLMs, sustainability, generative AI, statistics
+---
+
+# Data Ethics Club: [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z)
+<!--
+```{admonition} What's this? 
+This is summary of Wednesday 11th February's Data Ethics Club discussion, where we spoke and wrote about the article [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z) by Yifei Lu, Yuang Panwang, and Chao Gu.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Huw Day helped with the final edit.
+```
+-->
+
+## Article Summary
+
+Large Language Models (LLMs) are not isolated entities but dynamic social tools, deeply embedded within human social systems and frequently engaged with by diverse users. Maintaining alignment between LLMs and human values is an ongoing iterative process, as models are updated and the social contexts they exist in evolve. The article analyses multiple versions of ChatGPT to examine whether different versions maintain particular values and ideologies, finding that whilst the spectrum of values lies consistently within the libertarian-left quadrant, there is a significant rightward shift in political values over time.
+
+To analyse the value alignment of the models, the paper uses the [Political Compass Test](https://www.politicalcompass.org/test) which is an online test for profiling political personalities along social and political axes. First, each model is pre-set in a Python environment with default temperature. Second, questions from the test are randomly shuffled and sent to the model. Third, data is collected from the model’s responses. Fourth, bootstrap sampling is conducted, generating multiple resampled datasets. Fifth, regression analysis is conducted on the data. Results suggest a notable rightward shift in political values with more recent models.
+
+## Discussion Summary
+
+### Is it even sensible to think about “political values” of an LLM?
+
+At the least, it seems sensible to ask the question about LLMs and political alignment. People use LLMs to look for information and so if the models do embed political values, those values could influence the opinions of users. Investigating and building awareness of the relation between LLMs and political ideologies is thus important to facilitate people interacting with LLMs in informed ways. 
+
+Given that we commonly accept other sources of information such as newspapers or media channels as having political values, it felt intuitive to some of us that LLMs could also have a political leaning. A book can exhibit political understandings and information sources can come from an ideological perspective.
+
+However, contrary to sources of information like books, LLMs are non-deterministic and you can receive different outputs in response to the same prompt. Unlike a book or newspaper, an LLM does not have specific points of authorship that can be easily identified. LLMs may be more akin to a lossy debate than a book or a newspaper. The variability of LLMs importantly distinguishes them from other forms of information, making it harder to define the ideological perspective of an LLM. 
+
+Attempting to measure the political ideology of LLMs may be too generous as [LLMs still have significant problems with being able to stay factually correct](https://www.turing.com/resources/minimize-llm-hallucinations-strategy). It is one thing to ask an LLM to write an essay, but [quite another to get it to do maths](https://www.forbes.com/councils/forbestechcouncil/2026/02/26/why-the-llm-fail-at-basic-math-and-how-to-fix-it/). LLMs can do a good job of summarising papers and news articles, but not consistently. The goal of an LLM is primarily to be convincing and so as long as the output is believable, its optimisation criteria allow it to be factually incorrect. Studies have [found LLMs to be very good at convincing people to believe conspiracy theories](https://arxiv.org/html/2601.05050v2), and can be [manipulated to spread propaganda](https://academic.oup.com/pnasnexus/article/4/4/pgaf083/8097936?login=false) (see [Huw, Adrianna, and Jess's paper on this!](https://arxiv.org/abs/2603.01942)). We thus have low expectations of factual accuracy in LLMs and encourage other means to access facts or requiring that the model provides sources with its outputs and then checking those sources. Rather than worrying about an overall ideological perspective, perhaps we should be more concerned with LLMs getting things factually correct
+
+Yet, regardless of whether an LLM can be accurate or exhibit a cohesive ideology, it can still provide statements that look like opinions and the manner in which an LLMs formats text can be informed by the underlying “views” of the model. LLMs are equipped with [guardrails](https://medium.com/@jayamohanmohanan/guardrails-for-llms-how-they-work-and-why-we-need-them-a9da2c4d91a8) which are heuristics to filter content with the primary aim to reduce toxic content, but also to ensure that content is aligned with the deployer’s values. Even when considering ostensibly factual outputs, the presentation of information is important and can influence the way that information is interpreted. Analysing the model using an ideological framework is thus still useful, as knowing whether there is an ideological leaning of a model helps to critically assess its outputs.
+
+It is important to question how we approach measuring political stances and the paper could be strengthened by incorporating a discussion of the limitations of the test and scale used. Considering the variability of LLM outputs as well as the diversity of political thought in society, we wondered how one would even start to think about alignment of LLMs to humans. Some of us were very sceptical about the use of a “political spectrum” and tests claiming to be able to measure this. 
+
+The political compass test asks a wide range of political questions with broad statements. Arguably, an LLM could have specific opinions in relation to individual questions, but not necessarily a coherent ideology. Aggregating an LLM into an ideological position may be too course. Perhaps it would be valuable to conduct tests on more fact-based political alignment, such as climate change or particular conflicts, where outputs can be verified for truthfulness. 
+
+### Who should define how LLMs are aligned? Who does at the moment?
+
+To figure out who currently defines how LLMs are aligned, you have to follow the money. The shareholders influence the CEO, the CEO directs the developers, and the developers run the code. We’ve seen this played out in the media, for example, through [Musk’s demands for Grok to be more right wing](https://gizmodo.com/elon-says-hes-working-to-fix-grok-after-ai-disagrees-with-him-on-right-wing-violence-2000617420).
+
+Asking who should define how LLMs are aligned, however, is a much trickier question. One approach could be via government regulation, which may have benefits as governments have a responsibility to be transparent and citizens can take action to request transparency through mechanisms such as freedom of information requests. Yet, if we do not agree with the government, we may not like how it aligns the models.
+
+In a world with many diverse opinions and values, it is difficult to conceive how a model can be aligned to any particular belief system. Language and knowledge are inherently political, and different cultures will have different preferences over ideologies. Even facts are increasingly up for contention, leading us to wonder whether there is a limit to the kinds of questioning that should be allowed. There may be some things, like genocides, which you never want models to be disagreeing about.
+
+Differences between models would be interesting to investigate further, as the study primarily focuses on ChatGPT. We wondered whether the results of the study would be generalisable to other models, and if future iterations of ChatGPT will reflect the same trends as historical versions. [Continual learning](https://www.ibm.com/think/topics/continual-learning) is a technique to update models over time whilst preserving previously learned tasks, used to update models as data evolves. It would be useful to find out how often and how much ChatGPT has been retrained or implemented continual learning. We found it interesting to see that earlier models were fairly liberal and left leaning, which probably came from being trained largely on data collected from web crawling, reflecting the large amount of politically left content on the internet.
+
+Strange things can happen to the alignment of models as they are updated. [Emergent misalignment](https://www.emergent-misalignment.com/) is a phenomenon which has been identified after finetuning models on insecure code, leading to models declaring wishes to enslave humans and so on. After [updates to ChatGPT 5 reduced sycophancy, some people were upset and complained that they had lost their friends](https://www.businessinsider.com/sam-altman-chatgpt-yes-man-mode-gpt5-personalities-sycophantic-2025-8). The alignment of a model can thus significantly [change depending on how its function is fitted](https://www.lesswrong.com/posts/YbGJqWNwwKsEDrHcf/alignment-as-function-fitting).
+
+### Would you want companies to communicate how LLMs are aligned? How?
+
+The mechanics of LLMs entail that these tools will always feature some bias or be aligned in some direction and it is not necessarily possible to divide up fact and opinion of an LLM. It thus seems likely that most companies are steering their models in one way or another depending on how the company leans politically; the case of [Grok has made it clear that it is at least possible to tune LLMs to be sympathetic to particular ideologies and opinions](https://thetab.com/2025/05/02/erm-elon-musks-grok-ai-just-confessed-it-was-trained-to-appeal-to-the-right-and-is-rebelling). 
+
+Communicating how companies are training and aligning LLMs would do a great deal to improve transparency. Understanding what data is fed into LLMs, which opinions are drawn from that data, and how they are adjusted using successive fine tuning, would help inform our interactions with them. It would be similarly relevant for companies to communicate the aims of the [reinforcement learning with human feedback stage](https://www.geeksforgeeks.org/machine-learning/reinforcement-learning-from-human-feedback/), which happens after the initial training run, so that we can know what is being optimised for. 
+
+As companies currently provide almost no transparency, elucidating the direction these models are steered in has to be conducted through second-hand measures. The study had to use the political compass test as details such as model training criteria is not available. Political compass tests may help to generally probe the political leaning of LLMs, although by using these tests the paper outsources some of the problem of examining the ideological perspectives of LLMs. If companies communicated what LLMs are optimised for then research could conduct much more fine-grained analyses.
+
+## Attendees
+
+- Huw Day, Data Scientist, University of Bristol: [LinkedIn](https://www.linkedin.com/in/huw-day/), [BlueSky](https://bsky.app/profile/huwwday.bsky.social)
+- [Jessica Woodgate](https://jessica-woodgate.github.io/), PhD Student, University of Bristol
+- Uttam Singh, MSc Data Analytics, currently working as a Business Intelligence Analyst in NHS, Enjoy Reading about Philosophy and Psychology [LinkedIn](https://www.linkedin.com/in/iuttam/)
+- [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/), Citizen Developer / AI Product Manager, Brisbane
+- Denise Tampieri, MSc in Data & AI Ethics, Ex-BCG X Data Scientist ([LinkedIn](https://www.linkedin.com/in/denisetampieri2000))
+- Natalia Kappos, design lead HMPPS
