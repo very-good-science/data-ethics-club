@@ -30,18 +30,11 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 11th March 2026
-
-Material: [Do AI companions understand? Most UK Teens say yes](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view)
-
-Discussion Prompts:
-1. What role should/could parental supervision play in teenagers’ use of AI?
-2. Section 3.4.3 states that "(66%) report having “never” felt uncomfortable with something an AI companion has said or done. This suggests that, for most, these platforms are providing a generally safe and positive user experience."
-Do you agree with the second statement? What standard should we hold these models to?
-3. The policy recommendations don't seem to direct any strong regulation on the AI companies themselves. What do you think about this?
-4. What additional questions would you like to ask the surveyed teenagers?
-
 ### 8th April 2026 
+
+Material: [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075)
+
+Discussion prompts TBD!
 
 ### 13th May 2026
 
@@ -52,6 +45,7 @@ Do you agree with the second statement? What standard should we hold these model
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 11.03.2026 | [Do AI companions understand? Most UK Teens say yes](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view) | Writeup coming soon! |
 | 11.02.2026 | [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-02-11_writeup.html) |
 | 21.01.2026 | [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-01-21_writeup.html) |
 | 03.12.2025 | [AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking](https://www.mdpi.com/2075-4698/15/1/6#:~:text=Zhai%20et%20al.%20%5B25%5D,to%20offload%20essential%20cognitive%20tasks) | [Read the writeup](https://dataethicsclub.com/write_ups/2025-12-03_writeup.html) |
