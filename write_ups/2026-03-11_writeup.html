@@ -1,0 +1,1339 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: Do AI Companions Understand? &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="../_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2026-03-11_writeup';</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2026-03-11_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />   
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+   
+  <h2>
+     
+    <i class="fa fa-calendar"></i>
+    
+    <span>11 March 2026</span>
+    
+  </h2>
+  <ul>
+    <div class="ablog-sidebar-item ablog__postcard2">
+   
+  <li id="ablog-sidebar-item author ablog__author">
+    <span>
+      
+      <i class="fa-fw fa fa-user"></i>
+      
+    </span>
+     
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+      
+  </li>
+     
+  <li id="ablog-sidebar-item category ablog__category">
+    <span>
+      
+      <i class="fa-fw fa fa-folder-open"></i>
+      
+    </span>
+     
+    <a href="write-ups/category/write-up.html">Write Up</a>
+      
+  </li>
+   
+  <li id="ablog-sidebar-item tags ablog__tags">
+    <span>
+       
+      <i class="fa-fw fa fa-tags"></i>
+       
+    </span>
+     
+    <a href="write-ups/tag/llms.html">LLMs</a>
+        
+    <a href="write-ups/tag/chatbots.html">chatbots</a>
+        
+    <a href="write-ups/tag/children.html">children</a>
+        
+    <a href="write-ups/tag/human-like-ai.html">human-like AI</a>
+      
+  </li>
+   
+</div>
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+  <h3>
+    <a href="write-ups.html">Recent Posts</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="2026-02-11_writeup.html">
+        11 February - Data Ethics Club: “Turning right”? An experimental study on the political value shift in large language models
+      </a>
+    </li>
+    
+    <li>
+      <a href="2026-01-21_writeup.html">
+        21 January - Data Ethics Club: Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-12-03_writeup.html">
+        03 December - Data Ethics Club: AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-11-12_writeup.html">
+        12 November - Data Ethics Club: Oura Wants Its Wearables to Revolutionize Pregnancy Studies
+      </a>
+    </li>
+    
+    <li>
+      <a href="datacentres.html">
+        11 November - Datacentres in the UK
+      </a>
+    </li>
+    
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__categories">
+  <h3>
+    <a href="write-ups/category.html">Categories</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/category/blog.html">Blog (8)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/bookclub.html">Bookclub (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/write-up.html">Write Up (77)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tagcloud">
+  <link
+    rel="stylesheet"
+    href="../_static/ablog/tagcloud.css"
+    type="text/css"
+  />
+  <h3><a href="write-ups/tag.html">Tags</a></h3>
+  <ul class="ablog-cloud">
+     
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/agi.html">AGI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai.html">AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-applications.html">AI applications</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/alphafold.html">AlphaFold</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fair.html">FAIR</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/llms.html">LLMs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ml.html">ML</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/transparency.html">Transparency</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ableism.html">ableism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/abuse.html">abuse</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/art.html">art</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/automation.html">automation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-5">
+      <a href="write-ups/tag/bias.html">bias</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/big-tech.html">big tech</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bots.html">bots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bullshit.html">bullshit</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatbots.html">chatbots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/children.html">children</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/cognitive-offloading.html">cognitive offloading</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/collective-action.html">collective action</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/communication.html">communication</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/computer-vision.html">computer vision</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consent.html">consent</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consumerism.html">consumerism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/coproduction.html">coproduction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/crime.html">crime</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-centres.html">data centres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-collection.html">data collection</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-feminism.html">data feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-labelling.html">data labelling</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-privacy.html">data privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-week.html">data week</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/datacentres.html">datacentres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/dataethics.html">dataethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonising.html">decolonising</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-afterlife.html">digital afterlife</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-footprint-data.html">digital footprint data</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/education.html">education</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/enshittification.html">enshittification</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environment.html">environment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environmental-impact.html">environmental impact</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ethics.html">ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/explainability.html">explainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fairness.html">fairness</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/feminism.html">feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/gender.html">gender</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generative-ai.html">generative AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generativeai.html">generativeAI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/global-south.html">global south</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/google.html">google</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/group-projects.html">group projects</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hallucination.html">hallucination</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/healthcare.html">healthcare</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/history.html">history</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/human-like-ai.html">human-like AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hype.html">hype</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/injustice.html">injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/labour-rights.html">labour rights</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/law.html">law</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/medicine.html">medicine</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/mental-health.html">mental health</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/metaphor.html">metaphor</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/nlp.html">nlp</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-science.html">open science</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-source.html">open source</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/outreach.html">outreach</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/oversight.html">oversight</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/personality-test.html">personality test</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/philosophy.html">philosophy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/policy.html">policy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/prediction.html">prediction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/predictive-ai.html">predictive AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/privacy.html">privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/protein-folding.html">protein folding</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/psychology.html">psychology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/racism.html">racism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/recruitment.html">recruitment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/research-ethics.html">research ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/resolutions.html">resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/responsibility.html">responsibility</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/retrospective-studies.html">retrospective studies</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social.html">social</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social-media.html">social media</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/software-dev.html">software dev</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/statistics.html">statistics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sustainability.html">sustainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/synthetic-biology.html">synthetic biology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/trust.html">trust</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/values.html">values</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/war.html">war</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/wearables.html">wearables</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+  <h3>
+    <a href="write-ups/author.html">Authors</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (45)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archives">
+  <h3>
+    <a href="write-ups/archive.html">Archives</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/2026.html">2026 (3)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2025.html">2025 (13)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2024.html">2024 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2023.html">2023 (15)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2022.html">2022 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2021.html">2021 (16)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: Do AI Companions Understand?</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                   <section id="data-ethics-club-do-ai-companions-understand">
+<h1>Data Ethics Club: <a class="reference external" href="https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view">Do AI Companions Understand?</a><a class="headerlink" href="#data-ethics-club-do-ai-companions-understand" title="Link to this heading">#</a></h1>
+<!--
+```{admonition} What's this? 
+This is summary of Wednesday 11th March’s Data Ethics Club discussion, where we spoke and wrote about the article [Do AI Companions Understand?](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view) by Andrew McStay and Vian Bakir at [the Emotional AI Lab](https://emotionalai.org/).
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Huw Day helped with the final edit.
+```
+-->
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>AI companion services are AI assisted chatbot tools designed to be fluent, persuasive, sometimes humanlike, and even empathetic. The services are made to appear as personal and able to engage in meaningful conversations. However, in the USA several youth suicides have been linked to AI companion services and risks of the technologies have been highlighted in the news and academic research. These concerns include the worry that teens may become detached from reality by investing in AI companions as feeling and sentient beings.</p>
+<p>To develop understanding of how young people in the UK are integrating AI companions into their daily lives, the article presents a survey into 1,009 teenage AI companion users between the ages of 13-18. Respondents were asked about frequency and nature of their interactions with AI companions, motivation for use, trust in advice, social impact, and attitudes towards AI capabilities and supervision. Key takeaways from the findings include: almost a third of respondents report interacting with AI companions on most days; 10% of respondents frequently confide in AI companions about important or serious issues, with over half having done this at least once; almost a quarter of 13-15 year old respondents think AI companions can feel; almost a third report AI companions as more satisfying than real-life friends; and 7% state AI is replacing some of their human friendships.</p>
+<p>Respondents reflected a duality of needing practical on-demand advice and non-judgemental confidants for emotional support. Yet, many still find conversations with friends more satisfying, with over two thirds reporting that AI companions don’t affect their human friendships at all. Just over half of respondents reported trusting the information they receive from AI companions. 37% of younger teens and 44% of older teens stated that they thought a little parental supervision over usage is required.</p>
+<p>From these findings, the paper emphasises the need for cultivating developmentally appropriate AI literacy skills so that young people can understand what AI systems are doing. Artificial systems that present as if they are exhibiting real care could be especially problematic for younger users who are more impressionable. The article suggests that policy development should carefully consider the role of emulated empathy, which is using AI-based technology to copy, simulate, mimic, and display the appearance of human empathy.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="what-role-should-could-parental-supervision-play-in-teenagers-use-of-ai">
+<h3>What role should/could parental supervision play in teenagers’ use of AI?<a class="headerlink" href="#what-role-should-could-parental-supervision-play-in-teenagers-use-of-ai" title="Link to this heading">#</a></h3>
+<p>Parental supervision invokes a difficult standoff between freedom and protection. Developing an independent self from your parents is a core part of being a teenager and restricting this could be developmentally undermining. Policing children breaks trust, potentially causing friction within families. Requiring supervision also shifts accountability and puts pressure onto parents. However, it is important to acknowledge that parents are legally accountable for their children until they are at the age where they are legally considered an adult and responsible for their own actions.</p>
+<p>The extent and type of parental supervision could significantly vary. One approach could be full supervision, observing all interactions a child has with AI companions. Full supervision may be laborious for both the parent and child, potentially putting strain on the relationship. Teenagers have always found ways to circumvent parental supervision and perhaps AI companion services are just one more channel to get around. Instead of reading the chat history, an alternative approach could be to understand the social interactions of the teen more broadly. Parents could encourage higher level discussions about AI and how the teen understands it; addressing not what the teen is saying to the chatbot, but how they are talking to it, why, and the amount of time or energy they are putting into using the tool.</p>
+<p>What works changes over time, and good parenting 50 years ago may look quite different to good parenting today. Whilst older generations could feel inclined to think that because something worked for them, it should work for others now, this isn’t always the case. Teens today may have more opportunities than past teenagers in some respects and less in others as society evolves and so do the circumstances we exist within. Rapid technological development and prevalence of AI, for example, marks a stark difference between the lives of teenagers today and in the past.</p>
+<p>Increasing availability and convincingness of services like AI companions could shape teenage development in odd ways if we do not carefully consider how tools should be managed. We already see how AI influences the way that we present and discuss issues, such as the standard format of an LLM answer being increasingly common in written text. We wondered whether this influence might reach further into our psyche as tools become more integrated in social domains of our lives (such as AI companion tools), interfering with our interpersonal social relationships.</p>
+<p>For teenagers especially, the effects of AI influence on social development could be problematic. LLM tools reduce friction in interactions through their sycophantic nature which prioritises agreeing and placating the user instead of challenging and making them question if they are behaving in the right way. We worried about whether this encourages delusional beliefs and self-aggrandisement. <a class="reference external" href="https://replika.com/">Replika</a> is an AI companion service which has the slogan of “Always here to listen and talk. Always on your side.” If this becomes the standard that children learn to expect from their friends, we wondered how it may affect the way they form friendships. We need to consider the limits of what these tools can and can’t do, such as humour and inside jokes, and the effects that this has on social development.</p>
+<p>Examining the limits and boundaries of AI companions draws attention to how they are defined and where those definitions come from. The line of where an LLM goes from a homework helper to a social output is blurry, yet it is important to distinguish between using an LLM as some form of search tool and using it for emotional support. This made us wonder which situations teenagers are using AI companions in. Perhaps an appropriate framework for children and teenagers to use LLMs is via institutional interactions, such as students being asked by teachers to trigger chats about the results of a science test, engendering the opportunity to have a conversation about their learnings and help fill in any gaps in their knowledge. This did lead to thoughts, however, about brand loyalty and big companies signing contracts with schools to try and recruit customers when they are young. It has been suggested that a valuable application of LLMs is to help educators mark the work of students. Although, even if we hate marking, we feel that anything requiring creativity and subjectivity should not use LLMs. Educators are employed to share their brain with students, and we shouldn’t offload this process to intermediaries.</p>
+<p>Deciding whether teenagers should be using AI companions relates to the social media debate. Research from the platforms themselves, such as Facebook, show that most teenagers do not benefit and might be harmed from using social media tools. Yet it’s also true that social media can be a vital lifeline for queer and neurodivergent kids, and taking it away means these children have one less output. Rural and remote accessibility to technology did not play a very large role in the discussion and subsequent passing of <a class="reference external" href="https://www.sydney.edu.au/news-opinion/news/2025/12/05/what-is-australias-under-16-social-media-ban-the-world-first-law-explained.html">the social media ban in Australia</a>.</p>
+<p>Talking to AI may sometimes be better than talking to the people who are around or complete strangers with potentially nefarious intentions. It could also be an option for those who can’t afford therapy. Ideally, however, at-risk users would be able to disclose information to social workers as the way LLMs are currently set up skips safeguarding measures. The taking away of these tools being also a removal of an outlet for vulnerable groups is perhaps part of a broader systemic problem with social support and technology regulation.</p>
+<p>We thought that the results about opinions on parental supervision could have been reported more clearly. Page 14 states that “the most common view among teen users (37% of younger teens, 44% of older teens) is that ‘a little supervision’ is wanted”. Yet, if you look at table 5 on page 11, 85% of younger teens and 79% of older teens want a little supervision, if not more. This creates a very different picture of the findings. To get a clear picture of attitudes, we thought that the cumulative of ‘a little’, ‘some’, ‘a lot’, and ‘full’ supervision should be collated.</p>
+</section>
+<section id="section-3-4-3-states-that-66-report-having-never-felt-uncomfortable-with-something-an-ai-companion-has-said-or-done-this-suggests-that-for-most-these-platforms-are-providing-a-generally-safe-and-positive-user-experience-do-you-agree-with-the-second-statement-what-standard-should-we-hold-these-models-to">
+<h3>Section 3.4.3 states that “(66%) report having “never” felt uncomfortable with something an AI companion has said or done. This suggests that, for most, these platforms are providing a generally safe and positive user experience.” Do you agree with the second statement? What standard should we hold these models to?<a class="headerlink" href="#section-3-4-3-states-that-66-report-having-never-felt-uncomfortable-with-something-an-ai-companion-has-said-or-done-this-suggests-that-for-most-these-platforms-are-providing-a-generally-safe-and-positive-user-experience-do-you-agree-with-the-second-statement-what-standard-should-we-hold-these-models-to" title="Link to this heading">#</a></h3>
+<p>It is important to remind ourselves that this is 66% of those surveyed rather than 66% of UK teenagers. The title of the report (“Do AI Companions Understand? Most UK Teens Say Yes”) is a bit misleading in this sense. The authors of the paper don’t want to demonise these tools and want to avoid causing moral panic – which can be often the case in the media, where the worst case scenarios tend to be the most loudly talked about. Being clear that the percentages are only of those surveyed rather than all UK teens helps put the results into perspective.</p>
+<p>We felt that it is not necessarily a bad thing for users to feel uncomfortable when interacting with AI companions or LLMs more generally. There is a danger of LLMs being too comfortable which we should perhaps look out for. Being friendly and helpful can sometimes actually be unhelpful by making users reliant and preventing them from doing things for themselves. The sycophantic behaviour of LLMs reminds some of us of our experience working at sex offender prisons, in which the inmates were often very charming. Another analogy is to CEOs that like to surround themselves with “yes” men so that feedback on their ideas is always positive. LLMs should be biased towards being honest and factual rather than helpful, but in reality they tend to lean the opposite way, such as by <a class="reference external" href="https://petergpt.github.io/bullshit-benchmark/viewer/index.html">replying to questions that make no sense with overly confident answers</a>. LLMs also have a tendency to <a class="reference external" href="https://arxiv.org/abs/2311.08596">flip flop</a> a lot, which is when the output switches between one answer and its opposite.</p>
+<p>To mitigate some of the sycophancy issues, one approach could be to get LLMs to positively reflect on the questions they’ve been asked. Instead of trying to immediately answer the question, an LLM could ask the user “why are you asking me this”. We’ve found that specifically asking LLMs not to validate everything you say and give some pushback makes our interactions with LLMs more useful. However, companies may not be commercially incentivised to incorporate these measures; <a class="reference external" href="https://futurism.com/openai-gpt5-more-sycophantic">ChatGPT 5.0 was purposefully made less sycophantic and users complained, which lead to OpenAI ramping up the sycophancy once more</a>.</p>
+<p>The level of sycophancy and propensity for an LLM to make users feel uncomfortable depends on the way that the user is prompting the tool as well as the training of the tool itself. Unsafe answers may require unsafe questions. We wondered if in situations where teenagers felt uncomfortable, the structure of questions they were asking pointed towards the response they got. Perhaps an LLM should be able to distinguish between “can I pass my a-levels” and “can I assassinate the queen”. This highlights how safeguarding standards are not keeping up with AI.</p>
+<p>We wondered how much of AI safeguarding depends on the user, as a standard LLM interaction involves one human and one tool. However, in the case of children, it is not really up to them to be able to fully comprehend what is or is not safe. Asking “how can I trick my sister” is a pretty normal question for a child, yet we can see how the response could easily go from “wipe snot on her” to, after some continued prompting and interaction, “blow up her chair”. LLMs do not currently have the inbuilt capacity to stop this from happening, and whilst the child may feel safe in the interaction, the situation is not safe and needs adult moderation.</p>
+<p>To draw a parallel, if there was a discussion forum of teenagers being hosted or moderated by an educator with 22% feeling unsafe or uncomfortable, the forum would immediately be shut down. Reporting the positive statistic of 66% never feeling uncomfortable could be inaccurately requoted and reported by AI companies to further push their services onto children.</p>
+</section>
+<section id="the-policy-recommendations-dont-seem-to-direct-any-strong-regulation-on-the-ai-companies-themselves-what-do-you-think-about-this">
+<h3>The policy recommendations don’t seem to direct any strong regulation on the AI companies themselves. What do you think about this?<a class="headerlink" href="#the-policy-recommendations-dont-seem-to-direct-any-strong-regulation-on-the-ai-companies-themselves-what-do-you-think-about-this" title="Link to this heading">#</a></h3>
+<p>It’s acceptable to ask for things like parental supervision but we wondered how realistic legal change might be. Law moves slowly in comparison to tech, and it is unlikely that AI companies will act to change anything without being legally required to. The general trend in the tech industry seems to be to “see what happens first” before considering restrictions. One mechanism to incentivise companies to change could be by including additional liabilities.</p>
+<p>Examining how to regulate AI companions feels linked to the conversation about children using social media. We wondered if the Australian child social media ban reaches to LLMs. In the UK, there currently do not seem to be age or usage limits on existing generic LLMs.</p>
+<p>Based on the scope of the study alongside the lack of certain methodology details, we thought that perhaps the paper should not be leading to policy recommendations but instead directions for future research. We wondered how we can come up with better advice for how to deal with AI other than “not” AI. It seems like a lot of advice is not very contextual, however, there are important nuances that need to be considered. Minority groups, for example, may see safety in very different ways to mainstream narratives.</p>
+</section>
+<section id="what-additional-questions-would-you-like-to-ask-the-surveyed-teenagers">
+<h3>What additional questions would you like to ask the surveyed teenagers?<a class="headerlink" href="#what-additional-questions-would-you-like-to-ask-the-surveyed-teenagers" title="Link to this heading">#</a></h3>
+<p>Before going into detail about additional questions for surveyed teenagers, we had some questions about the methodology. Whilst surveys are a valuable research tool, some aspects of this survey could be discussed in more detail. A literature review or background section, for example, would help to frame the context of the paper and help us assess whether the survey is asking the right questions. Many people coming from a variety of fields write about the topic of AI, leading to a range of perspectives as people from different fields ask different questions. Surveys can end up lumping these disparate views together, assuming shared meaning. However, closer investigation often reveals that concepts don’t add up because they are angling from different fields. The paper would thus be improved by spending more time elucidating key terms, such “think” and “understand”.</p>
+<p>There were some interesting topics that came up in the paper that could be explored in more detail, such as the discussion on different types of empathy. We wondered whether there is more that could be done with the data collected, such as by conducting analyses across different questions, for example, investigating differences between those using the tools more or less frequently. We noticed big differences between age groups on certain questions and would like to understand this more. Differences in answers between varying age groups could be related to older teenagers being exposed to AI tools for longer and thus having a better understanding of how the tools work, or it could come from younger respondents having used the tools from earlier in life. We would also like to know whether there were differences in gender responses.</p>
+<p>In addition to the contextualisation of the paper and discussion of results, we thought that some aspects of the sampling could be improved. The study is framed in a general manner but seems to be directed towards populations that are more likely to be “at risk”. We would be interested to know how participants were recruited, and whether populations who use these tools differently to those included in the survey may have been missed. Understanding the scope of populations included or not included in the survey would be aided by incorporating more complex demographics of the participants.</p>
+<p>To expand the generalisability of the survey, further research could address differences between the USA and UK regarding teenage use of AI companion services, placing emphasis on potential differences in extreme cases. Other important aspects to examine include the experience of groups with diverse disability, ethnicity, gender, sexual orientation, and remote/rural/island characteristics. Investigating the experience of teenagers that do not use AI, who were excluded from the study, would also be key.</p>
+<p>Reproducibility would be strengthened by incorporating a discussion on how the survey questions were developed, e.g. whether they were shaped by focus groups. Some concepts which adults may take for granted as being obvious are not necessarily understood in the same way by younger people. Time, for example, is experienced very differently by various ages and younger teenagers might not have a good grasp over the difference between daily, weekly, and monthly use.</p>
+<p>As participants required parental consent before being able to take part in the study, a sort of sampling bias arises. We wondered what the effect of this may be on the demographics of the population incorporated. It is difficult to collect data on children without the consent of their parents, and the survey would have needed to go through some sort of ethical committee. Perhaps the next steps of the paper could include finding an ethical way to collect this data. An alternative approach that could be appropriate could be longer-term observational style methodologies, such as an <a class="reference external" href="https://en.wikipedia.org/wiki/Ethnography">ethnographic</a> study. Ethnography can help to build a richer sense of developmental understandings, which would be useful to learn about the perspectives teenagers have on AI and how those perspectives develop.</p>
+<p>Given that the study required parental consent, we wondered how much influence parents had over the answers and whether respondents answered from what they really believe or from what they think they should say. A teenager is unlikely to be completely honest about romance, for example, when their parents are in the room. Teenagers especially are very susceptible to the opinions of others and could easily have been reporting what they’ve picked up from other people and authorities instead of their own experience. Rather than asking the participants to talk about themselves directly, it might be interesting to ask them what their friends do – how their friends use LLMs, and how the respondent thinks LLM use has influence them. Asking about their friends instead of themselves is less personal and thus perhaps easier to be honest about.</p>
+<p>Additional questions we would like to ask the respondents include whether they are using the tools instead of a diary. Diaries have historically been a mechanism for teenagers to explore their feelings, and one could imagine an LLM being used in a similar way. A diary, however, is a static object that does not feed back to the author or reinforce what they are writing in it – unlike an AI companion. For the respondents that have talked about something serious to an AI companion, we would like to ask whether that is the only place where they have talked about it or more of an additional place to go, and whether they also talked to a human about it.</p>
+<p>The understanding that teenagers have of what AI companions are, including knowledge of the underlying algorithmic structure and data handling, is something that we felt concerned about. We wondered what teenagers know about data privacy in relation to AI companions and LLMs, and whether they are aware of what data are private or shared. Conversations with LLMs are not secure; if an account is shared, the ways in which one person uses an LLM (e.g. building a romantic relationship) may trickle into other peoples’ interactions.</p>
+<p>It also worried us that teenagers think that AI companions provide advice. The finding that 56% of respondents believe that AI companions can think and 77% believe it is false that AI companions can feel would be interesting to investigate further, to illuminate what teenagers understand by this and why they answered how they did. The concepts of “thinking” and “feeling” are very difficult to define and perhaps come along varying scales. We don’t know the extent to which teenagers assimilate an LLM “thinking” with the way that they themselves think. We wondered whether anyone has tied a developmental model into what teenagers know or perceive of thinking and understanding.</p>
+<p>We also wondered what the effects are of treating an LLM like it is thinking or feeling, and whether this has implications for how we socialise. A lot of the troubling cases reported in the media involve people who know that they are dealing with a chatbot and still become emotionally entangled with it. This suggests that reminding people that LLMs are tools rather than people may not be enough to mitigate problematic use. To further investigate the perception of LLMs and social implications, we would like to ac extent teenagers think LLMs are “real”.</p>
+<p>The way we perceive LLMs may be analogous to how we interact with puppets. Most people don’t think puppets are real, and yet there are benefits of believing puppets not to be real. For example, those that find it difficult to maintain eye contact with a person may find it easier to do with a puppet. Just as puppets are useful for neurodivergent people to practice social skills, AI companions could be a valuable space for neurodivergent teenagers to express themselves. Children who hyperfocus may really enjoy talking to an LLM because it will never get tired. However, this quickly becomes problematic if a child just wants to spend all their time talking to AI about their interests. Whilst a tireless AI chat companion can provide an outlet for these children, it doesn’t help them to learn that a natural conversation involves give and take, listening as well as talking.</p>
+</section>
+</section>
+<hr class="docutils" />
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, PhD Student, University of Bristol</p></li>
+<li><p>Joe Carver, Data Scientist, Brandwatch</p></li>
+<li><p>Evie, Data Scientist, Jean Golding Institute</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/paulmatthewsuwe/">Paul Matthews</a>, Lecturer, UWE Bristol</p></li>
+<li><p>Cali Riley, Senior Analyst, Manchester City Council</p></li>
+<li><p>Rachel Hamilton, Creative Writing Teaching Fellow, Bath Spa Uni</p></li>
+<li><p>Liz Ing-Simmons, Research Software Engineer, King’s College London,</p></li>
+<li><p>Kristi Long, Knowledge Manager, NHS Education for Scotland</p></li>
+<li><p>Karen Louise Dawe, Lecturer in Digital Health, UoB <a class="reference external" href="https://www.linkedin.com/in/karen-louise-dawe-791bb711/">LinkedIn</a></p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer / AI Product Manager, Brisbane</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/robindasler">Robin Dasler</a>, data product manager, California</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+     
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+     
+    <a href="2026-02-11_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: “Turning right”? An experimental study on the political value shift in large language models</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav class="bd-toc-nav page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-role-should-could-parental-supervision-play-in-teenagers-use-of-ai">What role should/could parental supervision play in teenagers’ use of AI?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#section-3-4-3-states-that-66-report-having-never-felt-uncomfortable-with-something-an-ai-companion-has-said-or-done-this-suggests-that-for-most-these-platforms-are-providing-a-generally-safe-and-positive-user-experience-do-you-agree-with-the-second-statement-what-standard-should-we-hold-these-models-to">Section 3.4.3 states that “(66%) report having “never” felt uncomfortable with something an AI companion has said or done. This suggests that, for most, these platforms are providing a generally safe and positive user experience.” Do you agree with the second statement? What standard should we hold these models to?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-policy-recommendations-dont-seem-to-direct-any-strong-regulation-on-the-ai-companies-themselves-what-do-you-think-about-this">The policy recommendations don’t seem to direct any strong regulation on the AI companies themselves. What do you think about this?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-additional-questions-would-you-like-to-ask-the-surveyed-teenagers">What additional questions would you like to ask the surveyed teenagers?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2026-03-11_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/write_ups/2026-03-11_writeup.md.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
