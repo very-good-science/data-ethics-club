@@ -30,13 +30,11 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 8th April 2026 
-
-Material: [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075)
-
-Discussion prompts TBD!
-
 ### 13th May 2026
+
+Discussion material: [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY)
+
+Discussion prompts: TBD
 
 ### 10th June 2026
 
@@ -45,6 +43,7 @@ Discussion prompts TBD!
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 08.04.2026 | [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075) | Writeup coming soon! |
 | 11.03.2026 | [Do AI companions understand? Most UK Teens say yes](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-03-11_writeup.html) |
 | 11.02.2026 | [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-02-11_writeup.html) |
 | 21.01.2026 | [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-01-21_writeup.html) |
