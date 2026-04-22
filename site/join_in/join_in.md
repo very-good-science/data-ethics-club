@@ -30,7 +30,7 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 13th May 2026
+### 20th May 2026
 
 Discussion material: [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY)
 
