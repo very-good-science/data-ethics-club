@@ -34,7 +34,10 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Discussion material: [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY)
 
-Discussion prompts: TBD
+Discussion prompts: 
+1) To what extent should empirical researchers take on the responsibility of defining legislative terms, and at what point does this step outside the bounds of traditional academic inquiry?
+2) Legislation often uses broad terms like "reasonable safeguards," "foreseeable risks," and "state-of-the-art techniques". How can technical communities move from identifying these terms to creating universally accepted metrics that courts and regulators can actually use in litigation?
+3) Casper discusses the difficulty of bridging the gap between technical findings and policy impact. How can researchers better manage this gap of communication to ensure their work is accessible and actionable for non-technical stakeholders like lawyers or government officials?
 
 ### 10th June 2026
 
