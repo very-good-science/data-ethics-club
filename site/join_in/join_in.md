@@ -30,22 +30,24 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 20th May 2026
-
-Discussion material: [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY)
-
-Discussion prompts: 
-1) To what extent should empirical researchers take on the responsibility of defining legislative terms, and at what point does this step outside the bounds of traditional academic inquiry?
-2) Legislation often uses broad terms like "reasonable safeguards," "foreseeable risks," and "state-of-the-art techniques". How can technical communities move from identifying these terms to creating universally accepted metrics that courts and regulators can actually use in litigation?
-3) Casper discusses the difficulty of bridging the gap between technical findings and policy impact. How can researchers better manage this gap of communication to ensure their work is accessible and actionable for non-technical stakeholders like lawyers or government officials?
-
 ### 10th June 2026
+
+Discussion material: [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/)
+
+Discussion questions: TBD!
+
+### 8th July 2026
+
+### 12th August 2026
+
+### 9th September 2026
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 20.05.2026 | [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY) | Writeup coming soon! |
 | 08.04.2026 | [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075) | Writeup coming soon! |
 | 11.03.2026 | [Do AI companions understand? Most UK Teens say yes](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-03-11_writeup.html) |
 | 11.02.2026 | [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-02-11_writeup.html) |
