@@ -34,7 +34,10 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Discussion material: [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/)
 
-Discussion questions: TBD!
+Discussion questions: 
+1. What does the value of publication and peer review mean to you? What would you like it to mean?
+2. What do you think of the contrast between how editors are described as not being paid enough with the daycare study that suggests paying reviewers wouldn't be effective?
+3. 'As Gross put it, many of the interventions “would require coordination among large groups that typically don't coordinate.”' Do you agree with this? Do you think a coordinated solution is possible?
 
 ### 8th July 2026
 
