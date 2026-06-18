@@ -30,16 +30,11 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 10th June 2026
-
-Discussion material: [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/)
-
-Discussion questions: 
-1. What value does publication and peer review hold for you? What value would you like it to have?
-2. What do you think of the contrast between how editors are described as not being paid enough next to the daycare study that suggests paying reviewers wouldn't be effective?
-3. 'As Gross put it, many of the interventions “would require coordination among large groups that typically don't coordinate.”' Do you agree with this? Do you think a coordinated solution is possible?
-
 ### 8th July 2026
+
+Discussion material: [UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out](https://www.theguardian.com/commentisfree/2026/may/01/uk-biobank-data-china-breach-longitudinal-study-benefits)
+
+Discussion questions: TBD!
 
 ### 12th August 2026
 
@@ -50,6 +45,7 @@ Discussion questions:
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 10.06.2026 | [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/) | Writeup coming soon! |
 | 20.05.2026 | [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY) | Writeup coming soon! |
 | 08.04.2026 | [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075) | Writeup coming soon! |
 | 11.03.2026 | [Do AI companions understand? Most UK Teens say yes](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-03-11_writeup.html) |
