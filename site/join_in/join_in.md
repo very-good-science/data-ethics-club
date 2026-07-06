@@ -34,7 +34,10 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Discussion material: [UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out](https://www.theguardian.com/commentisfree/2026/may/01/uk-biobank-data-china-breach-longitudinal-study-benefits)
 
-Discussion questions: TBD!
+Discussion questions:
+1. Are we surprised that a data leak like this has happened? Why/why not?
+2. Would we feel differently if this was a data leak from a commerical organisation? Why?
+3. Has this article made you more or less likely to take part in a population-wide study?
 
 ### 12th August 2026
 
