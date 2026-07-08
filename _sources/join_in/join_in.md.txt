@@ -30,16 +30,9 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 8th July 2026
-
-Discussion material: [UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out](https://www.theguardian.com/commentisfree/2026/may/01/uk-biobank-data-china-breach-longitudinal-study-benefits)
-
-Discussion questions:
-1. Are we surprised that a data leak like this has happened? Why/why not?
-2. Would we feel differently if this was a data leak from a commerical organisation? Why?
-3. Has this article made you more or less likely to take part in a population-wide study?
-
 ### 12th August 2026
+
+Discussion material: [Position: The Categorization of Race in ML is a Flawed Premise](https://openreview.net/pdf?id=eI8KegpPyX)
 
 ### 9th September 2026
 
@@ -48,6 +41,7 @@ Discussion questions:
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 08.07.2026| [UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out](https://www.theguardian.com/commentisfree/2026/may/01/uk-biobank-data-china-breach-longitudinal-study-benefits) | Writeup coming soon! |
 | 10.06.2026 | [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/) | Writeup coming soon! |
 | 20.05.2026 | [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY) | Writeup coming soon! |
 | 08.04.2026 | [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075) | Writeup coming soon! |
