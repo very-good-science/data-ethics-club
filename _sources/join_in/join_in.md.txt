@@ -30,7 +30,7 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 12th August 2026
+### 19th August 2026
 
 Discussion material: [Position: The Categorization of Race in ML is a Flawed Premise](https://openreview.net/pdf?id=eI8KegpPyX)
 
