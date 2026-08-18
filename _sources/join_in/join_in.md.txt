@@ -34,6 +34,11 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Discussion material: [Position: The Categorization of Race in ML is a Flawed Premise](https://openreview.net/pdf?id=eI8KegpPyX)
 
+Discussion prompts:
+1. How is race currently treated as a variable in datasets you have seen/used/created?
+2. How should fairness benchmarks be adapted when deploying models across different geographic, legal, and socio-cultural settings?
+3. Does the failure of discrete categories for mixed-race identities point to a fundamental limitation of classification algorithms in social domains?
+
 ### 9th September 2026
 
 ## Past Meetings
