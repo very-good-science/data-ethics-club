@@ -1,0 +1,1358 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: Trust is a verb: how to reimagine confidence in health systems &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=a95f357e85573c9b56d5" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="../_static/scripts/fontawesome.js?digest=a95f357e85573c9b56d5"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=9bcbadda"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2026-04-08_writeup';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2026-04-08_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../_static/searchtools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../searchindex.js"></script>
+     
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i><span class="visually-hidden">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i><span class="visually-hidden">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i><span class="visually-hidden">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i><span class="visually-hidden">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+   
+  <h2>
+     
+    <i class="fa fa-calendar"></i>
+    
+    <span>08 April 2026</span>
+    
+  </h2>
+  <ul>
+    <div class="ablog-sidebar-item ablog__postcard2">
+   
+  <li id="ablog-sidebar-item author ablog__author">
+    <span>
+      
+      <i class="fa-fw fa fa-user"></i>
+      
+    </span>
+     
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+      
+  </li>
+     
+  <li id="ablog-sidebar-item category ablog__category">
+    <span>
+      
+      <i class="fa-fw fa fa-folder-open"></i>
+      
+    </span>
+     
+    <a href="write-ups/category/write-up.html">Write Up</a>
+      
+  </li>
+   
+  <li id="ablog-sidebar-item tags ablog__tags">
+    <span>
+       
+      <i class="fa-fw fa fa-tags"></i>
+       
+    </span>
+     
+    <a href="write-ups/tag/ai.html">AI</a>
+        
+    <a href="write-ups/tag/medicine.html">medicine</a>
+        
+    <a href="write-ups/tag/healthcare.html">healthcare</a>
+        
+    <a href="write-ups/tag/trust.html">trust</a>
+        
+    <a href="write-ups/tag/communication.html">communication</a>
+      
+  </li>
+   
+</div>
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+  <h3>
+    <a href="write-ups.html">Recent Posts</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="2026-03-11_writeup.html">
+        11 March - Data Ethics Club: Do AI Companions Understand?
+      </a>
+    </li>
+    
+    <li>
+      <a href="2026-02-11_writeup.html">
+        11 February - Data Ethics Club: “Turning right”? An experimental study on the political value shift in large language models
+      </a>
+    </li>
+    
+    <li>
+      <a href="2026-01-21_writeup.html">
+        21 January - Data Ethics Club: Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-12-03_writeup.html">
+        03 December - Data Ethics Club: AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking
+      </a>
+    </li>
+    
+    <li>
+      <a href="2025-11-12_writeup.html">
+        12 November - Data Ethics Club: Oura Wants Its Wearables to Revolutionize Pregnancy Studies
+      </a>
+    </li>
+    
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__categories">
+  <h3>
+    <a href="write-ups/category.html">Categories</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/category/blog.html">Blog (8)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/bookclub.html">Bookclub (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/write-up.html">Write Up (78)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tagcloud">
+  <link
+    rel="stylesheet"
+    href="../_static/ablog/tagcloud.css"
+    type="text/css"
+  />
+  <h3><a href="write-ups/tag.html">Tags</a></h3>
+  <ul class="ablog-cloud">
+     
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/agi.html">AGI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai.html">AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-applications.html">AI applications</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/alphafold.html">AlphaFold</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fair.html">FAIR</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/llms.html">LLMs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ml.html">ML</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/transparency.html">Transparency</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ableism.html">ableism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/abuse.html">abuse</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/art.html">art</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/automation.html">automation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-5">
+      <a href="write-ups/tag/bias.html">bias</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/big-tech.html">big tech</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bots.html">bots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bullshit.html">bullshit</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatbots.html">chatbots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/children.html">children</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/cognitive-offloading.html">cognitive offloading</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/collective-action.html">collective action</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/communication.html">communication</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/computer-vision.html">computer vision</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consent.html">consent</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consumerism.html">consumerism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/coproduction.html">coproduction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/crime.html">crime</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-centres.html">data centres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-collection.html">data collection</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-feminism.html">data feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-labelling.html">data labelling</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-privacy.html">data privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-week.html">data week</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/datacentres.html">datacentres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/dataethics.html">dataethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonising.html">decolonising</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-afterlife.html">digital afterlife</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-footprint-data.html">digital footprint data</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/education.html">education</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/enshittification.html">enshittification</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environment.html">environment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environmental-impact.html">environmental impact</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ethics.html">ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/explainability.html">explainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fairness.html">fairness</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/feminism.html">feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/gender.html">gender</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generative-ai.html">generative AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generativeai.html">generativeAI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/global-south.html">global south</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/google.html">google</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/group-projects.html">group projects</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hallucination.html">hallucination</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/healthcare.html">healthcare</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/history.html">history</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/human-like-ai.html">human-like AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hype.html">hype</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/injustice.html">injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/labour-rights.html">labour rights</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/law.html">law</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/medicine.html">medicine</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/mental-health.html">mental health</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/metaphor.html">metaphor</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/nlp.html">nlp</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-science.html">open science</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-source.html">open source</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/outreach.html">outreach</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/oversight.html">oversight</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/personality-test.html">personality test</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/philosophy.html">philosophy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/policy.html">policy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/prediction.html">prediction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/predictive-ai.html">predictive AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/privacy.html">privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/protein-folding.html">protein folding</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/psychology.html">psychology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/racism.html">racism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/recruitment.html">recruitment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/research-ethics.html">research ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/resolutions.html">resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/responsibility.html">responsibility</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/retrospective-studies.html">retrospective studies</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social.html">social</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social-media.html">social media</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/software-dev.html">software dev</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/statistics.html">statistics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sustainability.html">sustainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/synthetic-biology.html">synthetic biology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/trust.html">trust</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/values.html">values</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/war.html">war</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/wearables.html">wearables</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+  <h3>
+    <a href="write-ups/author.html">Authors</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (46)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archives">
+  <h3>
+    <a href="write-ups/archive.html">Archives</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/2026.html">2026 (4)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2025.html">2025 (13)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2024.html">2024 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2023.html">2023 (15)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2022.html">2022 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2021.html">2021 (16)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: Trust is a verb: how to reimagine confidence in health systems</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                   <section id="data-ethics-club-trust-is-a-verb-how-to-reimagine-confidence-in-health-systems">
+<h1>Data Ethics Club: <a class="reference external" href="https://academic.oup.com/heapro/article/41/1/daaf235/8424075?login=true">Trust is a verb: how to reimagine confidence in health systems</a><a class="headerlink" href="#data-ethics-club-trust-is-a-verb-how-to-reimagine-confidence-in-health-systems" title="Link to this heading">#</a></h1>
+<!--
+```{admonition} What's this? 
+This is summary of Wednesday 8th April’s Data Ethics Club discussion, where we spoke and wrote about the article [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075?login=true) by Tina D Purnat, Elisabeth Wilhelm, Gloria Lihemo, and David Scales.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Huw Day helped with the final edit.
+```
+-->
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>Health systems are designed to deliver care, monitor risks, and offer guidance that improves population wellbeing. Today, however, the relationship that people have with their health is changing. The information environments we move through are shifting faster than ever before and offer many more places to seek advice or affirmation. People learn from one another online, form shared expectations, and build norms that feel responsive in ways which top-down communication from institutions often fails to achieve.</p>
+<p>The paper highlights three shifts influencing the expectations of people seeking healthcare:</p>
+<ul class="simple">
+<li><p><em>Shift 1: professional expertise must meet lived experience as a partner.</em> People rarely arrive in health settings without a story. In an effort to make sense of their experience, they often have an interpretation of their symptoms gained from conversations with social peers and information offered by online influencers. Heavy workloads of clinicians and short appointments reduce the opportunities to grow trust with patients, so people look elsewhere for the time and attention. Distrust forms from the feeling that the authority someone has over their own experience has been dismissed.</p></li>
+<li><p><em>Shift 2: conversation about health moves at a speed that strains understanding.</em> People are now learning about health in places with constant flows of new information, where the pace of the information stream shapes what feels trustworthy. Influencers present confident views in ways that come across as personal and emotionally coherent, contrasting slower and more formal updates from public health organisations.</p></li>
+<li><p><em>Shift 3: personalisation reshapes what feels credible.</em> Almost everything today adjusts to our preferences. When looking for health information, the questions people ask shifts from “is this true?” to “is this for me?”. Evidence expressed in averages feels impersonal, probabilities sound dismissive, and uncertainty comes across as a failure of care. Personalisation feels and is sold as empowering in an unpredictable world. Yet, whilst greater access to health information and promotion of self-care by health systems perhaps should lead to empowerment, it also places the burden of wellness on individuals.</p></li>
+</ul>
+<p>To adjust to the cultural shifts that are influencing heath and health care systems, the paper suggests three pivots:</p>
+<ul class="simple">
+<li><p><em>Pivot 1: practicing trustworthiness.</em> Look closely at how questions and disagreements are worked through, who has voice at different stages, and how responsibility is shared. Trust in institutions is strengthened when the institutions create the conditions that allow health workers to listen, explain, and respond with integrity, and when participatory practices are adequately resourced.</p></li>
+<li><p><em>Pivot 2: renewing the social contract across generations.</em> Reflect how trust differs across generations because each group carries its own history of how they have experienced health and authority. Generational differences need to be recognised, listened to, and intergenerational dialogue encouraged.</p></li>
+<li><p><em>Pivot 3: rebuilding the structures that connect science and society.</em> Make visible the process that translates evidence into guidance. To grow trust, people need to be able to clearly see the pathways that show how evidence moves from discovery to decision to public dialogue, and where uncertainty, judgment, and values enter along the way.</p></li>
+</ul>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="what-did-you-think-of-the-3-shifts-the-paper-outlined-are-they-a-complete-list">
+<h3>What did you think of the 3 shifts the paper outlined? Are they a complete list?<a class="headerlink" href="#what-did-you-think-of-the-3-shifts-the-paper-outlined-are-they-a-complete-list" title="Link to this heading">#</a></h3>
+<p><em>Shift 1: professional expertise must meet lived experience as a partner</em></p>
+<p>We could see how mixing professional expertise with lived experience can help rebuild a system of trust, not just in healthcare, but also in other domains we work in such as children’s social care reforms.</p>
+<p>However, whilst we agreed that incorporating lived experience is important, the reality of joining lived experience with medical advice isn’t always as straightforward as it sounds. Lived experience is grounded in history, looking backwards, instead of looking forwards to prognosis and treatment pathways. We’ve seen examples of these tensions arise in <a class="reference external" href="https://www.gosh.nhs.uk/our-research/taking-part-research/get-involved-in-research-and-innovation-at-gosh/patient-and-public-involvement-engagement-ppie-hub/what-is-patient-and-public-involvement-and-engagement-ppie-in-research/">Patient and Public Involvement and Engagement (PPIE)</a>. PPIE is where members of the public actively participate in or conduct research themselves, providing a channel through which lived experience can be incorporated. Difficulties can arise because sometimes clinical judgement will conflict with outputs from PPIE.</p>
+<p>Effectively combining the lived experiences of people and outputs of PPIE with clinical judgement requires engagement from both sides. Compromises will be required if PPIE and clinicians disagree. For example, if the outputs of PPIE reject solutions that need Bluetooth, but researchers are only able to use Bluetooth, researchers may need to work with PPIE to understand their concerns and improve gaps in education.</p>
+<p>Alongside differences between public opinion and clinical judgement, there will also be variation within public opinion and people can have wildly different lived experience. It’s important to make sure that the loudest voices aren’t the only ones being heard. Those who are participating the most may not be representative of everybody and people most well set up to do co-production work aren’t necessarily the ones who need it most.</p>
+<p><em>Shift 2: conversation about health moves at a speed that strains understanding</em></p>
+<p>Information that is available for us to consume is rapidly growing, including our access to advice which looks convincingly expert. ChatGPT is being <a class="reference external" href="https://www.msn.com/en-us/health/other/we-analyzed-47-000-chatgpt-conversations-here-s-what-people-really-use-it-for/ar-AA1QhF82">increasingly used as counsel for all domains in life</a>, including <a class="reference external" href="https://www.independent.co.uk/tech/chatgpt-ai-health-advice-b2894982.html">healthcare</a>. However, studies <a class="reference external" href="https://www.nature.com/articles/s41591-025-04074-y">such as Bean et al. (2026)</a> have found that whilst large language models (LLMs) can pass standardised tests of medical knowledge, the tools are no better than traditional methods like online searchers or a patient’s own judgement. In addition, Bean et al. found that participants often did not know what information to give LLMs so that outputs offer accurate advice and LLM responses frequently combined good and poor recommendations. <a class="reference external" href="https://link.springer.com/chapter/10.1007/978-3-031-99965-9_39">LLMs are also inherently susceptible</a> to <a class="reference external" href="https://www.geeksforgeeks.org/blogs/what-are-llm-hallucinations/">hallucinations</a>, where responses are completely made up.</p>
+<p>Growth in propagation of misinformation and disinformation is not just down to LLMs, however. Also playing a role is the rising <a class="reference external" href="https://ourworldindata.org/internet">availability of the internet</a> and people [active on social media](https://www.statista.com/statistics/454772/number-social-media-user-worldwide-region/. There is an <a class="reference external" href="https://www.msn.com/en-us/news/technology/how-big-is-the-internet-here-s-how-much-data-is-on-it/ar-AA1MYydq">incomprehensible amount of data on the internet</a> and an <a class="reference external" href="https://www.statista.com/topics/9713/misinformation-on-social-media/#statisticChapter">increasing proportion of it is inaccurate</a>.</p>
+<p>The format of social media platforms also influences how we consume information. Short videos mean that information has to be presented convincingly and quickly, before the viewer moves on. However, the condensed timeframe of these videos means that caveats are often skimmed over or ignored, leading people to believe that they can find a quick solution and magic pill. Repeated exposure to short form content has downstream effects on our psychology, for example, TikTok has been <a class="reference external" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5096965">linked to reduced attention spans in students</a>. <a class="reference external" href="https://www.theglobalstatistics.com/tiktok-global-users-statistics/">Younger generations are big adopters of TikTok</a> so healthcare communicators need to take this into consideration.</p>
+<p>Whilst the accessibility of information increases the risk of misinformation, it also means that people can connect with communities that they may previously been unable to access. In healthcare, this may lead to patients knowing more about their condition than their practitioner does. For example, a patient could have a rare disease a doctor has not encountered before, but the patient may have connected with others around the world who also have the condition and can share their knowledge and experiences.</p>
+<p><em>Shift 3: personalisation reshapes what feels credible</em></p>
+<p>Health systems are generally quite rigid, but we need to acknowledge that people are extremely diverse and there isn’t one size fits all. It’s important that practitioners are able to individualise their approach and figure out how to appropriately adjust themselves to who they are interacting with, which is something that we all do anyway whether or not we do it consciously. However, hyper-personalisation is impractical and <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-10-09_writeup.html">potentially undesirable</a>. Healthcare systems need to find a suitable balance of personalisation.</p>
+<p>Gauging the balance is a tricky skill to develop. For example, medical training heavily emphasises asking before doing anything and making sure that everything is explained clearly, but sometimes older patients just want you to “stop talking and get on with it”. It’s important that practitioners are aware of the worst that can happen if you over or under explain.</p>
+</section>
+<section id="what-did-you-think-of-the-3-pivots-the-paper-recommended-are-they-a-complete-list">
+<h3>What did you think of the 3 pivots the paper recommended? Are they a complete list?<a class="headerlink" href="#what-did-you-think-of-the-3-pivots-the-paper-recommended-are-they-a-complete-list" title="Link to this heading">#</a></h3>
+<p><em>Pivot 1: practicing trustworthiness</em></p>
+<p>If trust is something that needs to be cultivated, it first needs to be decided who trust is being cultivated from and for. There is an important distinction between trust in a system and trust in individual providers or people. To build trust with individuals, repeated encounters are important. This is especially true in healthcare where interactions between patients and practitioners are often personal, private, and difficult. Yet in reality, resource constrained systems mean that people often do not see the same practitioner which makes it harder to form trusting bonds. Workforce changes also move people around, weakening the networks between practitioners and patients.</p>
+<p>Distrust is not helped by a lack of consensus in the medical field, when multiple well informed experts might look at the same evidence and reasonably disagree on how to interpret it. The medical field is much more <a class="reference external" href="https://europepmc.org/article/MED/37877132#abstract">nuanced</a> than other disciplines, with evidence and treatment varying significantly despite vast knowledge resources, such as in the case of migraine treatments. These discrepancies can cause confusion in the public.</p>
+<p>Power dynamics play a crucial role in how people respond to systems and build trust. People who don’t know the system well, such as those with language barriers, disabilities, or neurodivergence, may have deep distrust or say yes without fully understanding what they are agreeing to. Rather than unwavering trust, perhaps we should be encouraging engagement with healthcare systems. Faith in healthcare systems and research could be an alternative target to trust.</p>
+<p>We liked the paper’s emphasis on trust growing when people are met as partners instead of competitors, however, we also recognised that not everybody wants to be an active participant in figuring out their healthcare. Some people want to receive advice from an expert and delegate authority over their health to people who have extensive knowledge and experience. These patients may want practitioners to listen to what they do or don’t like, but at the end of the day they have come to the practitioner for their expertise and their experience. Patients are often in “finding out” mode, where they know what their symptoms are like but want a professional to provide a diagnosis and tell them what will happen. If a diagnosis is new, the patient will not have lived experience of what’s happened yet. Bidirectionality is important but doesn’t fit every situation.</p>
+<p><em>Pivot 2: renewing the social contract across generations</em></p>
+<p>Changes in behaviour between generations resonated with us and some of us thought that the idea of renewing social contracts across generations could make an entire book.</p>
+<p>Generational nuances feed into the trustworthiness pivot, as older generations have very different approaches to practicing trustworthiness than younger generations. It seems that younger generations are less trusting of institutions than older generations, possibly because of the influence of digital technologies on spreading misinformation and disinformation. It is also worsened by the education that different generations have about medicine and research, for example, people misunderstanding how long it takes to develop drugs or how certain technologies like Bluetooth work.</p>
+<p>Others wondered if the paper overemphasised intragenerational differences, as misrepresentation and ethical dilemmas in healthcare have <a class="reference external" href="https://dataethicsclub.com/write_ups/2025-10-08_writeup.html">long been in the public discourse</a>. It does seem that social media has changed our information environments in significantly new ways. However, whilst it may be true that the way the public interacts with healthcare is evolving, it is not necessarily true that healthcare providers were previously trusted any more than they are now.</p>
+<p><em>Pivot 3: Rebuilding the structures that connect science and society</em></p>
+<p>Science involves considering available evidence to reach valid conclusions, however, there is a tendency for social media influencers calling statements “facts” without substantiation. If an argument is made convincingly, it may be easily believed even if it is completely false, especially if the listener doesn’t have strong critical thinking skills. Social media also tends to produce <a class="reference external" href="https://www.pnas.org/doi/10.1073/pnas.2023301118">echo chambers</a> where people are only exposed to viewpoints that reflect what they already believe. Failure to encounter arguments that challenge your opinion increases risk of bias.</p>
+<p>The willingness to accept the information we see without question is encouraged by AI summaries, which distance the reader from the sources and look convincing despite being error prone. AI summaries drawing on false or misleading sources of evidence are <a class="reference external" href="https://www.bbc.co.uk/mediacentre/2025/new-ebu-research-ai-assistants-news-content">prolific</a>. Yet, a more difficult problem to address is that AI assistants are essentially question answering machines; they don’t understand user experiences of a public service. This means that <a class="reference external" href="https://designnotes.blog.gov.uk/2026/03/31/when-ai-answers-the-question-what-happens-to-the-user-journey/">answers are incomplete in ways that matter</a>.</p>
+<p>Improving science education and critical thinking skills would help people to be better equipped to evaluate the information they are being presented with. However, it is naïve to assume that simply presenting evidence to people about misinformation is enough to make people change their mind. Reasoning and discussion can sometimes help, but if people are deeply embedded in conspiracy theories it’s unlikely to go anywhere. We thought the paper could have benefitted by discussing this in more detail.</p>
+<p>To communicate effectively with the public, practitioners may need to consider how they handle nuance and uncertainty. Researchers tend to write papers which have conclusions but recognise the importance of nuance and provide caveats. Medicines, even common ones like paracetamol, are packaged with long lists of side effects. However, a lot of people don’t want nuance and balanced arguments but certainty and, in healthcare, something that will improve their quality of life. Some researchers have <a class="reference external" href="https://journals.sagepub.com/doi/abs/10.1177/0735275117709046">argued strongly against the use of nuance in sociological theory</a>. On the other hand, <a class="reference external" href="https://dataethicsclub.com/write_ups/2024-10-28_writeup.html">studies have found the public to respond well</a> to scientific information being communicated alongside uncertainty. There is a potential contradiction between the need to prevent the public prevaricating about their healthcare and people wanting definitive answers, with a need for confidence in broad public messaging but also sensitivity to individual treatment.</p>
+<p>Reasonable approaches don’t try to change mass behaviour but adapt to it. Trained practitioners need to meet the needs of the general public, perhaps by working alongside social media influencers. Although, partnerships between practitioners and influencers should be made with care. We were wary of the extent to which social media players are genuine in their health advocacy. Some may exaggerate their concern to get more followers for their platforms.</p>
+<p>Regulation could improve the quality of information being shared. China, for example, is now <a class="reference external" href="https://economictimes.indiatimes.com/news/international/global-trends/us-news-no-degree-no-discussion-china-tightens-the-grip-on-influencers-and-its-new-law-has-sparked-massive-debate-online-check-details/articleshow/124929667.cms?from=mdr">regulating who is allowed to give health advice</a>. The law requires influencers who are discussing a set of protected topics including finance, health, medicine, law, or education to provide proof of relevant professional credentials. Elsewhere, the way social media is set up incentivises engagement but provides no incentive to tell the truth.</p>
+</section>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h3>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h3>
+<p>We thought the paper was quite generalised and rested on some implicit assumptions, seemingly assuming that there is a consensus in public perception of healthcare. This could be improved by incorporating more perspectives, as the paper adopts a very global north and western perspective. Healthcare may be structured and valued very differently depending on where you are in the world. For example, where people go to seek healthcare advice in rural or nomadic populations might be very different to where people go in cities, such as by seeking the opinions of elders rather than specific healthcare practitioners. We can’t assume that everybody researches health online or has access to wearable devices. For populations who have been systematically mistreated by institutions, rebuilding trust may be completely off the table.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, PhD Student, University of Bristol</p></li>
+<li><p>Amy Joint, Publisher, ISRCTN Clinical Study registry, <a class="reference external" href="https://www.linkedin.com/in/amyjoint/">LinkedIn</a></p></li>
+<li><p>Paul Matthews, Lecturer in Data Science, UWE Bristol. <a class="reference external" href="https://www.linkedin.com/in/paulmatthewsuwe/">LinkedIn</a></p></li>
+<li><p>Natalia Kappos, Design and delivery lead, HMPPS, (https://uk.linkedin.com/in/nataliakappos)</p></li>
+<li><p>Noshin Mohamed, Principal Social Worker and QA lead - Newham</p></li>
+<li><p>Rachel Peck, haematology SpR, PhD, Bristol</p></li>
+<li><p>Naomi Cornish, also a haematatology SPR and PhD student, Bristol</p></li>
+<li><p>Rosie Jones McVey, anthropologist of ethics/minds/data/health based at University of Exeter</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer / AI Product Manager, Brisbane</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+     
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+     
+    <a href="2026-03-11_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: Do AI Companions Understand?</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-did-you-think-of-the-3-shifts-the-paper-outlined-are-they-a-complete-list">What did you think of the 3 shifts the paper outlined? Are they a complete list?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-did-you-think-of-the-3-pivots-the-paper-recommended-are-they-a-complete-list">What did you think of the 3 pivots the paper recommended? Are they a complete list?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2026-04-08_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2026-04-08_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=a95f357e85573c9b56d5"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=a95f357e85573c9b56d5"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.19.0.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
