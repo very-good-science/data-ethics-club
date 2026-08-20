@@ -30,22 +30,16 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 19th August 2026
+### 16th September 2026
 
-Discussion material: [Position: The Categorization of Race in ML is a Flawed Premise](https://openreview.net/pdf?id=eI8KegpPyX)
-
-Discussion prompts:
-1. How is race currently treated as a variable in datasets you have seen/used/created?
-2. How should fairness benchmarks be adapted when deploying models across different geographic, legal, and socio-cultural settings?
-3. Does the failure of discrete categories for mixed-race identities point to a fundamental limitation of classification algorithms in social domains?
-
-### 9th September 2026
+Discussion material: [I used AI. It Worked. I hated it.](https://taggart-tech.com/reckoning/)
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 19.08.2026 | [Position: The Categorization of Race in ML is a Flawed Premise](https://openreview.net/pdf?id=eI8KegpPyX) | Writeup coming soon! |
 | 08.07.2026| [UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out](https://www.theguardian.com/commentisfree/2026/may/01/uk-biobank-data-china-breach-longitudinal-study-benefits) | Writeup coming soon! |
 | 10.06.2026 | [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/) | Writeup coming soon! |
 | 20.05.2026 | [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY) | Writeup coming soon! |
