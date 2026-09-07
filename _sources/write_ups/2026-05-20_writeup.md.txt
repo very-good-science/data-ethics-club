@@ -1,0 +1,85 @@
+---
+blogpost: true
+date: May 20th, 2026
+author: Jessica Woodgate
+category: Write Up
+tags: AI applications, ML, communication, ethics, policy, responsibility
+---
+
+# Data Ethics Club: [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY)
+<!--
+```{admonition} What's this? 
+This is summary of Wednesday 20th May’s Data Ethics Club discussion, where we spoke and wrote about the video [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY) by Stephen Casper.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Huw Day helped with the final edit.
+```
+-->
+## Article Summary
+
+2025 was a year in which concerns about AI harms, such as deepfakes and model capabilities, started to really amplify on the global stage. Alongside these loudening conversations, policymakers across the world are emerging with diverse strategies and frameworks for handling AI. People involved in creating these frameworks want to know what the technical community thinks so that they can create better informed policies. The desire to include technologists in policy discussions is evidenced in the use of intentionally vague statements  (like “acceptable”, “reasonable”, etc.), which are designed to appeal to the technical community’s understanding of best practices.
+
+Despite the opportunities that are open for machine learning (ML) technologists to engage with policymaking, lots of ML research fails to bridge the gap between research and policy. This happens even if the work has the potential for real world impacts. 
+
+Casper argues that ideally, ML research would play a modest role in influencing discussions on AI accountability. ML researchers should engage with the policy landscape and think about near term risks because the case law and governance frameworks that are established now will have enduring impacts for how the fallout from emerging risks is handled in the future.
+
+ML research that bridges into making a policy difference can be cultivated with a few attitude shifts. First, researchers should read bills to find inspiration for their work, paying attention to policy trends and debates whilst also thinking a few months ahead of the current political landscape. Second, work should focus on real-world problems. Third, it’s important to know your audience and tailor your communication towards them. Instead of writing in ways that are only accessible to ML experts, write to general audiences. Use clear titles, provide a concrete motivation, and frame the work in the current zeitgeist. Fourth, don’t just spend time doing research, but also prioritise “last mile delivery” between your product and the end customer. It is worthwhile spending time and effort trying to clearly communicate and share your work with relevant parties.
+
+Casper suggests a recipe for high impact research: pick a consequential issue policymakers are thinking about; pick a vague term related to it in a legislative framework; write the paper; and set up lots of meetings to communicate the paper as best you can with lawyers and policymakers
+
+## Discussion Summary
+
+## To what extent should empirical researchers take on the responsibility of defining legislative terms, and at what point does this step outside the bounds of traditional academic inquiry?
+
+To understand how academics can best contribute to policy discussions, you first need to find out from policymakers what input they want. Likewise, it would be good if policymakers spent time in academia to find out what their problems are. It’s important for people not to fall into the trap of thinking their profession knows best. Instead, all parties should communicate about their needs and what they have to offer one another. Good research includes a wide variety of viewpoints as [each person has a unique skillset and intersection of positions that can offer valuable perspectives](https://dataethicsclub.com/write_ups/DataFeminism_writeup.html#data-feminism-chapter-3-on-rational-scientific-objective-viewpoints-from-mythical-imaginary-impossible-standpoints). Both academia and industry play an important role in scoping definitions, for example.
+
+There are a range of professions with the potential to usefully contribute to policy debates, however, academic researchers in particular may be well placed to provide balanced viewpoints. As independent and informed parties, there is a space for researchers to provide an overview of the field and suggest key areas of concern. 
+
+Academics do not have the same incentives as industry representatives which further supports the importance of involving their views. Some of us worried that there are incentives for industry to try and influence policy in their favour. This concern might be heightened with ML, where there is [currently huge investment](https://worldmetrics.org/machine-learning-industry-statistics/). If researchers don’t contribute their perspectives to defining terms, those terms will be shaped by corporations whose priority is to make money, heightening the risk that definitions may fail to reflect ground truth or incorporate representative values.
+
+As well as scoping definitions, researchers can support policy experts by providing technical background. We have observed situations where the level of technical understanding for policymakers needs to be quite high. It is difficult for people with a non-technical background to bridge this gap, and researchers could help with this. 
+
+One avenue in which policymakers who don’t have technical backgrounds may struggle is understanding the feasibility of interventions, such as putting AI safeguards in place. Grasping feasibility is especially challenging in domains like AI where there is a lot of [hype distorting the narrative](https://dataethicsclub.com/write_ups/2024-12-18_writeup.html). Researchers can help make risks foreseeable, enabling policymakers to better evaluate which risks are publicly known and which need more attention. ML researchers can point to examples of successful safety measures to illustrate how AI safety can be addressed in policy. For example, a paper written by Casper demonstrated that most deepfake sites are only using a small selection of models. The fact that the developers of these models are relatively few underlines the need and feasibility of sanctioning and regulating the developers of these models.
+
+Going further than being well-positioned to provide information about a topic, in some cases researchers may have a responsibility to actively engage with policymaking. Perhaps researchers should identify key players in the area and send them their work if it has policy implications. At worst, policymakers may not engage with them or reject their work. At best, they could improve the quality and impact of policy being developed. 
+
+An example of a paper with policy impact where researchers should perhaps have taken steps to engage with policymakers is one we came across which evidenced large language models (LLMs) reproducing books. At the end of the paper, the authors highlighted that they are not lawyers themselves and suggested a lawyer should investigate the topic further. We wondered if those authors have a responsibility to share their work as it could be used in [the numerous AI-related copyright cases currently in the US courts](https://www.nortonrosefulbright.com/en/knowledge/publications/ce8eaa5f/ai-in-litigation-series-an-update-on-ai-copyright-cases-in-2026). 
+
+## Legislation often uses broad terms like “reasonable safeguards,” “foreseeable risks,” and “state-of-the-art techniques”. How can technical communities move from identifying these terms to creating universally accepted metrics that courts and regulators can actually use in litigation?
+
+Much legislation is broad, unspecific, and uses vague keywords which allows for legislation to be open to interpretation. The are benefits to unspecific legislation. Many situations contain nuance and involve personal choice in order to determine acceptability, with the same events resulting in different outcomes for different people. Flexible legislation is also important because contexts change over time alongside what counts as “reasonable”. For example, the expectations and concrete components of car safety have changed significantly as technology and society have progressed. Using broad terms in legislation means that old laws can be adapted to new cases, which is especially useful in the UK where [case law](https://www.law.ac.uk/resources/blog/what-is-case-law/) is used. Case law evolves depending on cases that have happened before. In AI, industry may also find benefits in the use of vague terms in describing technical concepts as it plays into [hype narratives](https://dataethicsclub.com/write_ups/2024-12-18_writeup.html) which distracts people from looking under the hood.
+
+Using broad terms may also be a pragmatic decision as there are conceptual issues with trying to be specific in legislation. People have been focussed on the practical challenges of ethics for years, and it is difficult to give universal rules for any situation. Systems that are considered to be AI can vary significantly in nature, use, and mechanics, so it is difficult to ascertain the level of detail that is appropriate to have in law. Differences between systems make it difficult to determine a concrete legal definition of reasonability.
+
+Defining reasonableness in AI may involve thresholding how “good” a technology is or the level of interaction it has with other people before it is considered relevant to the legislation. If a technology exists in isolation from anyone, perhaps the rules don’t matter as impacts to people are minimal. We compared this to the difference between what you do in your own home to what you do elsewhere. For example, with respect to adhering to road rules, if there isn’t a camera or people around, one could argue that there is nothing stopping you from driving however you want. The obligation to obey the rules changes as soon as other people come into the equation. 
+
+However, even if there is no-one else around at the time you’re driving, if you do yourself damage then you are reliant on society to help you. AI always involves interactions with other people, even though some of these interactions may be more remote than others. AI systems are artefacts constructed and deployed by someone, somewhere, and when things go wrong impacts are felt by other people and society.
+
+## Casper discusses the difficulty of bridging the gap between technical findings and policy impact. How can researchers better manage this gap of communication to ensure their work is accessible and actionable for non-technical stakeholders like lawyers or government officials?
+
+The conclusion of the video seemed to be that ML researchers should put effort into making real world impact from their work. This isn’t necessarily new - there are people in the ML field who have been trying to build bridges between technical findings and policy for a long time, and in other applied fields policy impact mechanisms are well established. Academia funding in the UK currently seems to have a lot of focus on real world impact. ML might be somewhat of an outlier compared to other applied fields in terms of the time spent on policy impact.
+
+There are many existing channels for researchers to interact directly with policymakers, such as consultation responses. Universities increasingly have press offices to communicate research with the media. Other means include the [UN’s global dialogue on AI governance](https://www.un.org/global-dialogue-ai-governance/en/registration), which is a platform for governments and other relevant parties to convene and discuss the risks and opportunities surrounding AI.
+
+The video provided a really good strategy for researchers who are trying to find problems with real world impact, starting with looking at policy and working backwards from there. Emphasising the actual usage of technologies offers a different perspective to the bulk of ML research, which tends to focus on improving the state of the art via the models themselves and performance metrics. Perhaps there need to be more incentives in place to get the ML research community to think more broadly about the implications of their work and challenges in their field.
+
+As a role reversal from advocating for policymakers to develop their technical skills, it is interesting to think that perhaps ML researchers could be upskilling in policy areas. Lots of researchers don’t think about the impact and difficulty of doing policy research. Improving the policy skills of ML researchers could improve their awareness of how policy is developed as well as the broader systems which they operate within. It’s useful to have people in the middle who can move between communicating pure ML and the application side of things.
+
+There is also a lot of privilege, however, in being able to decide where time can be spent. Many academics are time poor and do not have the resources to seek out policymakers. It’s also important to highlight that pursuing knowledge for its own sake is positive too, although it is quite field specific. Some people are interested in research purely for developing knowledge, feeling that it is fine if other people want to pick the research up and use it for something but primarily finding value in the intellectual challenge.
+
+Even if ML researchers do not feel drawn or able to actively seek to influence policy with their work, a good mechanism to widen their impact is to make research communication accessible. There are existing mechanisms to support research accessibility, for example, many journals require a lay summary of the paper.
+
+## What change would you like to see on the basis of this piece? Who has the power to make that change?
+
+Regulation plays a crucial role in holding companies to account for their behaviour. Having regulatory bodies which are responsible for auditing and require companies to report their AI use and development may lead to significant behaviour changes. The threat of a fine for doing something wrong can be an effective way of incentivising good behaviour. As summarised by EasyJet founder Stelios Haji-Ioannou, “[if you think safety is expensive, try an accident](https://www.theguardian.com/business/2000/aug/27/transportintheuk.theobserver)”. 
+
+A regulated AI industry would likely have specific people responsible for governance, which we see in other industries that are already regulated. Companies have specific risk managers with the responsibility to raise issues to others and identify mitigations. Auditing procedures could include requiring companies to prove that reasonable steps to mitigate harms have been taken. Some of us felt that there should be a baseline level of responsibility which we don’t currently see in AI, and we wondered whether people should have access to these tools if they can’t moderate them properly.
+
+## Attendees
+
+- Huw Day, Postdoc in Digital Health/ML, University of Bristol: [LinkedIn](https://www.linkedin.com/in/huw-day/), [BlueSky](https://bsky.app/profile/huwwday.bsky.social)
+- [Jessica Woodgate](https://jessica-woodgate.github.io/), PhD Student, University of Bristol
+- Natalia Kappos, service designer, Good Machine [LinkedIn](https://uk.linkedin.com/in/nataliakappos)
+- Vanessa Hanschke, Postdoc in Explainable AI, University of Bristol
+- Fearghal Kavanagh, Software Developer, Turn2us 
+- Paul Matthews, Lecturer in Data Science, UWE Bristol.
+- [Kamilla Wells](https://www.linkedin.com/in/kamilla-wells/), Citizen Developer / AI Product Manager, Brisbane
