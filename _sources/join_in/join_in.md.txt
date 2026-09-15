@@ -34,6 +34,11 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Discussion material: [I used AI. It Worked. I hated it.](https://taggart-tech.com/reckoning/)
 
+Suggested questions:
+1. Have you used AI coding before? How have you found it?
+2. Were you surprised by this article? Did it match your experiences?
+3. How do you feel about other people using AI for coding? How has that changed over time?
+
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
