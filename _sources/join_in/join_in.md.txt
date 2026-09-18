@@ -30,20 +30,20 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 16th September 2026
+### 28th October 2026 
 
-Discussion material: [I used AI. It Worked. I hated it.](https://taggart-tech.com/reckoning/)
+Discussion material: [The Alignment Community Is Unintentionally Building A Censor's Toolkit](https://s-ball-10.github.io/censors-toolkit/)
 
-Suggested questions:
-1. Have you used AI coding before? How have you found it?
-2. Were you surprised by this article? Did it match your experiences?
-3. How do you feel about other people using AI for coding? How has that changed over time?
+### 25th November 2026
+
+Discussion material: [AI Writers Have a Consistent Stylometric Footprint, but AI Editors Do Not](https://arxiv.org/abs/2608.27855v1)
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
+| 16.09.2026 | [I used AI. It Worked. I hated it.](https://taggart-tech.com/reckoning/) | Writeup coming soon! |
 | 19.08.2026 | [Position: The Categorization of Race in ML is a Flawed Premise](https://openreview.net/pdf?id=eI8KegpPyX) | Writeup coming soon! |
 | 08.07.2026| [UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out](https://www.theguardian.com/commentisfree/2026/may/01/uk-biobank-data-china-breach-longitudinal-study-benefits) | Writeup coming soon! |
 | 10.06.2026 | [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/) | Writeup coming soon! |
