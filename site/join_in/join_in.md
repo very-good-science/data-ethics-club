@@ -34,6 +34,11 @@ If you are in another timezone please [use a time/date converter like this one t
 
 Discussion material: [The Alignment Community Is Unintentionally Building A Censor's Toolkit](https://s-ball-10.github.io/censors-toolkit/)
 
+Discussion prompts:
+1. We've seen dual use problems with social media censorship in the past, how is this problem with LLMs similar? How is it different?
+2. One of the mechanisms the author stresses that will resist this problem is model pluralism (having lots of different LLM providers). Do you agree with this? Who has the power to make it happen?
+3. The authors explicitly state that they don't think that alignment research should stop. Do you agree/disagree?
+
 ### 25th November 2026
 
 Discussion material: [AI Writers Have a Consistent Stylometric Footprint, but AI Editors Do Not](https://arxiv.org/abs/2608.27855v1)
