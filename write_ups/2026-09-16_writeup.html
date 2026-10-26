@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Data Ethics Club: I used AI. It Worked. I hated it. &#8212; Data Ethics Club  documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=18bd87630a240e9c25be" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56fe5f99" />
+  
+  <!-- So that users can add custom icons -->
+  <script defer src="../_static/scripts/fontawesome.js?digest=18bd87630a240e9c25be"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be" />
+
+    <script src="../_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'write_ups/2026-09-16_writeup';</script>
+    <script>DOCUMENTATION_OPTIONS.search_as_you_type = false;</script>
+    <link rel="canonical" href="dataethicsclub.com/write_ups/2026-09-16_writeup.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="color-scheme" content="light dark"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  
+    
+    <script src="../_static/searchtools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <script src="../searchindex.js"></script>
+     
+  </head>
+  <body data-default-mode="">
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+  
+  
+  
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search this site..."
+         aria-label="Search this site..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header id="pst-header" class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button type="button" class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt=""/>
+    <img src="../_static/logo.png" class="logo__image only-dark pst-js-only" alt=""/>
+  
+  
+    <p class="title logo__title">Data Ethics Club</p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i><span class="visually-hidden">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i><span class="visually-hidden">DEC Paper</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button type="button" class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button type="button" class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../join_in/join_in.html">
+    🤗 Join In
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../reading-list.html">
+    📖 Reading List
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="write-ups.html">
+    🖊️ Write-ups
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../how_to/reuse_dec.html">
+    ♺ Reuse
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../about/about.html">
+    ❓ About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<div class="theme-switch-container dropdown pst-js-only" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Color mode">
+  <button type="button" class="btn btn-sm nav-link pst-navbar-icon theme-switch-button dropdown-toggle" aria-label="Color mode" data-bs-toggle="dropdown">
+    <i class="theme-switch fa-solid fa-sun fa-lg fa-fw" data-mode="light" title="Light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg fa-fw" data-mode="dark" title="Dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg fa-fw" data-mode="auto" title="System Settings"></i>
+  </button>
+  <ul class="dropdown-menu dropdown-menu-end">
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg fa-fw me-1"></i>System Settings</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="light"><i class="fa-solid fa-sun fa-lg fa-fw me-1"></i>Light</button></li>
+    <li><button type="button" class="dropdown-item d-flex align-items-center theme-change-button" data-mode="dark"><i class="fa-solid fa-moon fa-lg fa-fw me-1"></i>Dark</button></li>
+  </ul>
+</div></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/very-good-science/data-ethics-club" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i><span class="visually-hidden">GitHub</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=DATAETHICSCLUB&A=1" title="Mailing List" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-envelope fa-lg" aria-hidden="true"></i><span class="visually-hidden">Mailing List</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://doi.org/10.1016/j.patter.2022.100537" title="DEC Paper" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-readme fa-lg" aria-hidden="true"></i><span class="visually-hidden">DEC Paper</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__postcard">
+   
+  <h2>
+     
+    <i class="fa fa-calendar"></i>
+    
+    <span>16 September 2026</span>
+    
+  </h2>
+  <ul>
+    <div class="ablog-sidebar-item ablog__postcard2">
+   
+  <li id="ablog-sidebar-item author ablog__author">
+    <span>
+      
+      <i class="fa-fw fa fa-user"></i>
+      
+    </span>
+     
+    <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate</a>
+      
+  </li>
+     
+  <li id="ablog-sidebar-item category ablog__category">
+    <span>
+      
+      <i class="fa-fw fa fa-folder-open"></i>
+      
+    </span>
+     
+    <a href="write-ups/category/write-up.html">Write Up</a>
+      
+  </li>
+   
+  <li id="ablog-sidebar-item tags ablog__tags">
+    <span>
+       
+      <i class="fa-fw fa fa-tags"></i>
+       
+    </span>
+     
+    <a href="write-ups/tag/ai.html">AI</a>
+        
+    <a href="write-ups/tag/llms.html">LLMs</a>
+        
+    <a href="write-ups/tag/ml.html">ML</a>
+        
+    <a href="write-ups/tag/automation.html">automation</a>
+        
+    <a href="write-ups/tag/education.html">education</a>
+        
+    <a href="write-ups/tag/generative-ai.html">generative AI</a>
+        
+    <a href="write-ups/tag/hype.html">hype</a>
+        
+    <a href="write-ups/tag/law.html">law</a>
+        
+    <a href="write-ups/tag/software-dev.html">software dev</a>
+      
+  </li>
+   
+</div>
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__recentposts">
+  <h3>
+    <a href="write-ups.html">Recent Posts</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="2026-08-19_writeup.html">
+        19 August - Data Ethics Club: The Categorization of Race in ML is a Flawed Premise
+      </a>
+    </li>
+    
+    <li>
+      <a href="2026-07-08_writeup.html">
+        08 July - Data Ethics Club: UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out
+      </a>
+    </li>
+    
+    <li>
+      <a href="2026-06-10_writeup.html">
+        10 June - Data Ethics Club: The System That Decides What Science Gets Published Is Breaking Down
+      </a>
+    </li>
+    
+    <li>
+      <a href="2026-05-20_writeup.html">
+        20 May - Data Ethics Club: ML Researchers as Policymakers
+      </a>
+    </li>
+    
+    <li>
+      <a href="2026-04-08_writeup.html">
+        08 April - Data Ethics Club: Trust is a verb: how to reimagine confidence in health systems
+      </a>
+    </li>
+    
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__categories">
+  <h3>
+    <a href="write-ups/category.html">Categories</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/category/blog.html">Blog (8)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/bookclub.html">Bookclub (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/category/write-up.html">Write Up (83)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__tagcloud">
+  <link
+    rel="stylesheet"
+    href="../_static/ablog/tagcloud.css"
+    type="text/css"
+  />
+  <h3><a href="write-ups/tag.html">Tags</a></h3>
+  <ul class="ablog-cloud">
+     
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/agi.html">AGI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/ai.html">AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-applications.html">AI applications</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-ethics.html">AI ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ai-in-military.html">AI in military</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/alphafold.html">AlphaFold</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatgpt.html">ChatGPT</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fair.html">FAIR</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/khanacademy.html">Khanacademy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/llms.html">LLMs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/ml.html">ML</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/new-years-resolutions.html">New Year's Resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/transparency.html">Transparency</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ableism.html">ableism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/abuse.html">abuse</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/academia.html">academia</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/art.html">art</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/automation.html">automation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-5">
+      <a href="write-ups/tag/bias.html">bias</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/big-tech.html">big tech</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/biometric-data.html">biometric data</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bots.html">bots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/bullshit.html">bullshit</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/chatbots.html">chatbots</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/children.html">children</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/cognitive-offloading.html">cognitive offloading</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/collective-action.html">collective action</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/communication.html">communication</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/computer-vision.html">computer vision</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consent.html">consent</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/consumerism.html">consumerism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/coproduction.html">coproduction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/crime.html">crime</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-centres.html">data centres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-collection.html">data collection</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-feminism.html">data feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-labelling.html">data labelling</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-privacy.html">data privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-stewardship.html">data stewardship</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/data-week.html">data week</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/datacentres.html">datacentres</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/dataethics.html">dataethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonial-ai.html">decolonial AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonisation.html">decolonisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/decolonising.html">decolonising</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/deep-fakes.html">deep fakes</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-afterlife.html">digital afterlife</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/digital-footprint-data.html">digital footprint data</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/education.html">education</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/enshittification.html">enshittification</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environment.html">environment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/environmental-impact.html">environmental impact</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/ethics.html">ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/explainability.html">explainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/facial-recognition.html">facial recognition</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/fairness.html">fairness</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/feminism.html">feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/gender.html">gender</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-3">
+      <a href="write-ups/tag/generative-ai.html">generative AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/generativeai.html">generativeAI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/genetic-testing.html">genetic testing</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/global-south.html">global south</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/google.html">google</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/government-use-of-ai.html">government use of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/group-projects.html">group projects</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hallucination.html">hallucination</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/healthcare.html">healthcare</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/history.html">history</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/human-like-ai.html">human-like AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/hype.html">hype</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/images-of-ai.html">images of AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/injustice.html">injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/interdisciplinary.html">interdisciplinary</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/intersectional-feminism.html">intersectional feminism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/intersectionality.html">intersectionality</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/labour-rights.html">labour rights</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/law.html">law</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/medicine.html">medicine</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/mental-health.html">mental health</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/meta-data-ethics.html">meta data ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/metaphor.html">metaphor</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/myers-briggs.html">myers-briggs</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/nlp.html">nlp</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-science.html">open science</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/open-source.html">open source</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/outreach.html">outreach</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/oversight.html">oversight</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/personality-test.html">personality test</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/philosophy.html">philosophy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/policy.html">policy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/prediction.html">prediction</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/predictive-ai.html">predictive AI</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/privacy.html">privacy</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/protein-folding.html">protein folding</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/psychology.html">psychology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/racism.html">racism</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/recruitment.html">recruitment</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-2">
+      <a href="write-ups/tag/research-ethics.html">research ethics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/resolutions.html">resolutions</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/responsibility.html">responsibility</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/retrospective-studies.html">retrospective studies</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/search-engine-optimisation.html">search engine optimisation</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social.html">social</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/social-media.html">social media</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sociotechnical-systems.html">sociotechnical systems</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/software-dev.html">software dev</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/standpoint-theory.html">standpoint theory</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/statistics.html">statistics</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/structural-injustice.html">structural injustice</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/sustainability.html">sustainability</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/synthetic-biology.html">synthetic biology</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/trust.html">trust</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/values.html">values</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/war.html">war</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/wearables.html">wearables</a>
+    </li>
+      
+    <li class="ablog-cloud ablog-cloud-1">
+      <a href="write-ups/tag/workers-rights.html">worker's rights</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__authors">
+  <h3>
+    <a href="write-ups/author.html">Authors</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/author/dwight-barry.html">Dwight Barry (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/euan-bennet.html">Euan Bennet (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/hannah-odonoghue.html">Hannah O’Donoghue (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/huw-day.html">Huw Day (34)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/jessica-woodgate.html">Jessica Woodgate (51)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/natalie-zelenka.html">Natalie Zelenka (3)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/nina-di-cara.html">Nina Di Cara (2)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/paul-lee.html">Paul Lee (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/roman-shkunov.html">Roman Shkunov (1)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/author/vanessa-hanschke.html">Vanessa Hanschke (1)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+        <div class="sidebar-primary-item">
+<div class="ablog-sidebar-item ablog__archives">
+  <h3>
+    <a href="write-ups/archive.html">Archives</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="write-ups/2026.html">2026 (9)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2025.html">2025 (13)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2024.html">2024 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2023.html">2023 (15)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2022.html">2022 (20)</a>
+    </li>
+      
+    <li>
+      <a href="write-ups/2021.html">2021 (16)</a>
+    </li>
+     
+  </ul>
+</div>
+</div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Data Ethics Club: I used AI. It Worked. I hated it.</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                   <section id="data-ethics-club-i-used-ai-it-worked-i-hated-it">
+<h1>Data Ethics Club: <a class="reference external" href="https://taggart-tech.com/reckoning/">I used AI. It Worked. I hated it.</a><a class="headerlink" href="#data-ethics-club-i-used-ai-it-worked-i-hated-it" title="Link to this heading">#</a></h1>
+<!--
+```{admonition} What's this? 
+This is summary of Wednesday 16th September's Data Ethics Club discussion, where we spoke and wrote about the blog post [I used AI. It Worked. I hated it.](https://taggart-tech.com/reckoning/) by Michael Taggart.
+The summary was written by Jessica Woodgate, who tried to synthesise everyone's contributions to this document and the discussion. "We" = "someone at Data Ethics Club". 
+Huw Day helped with the final edit.
+```
+-->
+<section id="article-summary">
+<h2>Article Summary<a class="headerlink" href="#article-summary" title="Link to this heading">#</a></h2>
+<p>Mike Taggart is an AI security expert who tests AI-enabled applications. Taggart’s role requires a level of comprehension about how applications implementing generative AI work. Even though his job means that he needs to understand how generative AI works, Taggart is critical of the societal and environmental harms caused by the technology and says that he wishes it had not been invented.</p>
+<p>In the article, Taggart describes his experience of using generative AI (Claude Code) for a software development project. Before starting, he read up about “best practices” for using AI tools. He formed a reasonably well-defined idea of what he wanted the output to look like and then used generative AI to extend his ideas. His general approach was to proceed in a way that maximised the chances of keeping the model on-task and within expected parameters. Taggart ensured that the model’s output has a deterministic measure of success or failure at any given time, which helped the model to keep track of its own progress using external context. Each step of the build applied test-driven development, generating tests for functions that would define project features and implementing each in turn. He reviewed every line of code the model generated, finding that for initial drafts very little needed to change.</p>
+<p>Applying generative AI made things considerably faster for Taggart than the project would have otherwise taken. The only direct changes he made to the codebase were for elegance. Core underlying logic was solid from the start, and the resulting product is secure - even more robust and implementing more features than Taggart would have built without using generative AI.</p>
+<p>Whilst the process resulted in a reasonable output which achieved the stated objectives, Taggart found the experience miserable. Most of his time was spent reading proposed code changes and pressing accept, which he almost always did. He highlights a temptation to accept all changes in one go, but Taggart warns about the risk of this. Once the user stops scrutinizing the model’s output, the probability of things going wrong rapidly grows.</p>
+<p>Even though he read each proposed change, Taggart found it challenging to claim that he knows the codebase deeply. Usually in a coding project he would be the author of a story composed of a structure of interlinked ideas and goals that he shares with users. When using generative AI, he became the audience rather than the author, reading to gain understanding after things had been built. This shift in paradigm means that safety largely comes down to the user’s discipline, as it is so easy to trust the model to do the right thing and stop systematic checking.</p>
+<p>As long as generative AI coding tools exist, Taggart highlights that they will represent a quick and cheap answer to shortsighted organisations. He argues that no policy or procedure will prevent over-reliance on it. The tools require expertise to validate, but by using them it’s likely that peoples’ expertise will be diminished and growth stunted. New developers will find it challenging to become experts. Only continuous hard work and dedication leads to mastery, but with generative AI it is too easy to take shortcuts. The models constitute an addictive substance that alters cognition and take agency from us.</p>
+</section>
+<section id="discussion-summary">
+<h2>Discussion Summary<a class="headerlink" href="#discussion-summary" title="Link to this heading">#</a></h2>
+<section id="have-you-used-ai-coding-before-how-have-you-found-it">
+<h3>Have you used AI coding before? How have you found it?<a class="headerlink" href="#have-you-used-ai-coding-before-how-have-you-found-it" title="Link to this heading">#</a></h3>
+<p>Coding is an area where we have found generative AI to be beneficial. Especially in the early stages of coding, we have achieved more by using generative AI. Claude is a favourite for code projects because of its memory functionality, but some of us have licenses for a range of models to compare them and keep up to date with any changes.</p>
+<p>AI can hold different roles for different people. Use cases go beyond code to translation, text summary, ideation, analysis, and even knitting patterns (although we don’t think it’s that great for this). Depending on its user-friendliness, we prefer it for some of these applications than more others. We’ve also found that generative AI can be useful to function as a neutral intermediary between people when reflecting or interpreting recorded conversations. Sometimes, AI is better at this than people. We wondered if it could be applied to code in a similar way, as a lens for reflection and interpretation whilst developing projects.</p>
+<p>Some of us have previously learnt coding the hard way (before generative AI) and have found generative AI tools impressive but feel the author’s dilemma. We also see a lot of potential for things that we could apply these technologies to but wish that generative AI had never been invented. The world is worse off in many ways directly because of these tools, yet several aspects of our lives are also made easier from their existence. We felt cathartic and vindicated listening to an experienced programmer talk about their experience; it’s nice to read something that reflects the nuances of generative AI having lots of ethical issues but also being very useful for some things.</p>
+<p>Whilst generative AI can be applied to a range of things and allow us to do things more cleanly than we would have otherwise, we’re not convinced that these tools save significant amounts of time compared to what we were doing before. Outputs from generative AI often need several fixes, sometimes to the point where it would be quicker to do it ourselves. How far and fast you can go using generative AI for coding varies depending on what stage of the project you’re at. It can also vary depending on whether your problem is a common one which AI is likely to have been trained on. We’ve found generative AI to be less good at newer aspects of code, such as new libraries for specific programming languages.</p>
+</section>
+<section id="were-you-surprised-by-this-article-did-it-match-your-experiences">
+<h3>Were you surprised by this article? Did it match your experiences?<a class="headerlink" href="#were-you-surprised-by-this-article-did-it-match-your-experiences" title="Link to this heading">#</a></h3>
+<p>We also agreed with Taggart that generative AI has taken the fun out of coding. Large language models (LLMs) are very literal and yoyo between being overly sycophantic to overly critical when asking for feedback, which can be annoying. Our role becomes a managing role where we do code review rather than implementation. Disassociation can quickly happen no matter how experienced someone is in coding. One way of mitigating this is to throw in continuous prompts, so that the user is continually engaging and acting on a level which is not too abstracted from the final product.</p>
+<p>When using generative AI, dopamine comes from checking and taking the code further towards next steps. The temptation to approve all changes in one go can be addictive. We try to combine its use alongside our learning, but it is almost too easy to just go along with the outputs and revert to generative AI for any questions we need answering. It is so new that we don’t yet know how to moderate our use of it.</p>
+<p>The ease of being able to approve all code without review makes it a strong incentive, which brings significant risks and is a very passive process. In the article, extra features were produced in AI outputs which Taggart didn’t request but did keep. Taggart was engaged and able to verify and review the code, but we wondered how much attention most people would pay to the detail of these features. General end users might not care too much about how things are made as long as they work, reducing consideration of the user experience as a disincentive for using generative AI. This highlights the weakness of the “human in the loop” approach to AI safety. Without detailed instruction and attention, results can be superficial or not work properly.</p>
+<p>The addictiveness of generative AI quickly becomes dependence as, longer term, we see skill deterioration in areas where we have used generative AI too much. Only reviewing code will lead to us losing the ability to evaluate it, and the ubiquity of generative AI makes it more likely people won’t know how to code in the future. Students coming across a knotty problem are more likely to go straight to get the answer from generative AI, rather than trying to solve it themselves.</p>
+<p>AI based on machine learning (ML), which includes generative AI, is a collection of things that have happened in the past. By becoming increasingly dependent on it, there is a risk that we get stuck in the past and move away from novel things we might have done if we weren’t using a past-based artefact. If necessity is the mother of invention, and generative AI removes necessity, it also takes away our drive to invent.</p>
+<p>Historically, we have lost significantly powerful ways of knowing and being and we wondered if this is happening again now. Oral transmission, for example, is an incredibly deep form of knowledge which is much reduced today compared to earlier human history. There are examples of oral traditions having <a class="reference external" href="https://www.sapiens.org/language/oral-tradition/">remarkably accurate narratives of events that happened over 7000 years ago</a>.</p>
+</section>
+<section id="how-do-you-feel-about-other-people-using-ai-for-coding-how-has-that-changed-over-time">
+<h3>How do you feel about other people using AI for coding? How has that changed over time?<a class="headerlink" href="#how-do-you-feel-about-other-people-using-ai-for-coding-how-has-that-changed-over-time" title="Link to this heading">#</a></h3>
+<p>People can take issue with AI on principle in a similar way to how some cyclists don’t like electric bikes. However, like electric bikes, generative AI helps those who find certain tasks hard go further and gain more benefits than they would otherwise. By using generative AI, some of us have been able to create projects that we wouldn’t otherwise have attempted, both at work and at home.</p>
+<p>Generative AI can be helpful for students by providing a more rapid avenue of support than seeking human supervision. Interacting with these tools is a way to remove barriers and friction which come with pursuing feedback from a person. Asking lots of questions and repeating things might be annoying for a person but is quite easy with generative AI. We have also found that some of the explanations provided by generative AI can be helpful to try and understand the process.</p>
+<p>However, there is an important difference between speed and deep learning. A forklift can move all the weights in the gym, but that isn’t the point of going to the gym. You need to lift weights to build muscles; you need to work hard and take time to learn. Writing the code is a valuable process in itself. We don’t just care that it’s been written, we care how it was done.</p>
+<p>Experience is needed to be able to tell where generative AI outputs work best and where they are drifting from the actual task at hand. Maintaining the expertise to be able to do this is hard, and people need to slow down to learn, which is hard. Jumping straight to the end removes friction, yet friction is essential for learning: we learn from mistakes because they stick in our memory. The current generation of students is missing out on the opportunities that earlier generations had to make mistakes and force their way through the friction.</p>
+<p>The importance of process is encapsulated in a recent OpenAI controversy. OpenAI claimed to have “solved” a maths problem using generative AI. However, this <a class="reference external" href="https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy">received pushback</a>. Two mathematicians had made significant advancements in the problem using tools adapted from OpenAI. Before the researchers were able to publish their work, OpenAI mounted a colossal effort to solve it. Worries were raised that this kind of work could make human mathematicians obsolete, and people criticised OpenAI for jumping straight to the solution without recognition of the work it takes to get there. The process of proving a theorem is valuable; having proof without understanding is much less valuable.</p>
+<p>Given that the potential for using AI to solve problems that were previously significantly more difficult and costly, we wondered where our position is and whether our roles are devalued by the existence of these tools. Perhaps the suggestions and research taste for finding the questions we want to answer remains with people, and generative AI is the mechanism by which we pursue these directions.</p>
+<p>As with previous innovations, humans have eventually found where they best fit. One day, we’ll find where generative AI best fits too. However, the extent to which these tools will be “revolutionary” is yet to be seen. Historically, a more reasonable view of a tool’s use emerges as the hype which comes with their introduction dies away. We can be pretty certain that generative AI will be disruptive to code as we continue to find our feet with it.</p>
+<p>Yet we will not be able to find our feet if we don’t know when we’ve fallen over, and this can be harder with generative AI. The user needs to look carefully to spot errors and get insight to see that they’ve stumbled, but generative AI presents too smoothly to make hurdles obvious. Friction is needed to prevent mistakes and bad actors slipping through. To review code, people need to know how it works.</p>
+</section>
+<section id="what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">
+<h3>What change would you like to see on the basis of this piece? Who has the power to make that change?<a class="headerlink" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change" title="Link to this heading">#</a></h3>
+<p>We have security concerns with generative AI, both in terms of what happens to data inputted into generative AI used over the web, and in terms of the possibility of hallucinations. There is no getting away from the fact that our data is being breached. Companies are loading customer data into LLMs to figure out marketing strategies. The rise of the citizen developer is now meteoric, and anyone who has access to generative AI can build out a web-app that is hosted by the AI provider. The provider gives the appearance of security, leading users to willingly hand over business or client data. No controversies have happened with this yet, but we expect to eventually see them as people build generative AI-owned apps that become part of critical systems with real significant consequences.</p>
+<p>As controversial cases emerge from problems caused by generative AI, issues will be battled out in court, which will then force regulation. Use cases playing out in the courts will force boundaries onto how we use these tools. There is currently no equivalent to the EU AI Act in the UK, and more regulation is needed. Regulation could include, for example, specifications on how AI code should be audited and quality controlled. This is especially important in safety-critical and medical domains.</p>
+<p>Until the law solidifies, we are still figuring out a path. It’s important to remember that AI, social media, and analogous technologies are choices that we decide to participate in. We have agency over these decisions and need to remember that we can change how it plays out.</p>
+<p>As a society, the time in which we didn’t use generative AI has passed. For coding, we can think about it as another level of program language evolution, just like previous moves from <a class="reference external" href="https://medium.com/&#64;ahsanrana3526/the-hierarchy-of-programming-an-overview-8a9feadc469b">hardware, to machine code, to high level languages like Python</a>. Unfortunately, however, whilst the practice is widespread, we don’t yet know the process. A whole generation has suffered because of social media and will miss out as society figures out how to navigate AI. The next stage involves finding the correct processes we need to put in place in order to check generated code.</p>
+<p>Given how widespread and interwoven with our lives LLMs have become in such a short space of time, there is a concern that we won’t find these processes and regulations until it is too late. The current approach to AI feels very short sighted. An economic shift is needed as the AI industry is too biased towards quick gains and neglects long term impacts. Entry level positions, such as for software engineers, are rapidly disappearing. Longer term, as those who have been trained before the generative AI boom start to retire, there will be a huge skills gap. What would have been the following generation of junior engineers is being replaced with generative AI. At the time when more senior people are needed, there won’t be any candidates that have gained the skills necessary to adopt the roles.</p>
+</section>
+</section>
+<section id="attendees">
+<h2>Attendees<a class="headerlink" href="#attendees" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Huw Day, Data Scientist, University of Bristol: <a class="reference external" href="https://www.linkedin.com/in/huw-day/">LinkedIn</a>, <a class="reference external" href="https://bsky.app/profile/huwwday.bsky.social">BlueSky</a></p></li>
+<li><p><a class="reference external" href="https://jessica-woodgate.github.io/">Jessica Woodgate</a>, PhD Student, University of Bristol</p></li>
+<li><p><a class="reference external" href="https://github.com/Spinelessboson/">Nabeel Akram</a>, Data Scientist and PGR in Air Quality and Particulate Matter Dispersion, University of Manchester</p></li>
+<li><p>Paul Matthews, Lecturer in Data Science, UWE Bristol</p></li>
+<li><p><a class="reference external" href="https://www.linkedin.com/in/kamilla-wells/">Kamilla Wells</a>, Citizen Developer / AI Product Manager, Brisbane</p></li>
+<li><p><a class="reference external" href="https://github.com/Lextuga007">Zoë Turner</a>, NHS</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+     
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+     
+    <a href="2026-08-19_writeup.html">
+      
+      <i class="fa fa-arrow-circle-left"></i>
+      
+      <span>Data Ethics Club: The Categorization of Race in ML is a Flawed Premise</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+    
+  </span>
+</div>
+  
+</div>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+<div
+    id="pst-page-navigation-heading-2"
+    class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> On this page
+  </div>
+  <nav id="pst-page-toc-nav" class="page-toc" aria-labelledby="pst-page-navigation-heading-2">
+    <ul class="pst-show_toc_level nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#article-summary">Article Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#discussion-summary">Discussion Summary</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#have-you-used-ai-coding-before-how-have-you-found-it">Have you used AI coding before? How have you found it?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#were-you-surprised-by-this-article-did-it-match-your-experiences">Were you surprised by this article? Did it match your experiences?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-do-you-feel-about-other-people-using-ai-for-coding-how-has-that-changed-over-time">How do you feel about other people using AI for coding? How has that changed over time?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-change-would-you-like-to-see-on-the-basis-of-this-piece-who-has-the-power-to-make-that-change">What change would you like to see on the basis of this piece? Who has the power to make that change?</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#attendees">Attendees</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  
+  <div class="tocsection editthispage">
+    <a href="https://github.com/very-good-science/data-ethics-club/edit/main//site/write_ups/2026-09-16_writeup.md">
+      <i class="fa-solid fa-pencil"></i>
+      
+      
+        
+          Edit on GitHub
+        
+      
+    </a>
+  </div>
+</div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/write_ups/2026-09-16_writeup.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="../_static/scripts/bootstrap.js?digest=18bd87630a240e9c25be"></script>
+<script defer src="../_static/scripts/pydata-sphinx-theme.js?digest=18bd87630a240e9c25be"></script>
+
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Data Ethics Club Community.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 9.1.1.
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.23.0.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("G-93XN98JDFL");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+  </body>
+</html>
