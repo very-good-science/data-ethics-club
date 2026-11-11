@@ -30,30 +30,24 @@ If you are in another timezone please [use a time/date converter like this one t
 
 [You can see the write ups of previous meetings here!](../write_ups/write-ups)  
 
-### 28th October 2026 
-
-Discussion material: [The Alignment Community Is Unintentionally Building A Censor's Toolkit](https://s-ball-10.github.io/censors-toolkit/)
-
-Discussion prompts:
-1. We've seen dual use problems with social media censorship in the past, how is this problem with LLMs similar? How is it different?
-2. One of the mechanisms the author stresses that will resist this problem is model pluralism (having lots of different LLM providers). Do you agree with this? Who has the power to make it happen?
-3. The authors explicitly state that they don't think that alignment research should stop. Do you agree/disagree?
-
-### 25th November 2026
+### 9th December 2026
 
 Discussion material: [AI Writers Have a Consistent Stylometric Footprint, but AI Editors Do Not](https://arxiv.org/abs/2608.27855v1)
+
+Discussion prompts TBD!
 
 ## Past Meetings
 
 You can see a record of what we have discussed previously here.
 | Date | Discussion Material | Summary |
 |-------------------|---------------------|---------------------|
-| 16.09.2026 | [I used AI. It Worked. I hated it.](https://taggart-tech.com/reckoning/) | Writeup coming soon! |
-| 19.08.2026 | [Position: The Categorization of Race in ML is a Flawed Premise](https://openreview.net/pdf?id=eI8KegpPyX) | Writeup coming soon! |
-| 08.07.2026| [UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out](https://www.theguardian.com/commentisfree/2026/may/01/uk-biobank-data-china-breach-longitudinal-study-benefits) | Writeup coming soon! |
-| 10.06.2026 | [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/) | Writeup coming soon! |
-| 20.05.2026 | [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY) | Writeup coming soon! |
-| 08.04.2026 | [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075) | Writeup coming soon! |
+| 28.10.2026 | Discussion material: [The Alignment Community Is Unintentionally Building A Censor's Toolkit](https://s-ball-10.github.io/censors-toolkit/) | Writeup coming soon!
+| 16.09.2026 | [I used AI. It Worked. I hated it.](https://taggart-tech.com/reckoning/) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-09-16_writeup.html) |
+| 19.08.2026 | [Position: The Categorization of Race in ML is a Flawed Premise](https://openreview.net/pdf?id=eI8KegpPyX) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-08-19_writeup.html) |
+| 08.07.2026| [UK Biobank has my data, but I’m not worried. I know the benefits are too great to consider pulling out](https://www.theguardian.com/commentisfree/2026/may/01/uk-biobank-data-china-breach-longitudinal-study-benefits) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-07-08_writeup.html) |
+| 10.06.2026 | [The System That Decides What Science Gets Published Is Breaking Down](https://www.forbes.com/sites/johndrake/2026/03/25/the-system-that-decides-what-science-gets-published-is-breaking-down/) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-06-10_writeup.html) |
+| 20.05.2026 | [ML Researchers as Policymakers](https://www.youtube.com/watch?v=Ekp-eg7TcIY) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-05-20_writeup.html) |
+| 08.04.2026 | [Trust is a verb: how to reimagine confidence in health systems](https://academic.oup.com/heapro/article/41/1/daaf235/8424075) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-04-08_writeup.html) |
 | 11.03.2026 | [Do AI companions understand? Most UK Teens say yes](https://drive.google.com/file/d/1dNte5ZH6prpm1inDQsZnN-N7H_0K4VPA/view) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-03-11_writeup.html) |
 | 11.02.2026 | [“Turning right”? An experimental study on the political value shift in large language models](https://www.nature.com/articles/s41599-025-04465-z) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-02-11_writeup.html) |
 | 21.01.2026 | [Global datacentre electricity consumption is not correlated with data demand: Responding to implausible assumptions and flawed modelling in Castro et al. (2024)](https://www.sciencedirect.com/science/article/pii/S0301421525004549) | [Read the writeup](https://dataethicsclub.com/write_ups/2026-01-21_writeup.html) |
